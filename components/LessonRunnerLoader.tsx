@@ -25,6 +25,6 @@ const LessonRunner = dynamic(() => import("./LessonRunner"), {
   ),
 });
 
-export default function LessonRunnerLoader(props: { lesson: Lesson; shuffle: boolean }) {
+export default function LessonRunnerLoader(props: { lesson: Lesson; setId: string; shuffle: boolean }) {
   return <LessonRunner {...props} />;
 }

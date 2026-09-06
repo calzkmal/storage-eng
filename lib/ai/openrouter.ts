@@ -18,6 +18,13 @@ export type ChatOptions = {
   timeoutMs: number;
   temperature?: number;
   maxTokens?: number;
+  /**
+   * Ask OpenRouter to turn off hidden "thinking" on models that support it.
+   * Reasoning tokens count against max_tokens, so a thinking model can spend
+   * the whole budget before writing the JSON we need. If a model rejects the
+   * flag, the chunk is retried once without it.
+   */
+  disableReasoning?: boolean;
 };
 
 export type ChatResult = { content: string; model: string };
@@ -50,6 +57,24 @@ export async function chatCompletion(messages: ChatMessage[], opts: ChatOptions)
     } catch (err) {
       if (!(err instanceof OpenRouterError)) throw err;
       lastError = err;
+      // Some models refuse to run with reasoning disabled; retry this chunk with it on.
+      if (opts.disableReasoning && /reasoning/i.test(err.message) && err.kind !== "timeout") {
+        try {
+          const left = deadline - Date.now();
+          if (left > 0) {
+            return await chatCompletionOnce(
+              messages,
+              { ...opts, models: chunk, timeoutMs: left, disableReasoning: false },
+              apiKey,
+            );
+          }
+        } catch (retryErr) {
+          if (!(retryErr instanceof OpenRouterError)) throw retryErr;
+          lastError = retryErr;
+          if (retryErr.kind !== "http" && retryErr.kind !== "response") throw retryErr;
+          continue;
+        }
+      }
       // Only a provider-side failure justifies trying the next chunk.
       if (err.kind !== "http" && err.kind !== "response") throw err;
     }
@@ -76,6 +101,7 @@ async function chatCompletionOnce(messages: ChatMessage[], opts: ChatOptions, ap
         messages,
         temperature: opts.temperature ?? 0.2,
         max_tokens: opts.maxTokens ?? 300,
+        ...(opts.disableReasoning ? { reasoning: { enabled: false } } : {}),
       }),
       signal: controller.signal,
     });

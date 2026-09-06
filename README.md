@@ -51,11 +51,31 @@ Only `free_write` (always) and `flip_sentence` (when no accepted answer matches 
 
 OpenRouter accepts at most 3 entries in `models` per request, so the wrapper sends the priority list in chunks of 3 and only moves to the next chunk when the whole chunk failed.
 
+## Question storage (Supabase)
+
+Questions live in Supabase: table `lessons` (one row per lesson) and `exercise_sets` (every set ever stored for a lesson: the seeded original as version 1 plus each AI-generated set after it, nothing deleted). `lessons.active_set_id` says which set learners currently get. The JSON files in `content/lessons` are the seed content and the fallback: they are loaded into the database on first use, and served directly whenever the database is not configured or unreachable.
+
+Setup, once per environment:
+
+1. Run `supabase/migrations/20260906120000_lessons_and_exercise_sets.sql` in the Supabase SQL editor (or through the Supabase MCP server registered in `.mcp.json`; run `claude /mcp` and authenticate first). **Already applied to project `jqmjrizticeszylzqpas`.**
+2. Put `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` in `.env.local` (locally) and in the Vercel project's environment variables. Both are server-only. **Deploys will not have a working database until these are set in Vercel.**
+3. `npm run seed:supabase` loads the six lesson files. Re-run with `-- --force` after editing the JSON to re-sync the seed sets. **Already seeded**, and the app also seeds itself on first read against an empty database.
+
+All database access is server-side with the service-role key; row level security is on with no public policies.
+
 ### Regenerating exercises
 
-On the home page, the button on the right of each lesson card asks the free models for a brand-new exercise set for that lesson. There is no "regenerate all": running all six back-to-back can take several minutes on free models, so it is one lesson at a time by choice. Each set keeps the lesson's type plan (same count and types, flip targets included), is validated against the content schema with up to three repair attempts, and is then stored in the browser's localStorage. The lesson runner uses the stored set when one exists; **Reset to original** goes back to the built-in file, and **Reset all to original** (shown once any lesson has a new set) clears all of them at once. Nothing is written on the server, so this works the same on Vercel. The endpoint is rate-limited to 12 regenerations per 10 minutes per IP.
+On the home page, the button on the right of each lesson card asks the free models for a brand-new exercise set for that lesson. There is no "regenerate all": running all six back-to-back can take several minutes on free models, so it is one lesson at a time by choice. Each set keeps the lesson's type plan (same count and types, flip targets included), is validated against the content schema with up to three repair attempts, and is then stored in the question database as the lesson's next version and made active for everyone. **Reset to original** points the lesson back at its seeded set (generated sets are kept as history), and **Reset all to original** does that for every lesson using an AI set. The endpoint is rate-limited to 12 regenerations per 10 minutes per IP.
 
-**The regenerate button is only pressable once a lesson's current set has actually been finished.** It is always visible on every card, but stays greyed out and unclickable until then. Completing a lesson (built-in or a previous regeneration) sets a `finished` flag for it (`lib/useFinished.ts`); regenerating a new set clears that flag for the lesson (you have to finish the new set before rolling again), while resetting to original restores it, since the original was necessarily finished at some point to unlock regeneration in the first place. "Reset to original" itself stays available at any time, even before finishing a freshly generated set, so you are never stuck with content you don't want.
+**The regenerate button is only pressable once a lesson's current set has actually been finished.** It is always visible on every card, showing a lock icon and staying unclickable until then. Finishing a lesson records the id of the set that was played (`lib/useFinished.ts`, per device). A regenerated set has a new id, so the lesson locks again until the new set is played; resetting to the original unlocks it again because the original was already played. "Reset to original" itself stays available at any time.
+
+### Matching exercises
+
+Pairs are checked the moment they are connected: a correct pair turns green with a check mark and stays locked, a wrong pair flashes red with a cross and returns to the pool so it can be matched again. Check becomes available once every pair is matched. Wrong taps are counted, and an exercise with any wrong tap counts as "not quite" so it comes back once in the review pass.
+
+### Why "Couldn't check this one right now"
+
+Free-write and unmatched flip-sentence answers are sent to `POST /api/ai/grade`, which asks the OpenRouter models to judge the grammar and must answer within about 9 seconds. If every model in reach is rate-limited, too slow, or returns something that is not JSON, the app shows the model answer instead of a verdict. The model list is ordered so fast, reliable graders come first and hidden reasoning is turned off for grading, which is what made this message frequent.
 
 The API key comes from `OPENROUTER_API_KEY` only: `.env.local` locally, the project's environment variables on Vercel.
 

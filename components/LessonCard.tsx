@@ -7,12 +7,16 @@ export type LessonSummary = {
   order: number;
   title: string;
   exerciseCount: number;
+  /** Identity of the exercise set currently in use (a database id, or file:<id> without a database). */
+  setId: string;
+  setVersion: number;
+  setSource: "seed" | "generated";
 };
 
-type Props = { lesson: LessonSummary; completed: boolean; regenerated?: boolean };
+type Props = { lesson: LessonSummary; completed: boolean };
 
 /** Large full-width card, min 64px tall (spec §4.1). */
-export default function LessonCard({ lesson, completed, regenerated }: Props) {
+export default function LessonCard({ lesson, completed }: Props) {
   return (
     <Link
       href={`/lesson/${lesson.id}`}
@@ -25,7 +29,7 @@ export default function LessonCard({ lesson, completed, regenerated }: Props) {
         <span className="block text-base font-semibold leading-snug text-slate-900">{lesson.title}</span>
         <span className="block text-sm text-slate-500">
           {lesson.exerciseCount} exercise{lesson.exerciseCount === 1 ? "" : "s"}
-          {regenerated && <span className="text-sky-600"> · new set</span>}
+          {lesson.setSource === "generated" && <span className="text-sky-600"> · new set</span>}
         </span>
       </span>
       {completed && (

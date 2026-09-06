@@ -23,8 +23,8 @@ function getSnapshot(): string {
 const getServerSnapshot = () => "";
 
 /**
- * Set of lesson ids whose CURRENTLY ACTIVE exercise set has been finished at
- * least once. Hydration-safe (empty on the server, so it never mismatches).
+ * Set of exercise-set ids that have been finished at least once on this
+ * device. Hydration-safe (empty on the server, so it never mismatches).
  * Used to gate the "regenerate" button on the home page.
  */
 export function useFinished(): Set<string> {

@@ -1,12 +1,19 @@
-import { loadLessons } from "@/lib/content";
+import { getLessons, isDbConfigured } from "@/lib/content";
 import LessonList from "@/components/LessonList";
 
-export default function HomePage() {
-  const lessons = loadLessons().map((l) => ({
+// Lessons come from the question database and can change when someone
+// regenerates a set, so this page is rendered per request.
+export const dynamic = "force-dynamic";
+
+export default async function HomePage() {
+  const lessons = (await getLessons()).map((l) => ({
     id: l.id,
     order: l.order,
     title: l.title,
     exerciseCount: l.exercises.length,
+    setId: l.setId,
+    setVersion: l.setVersion,
+    setSource: l.setSource,
   }));
 
   return (
@@ -17,7 +24,7 @@ export default function HomePage() {
           Beginner grammar, one exercise at a time. Pick a lesson and finish it in a few minutes.
         </p>
       </header>
-      <LessonList lessons={lessons} />
+      <LessonList lessons={lessons} storageReady={isDbConfigured()} />
     </main>
   );
 }

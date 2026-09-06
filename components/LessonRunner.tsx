@@ -13,7 +13,6 @@ import {
 } from "@/lib/grading";
 import { shuffleChanged } from "@/lib/shuffle";
 import { markCompleted, markFinished, saveResult, type WrongItem } from "@/lib/storage";
-import { getOverride } from "@/lib/overrides";
 import { buildGradeRequest, requestAIGrade } from "@/lib/ai/client";
 import TopBar from "./TopBar";
 import BottomBar, { type BottomTone } from "./BottomBar";
@@ -21,21 +20,19 @@ import FeedbackPanel, { type Feedback } from "./FeedbackPanel";
 import ConfirmDialog from "./ConfirmDialog";
 import ExerciseView from "./exercises/ExerciseView";
 
-type Props = { lesson: Lesson; shuffle: boolean };
+type Props = { lesson: Lesson; setId: string; shuffle: boolean };
 type Phase = "main" | "review";
 
 /**
  * The lesson loop (spec §4.2): one exercise per screen → Check → feedback → Continue.
  * Wrong answers in the main pass are queued once and replayed at the end ("Review n / m").
+ * `setId` identifies the exercise set being played; finishing marks that set as
+ * done on this device, which unlocks regeneration for it on the home page.
  */
-export default function LessonRunner({ lesson, shuffle }: Props) {
+export default function LessonRunner({ lesson, setId, shuffle }: Props) {
   const router = useRouter();
 
-  // A regenerated set stored on this device replaces the built-in exercises.
-  const [order] = useState<Exercise[]>(() => {
-    const base = getOverride(lesson.id)?.exercises ?? lesson.exercises;
-    return shuffle ? shuffleChanged(base) : base;
-  });
+  const [order] = useState<Exercise[]>(() => (shuffle ? shuffleChanged(lesson.exercises) : lesson.exercises));
   const [showIntro, setShowIntro] = useState<boolean>(Boolean(lesson.intro));
   const [phase, setPhase] = useState<Phase>("main");
   const [index, setIndex] = useState(0);
@@ -129,7 +126,7 @@ export default function LessonRunner({ lesson, shuffle }: Props) {
     setFinishing(true);
     saveResult({ lessonId: lesson.id, total: order.length, wrong: wrongFirst, finishedAt: Date.now() });
     markCompleted(lesson.id);
-    markFinished(lesson.id);
+    markFinished(setId);
     router.push(`/lesson/${lesson.id}/done`);
   }
 

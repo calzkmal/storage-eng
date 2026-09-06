@@ -1,59 +1,79 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Matching as M } from "@/lib/schema";
 import { shuffleChanged } from "@/lib/shuffle";
-import { chipBase, chipDimmed, chipIdle, chipSelected } from "../ui";
+import { chipBase, chipCorrect, chipIdle, chipSelected, chipWrong } from "../ui";
 import type { ExerciseProps } from "./types";
 
 type RightItem = { text: string; id: number };
+type WrongFlash = { left: number; right: number };
+
+const WRONG_FLASH_MS = 700;
 
 /**
  * Two columns of chips; tap one left then one right to connect.
- * Connected pairs shrink/dim; tapping a connected chip disconnects it (spec §6).
- * The right column is shuffled on mount. Grading is by text, so duplicate
+ * Each pair is checked the moment it is connected (Duolingo style):
+ * - correct: both chips turn green with a check mark and stay locked;
+ * - wrong: both chips flash red with a cross, then go back to the pool so the
+ *   learner can try again.
+ * Check becomes available once every pair is matched. Wrong taps are counted
+ * and make the exercise count as "not quite" so it is reviewed once more.
+ * The right column is shuffled on mount; grading is by text, so duplicate
  * right-hand labels (e.g. two "General truth") are handled.
  */
 export default function Matching({ exercise, onChange, disabled }: ExerciseProps<M>) {
   const [rights] = useState<RightItem[]>(() =>
     shuffleChanged(exercise.pairs.map((p, id) => ({ text: p.right, id }))),
   );
-  // leftIndex -> right item id
-  const [links, setLinks] = useState<Record<number, number>>({});
+  // leftIndex -> right item id, only for correct pairs
+  const [matched, setMatched] = useState<Record<number, number>>({});
+  const [mistakes, setMistakes] = useState(0);
   const [selLeft, setSelLeft] = useState<number | null>(null);
   const [selRight, setSelRight] = useState<number | null>(null);
+  const [wrong, setWrong] = useState<WrongFlash | null>(null);
+  const flashTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const rightTaken = new Set(Object.values(links));
+  useEffect(() => {
+    return () => {
+      if (flashTimer.current) clearTimeout(flashTimer.current);
+    };
+  }, []);
 
-  function emit(next: Record<number, number>) {
-    setLinks(next);
-    const complete = exercise.pairs.every((_, i) => next[i] !== undefined);
+  const rightTaken = new Set(Object.values(matched));
+
+  function emit(nextMatched: Record<number, number>, nextMistakes: number) {
+    const complete = exercise.pairs.every((_, i) => nextMatched[i] !== undefined);
     if (!complete) {
       onChange(null);
       return;
     }
-    const record: Record<string, string> = {};
+    const pairs: Record<string, string> = {};
     exercise.pairs.forEach((p, i) => {
-      record[p.left] = rights.find((r) => r.id === next[i])!.text;
+      pairs[p.left] = rights.find((r) => r.id === nextMatched[i])!.text;
     });
-    onChange(record);
+    onChange({ pairs, mistakes: nextMistakes });
   }
 
   function connect(left: number, rightId: number) {
-    const next = { ...links, [left]: rightId };
     setSelLeft(null);
     setSelRight(null);
-    emit(next);
+    const rightText = rights.find((r) => r.id === rightId)!.text;
+    if (rightText === exercise.pairs[left].right) {
+      const next = { ...matched, [left]: rightId };
+      setMatched(next);
+      emit(next, mistakes);
+      return;
+    }
+    const nextMistakes = mistakes + 1;
+    setMistakes(nextMistakes);
+    setWrong({ left, right: rightId });
+    if (flashTimer.current) clearTimeout(flashTimer.current);
+    flashTimer.current = setTimeout(() => setWrong(null), WRONG_FLASH_MS);
   }
 
   function tapLeft(i: number) {
-    if (disabled) return;
-    if (links[i] !== undefined) {
-      const next = { ...links };
-      delete next[i];
-      emit(next);
-      return;
-    }
+    if (disabled || wrong || matched[i] !== undefined) return;
     if (selRight !== null) {
       connect(i, selRight);
       return;
@@ -62,14 +82,7 @@ export default function Matching({ exercise, onChange, disabled }: ExerciseProps
   }
 
   function tapRight(id: number) {
-    if (disabled) return;
-    if (rightTaken.has(id)) {
-      const leftIdx = Number(Object.keys(links).find((k) => links[Number(k)] === id));
-      const next = { ...links };
-      delete next[leftIdx];
-      emit(next);
-      return;
-    }
+    if (disabled || wrong || rightTaken.has(id)) return;
     if (selLeft !== null) {
       connect(selLeft, id);
       return;
@@ -77,48 +90,67 @@ export default function Matching({ exercise, onChange, disabled }: ExerciseProps
     setSelRight(selRight === id ? null : id);
   }
 
+  const chipClass = (state: "idle" | "selected" | "correct" | "wrong") =>
+    `${chipBase} relative justify-center pr-9 text-center ${
+      state === "correct" ? chipCorrect : state === "wrong" ? chipWrong : state === "selected" ? chipSelected : chipIdle
+    }`;
+
+  const Badge = ({ state }: { state: "correct" | "wrong" }) => (
+    <span
+      className={`absolute right-2 top-1/2 flex h-6 w-6 -translate-y-1/2 items-center justify-center rounded-full text-sm font-bold text-white ${
+        state === "correct" ? "bg-emerald-500" : "bg-rose-500"
+      }`}
+    >
+      <span aria-hidden="true">{state === "correct" ? "✓" : "✕"}</span>
+      <span className="sr-only">{state === "correct" ? "matched" : "wrong"}</span>
+    </span>
+  );
+
   return (
-    <div className="grid grid-cols-2 gap-3">
-      <div className="flex flex-col gap-3" aria-label="Left column">
-        {exercise.pairs.map((p, i) => {
-          const linked = links[i] !== undefined;
-          const selected = selLeft === i;
-          return (
-            <button
-              key={p.left}
-              type="button"
-              disabled={disabled}
-              aria-pressed={selected}
-              onClick={() => tapLeft(i)}
-              className={`${chipBase} justify-center text-center ${
-                linked ? chipDimmed : selected ? chipSelected : chipIdle
-              }`}
-            >
-              {p.left}
-            </button>
-          );
-        })}
+    <div>
+      <div className="grid grid-cols-2 gap-3">
+        <div className="flex flex-col gap-3" aria-label="Left column">
+          {exercise.pairs.map((p, i) => {
+            const state =
+              matched[i] !== undefined ? "correct" : wrong?.left === i ? "wrong" : selLeft === i ? "selected" : "idle";
+            return (
+              <button
+                key={p.left}
+                type="button"
+                disabled={disabled || state === "correct"}
+                aria-pressed={state === "selected"}
+                onClick={() => tapLeft(i)}
+                className={chipClass(state)}
+              >
+                {p.left}
+                {(state === "correct" || state === "wrong") && <Badge state={state} />}
+              </button>
+            );
+          })}
+        </div>
+        <div className="flex flex-col gap-3" aria-label="Right column">
+          {rights.map((r) => {
+            const state =
+              rightTaken.has(r.id) ? "correct" : wrong?.right === r.id ? "wrong" : selRight === r.id ? "selected" : "idle";
+            return (
+              <button
+                key={r.id}
+                type="button"
+                disabled={disabled || state === "correct"}
+                aria-pressed={state === "selected"}
+                onClick={() => tapRight(r.id)}
+                className={chipClass(state)}
+              >
+                {r.text}
+                {(state === "correct" || state === "wrong") && <Badge state={state} />}
+              </button>
+            );
+          })}
+        </div>
       </div>
-      <div className="flex flex-col gap-3" aria-label="Right column">
-        {rights.map((r) => {
-          const linked = rightTaken.has(r.id);
-          const selected = selRight === r.id;
-          return (
-            <button
-              key={r.id}
-              type="button"
-              disabled={disabled}
-              aria-pressed={selected}
-              onClick={() => tapRight(r.id)}
-              className={`${chipBase} justify-center text-center ${
-                linked ? chipDimmed : selected ? chipSelected : chipIdle
-              }`}
-            >
-              {r.text}
-            </button>
-          );
-        })}
-      </div>
+      <p className="mt-3 text-sm text-slate-500" aria-live="polite">
+        {mistakes === 0 ? "Tap a word on the left, then its match on the right." : `${mistakes} wrong tap${mistakes === 1 ? "" : "s"} so far.`}
+      </p>
     </div>
   );
 }

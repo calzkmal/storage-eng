@@ -1,8 +1,7 @@
 /**
  * Anonymous, device-local persistence.
  * localStorage: which lessons are completed (a simple checkmark, spec §1),
- * and which lesson has had its CURRENTLY ACTIVE exercise set (built-in or
- * regenerated) finished at least once — see FINISHED_KEY below.
+ * and which exercise SETS have been played through (see FINISHED_KEY).
  * sessionStorage: the result of the lesson just finished, for the done screen.
  */
 
@@ -11,10 +10,11 @@ export const COMPLETED_EVENT = "ep:completed-changed";
 export const resultKey = (lessonId: string) => `ep:result:${lessonId}`;
 
 /**
- * Gates the "regenerate exercises" button on the home page: a lesson only
- * offers regeneration once its current set has actually been played through.
- * Unlike COMPLETED_KEY (a permanent, spec-required checkmark), this flag is
- * reset whenever a lesson's active set changes — see lib/overrides.ts.
+ * Gates the "regenerate exercises" button on the home page. Stores the ids of
+ * exercise sets (database ids, or file:<lessonId> without a database) that
+ * have been finished at least once on this device. Because a regenerated set
+ * gets a new id, a lesson locks again after regeneration until the new set is
+ * played, and unlocks again when reset to the original set.
  */
 export const FINISHED_KEY = "ep:finished";
 export const FINISHED_EVENT = "ep:finished-changed";
@@ -33,29 +33,7 @@ export type LessonResult = {
   finishedAt: number;
 };
 
-export function getCompleted(): string[] {
-  try {
-    const raw = window.localStorage.getItem(COMPLETED_KEY);
-    const parsed = raw ? JSON.parse(raw) : [];
-    return Array.isArray(parsed) ? parsed.filter((x) => typeof x === "string") : [];
-  } catch {
-    return [];
-  }
-}
-
-export function markCompleted(lessonId: string): void {
-  try {
-    const set = new Set(getCompleted());
-    if (set.has(lessonId)) return;
-    set.add(lessonId);
-    window.localStorage.setItem(COMPLETED_KEY, JSON.stringify([...set]));
-    window.dispatchEvent(new Event(COMPLETED_EVENT));
-  } catch {
-    /* storage unavailable: ignore */
-  }
-}
-
-function getIdSet(key: string): string[] {
+function getIdList(key: string): string[] {
   try {
     const raw = window.localStorage.getItem(key);
     const parsed = raw ? JSON.parse(raw) : [];
@@ -65,34 +43,33 @@ function getIdSet(key: string): string[] {
   }
 }
 
+function addId(key: string, event: string, id: string): void {
+  try {
+    const set = new Set(getIdList(key));
+    if (set.has(id)) return;
+    set.add(id);
+    window.localStorage.setItem(key, JSON.stringify([...set]));
+    window.dispatchEvent(new Event(event));
+  } catch {
+    /* storage unavailable: ignore */
+  }
+}
+
+export function getCompleted(): string[] {
+  return getIdList(COMPLETED_KEY);
+}
+
+export function markCompleted(lessonId: string): void {
+  addId(COMPLETED_KEY, COMPLETED_EVENT, lessonId);
+}
+
 export function getFinished(): string[] {
-  return getIdSet(FINISHED_KEY);
+  return getIdList(FINISHED_KEY);
 }
 
-/** Mark that lesson's currently active exercise set as finished (has been played through once). */
-export function markFinished(lessonId: string): void {
-  try {
-    const set = new Set(getFinished());
-    if (set.has(lessonId)) return;
-    set.add(lessonId);
-    window.localStorage.setItem(FINISHED_KEY, JSON.stringify([...set]));
-    window.dispatchEvent(new Event(FINISHED_EVENT));
-  } catch {
-    /* storage unavailable: ignore */
-  }
-}
-
-/** Called when a lesson's active set changes (a fresh set has not been finished yet). */
-export function clearFinished(lessonId: string): void {
-  try {
-    const set = new Set(getFinished());
-    if (!set.has(lessonId)) return;
-    set.delete(lessonId);
-    window.localStorage.setItem(FINISHED_KEY, JSON.stringify([...set]));
-    window.dispatchEvent(new Event(FINISHED_EVENT));
-  } catch {
-    /* storage unavailable: ignore */
-  }
+/** Record that an exercise set (by set id) has been played through once. */
+export function markFinished(setId: string): void {
+  addId(FINISHED_KEY, FINISHED_EVENT, setId);
 }
 
 export function saveResult(result: LessonResult): void {
