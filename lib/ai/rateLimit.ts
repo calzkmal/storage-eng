@@ -1,34 +1,38 @@
-/** Sliding-window rate limiter per client IP: 30 requests / 10 minutes (spec §7.1 step 3). */
+/** Sliding-window rate limiter keyed by client IP (spec §7.1 step 3). */
 
 const WINDOW_MS = 10 * 60 * 1000;
-const LIMIT = 30;
+
+/** Grading: 30 requests / 10 min per IP. */
+export const GRADE_LIMIT = 30;
+/** Regeneration is far more expensive for the free providers: 12 lessons / 10 min per IP. */
+export const GENERATE_LIMIT = 12;
 
 const g = globalThis as unknown as { __aiRateLimit?: Map<string, number[]> };
 const hits: Map<string, number[]> = (g.__aiRateLimit ??= new Map());
 
 export type RateLimitResult = { allowed: boolean; remaining: number; retryAfterSec: number };
 
-export function checkRateLimit(ip: string, now = Date.now()): RateLimitResult {
+export function checkRateLimit(key: string, limit = GRADE_LIMIT, now = Date.now()): RateLimitResult {
   const cutoff = now - WINDOW_MS;
-  const recent = (hits.get(ip) ?? []).filter((t) => t > cutoff);
+  const recent = (hits.get(key) ?? []).filter((t) => t > cutoff);
 
-  if (recent.length >= LIMIT) {
-    hits.set(ip, recent);
+  if (recent.length >= limit) {
+    hits.set(key, recent);
     const retryAfterSec = Math.max(1, Math.ceil((recent[0] + WINDOW_MS - now) / 1000));
     return { allowed: false, remaining: 0, retryAfterSec };
   }
 
   recent.push(now);
-  hits.set(ip, recent);
+  hits.set(key, recent);
 
   // Opportunistic cleanup so the map does not grow forever.
   if (hits.size > 5000) {
-    for (const [key, times] of hits) {
-      if (!times.some((t) => t > cutoff)) hits.delete(key);
+    for (const [k, times] of hits) {
+      if (!times.some((t) => t > cutoff)) hits.delete(k);
     }
   }
 
-  return { allowed: true, remaining: LIMIT - recent.length, retryAfterSec: 0 };
+  return { allowed: true, remaining: limit - recent.length, retryAfterSec: 0 };
 }
 
 export function getClientIp(req: Request): string {
