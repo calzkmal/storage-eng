@@ -3,11 +3,7 @@ import type { GradeRequest, GradeResponse } from "./types";
 
 const CLIENT_TIMEOUT_MS = 10_000; // spec §4.4
 
-const TARGET_TASK: Record<string, string> = {
-  negative: "negative",
-  past: "past simple",
-  future: "future with will",
-};
+import { TARGET_NAME, TARGET_REQUIREMENT } from "../flipTargets";
 
 /** Build the request body for an AI-graded exercise. */
 export function buildGradeRequest(ex: Exercise, userAnswer: string): GradeRequest | null {
@@ -25,8 +21,8 @@ export function buildGradeRequest(ex: Exercise, userAnswer: string): GradeReques
       type: "flip_sentence",
       userAnswer,
       context: {
-        task: `Rewrite the sentence "${ex.source}" in the ${TARGET_TASK[ex.target]} form.`,
-        requirements: [TARGET_TASK[ex.target]],
+        task: `Rewrite the sentence "${ex.source}" in the ${TARGET_NAME[ex.target]} form.`,
+        requirements: [TARGET_REQUIREMENT[ex.target]],
         modelAnswer: ex.answer[0],
         acceptedAnswers: ex.answer,
       },

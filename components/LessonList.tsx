@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import LessonCard, { type LessonSummary } from "./LessonCard";
 import { useFinished } from "@/lib/useFinished";
 import { requestGeneration, requestReset } from "@/lib/api";
+import { categoryTitle } from "@/lib/categories";
 
 type CardState = { working: boolean; error?: string };
 
@@ -52,14 +53,15 @@ type Props = {
 };
 
 /**
- * Lesson cards, each with a regenerate button on the right. The button is
- * always visible but locked until the set in use has been played through
- * (lib/useFinished.ts). A lesson running AI-written questions is marked by a
- * "New set" badge on the card and gains a second button that puts the
- * original questions back, so no status text is needed under the card.
+ * Lesson cards grouped into the syllabus categories (lib/categories.ts), each
+ * with a regenerate button on the right. The button is always visible but
+ * locked until the set in use has been played through (lib/useFinished.ts). A
+ * lesson running AI-written questions is marked by a "New set" badge on the
+ * card and gains a second button that puts the original questions back, so no
+ * status text is needed under the card.
  *
- * There is deliberately no "regenerate all": running all six back-to-back can
- * take several minutes on free models.
+ * There is deliberately no "regenerate all": running every lesson one after
+ * another would take many minutes on free models.
  */
 export default function LessonList({ lessons, storageReady }: Props) {
   const router = useRouter();
@@ -69,6 +71,14 @@ export default function LessonList({ lessons, storageReady }: Props) {
   const setCard = (id: string, patch: CardState) => setCards((c) => ({ ...c, [id]: patch }));
   const anyWorking = Object.values(cards).some((c) => c.working);
   const generated = lessons.filter((l) => l.setSource === "generated");
+
+  // Lessons arrive sorted by category then order; keep that order in the groups.
+  const groups = [...lessons.reduce((m, l) => {
+    const list = m.get(l.category);
+    if (list) list.push(l);
+    else m.set(l.category, [l]);
+    return m;
+  }, new Map<number, LessonSummary[]>())];
 
   async function regenerate(id: string) {
     setCard(id, { working: true });
@@ -90,8 +100,13 @@ export default function LessonList({ lessons, storageReady }: Props) {
 
   return (
     <div>
-      <ul className="flex flex-col gap-3">
-        {lessons.map((lesson) => {
+      {groups.map(([category, inCategory]) => (
+        <section key={category} className="mb-8">
+          <h2 className="mb-3 text-sm font-bold uppercase tracking-wide text-slate-500">
+            {category}. {categoryTitle(category)}
+          </h2>
+          <ul className="flex flex-col gap-3">
+            {inCategory.map((lesson) => {
           const st = cards[lesson.id] ?? { working: false };
           const isGenerated = lesson.setSource === "generated";
           // A regenerated set has a new id, so the lesson locks again until it is played.
@@ -114,7 +129,7 @@ export default function LessonList({ lessons, storageReady }: Props) {
                     type="button"
                     onClick={() => regenerate(lesson.id)}
                     disabled={!canRegenerate}
-                    aria-label={`Lesson ${lesson.order}: ${tip}`}
+                    aria-label={`Lesson ${lesson.label}: ${tip}`}
                     title={tip}
                     className={`${buttonBase} ${isGenerated ? "min-h-11 flex-1" : "flex-1 flex-col gap-0.5"} text-sky-600`}
                   >
@@ -135,7 +150,7 @@ export default function LessonList({ lessons, storageReady }: Props) {
                       type="button"
                       onClick={() => reset(lesson.id)}
                       disabled={anyWorking}
-                      aria-label={`Lesson ${lesson.order}: put the original questions back`}
+                      aria-label={`Lesson ${lesson.label}: put the original questions back`}
                       title="Put the original questions back"
                       className={`${buttonBase} min-h-11 flex-1 text-slate-500`}
                     >
@@ -151,10 +166,12 @@ export default function LessonList({ lessons, storageReady }: Props) {
                 </p>
               )}
               {st.error && !st.working && <p className="mt-1 px-1 text-sm text-rose-700">{st.error}</p>}
-            </li>
-          );
-        })}
-      </ul>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ))}
 
       {!storageReady && (
         <p className="mt-6 text-center text-sm text-slate-500">

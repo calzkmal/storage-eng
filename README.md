@@ -19,6 +19,7 @@ Open http://localhost:3000. Without an API key, every local exercise still works
 | `npm run dev` | Dev server |
 | `npm run build` | Validates content (`prebuild`), then builds |
 | `npm run validate` | Checks every `content/lessons/*.json` against the schema |
+| `npm run seed:supabase` | Loads the lesson files into Supabase (`-- --force` re-syncs seed sets) |
 | `npm run check-models` | Compares `lib/ai/models.ts` with OpenRouter's live `:free` list |
 | `npm run typecheck` | `tsc --noEmit` |
 | `npm run lint` | ESLint |
@@ -28,7 +29,7 @@ Open http://localhost:3000. Without an API key, every local exercise still works
 ```
 app/                       pages + /api/ai/grade route handler
 components/                TopBar, BottomBar, FeedbackPanel, LessonRunner, exercises/*
-content/lessons/*.json     the six lessons (static, validated)
+content/lessons/*.json     18 lessons in 5 categories (seed content, validated)
 lib/schema.ts              zod schema + TS types for lessons
 lib/content.ts             server-side loader
 lib/grading.ts             local normalise / compare
@@ -59,13 +60,13 @@ Setup, once per environment:
 
 1. Run `supabase/migrations/20260906120000_lessons_and_exercise_sets.sql` in the Supabase SQL editor (or through the Supabase MCP server registered in `.mcp.json`; run `claude /mcp` and authenticate first). **Already applied to project `jqmjrizticeszylzqpas`.**
 2. Put `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` in `.env.local` (locally) and in the Vercel project's environment variables. Both are server-only. **Deploys will not have a working database until these are set in Vercel.**
-3. `npm run seed:supabase` loads the six lesson files. Re-run with `-- --force` after editing the JSON to re-sync the seed sets. **Already seeded**, and the app also seeds itself on first read against an empty database.
+3. `npm run seed:supabase` loads the lesson files. Re-run with `-- --force` after editing the JSON to re-sync the seed sets. **Already seeded**, and the app also seeds itself on first read against an empty database.
 
 All database access is server-side with the service-role key; row level security is on with no public policies.
 
 ### Regenerating exercises
 
-On the home page, the refresh button on the right of each lesson card asks the free models for a brand-new exercise set for that lesson. There is no "regenerate all": running all six back-to-back can take several minutes on free models, so it is one lesson at a time by choice. Each set keeps the lesson's type plan (same count and types, flip targets included), is validated against the content schema with up to three repair attempts, and is then stored in the question database as the lesson's next version and made active for everyone. The endpoint is rate-limited to 12 regenerations per 10 minutes per IP.
+On the home page, the refresh button on the right of each lesson card asks the free models for a brand-new exercise set for that lesson. There is no "regenerate all": running every lesson one after another would take many minutes on free models, so it is one lesson at a time by choice. Each set keeps the lesson's type plan (same count and types, flip targets included), is validated against the content schema with up to three repair attempts, and is then stored in the question database as the lesson's next version and made active for everyone. The endpoint is rate-limited to 12 regenerations per 10 minutes per IP.
 
 **Card state is carried by the card itself, not by status text.** A lesson running AI-written questions shows a bold `NEW SET` badge and gains a second, counter-clockwise button that puts the original questions back (generated sets are kept in the database as history). When more than one lesson is on a generated set, a single link under the list restores them all.
 
@@ -110,4 +111,18 @@ Two consequences worth knowing. The learner id is the only key to a history, so 
 
 ## Content
 
-Each lesson is one JSON file. Add or edit exercises there, then run `npm run validate`. The validator also checks that multiple-choice answers are in the options, word-order answers use exactly the given words, and each lesson has 8–10 exercises.
+Lessons live in `content/lessons`, one JSON file per lesson, named after its `id`. Each carries a `category` number and an `order` within that category, so the pair renders as "1.2" and groups the home page. Category titles live in `lib/categories.ts`.
+
+| # | Category | Lessons |
+|---|---|---|
+| 1 | Present tenses | continuous, simple, perfect, perfect continuous |
+| 2 | Past tenses | simple, continuous, perfect, perfect continuous |
+| 3 | Future tenses | simple, continuous, perfect, perfect continuous |
+| 4 | Adverbs | manner, time, place, frequency, degree |
+| 5 | Affirmative & negative with do | do / don't / doesn't |
+
+Past simple sits at 2.1 although it was not in the original category list: past perfect cannot be taught before it, and the existing past simple material had nowhere else to go.
+
+The grammar the app covers is declared once in `lib/ai/scope.ts`, including the list of irregular verbs allowed in exercises. Both the grading prompt and the exercise generator quote it, so **editing the syllabus means editing that file**, otherwise the AI will grade new lessons against the old rules. Per-lesson guidance for the generator lives in `LESSON_FOCUS` in `lib/ai/generate.ts`, keyed by lesson id.
+
+After editing lessons run `npm run validate`, which checks the schema, that multiple-choice answers are in the options, that word-order answers use exactly the given words, that each lesson has 8 to 10 exercises, that categories are defined, and that each category's orders run 1..n with no gaps. Then `npm run seed:supabase` loads them into the database; lessons whose file has been deleted are removed from the database at the same time, while recorded attempts keep their own copy of the lesson title so history survives a restructure.

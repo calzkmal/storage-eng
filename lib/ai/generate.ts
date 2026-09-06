@@ -1,6 +1,8 @@
 import { chatCompletion, OpenRouterError, type ChatMessage } from "./openrouter";
 import { getModels } from "./models";
 import { LessonSchema, type Exercise, type ExerciseType, type Lesson } from "../schema";
+import { GRAMMAR_SCOPE, IRREGULAR_VERBS, OUT_OF_SCOPE } from "./scope";
+import { TARGET_REQUIREMENT, type FlipTarget } from "../flipTargets";
 
 /**
  * Exercise generator (spec §7.4). Asks the free-model list for a complete new
@@ -12,23 +14,55 @@ import { LessonSchema, type Exercise, type ExerciseType, type Lesson } from "../
 const CALL_TIMEOUT_MS = 90_000;
 const MAX_ATTEMPTS = 3;
 
+/**
+ * What each lesson drills. Keyed by lesson id, so a regenerated set stays on
+ * the same grammar point as the file it replaces.
+ */
 const LESSON_FOCUS: Record<string, string> = {
-  "l1-present-simple":
-    "Present simple for general truths (facts that are always true) and daily routines/habits. Mix both kinds of sentences.",
-  "l2-verb-endings":
-    "He/she/it verb endings: add -s (loves, looks), add -es after -sh/-ch/-x/-o/-ss (watches, goes, fixes), consonant + y becomes -ies (studies, carries). Vowel + y just adds -s (plays).",
-  "l3-adverbs-frequency":
+  "present-continuous":
+    "Present continuous: am/is/are + verb-ing for what is happening now. Cover the right form of be for each subject and the -ing spelling rules (drive→driving, sit→sitting).",
+  "present-simple":
+    "Present simple for general truths and routines, including he/she/it endings: add -s (loves), -es after -ch/-sh/-x/-o/-ss (watches, goes), consonant + y becomes -ies (studies). Vowel + y just adds -s (plays).",
+  "present-perfect":
+    "Present perfect: have/has + past participle, for experience and things just finished. Use already, just, never, ever, yet. Contrast the past participle with the past simple form (seen not saw, gone not went).",
+  "present-perfect-continuous":
+    "Present perfect continuous: have/has been + verb-ing for something started in the past and still going. Drill 'for' with a length of time and 'since' with a starting point.",
+  "past-simple":
+    "Past simple for finished actions: regular verbs add -ed (watched, studied) and irregular verbs change form (went, ate, saw). Include the -ed spelling rule for consonant + y (study→studied).",
+  "past-continuous":
+    "Past continuous: was/were + verb-ing for something in progress in the past. Drill was for I/he/she/it and were for you/we/they.",
+  "past-perfect":
+    "Past perfect: had + past participle (same for every subject) for the earlier of two past actions. Contrast the past participle with the past simple form.",
+  "past-perfect-continuous":
+    "Past perfect continuous: had been + verb-ing, stressing how long something had been going on before another past moment. Use 'been', never 'being'.",
+  "simple-future":
+    "Simple future: will + base verb for every subject, and won't (= will not) + base verb for the negative. Will never takes -s and is never followed by an -s or -ing form.",
+  "future-continuous":
+    "Future continuous: will be + verb-ing for something in progress at a future time. All three parts are needed: will, be, and the -ing form.",
+  "future-perfect":
+    "Future perfect: will have + past participle for something finished before a future point, often with 'by'. It is always 'will have', never 'will has'.",
+  "future-perfect-continuous":
+    "Future perfect continuous: will have been + verb-ing, stressing how long something will have been going on. Use 'been', never 'being', and pair it with for/since.",
+  "adverb-manner":
+    "Adverbs of manner (how something is done): quickly, slowly, carefully. Cover forming them from adjectives with -ly, consonant + y becoming -ily (easy→easily), the irregular good→well and hard→hard, and their position after the verb or after the object.",
+  "adverb-time":
+    "Adverbs of time (when): yesterday, today, tomorrow, now, later, soon, already. They usually sit at the end of the sentence, and they must agree with the tense of the verb.",
+  "adverb-place":
+    "Adverbs of place (where): here, there, inside, outside, upstairs, everywhere. They sit after the verb, or after the object when there is one.",
+  "adverb-frequency":
     "Adverbs of frequency: always, usually, often, sometimes, never. Position: before the main verb, but after am/is/are.",
-  "l4-negative":
-    "Negative present simple with don't (I/you/we/they) and doesn't (he/she/it) + base verb. After doesn't the verb loses its -s.",
-  "l5-past-simple":
-    "Past simple: regular verbs add -ed (watched, studied). Irregular verbs are ONLY these six: go→went, eat→ate, have→had, see→saw, do→did, write→wrote. Do not use any other irregular verb anywhere in the lesson (no slept, took, made, came, etc.).",
-  "l6-future": "Future with will and won't + base verb. Will never changes for he/she/it.",
+  "adverb-degree":
+    "Adverbs of degree (how much): very, quite, really, too, extremely, enough. They go before the adjective or adverb they strengthen, except 'enough', which goes after it (old enough).",
+  "do-dont-doesnt":
+    "Positive statements versus negatives with do: don't for I/you/we/they and doesn't for he/she/it, always followed by the base verb, so the -s disappears after doesn't.",
 };
 
-const SYSTEM_PROMPT = `You write grammar exercises for absolute-beginner English learners in Indonesia.
-Only cover these grammar points: present simple (general truth + routine), he/she/it endings -s/-es/-ies, adverbs of frequency (always, usually, often, sometimes, never), negatives with don't/doesn't + base verb, past simple (regular -ed and ONLY the irregulars went, ate, had, saw, did, wrote), future with will/won't + base verb.
-Never use: present continuous, questions with do/does inversion, "going to", perfect tenses, or any other irregular past verb.
+const SYSTEM_PROMPT = `You write grammar exercises for beginner English learners in Indonesia.
+The syllabus is:
+${GRAMMAR_SCOPE}
+Irregular verbs you may use (base/past/past participle): ${IRREGULAR_VERBS}
+${OUT_OF_SCOPE}
+Stay on the one grammar point the lesson is about; do not drift into the others.
 Use short, everyday sentences (family, food, school, weather, hobbies). Indonesian places and foods are welcome (Jakarta, nasi goreng).
 
 Field rules:
@@ -39,7 +73,9 @@ Field rules:
 - fill_blank: "sentence" contains exactly one "___" followed by the base verb in brackets, e.g. "She ___ (carry) her bag." or "He ___ (not / be) late.". Each "answer" entry is the COMPLETE text that replaces "___" so the sentence reads correctly (e.g. "carries", "will eat", "doesn't like"), never just a helper word like "will".
 - word_order: "answer" is the correct sentence without a final period; "words" is that same sentence split into words in a scrambled order (4 to 7 words).
 - matching: 4 or 5 pairs; every "left" must be unique.
-- flip_sentence: "source" is a present simple sentence; "target" is given; "answer" lists accepted rewrites (include both contracted and full forms when relevant, e.g. "doesn't" and "does not").
+- flip_sentence: "source" is a simple sentence to rewrite; "target" is given and must be copied exactly; "answer" lists accepted rewrites of the source in that target form (include both contracted and full forms when relevant, e.g. "doesn't" and "does not"). The target forms mean: ${Object.entries(TARGET_REQUIREMENT)
+    .map(([k, v]) => `${k} = ${v}`)
+    .join("; ")}.
 - free_write: "task" is a one-sentence writing task, "requirements" lists the grammar points to check, "modelAnswer" is one good example sentence.
 
 Respond with JSON only, no markdown, matching exactly: {"exercises": [ ... ]}`;
@@ -67,7 +103,7 @@ const ID_ABBR: Record<ExerciseType, string> = {
   free_write: "fw",
 };
 
-export type PlanItem = { type: ExerciseType; target?: "negative" | "past" | "future" };
+export type PlanItem = { type: ExerciseType; target?: FlipTarget };
 
 /** The type sequence of the current lesson; the new set follows the same plan. */
 export function planFromLesson(lesson: Lesson): PlanItem[] {

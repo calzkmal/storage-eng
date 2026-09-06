@@ -1,0 +1,94 @@
+{
+  "id": "future-perfect-continuous",
+  "category": 3,
+  "order": 4,
+  "title": "Future Perfect Continuous",
+  "intro": "Future perfect continuous: will have been + kata kerja -ing. Untuk menekankan lama sebuah kegiatan sampai titik tertentu di masa depan. By June I will have been working here for a year.",
+  "exercises": [
+    {
+      "id": "futperfcont-mc-1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "By June I ___ here for a year.",
+      "options": ["will have been working", "will have worked been", "will been working", "will have being working"],
+      "answer": "will have been working",
+      "explanation": "Rumusnya will have been + kata kerja -ing. Bentuknya been, bukan being."
+    },
+    {
+      "id": "futperfcont-mc-2",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "She ___ for three hours by noon.",
+      "options": ["will have been studying", "will have been study", "will has been studying", "will be studied"],
+      "answer": "will have been studying",
+      "explanation": "Will have been + studying. Will have tidak pernah menjadi will has."
+    },
+    {
+      "id": "futperfcont-fb-1",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the future perfect continuous",
+      "sentence": "They ___ (wait) for two hours by then.",
+      "answer": ["will have been waiting"],
+      "explanation": "Will have been + kata kerja -ing: will have been waiting."
+    },
+    {
+      "id": "futperfcont-fb-2",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the future perfect continuous",
+      "sentence": "He ___ (live) in Jakarta for ten years next month.",
+      "answer": ["will have been living"],
+      "explanation": "Will have been + living. Kata kerja berakhiran -e menghilangkan e sebelum -ing."
+    },
+    {
+      "id": "futperfcont-wo-1",
+      "type": "word_order",
+      "prompt": "Put the words in the correct order",
+      "words": ["will", "We", "have", "been", "for", "driving", "hours", "six"],
+      "answer": "We will have been driving for six hours",
+      "explanation": "Subjek + will have been + kata kerja -ing + for + lama waktu."
+    },
+    {
+      "id": "futperfcont-match-1",
+      "type": "matching",
+      "prompt": "Match each tense to its formula",
+      "pairs": [
+        { "left": "Future perfect", "right": "will have + past participle" },
+        { "left": "Future perfect continuous", "right": "will have been + verb-ing" },
+        { "left": "Future continuous", "right": "will be + verb-ing" },
+        { "left": "Simple future", "right": "will + base verb" }
+      ],
+      "explanation": "Future perfect menekankan hasil yang selesai, sedangkan future perfect continuous menekankan lamanya kegiatan dengan been + -ing."
+    },
+    {
+      "id": "futperfcont-mc-3",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I will have been reading for an hour.",
+        "I will have being reading for an hour.",
+        "I will have been read for an hour."
+      ],
+      "answer": "I will have been reading for an hour.",
+      "explanation": "Bentuknya been, dan kata kerja setelahnya harus berakhiran -ing: reading."
+    },
+    {
+      "id": "futperfcont-mc-4",
+      "type": "multiple_choice",
+      "prompt": "Choose for or since",
+      "question": "By May she will have been teaching ___ five years.",
+      "options": ["for", "since", "at", "by"],
+      "answer": "for",
+      "explanation": "For dipakai untuk lama waktu seperti five years. Since dipakai untuk titik mulai."
+    },
+    {
+      "id": "futperfcont-fw-1",
+      "type": "free_write",
+      "prompt": "Write your own sentence",
+      "task": "Write one sentence about how long you will have been studying English by next year.",
+      "requirements": ["future perfect continuous"],
+      "modelAnswer": "By next year I will have been studying English for four years.",
+      "explanation": "Gunakan will have been + kata kerja -ing, misalnya 'By next year I will have been studying English for four years.'"
+    }
+  ]
+}

@@ -53,7 +53,7 @@ export function loadLessonFiles(): Lesson[] {
     return parsed.data;
   });
 
-  lessons.sort((a, b) => a.order - b.order);
+  lessons.sort((a, b) => a.category - b.category || a.order - b.order);
   fileCache = lessons;
   return lessons;
 }
@@ -68,7 +68,14 @@ function withFileSet(lesson: Lesson): LessonWithSet {
 // Database
 // ---------------------------------------------------------------------------
 
-type LessonRow = { id: string; position: number; title: string; intro: string | null; active_set_id: string | null };
+type LessonRow = {
+  id: string;
+  category: number;
+  position: number;
+  title: string;
+  intro: string | null;
+  active_set_id: string | null;
+};
 type SetRow = {
   id: string;
   lesson_id: string;
@@ -99,7 +106,16 @@ function fail(step: string, error: { message: string } | null): never {
 export async function seedLesson(db: SupabaseClient, lesson: Lesson, force = false): Promise<{ seedSetId: string; created: boolean }> {
   const { error: upErr } = await db
     .from("lessons")
-    .upsert({ id: lesson.id, position: lesson.order, title: lesson.title, intro: lesson.intro ?? null }, { onConflict: "id" });
+    .upsert(
+      {
+        id: lesson.id,
+        category: lesson.category,
+        position: lesson.order,
+        title: lesson.title,
+        intro: lesson.intro ?? null,
+      },
+      { onConflict: "id" },
+    );
   if (upErr) fail(`upsert lesson ${lesson.id}`, upErr);
 
   const { data: existing, error: selErr } = await db
@@ -144,7 +160,7 @@ export async function seedLesson(db: SupabaseClient, lesson: Lesson, force = fal
 }
 
 /** Load every JSON lesson into the database. Idempotent; `force` re-syncs seed exercises. */
-export async function seedDatabase(force = false): Promise<{ lessons: number; createdSets: number }> {
+export async function seedDatabase(force = false): Promise<{ lessons: number; createdSets: number; removed: number }> {
   const db = getDb();
   if (!db) throw new Error("Database not configured (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY)");
   let createdSets = 0;
@@ -153,13 +169,29 @@ export async function seedDatabase(force = false): Promise<{ lessons: number; cr
     const r = await seedLesson(db, lesson, force);
     if (r.created) createdSets++;
   }
-  return { lessons: files.length, createdSets };
+
+  // Drop lessons that no longer have a file, so a restructured syllabus does
+  // not leave orphans on the home page. Their sets go with them; recorded
+  // attempts keep their own copy of the lesson title, so history survives.
+  const keep = files.map((l) => l.id);
+  const { data: stale, error } = await db.from("lessons").select("id").not("id", "in", `(${keep.join(",")})`);
+  if (error) fail("find stale lessons", error);
+  const removed = (stale ?? []).map((r) => (r as { id: string }).id);
+  if (removed.length) {
+    const { error: delErr } = await db.from("lessons").delete().in("id", removed);
+    if (delErr) fail("delete stale lessons", delErr);
+    console.log(`[content] removed lessons no longer in the syllabus: ${removed.join(", ")}`);
+  }
+
+  invalidateLessons();
+  return { lessons: files.length, createdSets, removed: removed.length };
 }
 
 async function readLessonsFromDb(db: SupabaseClient): Promise<LessonWithSet[]> {
   let { data: rows, error } = await db
     .from("lessons")
-    .select("id, position, title, intro, active_set_id")
+    .select("id, category, position, title, intro, active_set_id")
+    .order("category", { ascending: true })
     .order("position", { ascending: true });
   if (error) fail("read lessons", error);
 
@@ -168,7 +200,8 @@ async function readLessonsFromDb(db: SupabaseClient): Promise<LessonWithSet[]> {
     await seedDatabase(false);
     ({ data: rows, error } = await db
       .from("lessons")
-      .select("id, position, title, intro, active_set_id")
+      .select("id, category, position, title, intro, active_set_id")
+      .order("category", { ascending: true })
       .order("position", { ascending: true }));
     if (error) fail("read lessons after seeding", error);
   }
@@ -197,6 +230,7 @@ async function readLessonsFromDb(db: SupabaseClient): Promise<LessonWithSet[]> {
       const lesson = exercises.success
         ? LessonSchema.safeParse({
             id: row.id,
+            category: row.category,
             order: row.position,
             title: row.title,
             intro: row.intro ?? undefined,
@@ -219,7 +253,7 @@ async function readLessonsFromDb(db: SupabaseClient): Promise<LessonWithSet[]> {
     if (file) out.push(withFileSet(file));
   }
 
-  out.sort((a, b) => a.order - b.order);
+  out.sort((a, b) => a.category - b.category || a.order - b.order);
   return out;
 }
 

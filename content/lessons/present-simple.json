@@ -1,0 +1,91 @@
+{
+  "id": "present-simple",
+  "category": 1,
+  "order": 2,
+  "title": "Present Simple",
+  "intro": "Present simple untuk kebenaran umum dan rutinitas. Dengan he, she, dan it kata kerja mendapat -s (loves), -es setelah -ch/-sh/-x/-o (watches, goes), atau -ies untuk konsonan + y (studies).",
+  "exercises": [
+    {
+      "id": "prsim-mc-1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "The sun ___ in the east.",
+      "options": ["rise", "rises", "rising", "rised"],
+      "answer": "rises",
+      "explanation": "'The sun' sama seperti 'it', jadi kata kerjanya mendapat -s: rises. Present simple dipakai untuk kebenaran umum."
+    },
+    {
+      "id": "prsim-mc-2",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "I ___ up at 6 every day.",
+      "options": ["wake", "wakes", "waking", "woke"],
+      "answer": "wake",
+      "explanation": "Dengan 'I', kata kerja tetap dalam bentuk dasar: wake. 'Every day' menunjukkan rutinitas."
+    },
+    {
+      "id": "prsim-mc-3",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "She ___ English every day.",
+      "options": ["study", "studies", "studys", "studying"],
+      "answer": "studies",
+      "explanation": "'Study' berakhiran konsonan + y, jadi dengan 'she' menjadi studies."
+    },
+    {
+      "id": "prsim-fb-1",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the correct form",
+      "sentence": "He ___ (watch) TV at night.",
+      "answer": ["watches"],
+      "explanation": "Kata kerja berakhiran -ch mendapat -es: watches."
+    },
+    {
+      "id": "prsim-fb-2",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the correct form",
+      "sentence": "Water ___ (freeze) at 0°C.",
+      "answer": ["freezes"],
+      "explanation": "Kebenaran umum dengan 'water' (= it) mendapat -s: freezes."
+    },
+    {
+      "id": "prsim-match-1",
+      "type": "matching",
+      "prompt": "Match each verb to its he/she/it form",
+      "pairs": [
+        { "left": "love", "right": "loves" },
+        { "left": "study", "right": "studies" },
+        { "left": "watch", "right": "watches" },
+        { "left": "go", "right": "goes" },
+        { "left": "look", "right": "looks" }
+      ],
+      "explanation": "love dan look cukup ditambah -s. watch dan go mendapat -es. study berakhiran konsonan + y, jadi menjadi studies."
+    },
+    {
+      "id": "prsim-wo-1",
+      "type": "word_order",
+      "prompt": "Put the words in the correct order",
+      "words": ["every", "She", "campus", "goes", "to", "day"],
+      "answer": "She goes to campus every day",
+      "explanation": "Subjek + kata kerja + tempat + waktu. Keterangan waktu seperti 'every day' diletakkan di akhir."
+    },
+    {
+      "id": "prsim-mc-4",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "question": "Pick the sentence with the correct verb form.",
+      "options": ["She studies every day.", "She study every day.", "She studys every day."],
+      "answer": "She studies every day.",
+      "explanation": "'She' butuh bentuk -s, dan konsonan + y berubah menjadi -ies: studies."
+    },
+    {
+      "id": "prsim-fw-1",
+      "type": "free_write",
+      "prompt": "Write your own sentence",
+      "task": "Write one sentence about something you do every day.",
+      "requirements": ["present simple"],
+      "modelAnswer": "I brush my teeth every morning.",
+      "explanation": "Gunakan present simple untuk rutinitas harian: I + kata kerja dasar."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "simple-future",
+  "category": 3,
+  "order": 1,
+  "title": "Simple Future",
+  "intro": "Simple future: will + kata kerja dasar, sama untuk semua subjek. Bentuk negatifnya won't (= will not) + kata kerja dasar. Will tidak pernah mendapat -s.",
+  "exercises": [
+    {
+      "id": "simfut-mc-1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct word",
+      "question": "Tomorrow she ___ call you.",
+      "options": ["will", "wills", "is", "was"],
+      "answer": "will",
+      "explanation": "Future: will + kata kerja dasar. Will tidak pernah berubah, bahkan dengan she."
+    },
+    {
+      "id": "simfut-mc-2",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "question": "Pick the correct future sentence.",
+      "options": [
+        "She will visit Bali next year.",
+        "She will visits Bali next year.",
+        "She wills visit Bali next year."
+      ],
+      "answer": "She will visit Bali next year.",
+      "explanation": "Setelah will, kata kerja selalu bentuk dasar: will visit."
+    },
+    {
+      "id": "simfut-mc-3",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct word",
+      "question": "I ___ forget your birthday, I promise!",
+      "options": ["won't", "don't", "doesn't", "willn't"],
+      "answer": "won't",
+      "explanation": "Negatif future: won't = will not. Bentuk willn't tidak ada."
+    },
+    {
+      "id": "simfut-fb-1",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence using the words in brackets",
+      "sentence": "He ___ (not / be) late.",
+      "answer": ["won't be", "will not be"],
+      "explanation": "Negatif future: won't (= will not) + kata kerja dasar: won't be."
+    },
+    {
+      "id": "simfut-fb-2",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the simple future",
+      "sentence": "They ___ (arrive) at seven.",
+      "answer": ["will arrive"],
+      "explanation": "Will + kata kerja dasar: will arrive."
+    },
+    {
+      "id": "simfut-wo-1",
+      "type": "word_order",
+      "prompt": "Put the words in the correct order",
+      "words": ["will", "We", "football", "play", "tomorrow"],
+      "answer": "We will play football tomorrow",
+      "explanation": "Subjek + will + kata kerja dasar + objek + waktu."
+    },
+    {
+      "id": "simfut-match-1",
+      "type": "matching",
+      "prompt": "Match each sentence to its future form",
+      "pairs": [
+        { "left": "I go", "right": "I will go" },
+        { "left": "She eats", "right": "She will eat" },
+        { "left": "They write", "right": "They will write" },
+        { "left": "He has", "right": "He will have" }
+      ],
+      "explanation": "Dengan will, kata kerja kembali ke bentuk dasar: She eats jadi She will eat, He has jadi He will have."
+    },
+    {
+      "id": "simfut-flip-1",
+      "type": "flip_sentence",
+      "prompt": "Rewrite the sentence",
+      "source": "They study English.",
+      "target": "future",
+      "answer": ["They will study English.", "They'll study English."],
+      "explanation": "Future: will + kata kerja dasar: will study."
+    },
+    {
+      "id": "simfut-fw-1",
+      "type": "free_write",
+      "prompt": "Write your own sentence",
+      "task": "Write one sentence about tomorrow.",
+      "requirements": ["future with will"],
+      "modelAnswer": "Tomorrow I will visit my grandmother.",
+      "explanation": "Gunakan will + kata kerja dasar, misalnya 'Tomorrow I will visit my grandmother.'"
+    }
+  ]
+}
