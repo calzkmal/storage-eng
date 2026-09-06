@@ -13,6 +13,7 @@ import {
 } from "@/lib/grading";
 import { shuffleChanged } from "@/lib/shuffle";
 import { markFinished, saveResult, type WrongItem } from "@/lib/storage";
+import { recordAttempt, useLearner } from "@/lib/learner";
 import { buildGradeRequest, requestAIGrade } from "@/lib/ai/client";
 import TopBar from "./TopBar";
 import BottomBar, { type BottomTone } from "./BottomBar";
@@ -31,8 +32,17 @@ type Phase = "main" | "review";
  */
 export default function LessonRunner({ lesson, setId, shuffle }: Props) {
   const router = useRouter();
+  const learner = useLearner();
 
   const [order] = useState<Exercise[]>(() => (shuffle ? shuffleChanged(lesson.exercises) : lesson.exercises));
+  // Groups this pass through the lesson in the history.
+  const [runId] = useState(() => {
+    try {
+      return crypto.randomUUID();
+    } catch {
+      return `${Date.now().toString(16)}-${Math.random().toString(16).slice(2, 10)}`;
+    }
+  });
   const [showIntro, setShowIntro] = useState<boolean>(Boolean(lesson.intro));
   const [phase, setPhase] = useState<Phase>("main");
   const [index, setIndex] = useState(0);
@@ -52,8 +62,31 @@ export default function LessonRunner({ lesson, setId, shuffle }: Props) {
   const total = phase === "main" ? order.length : retryQueue.length;
   const counter = showIntro ? "Tip" : phase === "main" ? `${index + 1} / ${total}` : `Review ${index + 1} / ${total}`;
 
-  function applyResult(ex: Exercise, fb: Feedback, value: AnswerValue) {
+  type GradedBy = "local" | "ai" | "cache" | "fallback";
+
+  function applyResult(ex: Exercise, fb: Feedback, value: AnswerValue, gradedBy: GradedBy) {
     setFeedback(fb);
+
+    // Best effort history: never blocks or fails the lesson.
+    if (learner) {
+      recordAttempt({
+        learnerId: learner.id,
+        learnerName: learner.name,
+        runId,
+        lessonId: lesson.id,
+        lessonTitle: lesson.title,
+        setId,
+        exerciseId: ex.id,
+        exerciseType: ex.type,
+        phase,
+        question: exerciseSummary(ex),
+        userAnswer: answerText(ex, value),
+        correctAnswer: fb.correctAnswer,
+        correct: fb.status === "correct" ? true : fb.status === "wrong" ? false : null,
+        gradedBy,
+      });
+    }
+
     if (fb.status === "wrong" && phase === "main") {
       setRetryQueue((q) => [...q, ex]);
       setWrongFirst((w) => [
@@ -80,6 +113,7 @@ export default function LessonRunner({ lesson, setId, shuffle }: Props) {
         ex,
         { status: local.correct ? "correct" : "wrong", correctAnswer: local.correctAnswer, explanation: ex.explanation },
         value,
+        "local",
       );
       return;
     }
@@ -99,16 +133,18 @@ export default function LessonRunner({ lesson, setId, shuffle }: Props) {
         ex,
         { status: res.correct ? "correct" : "wrong", correctAnswer: res.correctedAnswer, explanation: res.explanation },
         value,
+        res.source === "cache" ? "cache" : "ai",
       );
     } else if (ex.type === "flip_sentence") {
       // Spec §6: if AI unavailable, mark wrong and show answer[0].
-      applyResult(ex, { status: "wrong", correctAnswer: ex.answer[0], explanation: ex.explanation }, value);
+      applyResult(ex, { status: "wrong", correctAnswer: ex.answer[0], explanation: ex.explanation }, value, "fallback");
     } else {
       // free_write with no AI: show the model answer, do not count as wrong (spec §4.4).
       applyResult(
         ex,
         { status: "unverified", correctAnswer: correctAnswerText(ex), explanation: res?.explanation ?? "" },
         value,
+        "fallback",
       );
     }
   }

@@ -91,6 +91,23 @@ OPENROUTER_MODELS="bogus/nope:free,google/gemma-4-31b-it:free" npm run dev
 
 The response's `modelUsed` will show the model OpenRouter fell back to.
 
+## Progress tracking without accounts
+
+On the first visit the app asks for a name and nothing else: no sign-up, no password. Behind that name it mints a random UUID (`lib/learner.ts`) and keeps `{ id, name }` in localStorage. **The UUID is the identity; the name is only a label on it.** Every checked answer is posted to `/api/attempts` and stored in the `attempts` table, and `/history` replays them grouped by lesson run, showing each question, the answer given, and the correct answer.
+
+What this can and cannot tell you:
+
+| Situation | Same learner? |
+|---|---|
+| Closes the tab or the browser and comes back | Yes, the UUID is in localStorage |
+| Two people who both type "Budi" | No, two UUIDs, two separate histories |
+| Same person renames themselves | Yes, renaming keeps the UUID and the history |
+| Private window, cleared site data, another browser, another phone | No, a new UUID and an empty history |
+
+So a name cannot be used to recognise anyone: it is a display label, and duplicates are expected. Recognising the same human across devices needs real authentication, or a "copy your profile code to the other device" flow built on top of the existing UUID.
+
+Two consequences worth knowing. The learner id is the only key to a history, so anyone holding one can read that history through `/api/history`; there is no sensitive data in there, but it is the trade for having no accounts. And recording is best effort: `navigator.sendBeacon` posts each answer so it survives the navigation at the end of a lesson, but a failure is swallowed rather than interrupting practice, and a learner created while the database was unreachable simply has no history.
+
 ## Content
 
 Each lesson is one JSON file. Add or edit exercises there, then run `npm run validate`. The validator also checks that multiple-choice answers are in the options, word-order answers use exactly the given words, and each lesson has 8–10 exercises.
