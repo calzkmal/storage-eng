@@ -29,11 +29,42 @@ export type ChatOptions = {
 
 export type ChatResult = { content: string; model: string };
 
+/** OpenRouter rejects `models` arrays longer than this ("'models' array must have 3 items or fewer"). */
+export const MAX_MODELS_PER_REQUEST = 3;
+
+/**
+ * Call OpenRouter with the priority list split into chunks of 3. OpenRouter
+ * handles fallback inside a chunk; we only move to the next chunk when it
+ * reports that every model in the chunk failed. The overall timeout is shared.
+ */
 export async function chatCompletion(messages: ChatMessage[], opts: ChatOptions): Promise<ChatResult> {
   const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) throw new OpenRouterError("OPENROUTER_API_KEY is not set", undefined, "config");
   if (!opts.models.length) throw new OpenRouterError("No models configured", undefined, "config");
 
+  const chunks: string[][] = [];
+  for (let i = 0; i < opts.models.length; i += MAX_MODELS_PER_REQUEST) {
+    chunks.push(opts.models.slice(i, i + MAX_MODELS_PER_REQUEST));
+  }
+
+  const deadline = Date.now() + opts.timeoutMs;
+  let lastError: OpenRouterError | undefined;
+  for (const chunk of chunks) {
+    const remaining = deadline - Date.now();
+    if (remaining <= 0) break;
+    try {
+      return await chatCompletionOnce(messages, { ...opts, models: chunk, timeoutMs: remaining }, apiKey);
+    } catch (err) {
+      if (!(err instanceof OpenRouterError)) throw err;
+      lastError = err;
+      // Only a provider-side failure justifies trying the next chunk.
+      if (err.kind !== "http" && err.kind !== "response") throw err;
+    }
+  }
+  throw lastError ?? new OpenRouterError("OpenRouter timed out", undefined, "timeout");
+}
+
+async function chatCompletionOnce(messages: ChatMessage[], opts: ChatOptions, apiKey: string): Promise<ChatResult> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), opts.timeoutMs);
 

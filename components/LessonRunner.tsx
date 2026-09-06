@@ -13,6 +13,7 @@ import {
 } from "@/lib/grading";
 import { shuffleChanged } from "@/lib/shuffle";
 import { markCompleted, saveResult, type WrongItem } from "@/lib/storage";
+import { getOverride } from "@/lib/overrides";
 import { buildGradeRequest, requestAIGrade } from "@/lib/ai/client";
 import TopBar from "./TopBar";
 import BottomBar, { type BottomTone } from "./BottomBar";
@@ -30,7 +31,11 @@ type Phase = "main" | "review";
 export default function LessonRunner({ lesson, shuffle }: Props) {
   const router = useRouter();
 
-  const [order] = useState<Exercise[]>(() => (shuffle ? shuffleChanged(lesson.exercises) : lesson.exercises));
+  // A regenerated set stored on this device replaces the built-in exercises.
+  const [order] = useState<Exercise[]>(() => {
+    const base = getOverride(lesson.id)?.exercises ?? lesson.exercises;
+    return shuffle ? shuffleChanged(base) : base;
+  });
   const [showIntro, setShowIntro] = useState<boolean>(Boolean(lesson.intro));
   const [phase, setPhase] = useState<Phase>("main");
   const [index, setIndex] = useState(0);

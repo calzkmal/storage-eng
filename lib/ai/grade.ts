@@ -6,6 +6,9 @@ import type { GradeContext, GradeResult } from "./types";
 const CALL_TIMEOUT_MS = 9000; // spec §7.1 step 4
 const TOTAL_BUDGET_MS = 9500; // keep under the client's 10s timeout
 const MIN_RETRY_MS = 1500;
+// Spec says 300, but some free models count hidden reasoning tokens against
+// max_tokens and return an empty reply when the budget runs out. 500 is safe.
+const MAX_TOKENS = 500;
 
 export type ModelGradeOutcome =
   | { ok: true; result: GradeResult; modelUsed: string }
@@ -27,7 +30,7 @@ export async function gradeWithModel(ctx: GradeContext, userAnswer: string): Pro
   let modelUsed = "none";
 
   try {
-    const first = await chatCompletion(messages, { models, timeoutMs: CALL_TIMEOUT_MS });
+    const first = await chatCompletion(messages, { models, timeoutMs: CALL_TIMEOUT_MS, maxTokens: MAX_TOKENS });
     modelUsed = first.model;
     const parsed = parseGradeJson(first.content);
     if (parsed) return { ok: true, result: parsed, modelUsed };
@@ -35,7 +38,7 @@ export async function gradeWithModel(ctx: GradeContext, userAnswer: string): Pro
     const remaining = TOTAL_BUDGET_MS - (Date.now() - started);
     const retry = await chatCompletion(
       [...messages, { role: "assistant", content: first.content }, { role: "user", content: JSON_NUDGE }],
-      { models, timeoutMs: Math.max(MIN_RETRY_MS, remaining) },
+      { models, timeoutMs: Math.max(MIN_RETRY_MS, remaining), maxTokens: MAX_TOKENS },
     );
     modelUsed = retry.model;
     const parsedRetry = parseGradeJson(retry.content);
