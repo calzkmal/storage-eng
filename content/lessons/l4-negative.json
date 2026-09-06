@@ -1,0 +1,100 @@
+{
+  "id": "l4-negative",
+  "order": 4,
+  "title": "Negative: don't / doesn't",
+  "intro": "I, you, we, they + don't + kata kerja dasar. He, she, it + doesn't + kata kerja dasar. Setelah doesn't, kata kerja kehilangan -s: She doesn't like (bukan likes).",
+  "exercises": [
+    {
+      "id": "l4-mc-1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct word",
+      "question": "She ___ like durian.",
+      "options": ["don't", "doesn't", "not", "isn't"],
+      "answer": "doesn't",
+      "explanation": "'She' memakai doesn't. Kata kerja setelahnya tetap dalam bentuk dasar: like."
+    },
+    {
+      "id": "l4-mc-2",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct word",
+      "question": "We ___ watch TV.",
+      "options": ["don't", "doesn't", "aren't", "not"],
+      "answer": "don't",
+      "explanation": "'We' memakai don't + kata kerja dasar: don't watch."
+    },
+    {
+      "id": "l4-mc-3",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "question": "Pick the correct negative sentence.",
+      "options": ["She doesn't like durian.", "She doesn't likes durian.", "She don't like durian."],
+      "answer": "She doesn't like durian.",
+      "explanation": "'She' memakai doesn't, dan setelah doesn't kata kerja kembali ke bentuk dasar: like, bukan likes."
+    },
+    {
+      "id": "l4-flip-1",
+      "type": "flip_sentence",
+      "prompt": "Rewrite the sentence",
+      "source": "He writes poems.",
+      "target": "negative",
+      "answer": ["He doesn't write poems.", "He does not write poems."],
+      "explanation": "He + doesn't + kata kerja dasar. 'Writes' kehilangan -s: doesn't write."
+    },
+    {
+      "id": "l4-flip-2",
+      "type": "flip_sentence",
+      "prompt": "Rewrite the sentence",
+      "source": "They watch TV at night.",
+      "target": "negative",
+      "answer": ["They don't watch TV at night.", "They do not watch TV at night."],
+      "explanation": "'They' memakai don't + kata kerja dasar: don't watch."
+    },
+    {
+      "id": "l4-flip-3",
+      "type": "flip_sentence",
+      "prompt": "Rewrite the sentence",
+      "source": "I love spicy food.",
+      "target": "negative",
+      "answer": ["I don't love spicy food.", "I do not love spicy food."],
+      "explanation": "'I' memakai don't + kata kerja dasar: don't love."
+    },
+    {
+      "id": "l4-fb-1",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence using the words in brackets",
+      "sentence": "My friend ___ (not / like) K-pop.",
+      "answer": ["doesn't like", "does not like"],
+      "explanation": "'My friend' berarti he atau she, jadi gunakan doesn't + kata kerja dasar: doesn't like."
+    },
+    {
+      "id": "l4-mc-4",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct word",
+      "question": "The shop ___ open on Sunday.",
+      "options": ["don't", "doesn't", "not"],
+      "answer": "doesn't",
+      "explanation": "'The shop' berarti 'it', jadi gunakan doesn't + kata kerja dasar: doesn't open."
+    },
+    {
+      "id": "l4-fb-2",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence using the words in brackets",
+      "sentence": "I ___ (not / eat) meat.",
+      "answer": ["don't eat", "do not eat"],
+      "explanation": "'I' memakai don't + kata kerja dasar: don't eat."
+    },
+    {
+      "id": "l4-mc-5",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "He doesn't go to school on Sunday.",
+        "He doesn't goes to school on Sunday.",
+        "He don't goes to school on Sunday."
+      ],
+      "answer": "He doesn't go to school on Sunday.",
+      "explanation": "Setelah doesn't, kata kerja kembali ke bentuk dasar: go, bukan goes."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "l1-present-simple",
+  "order": 1,
+  "title": "Present Simple: Truth & Routine",
+  "intro": "Kita memakai present simple untuk hal yang selalu benar (The sun rises in the east) dan untuk rutinitas atau kebiasaan (I wake up at 6 every day).",
+  "exercises": [
+    {
+      "id": "l1-mc-1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "The sun ___ in the east.",
+      "options": ["rise", "rises", "rising", "rised"],
+      "answer": "rises",
+      "explanation": "'The sun' sama seperti 'it', jadi kata kerjanya mendapat -s: rises. Present simple dipakai untuk kebenaran umum."
+    },
+    {
+      "id": "l1-mc-2",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "I ___ up at 6 every day.",
+      "options": ["wake", "wakes", "waking", "woke"],
+      "answer": "wake",
+      "explanation": "Dengan 'I', kata kerja tetap dalam bentuk dasar: wake. 'Every day' menunjukkan bahwa ini adalah rutinitas."
+    },
+    {
+      "id": "l1-match-1",
+      "type": "matching",
+      "prompt": "Match each sentence to its meaning",
+      "pairs": [
+        { "left": "Water boils at 100°C", "right": "General truth" },
+        { "left": "She goes to campus every day", "right": "Routine" },
+        { "left": "Cats sleep a lot", "right": "General truth" },
+        { "left": "We eat lunch together", "right": "Routine" }
+      ],
+      "explanation": "Kebenaran umum (general truth) selalu benar, seperti air mendidih atau kucing banyak tidur. Rutinitas (routine) adalah hal yang kita lakukan secara teratur, seperti pergi ke kampus setiap hari atau makan siang bersama."
+    },
+    {
+      "id": "l1-wo-1",
+      "type": "word_order",
+      "prompt": "Put the words in the correct order",
+      "words": ["every", "She", "campus", "goes", "to", "day"],
+      "answer": "She goes to campus every day",
+      "explanation": "Subjek + kata kerja + tempat + waktu: She goes to campus every day. Keterangan waktu seperti 'every day' biasanya diletakkan di akhir kalimat."
+    },
+    {
+      "id": "l1-mc-3",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "My brother ___ in Bandung.",
+      "options": ["live", "lives", "living", "is live"],
+      "answer": "lives",
+      "explanation": "'My brother' berarti 'he', jadi kata kerjanya mendapat -s: lives."
+    },
+    {
+      "id": "l1-fb-1",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the correct form",
+      "sentence": "Water ___ (freeze) at 0°C.",
+      "answer": ["freezes"],
+      "explanation": "Kebenaran umum dengan 'water' (= it) mendapat -s: freezes."
+    },
+    {
+      "id": "l1-mc-4",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is a routine?",
+      "question": "Pick the sentence that describes a habit.",
+      "options": ["I drink coffee every morning.", "The moon goes around the Earth.", "Ice is cold."],
+      "answer": "I drink coffee every morning.",
+      "explanation": "'Every morning' menunjukkan kebiasaan yang berulang, jadi itu rutinitas. Dua kalimat lainnya adalah kebenaran umum."
+    },
+    {
+      "id": "l1-fb-2",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the correct form",
+      "sentence": "We ___ (have) class on Monday.",
+      "answer": ["have"],
+      "explanation": "Dengan 'we', kata kerja tetap dalam bentuk dasar: have."
+    },
+    {
+      "id": "l1-fw-1",
+      "type": "free_write",
+      "prompt": "Write your own sentence",
+      "task": "Write one sentence about something you do every day.",
+      "requirements": ["present simple"],
+      "modelAnswer": "I brush my teeth every morning.",
+      "explanation": "Gunakan present simple untuk rutinitas harian: I + kata kerja dasar, misalnya 'I brush my teeth every morning.'"
+    }
+  ]
+}

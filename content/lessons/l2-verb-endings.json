@@ -1,0 +1,98 @@
+{
+  "id": "l2-verb-endings",
+  "order": 2,
+  "title": "Adding -s, -es, -ies",
+  "intro": "Dengan he, she, dan it, kebanyakan kata kerja mendapat -s (loves, looks). Kata kerja yang berakhiran -sh, -ch, -x, -o, atau -ss mendapat -es (watches, goes). Konsonan + y berubah menjadi -ies (studies).",
+  "exercises": [
+    {
+      "id": "l2-mc-1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "She ___ English every day.",
+      "options": ["study", "studies", "studys", "studying"],
+      "answer": "studies",
+      "explanation": "'Study' berakhiran konsonan + y, jadi dengan 'she' menjadi studies (y berubah menjadi -ies)."
+    },
+    {
+      "id": "l2-mc-2",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "He ___ TV at night.",
+      "options": ["watch", "watchs", "watches", "watching"],
+      "answer": "watches",
+      "explanation": "Kata kerja yang berakhiran -ch mendapat -es: watches."
+    },
+    {
+      "id": "l2-mc-3",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "They ___ Indonesian food.",
+      "options": ["love", "loves", "loveing", "loved"],
+      "answer": "love",
+      "explanation": "'They' adalah jamak, jadi kata kerja tetap dalam bentuk dasar: love. Hanya he, she, dan it yang mendapat -s."
+    },
+    {
+      "id": "l2-fb-1",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the correct form",
+      "sentence": "He ___ (fix) computers.",
+      "answer": ["fixes"],
+      "explanation": "Kata kerja yang berakhiran -x mendapat -es: fixes."
+    },
+    {
+      "id": "l2-fb-2",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the correct form",
+      "sentence": "She ___ (carry) her bag.",
+      "answer": ["carries"],
+      "explanation": "Konsonan + y: ubah y menjadi i, lalu tambahkan -es: carries."
+    },
+    {
+      "id": "l2-fb-3",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the correct form",
+      "sentence": "It ___ (rain) a lot in Jakarta.",
+      "answer": ["rains"],
+      "explanation": "Kebanyakan kata kerja cukup ditambah -s dengan 'it': rains."
+    },
+    {
+      "id": "l2-match-1",
+      "type": "matching",
+      "prompt": "Match each verb to its he/she/it form",
+      "pairs": [
+        { "left": "love", "right": "loves" },
+        { "left": "write", "right": "writes" },
+        { "left": "study", "right": "studies" },
+        { "left": "watch", "right": "watches" },
+        { "left": "look", "right": "looks" }
+      ],
+      "explanation": "love, write, dan look cukup ditambah -s. watch berakhiran -ch, jadi mendapat -es. study berakhiran konsonan + y, jadi menjadi studies."
+    },
+    {
+      "id": "l2-mc-4",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "question": "Pick the sentence with the correct verb form.",
+      "options": ["She studies every day.", "She study every day.", "She studys every day."],
+      "answer": "She studies every day.",
+      "explanation": "'She' membutuhkan bentuk -s, dan konsonan + y berubah menjadi -ies: studies."
+    },
+    {
+      "id": "l2-mc-5",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "My mother ___ to the market on Sunday.",
+      "options": ["go", "gos", "goes", "going"],
+      "answer": "goes",
+      "explanation": "'Go' berakhiran -o, jadi mendapat -es: goes."
+    },
+    {
+      "id": "l2-fb-4",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the correct form",
+      "sentence": "The baby ___ (play) with the ball.",
+      "answer": ["plays"],
+      "explanation": "'Play' berakhiran vokal + y, jadi cukup tambahkan -s: plays (bukan 'plaies')."
+    }
+  ]
+}

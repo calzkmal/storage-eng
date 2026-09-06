@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  color-scheme: light;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Feedback panel slide-up (spec §4.2). Disabled under prefers-reduced-motion (§4.4). */
+@keyframes slide-up {
+  from {
+    transform: translateY(32px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 220ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-slide-up {
+    animation: none;
+  }
+  * {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Large tap targets should not show the mobile tap highlight box */
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
