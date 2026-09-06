@@ -9,5 +9,11 @@ export const chipSelected = "border-sky-400 bg-sky-50 text-sky-900 shadow-[0_2px
 
 export const chipDimmed = "border-slate-200 bg-slate-100 text-slate-400 shadow-none scale-[0.97]";
 
+/** A matched pair that was correct: stays green and locked. */
+export const chipCorrect = "border-emerald-400 bg-emerald-50 text-emerald-800 shadow-none";
+
+/** A pair that was just matched wrongly: flashes red, then returns to the pool. */
+export const chipWrong = "border-rose-400 bg-rose-50 text-rose-800 shadow-none";
+
 export const textInput =
   "w-full rounded-2xl border-2 border-slate-200 bg-white px-4 py-3 text-base text-slate-900 placeholder:text-slate-400 focus:border-sky-400 focus:outline-none disabled:bg-slate-100 disabled:text-slate-500";

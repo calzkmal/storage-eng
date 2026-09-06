@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import LessonCard, { type LessonSummary } from "./LessonCard";
 import { useCompleted } from "@/lib/useCompleted";
 import { useFinished } from "@/lib/useFinished";
-import { clearAllOverrides, clearOverride, requestGeneration, setOverride, useOverrides } from "@/lib/overrides";
+import { requestGeneration, requestReset } from "@/lib/api";
 
-type CardState = { working: boolean; error?: string };
+type CardState = { working: boolean; error?: string; note?: string };
 
 const RefreshIcon = ({ spinning }: { spinning: boolean }) => (
   <svg
@@ -26,67 +27,100 @@ const RefreshIcon = ({ spinning }: { spinning: boolean }) => (
   </svg>
 );
 
+const LockIcon = () => (
+  <svg
+    viewBox="0 0 24 24"
+    width="24"
+    height="24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2.2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    aria-hidden="true"
+  >
+    <rect x="5" y="11" width="14" height="10" rx="2.5" />
+    <path d="M8 11V7.5a4 4 0 0 1 8 0V11" />
+  </svg>
+);
+
+type Props = {
+  lessons: LessonSummary[];
+  /** False when SUPABASE_* env vars are missing: regeneration is unavailable. */
+  storageReady: boolean;
+};
+
 /**
- * Regenerating every lesson back-to-back can take several minutes on free
- * models, so there is no "regenerate all" here on purpose: only a per-lesson
- * button, plus a way to clear all locally-stored sets at once.
+ * Lesson cards with a regenerate button on the right of each one. The button
+ * is always visible but locked (lock icon, disabled) until the lesson's
+ * current set has been played through, see lib/useFinished.ts. Regenerated
+ * sets are stored in the question database and shown to everyone, so after a
+ * change we simply refresh the server-rendered list.
  *
- * The regenerate button stays visible on every card but is only pressable
- * once a lesson's currently active set (built-in or a previous regeneration)
- * has actually been finished, see lib/useFinished.ts, so you cannot reroll a
- * lesson before trying it.
+ * There is deliberately no "regenerate all": running all six back-to-back can
+ * take several minutes on free models.
  */
-export default function LessonList({ lessons }: { lessons: LessonSummary[] }) {
+export default function LessonList({ lessons, storageReady }: Props) {
+  const router = useRouter();
   const completed = useCompleted();
   const finished = useFinished();
-  const overrides = useOverrides();
   const [cards, setCards] = useState<Record<string, CardState>>({});
 
   const setCard = (id: string, patch: CardState) => setCards((c) => ({ ...c, [id]: patch }));
   const anyWorking = Object.values(cards).some((c) => c.working);
-  const overrideCount = Object.keys(overrides).length;
+  const generated = lessons.filter((l) => l.setSource === "generated");
 
   async function regenerate(id: string) {
     setCard(id, { working: true });
     const res = await requestGeneration(id);
     if (res.ok) {
-      setOverride(id, { exercises: res.exercises, modelUsed: res.modelUsed });
-      setCard(id, { working: false });
+      setCard(id, { working: false, note: `New set saved (version ${res.version}, ${res.exerciseCount} exercises).` });
+      router.refresh();
     } else {
       setCard(id, { working: false, error: res.error });
     }
+  }
+
+  async function reset(id: string) {
+    setCard(id, { working: true });
+    const res = await requestReset(id);
+    setCard(id, res.ok ? { working: false } : { working: false, error: res.error });
+    if (res.ok) router.refresh();
+  }
+
+  async function resetAll() {
+    for (const l of generated) await reset(l.id);
   }
 
   return (
     <div>
       <ul className="flex flex-col gap-3">
         {lessons.map((lesson) => {
-          const ov = overrides[lesson.id];
           const st = cards[lesson.id] ?? { working: false };
-          // The button is always visible, but only pressable once the lesson's
-          // current set has been played through.
-          const unlocked = finished.has(lesson.id);
+          // Finished flags are keyed by set id, so a freshly generated set is
+          // locked until it has been played, and the original unlocks again on reset.
+          const unlocked = finished.has(lesson.setId);
+          const canPress = unlocked && storageReady && !st.working;
+          const title = st.working
+            ? "Writing new exercises"
+            : !storageReady
+              ? "Question database not configured"
+              : unlocked
+                ? "Regenerate exercises"
+                : "Finish this lesson first";
           return (
             <li key={lesson.id}>
               <div className="flex items-stretch gap-2">
-                <LessonCard
-                  lesson={{ ...lesson, exerciseCount: ov ? ov.exercises.length : lesson.exerciseCount }}
-                  completed={completed.has(lesson.id)}
-                  regenerated={Boolean(ov)}
-                />
+                <LessonCard lesson={lesson} completed={completed.has(lesson.id)} />
                 <button
                   type="button"
                   onClick={() => regenerate(lesson.id)}
-                  disabled={!unlocked || st.working}
-                  aria-label={
-                    unlocked
-                      ? `Regenerate exercises for lesson ${lesson.order}`
-                      : `Regenerate exercises for lesson ${lesson.order} (finish the lesson first)`
-                  }
-                  title={unlocked ? "Regenerate exercises" : "Finish this lesson first"}
-                  className="flex w-14 shrink-0 flex-col items-center justify-center gap-0.5 rounded-2xl border-2 border-slate-200 bg-white text-sky-600 shadow-[0_2px_0_#e2e8f0] transition-colors active:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-40 disabled:active:bg-white"
+                  disabled={!canPress}
+                  aria-label={`Regenerate exercises for lesson ${lesson.order}: ${title}`}
+                  title={title}
+                  className="flex w-14 shrink-0 flex-col items-center justify-center gap-0.5 rounded-2xl border-2 border-slate-200 bg-white text-sky-600 shadow-[0_2px_0_#e2e8f0] transition-colors active:bg-slate-100 disabled:cursor-not-allowed disabled:text-slate-400 disabled:shadow-none disabled:active:bg-white"
                 >
-                  <RefreshIcon spinning={st.working} />
+                  {st.working ? <RefreshIcon spinning /> : unlocked && storageReady ? <RefreshIcon spinning={false} /> : <LockIcon />}
                   <span className="text-[11px] font-semibold uppercase tracking-wide">
                     {st.working ? "Wait" : "New"}
                   </span>
@@ -97,16 +131,20 @@ export default function LessonList({ lessons }: { lessons: LessonSummary[] }) {
                   Writing new exercises… this can take up to a minute.
                 </p>
               )}
-              {st.error && !st.working && (
-                <p className="mt-1 px-1 text-sm text-rose-700">{st.error}</p>
+              {st.error && !st.working && <p className="mt-1 px-1 text-sm text-rose-700">{st.error}</p>}
+              {st.note && !st.working && !st.error && (
+                <p className="mt-1 px-1 text-sm text-emerald-700" aria-live="polite">
+                  {st.note}
+                </p>
               )}
-              {ov && !st.working && !st.error && (
+              {lesson.setSource === "generated" && !st.working && !st.error && (
                 <p className="mt-1 px-1 text-sm text-slate-500">
-                  New set on this device ({ov.exercises.length} exercises).{" "}
+                  AI set, version {lesson.setVersion}.{" "}
                   <button
                     type="button"
-                    onClick={() => clearOverride(lesson.id)}
-                    className="font-semibold text-sky-700 underline underline-offset-2"
+                    onClick={() => reset(lesson.id)}
+                    disabled={anyWorking}
+                    className="font-semibold text-sky-700 underline underline-offset-2 disabled:opacity-40"
                   >
                     Reset to original
                   </button>
@@ -117,12 +155,18 @@ export default function LessonList({ lessons }: { lessons: LessonSummary[] }) {
         })}
       </ul>
 
-      {overrideCount > 0 && (
+      {!storageReady && (
         <p className="mt-6 text-center text-sm text-slate-500">
-          {overrideCount} lesson{overrideCount === 1 ? "" : "s"} using a new set on this device.{" "}
+          Regeneration is off: the question database is not configured.
+        </p>
+      )}
+
+      {generated.length > 0 && (
+        <p className="mt-6 text-center text-sm text-slate-500">
+          {generated.length} lesson{generated.length === 1 ? "" : "s"} using an AI-generated set.{" "}
           <button
             type="button"
-            onClick={clearAllOverrides}
+            onClick={resetAll}
             disabled={anyWorking}
             className="font-semibold text-sky-700 underline underline-offset-2 disabled:opacity-40"
           >

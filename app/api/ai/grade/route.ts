@@ -34,8 +34,8 @@ const TARGET_REQUIREMENT: Record<string, string> = {
  * server-side copy so clients cannot tamper with the prompt; otherwise fall
  * back to the client-provided context.
  */
-function resolveContext(exerciseId: string, provided?: GradeContext): GradeContext | null {
-  const ex = findExercise(exerciseId);
+async function resolveContext(exerciseId: string, provided?: GradeContext): Promise<GradeContext | null> {
+  const ex = await findExercise(exerciseId);
   if (ex?.type === "free_write") {
     return { task: ex.task, requirements: ex.requirements, modelAnswer: ex.modelAnswer, acceptedAnswers: [] };
   }
@@ -68,7 +68,7 @@ export async function POST(req: Request) {
   }
 
   const { exerciseId, userAnswer } = parsed.data;
-  const ctx = resolveContext(exerciseId, parsed.data.context);
+  const ctx = await resolveContext(exerciseId, parsed.data.context);
   if (!ctx) {
     return NextResponse.json({ error: "Unknown exercise and no context provided" }, { status: 400 });
   }
