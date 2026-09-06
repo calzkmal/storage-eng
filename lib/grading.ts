@@ -1,19 +1,13 @@
 import type { Exercise } from "./schema";
 
-/**
- * Matching gives instant feedback per pair, so by the time Check is pressed
- * every connected pair is correct; `mistakes` counts wrong taps along the way.
- */
-export type MatchingAnswer = { pairs: Record<string, string>; mistakes: number };
-
 /** Answer value produced by each exercise component. */
 export type AnswerValue =
   | string // multiple_choice, fill_blank, flip_sentence, free_write
   | string[] // word_order: placed words in order
-  | MatchingAnswer; // matching
+  | Record<string, string>; // matching: left text -> right text
 
-export function isMatchingAnswer(v: AnswerValue | null): v is MatchingAnswer {
-  return typeof v === "object" && v !== null && !Array.isArray(v) && "pairs" in v;
+function isPairMap(v: AnswerValue | null): v is Record<string, string> {
+  return typeof v === "object" && v !== null && !Array.isArray(v);
 }
 
 export type LocalGrade = { correct: boolean; correctAnswer: string };
@@ -79,9 +73,8 @@ export function exerciseSummary(ex: Exercise): string {
 export function answerText(ex: Exercise, value: AnswerValue): string {
   if (typeof value === "string") return value;
   if (Array.isArray(value)) return value.join(" ");
-  if (ex.type === "matching" && isMatchingAnswer(value)) {
-    const pairs = ex.pairs.map((p) => `${p.left} → ${value.pairs[p.left] ?? "?"}`).join(", ");
-    return value.mistakes > 0 ? `${pairs} (${value.mistakes} wrong tap${value.mistakes === 1 ? "" : "s"})` : pairs;
+  if (ex.type === "matching" && isPairMap(value)) {
+    return ex.pairs.map((p) => `${p.left} → ${value[p.left] ?? "?"}`).join(", ");
   }
   return JSON.stringify(value);
 }
@@ -99,7 +92,7 @@ export function canCheck(ex: Exercise, value: AnswerValue | null): boolean {
     case "word_order":
       return Array.isArray(value) && value.length === ex.words.length;
     case "matching":
-      return isMatchingAnswer(value) && ex.pairs.every((p) => typeof value.pairs[p.left] === "string");
+      return isPairMap(value) && ex.pairs.every((p) => typeof value[p.left] === "string");
   }
 }
 
@@ -121,11 +114,11 @@ export function gradeLocal(ex: Exercise, value: AnswerValue): LocalGrade | null 
       return { correct: normalizeLoose(joined) === normalizeLoose(ex.answer), correctAnswer };
     }
     case "matching": {
-      if (!isMatchingAnswer(value)) return { correct: false, correctAnswer };
-      // Pairs are checked as they are tapped, so a completed board is always
-      // right; the exercise counts as wrong if any tap along the way was wrong.
-      const allRight = ex.pairs.every((p) => value.pairs[p.left] === p.right);
-      return { correct: allRight && value.mistakes === 0, correctAnswer };
+      if (!isPairMap(value)) return { correct: false, correctAnswer };
+      // Each pair is checked as it is tapped and a wrong one bounces back, so
+      // finishing the board is a correct answer. Wrong taps along the way are
+      // feedback while playing, not a penalty.
+      return { correct: ex.pairs.every((p) => value[p.left] === p.right), correctAnswer };
     }
     case "flip_sentence": {
       const v = normalizeLoose(String(value));

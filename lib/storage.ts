@@ -1,20 +1,18 @@
 /**
  * Anonymous, device-local persistence.
- * localStorage: which lessons are completed (a simple checkmark, spec §1),
- * and which exercise SETS have been played through (see FINISHED_KEY).
+ * localStorage: which exercise sets have been played through (FINISHED_KEY).
  * sessionStorage: the result of the lesson just finished, for the done screen.
  */
 
-export const COMPLETED_KEY = "ep:completed";
-export const COMPLETED_EVENT = "ep:completed-changed";
 export const resultKey = (lessonId: string) => `ep:result:${lessonId}`;
 
 /**
- * Gates the "regenerate exercises" button on the home page. Stores the ids of
- * exercise sets (database ids, or file:<lessonId> without a database) that
- * have been finished at least once on this device. Because a regenerated set
- * gets a new id, a lesson locks again after regeneration until the new set is
- * played, and unlocks again when reset to the original set.
+ * Stores the ids of exercise sets (database ids, or file:<lessonId> without a
+ * database) that have been played through at least once on this device. It
+ * drives both the ✓ on a lesson card (spec §1) and the "regenerate" button:
+ * because a regenerated set gets a new id, a lesson loses its ✓ and locks
+ * again after regeneration until the new questions are played, and both come
+ * back when the original set is restored.
  */
 export const FINISHED_KEY = "ep:finished";
 export const FINISHED_EVENT = "ep:finished-changed";
@@ -53,14 +51,6 @@ function addId(key: string, event: string, id: string): void {
   } catch {
     /* storage unavailable: ignore */
   }
-}
-
-export function getCompleted(): string[] {
-  return getIdList(COMPLETED_KEY);
-}
-
-export function markCompleted(lessonId: string): void {
-  addId(COMPLETED_KEY, COMPLETED_EVENT, lessonId);
 }
 
 export function getFinished(): string[] {
