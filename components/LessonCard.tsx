@@ -13,10 +13,14 @@ export type LessonSummary = {
   setSource: "seed" | "generated";
 };
 
-type Props = { lesson: LessonSummary; completed: boolean };
+type Props = {
+  lesson: LessonSummary;
+  /** True when the set currently in use has been played through on this device. */
+  finished: boolean;
+};
 
 /** Large full-width card, min 64px tall (spec §4.1). */
-export default function LessonCard({ lesson, completed }: Props) {
+export default function LessonCard({ lesson, finished }: Props) {
   return (
     <Link
       href={`/lesson/${lesson.id}`}
@@ -27,20 +31,28 @@ export default function LessonCard({ lesson, completed }: Props) {
       </span>
       <span className="min-w-0 flex-1">
         <span className="block text-base font-semibold leading-snug text-slate-900">{lesson.title}</span>
-        <span className="block text-sm text-slate-500">
-          {lesson.exerciseCount} exercise{lesson.exerciseCount === 1 ? "" : "s"}
-          {lesson.setSource === "generated" && <span className="text-sky-600"> · new set</span>}
+        {/* Status chips sit on their own row so the title keeps the full width. */}
+        <span className="mt-0.5 flex flex-wrap items-center gap-2 text-sm text-slate-500">
+          <span>
+            {lesson.exerciseCount} exercise{lesson.exerciseCount === 1 ? "" : "s"}
+          </span>
+          {lesson.setSource === "generated" && (
+            <span className="rounded-full bg-sky-100 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-sky-700">
+              New set
+            </span>
+          )}
+          {/* Tied to the set in use, so it clears when the questions are replaced. */}
+          {finished && (
+            <span
+              aria-label="Finished"
+              title="You have finished these questions"
+              className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-[11px] font-bold text-emerald-700"
+            >
+              ✓
+            </span>
+          )}
         </span>
       </span>
-      {completed && (
-        <span
-          aria-label="Completed"
-          title="Completed"
-          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-base font-bold text-emerald-700"
-        >
-          ✓
-        </span>
-      )}
     </Link>
   );
 }

@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useSyncExternalStore } from "react";
-import { loadResultRaw, markCompleted, parseResult } from "@/lib/storage";
+import { useMemo, useSyncExternalStore } from "react";
+import { loadResultRaw, parseResult } from "@/lib/storage";
 
 type Props = { lessonId: string; title: string };
 
@@ -15,11 +15,8 @@ export default function LessonDone({ lessonId, title }: Props) {
     () => loadResultRaw(lessonId),
     () => null,
   );
+  // The runner records the finished set before navigating here.
   const result = useMemo(() => parseResult(raw), [raw]);
-
-  useEffect(() => {
-    if (result) markCompleted(lessonId);
-  }, [result, lessonId]);
 
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-[640px] flex-col px-4 pb-6 pt-10">

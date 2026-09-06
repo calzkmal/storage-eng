@@ -17,8 +17,8 @@ const WRONG_FLASH_MS = 700;
  * - correct: both chips turn green with a check mark and stay locked;
  * - wrong: both chips flash red with a cross, then go back to the pool so the
  *   learner can try again.
- * Check becomes available once every pair is matched. Wrong taps are counted
- * and make the exercise count as "not quite" so it is reviewed once more.
+ * Check becomes available once every pair is matched, and finishing the board
+ * is a correct answer: a wrong tap is immediate feedback, not a penalty.
  * The right column is shuffled on mount; grading is by text, so duplicate
  * right-hand labels (e.g. two "General truth") are handled.
  */
@@ -28,7 +28,6 @@ export default function Matching({ exercise, onChange, disabled }: ExerciseProps
   );
   // leftIndex -> right item id, only for correct pairs
   const [matched, setMatched] = useState<Record<number, number>>({});
-  const [mistakes, setMistakes] = useState(0);
   const [selLeft, setSelLeft] = useState<number | null>(null);
   const [selRight, setSelRight] = useState<number | null>(null);
   const [wrong, setWrong] = useState<WrongFlash | null>(null);
@@ -42,7 +41,7 @@ export default function Matching({ exercise, onChange, disabled }: ExerciseProps
 
   const rightTaken = new Set(Object.values(matched));
 
-  function emit(nextMatched: Record<number, number>, nextMistakes: number) {
+  function emit(nextMatched: Record<number, number>) {
     const complete = exercise.pairs.every((_, i) => nextMatched[i] !== undefined);
     if (!complete) {
       onChange(null);
@@ -52,7 +51,7 @@ export default function Matching({ exercise, onChange, disabled }: ExerciseProps
     exercise.pairs.forEach((p, i) => {
       pairs[p.left] = rights.find((r) => r.id === nextMatched[i])!.text;
     });
-    onChange({ pairs, mistakes: nextMistakes });
+    onChange(pairs);
   }
 
   function connect(left: number, rightId: number) {
@@ -62,11 +61,9 @@ export default function Matching({ exercise, onChange, disabled }: ExerciseProps
     if (rightText === exercise.pairs[left].right) {
       const next = { ...matched, [left]: rightId };
       setMatched(next);
-      emit(next, mistakes);
+      emit(next);
       return;
     }
-    const nextMistakes = mistakes + 1;
-    setMistakes(nextMistakes);
     setWrong({ left, right: rightId });
     if (flashTimer.current) clearTimeout(flashTimer.current);
     flashTimer.current = setTimeout(() => setWrong(null), WRONG_FLASH_MS);
@@ -148,9 +145,7 @@ export default function Matching({ exercise, onChange, disabled }: ExerciseProps
           })}
         </div>
       </div>
-      <p className="mt-3 text-sm text-slate-500" aria-live="polite">
-        {mistakes === 0 ? "Tap a word on the left, then its match on the right." : `${mistakes} wrong tap${mistakes === 1 ? "" : "s"} so far.`}
-      </p>
+      <p className="mt-3 text-sm text-slate-500">Tap a word on the left, then its match on the right.</p>
     </div>
   );
 }
