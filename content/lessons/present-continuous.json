@@ -1,0 +1,90 @@
+{
+  "id": "present-continuous",
+  "category": 1,
+  "order": 1,
+  "title": "Present Continuous",
+  "intro": "Present continuous untuk hal yang sedang terjadi sekarang: am/is/are + kata kerja -ing. I am eating, She is working, They are playing.",
+  "exercises": [
+    {
+      "id": "prcont-mc-1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "She ___ a book right now.",
+      "options": ["is reading", "are reading", "am reading", "is read"],
+      "answer": "is reading",
+      "explanation": "Dengan 'she' gunakan is, lalu kata kerja + -ing: is reading. 'Right now' menandakan present continuous."
+    },
+    {
+      "id": "prcont-mc-2",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "They ___ football in the park.",
+      "options": ["is playing", "are playing", "am playing", "are play"],
+      "answer": "are playing",
+      "explanation": "'They' jamak, jadi pakai are + kata kerja -ing: are playing."
+    },
+    {
+      "id": "prcont-fb-1",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the present continuous",
+      "sentence": "I ___ (cook) nasi goreng now.",
+      "answer": ["am cooking"],
+      "explanation": "Dengan 'I' selalu pakai am: am cooking."
+    },
+    {
+      "id": "prcont-fb-2",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the present continuous",
+      "sentence": "My father ___ (drive) to work.",
+      "answer": ["is driving"],
+      "explanation": "'My father' berarti he, jadi is + driving. Kata kerja berakhiran -e menghilangkan e sebelum -ing: drive jadi driving."
+    },
+    {
+      "id": "prcont-wo-1",
+      "type": "word_order",
+      "prompt": "Put the words in the correct order",
+      "words": ["We", "are", "watching", "TV", "now"],
+      "answer": "We are watching TV now",
+      "explanation": "Subjek + are + kata kerja -ing + objek + waktu: We are watching TV now."
+    },
+    {
+      "id": "prcont-match-1",
+      "type": "matching",
+      "prompt": "Match each subject to its form of to be",
+      "pairs": [
+        { "left": "I", "right": "am working" },
+        { "left": "He", "right": "is working" },
+        { "left": "They", "right": "are working" },
+        { "left": "It", "right": "is working" }
+      ],
+      "explanation": "I memakai am. He, she, dan it memakai is. You, we, dan they memakai are."
+    },
+    {
+      "id": "prcont-mc-3",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "question": "Pick the correct present continuous sentence.",
+      "options": ["She is sitting outside.", "She sitting outside.", "She is sit outside."],
+      "answer": "She is sitting outside.",
+      "explanation": "Present continuous butuh dua bagian: is + kata kerja -ing. Sit menggandakan huruf t menjadi sitting."
+    },
+    {
+      "id": "prcont-flip-1",
+      "type": "flip_sentence",
+      "prompt": "Rewrite the sentence",
+      "source": "He writes a letter.",
+      "target": "present_continuous",
+      "answer": ["He is writing a letter."],
+      "explanation": "Present simple jadi present continuous: is + writing."
+    },
+    {
+      "id": "prcont-fw-1",
+      "type": "free_write",
+      "prompt": "Write your own sentence",
+      "task": "Write one sentence about what you are doing right now.",
+      "requirements": ["present continuous"],
+      "modelAnswer": "I am studying English right now.",
+      "explanation": "Gunakan am/is/are + kata kerja -ing, misalnya 'I am studying English right now.'"
+    }
+  ]
+}

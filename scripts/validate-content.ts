@@ -7,13 +7,15 @@
 import fs from "node:fs";
 import path from "node:path";
 import { LessonSchema, type ExerciseType } from "../lib/schema";
+import { categoryTitle } from "../lib/categories";
 
 const dir = path.join(process.cwd(), "content", "lessons");
 const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort();
 
 let errors = 0;
 const ids = new Set<string>();
-const orders = new Set<number>();
+const slots = new Set<string>();
+const byCategory = new Map<number, number>();
 const exerciseIds = new Set<string>();
 const typesSeen = new Set<ExerciseType>();
 
@@ -43,8 +45,15 @@ for (const file of files) {
 
   if (ids.has(lesson.id)) problems.push(`duplicate lesson id "${lesson.id}"`);
   ids.add(lesson.id);
-  if (orders.has(lesson.order)) problems.push(`duplicate lesson order ${lesson.order}`);
-  orders.add(lesson.order);
+  const slot = `${lesson.category}.${lesson.order}`;
+  if (slots.has(slot)) problems.push(`duplicate lesson slot ${slot}`);
+  slots.add(slot);
+  byCategory.set(lesson.category, (byCategory.get(lesson.category) ?? 0) + 1);
+  if (!categoryTitle(lesson.category).startsWith("Category ")) {
+    // known category, fine
+  } else {
+    problems.push(`category ${lesson.category} is not defined in lib/categories.ts`);
+  }
   if (file !== `${lesson.id}.json`) problems.push(`file name should be ${lesson.id}.json`);
 
   const n = lesson.exercises.length;
@@ -69,7 +78,16 @@ for (const file of files) {
     for (const p of problems) console.error(`    ${p}`);
     errors += problems.length;
   } else {
-    console.log(`✓ ${file}  (${n} exercises, ${aiCount} AI-graded)`);
+    console.log(`✓ ${lesson.category}.${lesson.order} ${file}  (${n} exercises, ${aiCount} AI-graded)`);
+  }
+}
+
+for (const [cat, count] of [...byCategory.entries()].sort((a, b) => a[0] - b[0])) {
+  for (let i = 1; i <= count; i++) {
+    if (!slots.has(`${cat}.${i}`)) {
+      console.error(`✗ category ${cat} ("${categoryTitle(cat)}") is missing position ${i}; orders must run 1..${count}`);
+      errors++;
+    }
   }
 }
 

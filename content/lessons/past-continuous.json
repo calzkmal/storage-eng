@@ -1,0 +1,90 @@
+{
+  "id": "past-continuous",
+  "category": 2,
+  "order": 2,
+  "title": "Past Continuous",
+  "intro": "Past continuous: was/were + kata kerja -ing. Untuk kegiatan yang sedang berlangsung di masa lalu. I dan he/she/it memakai was, you/we/they memakai were.",
+  "exercises": [
+    {
+      "id": "pastcont-mc-1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "She ___ when I called.",
+      "options": ["was sleeping", "were sleeping", "is sleeping", "was sleep"],
+      "answer": "was sleeping",
+      "explanation": "'She' memakai was, lalu kata kerja -ing: was sleeping."
+    },
+    {
+      "id": "pastcont-mc-2",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "They ___ football at 5 o'clock.",
+      "options": ["was playing", "were playing", "are playing", "were play"],
+      "answer": "were playing",
+      "explanation": "'They' memakai were, bukan was. Setelahnya kata kerja -ing: were playing."
+    },
+    {
+      "id": "pastcont-fb-1",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the past continuous",
+      "sentence": "I ___ (study) at 8 last night.",
+      "answer": ["was studying"],
+      "explanation": "'I' memakai was + kata kerja -ing: was studying."
+    },
+    {
+      "id": "pastcont-fb-2",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the past continuous",
+      "sentence": "We ___ (eat) when he arrived.",
+      "answer": ["were eating"],
+      "explanation": "'We' memakai were + eating."
+    },
+    {
+      "id": "pastcont-match-1",
+      "type": "matching",
+      "prompt": "Match each subject to was or were",
+      "pairs": [
+        { "left": "I", "right": "was" },
+        { "left": "She", "right": "was" },
+        { "left": "They", "right": "were" },
+        { "left": "You", "right": "were" }
+      ],
+      "explanation": "I, he, she, dan it memakai was. You, we, dan they memakai were."
+    },
+    {
+      "id": "pastcont-wo-1",
+      "type": "word_order",
+      "prompt": "Put the words in the correct order",
+      "words": ["was", "It", "raining", "morning", "this"],
+      "answer": "It was raining this morning",
+      "explanation": "Subjek + was + kata kerja -ing + keterangan waktu."
+    },
+    {
+      "id": "pastcont-mc-3",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "question": "Pick the correct past continuous sentence.",
+      "options": ["My parents were cooking.", "My parents was cooking.", "My parents were cook."],
+      "answer": "My parents were cooking.",
+      "explanation": "'My parents' jamak, jadi memakai were, dan kata kerjanya harus -ing: cooking."
+    },
+    {
+      "id": "pastcont-flip-1",
+      "type": "flip_sentence",
+      "prompt": "Rewrite the sentence",
+      "source": "He is running.",
+      "target": "past_continuous",
+      "answer": ["He was running."],
+      "explanation": "Present continuous jadi past continuous: is berubah menjadi was."
+    },
+    {
+      "id": "pastcont-fw-1",
+      "type": "free_write",
+      "prompt": "Write your own sentence",
+      "task": "Write one sentence about what you were doing last night.",
+      "requirements": ["past continuous"],
+      "modelAnswer": "I was watching television last night.",
+      "explanation": "Gunakan was/were + kata kerja -ing, misalnya 'I was watching television last night.'"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "future-perfect",
+  "category": 3,
+  "order": 3,
+  "title": "Future Perfect",
+  "intro": "Future perfect: will have + past participle. Untuk kegiatan yang akan sudah selesai sebelum waktu tertentu di masa depan. By Friday I will have finished the book.",
+  "exercises": [
+    {
+      "id": "futperf-mc-1",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "By Friday I ___ the book.",
+      "options": ["will have finished", "will finished", "will have finish", "have finished"],
+      "answer": "will have finished",
+      "explanation": "Rumusnya will have + past participle: will have finished."
+    },
+    {
+      "id": "futperf-mc-2",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct form",
+      "question": "She ___ the letter by tomorrow.",
+      "options": ["will have written", "will have write", "will has written", "will wrote"],
+      "answer": "will have written",
+      "explanation": "Will have + past participle. Bentuk ketiga dari write adalah written, dan will have tidak pernah menjadi will has."
+    },
+    {
+      "id": "futperf-fb-1",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the future perfect",
+      "sentence": "They ___ (eat) before we arrive.",
+      "answer": ["will have eaten"],
+      "explanation": "Will have + past participle. Bentuk ketiga dari eat adalah eaten."
+    },
+    {
+      "id": "futperf-fb-2",
+      "type": "fill_blank",
+      "prompt": "Complete the sentence with the future perfect",
+      "sentence": "By next year he ___ (learn) English.",
+      "answer": ["will have learned", "will have learnt"],
+      "explanation": "Will have + past participle. 'Learn' beraturan, jadi learned."
+    },
+    {
+      "id": "futperf-wo-1",
+      "type": "word_order",
+      "prompt": "Put the words in the correct order",
+      "words": ["will", "We", "have", "left", "then", "by"],
+      "answer": "We will have left by then",
+      "explanation": "Subjek + will have + past participle + keterangan waktu."
+    },
+    {
+      "id": "futperf-match-1",
+      "type": "matching",
+      "prompt": "Match each verb to its past participle",
+      "pairs": [
+        { "left": "make", "right": "made" },
+        { "left": "come", "right": "come" },
+        { "left": "buy", "right": "bought" },
+        { "left": "win", "right": "won" }
+      ],
+      "explanation": "Past participle dipakai setelah will have: make jadi made, come tetap come, buy jadi bought, win jadi won."
+    },
+    {
+      "id": "futperf-mc-3",
+      "type": "multiple_choice",
+      "prompt": "Which sentence is correct?",
+      "question": "Pick the correct future perfect sentence.",
+      "options": [
+        "They will have gone by six.",
+        "They will have went by six.",
+        "They will has gone by six."
+      ],
+      "answer": "They will have gone by six.",
+      "explanation": "Will have + past participle. Bentuk ketiga dari go adalah gone."
+    },
+    {
+      "id": "futperf-flip-1",
+      "type": "flip_sentence",
+      "prompt": "Rewrite the sentence",
+      "source": "He finishes his work.",
+      "target": "future_perfect",
+      "answer": ["He will have finished his work."],
+      "explanation": "Future perfect: will have + past participle."
+    },
+    {
+      "id": "futperf-fw-1",
+      "type": "free_write",
+      "prompt": "Write your own sentence",
+      "task": "Write one sentence about something you will have finished by next week.",
+      "requirements": ["future perfect"],
+      "modelAnswer": "I will have finished this course by next week.",
+      "explanation": "Gunakan will have + past participle, misalnya 'I will have finished this course by next week.'"
+    }
+  ]
+}

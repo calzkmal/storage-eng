@@ -4,6 +4,7 @@ import { findExercise } from "@/lib/content";
 import { cacheKey, gradeCache } from "@/lib/ai/cache";
 import { gradeWithModel } from "@/lib/ai/grade";
 import { checkRateLimit, getClientIp } from "@/lib/ai/rateLimit";
+import { TARGET_NAME, TARGET_REQUIREMENT } from "@/lib/flipTargets";
 import type { GradeContext, GradeResponse } from "@/lib/ai/types";
 
 export const runtime = "nodejs";
@@ -23,11 +24,6 @@ const BodySchema = z.object({
   context: ContextSchema.optional(),
 });
 
-const TARGET_REQUIREMENT: Record<string, string> = {
-  negative: "negative with don't/doesn't + base verb",
-  past: "past simple (regular -ed or the irregular forms went, ate, had, saw, did, wrote)",
-  future: "future with will/won't + base verb",
-};
 
 /**
  * Build the grading context. If the exercise exists in our content, use the
@@ -41,7 +37,7 @@ async function resolveContext(exerciseId: string, provided?: GradeContext): Prom
   }
   if (ex?.type === "flip_sentence") {
     return {
-      task: `Rewrite the sentence "${ex.source}" in the ${ex.target} form.`,
+      task: `Rewrite the sentence "${ex.source}" in the ${TARGET_NAME[ex.target]} form.`,
       requirements: [TARGET_REQUIREMENT[ex.target]],
       modelAnswer: ex.answer[0],
       acceptedAnswers: ex.answer,

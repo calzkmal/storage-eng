@@ -41,7 +41,17 @@ export const MatchingSchema = BaseSchema.extend({
 export const FlipSentenceSchema = BaseSchema.extend({
   type: z.literal("flip_sentence"),
   source: z.string().min(1),
-  target: z.enum(["negative", "past", "future"]),
+  target: z.enum([
+    "negative",
+    "present_continuous",
+    "present_perfect",
+    "past",
+    "past_continuous",
+    "past_perfect",
+    "future",
+    "future_continuous",
+    "future_perfect",
+  ]),
   answer: z.array(z.string().min(1)).min(1),
 });
 
@@ -73,6 +83,9 @@ const wordsKey = (s: string) =>
 export const LessonSchema = z
   .object({
     id: z.string().regex(/^[a-z0-9-]+$/, "id must be kebab-case"),
+    /** Category number, see lib/categories.ts. With `order` this reads as "1.2". */
+    category: z.number().int().positive().max(99),
+    /** Position within the category, 1-based. */
     order: z.number().int().positive(),
     title: z.string().min(1),
     intro: z.string().optional(),

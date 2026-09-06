@@ -4,11 +4,7 @@ import type { FlipSentence as FS } from "@/lib/schema";
 import { textInput } from "../ui";
 import type { ExerciseProps } from "./types";
 
-const TARGET_LABEL: Record<FS["target"], string> = {
-  negative: "Make it negative",
-  past: "Change it to the past",
-  future: "Change it to the future",
-};
+import { TARGET_LABEL } from "@/lib/flipTargets";
 
 /** Full-width text input; local compare first, then AI fallback (spec §6). */
 export default function FlipSentence({ exercise, value, onChange, disabled, onSubmit }: ExerciseProps<FS>) {
