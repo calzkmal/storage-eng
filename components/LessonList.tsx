@@ -3,6 +3,7 @@
 import { useState } from "react";
 import LessonCard, { type LessonSummary } from "./LessonCard";
 import { useCompleted } from "@/lib/useCompleted";
+import { useFinished } from "@/lib/useFinished";
 import { clearAllOverrides, clearOverride, requestGeneration, setOverride, useOverrides } from "@/lib/overrides";
 
 type CardState = { working: boolean; error?: string };
@@ -29,9 +30,14 @@ const RefreshIcon = ({ spinning }: { spinning: boolean }) => (
  * Regenerating every lesson back-to-back can take several minutes on free
  * models, so there is no "regenerate all" here on purpose: only a per-lesson
  * button, plus a way to clear all locally-stored sets at once.
+ *
+ * The regenerate button itself only appears once a lesson's currently active
+ * set (built-in or a previous regeneration) has actually been finished —
+ * see lib/useFinished.ts — so you cannot reroll a lesson before trying it.
  */
 export default function LessonList({ lessons }: { lessons: LessonSummary[] }) {
   const completed = useCompleted();
+  const finished = useFinished();
   const overrides = useOverrides();
   const [cards, setCards] = useState<Record<string, CardState>>({});
 
@@ -64,19 +70,21 @@ export default function LessonList({ lessons }: { lessons: LessonSummary[] }) {
                   completed={completed.has(lesson.id)}
                   regenerated={Boolean(ov)}
                 />
-                <button
-                  type="button"
-                  onClick={() => regenerate(lesson.id)}
-                  disabled={st.working}
-                  aria-label={`Regenerate exercises for lesson ${lesson.order}`}
-                  title="Regenerate exercises"
-                  className="flex w-14 shrink-0 flex-col items-center justify-center gap-0.5 rounded-2xl border-2 border-slate-200 bg-white text-sky-600 shadow-[0_2px_0_#e2e8f0] transition-colors active:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-40"
-                >
-                  <RefreshIcon spinning={st.working} />
-                  <span className="text-[11px] font-semibold uppercase tracking-wide">
-                    {st.working ? "Wait" : "New"}
-                  </span>
-                </button>
+                {finished.has(lesson.id) && (
+                  <button
+                    type="button"
+                    onClick={() => regenerate(lesson.id)}
+                    disabled={st.working}
+                    aria-label={`Regenerate exercises for lesson ${lesson.order}`}
+                    title="Regenerate exercises"
+                    className="flex w-14 shrink-0 flex-col items-center justify-center gap-0.5 rounded-2xl border-2 border-slate-200 bg-white text-sky-600 shadow-[0_2px_0_#e2e8f0] transition-colors active:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-40"
+                  >
+                    <RefreshIcon spinning={st.working} />
+                    <span className="text-[11px] font-semibold uppercase tracking-wide">
+                      {st.working ? "Wait" : "New"}
+                    </span>
+                  </button>
+                )}
               </div>
               {st.working && (
                 <p className="mt-1 px-1 text-sm text-sky-700" aria-live="polite">
@@ -97,6 +105,9 @@ export default function LessonList({ lessons }: { lessons: LessonSummary[] }) {
                     Reset to original
                   </button>
                 </p>
+              )}
+              {!ov && !finished.has(lesson.id) && !st.working && !st.error && (
+                <p className="mt-1 px-1 text-sm text-slate-400">Finish this lesson to unlock regenerating it.</p>
               )}
             </li>
           );

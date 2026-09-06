@@ -55,6 +55,8 @@ OpenRouter accepts at most 3 entries in `models` per request, so the wrapper sen
 
 On the home page, the button on the right of each lesson card asks the free models for a brand-new exercise set for that lesson. There is no "regenerate all": running all six back-to-back can take several minutes on free models, so it is one lesson at a time by choice. Each set keeps the lesson's type plan (same count and types, flip targets included), is validated against the content schema with up to three repair attempts, and is then stored in the browser's localStorage. The lesson runner uses the stored set when one exists; **Reset to original** goes back to the built-in file, and **Reset all to original** (shown once any lesson has a new set) clears all of them at once. Nothing is written on the server, so this works the same on Vercel. The endpoint is rate-limited to 12 regenerations per 10 minutes per IP.
 
+**The regenerate button only appears once a lesson's current set has actually been finished.** A lesson never played shows no button, just a "Finish this lesson to unlock regenerating it." hint. Completing a lesson (built-in or a previous regeneration) sets a `finished` flag for it (`lib/useFinished.ts`); regenerating a new set clears that flag for the lesson (you have to finish the new set before rolling again), while resetting to original restores it, since the original was necessarily finished at some point to unlock regeneration in the first place. "Reset to original" itself stays available at any time, even before finishing a freshly generated set, so you are never stuck with content you don't want.
+
 The API key comes from `OPENROUTER_API_KEY` only: `.env.local` locally, the project's environment variables on Vercel.
 
 ### Testing fallback

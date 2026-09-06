@@ -1,10 +1,3 @@
-/**
- * Thin fetch wrapper around OpenRouter chat completions (spec §7.2).
- * - Sends a `models` array so OpenRouter handles cross-model fallback itself.
- * - Enforces a timeout via AbortController.
- * - Never hand-rolls a retry loop across models.
- */
-
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 export type ChatMessage = { role: "system" | "user" | "assistant"; content: string };

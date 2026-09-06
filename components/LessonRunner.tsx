@@ -12,7 +12,7 @@ import {
   type AnswerValue,
 } from "@/lib/grading";
 import { shuffleChanged } from "@/lib/shuffle";
-import { markCompleted, saveResult, type WrongItem } from "@/lib/storage";
+import { markCompleted, markFinished, saveResult, type WrongItem } from "@/lib/storage";
 import { getOverride } from "@/lib/overrides";
 import { buildGradeRequest, requestAIGrade } from "@/lib/ai/client";
 import TopBar from "./TopBar";
@@ -129,6 +129,7 @@ export default function LessonRunner({ lesson, shuffle }: Props) {
     setFinishing(true);
     saveResult({ lessonId: lesson.id, total: order.length, wrong: wrongFirst, finishedAt: Date.now() });
     markCompleted(lesson.id);
+    markFinished(lesson.id);
     router.push(`/lesson/${lesson.id}/done`);
   }
 

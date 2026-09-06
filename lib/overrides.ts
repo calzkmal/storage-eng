@@ -2,6 +2,7 @@
 
 import { useMemo, useSyncExternalStore } from "react";
 import type { Exercise } from "./schema";
+import { clearFinished, markFinished } from "./storage";
 
 /**
  * Regenerated exercise sets live on the learner's device (localStorage) so the
@@ -68,18 +69,32 @@ function write(all: Overrides): void {
   }
 }
 
+/**
+ * A freshly generated set replaces the lesson's active content, so it clears
+ * the "finished" flag: the regenerate button only reappears (see
+ * lib/useFinished.ts) once this new set has actually been played through.
+ */
 export function setOverride(lessonId: string, override: Omit<LessonOverride, "generatedAt">): void {
   write({ ...getOverrides(), [lessonId]: { ...override, generatedAt: Date.now() } });
+  clearFinished(lessonId);
 }
 
+/**
+ * Reverting to the built-in file restores content that, by construction, was
+ * already finished at least once (you can only regenerate a lesson after
+ * finishing its current set), so it is safe to mark it finished again.
+ */
 export function clearOverride(lessonId: string): void {
   const all = getOverrides();
   delete all[lessonId];
   write(all);
+  markFinished(lessonId);
 }
 
 export function clearAllOverrides(): void {
+  const ids = Object.keys(getOverrides());
   write({});
+  ids.forEach(markFinished);
 }
 
 function subscribe(cb: () => void) {
