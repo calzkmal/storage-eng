@@ -1,11 +1,6 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-/**
- * Server-only Supabase client. Uses the service-role key, so this module must
- * never be imported from a client component. All question storage goes
- * through lib/content.ts, which falls back to the bundled JSON files when
- * these variables are missing.
- */
+// Server-only: uses the service-role key. Never import from a client component.
 
 let client: SupabaseClient | null | undefined;
 

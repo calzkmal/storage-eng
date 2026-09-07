@@ -24,12 +24,7 @@ const BodySchema = z.object({
   context: ContextSchema.optional(),
 });
 
-
-/**
- * Build the grading context. If the exercise exists in our content, use the
- * server-side copy so clients cannot tamper with the prompt; otherwise fall
- * back to the client-provided context.
- */
+/** Prefer our own copy so clients cannot tamper with the prompt. */
 async function resolveContext(exerciseId: string, provided?: GradeContext): Promise<GradeContext | null> {
   const ex = await findExercise(exerciseId);
   if (ex?.type === "free_write") {
@@ -54,7 +49,6 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
   }
 
-  // 1. Validate
   const parsed = BodySchema.safeParse(json);
   if (!parsed.success) {
     return NextResponse.json(
@@ -69,7 +63,6 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Unknown exercise and no context provided" }, { status: 400 });
   }
 
-  // 2. Cache
   const key = cacheKey(exerciseId, userAnswer);
   const hit = gradeCache.get(key);
   if (hit) {
@@ -77,7 +70,6 @@ export async function POST(req: Request) {
     return NextResponse.json(body);
   }
 
-  // 3. Rate limit
   const ip = getClientIp(req);
   const rl = checkRateLimit(ip);
   if (!rl.allowed) {
@@ -87,7 +79,6 @@ export async function POST(req: Request) {
     );
   }
 
-  // 4-5. Call the model (one JSON retry inside), else fallback
   const started = Date.now();
   const outcome = await gradeWithModel(ctx, userAnswer);
   const ms = Date.now() - started;
@@ -95,7 +86,7 @@ export async function POST(req: Request) {
   let body: GradeResponse;
   if (outcome.ok) {
     body = { ...outcome.result, source: "ai", modelUsed: outcome.modelUsed };
-    // 6. Cache only real results, never fallbacks.
+    // Never cache fallbacks.
     gradeCache.set(key, { ...outcome.result, modelUsed: outcome.modelUsed });
   } else {
     body = {

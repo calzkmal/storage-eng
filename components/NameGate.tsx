@@ -3,22 +3,18 @@
 import { useState } from "react";
 import { saveLearner, useLearner } from "@/lib/learner";
 
-/**
- * First-visit prompt. Asks for a name once and keeps it on the device, so
- * progress is tracked without an account. The name is only a label: the
- * profile is identified by a random id stored alongside it.
- */
+/** First-visit name prompt. The name is a label; the id beside it is the identity. */
 export default function NameGate() {
   const learner = useLearner();
   const [name, setName] = useState("");
 
-  // undefined = not read yet (server render), null = no profile on this device.
+  // undefined while unread on the server; null means no profile here.
   if (learner !== null) return null;
 
   function submit(e: React.FormEvent) {
     e.preventDefault();
     if (!name.trim()) return;
-    // Saves locally and closes at once; the server copy goes out in the background.
+
     saveLearner(name);
   }
 

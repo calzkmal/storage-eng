@@ -1,7 +1,4 @@
-/**
- * Lesson categories. A lesson carries a `category` number and an `order`
- * within it, so the pair renders as "1.2" and groups the home page.
- */
+// A lesson's `category` and `order` render as "1.2" and group the home page.
 export const CATEGORIES: Record<number, string> = {
   1: "Present tenses",
   2: "Past tenses",

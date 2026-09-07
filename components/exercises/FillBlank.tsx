@@ -3,7 +3,7 @@
 import type { FillBlank as FB } from "@/lib/schema";
 import type { ExerciseProps } from "./types";
 
-/** Inline text input inside the sentence; autocapitalize off (spec §6). */
+/** Inline input inside the sentence. */
 export default function FillBlank({ exercise, value, onChange, disabled, onSubmit }: ExerciseProps<FB>) {
   const text = typeof value === "string" ? value : "";
   const [before, ...restParts] = exercise.sentence.split("___");

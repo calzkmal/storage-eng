@@ -9,7 +9,7 @@ type Props = {
   onClick: () => void;
   disabled?: boolean;
   tone: BottomTone;
-  /** Feedback panel rendered above the button; the whole bar takes the tone colour. */
+  /** Rendered above the button; the bar takes the same tone. */
   panel?: ReactNode;
 };
 
@@ -27,7 +27,7 @@ const buttonTone: Record<BottomTone, string> = {
   unverified: "bg-amber-600 text-white shadow-[0_4px_0_#b45309] active:translate-y-[2px] active:shadow-[0_2px_0_#b45309]",
 };
 
-/** Sticky bottom bar with one full-width primary button, min 52px tall (spec §4.2). */
+/** Sticky bar with one primary button. */
 export default function BottomBar({ label, onClick, disabled, tone, panel }: Props) {
   return (
     <div className={`shrink-0 pb-[env(safe-area-inset-bottom)] ${wrapperTone[tone]}`}>

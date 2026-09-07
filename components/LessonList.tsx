@@ -35,7 +35,7 @@ const LockIcon = () => (
   </svg>
 );
 
-/** Counter-clockwise arrow: put the original questions back. */
+/** Revert to the original questions. */
 const RevertIcon = () => (
   <svg {...iconProps}>
     <path d="M4 12a8 8 0 1 0 2.34-5.66" />
@@ -52,17 +52,8 @@ type Props = {
   storageReady: boolean;
 };
 
-/**
- * Lesson cards grouped into the syllabus categories (lib/categories.ts), each
- * with a regenerate button on the right. The button is always visible but
- * locked until the set in use has been played through (lib/useFinished.ts). A
- * lesson running AI-written questions is marked by a "New set" badge on the
- * card and gains a second button that puts the original questions back, so no
- * status text is needed under the card.
- *
- * There is deliberately no "regenerate all": running every lesson one after
- * another would take many minutes on free models.
- */
+// Cards grouped by category. Regenerate is locked until the set has been played.
+// No "regenerate all" on purpose: every lesson in a row takes minutes on free models.
 export default function LessonList({ lessons, storageReady }: Props) {
   const router = useRouter();
   const finished = useFinished();
@@ -72,7 +63,7 @@ export default function LessonList({ lessons, storageReady }: Props) {
   const anyWorking = Object.values(cards).some((c) => c.working);
   const generated = lessons.filter((l) => l.setSource === "generated");
 
-  // Lessons arrive sorted by category then order; keep that order in the groups.
+  // Already sorted by category then order.
   const groups = [...lessons.reduce((m, l) => {
     const list = m.get(l.category);
     if (list) list.push(l);
@@ -109,7 +100,7 @@ export default function LessonList({ lessons, storageReady }: Props) {
             {inCategory.map((lesson) => {
           const st = cards[lesson.id] ?? { working: false };
           const isGenerated = lesson.setSource === "generated";
-          // A regenerated set has a new id, so the lesson locks again until it is played.
+          // A regenerated set has a new id, so it locks again until played.
           const unlocked = finished.has(lesson.setId);
           const canRegenerate = unlocked && storageReady && !st.working;
           const tip = st.working

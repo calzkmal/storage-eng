@@ -10,10 +10,7 @@ type BankItem = { word: string; id: number };
 const chip =
   "inline-flex min-h-12 items-center rounded-xl border-2 px-4 text-base font-medium select-none transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 disabled:cursor-default";
 
-/**
- * Word bank at the bottom; tapping a chip moves it into the sentence slot,
- * tapping a placed chip returns it (spec §6). The bank is shuffled on mount.
- */
+/** Tap a bank chip to place it, tap a placed chip to return it. */
 export default function WordOrder({ exercise, onChange, disabled }: ExerciseProps<WO>) {
   const [bank] = useState<BankItem[]>(() =>
     shuffleChanged(exercise.words.map((word, id) => ({ word, id }))),

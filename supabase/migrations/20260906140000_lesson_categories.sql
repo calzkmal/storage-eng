@@ -1,13 +1,9 @@
--- Group lessons into categories. `position` becomes the order WITHIN a
--- category, so (category, position) renders as "1.2" and sorts the home page.
---
--- Run this once in the Supabase SQL editor (or via the Supabase MCP server),
--- then `npm run seed:supabase` to load the restructured lesson files.
+-- Categories. `position` becomes the order WITHIN a category, so the pair renders as "1.2".
 
 alter table public.lessons
   add column if not exists category integer not null default 1;
 
--- Order within a category has to be unique, the old global one does not.
+-- Only (category, position) needs to be unique now.
 do $$
 begin
   if exists (select 1 from pg_constraint where conname = 'lessons_position_key') then

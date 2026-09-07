@@ -28,7 +28,7 @@ export default function HistoryView() {
   const [renaming, setRenaming] = useState(false);
   const [draft, setDraft] = useState("");
 
-  // Renaming keeps the same id, so the history is fetched once per profile.
+  // Renaming keeps the id, so this fetches once per profile.
   const learnerId = learner?.id;
 
   useEffect(() => {

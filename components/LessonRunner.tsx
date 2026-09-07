@@ -24,24 +24,17 @@ import ExerciseView from "./exercises/ExerciseView";
 type Props = { lesson: Lesson; setId: string };
 type Phase = "main" | "review";
 
-/**
- * The lesson loop (spec §4.2): one exercise per screen → Check → feedback → Continue.
- * Wrong answers in the main pass are queued once and replayed at the end ("Review n / m").
- * `setId` identifies the exercise set being played; finishing marks that set as
- * done on this device, which unlocks regeneration for it on the home page.
- */
+// One exercise per screen: Check, feedback, Continue. Wrong answers replay once at the end.
 export default function LessonRunner({ lesson, setId }: Props) {
   const router = useRouter();
   const learner = useLearner();
 
-  // "Practice again" links here with ?shuffle=1 (spec §4.3). Read from the URL
-  // rather than passed in, so the lesson page can stay statically rendered.
-  // Safe to touch `window`: this component is loaded client-only.
+  // Read from the URL, not props, so the lesson page stays static. Client-only component.
   const [order] = useState<Exercise[]>(() => {
     const shuffle = new URLSearchParams(window.location.search).get("shuffle") === "1";
     return shuffle ? shuffleChanged(lesson.exercises) : lesson.exercises;
   });
-  // Groups this pass through the lesson in the history.
+  // Groups this pass in the history.
   const [runId] = useState(() => {
     try {
       return crypto.randomUUID();
@@ -64,7 +57,7 @@ export default function LessonRunner({ lesson, setId }: Props) {
   const attemptRef = useRef(0);
   const touched = useRef(false);
 
-  // Warm the done route so ending a lesson does not wait on a round trip.
+  // Warm the done route so finishing does not wait.
   useEffect(() => {
     router.prefetch(`/lesson/${lesson.id}/done`);
   }, [router, lesson.id]);
@@ -78,7 +71,7 @@ export default function LessonRunner({ lesson, setId }: Props) {
   function applyResult(ex: Exercise, fb: Feedback, value: AnswerValue, gradedBy: GradedBy) {
     setFeedback(fb);
 
-    // Best effort history: never blocks or fails the lesson.
+    // Best effort.
     if (learner) {
       recordAttempt({
         learnerId: learner.id,
@@ -129,7 +122,7 @@ export default function LessonRunner({ lesson, setId }: Props) {
       return;
     }
 
-    // AI path: free_write always, flip_sentence when no accepted answer matched.
+    // free_write always; flip_sentence only when no accepted answer matched.
     const req = buildGradeRequest(ex, String(value));
     if (!req) return;
 
@@ -147,10 +140,10 @@ export default function LessonRunner({ lesson, setId }: Props) {
         res.source === "cache" ? "cache" : "ai",
       );
     } else if (ex.type === "flip_sentence") {
-      // Spec §6: if AI unavailable, mark wrong and show answer[0].
+      // No AI: mark wrong and show the expected answer.
       applyResult(ex, { status: "wrong", correctAnswer: ex.answer[0], explanation: ex.explanation }, value, "fallback");
     } else {
-      // free_write with no AI: show the model answer, do not count as wrong (spec §4.4).
+      // No AI on a free write: show the model answer rather than judging it.
       applyResult(
         ex,
         { status: "unverified", correctAnswer: correctAnswerText(ex), explanation: res?.explanation ?? "" },
@@ -182,15 +175,14 @@ export default function LessonRunner({ lesson, setId }: Props) {
     router.push(`/lesson/${lesson.id}/done`);
   }
 
-  /** True when pressing Continue ends the lesson rather than moving on. */
+  /** Continue ends the lesson rather than advancing. */
   function isLastStep(): boolean {
     return phase === "main" ? index + 1 >= order.length && retryQueue.length === 0 : index + 1 >= retryQueue.length;
   }
 
   function next() {
-    // On the last step, do NOT clear the answer first: navigation to the done
-    // screen is asynchronous, and resetting here made the final question flash
-    // back on screen, unanswered, until the route loaded.
+    // Do not reset first: navigation is async, and resetting flashed the last
+    // question back on screen, unanswered, until the route loaded.
     if (isLastStep()) {
       finish();
       return;
@@ -214,7 +206,7 @@ export default function LessonRunner({ lesson, setId }: Props) {
     else router.push("/");
   }
 
-  // Bottom bar state
+  // Bottom bar
   let label = "Check";
   let tone: BottomTone = "primary";
   let disabled = false;

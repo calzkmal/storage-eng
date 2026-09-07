@@ -4,11 +4,7 @@ import { getLesson, isDbConfigured, resetLessonToSeed } from "@/lib/content";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-/**
- * POST /api/lessons/[id]/reset
- * Makes the lesson's seeded original set active again. Generated sets stay in
- * the database as history.
- */
+/** Activates the seeded original set again. Generated sets stay as history. */
 export async function POST(_req: Request, ctx: { params: Promise<{ id: string }> }) {
   const { id } = await ctx.params;
   const lesson = await getLesson(id);

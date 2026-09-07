@@ -2,7 +2,7 @@ import type { FlipSentence } from "./schema";
 
 export type FlipTarget = FlipSentence["target"];
 
-/** Shown above the sentence in the exercise. */
+/** Shown above the sentence. */
 export const TARGET_LABEL: Record<FlipTarget, string> = {
   negative: "Make it negative",
   present_continuous: "Change it to the present continuous",
@@ -15,7 +15,7 @@ export const TARGET_LABEL: Record<FlipTarget, string> = {
   future_perfect: "Change it to the future perfect",
 };
 
-/** Short name of the target form, used in the AI grading task line. */
+/** Used in the AI grading task line. */
 export const TARGET_NAME: Record<FlipTarget, string> = {
   negative: "negative",
   present_continuous: "present continuous",
@@ -28,7 +28,7 @@ export const TARGET_NAME: Record<FlipTarget, string> = {
   future_perfect: "future perfect",
 };
 
-/** The rule the answer has to satisfy, given to the grader as a requirement. */
+/** Given to the grader as a requirement. */
 export const TARGET_REQUIREMENT: Record<FlipTarget, string> = {
   negative: "negative with don't/doesn't + base verb",
   present_continuous: "present continuous (am/is/are + verb-ing)",

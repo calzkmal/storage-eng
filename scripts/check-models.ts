@@ -1,9 +1,4 @@
-/**
- * Compare the configured free-model list with what OpenRouter currently offers (spec §7.2).
- * Free models rotate; run this periodically and update lib/ai/models.ts.
- *
- *   npm run check-models
- */
+// Compares lib/ai/models.ts with OpenRouter's live :free list.
 import { FREE_MODELS } from "../lib/ai/models";
 import { listFreeModelIds } from "../lib/ai/openrouter";
 

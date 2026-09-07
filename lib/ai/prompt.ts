@@ -2,7 +2,7 @@ import { z } from "zod";
 import { GRAMMAR_SCOPE, IRREGULAR_VERBS } from "./scope";
 import type { GradeContext, GradeResult } from "./types";
 
-/** Fixed system prompt (spec §7.3), scoped to the syllabus in lib/ai/scope.ts. */
+/** Grading prompt, scoped to lib/ai/scope.ts. */
 export const SYSTEM_PROMPT = `You are an English grammar checker for beginners. Judge only these topics:
 ${GRAMMAR_SCOPE}
 Irregular verbs in use (base/past/past participle): ${IRREGULAR_VERBS}
@@ -34,7 +34,7 @@ const GradeResultSchema = z.object({
   explanation: z.string(),
 });
 
-/** Strip ``` fences and any prose around the first {...} block, then parse + validate. */
+/** Strip fences and surrounding prose, then parse. */
 export function parseGradeJson(raw: string): GradeResult | null {
   let text = raw.trim();
   text = text.replace(/^```(?:json)?\s*/i, "").replace(/\s*```$/, "").trim();

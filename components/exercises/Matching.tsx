@@ -11,22 +11,13 @@ type WrongFlash = { left: number; right: number };
 
 const WRONG_FLASH_MS = 700;
 
-/**
- * Two columns of chips; tap one left then one right to connect.
- * Each pair is checked the moment it is connected (Duolingo style):
- * - correct: both chips turn green with a check mark and stay locked;
- * - wrong: both chips flash red with a cross, then go back to the pool so the
- *   learner can try again.
- * Check becomes available once every pair is matched, and finishing the board
- * is a correct answer: a wrong tap is immediate feedback, not a penalty.
- * The right column is shuffled on mount; grading is by text, so duplicate
- * right-hand labels (e.g. two "General truth") are handled.
- */
+// Each pair is checked as it is connected: correct locks green, wrong flashes
+// red and returns to the pool. Finishing the board is a correct answer.
 export default function Matching({ exercise, onChange, disabled }: ExerciseProps<M>) {
   const [rights] = useState<RightItem[]>(() =>
     shuffleChanged(exercise.pairs.map((p, id) => ({ text: p.right, id }))),
   );
-  // leftIndex -> right item id, only for correct pairs
+  // leftIndex -> right item id, correct pairs only
   const [matched, setMatched] = useState<Record<number, number>>({});
   const [selLeft, setSelLeft] = useState<number | null>(null);
   const [selRight, setSelRight] = useState<number | null>(null);

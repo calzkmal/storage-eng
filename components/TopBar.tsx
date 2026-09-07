@@ -5,7 +5,7 @@ type Props = {
   onExit: () => void;
 };
 
-/** ✕ to exit + a plain text position indicator (spec §4.2). Not a progress bar. */
+/** Exit plus a plain position indicator. Not a progress bar. */
 export default function TopBar({ counter, onExit }: Props) {
   return (
     <header className="flex h-14 shrink-0 items-center justify-between px-2">

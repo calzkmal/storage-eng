@@ -8,7 +8,7 @@ export type Feedback = {
   explanation: string;
 };
 
-/** Duolingo-style feedback panel. Dismissed only via the Continue button (spec §4.2). */
+/** Dismissed only via Continue. */
 export default function FeedbackPanel({ feedback }: { feedback: Feedback }) {
   const { status, correctAnswer, explanation } = feedback;
 

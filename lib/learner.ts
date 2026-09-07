@@ -2,16 +2,8 @@
 
 import { useMemo, useSyncExternalStore } from "react";
 
-/**
- * Accountless identity.
- *
- * The learner is identified by a random UUID minted in the browser and kept in
- * localStorage. The name they type is only a label on that UUID, never the
- * identity itself: two people who type "Budi" are two different learners, and
- * one person on two devices is two learners. The id survives closing and
- * reopening the browser; it does not survive clearing site data, a private
- * window, another browser, or another device.
- */
+// Identity is a random UUID in localStorage; the name is only a label on it.
+// Survives a browser restart, not cleared site data or another device.
 
 export const LEARNER_KEY = "ep:learner";
 export const LEARNER_EVENT = "ep:learner-changed";
@@ -48,7 +40,7 @@ function write(learner: Learner): void {
     window.localStorage.setItem(LEARNER_KEY, JSON.stringify(learner));
     window.dispatchEvent(new Event(LEARNER_EVENT));
   } catch {
-    /* storage unavailable: the session still works, history just is not kept */
+    // Storage unavailable: history just is not kept.
   }
 }
 
@@ -56,16 +48,12 @@ function newId(): string {
   try {
     return crypto.randomUUID();
   } catch {
-    // Very old browsers: good enough for an anonymous local id.
+    // Old browsers.
     return `${Date.now().toString(16)}-${Math.random().toString(16).slice(2, 10)}`;
   }
 }
 
-/**
- * Create the profile on first visit, or rename the existing one, keeping the
- * same id. The local write is what matters and is synchronous; the server copy
- * is sent in the background, so entering a name never waits on the network.
- */
+/** Create or rename the profile, keeping the same id. Server copy is sent in the background. */
 export function saveLearner(name: string): Learner {
   const trimmed = name.trim().slice(0, 40);
   const existing = getLearner();
@@ -79,7 +67,7 @@ export function saveLearner(name: string): Learner {
       keepalive: true,
     }).catch(() => {});
   } catch {
-    /* ignore: the profile still works, only the server copy is missing */
+    // The profile still works without the server copy.
   }
   return learner;
 }
@@ -95,11 +83,7 @@ function subscribe(cb: () => void) {
 
 const getServerSnapshot = () => "";
 
-/**
- * Current profile, hydration-safe. `undefined` means "not read yet" (server
- * render), `null` means "no profile on this device", so a first-visit prompt
- * can wait for the real answer instead of flashing.
- */
+/** `undefined` while unread on the server, `null` when there is no profile. */
 export function useLearner(): Learner | null | undefined {
   const raw = useSyncExternalStore(subscribe, readRaw, getServerSnapshot);
   const mounted = useSyncExternalStore(
@@ -110,7 +94,7 @@ export function useLearner(): Learner | null | undefined {
   return useMemo(() => (mounted ? parseLearner(raw) : undefined), [mounted, raw]);
 }
 
-/** Record one checked answer. Fire and forget: history is best effort. */
+/** Record one answer. Fire and forget. */
 export function recordAttempt(body: Record<string, unknown>): void {
   try {
     const payload = JSON.stringify(body);

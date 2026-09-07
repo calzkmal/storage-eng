@@ -5,11 +5,7 @@ import LessonList from "@/components/LessonList";
 import NameGate from "@/components/NameGate";
 import LearnerGreeting from "@/components/LearnerGreeting";
 
-/**
- * Statically rendered and served from the CDN. It reads the lessons through
- * the tagged cache in lib/content.ts, so regenerating or resetting a set
- * revalidates this page too; it does not need to be dynamic to stay correct.
- */
+// Static. Reads through the tagged cache, so a regenerate revalidates it.
 
 export default async function HomePage() {
   const lessons = (await getLessonOverviews()).map((l: LessonOverview) => ({

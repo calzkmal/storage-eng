@@ -10,12 +10,7 @@ export const maxDuration = 300;
 
 const BodySchema = z.object({ lessonId: z.string().min(1).max(100) });
 
-/**
- * POST /api/ai/generate  { lessonId }
- * Generates a new, schema-valid exercise set for one lesson with the free-model
- * list, stores it in the question database as the next version, and makes it
- * the lesson's active set for everyone.
- */
+/** Generates a new set for one lesson, stores it as the next version, and activates it. */
 export async function POST(req: Request) {
   let json: unknown;
   try {

@@ -1,4 +1,4 @@
-/** Shared class strings for large, tappable chips (spec §4.4: chips, never radio circles). */
+// Shared chip classes.
 
 export const chipBase =
   "flex min-h-14 w-full items-center rounded-2xl border-2 px-4 py-3 text-left text-base font-medium leading-snug transition-colors select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 disabled:cursor-default";
@@ -9,10 +9,10 @@ export const chipSelected = "border-sky-400 bg-sky-50 text-sky-900 shadow-[0_2px
 
 export const chipDimmed = "border-slate-200 bg-slate-100 text-slate-400 shadow-none scale-[0.97]";
 
-/** A matched pair that was correct: stays green and locked. */
+/** Matched and locked. */
 export const chipCorrect = "border-emerald-400 bg-emerald-50 text-emerald-800 shadow-none";
 
-/** A pair that was just matched wrongly: flashes red, then returns to the pool. */
+/** Flashes red, then returns to the pool. */
 export const chipWrong = "border-rose-400 bg-rose-50 text-rose-800 shadow-none";
 
 export const textInput =

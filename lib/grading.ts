@@ -14,7 +14,7 @@ export type LocalGrade = { correct: boolean; correctAnswer: string };
 
 const fixQuotes = (s: string) => s.replace(/[’‘]/g, "'").replace(/[“”]/g, '"');
 
-/** trim, lowercase, collapse spaces, strip trailing period/punctuation. */
+/** Trim, lowercase, collapse spaces, strip trailing punctuation. */
 export function normalize(s: string): string {
   return fixQuotes(s)
     .trim()
@@ -24,7 +24,7 @@ export function normalize(s: string): string {
     .trim();
 }
 
-/** Like normalize, but strips all punctuation except apostrophes. */
+/** Also strips punctuation except apostrophes. */
 export function normalizeLoose(s: string): string {
   return fixQuotes(s)
     .toLowerCase()
@@ -33,7 +33,7 @@ export function normalizeLoose(s: string): string {
     .trim();
 }
 
-/** Human-readable correct answer for the feedback panel and the done screen. */
+/** Correct answer, for the feedback panel and done screen. */
 export function correctAnswerText(ex: Exercise): string {
   switch (ex.type) {
     case "multiple_choice":
@@ -51,7 +51,7 @@ export function correctAnswerText(ex: Exercise): string {
   }
 }
 
-/** Short text used to identify the exercise on the done screen. */
+/** Identifies the exercise on the done screen. */
 export function exerciseSummary(ex: Exercise): string {
   switch (ex.type) {
     case "multiple_choice":
@@ -69,7 +69,7 @@ export function exerciseSummary(ex: Exercise): string {
   }
 }
 
-/** Format a user's answer for display. */
+/** The user's answer, for display. */
 export function answerText(ex: Exercise, value: AnswerValue): string {
   if (typeof value === "string") return value;
   if (Array.isArray(value)) return value.join(" ");
@@ -79,7 +79,7 @@ export function answerText(ex: Exercise, value: AnswerValue): string {
   return JSON.stringify(value);
 }
 
-/** Whether the answer is complete enough to enable "Check". */
+/** Complete enough to enable Check. */
 export function canCheck(ex: Exercise, value: AnswerValue | null): boolean {
   if (value == null) return false;
   switch (ex.type) {
@@ -96,10 +96,7 @@ export function canCheck(ex: Exercise, value: AnswerValue | null): boolean {
   }
 }
 
-/**
- * Grade locally. Returns null when the exercise needs the AI
- * (free_write always; flip_sentence when no accepted answer matches).
- */
+/** Returns null when the exercise needs the AI. */
 export function gradeLocal(ex: Exercise, value: AnswerValue): LocalGrade | null {
   const correctAnswer = correctAnswerText(ex);
   switch (ex.type) {
@@ -115,9 +112,7 @@ export function gradeLocal(ex: Exercise, value: AnswerValue): LocalGrade | null 
     }
     case "matching": {
       if (!isPairMap(value)) return { correct: false, correctAnswer };
-      // Each pair is checked as it is tapped and a wrong one bounces back, so
-      // finishing the board is a correct answer. Wrong taps along the way are
-      // feedback while playing, not a penalty.
+      // Wrong pairs bounce back while playing, so a finished board is correct.
       return { correct: ex.pairs.every((p) => value[p.left] === p.right), correctAnswer };
     }
     case "flip_sentence": {

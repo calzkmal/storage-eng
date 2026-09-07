@@ -1,13 +1,5 @@
--- Question storage for English Practice.
---
--- lessons        one row per lesson (id matches content/lessons/<id>.json)
--- exercise_sets  every set of questions ever stored for a lesson: the seeded
---                original (source = 'seed', version 1) and each AI-generated
---                set after it. Nothing is deleted; lessons.active_set_id says
---                which set learners currently get.
---
--- Run this once in the Supabase SQL editor (or via the Supabase MCP server),
--- then `npm run seed:supabase` to load the six lesson files.
+-- Question storage. exercise_sets keeps every version ever stored;
+-- lessons.active_set_id says which one learners get.
 
 create extension if not exists pgcrypto;
 
@@ -46,6 +38,6 @@ end $$;
 create index if not exists exercise_sets_lesson_version_idx
   on public.exercise_sets (lesson_id, version desc);
 
--- Locked down: only the service-role key (used server-side) can read or write.
+-- Service-role only.
 alter table public.lessons enable row level security;
 alter table public.exercise_sets enable row level security;
