@@ -3,14 +3,19 @@
   "category": 5,
   "order": 1,
   "title": "Do, Don't, Doesn't",
-  "intro": "Kalimat positif memakai kata kerja biasa (I eat, She eats). Untuk kalimat negatif: I, you, we, they + don't + kata kerja dasar; he, she, it + doesn't + kata kerja dasar. Setelah doesn't, kata kerja kehilangan -s.",
+  "intro": "Kalimat positif memakai kata kerja biasa. Untuk kalimat negatif: I, you, we, they + don't + kata kerja dasar, sedangkan he, she, it + doesn't + kata kerja dasar. Setelah doesn't, kata kerja kehilangan -s.\nI eat rice.\nShe eats rice.\nThey don't eat rice.\nHe doesn't eat rice.",
   "exercises": [
     {
       "id": "dodont-mc-1",
       "type": "multiple_choice",
       "prompt": "Choose the correct word",
       "question": "She ___ like durian.",
-      "options": ["don't", "doesn't", "not", "isn't"],
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
       "answer": "doesn't",
       "explanation": "'She' memakai doesn't. Kata kerja setelahnya tetap bentuk dasar: like."
     },
@@ -19,7 +24,12 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct word",
       "question": "We ___ watch TV.",
-      "options": ["don't", "doesn't", "aren't", "not"],
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
       "answer": "don't",
       "explanation": "'We' memakai don't + kata kerja dasar: don't watch."
     },
@@ -28,7 +38,11 @@
       "type": "multiple_choice",
       "prompt": "Which sentence is correct?",
       "question": "Pick the correct negative sentence.",
-      "options": ["She doesn't like durian.", "She doesn't likes durian.", "She don't like durian."],
+      "options": [
+        "She doesn't like durian.",
+        "She doesn't likes durian.",
+        "She don't like durian."
+      ],
       "answer": "She doesn't like durian.",
       "explanation": "'She' memakai doesn't, dan setelah doesn't kata kerja kembali ke bentuk dasar: like, bukan likes."
     },
@@ -37,10 +51,22 @@
       "type": "matching",
       "prompt": "Match each subject to don't or doesn't",
       "pairs": [
-        { "left": "I", "right": "don't" },
-        { "left": "He", "right": "doesn't" },
-        { "left": "They", "right": "don't" },
-        { "left": "My sister", "right": "doesn't" }
+        {
+          "left": "I",
+          "right": "don't"
+        },
+        {
+          "left": "He",
+          "right": "doesn't"
+        },
+        {
+          "left": "They",
+          "right": "don't"
+        },
+        {
+          "left": "My sister",
+          "right": "doesn't"
+        }
       ],
       "explanation": "I, you, we, dan they memakai don't. He, she, it, dan orang tunggal seperti 'my sister' memakai doesn't."
     },
@@ -50,7 +76,10 @@
       "prompt": "Rewrite the sentence",
       "source": "He writes poems.",
       "target": "negative",
-      "answer": ["He doesn't write poems.", "He does not write poems."],
+      "answer": [
+        "He doesn't write poems.",
+        "He does not write poems."
+      ],
       "explanation": "He + doesn't + kata kerja dasar. 'Writes' kehilangan -s: doesn't write."
     },
     {
@@ -59,7 +88,10 @@
       "prompt": "Rewrite the sentence",
       "source": "They watch TV at night.",
       "target": "negative",
-      "answer": ["They don't watch TV at night.", "They do not watch TV at night."],
+      "answer": [
+        "They don't watch TV at night.",
+        "They do not watch TV at night."
+      ],
       "explanation": "'They' memakai don't + kata kerja dasar: don't watch."
     },
     {
@@ -67,7 +99,10 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence using the words in brackets",
       "sentence": "My friend ___ (not / like) K-pop.",
-      "answer": ["doesn't like", "does not like"],
+      "answer": [
+        "doesn't like",
+        "does not like"
+      ],
       "explanation": "'My friend' berarti he atau she, jadi doesn't + kata kerja dasar: doesn't like."
     },
     {
@@ -75,7 +110,10 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence using the words in brackets",
       "sentence": "I ___ (not / eat) meat.",
-      "answer": ["don't eat", "do not eat"],
+      "answer": [
+        "don't eat",
+        "do not eat"
+      ],
       "explanation": "'I' memakai don't + kata kerja dasar: don't eat."
     },
     {

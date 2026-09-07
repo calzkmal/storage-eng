@@ -3,14 +3,19 @@
   "category": 4,
   "order": 1,
   "title": "Adverbs of Manner",
-  "intro": "Adverb of manner menjelaskan bagaimana sesuatu dilakukan: quickly, slowly, carefully. Kebanyakan dibentuk dari kata sifat + -ly (quick jadi quickly). Letaknya setelah kata kerja atau setelah objek.",
+  "intro": "Adverb of manner menjelaskan bagaimana sesuatu dilakukan. Kebanyakan dibentuk dari kata sifat + -ly, misalnya quick jadi quickly. Letaknya setelah kata kerja atau setelah objek.\nShe sings beautifully.\nHe drives carefully.\nThey finished the work quickly.",
   "exercises": [
     {
       "id": "advman-mc-1",
       "type": "multiple_choice",
       "prompt": "Choose the correct adverb",
       "question": "She sings ___.",
-      "options": ["beautifully", "beautiful", "beauty", "more beautiful"],
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
       "answer": "beautifully",
       "explanation": "Untuk menjelaskan cara menyanyi, pakai adverb: beautiful + -ly menjadi beautifully."
     },
@@ -19,7 +24,12 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct adverb",
       "question": "He drives very ___.",
-      "options": ["careful", "carefully", "carefuly", "care"],
+      "options": [
+        "careful",
+        "carefully",
+        "carefuly",
+        "care"
+      ],
       "answer": "carefully",
       "explanation": "Careful + -ly menjadi carefully, dengan dua huruf l."
     },
@@ -28,10 +38,22 @@
       "type": "matching",
       "prompt": "Match each adjective to its adverb",
       "pairs": [
-        { "left": "quick", "right": "quickly" },
-        { "left": "slow", "right": "slowly" },
-        { "left": "easy", "right": "easily" },
-        { "left": "good", "right": "well" }
+        {
+          "left": "quick",
+          "right": "quickly"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "easy",
+          "right": "easily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        }
       ],
       "explanation": "Kebanyakan kata sifat cukup ditambah -ly. Konsonan + y berubah menjadi -ily (easy jadi easily). Good tidak beraturan: adverbnya well."
     },
@@ -40,7 +62,9 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence with the adverb",
       "sentence": "Please speak ___ (slow).",
-      "answer": ["slowly"],
+      "answer": [
+        "slowly"
+      ],
       "explanation": "Slow + -ly menjadi slowly, menjelaskan cara berbicara."
     },
     {
@@ -48,14 +72,22 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence with the adverb",
       "sentence": "She finished the test ___ (easy).",
-      "answer": ["easily"],
+      "answer": [
+        "easily"
+      ],
       "explanation": "Easy berakhiran konsonan + y, jadi y berubah menjadi i: easily."
     },
     {
       "id": "advman-wo-1",
       "type": "word_order",
       "prompt": "Put the words in the correct order",
-      "words": ["He", "the", "answered", "question", "quickly"],
+      "words": [
+        "He",
+        "the",
+        "answered",
+        "question",
+        "quickly"
+      ],
       "answer": "He answered the question quickly",
       "explanation": "Adverb of manner diletakkan setelah objek: answered the question quickly."
     },
@@ -64,7 +96,11 @@
       "type": "multiple_choice",
       "prompt": "Which sentence is correct?",
       "question": "Pick the correct sentence.",
-      "options": ["They work hard every day.", "They work hardly every day.", "They work hardly."],
+      "options": [
+        "They work hard every day.",
+        "They work hardly every day.",
+        "They work hardly."
+      ],
       "answer": "They work hard every day.",
       "explanation": "Adverb dari hard adalah hard, bukan hardly. Kata hardly berarti hampir tidak pernah."
     },
@@ -73,7 +109,12 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct word",
       "question": "My sister writes ___.",
-      "options": ["well", "good", "goodly", "better good"],
+      "options": [
+        "well",
+        "good",
+        "goodly",
+        "better good"
+      ],
       "answer": "well",
       "explanation": "Good adalah kata sifat, sedangkan adverbnya well. Untuk menjelaskan cara menulis pakai well."
     },
@@ -82,7 +123,9 @@
       "type": "free_write",
       "prompt": "Write your own sentence",
       "task": "Write one sentence about how you do something, using an adverb of manner.",
-      "requirements": ["adverb of manner"],
+      "requirements": [
+        "adverb of manner"
+      ],
       "modelAnswer": "I speak English slowly.",
       "explanation": "Gunakan adverb yang menjelaskan cara, misalnya 'I speak English slowly.'"
     }

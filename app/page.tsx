@@ -26,12 +26,20 @@ export default async function HomePage() {
         <p className="mt-1 text-base text-slate-600">
           Beginner grammar, one exercise at a time. Pick a lesson and finish it in a few minutes.
         </p>
-        <Link
-          href="/history"
-          className="mt-3 inline-flex min-h-11 items-center rounded-xl border-2 border-slate-200 bg-white px-4 text-sm font-bold uppercase tracking-wide text-sky-700 shadow-[0_2px_0_#e2e8f0]"
-        >
-          Your history
-        </Link>
+        <div className="mt-3 flex flex-wrap gap-2">
+          <Link
+            href="/progress"
+            className="inline-flex min-h-11 items-center rounded-xl border-2 border-slate-200 bg-white px-4 text-sm font-bold uppercase tracking-wide text-sky-700 shadow-[0_2px_0_#e2e8f0]"
+          >
+            Your progress
+          </Link>
+          <Link
+            href="/history"
+            className="inline-flex min-h-11 items-center rounded-xl border-2 border-slate-200 bg-white px-4 text-sm font-bold uppercase tracking-wide text-sky-700 shadow-[0_2px_0_#e2e8f0]"
+          >
+            Your history
+          </Link>
+        </div>
       </header>
       <LessonList lessons={lessons} />
       <NameGate />
