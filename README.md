@@ -109,7 +109,14 @@ Measured in a production build, cold server, opening ten different lessons in a 
 - **The lesson complete screen does no database work at all.** The runner already saved everything it shows to sessionStorage, including the lesson title.
 - **Entering your name does not wait on the network.** The profile is written to localStorage synchronously and the server copy is sent in the background, so the prompt closes at once instead of blocking on a round trip.
 
-The one unavoidable cost is the first query on a cold server, around 370ms including connection setup. It happens on the home page, not when opening a lesson.
+### Deploying so it is actually fast
+
+Two settings matter more than any code above, and both are free-tier friendly.
+
+- **Pages are prerendered.** The home page, all 18 lesson pages and all 18 lesson-complete pages are static, so a page load is a CDN hit near the visitor with no function call and no database round trip. They stay correct because they read the lessons through the tagged cache: regenerating or resetting a set revalidates them. This is why the lesson page must not read `searchParams`; the "practice again" flag is read from the URL by the runner on the client instead.
+- **`vercel.json` pins functions to `sin1` (Singapore)** to sit next to the Supabase project, which is in `ap-southeast-1`. Without it Vercel defaults to `iad1` (Washington DC), so every API call, grading request and attempt recording crossed the Pacific twice. Move this if you move the database.
+
+The one unavoidable cost is the first query on a cold server, around 370ms including connection setup. It happens when the cache is regenerated, not when opening a lesson.
 
 ### The last question used to reappear
 

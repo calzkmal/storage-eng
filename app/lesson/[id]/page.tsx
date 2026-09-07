@@ -1,25 +1,26 @@
 import { notFound } from "next/navigation";
-import { getLesson } from "@/lib/content";
+import { getLesson, loadLessonFiles } from "@/lib/content";
 import LessonRunnerLoader from "@/components/LessonRunnerLoader";
 
-type Props = {
-  params: Promise<{ id: string }>;
-  searchParams: Promise<Record<string, string | string[] | undefined>>;
-};
+/**
+ * Prerendered for every lesson so opening one is a CDN hit rather than a
+ * function call. The "practice again" flag lives in the query string and is
+ * read by the runner on the client, because reading `searchParams` here would
+ * force this page to be rendered per request.
+ */
+export function generateStaticParams() {
+  return loadLessonFiles().map((l) => ({ id: l.id }));
+}
 
-export default async function LessonPage({ params, searchParams }: Props) {
+export default async function LessonPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const sp = await searchParams;
   const lesson = await getLesson(id);
   if (!lesson) notFound();
-
-  // "Practice again" links here with ?shuffle=1 (spec §4.3)
-  const shuffle = sp.shuffle === "1";
 
   const { setId, setVersion, setSource, modelUsed, ...plain } = lesson;
   void setVersion;
   void setSource;
   void modelUsed;
 
-  return <LessonRunnerLoader lesson={plain} setId={setId} shuffle={shuffle} />;
+  return <LessonRunnerLoader lesson={plain} setId={setId} />;
 }
