@@ -61,21 +61,25 @@ function newId(): string {
   }
 }
 
-/** Create the profile on first visit, or rename the existing one, keeping the same id. */
-export async function saveLearner(name: string): Promise<Learner> {
+/**
+ * Create the profile on first visit, or rename the existing one, keeping the
+ * same id. The local write is what matters and is synchronous; the server copy
+ * is sent in the background, so entering a name never waits on the network.
+ */
+export function saveLearner(name: string): Learner {
   const trimmed = name.trim().slice(0, 40);
   const existing = getLearner();
   const learner: Learner = { id: existing?.id ?? newId(), name: trimmed };
   write(learner);
-  // Best effort: the profile is usable offline, the server copy is for history.
   try {
-    await fetch("/api/learner", {
+    void fetch("/api/learner", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(learner),
-    });
+      keepalive: true,
+    }).catch(() => {});
   } catch {
-    /* ignore */
+    /* ignore: the profile still works, only the server copy is missing */
   }
   return learner;
 }

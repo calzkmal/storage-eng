@@ -21,7 +21,7 @@ import FeedbackPanel, { type Feedback } from "./FeedbackPanel";
 import ConfirmDialog from "./ConfirmDialog";
 import ExerciseView from "./exercises/ExerciseView";
 
-type Props = { lesson: Lesson; setId: string; shuffle: boolean };
+type Props = { lesson: Lesson; setId: string };
 type Phase = "main" | "review";
 
 /**
@@ -30,11 +30,17 @@ type Phase = "main" | "review";
  * `setId` identifies the exercise set being played; finishing marks that set as
  * done on this device, which unlocks regeneration for it on the home page.
  */
-export default function LessonRunner({ lesson, setId, shuffle }: Props) {
+export default function LessonRunner({ lesson, setId }: Props) {
   const router = useRouter();
   const learner = useLearner();
 
-  const [order] = useState<Exercise[]>(() => (shuffle ? shuffleChanged(lesson.exercises) : lesson.exercises));
+  // "Practice again" links here with ?shuffle=1 (spec §4.3). Read from the URL
+  // rather than passed in, so the lesson page can stay statically rendered.
+  // Safe to touch `window`: this component is loaded client-only.
+  const [order] = useState<Exercise[]>(() => {
+    const shuffle = new URLSearchParams(window.location.search).get("shuffle") === "1";
+    return shuffle ? shuffleChanged(lesson.exercises) : lesson.exercises;
+  });
   // Groups this pass through the lesson in the history.
   const [runId] = useState(() => {
     try {

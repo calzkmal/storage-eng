@@ -94,17 +94,29 @@ The response's `modelUsed` will show the model OpenRouter fell back to.
 
 ## Performance
 
-Every page used to query Supabase on each request, which cost 270 to 800ms of server render before anything reached the browser. Three changes fixed it:
+Every page used to query Supabase on each request, which cost 270 to 800ms of server render before anything reached the browser. Opening lessons was worse: each lesson ran two sequential queries and had its own cache entry, so the first visit to each of the 18 lessons paid both, which showed up as 250ms to 1.4s per lesson.
+
+Measured in a production build, cold server, opening ten different lessons in a row:
 
 | Page | Before | After |
 |---|---|---|
-| Home | 270-800ms | ~7ms |
-| Lesson | ~500ms | ~7ms |
-| Lesson complete | ~270ms | ~4ms |
+| Home | 270-800ms | 3-7ms |
+| Lesson (first visit to each) | 250ms-1.4s | 2-7ms |
+| Lesson complete | ~270ms | 2-4ms |
 
-- **Reads are cached** in `lib/content.ts` through `unstable_cache` under a single `lessons` tag. Lessons change only when someone regenerates or resets a set, and those writes call `invalidateLessons()`, which drops the tag with `{ expire: 0 }` so the very next request sees the change. `"max"` would have been wrong here: it is stale-while-revalidate, so the page that just regenerated a set could still render the old one. **Tag invalidation does not reach `unstable_cache` in `next dev`**, only in a production build, so locally a regenerate can take up to the 60 second TTL to appear.
-- **Queries are targeted.** The home page reads the `lesson_overview` view, which counts exercises in Postgres, instead of pulling every lesson's exercises (about 50KB) just to show a number. A lesson page loads that one lesson rather than the whole syllabus.
-- **The lesson complete screen does no database work at all.** The runner already saved everything it shows to sessionStorage, including the lesson title, so the page renders immediately.
+- **The whole syllabus loads in one cached query.** These queries are latency-bound, not payload-bound: reading all 18 sets with their exercises measured the same as reading one (~50-90ms). So `lib/content.ts` reads the `lesson_active` view once, caches it under a `lessons` tag, and serves every page from it. After the first query, `getLesson()` is a 0-1ms lookup.
+- **Writes invalidate immediately.** `invalidateLessons()` drops the tag with `{ expire: 0 }`, so the next request sees the change. `"max"` would have been wrong: it is stale-while-revalidate, so the page that just regenerated a set could still render the old one. **Tag invalidation does not reach `unstable_cache` in `next dev`**, only in a production build, so locally a regenerate can take up to the 60 second TTL to appear.
+- **The lesson complete screen does no database work at all.** The runner already saved everything it shows to sessionStorage, including the lesson title.
+- **Entering your name does not wait on the network.** The profile is written to localStorage synchronously and the server copy is sent in the background, so the prompt closes at once instead of blocking on a round trip.
+
+### Deploying so it is actually fast
+
+Two settings matter more than any code above, and both are free-tier friendly.
+
+- **Pages are prerendered.** The home page, all 18 lesson pages and all 18 lesson-complete pages are static, so a page load is a CDN hit near the visitor with no function call and no database round trip. They stay correct because they read the lessons through the tagged cache: regenerating or resetting a set revalidates them. This is why the lesson page must not read `searchParams`; the "practice again" flag is read from the URL by the runner on the client instead.
+- **`vercel.json` pins functions to `sin1` (Singapore)** to sit next to the Supabase project, which is in `ap-southeast-1`. Without it Vercel defaults to `iad1` (Washington DC), so every API call, grading request and attempt recording crossed the Pacific twice. Move this if you move the database.
+
+The one unavoidable cost is the first query on a cold server, around 370ms including connection setup. It happens when the cache is regenerated, not when opening a lesson.
 
 ### The last question used to reappear
 

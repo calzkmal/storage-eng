@@ -53,10 +53,10 @@ export default function HistoryView() {
     };
   }, [learnerId]);
 
-  async function rename(e: React.FormEvent) {
+  function rename(e: React.FormEvent) {
     e.preventDefault();
     if (!draft.trim()) return;
-    await saveLearner(draft);
+    saveLearner(draft);
     setRenaming(false);
   }
 
