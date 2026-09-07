@@ -1,13 +1,11 @@
-import { notFound } from "next/navigation";
-import { getLesson } from "@/lib/content";
 import LessonDone from "@/components/LessonDone";
 
-type Props = { params: Promise<{ id: string }> };
-
-export default async function LessonDonePage({ params }: Props) {
+/**
+ * Deliberately does no database work. Everything shown here was already saved
+ * to sessionStorage by the runner, and this page is reached the instant a
+ * lesson ends, so a round trip to Supabase here would just be a visible pause.
+ */
+export default async function LessonDonePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const lesson = await getLesson(id);
-  if (!lesson) notFound();
-
-  return <LessonDone lessonId={lesson.id} title={lesson.title} />;
+  return <LessonDone lessonId={id} />;
 }

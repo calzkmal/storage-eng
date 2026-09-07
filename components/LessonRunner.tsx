@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Exercise, Lesson } from "@/lib/schema";
 import {
@@ -57,6 +57,11 @@ export default function LessonRunner({ lesson, setId, shuffle }: Props) {
 
   const attemptRef = useRef(0);
   const touched = useRef(false);
+
+  // Warm the done route so ending a lesson does not wait on a round trip.
+  useEffect(() => {
+    router.prefetch(`/lesson/${lesson.id}/done`);
+  }, [router, lesson.id]);
 
   const current: Exercise | undefined = phase === "main" ? order[index] : retryQueue[index];
   const total = phase === "main" ? order.length : retryQueue.length;
@@ -160,26 +165,40 @@ export default function LessonRunner({ lesson, setId, shuffle }: Props) {
   function finish() {
     if (finishing) return;
     setFinishing(true);
-    saveResult({ lessonId: lesson.id, total: order.length, wrong: wrongFirst, finishedAt: Date.now() });
+    saveResult({
+      lessonId: lesson.id,
+      lessonTitle: lesson.title,
+      total: order.length,
+      wrong: wrongFirst,
+      finishedAt: Date.now(),
+    });
     markFinished(setId);
     router.push(`/lesson/${lesson.id}/done`);
   }
 
+  /** True when pressing Continue ends the lesson rather than moving on. */
+  function isLastStep(): boolean {
+    return phase === "main" ? index + 1 >= order.length && retryQueue.length === 0 : index + 1 >= retryQueue.length;
+  }
+
   function next() {
+    // On the last step, do NOT clear the answer first: navigation to the done
+    // screen is asynchronous, and resetting here made the final question flash
+    // back on screen, unanswered, until the route loaded.
+    if (isLastStep()) {
+      finish();
+      return;
+    }
     resetForNext();
     if (phase === "main") {
       if (index + 1 < order.length) {
         setIndex(index + 1);
-      } else if (retryQueue.length > 0) {
+      } else {
         setPhase("review");
         setIndex(0);
-      } else {
-        finish();
       }
-    } else if (index + 1 < retryQueue.length) {
-      setIndex(index + 1);
     } else {
-      finish();
+      setIndex(index + 1);
     }
   }
 
@@ -199,8 +218,8 @@ export default function LessonRunner({ lesson, setId, shuffle }: Props) {
     label = "Start";
     onPrimary = () => setShowIntro(false);
   } else if (feedback) {
-    label = "Continue";
-    tone = feedback.status;
+    label = finishing ? "Finishing…" : "Continue";
+    tone = finishing ? "primary" : feedback.status;
     onPrimary = next;
     disabled = finishing;
   } else {
@@ -213,7 +232,11 @@ export default function LessonRunner({ lesson, setId, shuffle }: Props) {
       <TopBar counter={counter} onExit={requestExit} />
 
       <main className="flex-1 overflow-y-auto px-4 pb-6 pt-1">
-        {showIntro && lesson.intro ? (
+        {finishing ? (
+          <div className="flex h-full items-center justify-center">
+            <p className="text-lg font-semibold text-slate-500">Finishing…</p>
+          </div>
+        ) : showIntro && lesson.intro ? (
           <section className="mt-4 rounded-3xl border-2 border-sky-100 bg-sky-50 p-5">
             <h1 className="text-xl font-bold text-sky-900">{lesson.title}</h1>
             <p className="mt-3 text-lg leading-relaxed text-sky-950">{lesson.intro}</p>
@@ -241,7 +264,7 @@ export default function LessonRunner({ lesson, setId, shuffle }: Props) {
         tone={tone}
         disabled={disabled}
         onClick={onPrimary}
-        panel={feedback ? <FeedbackPanel feedback={feedback} /> : undefined}
+        panel={feedback && !finishing ? <FeedbackPanel feedback={feedback} /> : undefined}
       />
 
       {exitOpen && (
