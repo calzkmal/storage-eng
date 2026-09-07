@@ -21,6 +21,10 @@ export type LessonResult = {
   total: number;
   wrong: WrongItem[];
   finishedAt: number;
+  /** The set just played. */
+  setId?: string;
+  /** Every set of the lesson, so the done screen can offer an unfinished one. */
+  setIds?: string[];
 };
 
 function getIdList(key: string): string[] {

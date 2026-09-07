@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useSyncExternalStore } from "react";
 import { loadResultRaw, parseResult } from "@/lib/storage";
+import { useFinished } from "@/lib/useFinished";
 
 type Props = { lessonId: string };
 
@@ -17,6 +18,13 @@ export default function LessonDone({ lessonId }: Props) {
   );
 
   const result = useMemo(() => parseResult(raw), [raw]);
+  const finished = useFinished();
+
+  // The set just played is already flagged, so the first one left is genuinely new.
+  // With none left the sets page takes over, where any set can be replayed.
+  const unplayed = (result?.setIds ?? []).filter((id) => !finished.has(id));
+  const nextHref = unplayed.length ? `/lesson/${lessonId}?set=${unplayed[0]}` : `/lesson/${lessonId}/sets`;
+  const nextLabel = unplayed.length ? "New questions" : "Pick a set to retry";
 
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-[640px] flex-col px-4 pb-6 pt-10">
@@ -58,10 +66,10 @@ export default function LessonDone({ lessonId }: Props) {
 
       <div className="mt-8 flex flex-col gap-3">
         <Link
-          href={`/lesson/${lessonId}?shuffle=1`}
+          href={nextHref}
           className="flex min-h-[52px] w-full items-center justify-center rounded-2xl bg-sky-500 text-base font-bold uppercase tracking-wide text-white shadow-[0_4px_0_#0284c7]"
         >
-          Practice again
+          {nextLabel}
         </Link>
         <Link
           href="/"

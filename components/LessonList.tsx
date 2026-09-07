@@ -74,7 +74,7 @@ export default function LessonList({ lessons }: { lessons: LessonSummary[] }) {
             <ul className="flex flex-col gap-3 border-t-2 border-slate-100 px-3 py-3">
               {inCategory.map((lesson) => (
                 <li key={lesson.id}>
-                  <LessonCard lesson={lesson} done={setsDone(lesson)} />
+                  <LessonCard lesson={lesson} finished={finished} />
                 </li>
               ))}
             </ul>
