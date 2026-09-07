@@ -92,6 +92,24 @@ OPENROUTER_MODELS="bogus/nope:free,google/gemma-4-31b-it:free" npm run dev
 
 The response's `modelUsed` will show the model OpenRouter fell back to.
 
+## Performance
+
+Every page used to query Supabase on each request, which cost 270 to 800ms of server render before anything reached the browser. Three changes fixed it:
+
+| Page | Before | After |
+|---|---|---|
+| Home | 270-800ms | ~7ms |
+| Lesson | ~500ms | ~7ms |
+| Lesson complete | ~270ms | ~4ms |
+
+- **Reads are cached** in `lib/content.ts` through `unstable_cache` under a single `lessons` tag. Lessons change only when someone regenerates or resets a set, and those writes call `invalidateLessons()`, which drops the tag with `{ expire: 0 }` so the very next request sees the change. `"max"` would have been wrong here: it is stale-while-revalidate, so the page that just regenerated a set could still render the old one. **Tag invalidation does not reach `unstable_cache` in `next dev`**, only in a production build, so locally a regenerate can take up to the 60 second TTL to appear.
+- **Queries are targeted.** The home page reads the `lesson_overview` view, which counts exercises in Postgres, instead of pulling every lesson's exercises (about 50KB) just to show a number. A lesson page loads that one lesson rather than the whole syllabus.
+- **The lesson complete screen does no database work at all.** The runner already saved everything it shows to sessionStorage, including the lesson title, so the page renders immediately.
+
+### The last question used to reappear
+
+Pressing Continue on the final question showed that question again, blank, for as long as the next page took to load. `next()` cleared the answer before navigating, and navigation is asynchronous, so the runner re-rendered the same exercise unanswered in the gap. It now detects the last step and navigates without resetting, shows a brief "Finishing…" state, and prefetches the done route on mount.
+
 ## Progress tracking without accounts
 
 On the first visit the app asks for a name and nothing else: no sign-up, no password. Behind that name it mints a random UUID (`lib/learner.ts`) and keeps `{ id, name }` in localStorage. **The UUID is the identity; the name is only a label on it.** Every checked answer is posted to `/api/attempts` and stored in the `attempts` table, and `/history` replays them grouped by lesson run, showing each question, the answer given, and the correct answer.

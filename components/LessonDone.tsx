@@ -4,12 +4,12 @@ import Link from "next/link";
 import { useMemo, useSyncExternalStore } from "react";
 import { loadResultRaw, parseResult } from "@/lib/storage";
 
-type Props = { lessonId: string; title: string };
+type Props = { lessonId: string };
 
 const noopSubscribe = () => () => {};
 
 /** Lesson complete summary (spec §4.3). Reads the result saved by the runner in sessionStorage. */
-export default function LessonDone({ lessonId, title }: Props) {
+export default function LessonDone({ lessonId }: Props) {
   const raw = useSyncExternalStore(
     noopSubscribe,
     () => loadResultRaw(lessonId),
@@ -21,7 +21,7 @@ export default function LessonDone({ lessonId, title }: Props) {
   return (
     <main className="mx-auto flex min-h-dvh w-full max-w-[640px] flex-col px-4 pb-6 pt-10">
       <div className="flex-1">
-        <p className="text-base font-medium text-slate-500">{title}</p>
+        {result?.lessonTitle && <p className="text-base font-medium text-slate-500">{result.lessonTitle}</p>}
         <h1 className="mt-1 text-3xl font-bold">Lesson complete</h1>
 
         {result === null ? (

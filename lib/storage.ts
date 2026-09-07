@@ -26,6 +26,8 @@ export type WrongItem = {
 
 export type LessonResult = {
   lessonId: string;
+  /** Kept with the result so the done screen needs no database lookup. */
+  lessonTitle: string;
   total: number;
   wrong: WrongItem[];
   finishedAt: number;

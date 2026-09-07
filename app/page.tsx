@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getLessons, isDbConfigured } from "@/lib/content";
+import { getLessonOverviews, isDbConfigured, type LessonOverview } from "@/lib/content";
 import { lessonLabel } from "@/lib/categories";
 import LessonList from "@/components/LessonList";
 import NameGate from "@/components/NameGate";
@@ -10,13 +10,13 @@ import LearnerGreeting from "@/components/LearnerGreeting";
 export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
-  const lessons = (await getLessons()).map((l) => ({
+  const lessons = (await getLessonOverviews()).map((l: LessonOverview) => ({
     id: l.id,
     category: l.category,
     order: l.order,
     label: lessonLabel(l.category, l.order),
     title: l.title,
-    exerciseCount: l.exercises.length,
+    exerciseCount: l.exerciseCount,
     setId: l.setId,
     setVersion: l.setVersion,
     setSource: l.setSource,
