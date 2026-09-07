@@ -1,0 +1,1985 @@
+[
+  [
+    {
+      "id": "adverb-time-v1-mc-1",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Present continuous menandakan kegiatan sekarang.",
+      "type": "multiple_choice",
+      "question": "They are eating ___.",
+      "options": [
+        "now",
+        "yesterday",
+        "last year",
+        "ago"
+      ],
+      "answer": "now"
+    },
+    {
+      "id": "adverb-time-v1-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Kata kerja saw adalah bentuk lampau, jadi keterangannya yesterday.",
+      "type": "multiple_choice",
+      "question": "I saw that movie ___.",
+      "options": [
+        "yesterday",
+        "tomorrow",
+        "soon",
+        "later"
+      ],
+      "answer": "yesterday"
+    },
+    {
+      "id": "adverb-time-v1-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Ago dan last menunjuk masa lalu, next menunjuk masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "last year",
+          "right": "past"
+        },
+        {
+          "left": "today",
+          "right": "present"
+        },
+        {
+          "left": "next month",
+          "right": "future"
+        },
+        {
+          "left": "an hour ago",
+          "right": "past"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "arrive",
+        "soon"
+      ],
+      "answer": "They will arrive soon"
+    },
+    {
+      "id": "adverb-time-v1-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu diletakkan di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "visited",
+        "the",
+        "museum",
+        "yesterday"
+      ],
+      "answer": "We visited the museum yesterday"
+    },
+    {
+      "id": "adverb-time-v1-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Yesterday' menandakan waktu lampau: watched.",
+      "type": "fill_blank",
+      "sentence": "She ___ (watch) a film yesterday.",
+      "answer": [
+        "watched"
+      ]
+    },
+    {
+      "id": "adverb-time-v1-mc-3",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi keterangannya later.",
+      "type": "multiple_choice",
+      "question": "She will call you ___.",
+      "options": [
+        "later",
+        "yesterday",
+        "last night",
+        "ago"
+      ],
+      "answer": "later"
+    },
+    {
+      "id": "adverb-time-v1-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Keterangan waktu biasanya diletakkan di akhir.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She visited her aunt last week.",
+        "She visited last week her aunt.",
+        "Last week she her aunt visited."
+      ],
+      "answer": "She visited her aunt last week."
+    },
+    {
+      "id": "adverb-time-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar dengan keterangan waktu.",
+      "type": "free_write",
+      "task": "Write one sentence about your plan, using an adverb of time.",
+      "requirements": [
+        "future with will",
+        "adverb of time"
+      ],
+      "modelAnswer": "I will visit my friend tomorrow."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v2-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Susunannya subjek + kata kerja + objek, lalu keterangan waktu.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I finished my homework already.",
+        "I already finished homework my.",
+        "Already I my homework finished."
+      ],
+      "answer": "I finished my homework already."
+    },
+    {
+      "id": "adverb-time-v2-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi soon.",
+      "type": "multiple_choice",
+      "question": "He will arrive ___.",
+      "options": [
+        "soon",
+        "yesterday",
+        "last week",
+        "ago"
+      ],
+      "answer": "soon"
+    },
+    {
+      "id": "adverb-time-v2-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Yesterday dan last week menunjuk masa lalu, now sekarang, tomorrow dan soon masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "yesterday",
+          "right": "past"
+        },
+        {
+          "left": "now",
+          "right": "present"
+        },
+        {
+          "left": "tomorrow",
+          "right": "future"
+        },
+        {
+          "left": "last week",
+          "right": "past"
+        },
+        {
+          "left": "soon",
+          "right": "future"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu di akhir.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "finished",
+        "her",
+        "work",
+        "early"
+      ],
+      "answer": "She finished her work early"
+    },
+    {
+      "id": "adverb-time-v2-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu later di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "later"
+      ],
+      "answer": "I will call you later"
+    },
+    {
+      "id": "adverb-time-v2-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Tomorrow' menandakan masa depan, jadi will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "They ___ (arrive) tomorrow.",
+      "answer": [
+        "will arrive"
+      ]
+    },
+    {
+      "id": "adverb-time-v2-mc-3",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Went adalah bentuk lampau, jadi keterangannya last year.",
+      "type": "multiple_choice",
+      "question": "We went to Bali ___.",
+      "options": [
+        "last year",
+        "next year",
+        "tomorrow",
+        "soon"
+      ],
+      "answer": "last year"
+    },
+    {
+      "id": "adverb-time-v2-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Kata kerja saw adalah bentuk lampau, jadi keterangannya yesterday.",
+      "type": "multiple_choice",
+      "question": "I saw that movie ___.",
+      "options": [
+        "yesterday",
+        "tomorrow",
+        "soon",
+        "later"
+      ],
+      "answer": "yesterday"
+    },
+    {
+      "id": "adverb-time-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau dengan keterangan waktu di akhir.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did, using an adverb of time.",
+      "requirements": [
+        "past simple",
+        "adverb of time"
+      ],
+      "modelAnswer": "I studied English yesterday."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v3-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Keterangan waktu biasanya diletakkan di akhir.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She visited her aunt last week.",
+        "She visited last week her aunt.",
+        "Last week she her aunt visited."
+      ],
+      "answer": "She visited her aunt last week."
+    },
+    {
+      "id": "adverb-time-v3-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi keterangannya later.",
+      "type": "multiple_choice",
+      "question": "She will call you ___.",
+      "options": [
+        "later",
+        "yesterday",
+        "last night",
+        "ago"
+      ],
+      "answer": "later"
+    },
+    {
+      "id": "adverb-time-v3-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Yesterday dan last week menunjuk masa lalu, now sekarang, tomorrow dan soon masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "yesterday",
+          "right": "past"
+        },
+        {
+          "left": "now",
+          "right": "present"
+        },
+        {
+          "left": "tomorrow",
+          "right": "future"
+        },
+        {
+          "left": "last week",
+          "right": "past"
+        },
+        {
+          "left": "soon",
+          "right": "future"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu later di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "later"
+      ],
+      "answer": "I will call you later"
+    },
+    {
+      "id": "adverb-time-v3-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "arrive",
+        "soon"
+      ],
+      "answer": "They will arrive soon"
+    },
+    {
+      "id": "adverb-time-v3-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "Bentuk lampau dari meet adalah met.",
+      "type": "fill_blank",
+      "sentence": "We ___ (meet) him last Friday.",
+      "answer": [
+        "met"
+      ]
+    },
+    {
+      "id": "adverb-time-v3-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Susunannya subjek + kata kerja + objek, lalu keterangan waktu.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I finished my homework already.",
+        "I already finished homework my.",
+        "Already I my homework finished."
+      ],
+      "answer": "I finished my homework already."
+    },
+    {
+      "id": "adverb-time-v3-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Present continuous menandakan kegiatan sekarang.",
+      "type": "multiple_choice",
+      "question": "They are eating ___.",
+      "options": [
+        "now",
+        "yesterday",
+        "last year",
+        "ago"
+      ],
+      "answer": "now"
+    },
+    {
+      "id": "adverb-time-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau dengan keterangan waktu di akhir.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did, using an adverb of time.",
+      "requirements": [
+        "past simple",
+        "adverb of time"
+      ],
+      "modelAnswer": "I studied English yesterday."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v4-mc-1",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi soon.",
+      "type": "multiple_choice",
+      "question": "He will arrive ___.",
+      "options": [
+        "soon",
+        "yesterday",
+        "last week",
+        "ago"
+      ],
+      "answer": "soon"
+    },
+    {
+      "id": "adverb-time-v4-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Went adalah bentuk lampau, jadi keterangannya last year.",
+      "type": "multiple_choice",
+      "question": "We went to Bali ___.",
+      "options": [
+        "last year",
+        "next year",
+        "tomorrow",
+        "soon"
+      ],
+      "answer": "last year"
+    },
+    {
+      "id": "adverb-time-v4-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Ago dan last menunjuk masa lalu, next menunjuk masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "last year",
+          "right": "past"
+        },
+        {
+          "left": "today",
+          "right": "present"
+        },
+        {
+          "left": "next month",
+          "right": "future"
+        },
+        {
+          "left": "an hour ago",
+          "right": "past"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu diletakkan di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "visited",
+        "the",
+        "museum",
+        "yesterday"
+      ],
+      "answer": "We visited the museum yesterday"
+    },
+    {
+      "id": "adverb-time-v4-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu di akhir.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "finished",
+        "her",
+        "work",
+        "early"
+      ],
+      "answer": "She finished her work early"
+    },
+    {
+      "id": "adverb-time-v4-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Last month' menandakan waktu lampau, jadi went.",
+      "type": "fill_blank",
+      "sentence": "He ___ (go) to Bandung last month.",
+      "answer": [
+        "went"
+      ]
+    },
+    {
+      "id": "adverb-time-v4-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Keterangan waktu biasanya diletakkan di akhir.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She visited her aunt last week.",
+        "She visited last week her aunt.",
+        "Last week she her aunt visited."
+      ],
+      "answer": "She visited her aunt last week."
+    },
+    {
+      "id": "adverb-time-v4-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi keterangannya later.",
+      "type": "multiple_choice",
+      "question": "She will call you ___.",
+      "options": [
+        "later",
+        "yesterday",
+        "last night",
+        "ago"
+      ],
+      "answer": "later"
+    },
+    {
+      "id": "adverb-time-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar dengan keterangan waktu.",
+      "type": "free_write",
+      "task": "Write one sentence about your plan, using an adverb of time.",
+      "requirements": [
+        "future with will",
+        "adverb of time"
+      ],
+      "modelAnswer": "I will visit my friend tomorrow."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v5-mc-1",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Present continuous menandakan kegiatan sekarang.",
+      "type": "multiple_choice",
+      "question": "They are eating ___.",
+      "options": [
+        "now",
+        "yesterday",
+        "last year",
+        "ago"
+      ],
+      "answer": "now"
+    },
+    {
+      "id": "adverb-time-v5-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Susunannya subjek + kata kerja + objek, lalu keterangan waktu.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I finished my homework already.",
+        "I already finished homework my.",
+        "Already I my homework finished."
+      ],
+      "answer": "I finished my homework already."
+    },
+    {
+      "id": "adverb-time-v5-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Yesterday dan last week menunjuk masa lalu, now sekarang, tomorrow dan soon masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "yesterday",
+          "right": "past"
+        },
+        {
+          "left": "now",
+          "right": "present"
+        },
+        {
+          "left": "tomorrow",
+          "right": "future"
+        },
+        {
+          "left": "last week",
+          "right": "past"
+        },
+        {
+          "left": "soon",
+          "right": "future"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu di akhir.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "finished",
+        "her",
+        "work",
+        "early"
+      ],
+      "answer": "She finished her work early"
+    },
+    {
+      "id": "adverb-time-v5-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu diletakkan di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "visited",
+        "the",
+        "museum",
+        "yesterday"
+      ],
+      "answer": "We visited the museum yesterday"
+    },
+    {
+      "id": "adverb-time-v5-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Last month' menandakan waktu lampau, jadi went.",
+      "type": "fill_blank",
+      "sentence": "He ___ (go) to Bandung last month.",
+      "answer": [
+        "went"
+      ]
+    },
+    {
+      "id": "adverb-time-v5-mc-3",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Went adalah bentuk lampau, jadi keterangannya last year.",
+      "type": "multiple_choice",
+      "question": "We went to Bali ___.",
+      "options": [
+        "last year",
+        "next year",
+        "tomorrow",
+        "soon"
+      ],
+      "answer": "last year"
+    },
+    {
+      "id": "adverb-time-v5-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi soon.",
+      "type": "multiple_choice",
+      "question": "He will arrive ___.",
+      "options": [
+        "soon",
+        "yesterday",
+        "last week",
+        "ago"
+      ],
+      "answer": "soon"
+    },
+    {
+      "id": "adverb-time-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar dengan keterangan waktu.",
+      "type": "free_write",
+      "task": "Write one sentence about your plan, using an adverb of time.",
+      "requirements": [
+        "future with will",
+        "adverb of time"
+      ],
+      "modelAnswer": "I will visit my friend tomorrow."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v6-mc-1",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Kata kerja saw adalah bentuk lampau, jadi keterangannya yesterday.",
+      "type": "multiple_choice",
+      "question": "I saw that movie ___.",
+      "options": [
+        "yesterday",
+        "tomorrow",
+        "soon",
+        "later"
+      ],
+      "answer": "yesterday"
+    },
+    {
+      "id": "adverb-time-v6-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi keterangannya later.",
+      "type": "multiple_choice",
+      "question": "She will call you ___.",
+      "options": [
+        "later",
+        "yesterday",
+        "last night",
+        "ago"
+      ],
+      "answer": "later"
+    },
+    {
+      "id": "adverb-time-v6-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Ago dan last menunjuk masa lalu, next menunjuk masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "last year",
+          "right": "past"
+        },
+        {
+          "left": "today",
+          "right": "present"
+        },
+        {
+          "left": "next month",
+          "right": "future"
+        },
+        {
+          "left": "an hour ago",
+          "right": "past"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "arrive",
+        "soon"
+      ],
+      "answer": "They will arrive soon"
+    },
+    {
+      "id": "adverb-time-v6-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu later di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "later"
+      ],
+      "answer": "I will call you later"
+    },
+    {
+      "id": "adverb-time-v6-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Tomorrow' menandakan masa depan, jadi will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "They ___ (arrive) tomorrow.",
+      "answer": [
+        "will arrive"
+      ]
+    },
+    {
+      "id": "adverb-time-v6-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Keterangan waktu biasanya diletakkan di akhir.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She visited her aunt last week.",
+        "She visited last week her aunt.",
+        "Last week she her aunt visited."
+      ],
+      "answer": "She visited her aunt last week."
+    },
+    {
+      "id": "adverb-time-v6-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Present continuous menandakan kegiatan sekarang.",
+      "type": "multiple_choice",
+      "question": "They are eating ___.",
+      "options": [
+        "now",
+        "yesterday",
+        "last year",
+        "ago"
+      ],
+      "answer": "now"
+    },
+    {
+      "id": "adverb-time-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau dengan keterangan waktu di akhir.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did, using an adverb of time.",
+      "requirements": [
+        "past simple",
+        "adverb of time"
+      ],
+      "modelAnswer": "I studied English yesterday."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v7-mc-1",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Kata kerja saw adalah bentuk lampau, jadi keterangannya yesterday.",
+      "type": "multiple_choice",
+      "question": "I saw that movie ___.",
+      "options": [
+        "yesterday",
+        "tomorrow",
+        "soon",
+        "later"
+      ],
+      "answer": "yesterday"
+    },
+    {
+      "id": "adverb-time-v7-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Went adalah bentuk lampau, jadi keterangannya last year.",
+      "type": "multiple_choice",
+      "question": "We went to Bali ___.",
+      "options": [
+        "last year",
+        "next year",
+        "tomorrow",
+        "soon"
+      ],
+      "answer": "last year"
+    },
+    {
+      "id": "adverb-time-v7-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Yesterday dan last week menunjuk masa lalu, now sekarang, tomorrow dan soon masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "yesterday",
+          "right": "past"
+        },
+        {
+          "left": "now",
+          "right": "present"
+        },
+        {
+          "left": "tomorrow",
+          "right": "future"
+        },
+        {
+          "left": "last week",
+          "right": "past"
+        },
+        {
+          "left": "soon",
+          "right": "future"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu later di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "later"
+      ],
+      "answer": "I will call you later"
+    },
+    {
+      "id": "adverb-time-v7-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu di akhir.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "finished",
+        "her",
+        "work",
+        "early"
+      ],
+      "answer": "She finished her work early"
+    },
+    {
+      "id": "adverb-time-v7-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "Bentuk lampau dari meet adalah met.",
+      "type": "fill_blank",
+      "sentence": "We ___ (meet) him last Friday.",
+      "answer": [
+        "met"
+      ]
+    },
+    {
+      "id": "adverb-time-v7-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Susunannya subjek + kata kerja + objek, lalu keterangan waktu.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I finished my homework already.",
+        "I already finished homework my.",
+        "Already I my homework finished."
+      ],
+      "answer": "I finished my homework already."
+    },
+    {
+      "id": "adverb-time-v7-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi soon.",
+      "type": "multiple_choice",
+      "question": "He will arrive ___.",
+      "options": [
+        "soon",
+        "yesterday",
+        "last week",
+        "ago"
+      ],
+      "answer": "soon"
+    },
+    {
+      "id": "adverb-time-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau dengan keterangan waktu di akhir.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did, using an adverb of time.",
+      "requirements": [
+        "past simple",
+        "adverb of time"
+      ],
+      "modelAnswer": "I studied English yesterday."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v8-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Susunannya subjek + kata kerja + objek, lalu keterangan waktu.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I finished my homework already.",
+        "I already finished homework my.",
+        "Already I my homework finished."
+      ],
+      "answer": "I finished my homework already."
+    },
+    {
+      "id": "adverb-time-v8-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Kata kerja saw adalah bentuk lampau, jadi keterangannya yesterday.",
+      "type": "multiple_choice",
+      "question": "I saw that movie ___.",
+      "options": [
+        "yesterday",
+        "tomorrow",
+        "soon",
+        "later"
+      ],
+      "answer": "yesterday"
+    },
+    {
+      "id": "adverb-time-v8-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Ago dan last menunjuk masa lalu, next menunjuk masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "last year",
+          "right": "past"
+        },
+        {
+          "left": "today",
+          "right": "present"
+        },
+        {
+          "left": "next month",
+          "right": "future"
+        },
+        {
+          "left": "an hour ago",
+          "right": "past"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu diletakkan di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "visited",
+        "the",
+        "museum",
+        "yesterday"
+      ],
+      "answer": "We visited the museum yesterday"
+    },
+    {
+      "id": "adverb-time-v8-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "arrive",
+        "soon"
+      ],
+      "answer": "They will arrive soon"
+    },
+    {
+      "id": "adverb-time-v8-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Yesterday' menandakan waktu lampau: watched.",
+      "type": "fill_blank",
+      "sentence": "She ___ (watch) a film yesterday.",
+      "answer": [
+        "watched"
+      ]
+    },
+    {
+      "id": "adverb-time-v8-mc-3",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi soon.",
+      "type": "multiple_choice",
+      "question": "He will arrive ___.",
+      "options": [
+        "soon",
+        "yesterday",
+        "last week",
+        "ago"
+      ],
+      "answer": "soon"
+    },
+    {
+      "id": "adverb-time-v8-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Went adalah bentuk lampau, jadi keterangannya last year.",
+      "type": "multiple_choice",
+      "question": "We went to Bali ___.",
+      "options": [
+        "last year",
+        "next year",
+        "tomorrow",
+        "soon"
+      ],
+      "answer": "last year"
+    },
+    {
+      "id": "adverb-time-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar dengan keterangan waktu.",
+      "type": "free_write",
+      "task": "Write one sentence about your plan, using an adverb of time.",
+      "requirements": [
+        "future with will",
+        "adverb of time"
+      ],
+      "modelAnswer": "I will visit my friend tomorrow."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v9-mc-1",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Present continuous menandakan kegiatan sekarang.",
+      "type": "multiple_choice",
+      "question": "They are eating ___.",
+      "options": [
+        "now",
+        "yesterday",
+        "last year",
+        "ago"
+      ],
+      "answer": "now"
+    },
+    {
+      "id": "adverb-time-v9-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi keterangannya later.",
+      "type": "multiple_choice",
+      "question": "She will call you ___.",
+      "options": [
+        "later",
+        "yesterday",
+        "last night",
+        "ago"
+      ],
+      "answer": "later"
+    },
+    {
+      "id": "adverb-time-v9-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Ago dan last menunjuk masa lalu, next menunjuk masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "last year",
+          "right": "past"
+        },
+        {
+          "left": "today",
+          "right": "present"
+        },
+        {
+          "left": "next month",
+          "right": "future"
+        },
+        {
+          "left": "an hour ago",
+          "right": "past"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu di akhir.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "finished",
+        "her",
+        "work",
+        "early"
+      ],
+      "answer": "She finished her work early"
+    },
+    {
+      "id": "adverb-time-v9-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "arrive",
+        "soon"
+      ],
+      "answer": "They will arrive soon"
+    },
+    {
+      "id": "adverb-time-v9-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "Bentuk lampau dari meet adalah met.",
+      "type": "fill_blank",
+      "sentence": "We ___ (meet) him last Friday.",
+      "answer": [
+        "met"
+      ]
+    },
+    {
+      "id": "adverb-time-v9-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Keterangan waktu biasanya diletakkan di akhir.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She visited her aunt last week.",
+        "She visited last week her aunt.",
+        "Last week she her aunt visited."
+      ],
+      "answer": "She visited her aunt last week."
+    },
+    {
+      "id": "adverb-time-v9-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Kata kerja saw adalah bentuk lampau, jadi keterangannya yesterday.",
+      "type": "multiple_choice",
+      "question": "I saw that movie ___.",
+      "options": [
+        "yesterday",
+        "tomorrow",
+        "soon",
+        "later"
+      ],
+      "answer": "yesterday"
+    },
+    {
+      "id": "adverb-time-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau dengan keterangan waktu di akhir.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did, using an adverb of time.",
+      "requirements": [
+        "past simple",
+        "adverb of time"
+      ],
+      "modelAnswer": "I studied English yesterday."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v10-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Keterangan waktu biasanya diletakkan di akhir.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She visited her aunt last week.",
+        "She visited last week her aunt.",
+        "Last week she her aunt visited."
+      ],
+      "answer": "She visited her aunt last week."
+    },
+    {
+      "id": "adverb-time-v10-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi keterangannya later.",
+      "type": "multiple_choice",
+      "question": "She will call you ___.",
+      "options": [
+        "later",
+        "yesterday",
+        "last night",
+        "ago"
+      ],
+      "answer": "later"
+    },
+    {
+      "id": "adverb-time-v10-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Yesterday dan last week menunjuk masa lalu, now sekarang, tomorrow dan soon masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "yesterday",
+          "right": "past"
+        },
+        {
+          "left": "now",
+          "right": "present"
+        },
+        {
+          "left": "tomorrow",
+          "right": "future"
+        },
+        {
+          "left": "last week",
+          "right": "past"
+        },
+        {
+          "left": "soon",
+          "right": "future"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu diletakkan di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "visited",
+        "the",
+        "museum",
+        "yesterday"
+      ],
+      "answer": "We visited the museum yesterday"
+    },
+    {
+      "id": "adverb-time-v10-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu later di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "later"
+      ],
+      "answer": "I will call you later"
+    },
+    {
+      "id": "adverb-time-v10-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Tomorrow' menandakan masa depan, jadi will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "They ___ (arrive) tomorrow.",
+      "answer": [
+        "will arrive"
+      ]
+    },
+    {
+      "id": "adverb-time-v10-mc-3",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Went adalah bentuk lampau, jadi keterangannya last year.",
+      "type": "multiple_choice",
+      "question": "We went to Bali ___.",
+      "options": [
+        "last year",
+        "next year",
+        "tomorrow",
+        "soon"
+      ],
+      "answer": "last year"
+    },
+    {
+      "id": "adverb-time-v10-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi soon.",
+      "type": "multiple_choice",
+      "question": "He will arrive ___.",
+      "options": [
+        "soon",
+        "yesterday",
+        "last week",
+        "ago"
+      ],
+      "answer": "soon"
+    },
+    {
+      "id": "adverb-time-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar dengan keterangan waktu.",
+      "type": "free_write",
+      "task": "Write one sentence about your plan, using an adverb of time.",
+      "requirements": [
+        "future with will",
+        "adverb of time"
+      ],
+      "modelAnswer": "I will visit my friend tomorrow."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v11-mc-1",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Present continuous menandakan kegiatan sekarang.",
+      "type": "multiple_choice",
+      "question": "They are eating ___.",
+      "options": [
+        "now",
+        "yesterday",
+        "last year",
+        "ago"
+      ],
+      "answer": "now"
+    },
+    {
+      "id": "adverb-time-v11-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Susunannya subjek + kata kerja + objek, lalu keterangan waktu.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I finished my homework already.",
+        "I already finished homework my.",
+        "Already I my homework finished."
+      ],
+      "answer": "I finished my homework already."
+    },
+    {
+      "id": "adverb-time-v11-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Yesterday dan last week menunjuk masa lalu, now sekarang, tomorrow dan soon masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "yesterday",
+          "right": "past"
+        },
+        {
+          "left": "now",
+          "right": "present"
+        },
+        {
+          "left": "tomorrow",
+          "right": "future"
+        },
+        {
+          "left": "last week",
+          "right": "past"
+        },
+        {
+          "left": "soon",
+          "right": "future"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu di akhir.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "finished",
+        "her",
+        "work",
+        "early"
+      ],
+      "answer": "She finished her work early"
+    },
+    {
+      "id": "adverb-time-v11-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu later di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "later"
+      ],
+      "answer": "I will call you later"
+    },
+    {
+      "id": "adverb-time-v11-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Last month' menandakan waktu lampau, jadi went.",
+      "type": "fill_blank",
+      "sentence": "He ___ (go) to Bandung last month.",
+      "answer": [
+        "went"
+      ]
+    },
+    {
+      "id": "adverb-time-v11-mc-3",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi keterangannya later.",
+      "type": "multiple_choice",
+      "question": "She will call you ___.",
+      "options": [
+        "later",
+        "yesterday",
+        "last night",
+        "ago"
+      ],
+      "answer": "later"
+    },
+    {
+      "id": "adverb-time-v11-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Kata kerja saw adalah bentuk lampau, jadi keterangannya yesterday.",
+      "type": "multiple_choice",
+      "question": "I saw that movie ___.",
+      "options": [
+        "yesterday",
+        "tomorrow",
+        "soon",
+        "later"
+      ],
+      "answer": "yesterday"
+    },
+    {
+      "id": "adverb-time-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau dengan keterangan waktu di akhir.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did, using an adverb of time.",
+      "requirements": [
+        "past simple",
+        "adverb of time"
+      ],
+      "modelAnswer": "I studied English yesterday."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v12-mc-1",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi soon.",
+      "type": "multiple_choice",
+      "question": "He will arrive ___.",
+      "options": [
+        "soon",
+        "yesterday",
+        "last week",
+        "ago"
+      ],
+      "answer": "soon"
+    },
+    {
+      "id": "adverb-time-v12-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Keterangan waktu biasanya diletakkan di akhir.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She visited her aunt last week.",
+        "She visited last week her aunt.",
+        "Last week she her aunt visited."
+      ],
+      "answer": "She visited her aunt last week."
+    },
+    {
+      "id": "adverb-time-v12-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Ago dan last menunjuk masa lalu, next menunjuk masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "last year",
+          "right": "past"
+        },
+        {
+          "left": "today",
+          "right": "present"
+        },
+        {
+          "left": "next month",
+          "right": "future"
+        },
+        {
+          "left": "an hour ago",
+          "right": "past"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu diletakkan di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "visited",
+        "the",
+        "museum",
+        "yesterday"
+      ],
+      "answer": "We visited the museum yesterday"
+    },
+    {
+      "id": "adverb-time-v12-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "arrive",
+        "soon"
+      ],
+      "answer": "They will arrive soon"
+    },
+    {
+      "id": "adverb-time-v12-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Yesterday' menandakan waktu lampau: watched.",
+      "type": "fill_blank",
+      "sentence": "She ___ (watch) a film yesterday.",
+      "answer": [
+        "watched"
+      ]
+    },
+    {
+      "id": "adverb-time-v12-mc-3",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Present continuous menandakan kegiatan sekarang.",
+      "type": "multiple_choice",
+      "question": "They are eating ___.",
+      "options": [
+        "now",
+        "yesterday",
+        "last year",
+        "ago"
+      ],
+      "answer": "now"
+    },
+    {
+      "id": "adverb-time-v12-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Susunannya subjek + kata kerja + objek, lalu keterangan waktu.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I finished my homework already.",
+        "I already finished homework my.",
+        "Already I my homework finished."
+      ],
+      "answer": "I finished my homework already."
+    },
+    {
+      "id": "adverb-time-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar dengan keterangan waktu.",
+      "type": "free_write",
+      "task": "Write one sentence about your plan, using an adverb of time.",
+      "requirements": [
+        "future with will",
+        "adverb of time"
+      ],
+      "modelAnswer": "I will visit my friend tomorrow."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v13-mc-1",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Went adalah bentuk lampau, jadi keterangannya last year.",
+      "type": "multiple_choice",
+      "question": "We went to Bali ___.",
+      "options": [
+        "last year",
+        "next year",
+        "tomorrow",
+        "soon"
+      ],
+      "answer": "last year"
+    },
+    {
+      "id": "adverb-time-v13-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Susunannya subjek + kata kerja + objek, lalu keterangan waktu.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I finished my homework already.",
+        "I already finished homework my.",
+        "Already I my homework finished."
+      ],
+      "answer": "I finished my homework already."
+    },
+    {
+      "id": "adverb-time-v13-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Yesterday dan last week menunjuk masa lalu, now sekarang, tomorrow dan soon masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "yesterday",
+          "right": "past"
+        },
+        {
+          "left": "now",
+          "right": "present"
+        },
+        {
+          "left": "tomorrow",
+          "right": "future"
+        },
+        {
+          "left": "last week",
+          "right": "past"
+        },
+        {
+          "left": "soon",
+          "right": "future"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu di akhir.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "finished",
+        "her",
+        "work",
+        "early"
+      ],
+      "answer": "She finished her work early"
+    },
+    {
+      "id": "adverb-time-v13-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "arrive",
+        "soon"
+      ],
+      "answer": "They will arrive soon"
+    },
+    {
+      "id": "adverb-time-v13-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Tomorrow' menandakan masa depan, jadi will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "They ___ (arrive) tomorrow.",
+      "answer": [
+        "will arrive"
+      ]
+    },
+    {
+      "id": "adverb-time-v13-mc-3",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Kata kerja saw adalah bentuk lampau, jadi keterangannya yesterday.",
+      "type": "multiple_choice",
+      "question": "I saw that movie ___.",
+      "options": [
+        "yesterday",
+        "tomorrow",
+        "soon",
+        "later"
+      ],
+      "answer": "yesterday"
+    },
+    {
+      "id": "adverb-time-v13-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Keterangan waktu biasanya diletakkan di akhir.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She visited her aunt last week.",
+        "She visited last week her aunt.",
+        "Last week she her aunt visited."
+      ],
+      "answer": "She visited her aunt last week."
+    },
+    {
+      "id": "adverb-time-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau dengan keterangan waktu di akhir.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did, using an adverb of time.",
+      "requirements": [
+        "past simple",
+        "adverb of time"
+      ],
+      "modelAnswer": "I studied English yesterday."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v14-mc-1",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi soon.",
+      "type": "multiple_choice",
+      "question": "He will arrive ___.",
+      "options": [
+        "soon",
+        "yesterday",
+        "last week",
+        "ago"
+      ],
+      "answer": "soon"
+    },
+    {
+      "id": "adverb-time-v14-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Present continuous menandakan kegiatan sekarang.",
+      "type": "multiple_choice",
+      "question": "They are eating ___.",
+      "options": [
+        "now",
+        "yesterday",
+        "last year",
+        "ago"
+      ],
+      "answer": "now"
+    },
+    {
+      "id": "adverb-time-v14-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Ago dan last menunjuk masa lalu, next menunjuk masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "last year",
+          "right": "past"
+        },
+        {
+          "left": "today",
+          "right": "present"
+        },
+        {
+          "left": "next month",
+          "right": "future"
+        },
+        {
+          "left": "an hour ago",
+          "right": "past"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu diletakkan di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "visited",
+        "the",
+        "museum",
+        "yesterday"
+      ],
+      "answer": "We visited the museum yesterday"
+    },
+    {
+      "id": "adverb-time-v14-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu later di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "later"
+      ],
+      "answer": "I will call you later"
+    },
+    {
+      "id": "adverb-time-v14-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "'Yesterday' menandakan waktu lampau: watched.",
+      "type": "fill_blank",
+      "sentence": "She ___ (watch) a film yesterday.",
+      "answer": [
+        "watched"
+      ]
+    },
+    {
+      "id": "adverb-time-v14-mc-3",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Went adalah bentuk lampau, jadi keterangannya last year.",
+      "type": "multiple_choice",
+      "question": "We went to Bali ___.",
+      "options": [
+        "last year",
+        "next year",
+        "tomorrow",
+        "soon"
+      ],
+      "answer": "last year"
+    },
+    {
+      "id": "adverb-time-v14-mc-4",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi keterangannya later.",
+      "type": "multiple_choice",
+      "question": "She will call you ___.",
+      "options": [
+        "later",
+        "yesterday",
+        "last night",
+        "ago"
+      ],
+      "answer": "later"
+    },
+    {
+      "id": "adverb-time-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar dengan keterangan waktu.",
+      "type": "free_write",
+      "task": "Write one sentence about your plan, using an adverb of time.",
+      "requirements": [
+        "future with will",
+        "adverb of time"
+      ],
+      "modelAnswer": "I will visit my friend tomorrow."
+    }
+  ],
+  [
+    {
+      "id": "adverb-time-v15-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Keterangan waktu biasanya diletakkan di akhir.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She visited her aunt last week.",
+        "She visited last week her aunt.",
+        "Last week she her aunt visited."
+      ],
+      "answer": "She visited her aunt last week."
+    },
+    {
+      "id": "adverb-time-v15-mc-2",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Will menandakan masa depan, jadi soon.",
+      "type": "multiple_choice",
+      "question": "He will arrive ___.",
+      "options": [
+        "soon",
+        "yesterday",
+        "last week",
+        "ago"
+      ],
+      "answer": "soon"
+    },
+    {
+      "id": "adverb-time-v15-match-1",
+      "prompt": "Match each adverb to its time",
+      "explanation": "Ago dan last menunjuk masa lalu, next menunjuk masa depan.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "last year",
+          "right": "past"
+        },
+        {
+          "left": "today",
+          "right": "present"
+        },
+        {
+          "left": "next month",
+          "right": "future"
+        },
+        {
+          "left": "an hour ago",
+          "right": "past"
+        }
+      ]
+    },
+    {
+      "id": "adverb-time-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu diletakkan di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "visited",
+        "the",
+        "museum",
+        "yesterday"
+      ],
+      "answer": "We visited the museum yesterday"
+    },
+    {
+      "id": "adverb-time-v15-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu later di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "will",
+        "call",
+        "you",
+        "later"
+      ],
+      "answer": "I will call you later"
+    },
+    {
+      "id": "adverb-time-v15-fb-1",
+      "prompt": "Complete the sentence with the correct verb form",
+      "explanation": "Bentuk lampau dari meet adalah met.",
+      "type": "fill_blank",
+      "sentence": "We ___ (meet) him last Friday.",
+      "answer": [
+        "met"
+      ]
+    },
+    {
+      "id": "adverb-time-v15-mc-3",
+      "prompt": "Choose the correct adverb of time",
+      "explanation": "Kata kerja saw adalah bentuk lampau, jadi keterangannya yesterday.",
+      "type": "multiple_choice",
+      "question": "I saw that movie ___.",
+      "options": [
+        "yesterday",
+        "tomorrow",
+        "soon",
+        "later"
+      ],
+      "answer": "yesterday"
+    },
+    {
+      "id": "adverb-time-v15-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Susunannya subjek + kata kerja + objek, lalu keterangan waktu.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I finished my homework already.",
+        "I already finished homework my.",
+        "Already I my homework finished."
+      ],
+      "answer": "I finished my homework already."
+    },
+    {
+      "id": "adverb-time-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar dengan keterangan waktu.",
+      "type": "free_write",
+      "task": "Write one sentence about your plan, using an adverb of time.",
+      "requirements": [
+        "future with will",
+        "adverb of time"
+      ],
+      "modelAnswer": "I will visit my friend tomorrow."
+    }
+  ]
+]

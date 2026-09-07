@@ -1,0 +1,1869 @@
+[
+  [
+    {
+      "id": "do-dont-doesnt-v1-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai doesn't, dan setelahnya kata kerja kembali ke bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "She doesn't like durian.",
+        "She doesn't likes durian.",
+        "She don't like durian."
+      ],
+      "answer": "She doesn't like durian."
+    },
+    {
+      "id": "do-dont-doesnt-v1-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "'We' memakai don't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ watch TV.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v1-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "'She' memakai doesn't. Kata kerja setelahnya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "She ___ like durian.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v1-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "I, you, we, dan they memakai don't. He, she, it, dan orang tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "don't"
+        },
+        {
+          "left": "He",
+          "right": "doesn't"
+        },
+        {
+          "left": "They",
+          "right": "don't"
+        },
+        {
+          "left": "My sister",
+          "right": "doesn't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v1-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah doesn't, likes kembali menjadi like.",
+      "type": "flip_sentence",
+      "source": "She likes coffee.",
+      "target": "negative",
+      "answer": [
+        "She doesn't like coffee.",
+        "She does not like coffee."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v1-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "I eat spicy food.",
+      "target": "negative",
+      "answer": [
+        "I don't eat spicy food.",
+        "I do not eat spicy food."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v1-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'They' memakai don't + play.",
+      "type": "fill_blank",
+      "sentence": "They ___ (not / play) football.",
+      "answer": [
+        "don't play"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v1-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'She' memakai doesn't + watch.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / watch) TV at night.",
+      "answer": [
+        "doesn't watch"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v1-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah doesn't, kata kerja kembali ke bentuk dasar: go.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "He doesn't go to school on Sunday.",
+        "He doesn't goes to school on Sunday.",
+        "He don't goes to school on Sunday."
+      ],
+      "answer": "He doesn't go to school on Sunday."
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v2-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'We' memakai don't, dan kata kerjanya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "We don't eat meat.",
+        "We doesn't eat meat.",
+        "We don't eats meat."
+      ],
+      "answer": "We don't eat meat."
+    },
+    {
+      "id": "do-dont-doesnt-v2-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "'The shop' berarti it, jadi doesn't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "The shop ___ open on Sunday.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v2-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "'My father' berarti he, jadi doesn't.",
+      "type": "multiple_choice",
+      "question": "My father ___ drink coffee.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v2-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "Orang atau benda tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "We",
+          "right": "don't"
+        },
+        {
+          "left": "She",
+          "right": "doesn't"
+        },
+        {
+          "left": "The shop",
+          "right": "doesn't"
+        },
+        {
+          "left": "You",
+          "right": "don't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v2-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "He + doesn't + kata kerja dasar. Writes kehilangan -s.",
+      "type": "flip_sentence",
+      "source": "He writes poems.",
+      "target": "negative",
+      "answer": [
+        "He doesn't write poems.",
+        "He does not write poems."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v2-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They watch TV at night.",
+      "target": "negative",
+      "answer": [
+        "They don't watch TV at night.",
+        "They do not watch TV at night."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v2-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'My friend' berarti he atau she, jadi doesn't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (not / like) K-pop.",
+      "answer": [
+        "doesn't like"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v2-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "Setelah doesn't, study tetap bentuk dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / study) on Sunday.",
+      "answer": [
+        "doesn't study"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v2-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'They' memakai don't.",
+      "type": "multiple_choice",
+      "question": "They ___ live in Jakarta.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v3-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'We' memakai don't, dan kata kerjanya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "We don't eat meat.",
+        "We doesn't eat meat.",
+        "We don't eats meat."
+      ],
+      "answer": "We don't eat meat."
+    },
+    {
+      "id": "do-dont-doesnt-v3-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai doesn't, dan setelahnya kata kerja kembali ke bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "She doesn't like durian.",
+        "She doesn't likes durian.",
+        "She don't like durian."
+      ],
+      "answer": "She doesn't like durian."
+    },
+    {
+      "id": "do-dont-doesnt-v3-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah doesn't, kata kerja kembali ke bentuk dasar: go.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "He doesn't go to school on Sunday.",
+        "He doesn't goes to school on Sunday.",
+        "He don't goes to school on Sunday."
+      ],
+      "answer": "He doesn't go to school on Sunday."
+    },
+    {
+      "id": "do-dont-doesnt-v3-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "I, you, we, dan they memakai don't. He, she, it, dan orang tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "don't"
+        },
+        {
+          "left": "He",
+          "right": "doesn't"
+        },
+        {
+          "left": "They",
+          "right": "don't"
+        },
+        {
+          "left": "My sister",
+          "right": "doesn't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v3-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "I eat spicy food.",
+      "target": "negative",
+      "answer": [
+        "I don't eat spicy food.",
+        "I do not eat spicy food."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v3-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "He + doesn't + kata kerja dasar. Writes kehilangan -s.",
+      "type": "flip_sentence",
+      "source": "He writes poems.",
+      "target": "negative",
+      "answer": [
+        "He doesn't write poems.",
+        "He does not write poems."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v3-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "I ___ (not / eat) meat.",
+      "answer": [
+        "don't eat"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v3-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "Setelah doesn't, study tetap bentuk dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / study) on Sunday.",
+      "answer": [
+        "doesn't study"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v3-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'She' memakai doesn't. Kata kerja setelahnya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "She ___ like durian.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v4-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "'The shop' berarti it, jadi doesn't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "The shop ___ open on Sunday.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v4-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "'We' memakai don't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ watch TV.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v4-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "'They' memakai don't.",
+      "type": "multiple_choice",
+      "question": "They ___ live in Jakarta.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v4-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "Orang atau benda tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "We",
+          "right": "don't"
+        },
+        {
+          "left": "She",
+          "right": "doesn't"
+        },
+        {
+          "left": "The shop",
+          "right": "doesn't"
+        },
+        {
+          "left": "You",
+          "right": "don't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v4-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They watch TV at night.",
+      "target": "negative",
+      "answer": [
+        "They don't watch TV at night.",
+        "They do not watch TV at night."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v4-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah doesn't, likes kembali menjadi like.",
+      "type": "flip_sentence",
+      "source": "She likes coffee.",
+      "target": "negative",
+      "answer": [
+        "She doesn't like coffee.",
+        "She does not like coffee."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v4-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'They' memakai don't + play.",
+      "type": "fill_blank",
+      "sentence": "They ___ (not / play) football.",
+      "answer": [
+        "don't play"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v4-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'My friend' berarti he atau she, jadi doesn't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (not / like) K-pop.",
+      "answer": [
+        "doesn't like"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v4-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'My father' berarti he, jadi doesn't.",
+      "type": "multiple_choice",
+      "question": "My father ___ drink coffee.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "answer": "doesn't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v5-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'We' memakai don't, dan kata kerjanya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "We don't eat meat.",
+        "We doesn't eat meat.",
+        "We don't eats meat."
+      ],
+      "answer": "We don't eat meat."
+    },
+    {
+      "id": "do-dont-doesnt-v5-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "'She' memakai doesn't. Kata kerja setelahnya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "She ___ like durian.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v5-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "'We' memakai don't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ watch TV.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v5-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "Orang atau benda tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "We",
+          "right": "don't"
+        },
+        {
+          "left": "She",
+          "right": "doesn't"
+        },
+        {
+          "left": "The shop",
+          "right": "doesn't"
+        },
+        {
+          "left": "You",
+          "right": "don't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v5-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah doesn't, likes kembali menjadi like.",
+      "type": "flip_sentence",
+      "source": "She likes coffee.",
+      "target": "negative",
+      "answer": [
+        "She doesn't like coffee.",
+        "She does not like coffee."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v5-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They watch TV at night.",
+      "target": "negative",
+      "answer": [
+        "They don't watch TV at night.",
+        "They do not watch TV at night."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v5-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'She' memakai doesn't + watch.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / watch) TV at night.",
+      "answer": [
+        "doesn't watch"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v5-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "I ___ (not / eat) meat.",
+      "answer": [
+        "don't eat"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v5-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'My father' berarti he, jadi doesn't.",
+      "type": "multiple_choice",
+      "question": "My father ___ drink coffee.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "answer": "doesn't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v6-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "'They' memakai don't.",
+      "type": "multiple_choice",
+      "question": "They ___ live in Jakarta.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v6-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah doesn't, kata kerja kembali ke bentuk dasar: go.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "He doesn't go to school on Sunday.",
+        "He doesn't goes to school on Sunday.",
+        "He don't goes to school on Sunday."
+      ],
+      "answer": "He doesn't go to school on Sunday."
+    },
+    {
+      "id": "do-dont-doesnt-v6-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai doesn't, dan setelahnya kata kerja kembali ke bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "She doesn't like durian.",
+        "She doesn't likes durian.",
+        "She don't like durian."
+      ],
+      "answer": "She doesn't like durian."
+    },
+    {
+      "id": "do-dont-doesnt-v6-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "I, you, we, dan they memakai don't. He, she, it, dan orang tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "don't"
+        },
+        {
+          "left": "He",
+          "right": "doesn't"
+        },
+        {
+          "left": "They",
+          "right": "don't"
+        },
+        {
+          "left": "My sister",
+          "right": "doesn't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v6-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "I eat spicy food.",
+      "target": "negative",
+      "answer": [
+        "I don't eat spicy food.",
+        "I do not eat spicy food."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v6-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "He + doesn't + kata kerja dasar. Writes kehilangan -s.",
+      "type": "flip_sentence",
+      "source": "He writes poems.",
+      "target": "negative",
+      "answer": [
+        "He doesn't write poems.",
+        "He does not write poems."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v6-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'She' memakai doesn't + watch.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / watch) TV at night.",
+      "answer": [
+        "doesn't watch"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v6-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'They' memakai don't + play.",
+      "type": "fill_blank",
+      "sentence": "They ___ (not / play) football.",
+      "answer": [
+        "don't play"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v6-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'The shop' berarti it, jadi doesn't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "The shop ___ open on Sunday.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v7-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'We' memakai don't, dan kata kerjanya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "We don't eat meat.",
+        "We doesn't eat meat.",
+        "We don't eats meat."
+      ],
+      "answer": "We don't eat meat."
+    },
+    {
+      "id": "do-dont-doesnt-v7-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah doesn't, kata kerja kembali ke bentuk dasar: go.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "He doesn't go to school on Sunday.",
+        "He doesn't goes to school on Sunday.",
+        "He don't goes to school on Sunday."
+      ],
+      "answer": "He doesn't go to school on Sunday."
+    },
+    {
+      "id": "do-dont-doesnt-v7-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "'They' memakai don't.",
+      "type": "multiple_choice",
+      "question": "They ___ live in Jakarta.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v7-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "Orang atau benda tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "We",
+          "right": "don't"
+        },
+        {
+          "left": "She",
+          "right": "doesn't"
+        },
+        {
+          "left": "The shop",
+          "right": "doesn't"
+        },
+        {
+          "left": "You",
+          "right": "don't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v7-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They watch TV at night.",
+      "target": "negative",
+      "answer": [
+        "They don't watch TV at night.",
+        "They do not watch TV at night."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v7-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "He + doesn't + kata kerja dasar. Writes kehilangan -s.",
+      "type": "flip_sentence",
+      "source": "He writes poems.",
+      "target": "negative",
+      "answer": [
+        "He doesn't write poems.",
+        "He does not write poems."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v7-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "Setelah doesn't, study tetap bentuk dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / study) on Sunday.",
+      "answer": [
+        "doesn't study"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v7-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'My friend' berarti he atau she, jadi doesn't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (not / like) K-pop.",
+      "answer": [
+        "doesn't like"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v7-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'The shop' berarti it, jadi doesn't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "The shop ___ open on Sunday.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v8-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "'My father' berarti he, jadi doesn't.",
+      "type": "multiple_choice",
+      "question": "My father ___ drink coffee.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v8-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai doesn't, dan setelahnya kata kerja kembali ke bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "She doesn't like durian.",
+        "She doesn't likes durian.",
+        "She don't like durian."
+      ],
+      "answer": "She doesn't like durian."
+    },
+    {
+      "id": "do-dont-doesnt-v8-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "'We' memakai don't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ watch TV.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v8-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "I, you, we, dan they memakai don't. He, she, it, dan orang tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "don't"
+        },
+        {
+          "left": "He",
+          "right": "doesn't"
+        },
+        {
+          "left": "They",
+          "right": "don't"
+        },
+        {
+          "left": "My sister",
+          "right": "doesn't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v8-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "I eat spicy food.",
+      "target": "negative",
+      "answer": [
+        "I don't eat spicy food.",
+        "I do not eat spicy food."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v8-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah doesn't, likes kembali menjadi like.",
+      "type": "flip_sentence",
+      "source": "She likes coffee.",
+      "target": "negative",
+      "answer": [
+        "She doesn't like coffee.",
+        "She does not like coffee."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v8-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "I ___ (not / eat) meat.",
+      "answer": [
+        "don't eat"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v8-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'My friend' berarti he atau she, jadi doesn't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (not / like) K-pop.",
+      "answer": [
+        "doesn't like"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v8-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'She' memakai doesn't. Kata kerja setelahnya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "She ___ like durian.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v9-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "'My father' berarti he, jadi doesn't.",
+      "type": "multiple_choice",
+      "question": "My father ___ drink coffee.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v9-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'We' memakai don't, dan kata kerjanya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "We don't eat meat.",
+        "We doesn't eat meat.",
+        "We don't eats meat."
+      ],
+      "answer": "We don't eat meat."
+    },
+    {
+      "id": "do-dont-doesnt-v9-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "'We' memakai don't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ watch TV.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v9-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "I, you, we, dan they memakai don't. He, she, it, dan orang tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "don't"
+        },
+        {
+          "left": "He",
+          "right": "doesn't"
+        },
+        {
+          "left": "They",
+          "right": "don't"
+        },
+        {
+          "left": "My sister",
+          "right": "doesn't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v9-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah doesn't, likes kembali menjadi like.",
+      "type": "flip_sentence",
+      "source": "She likes coffee.",
+      "target": "negative",
+      "answer": [
+        "She doesn't like coffee.",
+        "She does not like coffee."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v9-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "I eat spicy food.",
+      "target": "negative",
+      "answer": [
+        "I don't eat spicy food.",
+        "I do not eat spicy food."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v9-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "Setelah doesn't, study tetap bentuk dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / study) on Sunday.",
+      "answer": [
+        "doesn't study"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v9-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'She' memakai doesn't + watch.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / watch) TV at night.",
+      "answer": [
+        "doesn't watch"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v9-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'The shop' berarti it, jadi doesn't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "The shop ___ open on Sunday.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v10-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "'She' memakai doesn't. Kata kerja setelahnya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "She ___ like durian.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v10-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah doesn't, kata kerja kembali ke bentuk dasar: go.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "He doesn't go to school on Sunday.",
+        "He doesn't goes to school on Sunday.",
+        "He don't goes to school on Sunday."
+      ],
+      "answer": "He doesn't go to school on Sunday."
+    },
+    {
+      "id": "do-dont-doesnt-v10-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai doesn't, dan setelahnya kata kerja kembali ke bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "She doesn't like durian.",
+        "She doesn't likes durian.",
+        "She don't like durian."
+      ],
+      "answer": "She doesn't like durian."
+    },
+    {
+      "id": "do-dont-doesnt-v10-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "Orang atau benda tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "We",
+          "right": "don't"
+        },
+        {
+          "left": "She",
+          "right": "doesn't"
+        },
+        {
+          "left": "The shop",
+          "right": "doesn't"
+        },
+        {
+          "left": "You",
+          "right": "don't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v10-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "He + doesn't + kata kerja dasar. Writes kehilangan -s.",
+      "type": "flip_sentence",
+      "source": "He writes poems.",
+      "target": "negative",
+      "answer": [
+        "He doesn't write poems.",
+        "He does not write poems."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v10-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They watch TV at night.",
+      "target": "negative",
+      "answer": [
+        "They don't watch TV at night.",
+        "They do not watch TV at night."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v10-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "I ___ (not / eat) meat.",
+      "answer": [
+        "don't eat"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v10-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'They' memakai don't + play.",
+      "type": "fill_blank",
+      "sentence": "They ___ (not / play) football.",
+      "answer": [
+        "don't play"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v10-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'They' memakai don't.",
+      "type": "multiple_choice",
+      "question": "They ___ live in Jakarta.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v11-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "'She' memakai doesn't. Kata kerja setelahnya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "She ___ like durian.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v11-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah doesn't, kata kerja kembali ke bentuk dasar: go.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "He doesn't go to school on Sunday.",
+        "He doesn't goes to school on Sunday.",
+        "He don't goes to school on Sunday."
+      ],
+      "answer": "He doesn't go to school on Sunday."
+    },
+    {
+      "id": "do-dont-doesnt-v11-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai doesn't, dan setelahnya kata kerja kembali ke bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "She doesn't like durian.",
+        "She doesn't likes durian.",
+        "She don't like durian."
+      ],
+      "answer": "She doesn't like durian."
+    },
+    {
+      "id": "do-dont-doesnt-v11-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "Orang atau benda tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "We",
+          "right": "don't"
+        },
+        {
+          "left": "She",
+          "right": "doesn't"
+        },
+        {
+          "left": "The shop",
+          "right": "doesn't"
+        },
+        {
+          "left": "You",
+          "right": "don't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v11-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "I eat spicy food.",
+      "target": "negative",
+      "answer": [
+        "I don't eat spicy food.",
+        "I do not eat spicy food."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v11-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They watch TV at night.",
+      "target": "negative",
+      "answer": [
+        "They don't watch TV at night.",
+        "They do not watch TV at night."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v11-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "Setelah doesn't, study tetap bentuk dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / study) on Sunday.",
+      "answer": [
+        "doesn't study"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v11-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'She' memakai doesn't + watch.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / watch) TV at night.",
+      "answer": [
+        "doesn't watch"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v11-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'They' memakai don't.",
+      "type": "multiple_choice",
+      "question": "They ___ live in Jakarta.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v12-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'We' memakai don't, dan kata kerjanya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "We don't eat meat.",
+        "We doesn't eat meat.",
+        "We don't eats meat."
+      ],
+      "answer": "We don't eat meat."
+    },
+    {
+      "id": "do-dont-doesnt-v12-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "'We' memakai don't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ watch TV.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v12-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "'The shop' berarti it, jadi doesn't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "The shop ___ open on Sunday.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v12-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "I, you, we, dan they memakai don't. He, she, it, dan orang tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "don't"
+        },
+        {
+          "left": "He",
+          "right": "doesn't"
+        },
+        {
+          "left": "They",
+          "right": "don't"
+        },
+        {
+          "left": "My sister",
+          "right": "doesn't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v12-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "He + doesn't + kata kerja dasar. Writes kehilangan -s.",
+      "type": "flip_sentence",
+      "source": "He writes poems.",
+      "target": "negative",
+      "answer": [
+        "He doesn't write poems.",
+        "He does not write poems."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v12-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah doesn't, likes kembali menjadi like.",
+      "type": "flip_sentence",
+      "source": "She likes coffee.",
+      "target": "negative",
+      "answer": [
+        "She doesn't like coffee.",
+        "She does not like coffee."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v12-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'My friend' berarti he atau she, jadi doesn't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (not / like) K-pop.",
+      "answer": [
+        "doesn't like"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v12-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "I ___ (not / eat) meat.",
+      "answer": [
+        "don't eat"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v12-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'My father' berarti he, jadi doesn't.",
+      "type": "multiple_choice",
+      "question": "My father ___ drink coffee.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "answer": "doesn't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v13-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah doesn't, kata kerja kembali ke bentuk dasar: go.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "He doesn't go to school on Sunday.",
+        "He doesn't goes to school on Sunday.",
+        "He don't goes to school on Sunday."
+      ],
+      "answer": "He doesn't go to school on Sunday."
+    },
+    {
+      "id": "do-dont-doesnt-v13-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "'My father' berarti he, jadi doesn't.",
+      "type": "multiple_choice",
+      "question": "My father ___ drink coffee.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v13-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'We' memakai don't, dan kata kerjanya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "We don't eat meat.",
+        "We doesn't eat meat.",
+        "We don't eats meat."
+      ],
+      "answer": "We don't eat meat."
+    },
+    {
+      "id": "do-dont-doesnt-v13-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "I, you, we, dan they memakai don't. He, she, it, dan orang tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "don't"
+        },
+        {
+          "left": "He",
+          "right": "doesn't"
+        },
+        {
+          "left": "They",
+          "right": "don't"
+        },
+        {
+          "left": "My sister",
+          "right": "doesn't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v13-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They watch TV at night.",
+      "target": "negative",
+      "answer": [
+        "They don't watch TV at night.",
+        "They do not watch TV at night."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v13-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah doesn't, likes kembali menjadi like.",
+      "type": "flip_sentence",
+      "source": "She likes coffee.",
+      "target": "negative",
+      "answer": [
+        "She doesn't like coffee.",
+        "She does not like coffee."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v13-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'They' memakai don't + play.",
+      "type": "fill_blank",
+      "sentence": "They ___ (not / play) football.",
+      "answer": [
+        "don't play"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v13-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'She' memakai doesn't + watch.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / watch) TV at night.",
+      "answer": [
+        "doesn't watch"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v13-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'She' memakai doesn't. Kata kerja setelahnya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "She ___ like durian.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v14-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai doesn't, dan setelahnya kata kerja kembali ke bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "She doesn't like durian.",
+        "She doesn't likes durian.",
+        "She don't like durian."
+      ],
+      "answer": "She doesn't like durian."
+    },
+    {
+      "id": "do-dont-doesnt-v14-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "'The shop' berarti it, jadi doesn't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "The shop ___ open on Sunday.",
+      "options": [
+        "don't",
+        "doesn't",
+        "not",
+        "isn't"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v14-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "'We' memakai don't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ watch TV.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v14-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "Orang atau benda tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "We",
+          "right": "don't"
+        },
+        {
+          "left": "She",
+          "right": "doesn't"
+        },
+        {
+          "left": "The shop",
+          "right": "doesn't"
+        },
+        {
+          "left": "You",
+          "right": "don't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v14-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "I eat spicy food.",
+      "target": "negative",
+      "answer": [
+        "I don't eat spicy food.",
+        "I do not eat spicy food."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v14-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "He + doesn't + kata kerja dasar. Writes kehilangan -s.",
+      "type": "flip_sentence",
+      "source": "He writes poems.",
+      "target": "negative",
+      "answer": [
+        "He doesn't write poems.",
+        "He does not write poems."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v14-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'I' memakai don't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "I ___ (not / eat) meat.",
+      "answer": [
+        "don't eat"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v14-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'They' memakai don't + play.",
+      "type": "fill_blank",
+      "sentence": "They ___ (not / play) football.",
+      "answer": [
+        "don't play"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v14-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "'They' memakai don't.",
+      "type": "multiple_choice",
+      "question": "They ___ live in Jakarta.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    }
+  ],
+  [
+    {
+      "id": "do-dont-doesnt-v15-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai doesn't, dan setelahnya kata kerja kembali ke bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct negative sentence.",
+      "options": [
+        "She doesn't like durian.",
+        "She doesn't likes durian.",
+        "She don't like durian."
+      ],
+      "answer": "She doesn't like durian."
+    },
+    {
+      "id": "do-dont-doesnt-v15-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "'We' memakai don't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ watch TV.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't",
+        "not"
+      ],
+      "answer": "don't"
+    },
+    {
+      "id": "do-dont-doesnt-v15-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "'My father' berarti he, jadi doesn't.",
+      "type": "multiple_choice",
+      "question": "My father ___ drink coffee.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "answer": "doesn't"
+    },
+    {
+      "id": "do-dont-doesnt-v15-match-1",
+      "prompt": "Match each subject to don't or doesn't",
+      "explanation": "Orang atau benda tunggal memakai doesn't.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "We",
+          "right": "don't"
+        },
+        {
+          "left": "She",
+          "right": "doesn't"
+        },
+        {
+          "left": "The shop",
+          "right": "doesn't"
+        },
+        {
+          "left": "You",
+          "right": "don't"
+        }
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v15-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah doesn't, likes kembali menjadi like.",
+      "type": "flip_sentence",
+      "source": "She likes coffee.",
+      "target": "negative",
+      "answer": [
+        "She doesn't like coffee.",
+        "She does not like coffee."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v15-flip-2",
+      "prompt": "Rewrite the sentence",
+      "explanation": "He + doesn't + kata kerja dasar. Writes kehilangan -s.",
+      "type": "flip_sentence",
+      "source": "He writes poems.",
+      "target": "negative",
+      "answer": [
+        "He doesn't write poems.",
+        "He does not write poems."
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v15-fb-1",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "Setelah doesn't, study tetap bentuk dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / study) on Sunday.",
+      "answer": [
+        "doesn't study"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v15-fb-2",
+      "prompt": "Complete the sentence using the words in brackets",
+      "explanation": "'My friend' berarti he atau she, jadi doesn't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (not / like) K-pop.",
+      "answer": [
+        "doesn't like"
+      ]
+    },
+    {
+      "id": "do-dont-doesnt-v15-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'We' memakai don't, dan kata kerjanya tetap bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "We don't eat meat.",
+        "We doesn't eat meat.",
+        "We don't eats meat."
+      ],
+      "answer": "We don't eat meat."
+    }
+  ]
+]

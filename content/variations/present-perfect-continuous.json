@@ -1,0 +1,1924 @@
+[
+  [
+    {
+      "id": "present-perfect-continuous-v1-mc-1",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun. For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "She has been teaching here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "present-perfect-continuous-v1-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuknya been, bukan being. 'They' memakai have.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour.",
+      "options": [
+        "have been waiting",
+        "has been waiting",
+        "have being waiting",
+        "are been waiting"
+      ],
+      "answer": "have been waiting"
+    },
+    {
+      "id": "present-perfect-continuous-v1-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football all afternoon.",
+      "options": [
+        "has been playing",
+        "have been playing",
+        "has been play",
+        "is been playing"
+      ],
+      "answer": "has been playing"
+    },
+    {
+      "id": "present-perfect-continuous-v1-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has been + cooking.",
+      "type": "fill_blank",
+      "sentence": "She ___ (cook) since noon.",
+      "answer": [
+        "has been cooking"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v1-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai have been + waiting.",
+      "type": "fill_blank",
+      "sentence": "We ___ (wait) since 9 o'clock.",
+      "answer": [
+        "have been waiting"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + has been + kata kerja -ing + for + lama waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "has",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answer": "She has been cooking for two hours"
+    },
+    {
+      "id": "present-perfect-continuous-v1-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Present perfect continuous menggabungkan have/has been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        },
+        {
+          "left": "Present perfect continuous",
+          "right": "have/has been + verb-ing"
+        },
+        {
+          "left": "Present continuous",
+          "right": "am/is/are + verb-ing"
+        },
+        {
+          "left": "Present simple",
+          "right": "base verb (+ -s)"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v1-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya have been + kata kerja -ing. 'I' memakai have.",
+      "type": "multiple_choice",
+      "question": "I ___ English for two years.",
+      "options": [
+        "have been studying",
+        "has been studying",
+        "have been study",
+        "am studying"
+      ],
+      "answer": "have been studying"
+    },
+    {
+      "id": "present-perfect-continuous-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have been + kata kerja -ing dengan since.",
+      "type": "free_write",
+      "task": "Write one sentence using 'since' about something you are still doing.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been studying here since 2022."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v2-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai has, lalu been + working.",
+      "type": "multiple_choice",
+      "question": "She ___ since this morning.",
+      "options": [
+        "has been working",
+        "have been working",
+        "has been work",
+        "is been working"
+      ],
+      "answer": "has been working"
+    },
+    {
+      "id": "present-perfect-continuous-v2-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu. Since dipakai untuk titik mulai.",
+      "type": "multiple_choice",
+      "question": "They have been waiting ___ three hours.",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "at"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "present-perfect-continuous-v2-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya have been, bukan have being, dan 'they' memakai have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They have been playing football.",
+        "They have being playing football.",
+        "They has been playing football."
+      ],
+      "answer": "They have been playing football."
+    },
+    {
+      "id": "present-perfect-continuous-v2-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Have been + working.",
+      "type": "fill_blank",
+      "sentence": "I ___ (work) here for a year.",
+      "answer": [
+        "have been working"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v2-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (read) that book all day.",
+      "answer": [
+        "has been reading"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have been + kata kerja -ing.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "you"
+      ],
+      "answer": "I have been waiting for you"
+    },
+    {
+      "id": "present-perfect-continuous-v2-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu. Since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "two hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a long time",
+          "right": "for"
+        },
+        {
+          "left": "2020",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v2-mc-4",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun. For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "She has been teaching here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "present-perfect-continuous-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have been doing for a long time.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been learning English for three years."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v3-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuknya been, bukan being. 'They' memakai have.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour.",
+      "options": [
+        "have been waiting",
+        "has been waiting",
+        "have being waiting",
+        "are been waiting"
+      ],
+      "answer": "have been waiting"
+    },
+    {
+      "id": "present-perfect-continuous-v3-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football all afternoon.",
+      "options": [
+        "has been playing",
+        "have been playing",
+        "has been play",
+        "is been playing"
+      ],
+      "answer": "has been playing"
+    },
+    {
+      "id": "present-perfect-continuous-v3-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya have been, bukan have being, dan 'they' memakai have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They have been playing football.",
+        "They have being playing football.",
+        "They has been playing football."
+      ],
+      "answer": "They have been playing football."
+    },
+    {
+      "id": "present-perfect-continuous-v3-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing: running.",
+      "type": "fill_blank",
+      "sentence": "They ___ (run) for an hour.",
+      "answer": [
+        "have been running"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v3-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Have been + working.",
+      "type": "fill_blank",
+      "sentence": "I ___ (work) here for a year.",
+      "answer": [
+        "have been working"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Since menandakan titik mulai.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "have",
+        "been",
+        "living",
+        "here",
+        "since",
+        "2019"
+      ],
+      "answer": "We have been living here since 2019"
+    },
+    {
+      "id": "present-perfect-continuous-v3-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu. Since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "two hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a long time",
+          "right": "for"
+        },
+        {
+          "left": "2020",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v3-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya have been + kata kerja -ing. 'I' memakai have.",
+      "type": "multiple_choice",
+      "question": "I ___ English for two years.",
+      "options": [
+        "have been studying",
+        "has been studying",
+        "have been study",
+        "am studying"
+      ],
+      "answer": "have been studying"
+    },
+    {
+      "id": "present-perfect-continuous-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have been doing for a long time.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been learning English for three years."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v4-mc-1",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu. Since dipakai untuk titik mulai.",
+      "type": "multiple_choice",
+      "question": "They have been waiting ___ three hours.",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "at"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "present-perfect-continuous-v4-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai has, lalu been + working.",
+      "type": "multiple_choice",
+      "question": "She ___ since this morning.",
+      "options": [
+        "has been working",
+        "have been working",
+        "has been work",
+        "is been working"
+      ],
+      "answer": "has been working"
+    },
+    {
+      "id": "present-perfect-continuous-v4-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuknya been, bukan being. 'They' memakai have.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour.",
+      "options": [
+        "have been waiting",
+        "has been waiting",
+        "have being waiting",
+        "are been waiting"
+      ],
+      "answer": "have been waiting"
+    },
+    {
+      "id": "present-perfect-continuous-v4-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (read) that book all day.",
+      "answer": [
+        "has been reading"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v4-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has been + cooking.",
+      "type": "fill_blank",
+      "sentence": "She ___ (cook) since noon.",
+      "answer": [
+        "has been cooking"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Since menandakan titik mulai.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "have",
+        "been",
+        "living",
+        "here",
+        "since",
+        "2019"
+      ],
+      "answer": "We have been living here since 2019"
+    },
+    {
+      "id": "present-perfect-continuous-v4-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Present perfect continuous menggabungkan have/has been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        },
+        {
+          "left": "Present perfect continuous",
+          "right": "have/has been + verb-ing"
+        },
+        {
+          "left": "Present continuous",
+          "right": "am/is/are + verb-ing"
+        },
+        {
+          "left": "Present simple",
+          "right": "base verb (+ -s)"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v4-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya have been + kata kerja -ing. 'I' memakai have.",
+      "type": "multiple_choice",
+      "question": "I ___ English for two years.",
+      "options": [
+        "have been studying",
+        "has been studying",
+        "have been study",
+        "am studying"
+      ],
+      "answer": "have been studying"
+    },
+    {
+      "id": "present-perfect-continuous-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have been + kata kerja -ing dengan since.",
+      "type": "free_write",
+      "task": "Write one sentence using 'since' about something you are still doing.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been studying here since 2022."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v5-mc-1",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun. For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "She has been teaching here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "present-perfect-continuous-v5-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai has, lalu been + working.",
+      "type": "multiple_choice",
+      "question": "She ___ since this morning.",
+      "options": [
+        "has been working",
+        "have been working",
+        "has been work",
+        "is been working"
+      ],
+      "answer": "has been working"
+    },
+    {
+      "id": "present-perfect-continuous-v5-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football all afternoon.",
+      "options": [
+        "has been playing",
+        "have been playing",
+        "has been play",
+        "is been playing"
+      ],
+      "answer": "has been playing"
+    },
+    {
+      "id": "present-perfect-continuous-v5-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai have been + waiting.",
+      "type": "fill_blank",
+      "sentence": "We ___ (wait) since 9 o'clock.",
+      "answer": [
+        "have been waiting"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v5-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing: running.",
+      "type": "fill_blank",
+      "sentence": "They ___ (run) for an hour.",
+      "answer": [
+        "have been running"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have been + kata kerja -ing.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "you"
+      ],
+      "answer": "I have been waiting for you"
+    },
+    {
+      "id": "present-perfect-continuous-v5-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu. Since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "two hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a long time",
+          "right": "for"
+        },
+        {
+          "left": "2020",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v5-mc-4",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu. Since dipakai untuk titik mulai.",
+      "type": "multiple_choice",
+      "question": "They have been waiting ___ three hours.",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "at"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "present-perfect-continuous-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have been + kata kerja -ing dengan since.",
+      "type": "free_write",
+      "task": "Write one sentence using 'since' about something you are still doing.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been studying here since 2022."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v6-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya have been, bukan have being, dan 'they' memakai have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They have been playing football.",
+        "They have being playing football.",
+        "They has been playing football."
+      ],
+      "answer": "They have been playing football."
+    },
+    {
+      "id": "present-perfect-continuous-v6-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun. For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "She has been teaching here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "present-perfect-continuous-v6-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai has, lalu been + working.",
+      "type": "multiple_choice",
+      "question": "She ___ since this morning.",
+      "options": [
+        "has been working",
+        "have been working",
+        "has been work",
+        "is been working"
+      ],
+      "answer": "has been working"
+    },
+    {
+      "id": "present-perfect-continuous-v6-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Have been + working.",
+      "type": "fill_blank",
+      "sentence": "I ___ (work) here for a year.",
+      "answer": [
+        "have been working"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v6-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (read) that book all day.",
+      "answer": [
+        "has been reading"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + has been + kata kerja -ing + for + lama waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "has",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answer": "She has been cooking for two hours"
+    },
+    {
+      "id": "present-perfect-continuous-v6-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Present perfect continuous menggabungkan have/has been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        },
+        {
+          "left": "Present perfect continuous",
+          "right": "have/has been + verb-ing"
+        },
+        {
+          "left": "Present continuous",
+          "right": "am/is/are + verb-ing"
+        },
+        {
+          "left": "Present simple",
+          "right": "base verb (+ -s)"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v6-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuknya been, bukan being. 'They' memakai have.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour.",
+      "options": [
+        "have been waiting",
+        "has been waiting",
+        "have being waiting",
+        "are been waiting"
+      ],
+      "answer": "have been waiting"
+    },
+    {
+      "id": "present-perfect-continuous-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have been doing for a long time.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been learning English for three years."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v7-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya have been + kata kerja -ing. 'I' memakai have.",
+      "type": "multiple_choice",
+      "question": "I ___ English for two years.",
+      "options": [
+        "have been studying",
+        "has been studying",
+        "have been study",
+        "am studying"
+      ],
+      "answer": "have been studying"
+    },
+    {
+      "id": "present-perfect-continuous-v7-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu. Since dipakai untuk titik mulai.",
+      "type": "multiple_choice",
+      "question": "They have been waiting ___ three hours.",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "at"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "present-perfect-continuous-v7-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football all afternoon.",
+      "options": [
+        "has been playing",
+        "have been playing",
+        "has been play",
+        "is been playing"
+      ],
+      "answer": "has been playing"
+    },
+    {
+      "id": "present-perfect-continuous-v7-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai have been + waiting.",
+      "type": "fill_blank",
+      "sentence": "We ___ (wait) since 9 o'clock.",
+      "answer": [
+        "have been waiting"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v7-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has been + cooking.",
+      "type": "fill_blank",
+      "sentence": "She ___ (cook) since noon.",
+      "answer": [
+        "has been cooking"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have been + kata kerja -ing.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "you"
+      ],
+      "answer": "I have been waiting for you"
+    },
+    {
+      "id": "present-perfect-continuous-v7-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu. Since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "two hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a long time",
+          "right": "for"
+        },
+        {
+          "left": "2020",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v7-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya have been, bukan have being, dan 'they' memakai have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They have been playing football.",
+        "They have being playing football.",
+        "They has been playing football."
+      ],
+      "answer": "They have been playing football."
+    },
+    {
+      "id": "present-perfect-continuous-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have been doing for a long time.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been learning English for three years."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v8-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football all afternoon.",
+      "options": [
+        "has been playing",
+        "have been playing",
+        "has been play",
+        "is been playing"
+      ],
+      "answer": "has been playing"
+    },
+    {
+      "id": "present-perfect-continuous-v8-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun. For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "She has been teaching here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "present-perfect-continuous-v8-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya have been, bukan have being, dan 'they' memakai have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They have been playing football.",
+        "They have being playing football.",
+        "They has been playing football."
+      ],
+      "answer": "They have been playing football."
+    },
+    {
+      "id": "present-perfect-continuous-v8-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing: running.",
+      "type": "fill_blank",
+      "sentence": "They ___ (run) for an hour.",
+      "answer": [
+        "have been running"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v8-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai have been + waiting.",
+      "type": "fill_blank",
+      "sentence": "We ___ (wait) since 9 o'clock.",
+      "answer": [
+        "have been waiting"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + has been + kata kerja -ing + for + lama waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "has",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answer": "She has been cooking for two hours"
+    },
+    {
+      "id": "present-perfect-continuous-v8-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Present perfect continuous menggabungkan have/has been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        },
+        {
+          "left": "Present perfect continuous",
+          "right": "have/has been + verb-ing"
+        },
+        {
+          "left": "Present continuous",
+          "right": "am/is/are + verb-ing"
+        },
+        {
+          "left": "Present simple",
+          "right": "base verb (+ -s)"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v8-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuknya been, bukan being. 'They' memakai have.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour.",
+      "options": [
+        "have been waiting",
+        "has been waiting",
+        "have being waiting",
+        "are been waiting"
+      ],
+      "answer": "have been waiting"
+    },
+    {
+      "id": "present-perfect-continuous-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have been + kata kerja -ing dengan since.",
+      "type": "free_write",
+      "task": "Write one sentence using 'since' about something you are still doing.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been studying here since 2022."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v9-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai has, lalu been + working.",
+      "type": "multiple_choice",
+      "question": "She ___ since this morning.",
+      "options": [
+        "has been working",
+        "have been working",
+        "has been work",
+        "is been working"
+      ],
+      "answer": "has been working"
+    },
+    {
+      "id": "present-perfect-continuous-v9-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya have been + kata kerja -ing. 'I' memakai have.",
+      "type": "multiple_choice",
+      "question": "I ___ English for two years.",
+      "options": [
+        "have been studying",
+        "has been studying",
+        "have been study",
+        "am studying"
+      ],
+      "answer": "have been studying"
+    },
+    {
+      "id": "present-perfect-continuous-v9-mc-3",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu. Since dipakai untuk titik mulai.",
+      "type": "multiple_choice",
+      "question": "They have been waiting ___ three hours.",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "at"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "present-perfect-continuous-v9-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (read) that book all day.",
+      "answer": [
+        "has been reading"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v9-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has been + cooking.",
+      "type": "fill_blank",
+      "sentence": "She ___ (cook) since noon.",
+      "answer": [
+        "has been cooking"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Since menandakan titik mulai.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "have",
+        "been",
+        "living",
+        "here",
+        "since",
+        "2019"
+      ],
+      "answer": "We have been living here since 2019"
+    },
+    {
+      "id": "present-perfect-continuous-v9-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Present perfect continuous menggabungkan have/has been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        },
+        {
+          "left": "Present perfect continuous",
+          "right": "have/has been + verb-ing"
+        },
+        {
+          "left": "Present continuous",
+          "right": "am/is/are + verb-ing"
+        },
+        {
+          "left": "Present simple",
+          "right": "base verb (+ -s)"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v9-mc-4",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun. For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "She has been teaching here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "present-perfect-continuous-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have been doing for a long time.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been learning English for three years."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v10-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuknya been, bukan being. 'They' memakai have.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour.",
+      "options": [
+        "have been waiting",
+        "has been waiting",
+        "have being waiting",
+        "are been waiting"
+      ],
+      "answer": "have been waiting"
+    },
+    {
+      "id": "present-perfect-continuous-v10-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu. Since dipakai untuk titik mulai.",
+      "type": "multiple_choice",
+      "question": "They have been waiting ___ three hours.",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "at"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "present-perfect-continuous-v10-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya have been + kata kerja -ing. 'I' memakai have.",
+      "type": "multiple_choice",
+      "question": "I ___ English for two years.",
+      "options": [
+        "have been studying",
+        "has been studying",
+        "have been study",
+        "am studying"
+      ],
+      "answer": "have been studying"
+    },
+    {
+      "id": "present-perfect-continuous-v10-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing: running.",
+      "type": "fill_blank",
+      "sentence": "They ___ (run) for an hour.",
+      "answer": [
+        "have been running"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v10-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Have been + working.",
+      "type": "fill_blank",
+      "sentence": "I ___ (work) here for a year.",
+      "answer": [
+        "have been working"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Since menandakan titik mulai.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "have",
+        "been",
+        "living",
+        "here",
+        "since",
+        "2019"
+      ],
+      "answer": "We have been living here since 2019"
+    },
+    {
+      "id": "present-perfect-continuous-v10-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu. Since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "two hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a long time",
+          "right": "for"
+        },
+        {
+          "left": "2020",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v10-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai has, lalu been + working.",
+      "type": "multiple_choice",
+      "question": "She ___ since this morning.",
+      "options": [
+        "has been working",
+        "have been working",
+        "has been work",
+        "is been working"
+      ],
+      "answer": "has been working"
+    },
+    {
+      "id": "present-perfect-continuous-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have been + kata kerja -ing dengan since.",
+      "type": "free_write",
+      "task": "Write one sentence using 'since' about something you are still doing.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been studying here since 2022."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v11-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football all afternoon.",
+      "options": [
+        "has been playing",
+        "have been playing",
+        "has been play",
+        "is been playing"
+      ],
+      "answer": "has been playing"
+    },
+    {
+      "id": "present-perfect-continuous-v11-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya have been, bukan have being, dan 'they' memakai have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They have been playing football.",
+        "They have being playing football.",
+        "They has been playing football."
+      ],
+      "answer": "They have been playing football."
+    },
+    {
+      "id": "present-perfect-continuous-v11-mc-3",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu. Since dipakai untuk titik mulai.",
+      "type": "multiple_choice",
+      "question": "They have been waiting ___ three hours.",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "at"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "present-perfect-continuous-v11-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Have been + working.",
+      "type": "fill_blank",
+      "sentence": "I ___ (work) here for a year.",
+      "answer": [
+        "have been working"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v11-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing: running.",
+      "type": "fill_blank",
+      "sentence": "They ___ (run) for an hour.",
+      "answer": [
+        "have been running"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have been + kata kerja -ing.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "you"
+      ],
+      "answer": "I have been waiting for you"
+    },
+    {
+      "id": "present-perfect-continuous-v11-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu. Since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "two hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a long time",
+          "right": "for"
+        },
+        {
+          "left": "2020",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v11-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai has, lalu been + working.",
+      "type": "multiple_choice",
+      "question": "She ___ since this morning.",
+      "options": [
+        "has been working",
+        "have been working",
+        "has been work",
+        "is been working"
+      ],
+      "answer": "has been working"
+    },
+    {
+      "id": "present-perfect-continuous-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have been + kata kerja -ing dengan since.",
+      "type": "free_write",
+      "task": "Write one sentence using 'since' about something you are still doing.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been studying here since 2022."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v12-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya have been, bukan have being, dan 'they' memakai have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They have been playing football.",
+        "They have being playing football.",
+        "They has been playing football."
+      ],
+      "answer": "They have been playing football."
+    },
+    {
+      "id": "present-perfect-continuous-v12-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuknya been, bukan being. 'They' memakai have.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour.",
+      "options": [
+        "have been waiting",
+        "has been waiting",
+        "have being waiting",
+        "are been waiting"
+      ],
+      "answer": "have been waiting"
+    },
+    {
+      "id": "present-perfect-continuous-v12-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya have been + kata kerja -ing. 'I' memakai have.",
+      "type": "multiple_choice",
+      "question": "I ___ English for two years.",
+      "options": [
+        "have been studying",
+        "has been studying",
+        "have been study",
+        "am studying"
+      ],
+      "answer": "have been studying"
+    },
+    {
+      "id": "present-perfect-continuous-v12-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has been + cooking.",
+      "type": "fill_blank",
+      "sentence": "She ___ (cook) since noon.",
+      "answer": [
+        "has been cooking"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v12-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (read) that book all day.",
+      "answer": [
+        "has been reading"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + has been + kata kerja -ing + for + lama waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "has",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answer": "She has been cooking for two hours"
+    },
+    {
+      "id": "present-perfect-continuous-v12-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Present perfect continuous menggabungkan have/has been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        },
+        {
+          "left": "Present perfect continuous",
+          "right": "have/has been + verb-ing"
+        },
+        {
+          "left": "Present continuous",
+          "right": "am/is/are + verb-ing"
+        },
+        {
+          "left": "Present simple",
+          "right": "base verb (+ -s)"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v12-mc-4",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun. For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "She has been teaching here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "present-perfect-continuous-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have been doing for a long time.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been learning English for three years."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v13-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football all afternoon.",
+      "options": [
+        "has been playing",
+        "have been playing",
+        "has been play",
+        "is been playing"
+      ],
+      "answer": "has been playing"
+    },
+    {
+      "id": "present-perfect-continuous-v13-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuknya been, bukan being. 'They' memakai have.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour.",
+      "options": [
+        "have been waiting",
+        "has been waiting",
+        "have being waiting",
+        "are been waiting"
+      ],
+      "answer": "have been waiting"
+    },
+    {
+      "id": "present-perfect-continuous-v13-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya have been + kata kerja -ing. 'I' memakai have.",
+      "type": "multiple_choice",
+      "question": "I ___ English for two years.",
+      "options": [
+        "have been studying",
+        "has been studying",
+        "have been study",
+        "am studying"
+      ],
+      "answer": "have been studying"
+    },
+    {
+      "id": "present-perfect-continuous-v13-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai have been + waiting.",
+      "type": "fill_blank",
+      "sentence": "We ___ (wait) since 9 o'clock.",
+      "answer": [
+        "have been waiting"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v13-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Have been + working.",
+      "type": "fill_blank",
+      "sentence": "I ___ (work) here for a year.",
+      "answer": [
+        "have been working"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Since menandakan titik mulai.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "have",
+        "been",
+        "living",
+        "here",
+        "since",
+        "2019"
+      ],
+      "answer": "We have been living here since 2019"
+    },
+    {
+      "id": "present-perfect-continuous-v13-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu. Since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "two hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a long time",
+          "right": "for"
+        },
+        {
+          "left": "2020",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v13-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai has, lalu been + working.",
+      "type": "multiple_choice",
+      "question": "She ___ since this morning.",
+      "options": [
+        "has been working",
+        "have been working",
+        "has been work",
+        "is been working"
+      ],
+      "answer": "has been working"
+    },
+    {
+      "id": "present-perfect-continuous-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have been + kata kerja -ing dengan since.",
+      "type": "free_write",
+      "task": "Write one sentence using 'since' about something you are still doing.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been studying here since 2022."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v14-mc-1",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun. For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "She has been teaching here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "present-perfect-continuous-v14-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya have been, bukan have being, dan 'they' memakai have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They have been playing football.",
+        "They have being playing football.",
+        "They has been playing football."
+      ],
+      "answer": "They have been playing football."
+    },
+    {
+      "id": "present-perfect-continuous-v14-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football all afternoon.",
+      "options": [
+        "has been playing",
+        "have been playing",
+        "has been play",
+        "is been playing"
+      ],
+      "answer": "has been playing"
+    },
+    {
+      "id": "present-perfect-continuous-v14-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (read) that book all day.",
+      "answer": [
+        "has been reading"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v14-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai have been + waiting.",
+      "type": "fill_blank",
+      "sentence": "We ___ (wait) since 9 o'clock.",
+      "answer": [
+        "have been waiting"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have been + kata kerja -ing.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "have",
+        "been",
+        "waiting",
+        "for",
+        "you"
+      ],
+      "answer": "I have been waiting for you"
+    },
+    {
+      "id": "present-perfect-continuous-v14-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Present perfect continuous menggabungkan have/has been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        },
+        {
+          "left": "Present perfect continuous",
+          "right": "have/has been + verb-ing"
+        },
+        {
+          "left": "Present continuous",
+          "right": "am/is/are + verb-ing"
+        },
+        {
+          "left": "Present simple",
+          "right": "base verb (+ -s)"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v14-mc-4",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu. Since dipakai untuk titik mulai.",
+      "type": "multiple_choice",
+      "question": "They have been waiting ___ three hours.",
+      "options": [
+        "for",
+        "since",
+        "in",
+        "at"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "present-perfect-continuous-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have been doing for a long time.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been learning English for three years."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-continuous-v15-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai has, lalu been + working.",
+      "type": "multiple_choice",
+      "question": "She ___ since this morning.",
+      "options": [
+        "has been working",
+        "have been working",
+        "has been work",
+        "is been working"
+      ],
+      "answer": "has been working"
+    },
+    {
+      "id": "present-perfect-continuous-v15-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun. For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "She has been teaching here ___ 2020.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "present-perfect-continuous-v15-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football all afternoon.",
+      "options": [
+        "has been playing",
+        "have been playing",
+        "has been play",
+        "is been playing"
+      ],
+      "answer": "has been playing"
+    },
+    {
+      "id": "present-perfect-continuous-v15-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has been + cooking.",
+      "type": "fill_blank",
+      "sentence": "She ___ (cook) since noon.",
+      "answer": [
+        "has been cooking"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v15-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing: running.",
+      "type": "fill_blank",
+      "sentence": "They ___ (run) for an hour.",
+      "answer": [
+        "have been running"
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + has been + kata kerja -ing + for + lama waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "has",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answer": "She has been cooking for two hours"
+    },
+    {
+      "id": "present-perfect-continuous-v15-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu. Since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "two hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a long time",
+          "right": "for"
+        },
+        {
+          "left": "2020",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous-v15-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuknya been, bukan being. 'They' memakai have.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour.",
+      "options": [
+        "have been waiting",
+        "has been waiting",
+        "have being waiting",
+        "are been waiting"
+      ],
+      "answer": "have been waiting"
+    },
+    {
+      "id": "present-perfect-continuous-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have been + kata kerja -ing dengan since.",
+      "type": "free_write",
+      "task": "Write one sentence using 'since' about something you are still doing.",
+      "requirements": [
+        "present perfect continuous"
+      ],
+      "modelAnswer": "I have been studying here since 2022."
+    }
+  ]
+]

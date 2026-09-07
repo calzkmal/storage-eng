@@ -1,0 +1,1864 @@
+[
+  [
+    {
+      "id": "simple-future-v1-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They will arrive at seven.",
+        "They will arrives at seven.",
+        "They will arriving at seven."
+      ],
+      "answer": "They will arrive at seven."
+    },
+    {
+      "id": "simple-future-v1-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future memakai won't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ be late if we hurry.",
+      "options": [
+        "won't",
+        "aren't",
+        "don't",
+        "not"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v1-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Setelah will, kata kerja selalu bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "They ___ the exam next week.",
+      "options": [
+        "will take",
+        "will takes",
+        "will taking",
+        "wills take"
+      ],
+      "answer": "will take"
+    },
+    {
+      "id": "simple-future-v1-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Negatif future: won't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / be) late.",
+      "answer": [
+        "won't be"
+      ]
+    },
+    {
+      "id": "simple-future-v1-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "We ___ (help) you.",
+      "answer": [
+        "will help"
+      ]
+    },
+    {
+      "id": "simple-future-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "will",
+        "play",
+        "football",
+        "tomorrow"
+      ],
+      "answer": "We will play football tomorrow"
+    },
+    {
+      "id": "simple-future-v1-match-1",
+      "prompt": "Match each sentence to its future form",
+      "explanation": "Dengan will, kata kerja kembali ke bentuk dasar.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I go",
+          "right": "I will go"
+        },
+        {
+          "left": "She eats",
+          "right": "She will eat"
+        },
+        {
+          "left": "They write",
+          "right": "They will write"
+        },
+        {
+          "left": "He has",
+          "right": "He will have"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v1-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah will, kata kerja kembali ke bentuk dasar: write.",
+      "type": "flip_sentence",
+      "source": "She writes a letter.",
+      "target": "future",
+      "answer": [
+        "She will write a letter.",
+        "She'll write a letter."
+      ]
+    },
+    {
+      "id": "simple-future-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about tomorrow.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "Tomorrow I will visit my grandmother."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v2-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Future: will + kata kerja dasar. Will tidak pernah berubah.",
+      "type": "multiple_choice",
+      "question": "Tomorrow she ___ call you.",
+      "options": [
+        "will",
+        "wills",
+        "is",
+        "was"
+      ],
+      "answer": "will"
+    },
+    {
+      "id": "simple-future-v2-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah will, kata kerja adalah bentuk dasar, dan will tidak mendapat -s.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future sentence.",
+      "options": [
+        "She will visit Bali next year.",
+        "She will visits Bali next year.",
+        "She wills visit Bali next year."
+      ],
+      "answer": "She will visit Bali next year."
+    },
+    {
+      "id": "simple-future-v2-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Will + kata kerja dasar, tanpa -s.",
+      "type": "multiple_choice",
+      "question": "He ___ us tomorrow.",
+      "options": [
+        "will help",
+        "will helps",
+        "helps",
+        "will helping"
+      ],
+      "answer": "will help"
+    },
+    {
+      "id": "simple-future-v2-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "They ___ (arrive) at seven.",
+      "answer": [
+        "will arrive"
+      ]
+    },
+    {
+      "id": "simple-future-v2-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will tidak berubah walau subjeknya tunggal.",
+      "type": "fill_blank",
+      "sentence": "My father ___ (drive) us home.",
+      "answer": [
+        "will drive"
+      ]
+    },
+    {
+      "id": "simple-future-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "will",
+        "visit",
+        "her",
+        "grandmother"
+      ],
+      "answer": "She will visit her grandmother"
+    },
+    {
+      "id": "simple-future-v2-match-1",
+      "prompt": "Match each subject to its future form of be",
+      "explanation": "Will be sama untuk semua subjek: will tidak pernah berubah.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "will be"
+        },
+        {
+          "left": "She",
+          "right": "will be"
+        },
+        {
+          "left": "They",
+          "right": "will be"
+        },
+        {
+          "left": "We",
+          "right": "will be"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v2-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future: will + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They study English.",
+      "target": "future",
+      "answer": [
+        "They will study English.",
+        "They'll study English."
+      ]
+    },
+    {
+      "id": "simple-future-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan won't atau will not + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will not do next week.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "I will not watch television next week."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v3-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future: won't = will not. Bentuk willn't tidak ada.",
+      "type": "multiple_choice",
+      "question": "I ___ forget your birthday, I promise!",
+      "options": [
+        "won't",
+        "don't",
+        "doesn't",
+        "willn't"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v3-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They will arrive at seven.",
+        "They will arrives at seven.",
+        "They will arriving at seven."
+      ],
+      "answer": "They will arrive at seven."
+    },
+    {
+      "id": "simple-future-v3-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah will, kata kerja adalah bentuk dasar, dan will tidak mendapat -s.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future sentence.",
+      "options": [
+        "She will visit Bali next year.",
+        "She will visits Bali next year.",
+        "She wills visit Bali next year."
+      ],
+      "answer": "She will visit Bali next year."
+    },
+    {
+      "id": "simple-future-v3-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Won't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / come) tomorrow.",
+      "answer": [
+        "won't come"
+      ]
+    },
+    {
+      "id": "simple-future-v3-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + call untuk semua subjek.",
+      "type": "fill_blank",
+      "sentence": "I ___ (call) you tonight.",
+      "answer": [
+        "will call"
+      ]
+    },
+    {
+      "id": "simple-future-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Negatif future: will not + kata kerja dasar.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "be",
+        "late"
+      ],
+      "answer": "They will not be late"
+    },
+    {
+      "id": "simple-future-v3-match-1",
+      "prompt": "Match each sentence to its future form",
+      "explanation": "Dengan will, kata kerja kembali ke bentuk dasar.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I go",
+          "right": "I will go"
+        },
+        {
+          "left": "She eats",
+          "right": "She will eat"
+        },
+        {
+          "left": "They write",
+          "right": "They will write"
+        },
+        {
+          "left": "He has",
+          "right": "He will have"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v3-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Will + eat.",
+      "type": "flip_sentence",
+      "source": "I eat nasi goreng.",
+      "target": "future",
+      "answer": [
+        "I will eat nasi goreng.",
+        "I'll eat nasi goreng."
+      ]
+    },
+    {
+      "id": "simple-future-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about tomorrow.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "Tomorrow I will visit my grandmother."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v4-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future: won't = will not. Bentuk willn't tidak ada.",
+      "type": "multiple_choice",
+      "question": "I ___ forget your birthday, I promise!",
+      "options": [
+        "won't",
+        "don't",
+        "doesn't",
+        "willn't"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v4-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future memakai won't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ be late if we hurry.",
+      "options": [
+        "won't",
+        "aren't",
+        "don't",
+        "not"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v4-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Setelah will, kata kerja selalu bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "They ___ the exam next week.",
+      "options": [
+        "will take",
+        "will takes",
+        "will taking",
+        "wills take"
+      ],
+      "answer": "will take"
+    },
+    {
+      "id": "simple-future-v4-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will tidak berubah walau subjeknya tunggal.",
+      "type": "fill_blank",
+      "sentence": "My father ___ (drive) us home.",
+      "answer": [
+        "will drive"
+      ]
+    },
+    {
+      "id": "simple-future-v4-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Negatif future: won't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / be) late.",
+      "answer": [
+        "won't be"
+      ]
+    },
+    {
+      "id": "simple-future-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "will",
+        "visit",
+        "her",
+        "grandmother"
+      ],
+      "answer": "She will visit her grandmother"
+    },
+    {
+      "id": "simple-future-v4-match-1",
+      "prompt": "Match each subject to its future form of be",
+      "explanation": "Will be sama untuk semua subjek: will tidak pernah berubah.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "will be"
+        },
+        {
+          "left": "She",
+          "right": "will be"
+        },
+        {
+          "left": "They",
+          "right": "will be"
+        },
+        {
+          "left": "We",
+          "right": "will be"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v4-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah will, kata kerja kembali ke bentuk dasar: write.",
+      "type": "flip_sentence",
+      "source": "She writes a letter.",
+      "target": "future",
+      "answer": [
+        "She will write a letter.",
+        "She'll write a letter."
+      ]
+    },
+    {
+      "id": "simple-future-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan won't atau will not + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will not do next week.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "I will not watch television next week."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v5-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Future: will + kata kerja dasar. Will tidak pernah berubah.",
+      "type": "multiple_choice",
+      "question": "Tomorrow she ___ call you.",
+      "options": [
+        "will",
+        "wills",
+        "is",
+        "was"
+      ],
+      "answer": "will"
+    },
+    {
+      "id": "simple-future-v5-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Will + kata kerja dasar, tanpa -s.",
+      "type": "multiple_choice",
+      "question": "He ___ us tomorrow.",
+      "options": [
+        "will help",
+        "will helps",
+        "helps",
+        "will helping"
+      ],
+      "answer": "will help"
+    },
+    {
+      "id": "simple-future-v5-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future: won't = will not. Bentuk willn't tidak ada.",
+      "type": "multiple_choice",
+      "question": "I ___ forget your birthday, I promise!",
+      "options": [
+        "won't",
+        "don't",
+        "doesn't",
+        "willn't"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v5-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "They ___ (arrive) at seven.",
+      "answer": [
+        "will arrive"
+      ]
+    },
+    {
+      "id": "simple-future-v5-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "We ___ (help) you.",
+      "answer": [
+        "will help"
+      ]
+    },
+    {
+      "id": "simple-future-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "will",
+        "play",
+        "football",
+        "tomorrow"
+      ],
+      "answer": "We will play football tomorrow"
+    },
+    {
+      "id": "simple-future-v5-match-1",
+      "prompt": "Match each subject to its future form of be",
+      "explanation": "Will be sama untuk semua subjek: will tidak pernah berubah.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "will be"
+        },
+        {
+          "left": "She",
+          "right": "will be"
+        },
+        {
+          "left": "They",
+          "right": "will be"
+        },
+        {
+          "left": "We",
+          "right": "will be"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v5-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future: will + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They study English.",
+      "target": "future",
+      "answer": [
+        "They will study English.",
+        "They'll study English."
+      ]
+    },
+    {
+      "id": "simple-future-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about tomorrow.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "Tomorrow I will visit my grandmother."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v6-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They will arrive at seven.",
+        "They will arrives at seven.",
+        "They will arriving at seven."
+      ],
+      "answer": "They will arrive at seven."
+    },
+    {
+      "id": "simple-future-v6-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Setelah will, kata kerja selalu bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "They ___ the exam next week.",
+      "options": [
+        "will take",
+        "will takes",
+        "will taking",
+        "wills take"
+      ],
+      "answer": "will take"
+    },
+    {
+      "id": "simple-future-v6-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah will, kata kerja adalah bentuk dasar, dan will tidak mendapat -s.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future sentence.",
+      "options": [
+        "She will visit Bali next year.",
+        "She will visits Bali next year.",
+        "She wills visit Bali next year."
+      ],
+      "answer": "She will visit Bali next year."
+    },
+    {
+      "id": "simple-future-v6-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Won't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / come) tomorrow.",
+      "answer": [
+        "won't come"
+      ]
+    },
+    {
+      "id": "simple-future-v6-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + call untuk semua subjek.",
+      "type": "fill_blank",
+      "sentence": "I ___ (call) you tonight.",
+      "answer": [
+        "will call"
+      ]
+    },
+    {
+      "id": "simple-future-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Negatif future: will not + kata kerja dasar.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "be",
+        "late"
+      ],
+      "answer": "They will not be late"
+    },
+    {
+      "id": "simple-future-v6-match-1",
+      "prompt": "Match each sentence to its future form",
+      "explanation": "Dengan will, kata kerja kembali ke bentuk dasar.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I go",
+          "right": "I will go"
+        },
+        {
+          "left": "She eats",
+          "right": "She will eat"
+        },
+        {
+          "left": "They write",
+          "right": "They will write"
+        },
+        {
+          "left": "He has",
+          "right": "He will have"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v6-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Will + eat.",
+      "type": "flip_sentence",
+      "source": "I eat nasi goreng.",
+      "target": "future",
+      "answer": [
+        "I will eat nasi goreng.",
+        "I'll eat nasi goreng."
+      ]
+    },
+    {
+      "id": "simple-future-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan won't atau will not + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will not do next week.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "I will not watch television next week."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v7-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future memakai won't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ be late if we hurry.",
+      "options": [
+        "won't",
+        "aren't",
+        "don't",
+        "not"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v7-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Will + kata kerja dasar, tanpa -s.",
+      "type": "multiple_choice",
+      "question": "He ___ us tomorrow.",
+      "options": [
+        "will help",
+        "will helps",
+        "helps",
+        "will helping"
+      ],
+      "answer": "will help"
+    },
+    {
+      "id": "simple-future-v7-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Future: will + kata kerja dasar. Will tidak pernah berubah.",
+      "type": "multiple_choice",
+      "question": "Tomorrow she ___ call you.",
+      "options": [
+        "will",
+        "wills",
+        "is",
+        "was"
+      ],
+      "answer": "will"
+    },
+    {
+      "id": "simple-future-v7-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Won't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / come) tomorrow.",
+      "answer": [
+        "won't come"
+      ]
+    },
+    {
+      "id": "simple-future-v7-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will tidak berubah walau subjeknya tunggal.",
+      "type": "fill_blank",
+      "sentence": "My father ___ (drive) us home.",
+      "answer": [
+        "will drive"
+      ]
+    },
+    {
+      "id": "simple-future-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Negatif future: will not + kata kerja dasar.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "be",
+        "late"
+      ],
+      "answer": "They will not be late"
+    },
+    {
+      "id": "simple-future-v7-match-1",
+      "prompt": "Match each sentence to its future form",
+      "explanation": "Dengan will, kata kerja kembali ke bentuk dasar.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I go",
+          "right": "I will go"
+        },
+        {
+          "left": "She eats",
+          "right": "She will eat"
+        },
+        {
+          "left": "They write",
+          "right": "They will write"
+        },
+        {
+          "left": "He has",
+          "right": "He will have"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v7-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future: will + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They study English.",
+      "target": "future",
+      "answer": [
+        "They will study English.",
+        "They'll study English."
+      ]
+    },
+    {
+      "id": "simple-future-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about tomorrow.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "Tomorrow I will visit my grandmother."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v8-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Will + kata kerja dasar, tanpa -s.",
+      "type": "multiple_choice",
+      "question": "He ___ us tomorrow.",
+      "options": [
+        "will help",
+        "will helps",
+        "helps",
+        "will helping"
+      ],
+      "answer": "will help"
+    },
+    {
+      "id": "simple-future-v8-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Setelah will, kata kerja selalu bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "They ___ the exam next week.",
+      "options": [
+        "will take",
+        "will takes",
+        "will taking",
+        "wills take"
+      ],
+      "answer": "will take"
+    },
+    {
+      "id": "simple-future-v8-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Future: will + kata kerja dasar. Will tidak pernah berubah.",
+      "type": "multiple_choice",
+      "question": "Tomorrow she ___ call you.",
+      "options": [
+        "will",
+        "wills",
+        "is",
+        "was"
+      ],
+      "answer": "will"
+    },
+    {
+      "id": "simple-future-v8-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + call untuk semua subjek.",
+      "type": "fill_blank",
+      "sentence": "I ___ (call) you tonight.",
+      "answer": [
+        "will call"
+      ]
+    },
+    {
+      "id": "simple-future-v8-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "They ___ (arrive) at seven.",
+      "answer": [
+        "will arrive"
+      ]
+    },
+    {
+      "id": "simple-future-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "will",
+        "play",
+        "football",
+        "tomorrow"
+      ],
+      "answer": "We will play football tomorrow"
+    },
+    {
+      "id": "simple-future-v8-match-1",
+      "prompt": "Match each subject to its future form of be",
+      "explanation": "Will be sama untuk semua subjek: will tidak pernah berubah.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "will be"
+        },
+        {
+          "left": "She",
+          "right": "will be"
+        },
+        {
+          "left": "They",
+          "right": "will be"
+        },
+        {
+          "left": "We",
+          "right": "will be"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v8-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah will, kata kerja kembali ke bentuk dasar: write.",
+      "type": "flip_sentence",
+      "source": "She writes a letter.",
+      "target": "future",
+      "answer": [
+        "She will write a letter.",
+        "She'll write a letter."
+      ]
+    },
+    {
+      "id": "simple-future-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan won't atau will not + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will not do next week.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "I will not watch television next week."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v9-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future: won't = will not. Bentuk willn't tidak ada.",
+      "type": "multiple_choice",
+      "question": "I ___ forget your birthday, I promise!",
+      "options": [
+        "won't",
+        "don't",
+        "doesn't",
+        "willn't"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v9-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah will, kata kerja adalah bentuk dasar, dan will tidak mendapat -s.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future sentence.",
+      "options": [
+        "She will visit Bali next year.",
+        "She will visits Bali next year.",
+        "She wills visit Bali next year."
+      ],
+      "answer": "She will visit Bali next year."
+    },
+    {
+      "id": "simple-future-v9-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They will arrive at seven.",
+        "They will arrives at seven.",
+        "They will arriving at seven."
+      ],
+      "answer": "They will arrive at seven."
+    },
+    {
+      "id": "simple-future-v9-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Negatif future: won't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / be) late.",
+      "answer": [
+        "won't be"
+      ]
+    },
+    {
+      "id": "simple-future-v9-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "We ___ (help) you.",
+      "answer": [
+        "will help"
+      ]
+    },
+    {
+      "id": "simple-future-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "will",
+        "visit",
+        "her",
+        "grandmother"
+      ],
+      "answer": "She will visit her grandmother"
+    },
+    {
+      "id": "simple-future-v9-match-1",
+      "prompt": "Match each sentence to its future form",
+      "explanation": "Dengan will, kata kerja kembali ke bentuk dasar.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I go",
+          "right": "I will go"
+        },
+        {
+          "left": "She eats",
+          "right": "She will eat"
+        },
+        {
+          "left": "They write",
+          "right": "They will write"
+        },
+        {
+          "left": "He has",
+          "right": "He will have"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v9-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Will + eat.",
+      "type": "flip_sentence",
+      "source": "I eat nasi goreng.",
+      "target": "future",
+      "answer": [
+        "I will eat nasi goreng.",
+        "I'll eat nasi goreng."
+      ]
+    },
+    {
+      "id": "simple-future-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan won't atau will not + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will not do next week.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "I will not watch television next week."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v10-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future memakai won't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ be late if we hurry.",
+      "options": [
+        "won't",
+        "aren't",
+        "don't",
+        "not"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v10-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah will, kata kerja adalah bentuk dasar, dan will tidak mendapat -s.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future sentence.",
+      "options": [
+        "She will visit Bali next year.",
+        "She will visits Bali next year.",
+        "She wills visit Bali next year."
+      ],
+      "answer": "She will visit Bali next year."
+    },
+    {
+      "id": "simple-future-v10-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future: won't = will not. Bentuk willn't tidak ada.",
+      "type": "multiple_choice",
+      "question": "I ___ forget your birthday, I promise!",
+      "options": [
+        "won't",
+        "don't",
+        "doesn't",
+        "willn't"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v10-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Won't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / come) tomorrow.",
+      "answer": [
+        "won't come"
+      ]
+    },
+    {
+      "id": "simple-future-v10-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + call untuk semua subjek.",
+      "type": "fill_blank",
+      "sentence": "I ___ (call) you tonight.",
+      "answer": [
+        "will call"
+      ]
+    },
+    {
+      "id": "simple-future-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "will",
+        "visit",
+        "her",
+        "grandmother"
+      ],
+      "answer": "She will visit her grandmother"
+    },
+    {
+      "id": "simple-future-v10-match-1",
+      "prompt": "Match each subject to its future form of be",
+      "explanation": "Will be sama untuk semua subjek: will tidak pernah berubah.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "will be"
+        },
+        {
+          "left": "She",
+          "right": "will be"
+        },
+        {
+          "left": "They",
+          "right": "will be"
+        },
+        {
+          "left": "We",
+          "right": "will be"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v10-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah will, kata kerja kembali ke bentuk dasar: write.",
+      "type": "flip_sentence",
+      "source": "She writes a letter.",
+      "target": "future",
+      "answer": [
+        "She will write a letter.",
+        "She'll write a letter."
+      ]
+    },
+    {
+      "id": "simple-future-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about tomorrow.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "Tomorrow I will visit my grandmother."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v11-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Setelah will, kata kerja selalu bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "They ___ the exam next week.",
+      "options": [
+        "will take",
+        "will takes",
+        "will taking",
+        "wills take"
+      ],
+      "answer": "will take"
+    },
+    {
+      "id": "simple-future-v11-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Will + kata kerja dasar, tanpa -s.",
+      "type": "multiple_choice",
+      "question": "He ___ us tomorrow.",
+      "options": [
+        "will help",
+        "will helps",
+        "helps",
+        "will helping"
+      ],
+      "answer": "will help"
+    },
+    {
+      "id": "simple-future-v11-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Future: will + kata kerja dasar. Will tidak pernah berubah.",
+      "type": "multiple_choice",
+      "question": "Tomorrow she ___ call you.",
+      "options": [
+        "will",
+        "wills",
+        "is",
+        "was"
+      ],
+      "answer": "will"
+    },
+    {
+      "id": "simple-future-v11-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Negatif future: won't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / be) late.",
+      "answer": [
+        "won't be"
+      ]
+    },
+    {
+      "id": "simple-future-v11-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will tidak berubah walau subjeknya tunggal.",
+      "type": "fill_blank",
+      "sentence": "My father ___ (drive) us home.",
+      "answer": [
+        "will drive"
+      ]
+    },
+    {
+      "id": "simple-future-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Negatif future: will not + kata kerja dasar.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "be",
+        "late"
+      ],
+      "answer": "They will not be late"
+    },
+    {
+      "id": "simple-future-v11-match-1",
+      "prompt": "Match each subject to its future form of be",
+      "explanation": "Will be sama untuk semua subjek: will tidak pernah berubah.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "will be"
+        },
+        {
+          "left": "She",
+          "right": "will be"
+        },
+        {
+          "left": "They",
+          "right": "will be"
+        },
+        {
+          "left": "We",
+          "right": "will be"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v11-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future: will + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They study English.",
+      "target": "future",
+      "answer": [
+        "They will study English.",
+        "They'll study English."
+      ]
+    },
+    {
+      "id": "simple-future-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan won't atau will not + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will not do next week.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "I will not watch television next week."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v12-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They will arrive at seven.",
+        "They will arrives at seven.",
+        "They will arriving at seven."
+      ],
+      "answer": "They will arrive at seven."
+    },
+    {
+      "id": "simple-future-v12-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future memakai won't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ be late if we hurry.",
+      "options": [
+        "won't",
+        "aren't",
+        "don't",
+        "not"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v12-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Will + kata kerja dasar, tanpa -s.",
+      "type": "multiple_choice",
+      "question": "He ___ us tomorrow.",
+      "options": [
+        "will help",
+        "will helps",
+        "helps",
+        "will helping"
+      ],
+      "answer": "will help"
+    },
+    {
+      "id": "simple-future-v12-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "They ___ (arrive) at seven.",
+      "answer": [
+        "will arrive"
+      ]
+    },
+    {
+      "id": "simple-future-v12-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "We ___ (help) you.",
+      "answer": [
+        "will help"
+      ]
+    },
+    {
+      "id": "simple-future-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "will",
+        "play",
+        "football",
+        "tomorrow"
+      ],
+      "answer": "We will play football tomorrow"
+    },
+    {
+      "id": "simple-future-v12-match-1",
+      "prompt": "Match each sentence to its future form",
+      "explanation": "Dengan will, kata kerja kembali ke bentuk dasar.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I go",
+          "right": "I will go"
+        },
+        {
+          "left": "She eats",
+          "right": "She will eat"
+        },
+        {
+          "left": "They write",
+          "right": "They will write"
+        },
+        {
+          "left": "He has",
+          "right": "He will have"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v12-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Will + eat.",
+      "type": "flip_sentence",
+      "source": "I eat nasi goreng.",
+      "target": "future",
+      "answer": [
+        "I will eat nasi goreng.",
+        "I'll eat nasi goreng."
+      ]
+    },
+    {
+      "id": "simple-future-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about tomorrow.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "Tomorrow I will visit my grandmother."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v13-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They will arrive at seven.",
+        "They will arrives at seven.",
+        "They will arriving at seven."
+      ],
+      "answer": "They will arrive at seven."
+    },
+    {
+      "id": "simple-future-v13-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah will, kata kerja adalah bentuk dasar, dan will tidak mendapat -s.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future sentence.",
+      "options": [
+        "She will visit Bali next year.",
+        "She will visits Bali next year.",
+        "She wills visit Bali next year."
+      ],
+      "answer": "She will visit Bali next year."
+    },
+    {
+      "id": "simple-future-v13-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future memakai won't + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "We ___ be late if we hurry.",
+      "options": [
+        "won't",
+        "aren't",
+        "don't",
+        "not"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v13-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will tidak berubah walau subjeknya tunggal.",
+      "type": "fill_blank",
+      "sentence": "My father ___ (drive) us home.",
+      "answer": [
+        "will drive"
+      ]
+    },
+    {
+      "id": "simple-future-v13-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "We ___ (help) you.",
+      "answer": [
+        "will help"
+      ]
+    },
+    {
+      "id": "simple-future-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "will",
+        "play",
+        "football",
+        "tomorrow"
+      ],
+      "answer": "We will play football tomorrow"
+    },
+    {
+      "id": "simple-future-v13-match-1",
+      "prompt": "Match each sentence to its future form",
+      "explanation": "Dengan will, kata kerja kembali ke bentuk dasar.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I go",
+          "right": "I will go"
+        },
+        {
+          "left": "She eats",
+          "right": "She will eat"
+        },
+        {
+          "left": "They write",
+          "right": "They will write"
+        },
+        {
+          "left": "He has",
+          "right": "He will have"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v13-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future: will + kata kerja dasar.",
+      "type": "flip_sentence",
+      "source": "They study English.",
+      "target": "future",
+      "answer": [
+        "They will study English.",
+        "They'll study English."
+      ]
+    },
+    {
+      "id": "simple-future-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about tomorrow.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "Tomorrow I will visit my grandmother."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v14-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Setelah will, kata kerja selalu bentuk dasar.",
+      "type": "multiple_choice",
+      "question": "They ___ the exam next week.",
+      "options": [
+        "will take",
+        "will takes",
+        "will taking",
+        "wills take"
+      ],
+      "answer": "will take"
+    },
+    {
+      "id": "simple-future-v14-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future: won't = will not. Bentuk willn't tidak ada.",
+      "type": "multiple_choice",
+      "question": "I ___ forget your birthday, I promise!",
+      "options": [
+        "won't",
+        "don't",
+        "doesn't",
+        "willn't"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v14-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Future: will + kata kerja dasar. Will tidak pernah berubah.",
+      "type": "multiple_choice",
+      "question": "Tomorrow she ___ call you.",
+      "options": [
+        "will",
+        "wills",
+        "is",
+        "was"
+      ],
+      "answer": "will"
+    },
+    {
+      "id": "simple-future-v14-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Negatif future: won't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "He ___ (not / be) late.",
+      "answer": [
+        "won't be"
+      ]
+    },
+    {
+      "id": "simple-future-v14-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Won't + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "She ___ (not / come) tomorrow.",
+      "answer": [
+        "won't come"
+      ]
+    },
+    {
+      "id": "simple-future-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will + kata kerja dasar + objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "will",
+        "visit",
+        "her",
+        "grandmother"
+      ],
+      "answer": "She will visit her grandmother"
+    },
+    {
+      "id": "simple-future-v14-match-1",
+      "prompt": "Match each subject to its future form of be",
+      "explanation": "Will be sama untuk semua subjek: will tidak pernah berubah.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "will be"
+        },
+        {
+          "left": "She",
+          "right": "will be"
+        },
+        {
+          "left": "They",
+          "right": "will be"
+        },
+        {
+          "left": "We",
+          "right": "will be"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v14-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Will + eat.",
+      "type": "flip_sentence",
+      "source": "I eat nasi goreng.",
+      "target": "future",
+      "answer": [
+        "I will eat nasi goreng.",
+        "I'll eat nasi goreng."
+      ]
+    },
+    {
+      "id": "simple-future-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan won't atau will not + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will not do next week.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "I will not watch television next week."
+    }
+  ],
+  [
+    {
+      "id": "simple-future-v15-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They will arrive at seven.",
+        "They will arrives at seven.",
+        "They will arriving at seven."
+      ],
+      "answer": "They will arrive at seven."
+    },
+    {
+      "id": "simple-future-v15-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Future: will + kata kerja dasar. Will tidak pernah berubah.",
+      "type": "multiple_choice",
+      "question": "Tomorrow she ___ call you.",
+      "options": [
+        "will",
+        "wills",
+        "is",
+        "was"
+      ],
+      "answer": "will"
+    },
+    {
+      "id": "simple-future-v15-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Negatif future: won't = will not. Bentuk willn't tidak ada.",
+      "type": "multiple_choice",
+      "question": "I ___ forget your birthday, I promise!",
+      "options": [
+        "won't",
+        "don't",
+        "doesn't",
+        "willn't"
+      ],
+      "answer": "won't"
+    },
+    {
+      "id": "simple-future-v15-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + call untuk semua subjek.",
+      "type": "fill_blank",
+      "sentence": "I ___ (call) you tonight.",
+      "answer": [
+        "will call"
+      ]
+    },
+    {
+      "id": "simple-future-v15-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will + kata kerja dasar.",
+      "type": "fill_blank",
+      "sentence": "They ___ (arrive) at seven.",
+      "answer": [
+        "will arrive"
+      ]
+    },
+    {
+      "id": "simple-future-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Negatif future: will not + kata kerja dasar.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "not",
+        "be",
+        "late"
+      ],
+      "answer": "They will not be late"
+    },
+    {
+      "id": "simple-future-v15-match-1",
+      "prompt": "Match each subject to its future form of be",
+      "explanation": "Will be sama untuk semua subjek: will tidak pernah berubah.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "will be"
+        },
+        {
+          "left": "She",
+          "right": "will be"
+        },
+        {
+          "left": "They",
+          "right": "will be"
+        },
+        {
+          "left": "We",
+          "right": "will be"
+        }
+      ]
+    },
+    {
+      "id": "simple-future-v15-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Setelah will, kata kerja kembali ke bentuk dasar: write.",
+      "type": "flip_sentence",
+      "source": "She writes a letter.",
+      "target": "future",
+      "answer": [
+        "She will write a letter.",
+        "She'll write a letter."
+      ]
+    },
+    {
+      "id": "simple-future-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan won't atau will not + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will not do next week.",
+      "requirements": [
+        "future with will"
+      ],
+      "modelAnswer": "I will not watch television next week."
+    }
+  ]
+]

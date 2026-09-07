@@ -1,0 +1,1896 @@
+[
+  [
+    {
+      "id": "present-perfect-v1-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai has, dan bentuk ketiga dari take adalah taken.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She has taken the bus.",
+        "She has took the bus.",
+        "She have taken the bus."
+      ],
+      "answer": "She has taken the bus."
+    },
+    {
+      "id": "present-perfect-v1-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "He, she, dan it memakai has, lalu past participle: finished.",
+      "type": "multiple_choice",
+      "question": "She ___ her homework.",
+      "options": [
+        "has finished",
+        "have finished",
+        "has finish",
+        "is finished"
+      ],
+      "answer": "has finished"
+    },
+    {
+      "id": "present-perfect-v1-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has, bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "He ___ (write) three letters today.",
+      "answer": [
+        "has written"
+      ]
+    },
+    {
+      "id": "present-perfect-v1-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "fill_blank",
+      "sentence": "We ___ (do) our homework.",
+      "answer": [
+        "have done"
+      ]
+    },
+    {
+      "id": "present-perfect-v1-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle adalah bentuk ketiga: gone, eaten, seen, done, written.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "gone"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "do",
+          "right": "done"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have + never + past participle.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "have",
+        "never",
+        "eaten",
+        "durian"
+      ],
+      "answer": "I have never eaten durian"
+    },
+    {
+      "id": "present-perfect-v1-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'They' memakai have, dan bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present perfect sentence.",
+      "options": [
+        "They have gone to Bali.",
+        "They have went to Bali.",
+        "They has gone to Bali."
+      ],
+      "answer": "They have gone to Bali."
+    },
+    {
+      "id": "present-perfect-v1-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Present perfect: has + past participle. Bentuk ketiga dari take adalah taken.",
+      "type": "flip_sentence",
+      "source": "She takes the bus.",
+      "target": "present_perfect",
+      "answer": [
+        "She has taken the bus."
+      ]
+    },
+    {
+      "id": "present-perfect-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have + past participle untuk pengalaman.",
+      "type": "free_write",
+      "task": "Write one sentence about a place you have visited.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have visited Bali twice."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v2-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai have. Bentuk ketiga dari see adalah seen, bukan saw.",
+      "type": "multiple_choice",
+      "question": "We ___ that movie already.",
+      "options": [
+        "have seen",
+        "has seen",
+        "have saw",
+        "have see"
+      ],
+      "answer": "have seen"
+    },
+    {
+      "id": "present-perfect-v2-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari read tetap read, jadi have read.",
+      "type": "multiple_choice",
+      "question": "I ___ this book before.",
+      "options": [
+        "have read",
+        "has read",
+        "have readed",
+        "am read"
+      ],
+      "answer": "have read"
+    },
+    {
+      "id": "present-perfect-v2-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has, bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "She ___ (see) that film.",
+      "answer": [
+        "has seen"
+      ]
+    },
+    {
+      "id": "present-perfect-v2-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Have + past participle. Bentuk ketiga dari eat adalah eaten.",
+      "type": "fill_blank",
+      "sentence": "I ___ (eat) nasi goreng before.",
+      "answer": [
+        "have eaten"
+      ]
+    },
+    {
+      "id": "present-perfect-v2-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Bentuk ketiga dipakai setelah have/has: taken, given, known, spoken.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "take",
+          "right": "taken"
+        },
+        {
+          "left": "give",
+          "right": "given"
+        },
+        {
+          "left": "know",
+          "right": "known"
+        },
+        {
+          "left": "speak",
+          "right": "spoken"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have + past participle + keterangan.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "have",
+        "known",
+        "each",
+        "other",
+        "for",
+        "years"
+      ],
+      "answer": "We have known each other for years"
+    },
+    {
+      "id": "present-perfect-v2-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' memakai have. Bentuk ketiga dari eat adalah eaten.",
+      "type": "multiple_choice",
+      "question": "They ___ their lunch.",
+      "options": [
+        "have eaten",
+        "has eaten",
+        "have ate",
+        "have eat"
+      ],
+      "answer": "have eaten"
+    },
+    {
+      "id": "present-perfect-v2-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'He' memakai has, dan bentuk ketiga dari do adalah done.",
+      "type": "flip_sentence",
+      "source": "He does his homework.",
+      "target": "present_perfect",
+      "answer": [
+        "He has done his homework."
+      ]
+    },
+    {
+      "id": "present-perfect-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have done today.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have finished my homework today."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v3-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has + past participle. Bentuk ketiga dari be adalah been.",
+      "type": "multiple_choice",
+      "question": "He ___ to Bali twice.",
+      "options": [
+        "has been",
+        "have been",
+        "has been went",
+        "has go"
+      ],
+      "answer": "has been"
+    },
+    {
+      "id": "present-perfect-v3-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai has, dan bentuk ketiga dari take adalah taken.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She has taken the bus.",
+        "She has took the bus.",
+        "She have taken the bus."
+      ],
+      "answer": "She has taken the bus."
+    },
+    {
+      "id": "present-perfect-v3-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari make adalah made.",
+      "type": "fill_blank",
+      "sentence": "They ___ (make) a cake.",
+      "answer": [
+        "have made"
+      ]
+    },
+    {
+      "id": "present-perfect-v3-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari buy adalah bought.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (buy) a new bike.",
+      "answer": [
+        "has bought"
+      ]
+    },
+    {
+      "id": "present-perfect-v3-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle adalah bentuk ketiga: gone, eaten, seen, done, written.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "gone"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "do",
+          "right": "done"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Kata already diletakkan di antara has dan past participle.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "has",
+        "already",
+        "finished",
+        "her",
+        "work"
+      ],
+      "answer": "She has already finished her work"
+    },
+    {
+      "id": "present-perfect-v3-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai have. Bentuk ketiga dari see adalah seen, bukan saw.",
+      "type": "multiple_choice",
+      "question": "We ___ that movie already.",
+      "options": [
+        "have seen",
+        "has seen",
+        "have saw",
+        "have see"
+      ],
+      "answer": "have seen"
+    },
+    {
+      "id": "present-perfect-v3-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai have + written.",
+      "type": "flip_sentence",
+      "source": "They write letters.",
+      "target": "present_perfect",
+      "answer": [
+        "They have written letters."
+      ]
+    },
+    {
+      "id": "present-perfect-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have done today.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have finished my homework today."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v4-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has + past participle. Bentuk ketiga dari be adalah been.",
+      "type": "multiple_choice",
+      "question": "He ___ to Bali twice.",
+      "options": [
+        "has been",
+        "have been",
+        "has been went",
+        "has go"
+      ],
+      "answer": "has been"
+    },
+    {
+      "id": "present-perfect-v4-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "He, she, dan it memakai has, lalu past participle: finished.",
+      "type": "multiple_choice",
+      "question": "She ___ her homework.",
+      "options": [
+        "has finished",
+        "have finished",
+        "has finish",
+        "is finished"
+      ],
+      "answer": "has finished"
+    },
+    {
+      "id": "present-perfect-v4-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari buy adalah bought.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (buy) a new bike.",
+      "answer": [
+        "has bought"
+      ]
+    },
+    {
+      "id": "present-perfect-v4-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has, bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "She ___ (see) that film.",
+      "answer": [
+        "has seen"
+      ]
+    },
+    {
+      "id": "present-perfect-v4-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Bentuk ketiga dipakai setelah have/has: taken, given, known, spoken.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "take",
+          "right": "taken"
+        },
+        {
+          "left": "give",
+          "right": "given"
+        },
+        {
+          "left": "know",
+          "right": "known"
+        },
+        {
+          "left": "speak",
+          "right": "spoken"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have + past participle + keterangan.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "have",
+        "known",
+        "each",
+        "other",
+        "for",
+        "years"
+      ],
+      "answer": "We have known each other for years"
+    },
+    {
+      "id": "present-perfect-v4-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'They' memakai have, dan bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present perfect sentence.",
+      "options": [
+        "They have gone to Bali.",
+        "They have went to Bali.",
+        "They has gone to Bali."
+      ],
+      "answer": "They have gone to Bali."
+    },
+    {
+      "id": "present-perfect-v4-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'He' memakai has, dan bentuk ketiga dari do adalah done.",
+      "type": "flip_sentence",
+      "source": "He does his homework.",
+      "target": "present_perfect",
+      "answer": [
+        "He has done his homework."
+      ]
+    },
+    {
+      "id": "present-perfect-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have + past participle untuk pengalaman.",
+      "type": "free_write",
+      "task": "Write one sentence about a place you have visited.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have visited Bali twice."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v5-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' memakai have. Bentuk ketiga dari eat adalah eaten.",
+      "type": "multiple_choice",
+      "question": "They ___ their lunch.",
+      "options": [
+        "have eaten",
+        "has eaten",
+        "have ate",
+        "have eat"
+      ],
+      "answer": "have eaten"
+    },
+    {
+      "id": "present-perfect-v5-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari read tetap read, jadi have read.",
+      "type": "multiple_choice",
+      "question": "I ___ this book before.",
+      "options": [
+        "have read",
+        "has read",
+        "have readed",
+        "am read"
+      ],
+      "answer": "have read"
+    },
+    {
+      "id": "present-perfect-v5-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has, bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "He ___ (write) three letters today.",
+      "answer": [
+        "has written"
+      ]
+    },
+    {
+      "id": "present-perfect-v5-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari make adalah made.",
+      "type": "fill_blank",
+      "sentence": "They ___ (make) a cake.",
+      "answer": [
+        "have made"
+      ]
+    },
+    {
+      "id": "present-perfect-v5-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Bentuk ketiga dipakai setelah have/has: taken, given, known, spoken.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "take",
+          "right": "taken"
+        },
+        {
+          "left": "give",
+          "right": "given"
+        },
+        {
+          "left": "know",
+          "right": "known"
+        },
+        {
+          "left": "speak",
+          "right": "spoken"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have + never + past participle.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "have",
+        "never",
+        "eaten",
+        "durian"
+      ],
+      "answer": "I have never eaten durian"
+    },
+    {
+      "id": "present-perfect-v5-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai have. Bentuk ketiga dari see adalah seen, bukan saw.",
+      "type": "multiple_choice",
+      "question": "We ___ that movie already.",
+      "options": [
+        "have seen",
+        "has seen",
+        "have saw",
+        "have see"
+      ],
+      "answer": "have seen"
+    },
+    {
+      "id": "present-perfect-v5-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Present perfect: has + past participle. Bentuk ketiga dari take adalah taken.",
+      "type": "flip_sentence",
+      "source": "She takes the bus.",
+      "target": "present_perfect",
+      "answer": [
+        "She has taken the bus."
+      ]
+    },
+    {
+      "id": "present-perfect-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have + past participle untuk pengalaman.",
+      "type": "free_write",
+      "task": "Write one sentence about a place you have visited.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have visited Bali twice."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v6-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari read tetap read, jadi have read.",
+      "type": "multiple_choice",
+      "question": "I ___ this book before.",
+      "options": [
+        "have read",
+        "has read",
+        "have readed",
+        "am read"
+      ],
+      "answer": "have read"
+    },
+    {
+      "id": "present-perfect-v6-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'They' memakai have, dan bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present perfect sentence.",
+      "options": [
+        "They have gone to Bali.",
+        "They have went to Bali.",
+        "They has gone to Bali."
+      ],
+      "answer": "They have gone to Bali."
+    },
+    {
+      "id": "present-perfect-v6-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Have + past participle. Bentuk ketiga dari eat adalah eaten.",
+      "type": "fill_blank",
+      "sentence": "I ___ (eat) nasi goreng before.",
+      "answer": [
+        "have eaten"
+      ]
+    },
+    {
+      "id": "present-perfect-v6-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "fill_blank",
+      "sentence": "We ___ (do) our homework.",
+      "answer": [
+        "have done"
+      ]
+    },
+    {
+      "id": "present-perfect-v6-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle adalah bentuk ketiga: gone, eaten, seen, done, written.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "gone"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "do",
+          "right": "done"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Kata already diletakkan di antara has dan past participle.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "has",
+        "already",
+        "finished",
+        "her",
+        "work"
+      ],
+      "answer": "She has already finished her work"
+    },
+    {
+      "id": "present-perfect-v6-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "He, she, dan it memakai has, lalu past participle: finished.",
+      "type": "multiple_choice",
+      "question": "She ___ her homework.",
+      "options": [
+        "has finished",
+        "have finished",
+        "has finish",
+        "is finished"
+      ],
+      "answer": "has finished"
+    },
+    {
+      "id": "present-perfect-v6-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai have + written.",
+      "type": "flip_sentence",
+      "source": "They write letters.",
+      "target": "present_perfect",
+      "answer": [
+        "They have written letters."
+      ]
+    },
+    {
+      "id": "present-perfect-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have done today.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have finished my homework today."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v7-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has + past participle. Bentuk ketiga dari be adalah been.",
+      "type": "multiple_choice",
+      "question": "He ___ to Bali twice.",
+      "options": [
+        "has been",
+        "have been",
+        "has been went",
+        "has go"
+      ],
+      "answer": "has been"
+    },
+    {
+      "id": "present-perfect-v7-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' memakai have. Bentuk ketiga dari eat adalah eaten.",
+      "type": "multiple_choice",
+      "question": "They ___ their lunch.",
+      "options": [
+        "have eaten",
+        "has eaten",
+        "have ate",
+        "have eat"
+      ],
+      "answer": "have eaten"
+    },
+    {
+      "id": "present-perfect-v7-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has, bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "He ___ (write) three letters today.",
+      "answer": [
+        "has written"
+      ]
+    },
+    {
+      "id": "present-perfect-v7-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari buy adalah bought.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (buy) a new bike.",
+      "answer": [
+        "has bought"
+      ]
+    },
+    {
+      "id": "present-perfect-v7-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle adalah bentuk ketiga: gone, eaten, seen, done, written.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "gone"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "do",
+          "right": "done"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Kata already diletakkan di antara has dan past participle.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "has",
+        "already",
+        "finished",
+        "her",
+        "work"
+      ],
+      "answer": "She has already finished her work"
+    },
+    {
+      "id": "present-perfect-v7-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai has, dan bentuk ketiga dari take adalah taken.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She has taken the bus.",
+        "She has took the bus.",
+        "She have taken the bus."
+      ],
+      "answer": "She has taken the bus."
+    },
+    {
+      "id": "present-perfect-v7-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Present perfect: has + past participle. Bentuk ketiga dari take adalah taken.",
+      "type": "flip_sentence",
+      "source": "She takes the bus.",
+      "target": "present_perfect",
+      "answer": [
+        "She has taken the bus."
+      ]
+    },
+    {
+      "id": "present-perfect-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have done today.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have finished my homework today."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v8-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has + past participle. Bentuk ketiga dari be adalah been.",
+      "type": "multiple_choice",
+      "question": "He ___ to Bali twice.",
+      "options": [
+        "has been",
+        "have been",
+        "has been went",
+        "has go"
+      ],
+      "answer": "has been"
+    },
+    {
+      "id": "present-perfect-v8-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "He, she, dan it memakai has, lalu past participle: finished.",
+      "type": "multiple_choice",
+      "question": "She ___ her homework.",
+      "options": [
+        "has finished",
+        "have finished",
+        "has finish",
+        "is finished"
+      ],
+      "answer": "has finished"
+    },
+    {
+      "id": "present-perfect-v8-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Have + past participle. Bentuk ketiga dari eat adalah eaten.",
+      "type": "fill_blank",
+      "sentence": "I ___ (eat) nasi goreng before.",
+      "answer": [
+        "have eaten"
+      ]
+    },
+    {
+      "id": "present-perfect-v8-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "fill_blank",
+      "sentence": "We ___ (do) our homework.",
+      "answer": [
+        "have done"
+      ]
+    },
+    {
+      "id": "present-perfect-v8-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Bentuk ketiga dipakai setelah have/has: taken, given, known, spoken.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "take",
+          "right": "taken"
+        },
+        {
+          "left": "give",
+          "right": "given"
+        },
+        {
+          "left": "know",
+          "right": "known"
+        },
+        {
+          "left": "speak",
+          "right": "spoken"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have + never + past participle.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "have",
+        "never",
+        "eaten",
+        "durian"
+      ],
+      "answer": "I have never eaten durian"
+    },
+    {
+      "id": "present-perfect-v8-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai has, dan bentuk ketiga dari take adalah taken.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She has taken the bus.",
+        "She has took the bus.",
+        "She have taken the bus."
+      ],
+      "answer": "She has taken the bus."
+    },
+    {
+      "id": "present-perfect-v8-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'He' memakai has, dan bentuk ketiga dari do adalah done.",
+      "type": "flip_sentence",
+      "source": "He does his homework.",
+      "target": "present_perfect",
+      "answer": [
+        "He has done his homework."
+      ]
+    },
+    {
+      "id": "present-perfect-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have + past participle untuk pengalaman.",
+      "type": "free_write",
+      "task": "Write one sentence about a place you have visited.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have visited Bali twice."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v9-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' memakai have. Bentuk ketiga dari eat adalah eaten.",
+      "type": "multiple_choice",
+      "question": "They ___ their lunch.",
+      "options": [
+        "have eaten",
+        "has eaten",
+        "have ate",
+        "have eat"
+      ],
+      "answer": "have eaten"
+    },
+    {
+      "id": "present-perfect-v9-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari read tetap read, jadi have read.",
+      "type": "multiple_choice",
+      "question": "I ___ this book before.",
+      "options": [
+        "have read",
+        "has read",
+        "have readed",
+        "am read"
+      ],
+      "answer": "have read"
+    },
+    {
+      "id": "present-perfect-v9-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari make adalah made.",
+      "type": "fill_blank",
+      "sentence": "They ___ (make) a cake.",
+      "answer": [
+        "have made"
+      ]
+    },
+    {
+      "id": "present-perfect-v9-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has, bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "She ___ (see) that film.",
+      "answer": [
+        "has seen"
+      ]
+    },
+    {
+      "id": "present-perfect-v9-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Bentuk ketiga dipakai setelah have/has: taken, given, known, spoken.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "take",
+          "right": "taken"
+        },
+        {
+          "left": "give",
+          "right": "given"
+        },
+        {
+          "left": "know",
+          "right": "known"
+        },
+        {
+          "left": "speak",
+          "right": "spoken"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have + past participle + keterangan.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "have",
+        "known",
+        "each",
+        "other",
+        "for",
+        "years"
+      ],
+      "answer": "We have known each other for years"
+    },
+    {
+      "id": "present-perfect-v9-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai have. Bentuk ketiga dari see adalah seen, bukan saw.",
+      "type": "multiple_choice",
+      "question": "We ___ that movie already.",
+      "options": [
+        "have seen",
+        "has seen",
+        "have saw",
+        "have see"
+      ],
+      "answer": "have seen"
+    },
+    {
+      "id": "present-perfect-v9-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai have + written.",
+      "type": "flip_sentence",
+      "source": "They write letters.",
+      "target": "present_perfect",
+      "answer": [
+        "They have written letters."
+      ]
+    },
+    {
+      "id": "present-perfect-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have + past participle untuk pengalaman.",
+      "type": "free_write",
+      "task": "Write one sentence about a place you have visited.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have visited Bali twice."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v10-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'They' memakai have, dan bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present perfect sentence.",
+      "options": [
+        "They have gone to Bali.",
+        "They have went to Bali.",
+        "They has gone to Bali."
+      ],
+      "answer": "They have gone to Bali."
+    },
+    {
+      "id": "present-perfect-v10-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' memakai have. Bentuk ketiga dari eat adalah eaten.",
+      "type": "multiple_choice",
+      "question": "They ___ their lunch.",
+      "options": [
+        "have eaten",
+        "has eaten",
+        "have ate",
+        "have eat"
+      ],
+      "answer": "have eaten"
+    },
+    {
+      "id": "present-perfect-v10-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Have + past participle. Bentuk ketiga dari eat adalah eaten.",
+      "type": "fill_blank",
+      "sentence": "I ___ (eat) nasi goreng before.",
+      "answer": [
+        "have eaten"
+      ]
+    },
+    {
+      "id": "present-perfect-v10-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari make adalah made.",
+      "type": "fill_blank",
+      "sentence": "They ___ (make) a cake.",
+      "answer": [
+        "have made"
+      ]
+    },
+    {
+      "id": "present-perfect-v10-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle adalah bentuk ketiga: gone, eaten, seen, done, written.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "gone"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "do",
+          "right": "done"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have + never + past participle.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "have",
+        "never",
+        "eaten",
+        "durian"
+      ],
+      "answer": "I have never eaten durian"
+    },
+    {
+      "id": "present-perfect-v10-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has + past participle. Bentuk ketiga dari be adalah been.",
+      "type": "multiple_choice",
+      "question": "He ___ to Bali twice.",
+      "options": [
+        "has been",
+        "have been",
+        "has been went",
+        "has go"
+      ],
+      "answer": "has been"
+    },
+    {
+      "id": "present-perfect-v10-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Present perfect: has + past participle. Bentuk ketiga dari take adalah taken.",
+      "type": "flip_sentence",
+      "source": "She takes the bus.",
+      "target": "present_perfect",
+      "answer": [
+        "She has taken the bus."
+      ]
+    },
+    {
+      "id": "present-perfect-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have done today.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have finished my homework today."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v11-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari read tetap read, jadi have read.",
+      "type": "multiple_choice",
+      "question": "I ___ this book before.",
+      "options": [
+        "have read",
+        "has read",
+        "have readed",
+        "am read"
+      ],
+      "answer": "have read"
+    },
+    {
+      "id": "present-perfect-v11-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai has, dan bentuk ketiga dari take adalah taken.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She has taken the bus.",
+        "She has took the bus.",
+        "She have taken the bus."
+      ],
+      "answer": "She has taken the bus."
+    },
+    {
+      "id": "present-perfect-v11-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari buy adalah bought.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (buy) a new bike.",
+      "answer": [
+        "has bought"
+      ]
+    },
+    {
+      "id": "present-perfect-v11-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has, bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "She ___ (see) that film.",
+      "answer": [
+        "has seen"
+      ]
+    },
+    {
+      "id": "present-perfect-v11-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Bentuk ketiga dipakai setelah have/has: taken, given, known, spoken.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "take",
+          "right": "taken"
+        },
+        {
+          "left": "give",
+          "right": "given"
+        },
+        {
+          "left": "know",
+          "right": "known"
+        },
+        {
+          "left": "speak",
+          "right": "spoken"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Kata already diletakkan di antara has dan past participle.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "has",
+        "already",
+        "finished",
+        "her",
+        "work"
+      ],
+      "answer": "She has already finished her work"
+    },
+    {
+      "id": "present-perfect-v11-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'They' memakai have, dan bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present perfect sentence.",
+      "options": [
+        "They have gone to Bali.",
+        "They have went to Bali.",
+        "They has gone to Bali."
+      ],
+      "answer": "They have gone to Bali."
+    },
+    {
+      "id": "present-perfect-v11-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'He' memakai has, dan bentuk ketiga dari do adalah done.",
+      "type": "flip_sentence",
+      "source": "He does his homework.",
+      "target": "present_perfect",
+      "answer": [
+        "He has done his homework."
+      ]
+    },
+    {
+      "id": "present-perfect-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have done today.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have finished my homework today."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v12-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai have. Bentuk ketiga dari see adalah seen, bukan saw.",
+      "type": "multiple_choice",
+      "question": "We ___ that movie already.",
+      "options": [
+        "have seen",
+        "has seen",
+        "have saw",
+        "have see"
+      ],
+      "answer": "have seen"
+    },
+    {
+      "id": "present-perfect-v12-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "He, she, dan it memakai has, lalu past participle: finished.",
+      "type": "multiple_choice",
+      "question": "She ___ her homework.",
+      "options": [
+        "has finished",
+        "have finished",
+        "has finish",
+        "is finished"
+      ],
+      "answer": "has finished"
+    },
+    {
+      "id": "present-perfect-v12-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "fill_blank",
+      "sentence": "We ___ (do) our homework.",
+      "answer": [
+        "have done"
+      ]
+    },
+    {
+      "id": "present-perfect-v12-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has, bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "He ___ (write) three letters today.",
+      "answer": [
+        "has written"
+      ]
+    },
+    {
+      "id": "present-perfect-v12-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle adalah bentuk ketiga: gone, eaten, seen, done, written.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "gone"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "do",
+          "right": "done"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have + past participle + keterangan.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "have",
+        "known",
+        "each",
+        "other",
+        "for",
+        "years"
+      ],
+      "answer": "We have known each other for years"
+    },
+    {
+      "id": "present-perfect-v12-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari read tetap read, jadi have read.",
+      "type": "multiple_choice",
+      "question": "I ___ this book before.",
+      "options": [
+        "have read",
+        "has read",
+        "have readed",
+        "am read"
+      ],
+      "answer": "have read"
+    },
+    {
+      "id": "present-perfect-v12-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai have + written.",
+      "type": "flip_sentence",
+      "source": "They write letters.",
+      "target": "present_perfect",
+      "answer": [
+        "They have written letters."
+      ]
+    },
+    {
+      "id": "present-perfect-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have + past participle untuk pengalaman.",
+      "type": "free_write",
+      "task": "Write one sentence about a place you have visited.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have visited Bali twice."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v13-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' memakai have. Bentuk ketiga dari eat adalah eaten.",
+      "type": "multiple_choice",
+      "question": "They ___ their lunch.",
+      "options": [
+        "have eaten",
+        "has eaten",
+        "have ate",
+        "have eat"
+      ],
+      "answer": "have eaten"
+    },
+    {
+      "id": "present-perfect-v13-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'They' memakai have, dan bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present perfect sentence.",
+      "options": [
+        "They have gone to Bali.",
+        "They have went to Bali.",
+        "They has gone to Bali."
+      ],
+      "answer": "They have gone to Bali."
+    },
+    {
+      "id": "present-perfect-v13-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'She' memakai has, bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "She ___ (see) that film.",
+      "answer": [
+        "has seen"
+      ]
+    },
+    {
+      "id": "present-perfect-v13-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Have + past participle. Bentuk ketiga dari eat adalah eaten.",
+      "type": "fill_blank",
+      "sentence": "I ___ (eat) nasi goreng before.",
+      "answer": [
+        "have eaten"
+      ]
+    },
+    {
+      "id": "present-perfect-v13-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle adalah bentuk ketiga: gone, eaten, seen, done, written.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "gone"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "do",
+          "right": "done"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have + past participle + keterangan.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "have",
+        "known",
+        "each",
+        "other",
+        "for",
+        "years"
+      ],
+      "answer": "We have known each other for years"
+    },
+    {
+      "id": "present-perfect-v13-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai has, dan bentuk ketiga dari take adalah taken.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She has taken the bus.",
+        "She has took the bus.",
+        "She have taken the bus."
+      ],
+      "answer": "She has taken the bus."
+    },
+    {
+      "id": "present-perfect-v13-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'He' memakai has, dan bentuk ketiga dari do adalah done.",
+      "type": "flip_sentence",
+      "source": "He does his homework.",
+      "target": "present_perfect",
+      "answer": [
+        "He has done his homework."
+      ]
+    },
+    {
+      "id": "present-perfect-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have + past participle untuk pengalaman.",
+      "type": "free_write",
+      "task": "Write one sentence about a place you have visited.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have visited Bali twice."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v14-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai have. Bentuk ketiga dari see adalah seen, bukan saw.",
+      "type": "multiple_choice",
+      "question": "We ___ that movie already.",
+      "options": [
+        "have seen",
+        "has seen",
+        "have saw",
+        "have see"
+      ],
+      "answer": "have seen"
+    },
+    {
+      "id": "present-perfect-v14-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has + past participle. Bentuk ketiga dari be adalah been.",
+      "type": "multiple_choice",
+      "question": "He ___ to Bali twice.",
+      "options": [
+        "has been",
+        "have been",
+        "has been went",
+        "has go"
+      ],
+      "answer": "has been"
+    },
+    {
+      "id": "present-perfect-v14-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari buy adalah bought.",
+      "type": "fill_blank",
+      "sentence": "My friend ___ (buy) a new bike.",
+      "answer": [
+        "has bought"
+      ]
+    },
+    {
+      "id": "present-perfect-v14-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'He' memakai has, bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "He ___ (write) three letters today.",
+      "answer": [
+        "has written"
+      ]
+    },
+    {
+      "id": "present-perfect-v14-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Bentuk ketiga dipakai setelah have/has: taken, given, known, spoken.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "take",
+          "right": "taken"
+        },
+        {
+          "left": "give",
+          "right": "given"
+        },
+        {
+          "left": "know",
+          "right": "known"
+        },
+        {
+          "left": "speak",
+          "right": "spoken"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + have + never + past participle.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "have",
+        "never",
+        "eaten",
+        "durian"
+      ],
+      "answer": "I have never eaten durian"
+    },
+    {
+      "id": "present-perfect-v14-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "He, she, dan it memakai has, lalu past participle: finished.",
+      "type": "multiple_choice",
+      "question": "She ___ her homework.",
+      "options": [
+        "has finished",
+        "have finished",
+        "has finish",
+        "is finished"
+      ],
+      "answer": "has finished"
+    },
+    {
+      "id": "present-perfect-v14-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Present perfect: has + past participle. Bentuk ketiga dari take adalah taken.",
+      "type": "flip_sentence",
+      "source": "She takes the bus.",
+      "target": "present_perfect",
+      "answer": [
+        "She has taken the bus."
+      ]
+    },
+    {
+      "id": "present-perfect-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have done today.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have finished my homework today."
+    }
+  ],
+  [
+    {
+      "id": "present-perfect-v15-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai have. Bentuk ketiga dari see adalah seen, bukan saw.",
+      "type": "multiple_choice",
+      "question": "We ___ that movie already.",
+      "options": [
+        "have seen",
+        "has seen",
+        "have saw",
+        "have see"
+      ],
+      "answer": "have seen"
+    },
+    {
+      "id": "present-perfect-v15-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' memakai has, dan bentuk ketiga dari take adalah taken.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She has taken the bus.",
+        "She has took the bus.",
+        "She have taken the bus."
+      ],
+      "answer": "She has taken the bus."
+    },
+    {
+      "id": "present-perfect-v15-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "fill_blank",
+      "sentence": "We ___ (do) our homework.",
+      "answer": [
+        "have done"
+      ]
+    },
+    {
+      "id": "present-perfect-v15-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari make adalah made.",
+      "type": "fill_blank",
+      "sentence": "They ___ (make) a cake.",
+      "answer": [
+        "have made"
+      ]
+    },
+    {
+      "id": "present-perfect-v15-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle adalah bentuk ketiga: gone, eaten, seen, done, written.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "gone"
+        },
+        {
+          "left": "eat",
+          "right": "eaten"
+        },
+        {
+          "left": "see",
+          "right": "seen"
+        },
+        {
+          "left": "do",
+          "right": "done"
+        },
+        {
+          "left": "write",
+          "right": "written"
+        }
+      ]
+    },
+    {
+      "id": "present-perfect-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Kata already diletakkan di antara has dan past participle.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "has",
+        "already",
+        "finished",
+        "her",
+        "work"
+      ],
+      "answer": "She has already finished her work"
+    },
+    {
+      "id": "present-perfect-v15-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'He' memakai has + past participle. Bentuk ketiga dari be adalah been.",
+      "type": "multiple_choice",
+      "question": "He ___ to Bali twice.",
+      "options": [
+        "has been",
+        "have been",
+        "has been went",
+        "has go"
+      ],
+      "answer": "has been"
+    },
+    {
+      "id": "present-perfect-v15-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai have + written.",
+      "type": "flip_sentence",
+      "source": "They write letters.",
+      "target": "present_perfect",
+      "answer": [
+        "They have written letters."
+      ]
+    },
+    {
+      "id": "present-perfect-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan have/has + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you have done today.",
+      "requirements": [
+        "present perfect"
+      ],
+      "modelAnswer": "I have finished my homework today."
+    }
+  ]
+]

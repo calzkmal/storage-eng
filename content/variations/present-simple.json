@@ -1,0 +1,1926 @@
+[
+  [
+    {
+      "id": "present-simple-v1-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I', kata kerja tetap bentuk dasar: wake.",
+      "type": "multiple_choice",
+      "question": "I ___ up at 6 every day.",
+      "options": [
+        "wake",
+        "wakes",
+        "waking",
+        "woke"
+      ],
+      "answer": "wake"
+    },
+    {
+      "id": "present-simple-v1-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Kebenaran umum dengan 'water' (= it) mendapat -s: boils.",
+      "type": "multiple_choice",
+      "question": "Water ___ at 100°C.",
+      "options": [
+        "boil",
+        "boils",
+        "boiling",
+        "boiled"
+      ],
+      "answer": "boils"
+    },
+    {
+      "id": "present-simple-v1-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' butuh bentuk -s, dan konsonan + y berubah menjadi -ies.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence with the correct verb form.",
+      "options": [
+        "She studies every day.",
+        "She study every day.",
+        "She studys every day."
+      ],
+      "answer": "She studies every day."
+    },
+    {
+      "id": "present-simple-v1-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Vokal + y cukup ditambah -s: plays, bukan plaies.",
+      "type": "fill_blank",
+      "sentence": "The baby ___ (play) with the ball.",
+      "answer": [
+        "plays"
+      ]
+    },
+    {
+      "id": "present-simple-v1-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kebanyakan kata kerja cukup ditambah -s dengan 'it'.",
+      "type": "fill_blank",
+      "sentence": "It ___ (rain) a lot in Jakarta.",
+      "answer": [
+        "rains"
+      ]
+    },
+    {
+      "id": "present-simple-v1-match-1",
+      "prompt": "Match each verb to its he/she/it form",
+      "explanation": "love dan look cukup ditambah -s. watch dan go mendapat -es. study menjadi studies.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "love",
+          "right": "loves"
+        },
+        {
+          "left": "study",
+          "right": "studies"
+        },
+        {
+          "left": "watch",
+          "right": "watches"
+        },
+        {
+          "left": "go",
+          "right": "goes"
+        },
+        {
+          "left": "look",
+          "right": "looks"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek tunggal + kata kerja -s + objek.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "father",
+        "reads",
+        "the",
+        "newspaper"
+      ],
+      "answer": "My father reads the newspaper"
+    },
+    {
+      "id": "present-simple-v1-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "'The sun' sama seperti 'it', jadi kata kerjanya mendapat -s: rises.",
+      "type": "multiple_choice",
+      "question": "The sun ___ in the east.",
+      "options": [
+        "rise",
+        "rises",
+        "rising",
+        "rised"
+      ],
+      "answer": "rises"
+    },
+    {
+      "id": "present-simple-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan present simple untuk rutinitas: I + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you do every day.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "I brush my teeth every morning."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v2-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'Go' berakhiran -o, jadi mendapat -es: goes.",
+      "type": "multiple_choice",
+      "question": "My mother ___ to the market on Sunday.",
+      "options": [
+        "go",
+        "gos",
+        "goes",
+        "going"
+      ],
+      "answer": "goes"
+    },
+    {
+      "id": "present-simple-v2-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Every morning' menunjukkan kebiasaan berulang, jadi itu rutinitas.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence that describes a habit.",
+      "options": [
+        "I drink coffee every morning.",
+        "The moon goes around the Earth.",
+        "Ice is cold."
+      ],
+      "answer": "I drink coffee every morning."
+    },
+    {
+      "id": "present-simple-v2-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'My brother' berarti he, jadi kata kerjanya mendapat -s: lives.",
+      "type": "multiple_choice",
+      "question": "My brother ___ in Bandung.",
+      "options": [
+        "live",
+        "lives",
+        "living",
+        "is live"
+      ],
+      "answer": "lives"
+    },
+    {
+      "id": "present-simple-v2-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -x mendapat -es: fixes.",
+      "type": "fill_blank",
+      "sentence": "He ___ (fix) computers.",
+      "answer": [
+        "fixes"
+      ]
+    },
+    {
+      "id": "present-simple-v2-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -ch mendapat -es: watches.",
+      "type": "fill_blank",
+      "sentence": "He ___ (watch) TV at night.",
+      "answer": [
+        "watches"
+      ]
+    },
+    {
+      "id": "present-simple-v2-match-1",
+      "prompt": "Match each sentence to its meaning",
+      "explanation": "Kebenaran umum selalu benar. Rutinitas adalah hal yang dilakukan secara teratur.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Water boils at 100°C",
+          "right": "General truth"
+        },
+        {
+          "left": "She goes to campus every day",
+          "right": "Routine"
+        },
+        {
+          "left": "Cats sleep a lot",
+          "right": "General truth"
+        },
+        {
+          "left": "We eat lunch together",
+          "right": "Routine"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja + tempat + waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "goes",
+        "to",
+        "campus",
+        "every",
+        "day"
+      ],
+      "answer": "She goes to campus every day"
+    },
+    {
+      "id": "present-simple-v2-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "'Study' berakhiran konsonan + y, jadi dengan 'she' menjadi studies.",
+      "type": "multiple_choice",
+      "question": "She ___ English every day.",
+      "options": [
+        "study",
+        "studies",
+        "studys",
+        "studying"
+      ],
+      "answer": "studies"
+    },
+    {
+      "id": "present-simple-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Kebenaran umum memakai present simple, dan he/she/it mendapat -s.",
+      "type": "free_write",
+      "task": "Write one sentence about a general truth.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "The sun rises in the east."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v3-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi kata kerja tetap bentuk dasar: love.",
+      "type": "multiple_choice",
+      "question": "They ___ Indonesian food.",
+      "options": [
+        "love",
+        "loves",
+        "loveing",
+        "loved"
+      ],
+      "answer": "love"
+    },
+    {
+      "id": "present-simple-v3-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Kebenaran umum dengan 'water' (= it) mendapat -s: boils.",
+      "type": "multiple_choice",
+      "question": "Water ___ at 100°C.",
+      "options": [
+        "boil",
+        "boils",
+        "boiling",
+        "boiled"
+      ],
+      "answer": "boils"
+    },
+    {
+      "id": "present-simple-v3-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'My brother' berarti he, jadi kata kerjanya mendapat -s: lives.",
+      "type": "multiple_choice",
+      "question": "My brother ___ in Bandung.",
+      "options": [
+        "live",
+        "lives",
+        "living",
+        "is live"
+      ],
+      "answer": "lives"
+    },
+    {
+      "id": "present-simple-v3-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Dengan 'we' kata kerja tetap bentuk dasar: have.",
+      "type": "fill_blank",
+      "sentence": "We ___ (have) class on Monday.",
+      "answer": [
+        "have"
+      ]
+    },
+    {
+      "id": "present-simple-v3-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -ch mendapat -es: teaches.",
+      "type": "fill_blank",
+      "sentence": "My sister ___ (teach) English.",
+      "answer": [
+        "teaches"
+      ]
+    },
+    {
+      "id": "present-simple-v3-match-1",
+      "prompt": "Match each verb to its he/she/it form",
+      "explanation": "love dan look cukup ditambah -s. watch dan go mendapat -es. study menjadi studies.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "love",
+          "right": "loves"
+        },
+        {
+          "left": "study",
+          "right": "studies"
+        },
+        {
+          "left": "watch",
+          "right": "watches"
+        },
+        {
+          "left": "go",
+          "right": "goes"
+        },
+        {
+          "left": "look",
+          "right": "looks"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek jamak + kata kerja dasar + objek.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "eat",
+        "lunch",
+        "together"
+      ],
+      "answer": "We eat lunch together"
+    },
+    {
+      "id": "present-simple-v3-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I', kata kerja tetap bentuk dasar: wake.",
+      "type": "multiple_choice",
+      "question": "I ___ up at 6 every day.",
+      "options": [
+        "wake",
+        "wakes",
+        "waking",
+        "woke"
+      ],
+      "answer": "wake"
+    },
+    {
+      "id": "present-simple-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Kebenaran umum memakai present simple, dan he/she/it mendapat -s.",
+      "type": "free_write",
+      "task": "Write one sentence about a general truth.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "The sun rises in the east."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v4-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi kata kerja tetap bentuk dasar: love.",
+      "type": "multiple_choice",
+      "question": "They ___ Indonesian food.",
+      "options": [
+        "love",
+        "loves",
+        "loveing",
+        "loved"
+      ],
+      "answer": "love"
+    },
+    {
+      "id": "present-simple-v4-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Every morning' menunjukkan kebiasaan berulang, jadi itu rutinitas.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence that describes a habit.",
+      "options": [
+        "I drink coffee every morning.",
+        "The moon goes around the Earth.",
+        "Ice is cold."
+      ],
+      "answer": "I drink coffee every morning."
+    },
+    {
+      "id": "present-simple-v4-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' butuh bentuk -s, dan konsonan + y berubah menjadi -ies.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence with the correct verb form.",
+      "options": [
+        "She studies every day.",
+        "She study every day.",
+        "She studys every day."
+      ],
+      "answer": "She studies every day."
+    },
+    {
+      "id": "present-simple-v4-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -es: carries.",
+      "type": "fill_blank",
+      "sentence": "She ___ (carry) her bag.",
+      "answer": [
+        "carries"
+      ]
+    },
+    {
+      "id": "present-simple-v4-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kebenaran umum dengan 'water' mendapat -s: freezes.",
+      "type": "fill_blank",
+      "sentence": "Water ___ (freeze) at 0°C.",
+      "answer": [
+        "freezes"
+      ]
+    },
+    {
+      "id": "present-simple-v4-match-1",
+      "prompt": "Match each sentence to its meaning",
+      "explanation": "Kebenaran umum selalu benar. Rutinitas adalah hal yang dilakukan secara teratur.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Water boils at 100°C",
+          "right": "General truth"
+        },
+        {
+          "left": "She goes to campus every day",
+          "right": "Routine"
+        },
+        {
+          "left": "Cats sleep a lot",
+          "right": "General truth"
+        },
+        {
+          "left": "We eat lunch together",
+          "right": "Routine"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek tunggal + kata kerja -s + objek.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "father",
+        "reads",
+        "the",
+        "newspaper"
+      ],
+      "answer": "My father reads the newspaper"
+    },
+    {
+      "id": "present-simple-v4-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "'The sun' sama seperti 'it', jadi kata kerjanya mendapat -s: rises.",
+      "type": "multiple_choice",
+      "question": "The sun ___ in the east.",
+      "options": [
+        "rise",
+        "rises",
+        "rising",
+        "rised"
+      ],
+      "answer": "rises"
+    },
+    {
+      "id": "present-simple-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan present simple untuk rutinitas: I + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you do every day.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "I brush my teeth every morning."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v5-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'Go' berakhiran -o, jadi mendapat -es: goes.",
+      "type": "multiple_choice",
+      "question": "My mother ___ to the market on Sunday.",
+      "options": [
+        "go",
+        "gos",
+        "goes",
+        "going"
+      ],
+      "answer": "goes"
+    },
+    {
+      "id": "present-simple-v5-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'Study' berakhiran konsonan + y, jadi dengan 'she' menjadi studies.",
+      "type": "multiple_choice",
+      "question": "She ___ English every day.",
+      "options": [
+        "study",
+        "studies",
+        "studys",
+        "studying"
+      ],
+      "answer": "studies"
+    },
+    {
+      "id": "present-simple-v5-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'My brother' berarti he, jadi kata kerjanya mendapat -s: lives.",
+      "type": "multiple_choice",
+      "question": "My brother ___ in Bandung.",
+      "options": [
+        "live",
+        "lives",
+        "living",
+        "is live"
+      ],
+      "answer": "lives"
+    },
+    {
+      "id": "present-simple-v5-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -ch mendapat -es: watches.",
+      "type": "fill_blank",
+      "sentence": "He ___ (watch) TV at night.",
+      "answer": [
+        "watches"
+      ]
+    },
+    {
+      "id": "present-simple-v5-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kebenaran umum dengan 'water' mendapat -s: freezes.",
+      "type": "fill_blank",
+      "sentence": "Water ___ (freeze) at 0°C.",
+      "answer": [
+        "freezes"
+      ]
+    },
+    {
+      "id": "present-simple-v5-match-1",
+      "prompt": "Match each sentence to its meaning",
+      "explanation": "Kebenaran umum selalu benar. Rutinitas adalah hal yang dilakukan secara teratur.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Water boils at 100°C",
+          "right": "General truth"
+        },
+        {
+          "left": "She goes to campus every day",
+          "right": "Routine"
+        },
+        {
+          "left": "Cats sleep a lot",
+          "right": "General truth"
+        },
+        {
+          "left": "We eat lunch together",
+          "right": "Routine"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek jamak + kata kerja dasar + objek.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "eat",
+        "lunch",
+        "together"
+      ],
+      "answer": "We eat lunch together"
+    },
+    {
+      "id": "present-simple-v5-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' butuh bentuk -s, dan konsonan + y berubah menjadi -ies.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence with the correct verb form.",
+      "options": [
+        "She studies every day.",
+        "She study every day.",
+        "She studys every day."
+      ],
+      "answer": "She studies every day."
+    },
+    {
+      "id": "present-simple-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan present simple untuk rutinitas: I + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you do every day.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "I brush my teeth every morning."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v6-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Every morning' menunjukkan kebiasaan berulang, jadi itu rutinitas.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence that describes a habit.",
+      "options": [
+        "I drink coffee every morning.",
+        "The moon goes around the Earth.",
+        "Ice is cold."
+      ],
+      "answer": "I drink coffee every morning."
+    },
+    {
+      "id": "present-simple-v6-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'Go' berakhiran -o, jadi mendapat -es: goes.",
+      "type": "multiple_choice",
+      "question": "My mother ___ to the market on Sunday.",
+      "options": [
+        "go",
+        "gos",
+        "goes",
+        "going"
+      ],
+      "answer": "goes"
+    },
+    {
+      "id": "present-simple-v6-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I', kata kerja tetap bentuk dasar: wake.",
+      "type": "multiple_choice",
+      "question": "I ___ up at 6 every day.",
+      "options": [
+        "wake",
+        "wakes",
+        "waking",
+        "woke"
+      ],
+      "answer": "wake"
+    },
+    {
+      "id": "present-simple-v6-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Kebanyakan kata kerja cukup ditambah -s dengan 'it'.",
+      "type": "fill_blank",
+      "sentence": "It ___ (rain) a lot in Jakarta.",
+      "answer": [
+        "rains"
+      ]
+    },
+    {
+      "id": "present-simple-v6-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -x mendapat -es: fixes.",
+      "type": "fill_blank",
+      "sentence": "He ___ (fix) computers.",
+      "answer": [
+        "fixes"
+      ]
+    },
+    {
+      "id": "present-simple-v6-match-1",
+      "prompt": "Match each verb to its he/she/it form",
+      "explanation": "love dan look cukup ditambah -s. watch dan go mendapat -es. study menjadi studies.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "love",
+          "right": "loves"
+        },
+        {
+          "left": "study",
+          "right": "studies"
+        },
+        {
+          "left": "watch",
+          "right": "watches"
+        },
+        {
+          "left": "go",
+          "right": "goes"
+        },
+        {
+          "left": "look",
+          "right": "looks"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja + tempat + waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "goes",
+        "to",
+        "campus",
+        "every",
+        "day"
+      ],
+      "answer": "She goes to campus every day"
+    },
+    {
+      "id": "present-simple-v6-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Kebenaran umum dengan 'water' (= it) mendapat -s: boils.",
+      "type": "multiple_choice",
+      "question": "Water ___ at 100°C.",
+      "options": [
+        "boil",
+        "boils",
+        "boiling",
+        "boiled"
+      ],
+      "answer": "boils"
+    },
+    {
+      "id": "present-simple-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Kebenaran umum memakai present simple, dan he/she/it mendapat -s.",
+      "type": "free_write",
+      "task": "Write one sentence about a general truth.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "The sun rises in the east."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v7-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi kata kerja tetap bentuk dasar: love.",
+      "type": "multiple_choice",
+      "question": "They ___ Indonesian food.",
+      "options": [
+        "love",
+        "loves",
+        "loveing",
+        "loved"
+      ],
+      "answer": "love"
+    },
+    {
+      "id": "present-simple-v7-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'The sun' sama seperti 'it', jadi kata kerjanya mendapat -s: rises.",
+      "type": "multiple_choice",
+      "question": "The sun ___ in the east.",
+      "options": [
+        "rise",
+        "rises",
+        "rising",
+        "rised"
+      ],
+      "answer": "rises"
+    },
+    {
+      "id": "present-simple-v7-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'Study' berakhiran konsonan + y, jadi dengan 'she' menjadi studies.",
+      "type": "multiple_choice",
+      "question": "She ___ English every day.",
+      "options": [
+        "study",
+        "studies",
+        "studys",
+        "studying"
+      ],
+      "answer": "studies"
+    },
+    {
+      "id": "present-simple-v7-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Vokal + y cukup ditambah -s: plays, bukan plaies.",
+      "type": "fill_blank",
+      "sentence": "The baby ___ (play) with the ball.",
+      "answer": [
+        "plays"
+      ]
+    },
+    {
+      "id": "present-simple-v7-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Dengan 'we' kata kerja tetap bentuk dasar: have.",
+      "type": "fill_blank",
+      "sentence": "We ___ (have) class on Monday.",
+      "answer": [
+        "have"
+      ]
+    },
+    {
+      "id": "present-simple-v7-match-1",
+      "prompt": "Match each sentence to its meaning",
+      "explanation": "Kebenaran umum selalu benar. Rutinitas adalah hal yang dilakukan secara teratur.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Water boils at 100°C",
+          "right": "General truth"
+        },
+        {
+          "left": "She goes to campus every day",
+          "right": "Routine"
+        },
+        {
+          "left": "Cats sleep a lot",
+          "right": "General truth"
+        },
+        {
+          "left": "We eat lunch together",
+          "right": "Routine"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja + tempat + waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "goes",
+        "to",
+        "campus",
+        "every",
+        "day"
+      ],
+      "answer": "She goes to campus every day"
+    },
+    {
+      "id": "present-simple-v7-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' butuh bentuk -s, dan konsonan + y berubah menjadi -ies.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence with the correct verb form.",
+      "options": [
+        "She studies every day.",
+        "She study every day.",
+        "She studys every day."
+      ],
+      "answer": "She studies every day."
+    },
+    {
+      "id": "present-simple-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Kebenaran umum memakai present simple, dan he/she/it mendapat -s.",
+      "type": "free_write",
+      "task": "Write one sentence about a general truth.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "The sun rises in the east."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v8-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'Go' berakhiran -o, jadi mendapat -es: goes.",
+      "type": "multiple_choice",
+      "question": "My mother ___ to the market on Sunday.",
+      "options": [
+        "go",
+        "gos",
+        "goes",
+        "going"
+      ],
+      "answer": "goes"
+    },
+    {
+      "id": "present-simple-v8-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Every morning' menunjukkan kebiasaan berulang, jadi itu rutinitas.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence that describes a habit.",
+      "options": [
+        "I drink coffee every morning.",
+        "The moon goes around the Earth.",
+        "Ice is cold."
+      ],
+      "answer": "I drink coffee every morning."
+    },
+    {
+      "id": "present-simple-v8-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'Study' berakhiran konsonan + y, jadi dengan 'she' menjadi studies.",
+      "type": "multiple_choice",
+      "question": "She ___ English every day.",
+      "options": [
+        "study",
+        "studies",
+        "studys",
+        "studying"
+      ],
+      "answer": "studies"
+    },
+    {
+      "id": "present-simple-v8-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -es: carries.",
+      "type": "fill_blank",
+      "sentence": "She ___ (carry) her bag.",
+      "answer": [
+        "carries"
+      ]
+    },
+    {
+      "id": "present-simple-v8-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -ch mendapat -es: teaches.",
+      "type": "fill_blank",
+      "sentence": "My sister ___ (teach) English.",
+      "answer": [
+        "teaches"
+      ]
+    },
+    {
+      "id": "present-simple-v8-match-1",
+      "prompt": "Match each verb to its he/she/it form",
+      "explanation": "love dan look cukup ditambah -s. watch dan go mendapat -es. study menjadi studies.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "love",
+          "right": "loves"
+        },
+        {
+          "left": "study",
+          "right": "studies"
+        },
+        {
+          "left": "watch",
+          "right": "watches"
+        },
+        {
+          "left": "go",
+          "right": "goes"
+        },
+        {
+          "left": "look",
+          "right": "looks"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek tunggal + kata kerja -s + objek.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "father",
+        "reads",
+        "the",
+        "newspaper"
+      ],
+      "answer": "My father reads the newspaper"
+    },
+    {
+      "id": "present-simple-v8-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi kata kerja tetap bentuk dasar: love.",
+      "type": "multiple_choice",
+      "question": "They ___ Indonesian food.",
+      "options": [
+        "love",
+        "loves",
+        "loveing",
+        "loved"
+      ],
+      "answer": "love"
+    },
+    {
+      "id": "present-simple-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan present simple untuk rutinitas: I + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you do every day.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "I brush my teeth every morning."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v9-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'The sun' sama seperti 'it', jadi kata kerjanya mendapat -s: rises.",
+      "type": "multiple_choice",
+      "question": "The sun ___ in the east.",
+      "options": [
+        "rise",
+        "rises",
+        "rising",
+        "rised"
+      ],
+      "answer": "rises"
+    },
+    {
+      "id": "present-simple-v9-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I', kata kerja tetap bentuk dasar: wake.",
+      "type": "multiple_choice",
+      "question": "I ___ up at 6 every day.",
+      "options": [
+        "wake",
+        "wakes",
+        "waking",
+        "woke"
+      ],
+      "answer": "wake"
+    },
+    {
+      "id": "present-simple-v9-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'My brother' berarti he, jadi kata kerjanya mendapat -s: lives.",
+      "type": "multiple_choice",
+      "question": "My brother ___ in Bandung.",
+      "options": [
+        "live",
+        "lives",
+        "living",
+        "is live"
+      ],
+      "answer": "lives"
+    },
+    {
+      "id": "present-simple-v9-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Kebanyakan kata kerja cukup ditambah -s dengan 'it'.",
+      "type": "fill_blank",
+      "sentence": "It ___ (rain) a lot in Jakarta.",
+      "answer": [
+        "rains"
+      ]
+    },
+    {
+      "id": "present-simple-v9-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -ch mendapat -es: teaches.",
+      "type": "fill_blank",
+      "sentence": "My sister ___ (teach) English.",
+      "answer": [
+        "teaches"
+      ]
+    },
+    {
+      "id": "present-simple-v9-match-1",
+      "prompt": "Match each verb to its he/she/it form",
+      "explanation": "love dan look cukup ditambah -s. watch dan go mendapat -es. study menjadi studies.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "love",
+          "right": "loves"
+        },
+        {
+          "left": "study",
+          "right": "studies"
+        },
+        {
+          "left": "watch",
+          "right": "watches"
+        },
+        {
+          "left": "go",
+          "right": "goes"
+        },
+        {
+          "left": "look",
+          "right": "looks"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek jamak + kata kerja dasar + objek.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "eat",
+        "lunch",
+        "together"
+      ],
+      "answer": "We eat lunch together"
+    },
+    {
+      "id": "present-simple-v9-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Kebenaran umum dengan 'water' (= it) mendapat -s: boils.",
+      "type": "multiple_choice",
+      "question": "Water ___ at 100°C.",
+      "options": [
+        "boil",
+        "boils",
+        "boiling",
+        "boiled"
+      ],
+      "answer": "boils"
+    },
+    {
+      "id": "present-simple-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan present simple untuk rutinitas: I + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you do every day.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "I brush my teeth every morning."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v10-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' butuh bentuk -s, dan konsonan + y berubah menjadi -ies.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence with the correct verb form.",
+      "options": [
+        "She studies every day.",
+        "She study every day.",
+        "She studys every day."
+      ],
+      "answer": "She studies every day."
+    },
+    {
+      "id": "present-simple-v10-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi kata kerja tetap bentuk dasar: love.",
+      "type": "multiple_choice",
+      "question": "They ___ Indonesian food.",
+      "options": [
+        "love",
+        "loves",
+        "loveing",
+        "loved"
+      ],
+      "answer": "love"
+    },
+    {
+      "id": "present-simple-v10-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Kebenaran umum dengan 'water' (= it) mendapat -s: boils.",
+      "type": "multiple_choice",
+      "question": "Water ___ at 100°C.",
+      "options": [
+        "boil",
+        "boils",
+        "boiling",
+        "boiled"
+      ],
+      "answer": "boils"
+    },
+    {
+      "id": "present-simple-v10-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -es: carries.",
+      "type": "fill_blank",
+      "sentence": "She ___ (carry) her bag.",
+      "answer": [
+        "carries"
+      ]
+    },
+    {
+      "id": "present-simple-v10-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Vokal + y cukup ditambah -s: plays, bukan plaies.",
+      "type": "fill_blank",
+      "sentence": "The baby ___ (play) with the ball.",
+      "answer": [
+        "plays"
+      ]
+    },
+    {
+      "id": "present-simple-v10-match-1",
+      "prompt": "Match each sentence to its meaning",
+      "explanation": "Kebenaran umum selalu benar. Rutinitas adalah hal yang dilakukan secara teratur.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Water boils at 100°C",
+          "right": "General truth"
+        },
+        {
+          "left": "She goes to campus every day",
+          "right": "Routine"
+        },
+        {
+          "left": "Cats sleep a lot",
+          "right": "General truth"
+        },
+        {
+          "left": "We eat lunch together",
+          "right": "Routine"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja + tempat + waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "goes",
+        "to",
+        "campus",
+        "every",
+        "day"
+      ],
+      "answer": "She goes to campus every day"
+    },
+    {
+      "id": "present-simple-v10-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "'Go' berakhiran -o, jadi mendapat -es: goes.",
+      "type": "multiple_choice",
+      "question": "My mother ___ to the market on Sunday.",
+      "options": [
+        "go",
+        "gos",
+        "goes",
+        "going"
+      ],
+      "answer": "goes"
+    },
+    {
+      "id": "present-simple-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Kebenaran umum memakai present simple, dan he/she/it mendapat -s.",
+      "type": "free_write",
+      "task": "Write one sentence about a general truth.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "The sun rises in the east."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v11-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Every morning' menunjukkan kebiasaan berulang, jadi itu rutinitas.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence that describes a habit.",
+      "options": [
+        "I drink coffee every morning.",
+        "The moon goes around the Earth.",
+        "Ice is cold."
+      ],
+      "answer": "I drink coffee every morning."
+    },
+    {
+      "id": "present-simple-v11-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'The sun' sama seperti 'it', jadi kata kerjanya mendapat -s: rises.",
+      "type": "multiple_choice",
+      "question": "The sun ___ in the east.",
+      "options": [
+        "rise",
+        "rises",
+        "rising",
+        "rised"
+      ],
+      "answer": "rises"
+    },
+    {
+      "id": "present-simple-v11-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'Study' berakhiran konsonan + y, jadi dengan 'she' menjadi studies.",
+      "type": "multiple_choice",
+      "question": "She ___ English every day.",
+      "options": [
+        "study",
+        "studies",
+        "studys",
+        "studying"
+      ],
+      "answer": "studies"
+    },
+    {
+      "id": "present-simple-v11-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -ch mendapat -es: watches.",
+      "type": "fill_blank",
+      "sentence": "He ___ (watch) TV at night.",
+      "answer": [
+        "watches"
+      ]
+    },
+    {
+      "id": "present-simple-v11-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Dengan 'we' kata kerja tetap bentuk dasar: have.",
+      "type": "fill_blank",
+      "sentence": "We ___ (have) class on Monday.",
+      "answer": [
+        "have"
+      ]
+    },
+    {
+      "id": "present-simple-v11-match-1",
+      "prompt": "Match each sentence to its meaning",
+      "explanation": "Kebenaran umum selalu benar. Rutinitas adalah hal yang dilakukan secara teratur.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Water boils at 100°C",
+          "right": "General truth"
+        },
+        {
+          "left": "She goes to campus every day",
+          "right": "Routine"
+        },
+        {
+          "left": "Cats sleep a lot",
+          "right": "General truth"
+        },
+        {
+          "left": "We eat lunch together",
+          "right": "Routine"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek tunggal + kata kerja -s + objek.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "father",
+        "reads",
+        "the",
+        "newspaper"
+      ],
+      "answer": "My father reads the newspaper"
+    },
+    {
+      "id": "present-simple-v11-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "'My brother' berarti he, jadi kata kerjanya mendapat -s: lives.",
+      "type": "multiple_choice",
+      "question": "My brother ___ in Bandung.",
+      "options": [
+        "live",
+        "lives",
+        "living",
+        "is live"
+      ],
+      "answer": "lives"
+    },
+    {
+      "id": "present-simple-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Kebenaran umum memakai present simple, dan he/she/it mendapat -s.",
+      "type": "free_write",
+      "task": "Write one sentence about a general truth.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "The sun rises in the east."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v12-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I', kata kerja tetap bentuk dasar: wake.",
+      "type": "multiple_choice",
+      "question": "I ___ up at 6 every day.",
+      "options": [
+        "wake",
+        "wakes",
+        "waking",
+        "woke"
+      ],
+      "answer": "wake"
+    },
+    {
+      "id": "present-simple-v12-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'Go' berakhiran -o, jadi mendapat -es: goes.",
+      "type": "multiple_choice",
+      "question": "My mother ___ to the market on Sunday.",
+      "options": [
+        "go",
+        "gos",
+        "goes",
+        "going"
+      ],
+      "answer": "goes"
+    },
+    {
+      "id": "present-simple-v12-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'My brother' berarti he, jadi kata kerjanya mendapat -s: lives.",
+      "type": "multiple_choice",
+      "question": "My brother ___ in Bandung.",
+      "options": [
+        "live",
+        "lives",
+        "living",
+        "is live"
+      ],
+      "answer": "lives"
+    },
+    {
+      "id": "present-simple-v12-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -x mendapat -es: fixes.",
+      "type": "fill_blank",
+      "sentence": "He ___ (fix) computers.",
+      "answer": [
+        "fixes"
+      ]
+    },
+    {
+      "id": "present-simple-v12-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kebenaran umum dengan 'water' mendapat -s: freezes.",
+      "type": "fill_blank",
+      "sentence": "Water ___ (freeze) at 0°C.",
+      "answer": [
+        "freezes"
+      ]
+    },
+    {
+      "id": "present-simple-v12-match-1",
+      "prompt": "Match each verb to its he/she/it form",
+      "explanation": "love dan look cukup ditambah -s. watch dan go mendapat -es. study menjadi studies.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "love",
+          "right": "loves"
+        },
+        {
+          "left": "study",
+          "right": "studies"
+        },
+        {
+          "left": "watch",
+          "right": "watches"
+        },
+        {
+          "left": "go",
+          "right": "goes"
+        },
+        {
+          "left": "look",
+          "right": "looks"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek jamak + kata kerja dasar + objek.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "eat",
+        "lunch",
+        "together"
+      ],
+      "answer": "We eat lunch together"
+    },
+    {
+      "id": "present-simple-v12-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Kebenaran umum dengan 'water' (= it) mendapat -s: boils.",
+      "type": "multiple_choice",
+      "question": "Water ___ at 100°C.",
+      "options": [
+        "boil",
+        "boils",
+        "boiling",
+        "boiled"
+      ],
+      "answer": "boils"
+    },
+    {
+      "id": "present-simple-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan present simple untuk rutinitas: I + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you do every day.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "I brush my teeth every morning."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v13-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'Study' berakhiran konsonan + y, jadi dengan 'she' menjadi studies.",
+      "type": "multiple_choice",
+      "question": "She ___ English every day.",
+      "options": [
+        "study",
+        "studies",
+        "studys",
+        "studying"
+      ],
+      "answer": "studies"
+    },
+    {
+      "id": "present-simple-v13-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'The sun' sama seperti 'it', jadi kata kerjanya mendapat -s: rises.",
+      "type": "multiple_choice",
+      "question": "The sun ___ in the east.",
+      "options": [
+        "rise",
+        "rises",
+        "rising",
+        "rised"
+      ],
+      "answer": "rises"
+    },
+    {
+      "id": "present-simple-v13-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Every morning' menunjukkan kebiasaan berulang, jadi itu rutinitas.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence that describes a habit.",
+      "options": [
+        "I drink coffee every morning.",
+        "The moon goes around the Earth.",
+        "Ice is cold."
+      ],
+      "answer": "I drink coffee every morning."
+    },
+    {
+      "id": "present-simple-v13-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -ch mendapat -es: teaches.",
+      "type": "fill_blank",
+      "sentence": "My sister ___ (teach) English.",
+      "answer": [
+        "teaches"
+      ]
+    },
+    {
+      "id": "present-simple-v13-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kebanyakan kata kerja cukup ditambah -s dengan 'it'.",
+      "type": "fill_blank",
+      "sentence": "It ___ (rain) a lot in Jakarta.",
+      "answer": [
+        "rains"
+      ]
+    },
+    {
+      "id": "present-simple-v13-match-1",
+      "prompt": "Match each sentence to its meaning",
+      "explanation": "Kebenaran umum selalu benar. Rutinitas adalah hal yang dilakukan secara teratur.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Water boils at 100°C",
+          "right": "General truth"
+        },
+        {
+          "left": "She goes to campus every day",
+          "right": "Routine"
+        },
+        {
+          "left": "Cats sleep a lot",
+          "right": "General truth"
+        },
+        {
+          "left": "We eat lunch together",
+          "right": "Routine"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja + tempat + waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "goes",
+        "to",
+        "campus",
+        "every",
+        "day"
+      ],
+      "answer": "She goes to campus every day"
+    },
+    {
+      "id": "present-simple-v13-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi kata kerja tetap bentuk dasar: love.",
+      "type": "multiple_choice",
+      "question": "They ___ Indonesian food.",
+      "options": [
+        "love",
+        "loves",
+        "loveing",
+        "loved"
+      ],
+      "answer": "love"
+    },
+    {
+      "id": "present-simple-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Kebenaran umum memakai present simple, dan he/she/it mendapat -s.",
+      "type": "free_write",
+      "task": "Write one sentence about a general truth.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "The sun rises in the east."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v14-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'She' butuh bentuk -s, dan konsonan + y berubah menjadi -ies.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence with the correct verb form.",
+      "options": [
+        "She studies every day.",
+        "She study every day.",
+        "She studys every day."
+      ],
+      "answer": "She studies every day."
+    },
+    {
+      "id": "present-simple-v14-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I', kata kerja tetap bentuk dasar: wake.",
+      "type": "multiple_choice",
+      "question": "I ___ up at 6 every day.",
+      "options": [
+        "wake",
+        "wakes",
+        "waking",
+        "woke"
+      ],
+      "answer": "wake"
+    },
+    {
+      "id": "present-simple-v14-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'My brother' berarti he, jadi kata kerjanya mendapat -s: lives.",
+      "type": "multiple_choice",
+      "question": "My brother ___ in Bandung.",
+      "options": [
+        "live",
+        "lives",
+        "living",
+        "is live"
+      ],
+      "answer": "lives"
+    },
+    {
+      "id": "present-simple-v14-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -es: carries.",
+      "type": "fill_blank",
+      "sentence": "She ___ (carry) her bag.",
+      "answer": [
+        "carries"
+      ]
+    },
+    {
+      "id": "present-simple-v14-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kata kerja berakhiran -x mendapat -es: fixes.",
+      "type": "fill_blank",
+      "sentence": "He ___ (fix) computers.",
+      "answer": [
+        "fixes"
+      ]
+    },
+    {
+      "id": "present-simple-v14-match-1",
+      "prompt": "Match each verb to its he/she/it form",
+      "explanation": "love dan look cukup ditambah -s. watch dan go mendapat -es. study menjadi studies.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "love",
+          "right": "loves"
+        },
+        {
+          "left": "study",
+          "right": "studies"
+        },
+        {
+          "left": "watch",
+          "right": "watches"
+        },
+        {
+          "left": "go",
+          "right": "goes"
+        },
+        {
+          "left": "look",
+          "right": "looks"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek tunggal + kata kerja -s + objek.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "father",
+        "reads",
+        "the",
+        "newspaper"
+      ],
+      "answer": "My father reads the newspaper"
+    },
+    {
+      "id": "present-simple-v14-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Every morning' menunjukkan kebiasaan berulang, jadi itu rutinitas.",
+      "type": "multiple_choice",
+      "question": "Pick the sentence that describes a habit.",
+      "options": [
+        "I drink coffee every morning.",
+        "The moon goes around the Earth.",
+        "Ice is cold."
+      ],
+      "answer": "I drink coffee every morning."
+    },
+    {
+      "id": "present-simple-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan present simple untuk rutinitas: I + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you do every day.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "I brush my teeth every morning."
+    }
+  ],
+  [
+    {
+      "id": "present-simple-v15-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'The sun' sama seperti 'it', jadi kata kerjanya mendapat -s: rises.",
+      "type": "multiple_choice",
+      "question": "The sun ___ in the east.",
+      "options": [
+        "rise",
+        "rises",
+        "rising",
+        "rised"
+      ],
+      "answer": "rises"
+    },
+    {
+      "id": "present-simple-v15-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Kebenaran umum dengan 'water' (= it) mendapat -s: boils.",
+      "type": "multiple_choice",
+      "question": "Water ___ at 100°C.",
+      "options": [
+        "boil",
+        "boils",
+        "boiling",
+        "boiled"
+      ],
+      "answer": "boils"
+    },
+    {
+      "id": "present-simple-v15-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi kata kerja tetap bentuk dasar: love.",
+      "type": "multiple_choice",
+      "question": "They ___ Indonesian food.",
+      "options": [
+        "love",
+        "loves",
+        "loveing",
+        "loved"
+      ],
+      "answer": "love"
+    },
+    {
+      "id": "present-simple-v15-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Vokal + y cukup ditambah -s: plays, bukan plaies.",
+      "type": "fill_blank",
+      "sentence": "The baby ___ (play) with the ball.",
+      "answer": [
+        "plays"
+      ]
+    },
+    {
+      "id": "present-simple-v15-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Kebenaran umum dengan 'water' mendapat -s: freezes.",
+      "type": "fill_blank",
+      "sentence": "Water ___ (freeze) at 0°C.",
+      "answer": [
+        "freezes"
+      ]
+    },
+    {
+      "id": "present-simple-v15-match-1",
+      "prompt": "Match each verb to its he/she/it form",
+      "explanation": "love dan look cukup ditambah -s. watch dan go mendapat -es. study menjadi studies.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "love",
+          "right": "loves"
+        },
+        {
+          "left": "study",
+          "right": "studies"
+        },
+        {
+          "left": "watch",
+          "right": "watches"
+        },
+        {
+          "left": "go",
+          "right": "goes"
+        },
+        {
+          "left": "look",
+          "right": "looks"
+        }
+      ]
+    },
+    {
+      "id": "present-simple-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek jamak + kata kerja dasar + objek.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "eat",
+        "lunch",
+        "together"
+      ],
+      "answer": "We eat lunch together"
+    },
+    {
+      "id": "present-simple-v15-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I', kata kerja tetap bentuk dasar: wake.",
+      "type": "multiple_choice",
+      "question": "I ___ up at 6 every day.",
+      "options": [
+        "wake",
+        "wakes",
+        "waking",
+        "woke"
+      ],
+      "answer": "wake"
+    },
+    {
+      "id": "present-simple-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan present simple untuk rutinitas: I + kata kerja dasar.",
+      "type": "free_write",
+      "task": "Write one sentence about something you do every day.",
+      "requirements": [
+        "present simple"
+      ],
+      "modelAnswer": "I brush my teeth every morning."
+    }
+  ]
+]

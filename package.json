@@ -10,8 +10,9 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "validate": "tsx scripts/validate-content.ts",
-    "check-models": "tsx scripts/check-models.ts",
-    "seed:supabase": "node --env-file-if-exists=.env.local --import tsx scripts/seed-supabase.ts"
+    "seed:supabase": "node --env-file-if-exists=.env.local --import tsx scripts/seed-supabase.ts",
+    "build:variations": "tsx scripts/build-variations.ts",
+    "seed:variations": "node --env-file-if-exists=.env.local --import tsx scripts/seed-variations.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.115.0",

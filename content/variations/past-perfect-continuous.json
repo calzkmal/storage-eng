@@ -1,0 +1,1918 @@
+[
+  [
+    {
+      "id": "past-perfect-continuous-v1-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour when the bus came.",
+      "options": [
+        "had been waiting",
+        "have been waiting",
+        "had been wait",
+        "were been waiting"
+      ],
+      "answer": "had been waiting"
+    },
+    {
+      "id": "past-perfect-continuous-v1-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football before it rained.",
+      "options": [
+        "had been playing",
+        "had been play",
+        "has been playing",
+        "had playing"
+      ],
+      "answer": "had been playing"
+    },
+    {
+      "id": "past-perfect-continuous-v1-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + waiting.",
+      "type": "fill_blank",
+      "sentence": "They ___ (wait) for a long time.",
+      "answer": [
+        "had been waiting"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v1-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (run) before he got tired.",
+      "answer": [
+        "had been running"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + had been + kata kerja -ing + for + lama waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "had",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answer": "We had been cooking for two hours"
+    },
+    {
+      "id": "past-perfect-continuous-v1-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Past perfect continuous menggabungkan had been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Past continuous",
+          "right": "was/were + verb-ing"
+        },
+        {
+          "left": "Past perfect",
+          "right": "had + past participle"
+        },
+        {
+          "left": "Past perfect continuous",
+          "right": "had been + verb-ing"
+        },
+        {
+          "left": "Past simple",
+          "right": "verb + -ed"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v1-mc-3",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "We had been waiting ___ two hours.",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "by"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "past-perfect-continuous-v1-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been, bukan had being. Semua subjek memakai had.",
+      "type": "multiple_choice",
+      "question": "She ___ all morning before she rested.",
+      "options": [
+        "had been working",
+        "has been working",
+        "had being working",
+        "was been working"
+      ],
+      "answer": "had been working"
+    },
+    {
+      "id": "past-perfect-continuous-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing dengan for.",
+      "type": "free_write",
+      "task": "Write one sentence with 'for' about something you had been doing.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been waiting for an hour."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v2-mc-1",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun.",
+      "type": "multiple_choice",
+      "question": "He had been living there ___ 2019.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "past-perfect-continuous-v2-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah had been, kata kerja harus berakhiran -ing.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She had been reading for an hour.",
+        "She has been read for an hour.",
+        "She had been read for an hour."
+      ],
+      "answer": "She had been reading for an hour."
+    },
+    {
+      "id": "past-perfect-continuous-v2-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "I ___ (study) for two hours before dinner.",
+      "answer": [
+        "had been studying"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v2-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + walking.",
+      "type": "fill_blank",
+      "sentence": "We ___ (walk) for an hour.",
+      "answer": [
+        "had been walking"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Had been + kata kerja -ing untuk menekankan lamanya.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "had",
+        "been",
+        "playing",
+        "all",
+        "afternoon"
+      ],
+      "answer": "They had been playing all afternoon"
+    },
+    {
+      "id": "past-perfect-continuous-v2-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu, since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "three hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a week",
+          "right": "for"
+        },
+        {
+          "left": "2019",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v2-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ for two hours before the film started.",
+      "options": [
+        "had been studying",
+        "have been studying",
+        "had been study",
+        "was been studying"
+      ],
+      "answer": "had been studying"
+    },
+    {
+      "id": "past-perfect-continuous-v2-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour when the bus came.",
+      "options": [
+        "had been waiting",
+        "have been waiting",
+        "had been wait",
+        "were been waiting"
+      ],
+      "answer": "had been waiting"
+    },
+    {
+      "id": "past-perfect-continuous-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you had been doing before you slept.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been studying for two hours before I slept."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v3-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football before it rained.",
+      "options": [
+        "had been playing",
+        "had been play",
+        "has been playing",
+        "had playing"
+      ],
+      "answer": "had been playing"
+    },
+    {
+      "id": "past-perfect-continuous-v3-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "We had been waiting ___ two hours.",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "by"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "past-perfect-continuous-v3-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + working.",
+      "type": "fill_blank",
+      "sentence": "She ___ (work) since morning.",
+      "answer": [
+        "had been working"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v3-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "I ___ (study) for two hours before dinner.",
+      "answer": [
+        "had been studying"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Had been + waiting.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "had",
+        "been",
+        "waiting",
+        "for",
+        "me"
+      ],
+      "answer": "She had been waiting for me"
+    },
+    {
+      "id": "past-perfect-continuous-v3-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu, since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "three hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a week",
+          "right": "for"
+        },
+        {
+          "left": "2019",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v3-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah had been, kata kerja harus berakhiran -ing.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She had been reading for an hour.",
+        "She has been read for an hour.",
+        "She had been read for an hour."
+      ],
+      "answer": "She had been reading for an hour."
+    },
+    {
+      "id": "past-perfect-continuous-v3-mc-4",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun.",
+      "type": "multiple_choice",
+      "question": "He had been living there ___ 2019.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "past-perfect-continuous-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing dengan for.",
+      "type": "free_write",
+      "task": "Write one sentence with 'for' about something you had been doing.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been waiting for an hour."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v4-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been, bukan had being. Semua subjek memakai had.",
+      "type": "multiple_choice",
+      "question": "She ___ all morning before she rested.",
+      "options": [
+        "had been working",
+        "has been working",
+        "had being working",
+        "was been working"
+      ],
+      "answer": "had been working"
+    },
+    {
+      "id": "past-perfect-continuous-v4-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ for two hours before the film started.",
+      "options": [
+        "had been studying",
+        "have been studying",
+        "had been study",
+        "was been studying"
+      ],
+      "answer": "had been studying"
+    },
+    {
+      "id": "past-perfect-continuous-v4-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (run) before he got tired.",
+      "answer": [
+        "had been running"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v4-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + walking.",
+      "type": "fill_blank",
+      "sentence": "We ___ (walk) for an hour.",
+      "answer": [
+        "had been walking"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Had been + kata kerja -ing untuk menekankan lamanya.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "had",
+        "been",
+        "playing",
+        "all",
+        "afternoon"
+      ],
+      "answer": "They had been playing all afternoon"
+    },
+    {
+      "id": "past-perfect-continuous-v4-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Past perfect continuous menggabungkan had been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Past continuous",
+          "right": "was/were + verb-ing"
+        },
+        {
+          "left": "Past perfect",
+          "right": "had + past participle"
+        },
+        {
+          "left": "Past perfect continuous",
+          "right": "had been + verb-ing"
+        },
+        {
+          "left": "Past simple",
+          "right": "verb + -ed"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v4-mc-3",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun.",
+      "type": "multiple_choice",
+      "question": "He had been living there ___ 2019.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "past-perfect-continuous-v4-mc-4",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "We had been waiting ___ two hours.",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "by"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "past-perfect-continuous-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you had been doing before you slept.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been studying for two hours before I slept."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v5-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been, bukan had being. Semua subjek memakai had.",
+      "type": "multiple_choice",
+      "question": "She ___ all morning before she rested.",
+      "options": [
+        "had been working",
+        "has been working",
+        "had being working",
+        "was been working"
+      ],
+      "answer": "had been working"
+    },
+    {
+      "id": "past-perfect-continuous-v5-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour when the bus came.",
+      "options": [
+        "had been waiting",
+        "have been waiting",
+        "had been wait",
+        "were been waiting"
+      ],
+      "answer": "had been waiting"
+    },
+    {
+      "id": "past-perfect-continuous-v5-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + waiting.",
+      "type": "fill_blank",
+      "sentence": "They ___ (wait) for a long time.",
+      "answer": [
+        "had been waiting"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v5-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + working.",
+      "type": "fill_blank",
+      "sentence": "She ___ (work) since morning.",
+      "answer": [
+        "had been working"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Had been + waiting.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "had",
+        "been",
+        "waiting",
+        "for",
+        "me"
+      ],
+      "answer": "She had been waiting for me"
+    },
+    {
+      "id": "past-perfect-continuous-v5-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Past perfect continuous menggabungkan had been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Past continuous",
+          "right": "was/were + verb-ing"
+        },
+        {
+          "left": "Past perfect",
+          "right": "had + past participle"
+        },
+        {
+          "left": "Past perfect continuous",
+          "right": "had been + verb-ing"
+        },
+        {
+          "left": "Past simple",
+          "right": "verb + -ed"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v5-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football before it rained.",
+      "options": [
+        "had been playing",
+        "had been play",
+        "has been playing",
+        "had playing"
+      ],
+      "answer": "had been playing"
+    },
+    {
+      "id": "past-perfect-continuous-v5-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ for two hours before the film started.",
+      "options": [
+        "had been studying",
+        "have been studying",
+        "had been study",
+        "was been studying"
+      ],
+      "answer": "had been studying"
+    },
+    {
+      "id": "past-perfect-continuous-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing dengan for.",
+      "type": "free_write",
+      "task": "Write one sentence with 'for' about something you had been doing.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been waiting for an hour."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v6-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah had been, kata kerja harus berakhiran -ing.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She had been reading for an hour.",
+        "She has been read for an hour.",
+        "She had been read for an hour."
+      ],
+      "answer": "She had been reading for an hour."
+    },
+    {
+      "id": "past-perfect-continuous-v6-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been, bukan had being. Semua subjek memakai had.",
+      "type": "multiple_choice",
+      "question": "She ___ all morning before she rested.",
+      "options": [
+        "had been working",
+        "has been working",
+        "had being working",
+        "was been working"
+      ],
+      "answer": "had been working"
+    },
+    {
+      "id": "past-perfect-continuous-v6-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "I ___ (study) for two hours before dinner.",
+      "answer": [
+        "had been studying"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v6-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (run) before he got tired.",
+      "answer": [
+        "had been running"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + had been + kata kerja -ing + for + lama waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "had",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answer": "We had been cooking for two hours"
+    },
+    {
+      "id": "past-perfect-continuous-v6-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu, since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "three hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a week",
+          "right": "for"
+        },
+        {
+          "left": "2019",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v6-mc-3",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun.",
+      "type": "multiple_choice",
+      "question": "He had been living there ___ 2019.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "past-perfect-continuous-v6-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ for two hours before the film started.",
+      "options": [
+        "had been studying",
+        "have been studying",
+        "had been study",
+        "was been studying"
+      ],
+      "answer": "had been studying"
+    },
+    {
+      "id": "past-perfect-continuous-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you had been doing before you slept.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been studying for two hours before I slept."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v7-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football before it rained.",
+      "options": [
+        "had been playing",
+        "had been play",
+        "has been playing",
+        "had playing"
+      ],
+      "answer": "had been playing"
+    },
+    {
+      "id": "past-perfect-continuous-v7-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah had been, kata kerja harus berakhiran -ing.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She had been reading for an hour.",
+        "She has been read for an hour.",
+        "She had been read for an hour."
+      ],
+      "answer": "She had been reading for an hour."
+    },
+    {
+      "id": "past-perfect-continuous-v7-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + walking.",
+      "type": "fill_blank",
+      "sentence": "We ___ (walk) for an hour.",
+      "answer": [
+        "had been walking"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v7-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + waiting.",
+      "type": "fill_blank",
+      "sentence": "They ___ (wait) for a long time.",
+      "answer": [
+        "had been waiting"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + had been + kata kerja -ing + for + lama waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "had",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answer": "We had been cooking for two hours"
+    },
+    {
+      "id": "past-perfect-continuous-v7-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Past perfect continuous menggabungkan had been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Past continuous",
+          "right": "was/were + verb-ing"
+        },
+        {
+          "left": "Past perfect",
+          "right": "had + past participle"
+        },
+        {
+          "left": "Past perfect continuous",
+          "right": "had been + verb-ing"
+        },
+        {
+          "left": "Past simple",
+          "right": "verb + -ed"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v7-mc-3",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "We had been waiting ___ two hours.",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "by"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "past-perfect-continuous-v7-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour when the bus came.",
+      "options": [
+        "had been waiting",
+        "have been waiting",
+        "had been wait",
+        "were been waiting"
+      ],
+      "answer": "had been waiting"
+    },
+    {
+      "id": "past-perfect-continuous-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing dengan for.",
+      "type": "free_write",
+      "task": "Write one sentence with 'for' about something you had been doing.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been waiting for an hour."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v8-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ for two hours before the film started.",
+      "options": [
+        "had been studying",
+        "have been studying",
+        "had been study",
+        "was been studying"
+      ],
+      "answer": "had been studying"
+    },
+    {
+      "id": "past-perfect-continuous-v8-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "We had been waiting ___ two hours.",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "by"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "past-perfect-continuous-v8-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + working.",
+      "type": "fill_blank",
+      "sentence": "She ___ (work) since morning.",
+      "answer": [
+        "had been working"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v8-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + walking.",
+      "type": "fill_blank",
+      "sentence": "We ___ (walk) for an hour.",
+      "answer": [
+        "had been walking"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Had been + waiting.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "had",
+        "been",
+        "waiting",
+        "for",
+        "me"
+      ],
+      "answer": "She had been waiting for me"
+    },
+    {
+      "id": "past-perfect-continuous-v8-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu, since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "three hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a week",
+          "right": "for"
+        },
+        {
+          "left": "2019",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v8-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah had been, kata kerja harus berakhiran -ing.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She had been reading for an hour.",
+        "She has been read for an hour.",
+        "She had been read for an hour."
+      ],
+      "answer": "She had been reading for an hour."
+    },
+    {
+      "id": "past-perfect-continuous-v8-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football before it rained.",
+      "options": [
+        "had been playing",
+        "had been play",
+        "has been playing",
+        "had playing"
+      ],
+      "answer": "had been playing"
+    },
+    {
+      "id": "past-perfect-continuous-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you had been doing before you slept.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been studying for two hours before I slept."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v9-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been, bukan had being. Semua subjek memakai had.",
+      "type": "multiple_choice",
+      "question": "She ___ all morning before she rested.",
+      "options": [
+        "had been working",
+        "has been working",
+        "had being working",
+        "was been working"
+      ],
+      "answer": "had been working"
+    },
+    {
+      "id": "past-perfect-continuous-v9-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun.",
+      "type": "multiple_choice",
+      "question": "He had been living there ___ 2019.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "past-perfect-continuous-v9-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (run) before he got tired.",
+      "answer": [
+        "had been running"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v9-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "I ___ (study) for two hours before dinner.",
+      "answer": [
+        "had been studying"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Had been + kata kerja -ing untuk menekankan lamanya.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "had",
+        "been",
+        "playing",
+        "all",
+        "afternoon"
+      ],
+      "answer": "They had been playing all afternoon"
+    },
+    {
+      "id": "past-perfect-continuous-v9-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Past perfect continuous menggabungkan had been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Past continuous",
+          "right": "was/were + verb-ing"
+        },
+        {
+          "left": "Past perfect",
+          "right": "had + past participle"
+        },
+        {
+          "left": "Past perfect continuous",
+          "right": "had been + verb-ing"
+        },
+        {
+          "left": "Past simple",
+          "right": "verb + -ed"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v9-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour when the bus came.",
+      "options": [
+        "had been waiting",
+        "have been waiting",
+        "had been wait",
+        "were been waiting"
+      ],
+      "answer": "had been waiting"
+    },
+    {
+      "id": "past-perfect-continuous-v9-mc-4",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "We had been waiting ___ two hours.",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "by"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "past-perfect-continuous-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing dengan for.",
+      "type": "free_write",
+      "task": "Write one sentence with 'for' about something you had been doing.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been waiting for an hour."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v10-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been, bukan had being. Semua subjek memakai had.",
+      "type": "multiple_choice",
+      "question": "She ___ all morning before she rested.",
+      "options": [
+        "had been working",
+        "has been working",
+        "had being working",
+        "was been working"
+      ],
+      "answer": "had been working"
+    },
+    {
+      "id": "past-perfect-continuous-v10-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah had been, kata kerja harus berakhiran -ing.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She had been reading for an hour.",
+        "She has been read for an hour.",
+        "She had been read for an hour."
+      ],
+      "answer": "She had been reading for an hour."
+    },
+    {
+      "id": "past-perfect-continuous-v10-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + waiting.",
+      "type": "fill_blank",
+      "sentence": "They ___ (wait) for a long time.",
+      "answer": [
+        "had been waiting"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v10-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + working.",
+      "type": "fill_blank",
+      "sentence": "She ___ (work) since morning.",
+      "answer": [
+        "had been working"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Had been + kata kerja -ing untuk menekankan lamanya.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "had",
+        "been",
+        "playing",
+        "all",
+        "afternoon"
+      ],
+      "answer": "They had been playing all afternoon"
+    },
+    {
+      "id": "past-perfect-continuous-v10-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu, since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "three hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a week",
+          "right": "for"
+        },
+        {
+          "left": "2019",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v10-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour when the bus came.",
+      "options": [
+        "had been waiting",
+        "have been waiting",
+        "had been wait",
+        "were been waiting"
+      ],
+      "answer": "had been waiting"
+    },
+    {
+      "id": "past-perfect-continuous-v10-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ for two hours before the film started.",
+      "options": [
+        "had been studying",
+        "have been studying",
+        "had been study",
+        "was been studying"
+      ],
+      "answer": "had been studying"
+    },
+    {
+      "id": "past-perfect-continuous-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you had been doing before you slept.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been studying for two hours before I slept."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v11-mc-1",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun.",
+      "type": "multiple_choice",
+      "question": "He had been living there ___ 2019.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "past-perfect-continuous-v11-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football before it rained.",
+      "options": [
+        "had been playing",
+        "had been play",
+        "has been playing",
+        "had playing"
+      ],
+      "answer": "had been playing"
+    },
+    {
+      "id": "past-perfect-continuous-v11-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + waiting.",
+      "type": "fill_blank",
+      "sentence": "They ___ (wait) for a long time.",
+      "answer": [
+        "had been waiting"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v11-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "I ___ (study) for two hours before dinner.",
+      "answer": [
+        "had been studying"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Had been + waiting.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "had",
+        "been",
+        "waiting",
+        "for",
+        "me"
+      ],
+      "answer": "She had been waiting for me"
+    },
+    {
+      "id": "past-perfect-continuous-v11-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Past perfect continuous menggabungkan had been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Past continuous",
+          "right": "was/were + verb-ing"
+        },
+        {
+          "left": "Past perfect",
+          "right": "had + past participle"
+        },
+        {
+          "left": "Past perfect continuous",
+          "right": "had been + verb-ing"
+        },
+        {
+          "left": "Past simple",
+          "right": "verb + -ed"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v11-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ for two hours before the film started.",
+      "options": [
+        "had been studying",
+        "have been studying",
+        "had been study",
+        "was been studying"
+      ],
+      "answer": "had been studying"
+    },
+    {
+      "id": "past-perfect-continuous-v11-mc-4",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "We had been waiting ___ two hours.",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "by"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "past-perfect-continuous-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing dengan for.",
+      "type": "free_write",
+      "task": "Write one sentence with 'for' about something you had been doing.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been waiting for an hour."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v12-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah had been, kata kerja harus berakhiran -ing.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She had been reading for an hour.",
+        "She has been read for an hour.",
+        "She had been read for an hour."
+      ],
+      "answer": "She had been reading for an hour."
+    },
+    {
+      "id": "past-perfect-continuous-v12-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour when the bus came.",
+      "options": [
+        "had been waiting",
+        "have been waiting",
+        "had been wait",
+        "were been waiting"
+      ],
+      "answer": "had been waiting"
+    },
+    {
+      "id": "past-perfect-continuous-v12-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + walking.",
+      "type": "fill_blank",
+      "sentence": "We ___ (walk) for an hour.",
+      "answer": [
+        "had been walking"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v12-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (run) before he got tired.",
+      "answer": [
+        "had been running"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + had been + kata kerja -ing + for + lama waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "had",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answer": "We had been cooking for two hours"
+    },
+    {
+      "id": "past-perfect-continuous-v12-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu, since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "three hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a week",
+          "right": "for"
+        },
+        {
+          "left": "2019",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v12-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been, bukan had being. Semua subjek memakai had.",
+      "type": "multiple_choice",
+      "question": "She ___ all morning before she rested.",
+      "options": [
+        "had been working",
+        "has been working",
+        "had being working",
+        "was been working"
+      ],
+      "answer": "had been working"
+    },
+    {
+      "id": "past-perfect-continuous-v12-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football before it rained.",
+      "options": [
+        "had been playing",
+        "had been play",
+        "has been playing",
+        "had playing"
+      ],
+      "answer": "had been playing"
+    },
+    {
+      "id": "past-perfect-continuous-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you had been doing before you slept.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been studying for two hours before I slept."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v13-mc-1",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun.",
+      "type": "multiple_choice",
+      "question": "He had been living there ___ 2019.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "past-perfect-continuous-v13-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football before it rained.",
+      "options": [
+        "had been playing",
+        "had been play",
+        "has been playing",
+        "had playing"
+      ],
+      "answer": "had been playing"
+    },
+    {
+      "id": "past-perfect-continuous-v13-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + working.",
+      "type": "fill_blank",
+      "sentence": "She ___ (work) since morning.",
+      "answer": [
+        "had been working"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v13-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + waiting.",
+      "type": "fill_blank",
+      "sentence": "They ___ (wait) for a long time.",
+      "answer": [
+        "had been waiting"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Had been + waiting.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "had",
+        "been",
+        "waiting",
+        "for",
+        "me"
+      ],
+      "answer": "She had been waiting for me"
+    },
+    {
+      "id": "past-perfect-continuous-v13-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Past perfect continuous menggabungkan had been dengan kata kerja -ing.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Past continuous",
+          "right": "was/were + verb-ing"
+        },
+        {
+          "left": "Past perfect",
+          "right": "had + past participle"
+        },
+        {
+          "left": "Past perfect continuous",
+          "right": "had been + verb-ing"
+        },
+        {
+          "left": "Past simple",
+          "right": "verb + -ed"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v13-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah had been, kata kerja harus berakhiran -ing.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She had been reading for an hour.",
+        "She has been read for an hour.",
+        "She had been read for an hour."
+      ],
+      "answer": "She had been reading for an hour."
+    },
+    {
+      "id": "past-perfect-continuous-v13-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ for an hour when the bus came.",
+      "options": [
+        "had been waiting",
+        "have been waiting",
+        "had been wait",
+        "were been waiting"
+      ],
+      "answer": "had been waiting"
+    },
+    {
+      "id": "past-perfect-continuous-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you had been doing before you slept.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been studying for two hours before I slept."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v14-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ for two hours before the film started.",
+      "options": [
+        "had been studying",
+        "have been studying",
+        "had been study",
+        "was been studying"
+      ],
+      "answer": "had been studying"
+    },
+    {
+      "id": "past-perfect-continuous-v14-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "Since dipakai untuk titik mulai seperti tahun.",
+      "type": "multiple_choice",
+      "question": "He had been living there ___ 2019.",
+      "options": [
+        "since",
+        "for",
+        "at",
+        "in"
+      ],
+      "answer": "since"
+    },
+    {
+      "id": "past-perfect-continuous-v14-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Run menggandakan huruf n sebelum -ing.",
+      "type": "fill_blank",
+      "sentence": "He ___ (run) before he got tired.",
+      "answer": [
+        "had been running"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v14-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + walking.",
+      "type": "fill_blank",
+      "sentence": "We ___ (walk) for an hour.",
+      "answer": [
+        "had been walking"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Had been + kata kerja -ing untuk menekankan lamanya.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "had",
+        "been",
+        "playing",
+        "all",
+        "afternoon"
+      ],
+      "answer": "They had been playing all afternoon"
+    },
+    {
+      "id": "past-perfect-continuous-v14-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu, since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "three hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a week",
+          "right": "for"
+        },
+        {
+          "left": "2019",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v14-mc-3",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "We had been waiting ___ two hours.",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "by"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "past-perfect-continuous-v14-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been, bukan had being. Semua subjek memakai had.",
+      "type": "multiple_choice",
+      "question": "She ___ all morning before she rested.",
+      "options": [
+        "had been working",
+        "has been working",
+        "had being working",
+        "was been working"
+      ],
+      "answer": "had been working"
+    },
+    {
+      "id": "past-perfect-continuous-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing dengan for.",
+      "type": "free_write",
+      "task": "Write one sentence with 'for' about something you had been doing.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been waiting for an hour."
+    }
+  ],
+  [
+    {
+      "id": "past-perfect-continuous-v15-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been + playing.",
+      "type": "multiple_choice",
+      "question": "He ___ football before it rained.",
+      "options": [
+        "had been playing",
+        "had been play",
+        "has been playing",
+        "had playing"
+      ],
+      "answer": "had been playing"
+    },
+    {
+      "id": "past-perfect-continuous-v15-mc-2",
+      "prompt": "Choose for or since",
+      "explanation": "For dipakai untuk lama waktu.",
+      "type": "multiple_choice",
+      "question": "We had been waiting ___ two hours.",
+      "options": [
+        "for",
+        "since",
+        "at",
+        "by"
+      ],
+      "answer": "for"
+    },
+    {
+      "id": "past-perfect-continuous-v15-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + working.",
+      "type": "fill_blank",
+      "sentence": "She ___ (work) since morning.",
+      "answer": [
+        "had been working"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v15-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Had been + kata kerja -ing.",
+      "type": "fill_blank",
+      "sentence": "I ___ (study) for two hours before dinner.",
+      "answer": [
+        "had been studying"
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + had been + kata kerja -ing + for + lama waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "had",
+        "been",
+        "cooking",
+        "for",
+        "two",
+        "hours"
+      ],
+      "answer": "We had been cooking for two hours"
+    },
+    {
+      "id": "past-perfect-continuous-v15-match-1",
+      "prompt": "Match each phrase to for or since",
+      "explanation": "For untuk lama waktu, since untuk titik mulai.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "three hours",
+          "right": "for"
+        },
+        {
+          "left": "Monday",
+          "right": "since"
+        },
+        {
+          "left": "a week",
+          "right": "for"
+        },
+        {
+          "left": "2019",
+          "right": "since"
+        }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous-v15-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Setelah had been, kata kerja harus berakhiran -ing.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She had been reading for an hour.",
+        "She has been read for an hour.",
+        "She had been read for an hour."
+      ],
+      "answer": "She had been reading for an hour."
+    },
+    {
+      "id": "past-perfect-continuous-v15-mc-4",
+      "prompt": "Choose the correct form",
+      "explanation": "Had been, bukan had being. Semua subjek memakai had.",
+      "type": "multiple_choice",
+      "question": "She ___ all morning before she rested.",
+      "options": [
+        "had been working",
+        "has been working",
+        "had being working",
+        "was been working"
+      ],
+      "answer": "had been working"
+    },
+    {
+      "id": "past-perfect-continuous-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan had been + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about something you had been doing before you slept.",
+      "requirements": [
+        "past perfect continuous"
+      ],
+      "modelAnswer": "I had been studying for two hours before I slept."
+    }
+  ]
+]
