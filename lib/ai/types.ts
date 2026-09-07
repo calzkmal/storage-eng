@@ -1,5 +1,9 @@
 // Types for the AI grading layer.
 
+export type ChatMessage = { role: "system" | "user" | "assistant"; content: string };
+
+export type ChatResult = { content: string; model: string };
+
 export type GradeType = "free_write" | "flip_sentence";
 
 export type GradeContext = {
