@@ -1,0 +1,1855 @@
+[
+  [
+    {
+      "id": "present-continuous-v1-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I' selalu pakai am + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ to music at the moment.",
+      "options": [
+        "am listening",
+        "is listening",
+        "are listening",
+        "listening"
+      ],
+      "answer": "am listening"
+    },
+    {
+      "id": "present-continuous-v1-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'The baby' berarti it, jadi is + sleeping.",
+      "type": "multiple_choice",
+      "question": "The baby ___ now.",
+      "options": [
+        "is sleeping",
+        "are sleeping",
+        "am sleeping",
+        "is sleep"
+      ],
+      "answer": "is sleeping"
+    },
+    {
+      "id": "present-continuous-v1-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Sit menggandakan huruf t sebelum -ing: sitting.",
+      "type": "fill_blank",
+      "sentence": "He ___ (sit) on the sofa.",
+      "answer": [
+        "is sitting"
+      ]
+    },
+    {
+      "id": "present-continuous-v1-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Swim menggandakan huruf m sebelum -ing: swimming.",
+      "type": "fill_blank",
+      "sentence": "They ___ (swim) in the pool.",
+      "answer": [
+        "are swimming"
+      ]
+    },
+    {
+      "id": "present-continuous-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Dengan 'I' pakai am + kata kerja -ing.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "am",
+        "waiting",
+        "for",
+        "my",
+        "friend"
+      ],
+      "answer": "I am waiting for my friend"
+    },
+    {
+      "id": "present-continuous-v1-match-1",
+      "prompt": "Match each subject to its form of to be",
+      "explanation": "I memakai am. He, she, dan it memakai is. You, we, dan they memakai are.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "am working"
+        },
+        {
+          "left": "He",
+          "right": "is working"
+        },
+        {
+          "left": "They",
+          "right": "are working"
+        },
+        {
+          "left": "It",
+          "right": "is working"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v1-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'My parents' jamak, jadi are + cooking.",
+      "type": "multiple_choice",
+      "question": "My parents ___ dinner in the kitchen.",
+      "options": [
+        "are cooking",
+        "is cooking",
+        "am cooking",
+        "are cook"
+      ],
+      "answer": "are cooking"
+    },
+    {
+      "id": "present-continuous-v1-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai are + eating.",
+      "type": "flip_sentence",
+      "source": "They eat lunch.",
+      "target": "present_continuous",
+      "answer": [
+        "They are eating lunch."
+      ]
+    },
+    {
+      "id": "present-continuous-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan is/are + kata kerja -ing untuk orang lain.",
+      "type": "free_write",
+      "task": "Write one sentence about what someone in your family is doing now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "My mother is cooking in the kitchen."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v2-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai are + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "We ___ for the bus.",
+      "options": [
+        "are waiting",
+        "is waiting",
+        "am waiting",
+        "are wait"
+      ],
+      "answer": "are waiting"
+    },
+    {
+      "id": "present-continuous-v2-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai is, lalu kata kerja + -ing: is reading.",
+      "type": "multiple_choice",
+      "question": "She ___ a book right now.",
+      "options": [
+        "is reading",
+        "are reading",
+        "am reading",
+        "is read"
+      ],
+      "answer": "is reading"
+    },
+    {
+      "id": "present-continuous-v2-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'The students' jamak, jadi are + writing.",
+      "type": "fill_blank",
+      "sentence": "The students ___ (write) an exam.",
+      "answer": [
+        "are writing"
+      ]
+    },
+    {
+      "id": "present-continuous-v2-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai are + watching.",
+      "type": "fill_blank",
+      "sentence": "We ___ (watch) a movie.",
+      "answer": [
+        "are watching"
+      ]
+    },
+    {
+      "id": "present-continuous-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + is + kata kerja -ing + objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "doing",
+        "her",
+        "homework"
+      ],
+      "answer": "She is doing her homework"
+    },
+    {
+      "id": "present-continuous-v2-match-1",
+      "prompt": "Match each verb to its -ing form",
+      "explanation": "Kata kerja berakhiran -e kehilangan e (driving). Vokal + konsonan tunggal menggandakan huruf akhir (sitting, running).",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "drive",
+          "right": "driving"
+        },
+        {
+          "left": "sit",
+          "right": "sitting"
+        },
+        {
+          "left": "play",
+          "right": "playing"
+        },
+        {
+          "left": "run",
+          "right": "running"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v2-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya is + kata kerja -ing. Run menggandakan n menjadi running.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He is running to school.",
+        "He running to school.",
+        "He is run to school."
+      ],
+      "answer": "He is running to school."
+    },
+    {
+      "id": "present-continuous-v2-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'She' memakai is + reading.",
+      "type": "flip_sentence",
+      "source": "She reads a book.",
+      "target": "present_continuous",
+      "answer": [
+        "She is reading a book."
+      ]
+    },
+    {
+      "id": "present-continuous-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan am/is/are + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about what you are doing right now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "I am studying English right now."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v3-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'Look!' menandakan kejadian sekarang, jadi pakai present continuous: is raining.",
+      "type": "multiple_choice",
+      "question": "Look! It ___ outside.",
+      "options": [
+        "is raining",
+        "rains",
+        "are raining",
+        "is rain"
+      ],
+      "answer": "is raining"
+    },
+    {
+      "id": "present-continuous-v3-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Butuh dua bagian: is + kata kerja -ing. Sit menggandakan t menjadi sitting.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present continuous sentence.",
+      "options": [
+        "She is sitting outside.",
+        "She sitting outside.",
+        "She is sit outside."
+      ],
+      "answer": "She is sitting outside."
+    },
+    {
+      "id": "present-continuous-v3-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Make kehilangan e sebelum -ing: making.",
+      "type": "fill_blank",
+      "sentence": "She ___ (make) a cake.",
+      "answer": [
+        "is making"
+      ]
+    },
+    {
+      "id": "present-continuous-v3-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'My father' berarti he. Kata kerja berakhiran -e kehilangan e sebelum -ing: driving.",
+      "type": "fill_blank",
+      "sentence": "My father ___ (drive) to work.",
+      "answer": [
+        "is driving"
+      ]
+    },
+    {
+      "id": "present-continuous-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + are + kata kerja -ing + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "are",
+        "watching",
+        "TV",
+        "now"
+      ],
+      "answer": "We are watching TV now"
+    },
+    {
+      "id": "present-continuous-v3-match-1",
+      "prompt": "Match each verb to its -ing form",
+      "explanation": "Kata kerja berakhiran -e kehilangan e (driving). Vokal + konsonan tunggal menggandakan huruf akhir (sitting, running).",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "drive",
+          "right": "driving"
+        },
+        {
+          "left": "sit",
+          "right": "sitting"
+        },
+        {
+          "left": "play",
+          "right": "playing"
+        },
+        {
+          "left": "run",
+          "right": "running"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v3-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi are + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ football in the park.",
+      "options": [
+        "is playing",
+        "are playing",
+        "am playing",
+        "are play"
+      ],
+      "answer": "are playing"
+    },
+    {
+      "id": "present-continuous-v3-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Present simple jadi present continuous: is + writing.",
+      "type": "flip_sentence",
+      "source": "He writes a letter.",
+      "target": "present_continuous",
+      "answer": [
+        "He is writing a letter."
+      ]
+    },
+    {
+      "id": "present-continuous-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan am/is/are + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about what you are doing right now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "I am studying English right now."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v4-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai are + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "We ___ for the bus.",
+      "options": [
+        "are waiting",
+        "is waiting",
+        "am waiting",
+        "are wait"
+      ],
+      "answer": "are waiting"
+    },
+    {
+      "id": "present-continuous-v4-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I' selalu pakai am + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ to music at the moment.",
+      "options": [
+        "am listening",
+        "is listening",
+        "are listening",
+        "listening"
+      ],
+      "answer": "am listening"
+    },
+    {
+      "id": "present-continuous-v4-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Dengan 'I' selalu pakai am: am cooking.",
+      "type": "fill_blank",
+      "sentence": "I ___ (cook) nasi goreng now.",
+      "answer": [
+        "am cooking"
+      ]
+    },
+    {
+      "id": "present-continuous-v4-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'My father' berarti he. Kata kerja berakhiran -e kehilangan e sebelum -ing: driving.",
+      "type": "fill_blank",
+      "sentence": "My father ___ (drive) to work.",
+      "answer": [
+        "is driving"
+      ]
+    },
+    {
+      "id": "present-continuous-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek jamak + are + kata kerja -ing + tempat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "present-continuous-v4-match-1",
+      "prompt": "Match each subject to its form of to be",
+      "explanation": "I memakai am. He, she, dan it memakai is. You, we, dan they memakai are.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "am working"
+        },
+        {
+          "left": "He",
+          "right": "is working"
+        },
+        {
+          "left": "They",
+          "right": "are working"
+        },
+        {
+          "left": "It",
+          "right": "is working"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v4-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai is, lalu kata kerja + -ing: is reading.",
+      "type": "multiple_choice",
+      "question": "She ___ a book right now.",
+      "options": [
+        "is reading",
+        "are reading",
+        "am reading",
+        "is read"
+      ],
+      "answer": "is reading"
+    },
+    {
+      "id": "present-continuous-v4-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai are + eating.",
+      "type": "flip_sentence",
+      "source": "They eat lunch.",
+      "target": "present_continuous",
+      "answer": [
+        "They are eating lunch."
+      ]
+    },
+    {
+      "id": "present-continuous-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan is/are + kata kerja -ing untuk orang lain.",
+      "type": "free_write",
+      "task": "Write one sentence about what someone in your family is doing now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "My mother is cooking in the kitchen."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v5-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'The baby' berarti it, jadi is + sleeping.",
+      "type": "multiple_choice",
+      "question": "The baby ___ now.",
+      "options": [
+        "is sleeping",
+        "are sleeping",
+        "am sleeping",
+        "is sleep"
+      ],
+      "answer": "is sleeping"
+    },
+    {
+      "id": "present-continuous-v5-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi are + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ football in the park.",
+      "options": [
+        "is playing",
+        "are playing",
+        "am playing",
+        "are play"
+      ],
+      "answer": "are playing"
+    },
+    {
+      "id": "present-continuous-v5-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'The students' jamak, jadi are + writing.",
+      "type": "fill_blank",
+      "sentence": "The students ___ (write) an exam.",
+      "answer": [
+        "are writing"
+      ]
+    },
+    {
+      "id": "present-continuous-v5-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Make kehilangan e sebelum -ing: making.",
+      "type": "fill_blank",
+      "sentence": "She ___ (make) a cake.",
+      "answer": [
+        "is making"
+      ]
+    },
+    {
+      "id": "present-continuous-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + is + kata kerja -ing + objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "doing",
+        "her",
+        "homework"
+      ],
+      "answer": "She is doing her homework"
+    },
+    {
+      "id": "present-continuous-v5-match-1",
+      "prompt": "Match each subject to its form of to be",
+      "explanation": "I memakai am. He, she, dan it memakai is. You, we, dan they memakai are.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "am working"
+        },
+        {
+          "left": "He",
+          "right": "is working"
+        },
+        {
+          "left": "They",
+          "right": "are working"
+        },
+        {
+          "left": "It",
+          "right": "is working"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v5-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Butuh dua bagian: is + kata kerja -ing. Sit menggandakan t menjadi sitting.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present continuous sentence.",
+      "options": [
+        "She is sitting outside.",
+        "She sitting outside.",
+        "She is sit outside."
+      ],
+      "answer": "She is sitting outside."
+    },
+    {
+      "id": "present-continuous-v5-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Present simple jadi present continuous: is + writing.",
+      "type": "flip_sentence",
+      "source": "He writes a letter.",
+      "target": "present_continuous",
+      "answer": [
+        "He is writing a letter."
+      ]
+    },
+    {
+      "id": "present-continuous-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan am/is/are + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about what you are doing right now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "I am studying English right now."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v6-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'My parents' jamak, jadi are + cooking.",
+      "type": "multiple_choice",
+      "question": "My parents ___ dinner in the kitchen.",
+      "options": [
+        "are cooking",
+        "is cooking",
+        "am cooking",
+        "are cook"
+      ],
+      "answer": "are cooking"
+    },
+    {
+      "id": "present-continuous-v6-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya is + kata kerja -ing. Run menggandakan n menjadi running.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He is running to school.",
+        "He running to school.",
+        "He is run to school."
+      ],
+      "answer": "He is running to school."
+    },
+    {
+      "id": "present-continuous-v6-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai are + watching.",
+      "type": "fill_blank",
+      "sentence": "We ___ (watch) a movie.",
+      "answer": [
+        "are watching"
+      ]
+    },
+    {
+      "id": "present-continuous-v6-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Dengan 'I' selalu pakai am: am cooking.",
+      "type": "fill_blank",
+      "sentence": "I ___ (cook) nasi goreng now.",
+      "answer": [
+        "am cooking"
+      ]
+    },
+    {
+      "id": "present-continuous-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + are + kata kerja -ing + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "are",
+        "watching",
+        "TV",
+        "now"
+      ],
+      "answer": "We are watching TV now"
+    },
+    {
+      "id": "present-continuous-v6-match-1",
+      "prompt": "Match each verb to its -ing form",
+      "explanation": "Kata kerja berakhiran -e kehilangan e (driving). Vokal + konsonan tunggal menggandakan huruf akhir (sitting, running).",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "drive",
+          "right": "driving"
+        },
+        {
+          "left": "sit",
+          "right": "sitting"
+        },
+        {
+          "left": "play",
+          "right": "playing"
+        },
+        {
+          "left": "run",
+          "right": "running"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v6-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'Look!' menandakan kejadian sekarang, jadi pakai present continuous: is raining.",
+      "type": "multiple_choice",
+      "question": "Look! It ___ outside.",
+      "options": [
+        "is raining",
+        "rains",
+        "are raining",
+        "is rain"
+      ],
+      "answer": "is raining"
+    },
+    {
+      "id": "present-continuous-v6-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'She' memakai is + reading.",
+      "type": "flip_sentence",
+      "source": "She reads a book.",
+      "target": "present_continuous",
+      "answer": [
+        "She is reading a book."
+      ]
+    },
+    {
+      "id": "present-continuous-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan is/are + kata kerja -ing untuk orang lain.",
+      "type": "free_write",
+      "task": "Write one sentence about what someone in your family is doing now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "My mother is cooking in the kitchen."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v7-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya is + kata kerja -ing. Run menggandakan n menjadi running.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He is running to school.",
+        "He running to school.",
+        "He is run to school."
+      ],
+      "answer": "He is running to school."
+    },
+    {
+      "id": "present-continuous-v7-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'The baby' berarti it, jadi is + sleeping.",
+      "type": "multiple_choice",
+      "question": "The baby ___ now.",
+      "options": [
+        "is sleeping",
+        "are sleeping",
+        "am sleeping",
+        "is sleep"
+      ],
+      "answer": "is sleeping"
+    },
+    {
+      "id": "present-continuous-v7-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Sit menggandakan huruf t sebelum -ing: sitting.",
+      "type": "fill_blank",
+      "sentence": "He ___ (sit) on the sofa.",
+      "answer": [
+        "is sitting"
+      ]
+    },
+    {
+      "id": "present-continuous-v7-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Swim menggandakan huruf m sebelum -ing: swimming.",
+      "type": "fill_blank",
+      "sentence": "They ___ (swim) in the pool.",
+      "answer": [
+        "are swimming"
+      ]
+    },
+    {
+      "id": "present-continuous-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Dengan 'I' pakai am + kata kerja -ing.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "am",
+        "waiting",
+        "for",
+        "my",
+        "friend"
+      ],
+      "answer": "I am waiting for my friend"
+    },
+    {
+      "id": "present-continuous-v7-match-1",
+      "prompt": "Match each verb to its -ing form",
+      "explanation": "Kata kerja berakhiran -e kehilangan e (driving). Vokal + konsonan tunggal menggandakan huruf akhir (sitting, running).",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "drive",
+          "right": "driving"
+        },
+        {
+          "left": "sit",
+          "right": "sitting"
+        },
+        {
+          "left": "play",
+          "right": "playing"
+        },
+        {
+          "left": "run",
+          "right": "running"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v7-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Butuh dua bagian: is + kata kerja -ing. Sit menggandakan t menjadi sitting.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present continuous sentence.",
+      "options": [
+        "She is sitting outside.",
+        "She sitting outside.",
+        "She is sit outside."
+      ],
+      "answer": "She is sitting outside."
+    },
+    {
+      "id": "present-continuous-v7-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Present simple jadi present continuous: is + writing.",
+      "type": "flip_sentence",
+      "source": "He writes a letter.",
+      "target": "present_continuous",
+      "answer": [
+        "He is writing a letter."
+      ]
+    },
+    {
+      "id": "present-continuous-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan am/is/are + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about what you are doing right now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "I am studying English right now."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v8-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'Look!' menandakan kejadian sekarang, jadi pakai present continuous: is raining.",
+      "type": "multiple_choice",
+      "question": "Look! It ___ outside.",
+      "options": [
+        "is raining",
+        "rains",
+        "are raining",
+        "is rain"
+      ],
+      "answer": "is raining"
+    },
+    {
+      "id": "present-continuous-v8-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi are + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ football in the park.",
+      "options": [
+        "is playing",
+        "are playing",
+        "am playing",
+        "are play"
+      ],
+      "answer": "are playing"
+    },
+    {
+      "id": "present-continuous-v8-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai are + watching.",
+      "type": "fill_blank",
+      "sentence": "We ___ (watch) a movie.",
+      "answer": [
+        "are watching"
+      ]
+    },
+    {
+      "id": "present-continuous-v8-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Dengan 'I' selalu pakai am: am cooking.",
+      "type": "fill_blank",
+      "sentence": "I ___ (cook) nasi goreng now.",
+      "answer": [
+        "am cooking"
+      ]
+    },
+    {
+      "id": "present-continuous-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek jamak + are + kata kerja -ing + tempat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "present-continuous-v8-match-1",
+      "prompt": "Match each subject to its form of to be",
+      "explanation": "I memakai am. He, she, dan it memakai is. You, we, dan they memakai are.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "am working"
+        },
+        {
+          "left": "He",
+          "right": "is working"
+        },
+        {
+          "left": "They",
+          "right": "are working"
+        },
+        {
+          "left": "It",
+          "right": "is working"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v8-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I' selalu pakai am + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ to music at the moment.",
+      "options": [
+        "am listening",
+        "is listening",
+        "are listening",
+        "listening"
+      ],
+      "answer": "am listening"
+    },
+    {
+      "id": "present-continuous-v8-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'She' memakai is + reading.",
+      "type": "flip_sentence",
+      "source": "She reads a book.",
+      "target": "present_continuous",
+      "answer": [
+        "She is reading a book."
+      ]
+    },
+    {
+      "id": "present-continuous-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan is/are + kata kerja -ing untuk orang lain.",
+      "type": "free_write",
+      "task": "Write one sentence about what someone in your family is doing now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "My mother is cooking in the kitchen."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v9-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai are + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "We ___ for the bus.",
+      "options": [
+        "are waiting",
+        "is waiting",
+        "am waiting",
+        "are wait"
+      ],
+      "answer": "are waiting"
+    },
+    {
+      "id": "present-continuous-v9-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai is, lalu kata kerja + -ing: is reading.",
+      "type": "multiple_choice",
+      "question": "She ___ a book right now.",
+      "options": [
+        "is reading",
+        "are reading",
+        "am reading",
+        "is read"
+      ],
+      "answer": "is reading"
+    },
+    {
+      "id": "present-continuous-v9-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'The students' jamak, jadi are + writing.",
+      "type": "fill_blank",
+      "sentence": "The students ___ (write) an exam.",
+      "answer": [
+        "are writing"
+      ]
+    },
+    {
+      "id": "present-continuous-v9-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Swim menggandakan huruf m sebelum -ing: swimming.",
+      "type": "fill_blank",
+      "sentence": "They ___ (swim) in the pool.",
+      "answer": [
+        "are swimming"
+      ]
+    },
+    {
+      "id": "present-continuous-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + are + kata kerja -ing + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "are",
+        "watching",
+        "TV",
+        "now"
+      ],
+      "answer": "We are watching TV now"
+    },
+    {
+      "id": "present-continuous-v9-match-1",
+      "prompt": "Match each verb to its -ing form",
+      "explanation": "Kata kerja berakhiran -e kehilangan e (driving). Vokal + konsonan tunggal menggandakan huruf akhir (sitting, running).",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "drive",
+          "right": "driving"
+        },
+        {
+          "left": "sit",
+          "right": "sitting"
+        },
+        {
+          "left": "play",
+          "right": "playing"
+        },
+        {
+          "left": "run",
+          "right": "running"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v9-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'My parents' jamak, jadi are + cooking.",
+      "type": "multiple_choice",
+      "question": "My parents ___ dinner in the kitchen.",
+      "options": [
+        "are cooking",
+        "is cooking",
+        "am cooking",
+        "are cook"
+      ],
+      "answer": "are cooking"
+    },
+    {
+      "id": "present-continuous-v9-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai are + eating.",
+      "type": "flip_sentence",
+      "source": "They eat lunch.",
+      "target": "present_continuous",
+      "answer": [
+        "They are eating lunch."
+      ]
+    },
+    {
+      "id": "present-continuous-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan is/are + kata kerja -ing untuk orang lain.",
+      "type": "free_write",
+      "task": "Write one sentence about what someone in your family is doing now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "My mother is cooking in the kitchen."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v10-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'The baby' berarti it, jadi is + sleeping.",
+      "type": "multiple_choice",
+      "question": "The baby ___ now.",
+      "options": [
+        "is sleeping",
+        "are sleeping",
+        "am sleeping",
+        "is sleep"
+      ],
+      "answer": "is sleeping"
+    },
+    {
+      "id": "present-continuous-v10-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai are + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "We ___ for the bus.",
+      "options": [
+        "are waiting",
+        "is waiting",
+        "am waiting",
+        "are wait"
+      ],
+      "answer": "are waiting"
+    },
+    {
+      "id": "present-continuous-v10-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Sit menggandakan huruf t sebelum -ing: sitting.",
+      "type": "fill_blank",
+      "sentence": "He ___ (sit) on the sofa.",
+      "answer": [
+        "is sitting"
+      ]
+    },
+    {
+      "id": "present-continuous-v10-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Make kehilangan e sebelum -ing: making.",
+      "type": "fill_blank",
+      "sentence": "She ___ (make) a cake.",
+      "answer": [
+        "is making"
+      ]
+    },
+    {
+      "id": "present-continuous-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek jamak + are + kata kerja -ing + tempat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "present-continuous-v10-match-1",
+      "prompt": "Match each subject to its form of to be",
+      "explanation": "I memakai am. He, she, dan it memakai is. You, we, dan they memakai are.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "am working"
+        },
+        {
+          "left": "He",
+          "right": "is working"
+        },
+        {
+          "left": "They",
+          "right": "are working"
+        },
+        {
+          "left": "It",
+          "right": "is working"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v10-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Butuh dua bagian: is + kata kerja -ing. Sit menggandakan t menjadi sitting.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present continuous sentence.",
+      "options": [
+        "She is sitting outside.",
+        "She sitting outside.",
+        "She is sit outside."
+      ],
+      "answer": "She is sitting outside."
+    },
+    {
+      "id": "present-continuous-v10-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'She' memakai is + reading.",
+      "type": "flip_sentence",
+      "source": "She reads a book.",
+      "target": "present_continuous",
+      "answer": [
+        "She is reading a book."
+      ]
+    },
+    {
+      "id": "present-continuous-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan am/is/are + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about what you are doing right now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "I am studying English right now."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v11-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'Look!' menandakan kejadian sekarang, jadi pakai present continuous: is raining.",
+      "type": "multiple_choice",
+      "question": "Look! It ___ outside.",
+      "options": [
+        "is raining",
+        "rains",
+        "are raining",
+        "is rain"
+      ],
+      "answer": "is raining"
+    },
+    {
+      "id": "present-continuous-v11-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai is, lalu kata kerja + -ing: is reading.",
+      "type": "multiple_choice",
+      "question": "She ___ a book right now.",
+      "options": [
+        "is reading",
+        "are reading",
+        "am reading",
+        "is read"
+      ],
+      "answer": "is reading"
+    },
+    {
+      "id": "present-continuous-v11-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'My father' berarti he. Kata kerja berakhiran -e kehilangan e sebelum -ing: driving.",
+      "type": "fill_blank",
+      "sentence": "My father ___ (drive) to work.",
+      "answer": [
+        "is driving"
+      ]
+    },
+    {
+      "id": "present-continuous-v11-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Sit menggandakan huruf t sebelum -ing: sitting.",
+      "type": "fill_blank",
+      "sentence": "He ___ (sit) on the sofa.",
+      "answer": [
+        "is sitting"
+      ]
+    },
+    {
+      "id": "present-continuous-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + is + kata kerja -ing + objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "doing",
+        "her",
+        "homework"
+      ],
+      "answer": "She is doing her homework"
+    },
+    {
+      "id": "present-continuous-v11-match-1",
+      "prompt": "Match each verb to its -ing form",
+      "explanation": "Kata kerja berakhiran -e kehilangan e (driving). Vokal + konsonan tunggal menggandakan huruf akhir (sitting, running).",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "drive",
+          "right": "driving"
+        },
+        {
+          "left": "sit",
+          "right": "sitting"
+        },
+        {
+          "left": "play",
+          "right": "playing"
+        },
+        {
+          "left": "run",
+          "right": "running"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v11-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi are + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ football in the park.",
+      "options": [
+        "is playing",
+        "are playing",
+        "am playing",
+        "are play"
+      ],
+      "answer": "are playing"
+    },
+    {
+      "id": "present-continuous-v11-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Present simple jadi present continuous: is + writing.",
+      "type": "flip_sentence",
+      "source": "He writes a letter.",
+      "target": "present_continuous",
+      "answer": [
+        "He is writing a letter."
+      ]
+    },
+    {
+      "id": "present-continuous-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan am/is/are + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about what you are doing right now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "I am studying English right now."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v12-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'My parents' jamak, jadi are + cooking.",
+      "type": "multiple_choice",
+      "question": "My parents ___ dinner in the kitchen.",
+      "options": [
+        "are cooking",
+        "is cooking",
+        "am cooking",
+        "are cook"
+      ],
+      "answer": "are cooking"
+    },
+    {
+      "id": "present-continuous-v12-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I' selalu pakai am + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ to music at the moment.",
+      "options": [
+        "am listening",
+        "is listening",
+        "are listening",
+        "listening"
+      ],
+      "answer": "am listening"
+    },
+    {
+      "id": "present-continuous-v12-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai are + watching.",
+      "type": "fill_blank",
+      "sentence": "We ___ (watch) a movie.",
+      "answer": [
+        "are watching"
+      ]
+    },
+    {
+      "id": "present-continuous-v12-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'The students' jamak, jadi are + writing.",
+      "type": "fill_blank",
+      "sentence": "The students ___ (write) an exam.",
+      "answer": [
+        "are writing"
+      ]
+    },
+    {
+      "id": "present-continuous-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Dengan 'I' pakai am + kata kerja -ing.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "am",
+        "waiting",
+        "for",
+        "my",
+        "friend"
+      ],
+      "answer": "I am waiting for my friend"
+    },
+    {
+      "id": "present-continuous-v12-match-1",
+      "prompt": "Match each subject to its form of to be",
+      "explanation": "I memakai am. He, she, dan it memakai is. You, we, dan they memakai are.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "am working"
+        },
+        {
+          "left": "He",
+          "right": "is working"
+        },
+        {
+          "left": "They",
+          "right": "are working"
+        },
+        {
+          "left": "It",
+          "right": "is working"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v12-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya is + kata kerja -ing. Run menggandakan n menjadi running.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He is running to school.",
+        "He running to school.",
+        "He is run to school."
+      ],
+      "answer": "He is running to school."
+    },
+    {
+      "id": "present-continuous-v12-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai are + eating.",
+      "type": "flip_sentence",
+      "source": "They eat lunch.",
+      "target": "present_continuous",
+      "answer": [
+        "They are eating lunch."
+      ]
+    },
+    {
+      "id": "present-continuous-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan is/are + kata kerja -ing untuk orang lain.",
+      "type": "free_write",
+      "task": "Write one sentence about what someone in your family is doing now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "My mother is cooking in the kitchen."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v13-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'The baby' berarti it, jadi is + sleeping.",
+      "type": "multiple_choice",
+      "question": "The baby ___ now.",
+      "options": [
+        "is sleeping",
+        "are sleeping",
+        "am sleeping",
+        "is sleep"
+      ],
+      "answer": "is sleeping"
+    },
+    {
+      "id": "present-continuous-v13-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'They' jamak, jadi are + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "They ___ football in the park.",
+      "options": [
+        "is playing",
+        "are playing",
+        "am playing",
+        "are play"
+      ],
+      "answer": "are playing"
+    },
+    {
+      "id": "present-continuous-v13-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Swim menggandakan huruf m sebelum -ing: swimming.",
+      "type": "fill_blank",
+      "sentence": "They ___ (swim) in the pool.",
+      "answer": [
+        "are swimming"
+      ]
+    },
+    {
+      "id": "present-continuous-v13-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Dengan 'I' selalu pakai am: am cooking.",
+      "type": "fill_blank",
+      "sentence": "I ___ (cook) nasi goreng now.",
+      "answer": [
+        "am cooking"
+      ]
+    },
+    {
+      "id": "present-continuous-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek jamak + are + kata kerja -ing + tempat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "present-continuous-v13-match-1",
+      "prompt": "Match each verb to its -ing form",
+      "explanation": "Kata kerja berakhiran -e kehilangan e (driving). Vokal + konsonan tunggal menggandakan huruf akhir (sitting, running).",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "drive",
+          "right": "driving"
+        },
+        {
+          "left": "sit",
+          "right": "sitting"
+        },
+        {
+          "left": "play",
+          "right": "playing"
+        },
+        {
+          "left": "run",
+          "right": "running"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v13-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Butuh dua bagian: is + kata kerja -ing. Sit menggandakan t menjadi sitting.",
+      "type": "multiple_choice",
+      "question": "Pick the correct present continuous sentence.",
+      "options": [
+        "She is sitting outside.",
+        "She sitting outside.",
+        "She is sit outside."
+      ],
+      "answer": "She is sitting outside."
+    },
+    {
+      "id": "present-continuous-v13-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'She' memakai is + reading.",
+      "type": "flip_sentence",
+      "source": "She reads a book.",
+      "target": "present_continuous",
+      "answer": [
+        "She is reading a book."
+      ]
+    },
+    {
+      "id": "present-continuous-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan is/are + kata kerja -ing untuk orang lain.",
+      "type": "free_write",
+      "task": "Write one sentence about what someone in your family is doing now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "My mother is cooking in the kitchen."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v14-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'She' memakai is, lalu kata kerja + -ing: is reading.",
+      "type": "multiple_choice",
+      "question": "She ___ a book right now.",
+      "options": [
+        "is reading",
+        "are reading",
+        "am reading",
+        "is read"
+      ],
+      "answer": "is reading"
+    },
+    {
+      "id": "present-continuous-v14-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'My parents' jamak, jadi are + cooking.",
+      "type": "multiple_choice",
+      "question": "My parents ___ dinner in the kitchen.",
+      "options": [
+        "are cooking",
+        "is cooking",
+        "am cooking",
+        "are cook"
+      ],
+      "answer": "are cooking"
+    },
+    {
+      "id": "present-continuous-v14-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Make kehilangan e sebelum -ing: making.",
+      "type": "fill_blank",
+      "sentence": "She ___ (make) a cake.",
+      "answer": [
+        "is making"
+      ]
+    },
+    {
+      "id": "present-continuous-v14-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'My father' berarti he. Kata kerja berakhiran -e kehilangan e sebelum -ing: driving.",
+      "type": "fill_blank",
+      "sentence": "My father ___ (drive) to work.",
+      "answer": [
+        "is driving"
+      ]
+    },
+    {
+      "id": "present-continuous-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + is + kata kerja -ing + objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "doing",
+        "her",
+        "homework"
+      ],
+      "answer": "She is doing her homework"
+    },
+    {
+      "id": "present-continuous-v14-match-1",
+      "prompt": "Match each subject to its form of to be",
+      "explanation": "I memakai am. He, she, dan it memakai is. You, we, dan they memakai are.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "I",
+          "right": "am working"
+        },
+        {
+          "left": "He",
+          "right": "is working"
+        },
+        {
+          "left": "They",
+          "right": "are working"
+        },
+        {
+          "left": "It",
+          "right": "is working"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v14-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Dengan 'I' selalu pakai am + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "I ___ to music at the moment.",
+      "options": [
+        "am listening",
+        "is listening",
+        "are listening",
+        "listening"
+      ],
+      "answer": "am listening"
+    },
+    {
+      "id": "present-continuous-v14-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'They' memakai are + eating.",
+      "type": "flip_sentence",
+      "source": "They eat lunch.",
+      "target": "present_continuous",
+      "answer": [
+        "They are eating lunch."
+      ]
+    },
+    {
+      "id": "present-continuous-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan am/is/are + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about what you are doing right now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "I am studying English right now."
+    }
+  ],
+  [
+    {
+      "id": "present-continuous-v15-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'We' memakai are + kata kerja -ing.",
+      "type": "multiple_choice",
+      "question": "We ___ for the bus.",
+      "options": [
+        "are waiting",
+        "is waiting",
+        "am waiting",
+        "are wait"
+      ],
+      "answer": "are waiting"
+    },
+    {
+      "id": "present-continuous-v15-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Rumusnya is + kata kerja -ing. Run menggandakan n menjadi running.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He is running to school.",
+        "He running to school.",
+        "He is run to school."
+      ],
+      "answer": "He is running to school."
+    },
+    {
+      "id": "present-continuous-v15-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'We' memakai are + watching.",
+      "type": "fill_blank",
+      "sentence": "We ___ (watch) a movie.",
+      "answer": [
+        "are watching"
+      ]
+    },
+    {
+      "id": "present-continuous-v15-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Make kehilangan e sebelum -ing: making.",
+      "type": "fill_blank",
+      "sentence": "She ___ (make) a cake.",
+      "answer": [
+        "is making"
+      ]
+    },
+    {
+      "id": "present-continuous-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + are + kata kerja -ing + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "are",
+        "watching",
+        "TV",
+        "now"
+      ],
+      "answer": "We are watching TV now"
+    },
+    {
+      "id": "present-continuous-v15-match-1",
+      "prompt": "Match each verb to its -ing form",
+      "explanation": "Kata kerja berakhiran -e kehilangan e (driving). Vokal + konsonan tunggal menggandakan huruf akhir (sitting, running).",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "drive",
+          "right": "driving"
+        },
+        {
+          "left": "sit",
+          "right": "sitting"
+        },
+        {
+          "left": "play",
+          "right": "playing"
+        },
+        {
+          "left": "run",
+          "right": "running"
+        }
+      ]
+    },
+    {
+      "id": "present-continuous-v15-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "'Look!' menandakan kejadian sekarang, jadi pakai present continuous: is raining.",
+      "type": "multiple_choice",
+      "question": "Look! It ___ outside.",
+      "options": [
+        "is raining",
+        "rains",
+        "are raining",
+        "is rain"
+      ],
+      "answer": "is raining"
+    },
+    {
+      "id": "present-continuous-v15-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Present simple jadi present continuous: is + writing.",
+      "type": "flip_sentence",
+      "source": "He writes a letter.",
+      "target": "present_continuous",
+      "answer": [
+        "He is writing a letter."
+      ]
+    },
+    {
+      "id": "present-continuous-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan am/is/are + kata kerja -ing.",
+      "type": "free_write",
+      "task": "Write one sentence about what you are doing right now.",
+      "requirements": [
+        "present continuous"
+      ],
+      "modelAnswer": "I am studying English right now."
+    }
+  ]
+]

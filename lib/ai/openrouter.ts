@@ -132,7 +132,7 @@ async function chatCompletionOnce(messages: ChatMessage[], opts: ChatOptions, ap
   }
 }
 
-/** Live `:free` model ids, for scripts/check-models.ts. */
+/** Live `:free` model ids. */
 export async function listFreeModelIds(timeoutMs = 15000): Promise<string[]> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);

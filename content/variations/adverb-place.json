@@ -1,0 +1,1950 @@
+[
+  [
+    {
+      "id": "adverb-place-v1-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here berarti di tempat pembicara, there berarti tempat yang jauh.",
+      "type": "multiple_choice",
+      "question": "Come ___ and see my new bike.",
+      "options": [
+        "here",
+        "there",
+        "away",
+        "then"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v1-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He put his bag there.",
+        "He put there his bag.",
+        "There he his bag put."
+      ],
+      "answer": "He put his bag there."
+    },
+    {
+      "id": "adverb-place-v1-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Outside dan everywhere menjelaskan tempat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "outside",
+          "right": "place"
+        },
+        {
+          "left": "yesterday",
+          "right": "time"
+        },
+        {
+          "left": "slowly",
+          "right": "manner"
+        },
+        {
+          "left": "everywhere",
+          "right": "place"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "put",
+        "my",
+        "books",
+        "there"
+      ],
+      "answer": "I put my books there"
+    },
+    {
+      "id": "adverb-place-v1-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "looked",
+        "everywhere",
+        "for",
+        "it"
+      ],
+      "answer": "She looked everywhere for it"
+    },
+    {
+      "id": "adverb-place-v1-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Upstairs berarti di lantai atas.",
+      "type": "fill_blank",
+      "sentence": "My room is ___ (on the upper floor).",
+      "answer": [
+        "upstairs"
+      ]
+    },
+    {
+      "id": "adverb-place-v1-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Outside menjelaskan tempat bermain.",
+      "type": "multiple_choice",
+      "question": "The children are playing ___.",
+      "options": [
+        "outside",
+        "yesterday",
+        "slowly",
+        "never"
+      ],
+      "answer": "outside"
+    },
+    {
+      "id": "adverb-place-v1-mc-4",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Upstairs menjelaskan tempat, yaitu di lantai atas.",
+      "type": "multiple_choice",
+      "question": "My books are ___.",
+      "options": [
+        "upstairs",
+        "tomorrow",
+        "quietly",
+        "often"
+      ],
+      "answer": "upstairs"
+    },
+    {
+      "id": "adverb-place-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan tempat.",
+      "type": "free_write",
+      "task": "Write one sentence about where you study, using an adverb of place.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "I study upstairs every evening."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v2-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She looked everywhere for her keys.",
+        "She looked for everywhere her keys.",
+        "Everywhere she looked her keys for."
+      ],
+      "answer": "She looked everywhere for her keys."
+    },
+    {
+      "id": "adverb-place-v2-mc-2",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Inside berarti di dalam, lawan katanya outside.",
+      "type": "multiple_choice",
+      "question": "It is cold, so we will stay ___.",
+      "options": [
+        "inside",
+        "slowly",
+        "later",
+        "always"
+      ],
+      "answer": "inside"
+    },
+    {
+      "id": "adverb-place-v2-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Here dan upstairs menjelaskan tempat, tomorrow waktu, carefully cara.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "here",
+          "right": "place"
+        },
+        {
+          "left": "tomorrow",
+          "right": "time"
+        },
+        {
+          "left": "upstairs",
+          "right": "place"
+        },
+        {
+          "left": "carefully",
+          "right": "manner"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "adverb-place-v2-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "cat",
+        "is",
+        "sleeping",
+        "upstairs"
+      ],
+      "answer": "My cat is sleeping upstairs"
+    },
+    {
+      "id": "adverb-place-v2-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Outside berarti di luar.",
+      "type": "fill_blank",
+      "sentence": "The cat is sleeping ___ (not in the house).",
+      "answer": [
+        "outside"
+      ]
+    },
+    {
+      "id": "adverb-place-v2-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here menjelaskan tempat. Now waktu, quickly cara, always frekuensi.",
+      "type": "multiple_choice",
+      "question": "Please sit ___.",
+      "options": [
+        "here",
+        "now",
+        "quickly",
+        "always"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v2-mc-4",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here berarti di tempat pembicara, there berarti tempat yang jauh.",
+      "type": "multiple_choice",
+      "question": "Come ___ and see my new bike.",
+      "options": [
+        "here",
+        "there",
+        "away",
+        "then"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb tempat setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about where your family eats dinner.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "We eat dinner inside."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v3-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Upstairs menjelaskan tempat, yaitu di lantai atas.",
+      "type": "multiple_choice",
+      "question": "My books are ___.",
+      "options": [
+        "upstairs",
+        "tomorrow",
+        "quietly",
+        "often"
+      ],
+      "answer": "upstairs"
+    },
+    {
+      "id": "adverb-place-v3-mc-2",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Inside berarti di dalam, lawan katanya outside.",
+      "type": "multiple_choice",
+      "question": "It is cold, so we will stay ___.",
+      "options": [
+        "inside",
+        "slowly",
+        "later",
+        "always"
+      ],
+      "answer": "inside"
+    },
+    {
+      "id": "adverb-place-v3-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Outside dan everywhere menjelaskan tempat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "outside",
+          "right": "place"
+        },
+        {
+          "left": "yesterday",
+          "right": "time"
+        },
+        {
+          "left": "slowly",
+          "right": "manner"
+        },
+        {
+          "left": "everywhere",
+          "right": "place"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "put",
+        "my",
+        "books",
+        "there"
+      ],
+      "answer": "I put my books there"
+    },
+    {
+      "id": "adverb-place-v3-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "adverb-place-v3-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Inside berarti di dalam rumah.",
+      "type": "fill_blank",
+      "sentence": "It is raining, so we will stay ___ (in the house).",
+      "answer": [
+        "inside"
+      ]
+    },
+    {
+      "id": "adverb-place-v3-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here menjelaskan tempat. Now waktu, quickly cara, always frekuensi.",
+      "type": "multiple_choice",
+      "question": "Please sit ___.",
+      "options": [
+        "here",
+        "now",
+        "quickly",
+        "always"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v3-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She looked everywhere for her keys.",
+        "She looked for everywhere her keys.",
+        "Everywhere she looked her keys for."
+      ],
+      "answer": "She looked everywhere for her keys."
+    },
+    {
+      "id": "adverb-place-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan tempat.",
+      "type": "free_write",
+      "task": "Write one sentence about where you study, using an adverb of place.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "I study upstairs every evening."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v4-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Outside menjelaskan tempat bermain.",
+      "type": "multiple_choice",
+      "question": "The children are playing ___.",
+      "options": [
+        "outside",
+        "yesterday",
+        "slowly",
+        "never"
+      ],
+      "answer": "outside"
+    },
+    {
+      "id": "adverb-place-v4-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He put his bag there.",
+        "He put there his bag.",
+        "There he his bag put."
+      ],
+      "answer": "He put his bag there."
+    },
+    {
+      "id": "adverb-place-v4-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Here dan upstairs menjelaskan tempat, tomorrow waktu, carefully cara.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "here",
+          "right": "place"
+        },
+        {
+          "left": "tomorrow",
+          "right": "time"
+        },
+        {
+          "left": "upstairs",
+          "right": "place"
+        },
+        {
+          "left": "carefully",
+          "right": "manner"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "looked",
+        "everywhere",
+        "for",
+        "it"
+      ],
+      "answer": "She looked everywhere for it"
+    },
+    {
+      "id": "adverb-place-v4-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "cat",
+        "is",
+        "sleeping",
+        "upstairs"
+      ],
+      "answer": "My cat is sleeping upstairs"
+    },
+    {
+      "id": "adverb-place-v4-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Inside berarti di dalam rumah.",
+      "type": "fill_blank",
+      "sentence": "It is raining, so we will stay ___ (in the house).",
+      "answer": [
+        "inside"
+      ]
+    },
+    {
+      "id": "adverb-place-v4-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Inside berarti di dalam, lawan katanya outside.",
+      "type": "multiple_choice",
+      "question": "It is cold, so we will stay ___.",
+      "options": [
+        "inside",
+        "slowly",
+        "later",
+        "always"
+      ],
+      "answer": "inside"
+    },
+    {
+      "id": "adverb-place-v4-mc-4",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Upstairs menjelaskan tempat, yaitu di lantai atas.",
+      "type": "multiple_choice",
+      "question": "My books are ___.",
+      "options": [
+        "upstairs",
+        "tomorrow",
+        "quietly",
+        "often"
+      ],
+      "answer": "upstairs"
+    },
+    {
+      "id": "adverb-place-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb tempat setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about where your family eats dinner.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "We eat dinner inside."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v5-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here berarti di tempat pembicara, there berarti tempat yang jauh.",
+      "type": "multiple_choice",
+      "question": "Come ___ and see my new bike.",
+      "options": [
+        "here",
+        "there",
+        "away",
+        "then"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v5-mc-2",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Outside menjelaskan tempat bermain.",
+      "type": "multiple_choice",
+      "question": "The children are playing ___.",
+      "options": [
+        "outside",
+        "yesterday",
+        "slowly",
+        "never"
+      ],
+      "answer": "outside"
+    },
+    {
+      "id": "adverb-place-v5-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Here dan upstairs menjelaskan tempat, tomorrow waktu, carefully cara.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "here",
+          "right": "place"
+        },
+        {
+          "left": "tomorrow",
+          "right": "time"
+        },
+        {
+          "left": "upstairs",
+          "right": "place"
+        },
+        {
+          "left": "carefully",
+          "right": "manner"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "adverb-place-v5-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "put",
+        "my",
+        "books",
+        "there"
+      ],
+      "answer": "I put my books there"
+    },
+    {
+      "id": "adverb-place-v5-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Outside berarti di luar.",
+      "type": "fill_blank",
+      "sentence": "The cat is sleeping ___ (not in the house).",
+      "answer": [
+        "outside"
+      ]
+    },
+    {
+      "id": "adverb-place-v5-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here menjelaskan tempat. Now waktu, quickly cara, always frekuensi.",
+      "type": "multiple_choice",
+      "question": "Please sit ___.",
+      "options": [
+        "here",
+        "now",
+        "quickly",
+        "always"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v5-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He put his bag there.",
+        "He put there his bag.",
+        "There he his bag put."
+      ],
+      "answer": "He put his bag there."
+    },
+    {
+      "id": "adverb-place-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb tempat setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about where your family eats dinner.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "We eat dinner inside."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v6-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She looked everywhere for her keys.",
+        "She looked for everywhere her keys.",
+        "Everywhere she looked her keys for."
+      ],
+      "answer": "She looked everywhere for her keys."
+    },
+    {
+      "id": "adverb-place-v6-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He put his bag there.",
+        "He put there his bag.",
+        "There he his bag put."
+      ],
+      "answer": "He put his bag there."
+    },
+    {
+      "id": "adverb-place-v6-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Outside dan everywhere menjelaskan tempat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "outside",
+          "right": "place"
+        },
+        {
+          "left": "yesterday",
+          "right": "time"
+        },
+        {
+          "left": "slowly",
+          "right": "manner"
+        },
+        {
+          "left": "everywhere",
+          "right": "place"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "cat",
+        "is",
+        "sleeping",
+        "upstairs"
+      ],
+      "answer": "My cat is sleeping upstairs"
+    },
+    {
+      "id": "adverb-place-v6-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "looked",
+        "everywhere",
+        "for",
+        "it"
+      ],
+      "answer": "She looked everywhere for it"
+    },
+    {
+      "id": "adverb-place-v6-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Upstairs berarti di lantai atas.",
+      "type": "fill_blank",
+      "sentence": "My room is ___ (on the upper floor).",
+      "answer": [
+        "upstairs"
+      ]
+    },
+    {
+      "id": "adverb-place-v6-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Outside menjelaskan tempat bermain.",
+      "type": "multiple_choice",
+      "question": "The children are playing ___.",
+      "options": [
+        "outside",
+        "yesterday",
+        "slowly",
+        "never"
+      ],
+      "answer": "outside"
+    },
+    {
+      "id": "adverb-place-v6-mc-4",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here menjelaskan tempat. Now waktu, quickly cara, always frekuensi.",
+      "type": "multiple_choice",
+      "question": "Please sit ___.",
+      "options": [
+        "here",
+        "now",
+        "quickly",
+        "always"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan tempat.",
+      "type": "free_write",
+      "task": "Write one sentence about where you study, using an adverb of place.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "I study upstairs every evening."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v7-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She looked everywhere for her keys.",
+        "She looked for everywhere her keys.",
+        "Everywhere she looked her keys for."
+      ],
+      "answer": "She looked everywhere for her keys."
+    },
+    {
+      "id": "adverb-place-v7-mc-2",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here berarti di tempat pembicara, there berarti tempat yang jauh.",
+      "type": "multiple_choice",
+      "question": "Come ___ and see my new bike.",
+      "options": [
+        "here",
+        "there",
+        "away",
+        "then"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v7-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Here dan upstairs menjelaskan tempat, tomorrow waktu, carefully cara.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "here",
+          "right": "place"
+        },
+        {
+          "left": "tomorrow",
+          "right": "time"
+        },
+        {
+          "left": "upstairs",
+          "right": "place"
+        },
+        {
+          "left": "carefully",
+          "right": "manner"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "looked",
+        "everywhere",
+        "for",
+        "it"
+      ],
+      "answer": "She looked everywhere for it"
+    },
+    {
+      "id": "adverb-place-v7-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "adverb-place-v7-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Upstairs berarti di lantai atas.",
+      "type": "fill_blank",
+      "sentence": "My room is ___ (on the upper floor).",
+      "answer": [
+        "upstairs"
+      ]
+    },
+    {
+      "id": "adverb-place-v7-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Upstairs menjelaskan tempat, yaitu di lantai atas.",
+      "type": "multiple_choice",
+      "question": "My books are ___.",
+      "options": [
+        "upstairs",
+        "tomorrow",
+        "quietly",
+        "often"
+      ],
+      "answer": "upstairs"
+    },
+    {
+      "id": "adverb-place-v7-mc-4",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Inside berarti di dalam, lawan katanya outside.",
+      "type": "multiple_choice",
+      "question": "It is cold, so we will stay ___.",
+      "options": [
+        "inside",
+        "slowly",
+        "later",
+        "always"
+      ],
+      "answer": "inside"
+    },
+    {
+      "id": "adverb-place-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb tempat setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about where your family eats dinner.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "We eat dinner inside."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v8-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Outside menjelaskan tempat bermain.",
+      "type": "multiple_choice",
+      "question": "The children are playing ___.",
+      "options": [
+        "outside",
+        "yesterday",
+        "slowly",
+        "never"
+      ],
+      "answer": "outside"
+    },
+    {
+      "id": "adverb-place-v8-mc-2",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Inside berarti di dalam, lawan katanya outside.",
+      "type": "multiple_choice",
+      "question": "It is cold, so we will stay ___.",
+      "options": [
+        "inside",
+        "slowly",
+        "later",
+        "always"
+      ],
+      "answer": "inside"
+    },
+    {
+      "id": "adverb-place-v8-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Outside dan everywhere menjelaskan tempat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "outside",
+          "right": "place"
+        },
+        {
+          "left": "yesterday",
+          "right": "time"
+        },
+        {
+          "left": "slowly",
+          "right": "manner"
+        },
+        {
+          "left": "everywhere",
+          "right": "place"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "put",
+        "my",
+        "books",
+        "there"
+      ],
+      "answer": "I put my books there"
+    },
+    {
+      "id": "adverb-place-v8-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "cat",
+        "is",
+        "sleeping",
+        "upstairs"
+      ],
+      "answer": "My cat is sleeping upstairs"
+    },
+    {
+      "id": "adverb-place-v8-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Inside berarti di dalam rumah.",
+      "type": "fill_blank",
+      "sentence": "It is raining, so we will stay ___ (in the house).",
+      "answer": [
+        "inside"
+      ]
+    },
+    {
+      "id": "adverb-place-v8-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here berarti di tempat pembicara, there berarti tempat yang jauh.",
+      "type": "multiple_choice",
+      "question": "Come ___ and see my new bike.",
+      "options": [
+        "here",
+        "there",
+        "away",
+        "then"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v8-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She looked everywhere for her keys.",
+        "She looked for everywhere her keys.",
+        "Everywhere she looked her keys for."
+      ],
+      "answer": "She looked everywhere for her keys."
+    },
+    {
+      "id": "adverb-place-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan tempat.",
+      "type": "free_write",
+      "task": "Write one sentence about where you study, using an adverb of place.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "I study upstairs every evening."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v9-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here menjelaskan tempat. Now waktu, quickly cara, always frekuensi.",
+      "type": "multiple_choice",
+      "question": "Please sit ___.",
+      "options": [
+        "here",
+        "now",
+        "quickly",
+        "always"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v9-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He put his bag there.",
+        "He put there his bag.",
+        "There he his bag put."
+      ],
+      "answer": "He put his bag there."
+    },
+    {
+      "id": "adverb-place-v9-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Here dan upstairs menjelaskan tempat, tomorrow waktu, carefully cara.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "here",
+          "right": "place"
+        },
+        {
+          "left": "tomorrow",
+          "right": "time"
+        },
+        {
+          "left": "upstairs",
+          "right": "place"
+        },
+        {
+          "left": "carefully",
+          "right": "manner"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "looked",
+        "everywhere",
+        "for",
+        "it"
+      ],
+      "answer": "She looked everywhere for it"
+    },
+    {
+      "id": "adverb-place-v9-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "adverb-place-v9-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Outside berarti di luar.",
+      "type": "fill_blank",
+      "sentence": "The cat is sleeping ___ (not in the house).",
+      "answer": [
+        "outside"
+      ]
+    },
+    {
+      "id": "adverb-place-v9-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Upstairs menjelaskan tempat, yaitu di lantai atas.",
+      "type": "multiple_choice",
+      "question": "My books are ___.",
+      "options": [
+        "upstairs",
+        "tomorrow",
+        "quietly",
+        "often"
+      ],
+      "answer": "upstairs"
+    },
+    {
+      "id": "adverb-place-v9-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She looked everywhere for her keys.",
+        "She looked for everywhere her keys.",
+        "Everywhere she looked her keys for."
+      ],
+      "answer": "She looked everywhere for her keys."
+    },
+    {
+      "id": "adverb-place-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan tempat.",
+      "type": "free_write",
+      "task": "Write one sentence about where you study, using an adverb of place.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "I study upstairs every evening."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v10-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here berarti di tempat pembicara, there berarti tempat yang jauh.",
+      "type": "multiple_choice",
+      "question": "Come ___ and see my new bike.",
+      "options": [
+        "here",
+        "there",
+        "away",
+        "then"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v10-mc-2",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Upstairs menjelaskan tempat, yaitu di lantai atas.",
+      "type": "multiple_choice",
+      "question": "My books are ___.",
+      "options": [
+        "upstairs",
+        "tomorrow",
+        "quietly",
+        "often"
+      ],
+      "answer": "upstairs"
+    },
+    {
+      "id": "adverb-place-v10-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Outside dan everywhere menjelaskan tempat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "outside",
+          "right": "place"
+        },
+        {
+          "left": "yesterday",
+          "right": "time"
+        },
+        {
+          "left": "slowly",
+          "right": "manner"
+        },
+        {
+          "left": "everywhere",
+          "right": "place"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "cat",
+        "is",
+        "sleeping",
+        "upstairs"
+      ],
+      "answer": "My cat is sleeping upstairs"
+    },
+    {
+      "id": "adverb-place-v10-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "put",
+        "my",
+        "books",
+        "there"
+      ],
+      "answer": "I put my books there"
+    },
+    {
+      "id": "adverb-place-v10-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Upstairs berarti di lantai atas.",
+      "type": "fill_blank",
+      "sentence": "My room is ___ (on the upper floor).",
+      "answer": [
+        "upstairs"
+      ]
+    },
+    {
+      "id": "adverb-place-v10-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Inside berarti di dalam, lawan katanya outside.",
+      "type": "multiple_choice",
+      "question": "It is cold, so we will stay ___.",
+      "options": [
+        "inside",
+        "slowly",
+        "later",
+        "always"
+      ],
+      "answer": "inside"
+    },
+    {
+      "id": "adverb-place-v10-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He put his bag there.",
+        "He put there his bag.",
+        "There he his bag put."
+      ],
+      "answer": "He put his bag there."
+    },
+    {
+      "id": "adverb-place-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb tempat setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about where your family eats dinner.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "We eat dinner inside."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v11-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here menjelaskan tempat. Now waktu, quickly cara, always frekuensi.",
+      "type": "multiple_choice",
+      "question": "Please sit ___.",
+      "options": [
+        "here",
+        "now",
+        "quickly",
+        "always"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v11-mc-2",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Outside menjelaskan tempat bermain.",
+      "type": "multiple_choice",
+      "question": "The children are playing ___.",
+      "options": [
+        "outside",
+        "yesterday",
+        "slowly",
+        "never"
+      ],
+      "answer": "outside"
+    },
+    {
+      "id": "adverb-place-v11-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Outside dan everywhere menjelaskan tempat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "outside",
+          "right": "place"
+        },
+        {
+          "left": "yesterday",
+          "right": "time"
+        },
+        {
+          "left": "slowly",
+          "right": "manner"
+        },
+        {
+          "left": "everywhere",
+          "right": "place"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "cat",
+        "is",
+        "sleeping",
+        "upstairs"
+      ],
+      "answer": "My cat is sleeping upstairs"
+    },
+    {
+      "id": "adverb-place-v11-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "looked",
+        "everywhere",
+        "for",
+        "it"
+      ],
+      "answer": "She looked everywhere for it"
+    },
+    {
+      "id": "adverb-place-v11-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Outside berarti di luar.",
+      "type": "fill_blank",
+      "sentence": "The cat is sleeping ___ (not in the house).",
+      "answer": [
+        "outside"
+      ]
+    },
+    {
+      "id": "adverb-place-v11-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She looked everywhere for her keys.",
+        "She looked for everywhere her keys.",
+        "Everywhere she looked her keys for."
+      ],
+      "answer": "She looked everywhere for her keys."
+    },
+    {
+      "id": "adverb-place-v11-mc-4",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here berarti di tempat pembicara, there berarti tempat yang jauh.",
+      "type": "multiple_choice",
+      "question": "Come ___ and see my new bike.",
+      "options": [
+        "here",
+        "there",
+        "away",
+        "then"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb tempat setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about where your family eats dinner.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "We eat dinner inside."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v12-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Upstairs menjelaskan tempat, yaitu di lantai atas.",
+      "type": "multiple_choice",
+      "question": "My books are ___.",
+      "options": [
+        "upstairs",
+        "tomorrow",
+        "quietly",
+        "often"
+      ],
+      "answer": "upstairs"
+    },
+    {
+      "id": "adverb-place-v12-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He put his bag there.",
+        "He put there his bag.",
+        "There he his bag put."
+      ],
+      "answer": "He put his bag there."
+    },
+    {
+      "id": "adverb-place-v12-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Here dan upstairs menjelaskan tempat, tomorrow waktu, carefully cara.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "here",
+          "right": "place"
+        },
+        {
+          "left": "tomorrow",
+          "right": "time"
+        },
+        {
+          "left": "upstairs",
+          "right": "place"
+        },
+        {
+          "left": "carefully",
+          "right": "manner"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "put",
+        "my",
+        "books",
+        "there"
+      ],
+      "answer": "I put my books there"
+    },
+    {
+      "id": "adverb-place-v12-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "adverb-place-v12-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Inside berarti di dalam rumah.",
+      "type": "fill_blank",
+      "sentence": "It is raining, so we will stay ___ (in the house).",
+      "answer": [
+        "inside"
+      ]
+    },
+    {
+      "id": "adverb-place-v12-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Inside berarti di dalam, lawan katanya outside.",
+      "type": "multiple_choice",
+      "question": "It is cold, so we will stay ___.",
+      "options": [
+        "inside",
+        "slowly",
+        "later",
+        "always"
+      ],
+      "answer": "inside"
+    },
+    {
+      "id": "adverb-place-v12-mc-4",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Outside menjelaskan tempat bermain.",
+      "type": "multiple_choice",
+      "question": "The children are playing ___.",
+      "options": [
+        "outside",
+        "yesterday",
+        "slowly",
+        "never"
+      ],
+      "answer": "outside"
+    },
+    {
+      "id": "adverb-place-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan tempat.",
+      "type": "free_write",
+      "task": "Write one sentence about where you study, using an adverb of place.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "I study upstairs every evening."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v13-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here menjelaskan tempat. Now waktu, quickly cara, always frekuensi.",
+      "type": "multiple_choice",
+      "question": "Please sit ___.",
+      "options": [
+        "here",
+        "now",
+        "quickly",
+        "always"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v13-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He put his bag there.",
+        "He put there his bag.",
+        "There he his bag put."
+      ],
+      "answer": "He put his bag there."
+    },
+    {
+      "id": "adverb-place-v13-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Outside dan everywhere menjelaskan tempat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "outside",
+          "right": "place"
+        },
+        {
+          "left": "yesterday",
+          "right": "time"
+        },
+        {
+          "left": "slowly",
+          "right": "manner"
+        },
+        {
+          "left": "everywhere",
+          "right": "place"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "children",
+        "are",
+        "playing",
+        "outside"
+      ],
+      "answer": "The children are playing outside"
+    },
+    {
+      "id": "adverb-place-v13-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "looked",
+        "everywhere",
+        "for",
+        "it"
+      ],
+      "answer": "She looked everywhere for it"
+    },
+    {
+      "id": "adverb-place-v13-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Outside berarti di luar.",
+      "type": "fill_blank",
+      "sentence": "The cat is sleeping ___ (not in the house).",
+      "answer": [
+        "outside"
+      ]
+    },
+    {
+      "id": "adverb-place-v13-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Upstairs menjelaskan tempat, yaitu di lantai atas.",
+      "type": "multiple_choice",
+      "question": "My books are ___.",
+      "options": [
+        "upstairs",
+        "tomorrow",
+        "quietly",
+        "often"
+      ],
+      "answer": "upstairs"
+    },
+    {
+      "id": "adverb-place-v13-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She looked everywhere for her keys.",
+        "She looked for everywhere her keys.",
+        "Everywhere she looked her keys for."
+      ],
+      "answer": "She looked everywhere for her keys."
+    },
+    {
+      "id": "adverb-place-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan tempat.",
+      "type": "free_write",
+      "task": "Write one sentence about where you study, using an adverb of place.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "I study upstairs every evening."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v14-mc-1",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here berarti di tempat pembicara, there berarti tempat yang jauh.",
+      "type": "multiple_choice",
+      "question": "Come ___ and see my new bike.",
+      "options": [
+        "here",
+        "there",
+        "away",
+        "then"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v14-mc-2",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here menjelaskan tempat. Now waktu, quickly cara, always frekuensi.",
+      "type": "multiple_choice",
+      "question": "Please sit ___.",
+      "options": [
+        "here",
+        "now",
+        "quickly",
+        "always"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v14-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Here dan upstairs menjelaskan tempat, tomorrow waktu, carefully cara.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "here",
+          "right": "place"
+        },
+        {
+          "left": "tomorrow",
+          "right": "time"
+        },
+        {
+          "left": "upstairs",
+          "right": "place"
+        },
+        {
+          "left": "carefully",
+          "right": "manner"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "My",
+        "cat",
+        "is",
+        "sleeping",
+        "upstairs"
+      ],
+      "answer": "My cat is sleeping upstairs"
+    },
+    {
+      "id": "adverb-place-v14-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "put",
+        "my",
+        "books",
+        "there"
+      ],
+      "answer": "I put my books there"
+    },
+    {
+      "id": "adverb-place-v14-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Upstairs berarti di lantai atas.",
+      "type": "fill_blank",
+      "sentence": "My room is ___ (on the upper floor).",
+      "answer": [
+        "upstairs"
+      ]
+    },
+    {
+      "id": "adverb-place-v14-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Inside berarti di dalam, lawan katanya outside.",
+      "type": "multiple_choice",
+      "question": "It is cold, so we will stay ___.",
+      "options": [
+        "inside",
+        "slowly",
+        "later",
+        "always"
+      ],
+      "answer": "inside"
+    },
+    {
+      "id": "adverb-place-v14-mc-4",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Outside menjelaskan tempat bermain.",
+      "type": "multiple_choice",
+      "question": "The children are playing ___.",
+      "options": [
+        "outside",
+        "yesterday",
+        "slowly",
+        "never"
+      ],
+      "answer": "outside"
+    },
+    {
+      "id": "adverb-place-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb tempat setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about where your family eats dinner.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "We eat dinner inside."
+    }
+  ],
+  [
+    {
+      "id": "adverb-place-v15-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of place diletakkan setelah kata kerja.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She looked everywhere for her keys.",
+        "She looked for everywhere her keys.",
+        "Everywhere she looked her keys for."
+      ],
+      "answer": "She looked everywhere for her keys."
+    },
+    {
+      "id": "adverb-place-v15-mc-2",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Here berarti di tempat pembicara, there berarti tempat yang jauh.",
+      "type": "multiple_choice",
+      "question": "Come ___ and see my new bike.",
+      "options": [
+        "here",
+        "there",
+        "away",
+        "then"
+      ],
+      "answer": "here"
+    },
+    {
+      "id": "adverb-place-v15-match-1",
+      "prompt": "Match each adverb to its type",
+      "explanation": "Here dan upstairs menjelaskan tempat, tomorrow waktu, carefully cara.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "here",
+          "right": "place"
+        },
+        {
+          "left": "tomorrow",
+          "right": "time"
+        },
+        {
+          "left": "upstairs",
+          "right": "place"
+        },
+        {
+          "left": "carefully",
+          "right": "manner"
+        }
+      ]
+    },
+    {
+      "id": "adverb-place-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place setelah kata kerja.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "looked",
+        "everywhere",
+        "for",
+        "it"
+      ],
+      "answer": "She looked everywhere for it"
+    },
+    {
+      "id": "adverb-place-v15-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of place diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "I",
+        "put",
+        "my",
+        "books",
+        "there"
+      ],
+      "answer": "I put my books there"
+    },
+    {
+      "id": "adverb-place-v15-fb-1",
+      "prompt": "Complete the sentence with an adverb of place",
+      "explanation": "Inside berarti di dalam rumah.",
+      "type": "fill_blank",
+      "sentence": "It is raining, so we will stay ___ (in the house).",
+      "answer": [
+        "inside"
+      ]
+    },
+    {
+      "id": "adverb-place-v15-mc-3",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Inside berarti di dalam, lawan katanya outside.",
+      "type": "multiple_choice",
+      "question": "It is cold, so we will stay ___.",
+      "options": [
+        "inside",
+        "slowly",
+        "later",
+        "always"
+      ],
+      "answer": "inside"
+    },
+    {
+      "id": "adverb-place-v15-mc-4",
+      "prompt": "Choose the correct adverb of place",
+      "explanation": "Outside menjelaskan tempat bermain.",
+      "type": "multiple_choice",
+      "question": "The children are playing ___.",
+      "options": [
+        "outside",
+        "yesterday",
+        "slowly",
+        "never"
+      ],
+      "answer": "outside"
+    },
+    {
+      "id": "adverb-place-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan tempat.",
+      "type": "free_write",
+      "task": "Write one sentence about where you study, using an adverb of place.",
+      "requirements": [
+        "adverb of place"
+      ],
+      "modelAnswer": "I study upstairs every evening."
+    }
+  ]
+]

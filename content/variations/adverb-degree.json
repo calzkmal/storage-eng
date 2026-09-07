@@ -1,0 +1,1941 @@
+[
+  [
+    {
+      "id": "adverb-degree-v1-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Too berarti terlalu, menandakan sesuatu yang berlebihan.",
+      "type": "multiple_choice",
+      "question": "The box is ___ heavy. I cannot lift it.",
+      "options": [
+        "too",
+        "enough",
+        "quite a",
+        "very much"
+      ],
+      "answer": "too"
+    },
+    {
+      "id": "adverb-degree-v1-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Really diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "The film was ___ good.",
+      "options": [
+        "really",
+        "very much",
+        "too much",
+        "many"
+      ],
+      "answer": "really"
+    },
+    {
+      "id": "adverb-degree-v1-mc-3",
+      "prompt": "Choose the correct position",
+      "explanation": "Enough diletakkan setelah kata sifat, berbeda dari very.",
+      "type": "multiple_choice",
+      "question": "She is not ___ to drive.",
+      "options": [
+        "old enough",
+        "enough old",
+        "very enough",
+        "enough older"
+      ],
+      "answer": "old enough"
+    },
+    {
+      "id": "adverb-degree-v1-match-1",
+      "prompt": "Match each phrase to the correct order",
+      "explanation": "Enough diletakkan setelah kata sifat, sedangkan very, too, dan quite sebelum kata sifat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "old + enough",
+          "right": "old enough"
+        },
+        {
+          "left": "very + tall",
+          "right": "very tall"
+        },
+        {
+          "left": "too + hot",
+          "right": "too hot"
+        },
+        {
+          "left": "quite + easy",
+          "right": "quite easy"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree bisa menguatkan adverb lain.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "walks",
+        "very",
+        "slowly"
+      ],
+      "answer": "He walks very slowly"
+    },
+    {
+      "id": "adverb-degree-v1-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "film",
+        "was",
+        "really",
+        "good"
+      ],
+      "answer": "The film was really good"
+    },
+    {
+      "id": "adverb-degree-v1-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "fill_blank",
+      "sentence": "This bag is not big ___ for my books.",
+      "answer": [
+        "enough"
+      ]
+    },
+    {
+      "id": "adverb-degree-v1-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of degree diletakkan sebelum adverb yang dikuatkan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He walks very slowly.",
+        "He walks slowly very.",
+        "He very walks slowly."
+      ],
+      "answer": "He walks very slowly."
+    },
+    {
+      "id": "adverb-degree-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence using 'enough'.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "This room is big enough for us."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v2-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Quite diletakkan sebelum kata sifat, dan setelah 'was' kita memakai kata sifat easy.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "The test was quite easy.",
+        "The test was easy quite.",
+        "The test was quite easily."
+      ],
+      "answer": "The test was quite easy."
+    },
+    {
+      "id": "adverb-degree-v2-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Enough diletakkan setelah kata sifat: big enough.",
+      "type": "multiple_choice",
+      "question": "This bag is not big ___ for my books.",
+      "options": [
+        "enough",
+        "very",
+        "too",
+        "quite"
+      ],
+      "answer": "enough"
+    },
+    {
+      "id": "adverb-degree-v2-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Very diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "This coffee is ___ hot.",
+      "options": [
+        "very",
+        "much",
+        "many",
+        "well"
+      ],
+      "answer": "very"
+    },
+    {
+      "id": "adverb-degree-v2-match-1",
+      "prompt": "Match each adverb to its meaning",
+      "explanation": "Extremely paling kuat, quite lebih lemah, too berlebihan, enough cukup.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "extremely",
+          "right": "very, very strong"
+        },
+        {
+          "left": "quite",
+          "right": "a little strong"
+        },
+        {
+          "left": "too",
+          "right": "more than we want"
+        },
+        {
+          "left": "enough",
+          "right": "as much as we need"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Quite diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "quite",
+        "tired",
+        "today"
+      ],
+      "answer": "She is quite tired today"
+    },
+    {
+      "id": "adverb-degree-v2-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Too diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "This",
+        "tea",
+        "is",
+        "too",
+        "hot"
+      ],
+      "answer": "This tea is too hot"
+    },
+    {
+      "id": "adverb-degree-v2-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Too berarti berlebihan sampai menjadi masalah.",
+      "type": "fill_blank",
+      "sentence": "The soup is ___ salty. I cannot eat it.",
+      "answer": [
+        "too"
+      ]
+    },
+    {
+      "id": "adverb-degree-v2-mc-4",
+      "prompt": "Choose the correct position",
+      "explanation": "Enough diletakkan setelah kata sifat, berbeda dari very.",
+      "type": "multiple_choice",
+      "question": "She is not ___ to drive.",
+      "options": [
+        "old enough",
+        "enough old",
+        "very enough",
+        "enough older"
+      ],
+      "answer": "old enough"
+    },
+    {
+      "id": "adverb-degree-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan very, quite, really, atau too sebelum kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence about your city using an adverb of degree.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "Jakarta is very busy in the morning."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v3-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Really diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "The film was ___ good.",
+      "options": [
+        "really",
+        "very much",
+        "too much",
+        "many"
+      ],
+      "answer": "really"
+    },
+    {
+      "id": "adverb-degree-v3-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Enough diletakkan setelah kata sifat: big enough.",
+      "type": "multiple_choice",
+      "question": "This bag is not big ___ for my books.",
+      "options": [
+        "enough",
+        "very",
+        "too",
+        "quite"
+      ],
+      "answer": "enough"
+    },
+    {
+      "id": "adverb-degree-v3-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Too berarti terlalu, menandakan sesuatu yang berlebihan.",
+      "type": "multiple_choice",
+      "question": "The box is ___ heavy. I cannot lift it.",
+      "options": [
+        "too",
+        "enough",
+        "quite a",
+        "very much"
+      ],
+      "answer": "too"
+    },
+    {
+      "id": "adverb-degree-v3-match-1",
+      "prompt": "Match each adverb to its meaning",
+      "explanation": "Extremely paling kuat, quite lebih lemah, too berlebihan, enough cukup.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "extremely",
+          "right": "very, very strong"
+        },
+        {
+          "left": "quite",
+          "right": "a little strong"
+        },
+        {
+          "left": "too",
+          "right": "more than we want"
+        },
+        {
+          "left": "enough",
+          "right": "as much as we need"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree bisa menguatkan adverb lain.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "walks",
+        "very",
+        "slowly"
+      ],
+      "answer": "He walks very slowly"
+    },
+    {
+      "id": "adverb-degree-v3-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Quite diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "quite",
+        "tired",
+        "today"
+      ],
+      "answer": "She is quite tired today"
+    },
+    {
+      "id": "adverb-degree-v3-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Very menguatkan kata sifat busy.",
+      "type": "fill_blank",
+      "sentence": "Jakarta is ___ busy in the morning.",
+      "answer": [
+        "very"
+      ]
+    },
+    {
+      "id": "adverb-degree-v3-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Quite diletakkan sebelum kata sifat, dan setelah 'was' kita memakai kata sifat easy.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "The test was quite easy.",
+        "The test was easy quite.",
+        "The test was quite easily."
+      ],
+      "answer": "The test was quite easy."
+    },
+    {
+      "id": "adverb-degree-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence using 'enough'.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "This room is big enough for us."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v4-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of degree diletakkan sebelum adverb yang dikuatkan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He walks very slowly.",
+        "He walks slowly very.",
+        "He very walks slowly."
+      ],
+      "answer": "He walks very slowly."
+    },
+    {
+      "id": "adverb-degree-v4-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Very diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "This coffee is ___ hot.",
+      "options": [
+        "very",
+        "much",
+        "many",
+        "well"
+      ],
+      "answer": "very"
+    },
+    {
+      "id": "adverb-degree-v4-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Enough diletakkan setelah kata sifat: big enough.",
+      "type": "multiple_choice",
+      "question": "This bag is not big ___ for my books.",
+      "options": [
+        "enough",
+        "very",
+        "too",
+        "quite"
+      ],
+      "answer": "enough"
+    },
+    {
+      "id": "adverb-degree-v4-match-1",
+      "prompt": "Match each phrase to the correct order",
+      "explanation": "Enough diletakkan setelah kata sifat, sedangkan very, too, dan quite sebelum kata sifat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "old + enough",
+          "right": "old enough"
+        },
+        {
+          "left": "very + tall",
+          "right": "very tall"
+        },
+        {
+          "left": "too + hot",
+          "right": "too hot"
+        },
+        {
+          "left": "quite + easy",
+          "right": "quite easy"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Too diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "This",
+        "tea",
+        "is",
+        "too",
+        "hot"
+      ],
+      "answer": "This tea is too hot"
+    },
+    {
+      "id": "adverb-degree-v4-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "film",
+        "was",
+        "really",
+        "good"
+      ],
+      "answer": "The film was really good"
+    },
+    {
+      "id": "adverb-degree-v4-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Very menguatkan kata sifat busy.",
+      "type": "fill_blank",
+      "sentence": "Jakarta is ___ busy in the morning.",
+      "answer": [
+        "very"
+      ]
+    },
+    {
+      "id": "adverb-degree-v4-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "Really diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "The film was ___ good.",
+      "options": [
+        "really",
+        "very much",
+        "too much",
+        "many"
+      ],
+      "answer": "really"
+    },
+    {
+      "id": "adverb-degree-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan very, quite, really, atau too sebelum kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence about your city using an adverb of degree.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "Jakarta is very busy in the morning."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v5-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of degree diletakkan sebelum adverb yang dikuatkan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He walks very slowly.",
+        "He walks slowly very.",
+        "He very walks slowly."
+      ],
+      "answer": "He walks very slowly."
+    },
+    {
+      "id": "adverb-degree-v5-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Too berarti terlalu, menandakan sesuatu yang berlebihan.",
+      "type": "multiple_choice",
+      "question": "The box is ___ heavy. I cannot lift it.",
+      "options": [
+        "too",
+        "enough",
+        "quite a",
+        "very much"
+      ],
+      "answer": "too"
+    },
+    {
+      "id": "adverb-degree-v5-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Quite diletakkan sebelum kata sifat, dan setelah 'was' kita memakai kata sifat easy.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "The test was quite easy.",
+        "The test was easy quite.",
+        "The test was quite easily."
+      ],
+      "answer": "The test was quite easy."
+    },
+    {
+      "id": "adverb-degree-v5-match-1",
+      "prompt": "Match each adverb to its meaning",
+      "explanation": "Extremely paling kuat, quite lebih lemah, too berlebihan, enough cukup.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "extremely",
+          "right": "very, very strong"
+        },
+        {
+          "left": "quite",
+          "right": "a little strong"
+        },
+        {
+          "left": "too",
+          "right": "more than we want"
+        },
+        {
+          "left": "enough",
+          "right": "as much as we need"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "film",
+        "was",
+        "really",
+        "good"
+      ],
+      "answer": "The film was really good"
+    },
+    {
+      "id": "adverb-degree-v5-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Too diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "This",
+        "tea",
+        "is",
+        "too",
+        "hot"
+      ],
+      "answer": "This tea is too hot"
+    },
+    {
+      "id": "adverb-degree-v5-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Too berarti berlebihan sampai menjadi masalah.",
+      "type": "fill_blank",
+      "sentence": "The soup is ___ salty. I cannot eat it.",
+      "answer": [
+        "too"
+      ]
+    },
+    {
+      "id": "adverb-degree-v5-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "Very diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "This coffee is ___ hot.",
+      "options": [
+        "very",
+        "much",
+        "many",
+        "well"
+      ],
+      "answer": "very"
+    },
+    {
+      "id": "adverb-degree-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan very, quite, really, atau too sebelum kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence about your city using an adverb of degree.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "Jakarta is very busy in the morning."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v6-mc-1",
+      "prompt": "Choose the correct position",
+      "explanation": "Enough diletakkan setelah kata sifat, berbeda dari very.",
+      "type": "multiple_choice",
+      "question": "She is not ___ to drive.",
+      "options": [
+        "old enough",
+        "enough old",
+        "very enough",
+        "enough older"
+      ],
+      "answer": "old enough"
+    },
+    {
+      "id": "adverb-degree-v6-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Enough diletakkan setelah kata sifat: big enough.",
+      "type": "multiple_choice",
+      "question": "This bag is not big ___ for my books.",
+      "options": [
+        "enough",
+        "very",
+        "too",
+        "quite"
+      ],
+      "answer": "enough"
+    },
+    {
+      "id": "adverb-degree-v6-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Really diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "The film was ___ good.",
+      "options": [
+        "really",
+        "very much",
+        "too much",
+        "many"
+      ],
+      "answer": "really"
+    },
+    {
+      "id": "adverb-degree-v6-match-1",
+      "prompt": "Match each phrase to the correct order",
+      "explanation": "Enough diletakkan setelah kata sifat, sedangkan very, too, dan quite sebelum kata sifat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "old + enough",
+          "right": "old enough"
+        },
+        {
+          "left": "very + tall",
+          "right": "very tall"
+        },
+        {
+          "left": "too + hot",
+          "right": "too hot"
+        },
+        {
+          "left": "quite + easy",
+          "right": "quite easy"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Quite diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "quite",
+        "tired",
+        "today"
+      ],
+      "answer": "She is quite tired today"
+    },
+    {
+      "id": "adverb-degree-v6-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree bisa menguatkan adverb lain.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "walks",
+        "very",
+        "slowly"
+      ],
+      "answer": "He walks very slowly"
+    },
+    {
+      "id": "adverb-degree-v6-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "fill_blank",
+      "sentence": "This bag is not big ___ for my books.",
+      "answer": [
+        "enough"
+      ]
+    },
+    {
+      "id": "adverb-degree-v6-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "Too berarti terlalu, menandakan sesuatu yang berlebihan.",
+      "type": "multiple_choice",
+      "question": "The box is ___ heavy. I cannot lift it.",
+      "options": [
+        "too",
+        "enough",
+        "quite a",
+        "very much"
+      ],
+      "answer": "too"
+    },
+    {
+      "id": "adverb-degree-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence using 'enough'.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "This room is big enough for us."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v7-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Quite diletakkan sebelum kata sifat, dan setelah 'was' kita memakai kata sifat easy.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "The test was quite easy.",
+        "The test was easy quite.",
+        "The test was quite easily."
+      ],
+      "answer": "The test was quite easy."
+    },
+    {
+      "id": "adverb-degree-v7-mc-2",
+      "prompt": "Choose the correct position",
+      "explanation": "Enough diletakkan setelah kata sifat, berbeda dari very.",
+      "type": "multiple_choice",
+      "question": "She is not ___ to drive.",
+      "options": [
+        "old enough",
+        "enough old",
+        "very enough",
+        "enough older"
+      ],
+      "answer": "old enough"
+    },
+    {
+      "id": "adverb-degree-v7-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Very diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "This coffee is ___ hot.",
+      "options": [
+        "very",
+        "much",
+        "many",
+        "well"
+      ],
+      "answer": "very"
+    },
+    {
+      "id": "adverb-degree-v7-match-1",
+      "prompt": "Match each phrase to the correct order",
+      "explanation": "Enough diletakkan setelah kata sifat, sedangkan very, too, dan quite sebelum kata sifat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "old + enough",
+          "right": "old enough"
+        },
+        {
+          "left": "very + tall",
+          "right": "very tall"
+        },
+        {
+          "left": "too + hot",
+          "right": "too hot"
+        },
+        {
+          "left": "quite + easy",
+          "right": "quite easy"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "film",
+        "was",
+        "really",
+        "good"
+      ],
+      "answer": "The film was really good"
+    },
+    {
+      "id": "adverb-degree-v7-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree bisa menguatkan adverb lain.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "walks",
+        "very",
+        "slowly"
+      ],
+      "answer": "He walks very slowly"
+    },
+    {
+      "id": "adverb-degree-v7-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Too berarti berlebihan sampai menjadi masalah.",
+      "type": "fill_blank",
+      "sentence": "The soup is ___ salty. I cannot eat it.",
+      "answer": [
+        "too"
+      ]
+    },
+    {
+      "id": "adverb-degree-v7-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of degree diletakkan sebelum adverb yang dikuatkan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He walks very slowly.",
+        "He walks slowly very.",
+        "He very walks slowly."
+      ],
+      "answer": "He walks very slowly."
+    },
+    {
+      "id": "adverb-degree-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan very, quite, really, atau too sebelum kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence about your city using an adverb of degree.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "Jakarta is very busy in the morning."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v8-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Really diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "The film was ___ good.",
+      "options": [
+        "really",
+        "very much",
+        "too much",
+        "many"
+      ],
+      "answer": "really"
+    },
+    {
+      "id": "adverb-degree-v8-mc-2",
+      "prompt": "Choose the correct position",
+      "explanation": "Enough diletakkan setelah kata sifat, berbeda dari very.",
+      "type": "multiple_choice",
+      "question": "She is not ___ to drive.",
+      "options": [
+        "old enough",
+        "enough old",
+        "very enough",
+        "enough older"
+      ],
+      "answer": "old enough"
+    },
+    {
+      "id": "adverb-degree-v8-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Very diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "This coffee is ___ hot.",
+      "options": [
+        "very",
+        "much",
+        "many",
+        "well"
+      ],
+      "answer": "very"
+    },
+    {
+      "id": "adverb-degree-v8-match-1",
+      "prompt": "Match each adverb to its meaning",
+      "explanation": "Extremely paling kuat, quite lebih lemah, too berlebihan, enough cukup.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "extremely",
+          "right": "very, very strong"
+        },
+        {
+          "left": "quite",
+          "right": "a little strong"
+        },
+        {
+          "left": "too",
+          "right": "more than we want"
+        },
+        {
+          "left": "enough",
+          "right": "as much as we need"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Too diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "This",
+        "tea",
+        "is",
+        "too",
+        "hot"
+      ],
+      "answer": "This tea is too hot"
+    },
+    {
+      "id": "adverb-degree-v8-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Quite diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "quite",
+        "tired",
+        "today"
+      ],
+      "answer": "She is quite tired today"
+    },
+    {
+      "id": "adverb-degree-v8-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Very menguatkan kata sifat busy.",
+      "type": "fill_blank",
+      "sentence": "Jakarta is ___ busy in the morning.",
+      "answer": [
+        "very"
+      ]
+    },
+    {
+      "id": "adverb-degree-v8-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Quite diletakkan sebelum kata sifat, dan setelah 'was' kita memakai kata sifat easy.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "The test was quite easy.",
+        "The test was easy quite.",
+        "The test was quite easily."
+      ],
+      "answer": "The test was quite easy."
+    },
+    {
+      "id": "adverb-degree-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence using 'enough'.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "This room is big enough for us."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v9-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Too berarti terlalu, menandakan sesuatu yang berlebihan.",
+      "type": "multiple_choice",
+      "question": "The box is ___ heavy. I cannot lift it.",
+      "options": [
+        "too",
+        "enough",
+        "quite a",
+        "very much"
+      ],
+      "answer": "too"
+    },
+    {
+      "id": "adverb-degree-v9-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Enough diletakkan setelah kata sifat: big enough.",
+      "type": "multiple_choice",
+      "question": "This bag is not big ___ for my books.",
+      "options": [
+        "enough",
+        "very",
+        "too",
+        "quite"
+      ],
+      "answer": "enough"
+    },
+    {
+      "id": "adverb-degree-v9-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of degree diletakkan sebelum adverb yang dikuatkan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He walks very slowly.",
+        "He walks slowly very.",
+        "He very walks slowly."
+      ],
+      "answer": "He walks very slowly."
+    },
+    {
+      "id": "adverb-degree-v9-match-1",
+      "prompt": "Match each phrase to the correct order",
+      "explanation": "Enough diletakkan setelah kata sifat, sedangkan very, too, dan quite sebelum kata sifat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "old + enough",
+          "right": "old enough"
+        },
+        {
+          "left": "very + tall",
+          "right": "very tall"
+        },
+        {
+          "left": "too + hot",
+          "right": "too hot"
+        },
+        {
+          "left": "quite + easy",
+          "right": "quite easy"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Too diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "This",
+        "tea",
+        "is",
+        "too",
+        "hot"
+      ],
+      "answer": "This tea is too hot"
+    },
+    {
+      "id": "adverb-degree-v9-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "film",
+        "was",
+        "really",
+        "good"
+      ],
+      "answer": "The film was really good"
+    },
+    {
+      "id": "adverb-degree-v9-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "fill_blank",
+      "sentence": "This bag is not big ___ for my books.",
+      "answer": [
+        "enough"
+      ]
+    },
+    {
+      "id": "adverb-degree-v9-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Quite diletakkan sebelum kata sifat, dan setelah 'was' kita memakai kata sifat easy.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "The test was quite easy.",
+        "The test was easy quite.",
+        "The test was quite easily."
+      ],
+      "answer": "The test was quite easy."
+    },
+    {
+      "id": "adverb-degree-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence using 'enough'.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "This room is big enough for us."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v10-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Really diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "The film was ___ good.",
+      "options": [
+        "really",
+        "very much",
+        "too much",
+        "many"
+      ],
+      "answer": "really"
+    },
+    {
+      "id": "adverb-degree-v10-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Too berarti terlalu, menandakan sesuatu yang berlebihan.",
+      "type": "multiple_choice",
+      "question": "The box is ___ heavy. I cannot lift it.",
+      "options": [
+        "too",
+        "enough",
+        "quite a",
+        "very much"
+      ],
+      "answer": "too"
+    },
+    {
+      "id": "adverb-degree-v10-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Enough diletakkan setelah kata sifat: big enough.",
+      "type": "multiple_choice",
+      "question": "This bag is not big ___ for my books.",
+      "options": [
+        "enough",
+        "very",
+        "too",
+        "quite"
+      ],
+      "answer": "enough"
+    },
+    {
+      "id": "adverb-degree-v10-match-1",
+      "prompt": "Match each adverb to its meaning",
+      "explanation": "Extremely paling kuat, quite lebih lemah, too berlebihan, enough cukup.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "extremely",
+          "right": "very, very strong"
+        },
+        {
+          "left": "quite",
+          "right": "a little strong"
+        },
+        {
+          "left": "too",
+          "right": "more than we want"
+        },
+        {
+          "left": "enough",
+          "right": "as much as we need"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree bisa menguatkan adverb lain.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "walks",
+        "very",
+        "slowly"
+      ],
+      "answer": "He walks very slowly"
+    },
+    {
+      "id": "adverb-degree-v10-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Quite diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "quite",
+        "tired",
+        "today"
+      ],
+      "answer": "She is quite tired today"
+    },
+    {
+      "id": "adverb-degree-v10-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Too berarti berlebihan sampai menjadi masalah.",
+      "type": "fill_blank",
+      "sentence": "The soup is ___ salty. I cannot eat it.",
+      "answer": [
+        "too"
+      ]
+    },
+    {
+      "id": "adverb-degree-v10-mc-4",
+      "prompt": "Choose the correct position",
+      "explanation": "Enough diletakkan setelah kata sifat, berbeda dari very.",
+      "type": "multiple_choice",
+      "question": "She is not ___ to drive.",
+      "options": [
+        "old enough",
+        "enough old",
+        "very enough",
+        "enough older"
+      ],
+      "answer": "old enough"
+    },
+    {
+      "id": "adverb-degree-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan very, quite, really, atau too sebelum kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence about your city using an adverb of degree.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "Jakarta is very busy in the morning."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v11-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Very diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "This coffee is ___ hot.",
+      "options": [
+        "very",
+        "much",
+        "many",
+        "well"
+      ],
+      "answer": "very"
+    },
+    {
+      "id": "adverb-degree-v11-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of degree diletakkan sebelum adverb yang dikuatkan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He walks very slowly.",
+        "He walks slowly very.",
+        "He very walks slowly."
+      ],
+      "answer": "He walks very slowly."
+    },
+    {
+      "id": "adverb-degree-v11-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Too berarti terlalu, menandakan sesuatu yang berlebihan.",
+      "type": "multiple_choice",
+      "question": "The box is ___ heavy. I cannot lift it.",
+      "options": [
+        "too",
+        "enough",
+        "quite a",
+        "very much"
+      ],
+      "answer": "too"
+    },
+    {
+      "id": "adverb-degree-v11-match-1",
+      "prompt": "Match each adverb to its meaning",
+      "explanation": "Extremely paling kuat, quite lebih lemah, too berlebihan, enough cukup.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "extremely",
+          "right": "very, very strong"
+        },
+        {
+          "left": "quite",
+          "right": "a little strong"
+        },
+        {
+          "left": "too",
+          "right": "more than we want"
+        },
+        {
+          "left": "enough",
+          "right": "as much as we need"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Quite diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "quite",
+        "tired",
+        "today"
+      ],
+      "answer": "She is quite tired today"
+    },
+    {
+      "id": "adverb-degree-v11-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Too diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "This",
+        "tea",
+        "is",
+        "too",
+        "hot"
+      ],
+      "answer": "This tea is too hot"
+    },
+    {
+      "id": "adverb-degree-v11-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "fill_blank",
+      "sentence": "This bag is not big ___ for my books.",
+      "answer": [
+        "enough"
+      ]
+    },
+    {
+      "id": "adverb-degree-v11-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "Really diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "The film was ___ good.",
+      "options": [
+        "really",
+        "very much",
+        "too much",
+        "many"
+      ],
+      "answer": "really"
+    },
+    {
+      "id": "adverb-degree-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence using 'enough'.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "This room is big enough for us."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v12-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Quite diletakkan sebelum kata sifat, dan setelah 'was' kita memakai kata sifat easy.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "The test was quite easy.",
+        "The test was easy quite.",
+        "The test was quite easily."
+      ],
+      "answer": "The test was quite easy."
+    },
+    {
+      "id": "adverb-degree-v12-mc-2",
+      "prompt": "Choose the correct position",
+      "explanation": "Enough diletakkan setelah kata sifat, berbeda dari very.",
+      "type": "multiple_choice",
+      "question": "She is not ___ to drive.",
+      "options": [
+        "old enough",
+        "enough old",
+        "very enough",
+        "enough older"
+      ],
+      "answer": "old enough"
+    },
+    {
+      "id": "adverb-degree-v12-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Very diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "This coffee is ___ hot.",
+      "options": [
+        "very",
+        "much",
+        "many",
+        "well"
+      ],
+      "answer": "very"
+    },
+    {
+      "id": "adverb-degree-v12-match-1",
+      "prompt": "Match each phrase to the correct order",
+      "explanation": "Enough diletakkan setelah kata sifat, sedangkan very, too, dan quite sebelum kata sifat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "old + enough",
+          "right": "old enough"
+        },
+        {
+          "left": "very + tall",
+          "right": "very tall"
+        },
+        {
+          "left": "too + hot",
+          "right": "too hot"
+        },
+        {
+          "left": "quite + easy",
+          "right": "quite easy"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree bisa menguatkan adverb lain.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "walks",
+        "very",
+        "slowly"
+      ],
+      "answer": "He walks very slowly"
+    },
+    {
+      "id": "adverb-degree-v12-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "film",
+        "was",
+        "really",
+        "good"
+      ],
+      "answer": "The film was really good"
+    },
+    {
+      "id": "adverb-degree-v12-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Very menguatkan kata sifat busy.",
+      "type": "fill_blank",
+      "sentence": "Jakarta is ___ busy in the morning.",
+      "answer": [
+        "very"
+      ]
+    },
+    {
+      "id": "adverb-degree-v12-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of degree diletakkan sebelum adverb yang dikuatkan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He walks very slowly.",
+        "He walks slowly very.",
+        "He very walks slowly."
+      ],
+      "answer": "He walks very slowly."
+    },
+    {
+      "id": "adverb-degree-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan very, quite, really, atau too sebelum kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence about your city using an adverb of degree.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "Jakarta is very busy in the morning."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v13-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Enough diletakkan setelah kata sifat: big enough.",
+      "type": "multiple_choice",
+      "question": "This bag is not big ___ for my books.",
+      "options": [
+        "enough",
+        "very",
+        "too",
+        "quite"
+      ],
+      "answer": "enough"
+    },
+    {
+      "id": "adverb-degree-v13-mc-2",
+      "prompt": "Choose the correct position",
+      "explanation": "Enough diletakkan setelah kata sifat, berbeda dari very.",
+      "type": "multiple_choice",
+      "question": "She is not ___ to drive.",
+      "options": [
+        "old enough",
+        "enough old",
+        "very enough",
+        "enough older"
+      ],
+      "answer": "old enough"
+    },
+    {
+      "id": "adverb-degree-v13-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Very diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "This coffee is ___ hot.",
+      "options": [
+        "very",
+        "much",
+        "many",
+        "well"
+      ],
+      "answer": "very"
+    },
+    {
+      "id": "adverb-degree-v13-match-1",
+      "prompt": "Match each phrase to the correct order",
+      "explanation": "Enough diletakkan setelah kata sifat, sedangkan very, too, dan quite sebelum kata sifat.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "old + enough",
+          "right": "old enough"
+        },
+        {
+          "left": "very + tall",
+          "right": "very tall"
+        },
+        {
+          "left": "too + hot",
+          "right": "too hot"
+        },
+        {
+          "left": "quite + easy",
+          "right": "quite easy"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Quite diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "is",
+        "quite",
+        "tired",
+        "today"
+      ],
+      "answer": "She is quite tired today"
+    },
+    {
+      "id": "adverb-degree-v13-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Too diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "This",
+        "tea",
+        "is",
+        "too",
+        "hot"
+      ],
+      "answer": "This tea is too hot"
+    },
+    {
+      "id": "adverb-degree-v13-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Too berarti berlebihan sampai menjadi masalah.",
+      "type": "fill_blank",
+      "sentence": "The soup is ___ salty. I cannot eat it.",
+      "answer": [
+        "too"
+      ]
+    },
+    {
+      "id": "adverb-degree-v13-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of degree diletakkan sebelum adverb yang dikuatkan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He walks very slowly.",
+        "He walks slowly very.",
+        "He very walks slowly."
+      ],
+      "answer": "He walks very slowly."
+    },
+    {
+      "id": "adverb-degree-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan very, quite, really, atau too sebelum kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence about your city using an adverb of degree.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "Jakarta is very busy in the morning."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v14-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Quite diletakkan sebelum kata sifat, dan setelah 'was' kita memakai kata sifat easy.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "The test was quite easy.",
+        "The test was easy quite.",
+        "The test was quite easily."
+      ],
+      "answer": "The test was quite easy."
+    },
+    {
+      "id": "adverb-degree-v14-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Enough diletakkan setelah kata sifat: big enough.",
+      "type": "multiple_choice",
+      "question": "This bag is not big ___ for my books.",
+      "options": [
+        "enough",
+        "very",
+        "too",
+        "quite"
+      ],
+      "answer": "enough"
+    },
+    {
+      "id": "adverb-degree-v14-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Too berarti terlalu, menandakan sesuatu yang berlebihan.",
+      "type": "multiple_choice",
+      "question": "The box is ___ heavy. I cannot lift it.",
+      "options": [
+        "too",
+        "enough",
+        "quite a",
+        "very much"
+      ],
+      "answer": "too"
+    },
+    {
+      "id": "adverb-degree-v14-match-1",
+      "prompt": "Match each adverb to its meaning",
+      "explanation": "Extremely paling kuat, quite lebih lemah, too berlebihan, enough cukup.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "extremely",
+          "right": "very, very strong"
+        },
+        {
+          "left": "quite",
+          "right": "a little strong"
+        },
+        {
+          "left": "too",
+          "right": "more than we want"
+        },
+        {
+          "left": "enough",
+          "right": "as much as we need"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "The",
+        "film",
+        "was",
+        "really",
+        "good"
+      ],
+      "answer": "The film was really good"
+    },
+    {
+      "id": "adverb-degree-v14-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree bisa menguatkan adverb lain.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "walks",
+        "very",
+        "slowly"
+      ],
+      "answer": "He walks very slowly"
+    },
+    {
+      "id": "adverb-degree-v14-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "fill_blank",
+      "sentence": "This bag is not big ___ for my books.",
+      "answer": [
+        "enough"
+      ]
+    },
+    {
+      "id": "adverb-degree-v14-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "Really diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "The film was ___ good.",
+      "options": [
+        "really",
+        "very much",
+        "too much",
+        "many"
+      ],
+      "answer": "really"
+    },
+    {
+      "id": "adverb-degree-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence using 'enough'.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "This room is big enough for us."
+    }
+  ],
+  [
+    {
+      "id": "adverb-degree-v15-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of degree diletakkan sebelum adverb yang dikuatkan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He walks very slowly.",
+        "He walks slowly very.",
+        "He very walks slowly."
+      ],
+      "answer": "He walks very slowly."
+    },
+    {
+      "id": "adverb-degree-v15-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Very diletakkan sebelum kata sifat untuk menguatkannya.",
+      "type": "multiple_choice",
+      "question": "This coffee is ___ hot.",
+      "options": [
+        "very",
+        "much",
+        "many",
+        "well"
+      ],
+      "answer": "very"
+    },
+    {
+      "id": "adverb-degree-v15-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Too berarti terlalu, menandakan sesuatu yang berlebihan.",
+      "type": "multiple_choice",
+      "question": "The box is ___ heavy. I cannot lift it.",
+      "options": [
+        "too",
+        "enough",
+        "quite a",
+        "very much"
+      ],
+      "answer": "too"
+    },
+    {
+      "id": "adverb-degree-v15-match-1",
+      "prompt": "Match each adverb to its meaning",
+      "explanation": "Extremely paling kuat, quite lebih lemah, too berlebihan, enough cukup.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "extremely",
+          "right": "very, very strong"
+        },
+        {
+          "left": "quite",
+          "right": "a little strong"
+        },
+        {
+          "left": "too",
+          "right": "more than we want"
+        },
+        {
+          "left": "enough",
+          "right": "as much as we need"
+        }
+      ]
+    },
+    {
+      "id": "adverb-degree-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Too diletakkan sebelum kata sifat.",
+      "type": "word_order",
+      "words": [
+        "This",
+        "tea",
+        "is",
+        "too",
+        "hot"
+      ],
+      "answer": "This tea is too hot"
+    },
+    {
+      "id": "adverb-degree-v15-wo-2",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of degree bisa menguatkan adverb lain.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "walks",
+        "very",
+        "slowly"
+      ],
+      "answer": "He walks very slowly"
+    },
+    {
+      "id": "adverb-degree-v15-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Very menguatkan kata sifat busy.",
+      "type": "fill_blank",
+      "sentence": "Jakarta is ___ busy in the morning.",
+      "answer": [
+        "very"
+      ]
+    },
+    {
+      "id": "adverb-degree-v15-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Quite diletakkan sebelum kata sifat, dan setelah 'was' kita memakai kata sifat easy.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "The test was quite easy.",
+        "The test was easy quite.",
+        "The test was quite easily."
+      ],
+      "answer": "The test was quite easy."
+    },
+    {
+      "id": "adverb-degree-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Enough diletakkan setelah kata sifat.",
+      "type": "free_write",
+      "task": "Write one sentence using 'enough'.",
+      "requirements": [
+        "adverb of degree"
+      ],
+      "modelAnswer": "This room is big enough for us."
+    }
+  ]
+]

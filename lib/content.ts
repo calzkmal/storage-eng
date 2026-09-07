@@ -15,7 +15,7 @@ const LESSONS_TAG = "lessons";
 // Backstop for `next dev`, where tag invalidation does not reach unstable_cache.
 const CACHE_TTL_SECONDS = 60;
 
-export type SetSource = "seed" | "generated";
+export type SetSource = "seed" | "generated" | "variation";
 
 /** A lesson card, without its exercises. */
 export type LessonOverview = {
@@ -24,18 +24,15 @@ export type LessonOverview = {
   order: number;
   title: string;
   exerciseCount: number;
-  setId: string;
-  setVersion: number;
-  setSource: SetSource;
+  /** Ids of every set, so a card can show how many the learner has finished. */
+  setIds: string[];
 };
 
-/** A lesson plus which exercise set it is using. */
-export type LessonWithSet = Lesson & {
-  setId: string;
-  setVersion: number;
-  setSource: SetSource;
-  modelUsed: string | null;
-};
+/** One playable set of questions for a lesson. */
+export type LessonSet = { setId: string; version: number; source: SetSource; exercises: Exercise[] };
+
+/** A lesson plus every set a learner can be given. */
+export type LessonWithSets = Lesson & { sets: LessonSet[] };
 
 let fileCache: Lesson[] | null = null;
 
@@ -64,35 +61,35 @@ export function loadLessonFiles(): Lesson[] {
 
 const fileSetId = (lessonId: string) => `file:${lessonId}`;
 
-function withFileSet(lesson: Lesson): LessonWithSet {
-  return { ...lesson, setId: fileSetId(lesson.id), setVersion: 1, setSource: "seed", modelUsed: null };
+function withFileSet(lesson: Lesson): LessonWithSets {
+  return {
+    ...lesson,
+    sets: [{ setId: fileSetId(lesson.id), version: 1, source: "seed", exercises: lesson.exercises }],
+  };
 }
 
-function overviewOf(lesson: LessonWithSet): LessonOverview {
+function overviewOf(lesson: LessonWithSets): LessonOverview {
   return {
     id: lesson.id,
     category: lesson.category,
     order: lesson.order,
     title: lesson.title,
-    exerciseCount: lesson.exercises.length,
-    setId: lesson.setId,
-    setVersion: lesson.setVersion,
-    setSource: lesson.setSource,
+    exerciseCount: lesson.sets[0]?.exercises.length ?? 0,
+    setIds: lesson.sets.map((s) => s.setId),
   };
 }
 
-/** Row of the `lesson_active` view. */
-type ActiveRow = {
-  id: string;
+/** Row of the `lesson_sets` view: one playable set joined to its lesson. */
+type SetRow = {
+  set_id: string;
+  lesson_id: string;
+  version: number;
+  source: SetSource;
+  exercises: unknown;
   category: number;
   position: number;
   title: string;
   intro: string | null;
-  set_id: string;
-  set_version: number;
-  set_source: SetSource;
-  model_used: string | null;
-  exercises: unknown;
 };
 
 const ExercisesJson = z.array(ExerciseSchema);
@@ -198,19 +195,20 @@ export async function seedDatabase(
   return { lessons: files.length, createdSets, removed: removed.length };
 }
 
-// One query for every lesson. These reads are latency-bound, not payload-bound:
-// all 18 sets cost the same as one, so fetching them together is free after the first.
+// One query for every playable set. These reads are latency-bound rather than
+// payload-bound, so fetching the whole syllabus at once and caching it is cheapest.
 const readSyllabus = unstable_cache(
-  async (): Promise<LessonWithSet[] | null> => {
+  async (): Promise<LessonWithSets[] | null> => {
     const db = getDb();
     if (!db) return null;
 
     const query = () =>
       db
-        .from("lesson_active")
-        .select("id, category, position, title, intro, set_id, set_version, set_source, model_used, exercises")
+        .from("lesson_sets")
+        .select("set_id, lesson_id, version, source, exercises, category, position, title, intro")
         .order("category", { ascending: true })
-        .order("position", { ascending: true });
+        .order("position", { ascending: true })
+        .order("version", { ascending: true });
 
     let { data, error } = await query();
     if (error) fail("read syllabus", error);
@@ -222,32 +220,33 @@ const readSyllabus = unstable_cache(
       if (error) fail("read syllabus after seeding", error);
     }
 
-    const out: LessonWithSet[] = [];
+    const byLesson = new Map<string, LessonWithSets>();
     for (const raw of data ?? []) {
-      const row = raw as unknown as ActiveRow;
+      const row = raw as unknown as SetRow;
       const exercises = ExercisesJson.safeParse(row.exercises);
-      const parsed = exercises.success
-        ? LessonSchema.safeParse({
-            id: row.id,
-            category: row.category,
-            order: row.position,
-            title: row.title,
-            intro: row.intro ?? undefined,
-            exercises: exercises.data,
-          })
-        : null;
-      if (!parsed?.success) {
-        console.error(`[content] stored set ${row.set_id} for ${row.id} is invalid; using the bundled file instead`);
+      if (!exercises.success) {
+        console.error(`[content] stored set ${row.set_id} for ${row.lesson_id} is invalid; skipped`);
         continue;
       }
-      out.push({
-        ...parsed.data,
-        setId: row.set_id,
-        setVersion: row.set_version,
-        setSource: row.set_source,
-        modelUsed: row.model_used,
+      const parsed = LessonSchema.safeParse({
+        id: row.lesson_id,
+        category: row.category,
+        order: row.position,
+        title: row.title,
+        intro: row.intro ?? undefined,
+        exercises: exercises.data,
       });
+      if (!parsed.success) {
+        console.error(`[content] stored set ${row.set_id} for ${row.lesson_id} is invalid; skipped`);
+        continue;
+      }
+      const set = { setId: row.set_id, version: row.version, source: row.source, exercises: exercises.data };
+      const existing = byLesson.get(row.lesson_id);
+      if (existing) existing.sets.push(set);
+      else byLesson.set(row.lesson_id, { ...parsed.data, sets: [set] });
     }
+
+    const out = [...byLesson.values()];
     out.sort((a, b) => a.category - b.category || a.order - b.order);
     return out;
   },
@@ -256,7 +255,7 @@ const readSyllabus = unstable_cache(
 );
 
 /** Falls back to the bundled files when the database is out. */
-async function syllabus(): Promise<LessonWithSet[]> {
+async function syllabus(): Promise<LessonWithSets[]> {
   try {
     const rows = await readSyllabus();
     if (rows && rows.length) return rows;
@@ -272,14 +271,16 @@ export async function getLessonOverviews(): Promise<LessonOverview[]> {
 }
 
 /** One lesson with its exercises. */
-export async function getLesson(id: string): Promise<LessonWithSet | undefined> {
+export async function getLesson(id: string): Promise<LessonWithSets | undefined> {
   return (await syllabus()).find((l) => l.id === id);
 }
 
 export async function findExercise(exerciseId: string): Promise<Exercise | undefined> {
   for (const lesson of await syllabus()) {
-    const ex = lesson.exercises.find((e) => e.id === exerciseId);
-    if (ex) return ex;
+    for (const set of lesson.sets) {
+      const ex = set.exercises.find((e) => e.id === exerciseId);
+      if (ex) return ex;
+    }
   }
   return undefined;
 }

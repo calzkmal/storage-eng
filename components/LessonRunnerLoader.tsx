@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import type { Lesson } from "@/lib/schema";
+import type { LessonSet } from "@/lib/content";
 
 // Client-only: the runner shuffles on mount, which would mismatch on hydration.
 const LessonRunner = dynamic(() => import("./LessonRunner"), {
@@ -22,6 +23,6 @@ const LessonRunner = dynamic(() => import("./LessonRunner"), {
   ),
 });
 
-export default function LessonRunnerLoader(props: { lesson: Lesson; setId: string }) {
+export default function LessonRunnerLoader(props: { lesson: Lesson; sets: LessonSet[] }) {
   return <LessonRunner {...props} />;
 }

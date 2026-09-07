@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Exercise, Lesson } from "@/lib/schema";
+import type { LessonSet } from "@/lib/content";
 import {
   answerText,
   canCheck,
@@ -12,8 +13,8 @@ import {
   type AnswerValue,
 } from "@/lib/grading";
 import { shuffleChanged } from "@/lib/shuffle";
-import { markFinished, saveResult, type WrongItem } from "@/lib/storage";
-import { recordAttempt, useLearner } from "@/lib/learner";
+import { getFinished, markFinished, saveResult, type WrongItem } from "@/lib/storage";
+import { recordAttempt, recordSetCompleted, useLearner } from "@/lib/learner";
 import { buildGradeRequest, requestAIGrade } from "@/lib/ai/client";
 import TopBar from "./TopBar";
 import BottomBar, { type BottomTone } from "./BottomBar";
@@ -21,18 +22,26 @@ import FeedbackPanel, { type Feedback } from "./FeedbackPanel";
 import ConfirmDialog from "./ConfirmDialog";
 import ExerciseView from "./exercises/ExerciseView";
 
-type Props = { lesson: Lesson; setId: string };
+type Props = { lesson: Lesson; sets: LessonSet[] };
 type Phase = "main" | "review";
 
 // One exercise per screen: Check, feedback, Continue. Wrong answers replay once at the end.
-export default function LessonRunner({ lesson, setId }: Props) {
+export default function LessonRunner({ lesson, sets }: Props) {
   const router = useRouter();
   const learner = useLearner();
+
+  // Pick a set the learner has not finished, so every visit brings new questions
+  // without any request. Falls back to the least recently seen once all are done.
+  const [set] = useState<LessonSet>(() => {
+    const done = new Set(getFinished());
+    return sets.find((s) => !done.has(s.setId)) ?? sets[Math.floor(Math.random() * sets.length)];
+  });
+  const setId = set.setId;
 
   // Read from the URL, not props, so the lesson page stays static. Client-only component.
   const [order] = useState<Exercise[]>(() => {
     const shuffle = new URLSearchParams(window.location.search).get("shuffle") === "1";
-    return shuffle ? shuffleChanged(lesson.exercises) : lesson.exercises;
+    return shuffle ? shuffleChanged(set.exercises) : set.exercises;
   });
   // Groups this pass in the history.
   const [runId] = useState(() => {
@@ -172,6 +181,7 @@ export default function LessonRunner({ lesson, setId }: Props) {
       finishedAt: Date.now(),
     });
     markFinished(setId);
+    recordSetCompleted(learner?.id, lesson.id, setId);
     router.push(`/lesson/${lesson.id}/done`);
   }
 

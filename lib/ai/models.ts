@@ -1,13 +1,11 @@
-// Free models in priority order; grading must answer within ~9s, so the
-// fastest go first. They rotate: `npm run check-models` finds dead entries.
+// Free models in priority order, used only for grading free-text answers.
+// Grading must answer within ~9s, so the fastest go first. They rotate, and
+// a dead entry fails instantly, so check them against the live :free list.
 export const FREE_MODELS: string[] = [
   "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
   "nvidia/nemotron-3.5-lightning:free",
-  "minimax/minimax-m3:free",
-  "z-ai/glm-5.2:free",
-  "google/gemma-4-31b-it:free",
-  "google/gemma-4-26b-a4b-it:free",
-  "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "nvidia/nemotron-3-super-120b-a12b:free",
+  "liquid/lfm-2.5-2.6b:free",
 ];
 
 /** `OPENROUTER_MODELS` overrides the list, for testing fallback. */

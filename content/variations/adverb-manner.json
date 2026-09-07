@@ -1,0 +1,1881 @@
+[
+  [
+    {
+      "id": "adverb-manner-v1-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He answered the question quickly.",
+        "He answered quickly the question.",
+        "He quickly answered question the."
+      ],
+      "answer": "He answered the question quickly."
+    },
+    {
+      "id": "adverb-manner-v1-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Quiet + -ly menjadi quietly, menjelaskan cara menutup pintu.",
+      "type": "multiple_choice",
+      "question": "She closed the door ___.",
+      "options": [
+        "quietly",
+        "quiet",
+        "quietness",
+        "quieter"
+      ],
+      "answer": "quietly"
+    },
+    {
+      "id": "adverb-manner-v1-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Kebanyakan cukup ditambah -ly. Konsonan + y menjadi -ily. Good tidak beraturan: well.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "quick",
+          "right": "quickly"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "easy",
+          "right": "easily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v1-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Konsonan + y menjadi -ily: happily.",
+      "type": "fill_blank",
+      "sentence": "She sang ___ (happy).",
+      "answer": [
+        "happily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v1-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Slow + -ly menjadi slowly.",
+      "type": "fill_blank",
+      "sentence": "Please speak ___ (slow).",
+      "answer": [
+        "slowly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of manner di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "walked",
+        "home",
+        "slowly"
+      ],
+      "answer": "They walked home slowly"
+    },
+    {
+      "id": "adverb-manner-v1-mc-3",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Untuk menjelaskan cara, pakai adverb: beautiful + -ly menjadi beautifully.",
+      "type": "multiple_choice",
+      "question": "She sings ___.",
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
+      "answer": "beautifully"
+    },
+    {
+      "id": "adverb-manner-v1-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb dari hard adalah hard. Kata hardly berarti hampir tidak pernah.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They work hard every day.",
+        "They work hardly every day.",
+        "They work hardly."
+      ],
+      "answer": "They work hard every day."
+    },
+    {
+      "id": "adverb-manner-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan cara.",
+      "type": "free_write",
+      "task": "Write one sentence about how you do something, using an adverb of manner.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "I speak English slowly."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v2-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Careful + -ly menjadi carefully, dengan dua huruf l.",
+      "type": "multiple_choice",
+      "question": "He drives very ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefuly",
+        "care"
+      ],
+      "answer": "carefully"
+    },
+    {
+      "id": "adverb-manner-v2-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Fluent + -ly menjadi fluently.",
+      "type": "multiple_choice",
+      "question": "They speak English ___.",
+      "options": [
+        "fluently",
+        "fluent",
+        "fluence",
+        "more fluent"
+      ],
+      "answer": "fluently"
+    },
+    {
+      "id": "adverb-manner-v2-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Hard tidak berubah. Happy menjadi happily.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "careful",
+          "right": "carefully"
+        },
+        {
+          "left": "happy",
+          "right": "happily"
+        },
+        {
+          "left": "hard",
+          "right": "hard"
+        },
+        {
+          "left": "quiet",
+          "right": "quietly"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v2-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Patient + -ly menjadi patiently.",
+      "type": "fill_blank",
+      "sentence": "They waited ___ (patient).",
+      "answer": [
+        "patiently"
+      ]
+    },
+    {
+      "id": "adverb-manner-v2-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Easy berakhiran konsonan + y, jadi y berubah menjadi i: easily.",
+      "type": "fill_blank",
+      "sentence": "She finished the test ___ (easy).",
+      "answer": [
+        "easily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "speaks",
+        "English",
+        "fluently"
+      ],
+      "answer": "She speaks English fluently"
+    },
+    {
+      "id": "adverb-manner-v2-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Good adalah kata sifat, adverbnya well.",
+      "type": "multiple_choice",
+      "question": "My sister writes ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly",
+        "better good"
+      ],
+      "answer": "well"
+    },
+    {
+      "id": "adverb-manner-v2-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb dari hard adalah hard. Kata hardly berarti hampir tidak pernah.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They work hard every day.",
+        "They work hardly every day.",
+        "They work hardly."
+      ],
+      "answer": "They work hard every day."
+    },
+    {
+      "id": "adverb-manner-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb berakhiran -ly setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about how someone in your family works.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "My father drives carefully."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v3-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Quiet + -ly menjadi quietly, menjelaskan cara menutup pintu.",
+      "type": "multiple_choice",
+      "question": "She closed the door ___.",
+      "options": [
+        "quietly",
+        "quiet",
+        "quietness",
+        "quieter"
+      ],
+      "answer": "quietly"
+    },
+    {
+      "id": "adverb-manner-v3-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Untuk menjelaskan cara, pakai adverb: beautiful + -ly menjadi beautifully.",
+      "type": "multiple_choice",
+      "question": "She sings ___.",
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
+      "answer": "beautifully"
+    },
+    {
+      "id": "adverb-manner-v3-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Hard tidak berubah. Happy menjadi happily.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "careful",
+          "right": "carefully"
+        },
+        {
+          "left": "happy",
+          "right": "happily"
+        },
+        {
+          "left": "hard",
+          "right": "hard"
+        },
+        {
+          "left": "quiet",
+          "right": "quietly"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v3-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Quick + -ly menjadi quickly.",
+      "type": "fill_blank",
+      "sentence": "He runs ___ (quick).",
+      "answer": [
+        "quickly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v3-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Patient + -ly menjadi patiently.",
+      "type": "fill_blank",
+      "sentence": "They waited ___ (patient).",
+      "answer": [
+        "patiently"
+      ]
+    },
+    {
+      "id": "adverb-manner-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "answered",
+        "the",
+        "question",
+        "quickly"
+      ],
+      "answer": "He answered the question quickly"
+    },
+    {
+      "id": "adverb-manner-v3-mc-3",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Fluent + -ly menjadi fluently.",
+      "type": "multiple_choice",
+      "question": "They speak English ___.",
+      "options": [
+        "fluently",
+        "fluent",
+        "fluence",
+        "more fluent"
+      ],
+      "answer": "fluently"
+    },
+    {
+      "id": "adverb-manner-v3-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He answered the question quickly.",
+        "He answered quickly the question.",
+        "He quickly answered question the."
+      ],
+      "answer": "He answered the question quickly."
+    },
+    {
+      "id": "adverb-manner-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan cara.",
+      "type": "free_write",
+      "task": "Write one sentence about how you do something, using an adverb of manner.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "I speak English slowly."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v4-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Careful + -ly menjadi carefully, dengan dua huruf l.",
+      "type": "multiple_choice",
+      "question": "He drives very ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefuly",
+        "care"
+      ],
+      "answer": "carefully"
+    },
+    {
+      "id": "adverb-manner-v4-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Good adalah kata sifat, adverbnya well.",
+      "type": "multiple_choice",
+      "question": "My sister writes ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly",
+        "better good"
+      ],
+      "answer": "well"
+    },
+    {
+      "id": "adverb-manner-v4-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Kebanyakan cukup ditambah -ly. Konsonan + y menjadi -ily. Good tidak beraturan: well.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "quick",
+          "right": "quickly"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "easy",
+          "right": "easily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v4-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Slow + -ly menjadi slowly.",
+      "type": "fill_blank",
+      "sentence": "Please speak ___ (slow).",
+      "answer": [
+        "slowly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v4-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Quick + -ly menjadi quickly.",
+      "type": "fill_blank",
+      "sentence": "He runs ___ (quick).",
+      "answer": [
+        "quickly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "speaks",
+        "English",
+        "fluently"
+      ],
+      "answer": "She speaks English fluently"
+    },
+    {
+      "id": "adverb-manner-v4-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He answered the question quickly.",
+        "He answered quickly the question.",
+        "He quickly answered question the."
+      ],
+      "answer": "He answered the question quickly."
+    },
+    {
+      "id": "adverb-manner-v4-mc-4",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Untuk menjelaskan cara, pakai adverb: beautiful + -ly menjadi beautifully.",
+      "type": "multiple_choice",
+      "question": "She sings ___.",
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
+      "answer": "beautifully"
+    },
+    {
+      "id": "adverb-manner-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb berakhiran -ly setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about how someone in your family works.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "My father drives carefully."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v5-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Careful + -ly menjadi carefully, dengan dua huruf l.",
+      "type": "multiple_choice",
+      "question": "He drives very ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefuly",
+        "care"
+      ],
+      "answer": "carefully"
+    },
+    {
+      "id": "adverb-manner-v5-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Good adalah kata sifat, adverbnya well.",
+      "type": "multiple_choice",
+      "question": "My sister writes ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly",
+        "better good"
+      ],
+      "answer": "well"
+    },
+    {
+      "id": "adverb-manner-v5-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Hard tidak berubah. Happy menjadi happily.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "careful",
+          "right": "carefully"
+        },
+        {
+          "left": "happy",
+          "right": "happily"
+        },
+        {
+          "left": "hard",
+          "right": "hard"
+        },
+        {
+          "left": "quiet",
+          "right": "quietly"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v5-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Konsonan + y menjadi -ily: happily.",
+      "type": "fill_blank",
+      "sentence": "She sang ___ (happy).",
+      "answer": [
+        "happily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v5-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Easy berakhiran konsonan + y, jadi y berubah menjadi i: easily.",
+      "type": "fill_blank",
+      "sentence": "She finished the test ___ (easy).",
+      "answer": [
+        "easily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of manner di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "walked",
+        "home",
+        "slowly"
+      ],
+      "answer": "They walked home slowly"
+    },
+    {
+      "id": "adverb-manner-v5-mc-3",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Quiet + -ly menjadi quietly, menjelaskan cara menutup pintu.",
+      "type": "multiple_choice",
+      "question": "She closed the door ___.",
+      "options": [
+        "quietly",
+        "quiet",
+        "quietness",
+        "quieter"
+      ],
+      "answer": "quietly"
+    },
+    {
+      "id": "adverb-manner-v5-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb dari hard adalah hard. Kata hardly berarti hampir tidak pernah.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They work hard every day.",
+        "They work hardly every day.",
+        "They work hardly."
+      ],
+      "answer": "They work hard every day."
+    },
+    {
+      "id": "adverb-manner-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb berakhiran -ly setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about how someone in your family works.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "My father drives carefully."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v6-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Fluent + -ly menjadi fluently.",
+      "type": "multiple_choice",
+      "question": "They speak English ___.",
+      "options": [
+        "fluently",
+        "fluent",
+        "fluence",
+        "more fluent"
+      ],
+      "answer": "fluently"
+    },
+    {
+      "id": "adverb-manner-v6-mc-2",
+      "prompt": "Choose the correct word",
+      "explanation": "Good adalah kata sifat, adverbnya well.",
+      "type": "multiple_choice",
+      "question": "My sister writes ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly",
+        "better good"
+      ],
+      "answer": "well"
+    },
+    {
+      "id": "adverb-manner-v6-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Kebanyakan cukup ditambah -ly. Konsonan + y menjadi -ily. Good tidak beraturan: well.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "quick",
+          "right": "quickly"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "easy",
+          "right": "easily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v6-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Konsonan + y menjadi -ily: happily.",
+      "type": "fill_blank",
+      "sentence": "She sang ___ (happy).",
+      "answer": [
+        "happily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v6-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Slow + -ly menjadi slowly.",
+      "type": "fill_blank",
+      "sentence": "Please speak ___ (slow).",
+      "answer": [
+        "slowly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "answered",
+        "the",
+        "question",
+        "quickly"
+      ],
+      "answer": "He answered the question quickly"
+    },
+    {
+      "id": "adverb-manner-v6-mc-3",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Careful + -ly menjadi carefully, dengan dua huruf l.",
+      "type": "multiple_choice",
+      "question": "He drives very ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefuly",
+        "care"
+      ],
+      "answer": "carefully"
+    },
+    {
+      "id": "adverb-manner-v6-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He answered the question quickly.",
+        "He answered quickly the question.",
+        "He quickly answered question the."
+      ],
+      "answer": "He answered the question quickly."
+    },
+    {
+      "id": "adverb-manner-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan cara.",
+      "type": "free_write",
+      "task": "Write one sentence about how you do something, using an adverb of manner.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "I speak English slowly."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v7-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Fluent + -ly menjadi fluently.",
+      "type": "multiple_choice",
+      "question": "They speak English ___.",
+      "options": [
+        "fluently",
+        "fluent",
+        "fluence",
+        "more fluent"
+      ],
+      "answer": "fluently"
+    },
+    {
+      "id": "adverb-manner-v7-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Quiet + -ly menjadi quietly, menjelaskan cara menutup pintu.",
+      "type": "multiple_choice",
+      "question": "She closed the door ___.",
+      "options": [
+        "quietly",
+        "quiet",
+        "quietness",
+        "quieter"
+      ],
+      "answer": "quietly"
+    },
+    {
+      "id": "adverb-manner-v7-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Hard tidak berubah. Happy menjadi happily.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "careful",
+          "right": "carefully"
+        },
+        {
+          "left": "happy",
+          "right": "happily"
+        },
+        {
+          "left": "hard",
+          "right": "hard"
+        },
+        {
+          "left": "quiet",
+          "right": "quietly"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v7-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Patient + -ly menjadi patiently.",
+      "type": "fill_blank",
+      "sentence": "They waited ___ (patient).",
+      "answer": [
+        "patiently"
+      ]
+    },
+    {
+      "id": "adverb-manner-v7-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Easy berakhiran konsonan + y, jadi y berubah menjadi i: easily.",
+      "type": "fill_blank",
+      "sentence": "She finished the test ___ (easy).",
+      "answer": [
+        "easily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "answered",
+        "the",
+        "question",
+        "quickly"
+      ],
+      "answer": "He answered the question quickly"
+    },
+    {
+      "id": "adverb-manner-v7-mc-3",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Untuk menjelaskan cara, pakai adverb: beautiful + -ly menjadi beautifully.",
+      "type": "multiple_choice",
+      "question": "She sings ___.",
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
+      "answer": "beautifully"
+    },
+    {
+      "id": "adverb-manner-v7-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb dari hard adalah hard. Kata hardly berarti hampir tidak pernah.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They work hard every day.",
+        "They work hardly every day.",
+        "They work hardly."
+      ],
+      "answer": "They work hard every day."
+    },
+    {
+      "id": "adverb-manner-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb berakhiran -ly setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about how someone in your family works.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "My father drives carefully."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v8-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Quiet + -ly menjadi quietly, menjelaskan cara menutup pintu.",
+      "type": "multiple_choice",
+      "question": "She closed the door ___.",
+      "options": [
+        "quietly",
+        "quiet",
+        "quietness",
+        "quieter"
+      ],
+      "answer": "quietly"
+    },
+    {
+      "id": "adverb-manner-v8-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Careful + -ly menjadi carefully, dengan dua huruf l.",
+      "type": "multiple_choice",
+      "question": "He drives very ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefuly",
+        "care"
+      ],
+      "answer": "carefully"
+    },
+    {
+      "id": "adverb-manner-v8-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Kebanyakan cukup ditambah -ly. Konsonan + y menjadi -ily. Good tidak beraturan: well.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "quick",
+          "right": "quickly"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "easy",
+          "right": "easily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v8-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Quick + -ly menjadi quickly.",
+      "type": "fill_blank",
+      "sentence": "He runs ___ (quick).",
+      "answer": [
+        "quickly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v8-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Slow + -ly menjadi slowly.",
+      "type": "fill_blank",
+      "sentence": "Please speak ___ (slow).",
+      "answer": [
+        "slowly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "speaks",
+        "English",
+        "fluently"
+      ],
+      "answer": "She speaks English fluently"
+    },
+    {
+      "id": "adverb-manner-v8-mc-3",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Untuk menjelaskan cara, pakai adverb: beautiful + -ly menjadi beautifully.",
+      "type": "multiple_choice",
+      "question": "She sings ___.",
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
+      "answer": "beautifully"
+    },
+    {
+      "id": "adverb-manner-v8-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He answered the question quickly.",
+        "He answered quickly the question.",
+        "He quickly answered question the."
+      ],
+      "answer": "He answered the question quickly."
+    },
+    {
+      "id": "adverb-manner-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan cara.",
+      "type": "free_write",
+      "task": "Write one sentence about how you do something, using an adverb of manner.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "I speak English slowly."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v9-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb dari hard adalah hard. Kata hardly berarti hampir tidak pernah.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They work hard every day.",
+        "They work hardly every day.",
+        "They work hardly."
+      ],
+      "answer": "They work hard every day."
+    },
+    {
+      "id": "adverb-manner-v9-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Fluent + -ly menjadi fluently.",
+      "type": "multiple_choice",
+      "question": "They speak English ___.",
+      "options": [
+        "fluently",
+        "fluent",
+        "fluence",
+        "more fluent"
+      ],
+      "answer": "fluently"
+    },
+    {
+      "id": "adverb-manner-v9-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Hard tidak berubah. Happy menjadi happily.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "careful",
+          "right": "carefully"
+        },
+        {
+          "left": "happy",
+          "right": "happily"
+        },
+        {
+          "left": "hard",
+          "right": "hard"
+        },
+        {
+          "left": "quiet",
+          "right": "quietly"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v9-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Easy berakhiran konsonan + y, jadi y berubah menjadi i: easily.",
+      "type": "fill_blank",
+      "sentence": "She finished the test ___ (easy).",
+      "answer": [
+        "easily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v9-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Konsonan + y menjadi -ily: happily.",
+      "type": "fill_blank",
+      "sentence": "She sang ___ (happy).",
+      "answer": [
+        "happily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of manner di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "walked",
+        "home",
+        "slowly"
+      ],
+      "answer": "They walked home slowly"
+    },
+    {
+      "id": "adverb-manner-v9-mc-3",
+      "prompt": "Choose the correct word",
+      "explanation": "Good adalah kata sifat, adverbnya well.",
+      "type": "multiple_choice",
+      "question": "My sister writes ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly",
+        "better good"
+      ],
+      "answer": "well"
+    },
+    {
+      "id": "adverb-manner-v9-mc-4",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Untuk menjelaskan cara, pakai adverb: beautiful + -ly menjadi beautifully.",
+      "type": "multiple_choice",
+      "question": "She sings ___.",
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
+      "answer": "beautifully"
+    },
+    {
+      "id": "adverb-manner-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan cara.",
+      "type": "free_write",
+      "task": "Write one sentence about how you do something, using an adverb of manner.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "I speak English slowly."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v10-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Fluent + -ly menjadi fluently.",
+      "type": "multiple_choice",
+      "question": "They speak English ___.",
+      "options": [
+        "fluently",
+        "fluent",
+        "fluence",
+        "more fluent"
+      ],
+      "answer": "fluently"
+    },
+    {
+      "id": "adverb-manner-v10-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Careful + -ly menjadi carefully, dengan dua huruf l.",
+      "type": "multiple_choice",
+      "question": "He drives very ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefuly",
+        "care"
+      ],
+      "answer": "carefully"
+    },
+    {
+      "id": "adverb-manner-v10-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Kebanyakan cukup ditambah -ly. Konsonan + y menjadi -ily. Good tidak beraturan: well.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "quick",
+          "right": "quickly"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "easy",
+          "right": "easily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v10-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Patient + -ly menjadi patiently.",
+      "type": "fill_blank",
+      "sentence": "They waited ___ (patient).",
+      "answer": [
+        "patiently"
+      ]
+    },
+    {
+      "id": "adverb-manner-v10-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Quick + -ly menjadi quickly.",
+      "type": "fill_blank",
+      "sentence": "He runs ___ (quick).",
+      "answer": [
+        "quickly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "answered",
+        "the",
+        "question",
+        "quickly"
+      ],
+      "answer": "He answered the question quickly"
+    },
+    {
+      "id": "adverb-manner-v10-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He answered the question quickly.",
+        "He answered quickly the question.",
+        "He quickly answered question the."
+      ],
+      "answer": "He answered the question quickly."
+    },
+    {
+      "id": "adverb-manner-v10-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb dari hard adalah hard. Kata hardly berarti hampir tidak pernah.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They work hard every day.",
+        "They work hardly every day.",
+        "They work hardly."
+      ],
+      "answer": "They work hard every day."
+    },
+    {
+      "id": "adverb-manner-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb berakhiran -ly setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about how someone in your family works.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "My father drives carefully."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v11-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Good adalah kata sifat, adverbnya well.",
+      "type": "multiple_choice",
+      "question": "My sister writes ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly",
+        "better good"
+      ],
+      "answer": "well"
+    },
+    {
+      "id": "adverb-manner-v11-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Quiet + -ly menjadi quietly, menjelaskan cara menutup pintu.",
+      "type": "multiple_choice",
+      "question": "She closed the door ___.",
+      "options": [
+        "quietly",
+        "quiet",
+        "quietness",
+        "quieter"
+      ],
+      "answer": "quietly"
+    },
+    {
+      "id": "adverb-manner-v11-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Kebanyakan cukup ditambah -ly. Konsonan + y menjadi -ily. Good tidak beraturan: well.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "quick",
+          "right": "quickly"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "easy",
+          "right": "easily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v11-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Quick + -ly menjadi quickly.",
+      "type": "fill_blank",
+      "sentence": "He runs ___ (quick).",
+      "answer": [
+        "quickly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v11-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Patient + -ly menjadi patiently.",
+      "type": "fill_blank",
+      "sentence": "They waited ___ (patient).",
+      "answer": [
+        "patiently"
+      ]
+    },
+    {
+      "id": "adverb-manner-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of manner di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "walked",
+        "home",
+        "slowly"
+      ],
+      "answer": "They walked home slowly"
+    },
+    {
+      "id": "adverb-manner-v11-mc-3",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Fluent + -ly menjadi fluently.",
+      "type": "multiple_choice",
+      "question": "They speak English ___.",
+      "options": [
+        "fluently",
+        "fluent",
+        "fluence",
+        "more fluent"
+      ],
+      "answer": "fluently"
+    },
+    {
+      "id": "adverb-manner-v11-mc-4",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Untuk menjelaskan cara, pakai adverb: beautiful + -ly menjadi beautifully.",
+      "type": "multiple_choice",
+      "question": "She sings ___.",
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
+      "answer": "beautifully"
+    },
+    {
+      "id": "adverb-manner-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan cara.",
+      "type": "free_write",
+      "task": "Write one sentence about how you do something, using an adverb of manner.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "I speak English slowly."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v12-mc-1",
+      "prompt": "Choose the correct word",
+      "explanation": "Good adalah kata sifat, adverbnya well.",
+      "type": "multiple_choice",
+      "question": "My sister writes ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly",
+        "better good"
+      ],
+      "answer": "well"
+    },
+    {
+      "id": "adverb-manner-v12-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Careful + -ly menjadi carefully, dengan dua huruf l.",
+      "type": "multiple_choice",
+      "question": "He drives very ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefuly",
+        "care"
+      ],
+      "answer": "carefully"
+    },
+    {
+      "id": "adverb-manner-v12-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Hard tidak berubah. Happy menjadi happily.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "careful",
+          "right": "carefully"
+        },
+        {
+          "left": "happy",
+          "right": "happily"
+        },
+        {
+          "left": "hard",
+          "right": "hard"
+        },
+        {
+          "left": "quiet",
+          "right": "quietly"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v12-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Slow + -ly menjadi slowly.",
+      "type": "fill_blank",
+      "sentence": "Please speak ___ (slow).",
+      "answer": [
+        "slowly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v12-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Konsonan + y menjadi -ily: happily.",
+      "type": "fill_blank",
+      "sentence": "She sang ___ (happy).",
+      "answer": [
+        "happily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "speaks",
+        "English",
+        "fluently"
+      ],
+      "answer": "She speaks English fluently"
+    },
+    {
+      "id": "adverb-manner-v12-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb dari hard adalah hard. Kata hardly berarti hampir tidak pernah.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They work hard every day.",
+        "They work hardly every day.",
+        "They work hardly."
+      ],
+      "answer": "They work hard every day."
+    },
+    {
+      "id": "adverb-manner-v12-mc-4",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He answered the question quickly.",
+        "He answered quickly the question.",
+        "He quickly answered question the."
+      ],
+      "answer": "He answered the question quickly."
+    },
+    {
+      "id": "adverb-manner-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb berakhiran -ly setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about how someone in your family works.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "My father drives carefully."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v13-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Quiet + -ly menjadi quietly, menjelaskan cara menutup pintu.",
+      "type": "multiple_choice",
+      "question": "She closed the door ___.",
+      "options": [
+        "quietly",
+        "quiet",
+        "quietness",
+        "quieter"
+      ],
+      "answer": "quietly"
+    },
+    {
+      "id": "adverb-manner-v13-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Untuk menjelaskan cara, pakai adverb: beautiful + -ly menjadi beautifully.",
+      "type": "multiple_choice",
+      "question": "She sings ___.",
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
+      "answer": "beautifully"
+    },
+    {
+      "id": "adverb-manner-v13-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Kebanyakan cukup ditambah -ly. Konsonan + y menjadi -ily. Good tidak beraturan: well.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "quick",
+          "right": "quickly"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "easy",
+          "right": "easily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v13-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Easy berakhiran konsonan + y, jadi y berubah menjadi i: easily.",
+      "type": "fill_blank",
+      "sentence": "She finished the test ___ (easy).",
+      "answer": [
+        "easily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v13-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Konsonan + y menjadi -ily: happily.",
+      "type": "fill_blank",
+      "sentence": "She sang ___ (happy).",
+      "answer": [
+        "happily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "speaks",
+        "English",
+        "fluently"
+      ],
+      "answer": "She speaks English fluently"
+    },
+    {
+      "id": "adverb-manner-v13-mc-3",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Fluent + -ly menjadi fluently.",
+      "type": "multiple_choice",
+      "question": "They speak English ___.",
+      "options": [
+        "fluently",
+        "fluent",
+        "fluence",
+        "more fluent"
+      ],
+      "answer": "fluently"
+    },
+    {
+      "id": "adverb-manner-v13-mc-4",
+      "prompt": "Choose the correct word",
+      "explanation": "Good adalah kata sifat, adverbnya well.",
+      "type": "multiple_choice",
+      "question": "My sister writes ___.",
+      "options": [
+        "well",
+        "good",
+        "goodly",
+        "better good"
+      ],
+      "answer": "well"
+    },
+    {
+      "id": "adverb-manner-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb berakhiran -ly setelah kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about how someone in your family works.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "My father drives carefully."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v14-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Careful + -ly menjadi carefully, dengan dua huruf l.",
+      "type": "multiple_choice",
+      "question": "He drives very ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefuly",
+        "care"
+      ],
+      "answer": "carefully"
+    },
+    {
+      "id": "adverb-manner-v14-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb dari hard adalah hard. Kata hardly berarti hampir tidak pernah.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "They work hard every day.",
+        "They work hardly every day.",
+        "They work hardly."
+      ],
+      "answer": "They work hard every day."
+    },
+    {
+      "id": "adverb-manner-v14-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Hard tidak berubah. Happy menjadi happily.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "careful",
+          "right": "carefully"
+        },
+        {
+          "left": "happy",
+          "right": "happily"
+        },
+        {
+          "left": "hard",
+          "right": "hard"
+        },
+        {
+          "left": "quiet",
+          "right": "quietly"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v14-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Quick + -ly menjadi quickly.",
+      "type": "fill_blank",
+      "sentence": "He runs ___ (quick).",
+      "answer": [
+        "quickly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v14-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Slow + -ly menjadi slowly.",
+      "type": "fill_blank",
+      "sentence": "Please speak ___ (slow).",
+      "answer": [
+        "slowly"
+      ]
+    },
+    {
+      "id": "adverb-manner-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "word_order",
+      "words": [
+        "He",
+        "answered",
+        "the",
+        "question",
+        "quickly"
+      ],
+      "answer": "He answered the question quickly"
+    },
+    {
+      "id": "adverb-manner-v14-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Adverb of manner diletakkan setelah objek.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "He answered the question quickly.",
+        "He answered quickly the question.",
+        "He quickly answered question the."
+      ],
+      "answer": "He answered the question quickly."
+    },
+    {
+      "id": "adverb-manner-v14-mc-4",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Quiet + -ly menjadi quietly, menjelaskan cara menutup pintu.",
+      "type": "multiple_choice",
+      "question": "She closed the door ___.",
+      "options": [
+        "quietly",
+        "quiet",
+        "quietness",
+        "quieter"
+      ],
+      "answer": "quietly"
+    },
+    {
+      "id": "adverb-manner-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan cara.",
+      "type": "free_write",
+      "task": "Write one sentence about how you do something, using an adverb of manner.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "I speak English slowly."
+    }
+  ],
+  [
+    {
+      "id": "adverb-manner-v15-mc-1",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Fluent + -ly menjadi fluently.",
+      "type": "multiple_choice",
+      "question": "They speak English ___.",
+      "options": [
+        "fluently",
+        "fluent",
+        "fluence",
+        "more fluent"
+      ],
+      "answer": "fluently"
+    },
+    {
+      "id": "adverb-manner-v15-mc-2",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Careful + -ly menjadi carefully, dengan dua huruf l.",
+      "type": "multiple_choice",
+      "question": "He drives very ___.",
+      "options": [
+        "careful",
+        "carefully",
+        "carefuly",
+        "care"
+      ],
+      "answer": "carefully"
+    },
+    {
+      "id": "adverb-manner-v15-match-1",
+      "prompt": "Match each adjective to its adverb",
+      "explanation": "Kebanyakan cukup ditambah -ly. Konsonan + y menjadi -ily. Good tidak beraturan: well.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "quick",
+          "right": "quickly"
+        },
+        {
+          "left": "slow",
+          "right": "slowly"
+        },
+        {
+          "left": "easy",
+          "right": "easily"
+        },
+        {
+          "left": "good",
+          "right": "well"
+        }
+      ]
+    },
+    {
+      "id": "adverb-manner-v15-fb-1",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Patient + -ly menjadi patiently.",
+      "type": "fill_blank",
+      "sentence": "They waited ___ (patient).",
+      "answer": [
+        "patiently"
+      ]
+    },
+    {
+      "id": "adverb-manner-v15-fb-2",
+      "prompt": "Complete the sentence with the adverb",
+      "explanation": "Easy berakhiran konsonan + y, jadi y berubah menjadi i: easily.",
+      "type": "fill_blank",
+      "sentence": "She finished the test ___ (easy).",
+      "answer": [
+        "easily"
+      ]
+    },
+    {
+      "id": "adverb-manner-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Adverb of manner di akhir kalimat.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "walked",
+        "home",
+        "slowly"
+      ],
+      "answer": "They walked home slowly"
+    },
+    {
+      "id": "adverb-manner-v15-mc-3",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Untuk menjelaskan cara, pakai adverb: beautiful + -ly menjadi beautifully.",
+      "type": "multiple_choice",
+      "question": "She sings ___.",
+      "options": [
+        "beautifully",
+        "beautiful",
+        "beauty",
+        "more beautiful"
+      ],
+      "answer": "beautifully"
+    },
+    {
+      "id": "adverb-manner-v15-mc-4",
+      "prompt": "Choose the correct adverb",
+      "explanation": "Quiet + -ly menjadi quietly, menjelaskan cara menutup pintu.",
+      "type": "multiple_choice",
+      "question": "She closed the door ___.",
+      "options": [
+        "quietly",
+        "quiet",
+        "quietness",
+        "quieter"
+      ],
+      "answer": "quietly"
+    },
+    {
+      "id": "adverb-manner-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan adverb yang menjelaskan cara.",
+      "type": "free_write",
+      "task": "Write one sentence about how you do something, using an adverb of manner.",
+      "requirements": [
+        "adverb of manner"
+      ],
+      "modelAnswer": "I speak English slowly."
+    }
+  ]
+]

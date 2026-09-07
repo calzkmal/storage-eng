@@ -1,0 +1,1836 @@
+[
+  [
+    {
+      "id": "past-simple-v1-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Kata kerja tak beraturan tidak mendapat -ed: went, ate, had, saw, wrote.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "write",
+          "right": "wrote"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v1-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -ed.",
+      "type": "fill_blank",
+      "sentence": "She ___ (study) last night.",
+      "answer": [
+        "studied"
+      ]
+    },
+    {
+      "id": "past-simple-v1-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'Play' beraturan, cukup tambah -ed: played.",
+      "type": "fill_blank",
+      "sentence": "He ___ (play) football on Sunday.",
+      "answer": [
+        "played"
+      ]
+    },
+    {
+      "id": "past-simple-v1-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk lampau dari write adalah wrote.",
+      "type": "fill_blank",
+      "sentence": "She ___ (write) a poem last week.",
+      "answer": [
+        "wrote"
+      ]
+    },
+    {
+      "id": "past-simple-v1-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Go' tak beraturan: went. Jangan menambahkan -ed pada bentuk lampau tak beraturan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct past sentence.",
+      "options": [
+        "I went home.",
+        "I goed home.",
+        "I wented home."
+      ],
+      "answer": "I went home."
+    },
+    {
+      "id": "past-simple-v1-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -ed: studied.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She studied all night.",
+        "She studyed all night.",
+        "She study all night."
+      ],
+      "answer": "She studied all night."
+    },
+    {
+      "id": "past-simple-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja lampau + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "had",
+        "lunch",
+        "at",
+        "12"
+      ],
+      "answer": "They had lunch at 12"
+    },
+    {
+      "id": "past-simple-v1-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'See' tak beraturan: bentuk lampaunya saw.",
+      "type": "flip_sentence",
+      "source": "My cat sees a bird.",
+      "target": "past",
+      "answer": [
+        "My cat saw a bird."
+      ]
+    },
+    {
+      "id": "past-simple-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did yesterday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I visited my grandmother yesterday."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v2-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Bentuk lampau tak beraturan: bought, took, made, came.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "take",
+          "right": "took"
+        },
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "came"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v2-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'Watch' beraturan, jadi tambahkan -ed: watched.",
+      "type": "fill_blank",
+      "sentence": "Yesterday I ___ (watch) a movie.",
+      "answer": [
+        "watched"
+      ]
+    },
+    {
+      "id": "past-simple-v2-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk lampau dari see adalah saw.",
+      "type": "fill_blank",
+      "sentence": "I ___ (see) my friend at the market.",
+      "answer": [
+        "saw"
+      ]
+    },
+    {
+      "id": "past-simple-v2-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "'Cook' beraturan: cooked.",
+      "type": "fill_blank",
+      "sentence": "My mother ___ (cook) rendang yesterday.",
+      "answer": [
+        "cooked"
+      ]
+    },
+    {
+      "id": "past-simple-v2-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari see adalah saw. Seen adalah bentuk ketiga.",
+      "type": "multiple_choice",
+      "question": "They ___ a film last night.",
+      "options": [
+        "saw",
+        "seen",
+        "seed",
+        "sees"
+      ],
+      "answer": "saw"
+    },
+    {
+      "id": "past-simple-v2-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari buy adalah bought.",
+      "type": "multiple_choice",
+      "question": "He ___ a new phone last month.",
+      "options": [
+        "buyed",
+        "bought",
+        "buys",
+        "buy"
+      ],
+      "answer": "bought"
+    },
+    {
+      "id": "past-simple-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja -ed + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "watched",
+        "a",
+        "movie",
+        "last",
+        "night"
+      ],
+      "answer": "She watched a movie last night"
+    },
+    {
+      "id": "past-simple-v2-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk lampau dari eat adalah ate.",
+      "type": "flip_sentence",
+      "source": "They eat nasi goreng.",
+      "target": "past",
+      "answer": [
+        "They ate nasi goreng."
+      ]
+    },
+    {
+      "id": "past-simple-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau, misalnya went.",
+      "type": "free_write",
+      "task": "Write one sentence about your last holiday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I went to Bali last year."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v3-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Bentuk lampau tak beraturan: bought, took, made, came.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "take",
+          "right": "took"
+        },
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "came"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v3-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'Have' tak beraturan: bentuk lampaunya had.",
+      "type": "fill_blank",
+      "sentence": "They ___ (have) lunch at 12.",
+      "answer": [
+        "had"
+      ]
+    },
+    {
+      "id": "past-simple-v3-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Stop menggandakan huruf p sebelum -ed: stopped.",
+      "type": "fill_blank",
+      "sentence": "We ___ (stop) at the station.",
+      "answer": [
+        "stopped"
+      ]
+    },
+    {
+      "id": "past-simple-v3-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "'Go' tak beraturan: bentuk lampaunya went.",
+      "type": "fill_blank",
+      "sentence": "We ___ (go) to the mall.",
+      "answer": [
+        "went"
+      ]
+    },
+    {
+      "id": "past-simple-v3-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "'Do' tak beraturan: bentuk lampaunya did.",
+      "type": "multiple_choice",
+      "question": "I ___ my homework yesterday.",
+      "options": [
+        "do",
+        "did",
+        "does",
+        "doed"
+      ],
+      "answer": "did"
+    },
+    {
+      "id": "past-simple-v3-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari eat adalah ate.",
+      "type": "multiple_choice",
+      "question": "We ___ dinner at eight.",
+      "options": [
+        "ate",
+        "eated",
+        "eaten",
+        "eat"
+      ],
+      "answer": "ate"
+    },
+    {
+      "id": "past-simple-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu lampau diletakkan di akhir.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "went",
+        "to",
+        "the",
+        "beach",
+        "yesterday"
+      ],
+      "answer": "We went to the beach yesterday"
+    },
+    {
+      "id": "past-simple-v3-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'Watch' beraturan: tambahkan -ed. Tidak ada -s di bentuk lampau.",
+      "type": "flip_sentence",
+      "source": "He watches YouTube.",
+      "target": "past",
+      "answer": [
+        "He watched YouTube."
+      ]
+    },
+    {
+      "id": "past-simple-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau, misalnya went.",
+      "type": "free_write",
+      "task": "Write one sentence about your last holiday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I went to Bali last year."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v4-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Kata kerja tak beraturan tidak mendapat -ed: went, ate, had, saw, wrote.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "write",
+          "right": "wrote"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v4-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'Play' beraturan, cukup tambah -ed: played.",
+      "type": "fill_blank",
+      "sentence": "He ___ (play) football on Sunday.",
+      "answer": [
+        "played"
+      ]
+    },
+    {
+      "id": "past-simple-v4-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'Go' tak beraturan: bentuk lampaunya went.",
+      "type": "fill_blank",
+      "sentence": "We ___ (go) to the mall.",
+      "answer": [
+        "went"
+      ]
+    },
+    {
+      "id": "past-simple-v4-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "Stop menggandakan huruf p sebelum -ed: stopped.",
+      "type": "fill_blank",
+      "sentence": "We ___ (stop) at the station.",
+      "answer": [
+        "stopped"
+      ]
+    },
+    {
+      "id": "past-simple-v4-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari write adalah wrote.",
+      "type": "multiple_choice",
+      "question": "Last week she ___ a letter to her grandmother.",
+      "options": [
+        "writed",
+        "wrote",
+        "writes",
+        "write"
+      ],
+      "answer": "wrote"
+    },
+    {
+      "id": "past-simple-v4-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Go' tak beraturan: went. Jangan menambahkan -ed pada bentuk lampau tak beraturan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct past sentence.",
+      "options": [
+        "I went home.",
+        "I goed home.",
+        "I wented home."
+      ],
+      "answer": "I went home."
+    },
+    {
+      "id": "past-simple-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja -ed + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "watched",
+        "a",
+        "movie",
+        "last",
+        "night"
+      ],
+      "answer": "She watched a movie last night"
+    },
+    {
+      "id": "past-simple-v4-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk lampau dari eat adalah ate.",
+      "type": "flip_sentence",
+      "source": "They eat nasi goreng.",
+      "target": "past",
+      "answer": [
+        "They ate nasi goreng."
+      ]
+    },
+    {
+      "id": "past-simple-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did yesterday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I visited my grandmother yesterday."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v5-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Kata kerja tak beraturan tidak mendapat -ed: went, ate, had, saw, wrote.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "write",
+          "right": "wrote"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v5-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'Watch' beraturan, jadi tambahkan -ed: watched.",
+      "type": "fill_blank",
+      "sentence": "Yesterday I ___ (watch) a movie.",
+      "answer": [
+        "watched"
+      ]
+    },
+    {
+      "id": "past-simple-v5-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk lampau dari write adalah wrote.",
+      "type": "fill_blank",
+      "sentence": "She ___ (write) a poem last week.",
+      "answer": [
+        "wrote"
+      ]
+    },
+    {
+      "id": "past-simple-v5-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk lampau dari see adalah saw.",
+      "type": "fill_blank",
+      "sentence": "I ___ (see) my friend at the market.",
+      "answer": [
+        "saw"
+      ]
+    },
+    {
+      "id": "past-simple-v5-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari write adalah wrote.",
+      "type": "multiple_choice",
+      "question": "Last week she ___ a letter to her grandmother.",
+      "options": [
+        "writed",
+        "wrote",
+        "writes",
+        "write"
+      ],
+      "answer": "wrote"
+    },
+    {
+      "id": "past-simple-v5-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari buy adalah bought.",
+      "type": "multiple_choice",
+      "question": "He ___ a new phone last month.",
+      "options": [
+        "buyed",
+        "bought",
+        "buys",
+        "buy"
+      ],
+      "answer": "bought"
+    },
+    {
+      "id": "past-simple-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu lampau diletakkan di akhir.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "went",
+        "to",
+        "the",
+        "beach",
+        "yesterday"
+      ],
+      "answer": "We went to the beach yesterday"
+    },
+    {
+      "id": "past-simple-v5-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'See' tak beraturan: bentuk lampaunya saw.",
+      "type": "flip_sentence",
+      "source": "My cat sees a bird.",
+      "target": "past",
+      "answer": [
+        "My cat saw a bird."
+      ]
+    },
+    {
+      "id": "past-simple-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did yesterday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I visited my grandmother yesterday."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v6-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Bentuk lampau tak beraturan: bought, took, made, came.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "take",
+          "right": "took"
+        },
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "came"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v6-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -ed.",
+      "type": "fill_blank",
+      "sentence": "She ___ (study) last night.",
+      "answer": [
+        "studied"
+      ]
+    },
+    {
+      "id": "past-simple-v6-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'Cook' beraturan: cooked.",
+      "type": "fill_blank",
+      "sentence": "My mother ___ (cook) rendang yesterday.",
+      "answer": [
+        "cooked"
+      ]
+    },
+    {
+      "id": "past-simple-v6-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "'Have' tak beraturan: bentuk lampaunya had.",
+      "type": "fill_blank",
+      "sentence": "They ___ (have) lunch at 12.",
+      "answer": [
+        "had"
+      ]
+    },
+    {
+      "id": "past-simple-v6-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -ed: studied.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She studied all night.",
+        "She studyed all night.",
+        "She study all night."
+      ],
+      "answer": "She studied all night."
+    },
+    {
+      "id": "past-simple-v6-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'Do' tak beraturan: bentuk lampaunya did.",
+      "type": "multiple_choice",
+      "question": "I ___ my homework yesterday.",
+      "options": [
+        "do",
+        "did",
+        "does",
+        "doed"
+      ],
+      "answer": "did"
+    },
+    {
+      "id": "past-simple-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja lampau + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "had",
+        "lunch",
+        "at",
+        "12"
+      ],
+      "answer": "They had lunch at 12"
+    },
+    {
+      "id": "past-simple-v6-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'Watch' beraturan: tambahkan -ed. Tidak ada -s di bentuk lampau.",
+      "type": "flip_sentence",
+      "source": "He watches YouTube.",
+      "target": "past",
+      "answer": [
+        "He watched YouTube."
+      ]
+    },
+    {
+      "id": "past-simple-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau, misalnya went.",
+      "type": "free_write",
+      "task": "Write one sentence about your last holiday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I went to Bali last year."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v7-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Kata kerja tak beraturan tidak mendapat -ed: went, ate, had, saw, wrote.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "write",
+          "right": "wrote"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v7-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'Have' tak beraturan: bentuk lampaunya had.",
+      "type": "fill_blank",
+      "sentence": "They ___ (have) lunch at 12.",
+      "answer": [
+        "had"
+      ]
+    },
+    {
+      "id": "past-simple-v7-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk lampau dari write adalah wrote.",
+      "type": "fill_blank",
+      "sentence": "She ___ (write) a poem last week.",
+      "answer": [
+        "wrote"
+      ]
+    },
+    {
+      "id": "past-simple-v7-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -ed.",
+      "type": "fill_blank",
+      "sentence": "She ___ (study) last night.",
+      "answer": [
+        "studied"
+      ]
+    },
+    {
+      "id": "past-simple-v7-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari see adalah saw. Seen adalah bentuk ketiga.",
+      "type": "multiple_choice",
+      "question": "They ___ a film last night.",
+      "options": [
+        "saw",
+        "seen",
+        "seed",
+        "sees"
+      ],
+      "answer": "saw"
+    },
+    {
+      "id": "past-simple-v7-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari eat adalah ate.",
+      "type": "multiple_choice",
+      "question": "We ___ dinner at eight.",
+      "options": [
+        "ate",
+        "eated",
+        "eaten",
+        "eat"
+      ],
+      "answer": "ate"
+    },
+    {
+      "id": "past-simple-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja -ed + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "watched",
+        "a",
+        "movie",
+        "last",
+        "night"
+      ],
+      "answer": "She watched a movie last night"
+    },
+    {
+      "id": "past-simple-v7-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk lampau dari eat adalah ate.",
+      "type": "flip_sentence",
+      "source": "They eat nasi goreng.",
+      "target": "past",
+      "answer": [
+        "They ate nasi goreng."
+      ]
+    },
+    {
+      "id": "past-simple-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau, misalnya went.",
+      "type": "free_write",
+      "task": "Write one sentence about your last holiday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I went to Bali last year."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v8-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Bentuk lampau tak beraturan: bought, took, made, came.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "take",
+          "right": "took"
+        },
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "came"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v8-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Stop menggandakan huruf p sebelum -ed: stopped.",
+      "type": "fill_blank",
+      "sentence": "We ___ (stop) at the station.",
+      "answer": [
+        "stopped"
+      ]
+    },
+    {
+      "id": "past-simple-v8-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk lampau dari see adalah saw.",
+      "type": "fill_blank",
+      "sentence": "I ___ (see) my friend at the market.",
+      "answer": [
+        "saw"
+      ]
+    },
+    {
+      "id": "past-simple-v8-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "'Cook' beraturan: cooked.",
+      "type": "fill_blank",
+      "sentence": "My mother ___ (cook) rendang yesterday.",
+      "answer": [
+        "cooked"
+      ]
+    },
+    {
+      "id": "past-simple-v8-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Go' tak beraturan: went. Jangan menambahkan -ed pada bentuk lampau tak beraturan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct past sentence.",
+      "options": [
+        "I went home.",
+        "I goed home.",
+        "I wented home."
+      ],
+      "answer": "I went home."
+    },
+    {
+      "id": "past-simple-v8-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari write adalah wrote.",
+      "type": "multiple_choice",
+      "question": "Last week she ___ a letter to her grandmother.",
+      "options": [
+        "writed",
+        "wrote",
+        "writes",
+        "write"
+      ],
+      "answer": "wrote"
+    },
+    {
+      "id": "past-simple-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu lampau diletakkan di akhir.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "went",
+        "to",
+        "the",
+        "beach",
+        "yesterday"
+      ],
+      "answer": "We went to the beach yesterday"
+    },
+    {
+      "id": "past-simple-v8-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'Watch' beraturan: tambahkan -ed. Tidak ada -s di bentuk lampau.",
+      "type": "flip_sentence",
+      "source": "He watches YouTube.",
+      "target": "past",
+      "answer": [
+        "He watched YouTube."
+      ]
+    },
+    {
+      "id": "past-simple-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did yesterday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I visited my grandmother yesterday."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v9-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Bentuk lampau tak beraturan: bought, took, made, came.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "take",
+          "right": "took"
+        },
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "came"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v9-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'Watch' beraturan, jadi tambahkan -ed: watched.",
+      "type": "fill_blank",
+      "sentence": "Yesterday I ___ (watch) a movie.",
+      "answer": [
+        "watched"
+      ]
+    },
+    {
+      "id": "past-simple-v9-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'Go' tak beraturan: bentuk lampaunya went.",
+      "type": "fill_blank",
+      "sentence": "We ___ (go) to the mall.",
+      "answer": [
+        "went"
+      ]
+    },
+    {
+      "id": "past-simple-v9-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "'Play' beraturan, cukup tambah -ed: played.",
+      "type": "fill_blank",
+      "sentence": "He ___ (play) football on Sunday.",
+      "answer": [
+        "played"
+      ]
+    },
+    {
+      "id": "past-simple-v9-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -ed: studied.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She studied all night.",
+        "She studyed all night.",
+        "She study all night."
+      ],
+      "answer": "She studied all night."
+    },
+    {
+      "id": "past-simple-v9-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari eat adalah ate.",
+      "type": "multiple_choice",
+      "question": "We ___ dinner at eight.",
+      "options": [
+        "ate",
+        "eated",
+        "eaten",
+        "eat"
+      ],
+      "answer": "ate"
+    },
+    {
+      "id": "past-simple-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja lampau + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "had",
+        "lunch",
+        "at",
+        "12"
+      ],
+      "answer": "They had lunch at 12"
+    },
+    {
+      "id": "past-simple-v9-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'See' tak beraturan: bentuk lampaunya saw.",
+      "type": "flip_sentence",
+      "source": "My cat sees a bird.",
+      "target": "past",
+      "answer": [
+        "My cat saw a bird."
+      ]
+    },
+    {
+      "id": "past-simple-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did yesterday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I visited my grandmother yesterday."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v10-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Kata kerja tak beraturan tidak mendapat -ed: went, ate, had, saw, wrote.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "write",
+          "right": "wrote"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v10-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'Have' tak beraturan: bentuk lampaunya had.",
+      "type": "fill_blank",
+      "sentence": "They ___ (have) lunch at 12.",
+      "answer": [
+        "had"
+      ]
+    },
+    {
+      "id": "past-simple-v10-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'Cook' beraturan: cooked.",
+      "type": "fill_blank",
+      "sentence": "My mother ___ (cook) rendang yesterday.",
+      "answer": [
+        "cooked"
+      ]
+    },
+    {
+      "id": "past-simple-v10-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "'Play' beraturan, cukup tambah -ed: played.",
+      "type": "fill_blank",
+      "sentence": "He ___ (play) football on Sunday.",
+      "answer": [
+        "played"
+      ]
+    },
+    {
+      "id": "past-simple-v10-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari buy adalah bought.",
+      "type": "multiple_choice",
+      "question": "He ___ a new phone last month.",
+      "options": [
+        "buyed",
+        "bought",
+        "buys",
+        "buy"
+      ],
+      "answer": "bought"
+    },
+    {
+      "id": "past-simple-v10-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'Do' tak beraturan: bentuk lampaunya did.",
+      "type": "multiple_choice",
+      "question": "I ___ my homework yesterday.",
+      "options": [
+        "do",
+        "did",
+        "does",
+        "doed"
+      ],
+      "answer": "did"
+    },
+    {
+      "id": "past-simple-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu lampau diletakkan di akhir.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "went",
+        "to",
+        "the",
+        "beach",
+        "yesterday"
+      ],
+      "answer": "We went to the beach yesterday"
+    },
+    {
+      "id": "past-simple-v10-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk lampau dari eat adalah ate.",
+      "type": "flip_sentence",
+      "source": "They eat nasi goreng.",
+      "target": "past",
+      "answer": [
+        "They ate nasi goreng."
+      ]
+    },
+    {
+      "id": "past-simple-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau, misalnya went.",
+      "type": "free_write",
+      "task": "Write one sentence about your last holiday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I went to Bali last year."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v11-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Bentuk lampau tak beraturan: bought, took, made, came.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "take",
+          "right": "took"
+        },
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "came"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v11-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Stop menggandakan huruf p sebelum -ed: stopped.",
+      "type": "fill_blank",
+      "sentence": "We ___ (stop) at the station.",
+      "answer": [
+        "stopped"
+      ]
+    },
+    {
+      "id": "past-simple-v11-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'Go' tak beraturan: bentuk lampaunya went.",
+      "type": "fill_blank",
+      "sentence": "We ___ (go) to the mall.",
+      "answer": [
+        "went"
+      ]
+    },
+    {
+      "id": "past-simple-v11-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "'Watch' beraturan, jadi tambahkan -ed: watched.",
+      "type": "fill_blank",
+      "sentence": "Yesterday I ___ (watch) a movie.",
+      "answer": [
+        "watched"
+      ]
+    },
+    {
+      "id": "past-simple-v11-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari see adalah saw. Seen adalah bentuk ketiga.",
+      "type": "multiple_choice",
+      "question": "They ___ a film last night.",
+      "options": [
+        "saw",
+        "seen",
+        "seed",
+        "sees"
+      ],
+      "answer": "saw"
+    },
+    {
+      "id": "past-simple-v11-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari write adalah wrote.",
+      "type": "multiple_choice",
+      "question": "Last week she ___ a letter to her grandmother.",
+      "options": [
+        "writed",
+        "wrote",
+        "writes",
+        "write"
+      ],
+      "answer": "wrote"
+    },
+    {
+      "id": "past-simple-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja -ed + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "watched",
+        "a",
+        "movie",
+        "last",
+        "night"
+      ],
+      "answer": "She watched a movie last night"
+    },
+    {
+      "id": "past-simple-v11-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'Watch' beraturan: tambahkan -ed. Tidak ada -s di bentuk lampau.",
+      "type": "flip_sentence",
+      "source": "He watches YouTube.",
+      "target": "past",
+      "answer": [
+        "He watched YouTube."
+      ]
+    },
+    {
+      "id": "past-simple-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did yesterday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I visited my grandmother yesterday."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v12-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Kata kerja tak beraturan tidak mendapat -ed: went, ate, had, saw, wrote.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "write",
+          "right": "wrote"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v12-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -ed.",
+      "type": "fill_blank",
+      "sentence": "She ___ (study) last night.",
+      "answer": [
+        "studied"
+      ]
+    },
+    {
+      "id": "past-simple-v12-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk lampau dari see adalah saw.",
+      "type": "fill_blank",
+      "sentence": "I ___ (see) my friend at the market.",
+      "answer": [
+        "saw"
+      ]
+    },
+    {
+      "id": "past-simple-v12-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk lampau dari write adalah wrote.",
+      "type": "fill_blank",
+      "sentence": "She ___ (write) a poem last week.",
+      "answer": [
+        "wrote"
+      ]
+    },
+    {
+      "id": "past-simple-v12-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -ed: studied.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "She studied all night.",
+        "She studyed all night.",
+        "She study all night."
+      ],
+      "answer": "She studied all night."
+    },
+    {
+      "id": "past-simple-v12-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "'Do' tak beraturan: bentuk lampaunya did.",
+      "type": "multiple_choice",
+      "question": "I ___ my homework yesterday.",
+      "options": [
+        "do",
+        "did",
+        "does",
+        "doed"
+      ],
+      "answer": "did"
+    },
+    {
+      "id": "past-simple-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja lampau + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "had",
+        "lunch",
+        "at",
+        "12"
+      ],
+      "answer": "They had lunch at 12"
+    },
+    {
+      "id": "past-simple-v12-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'See' tak beraturan: bentuk lampaunya saw.",
+      "type": "flip_sentence",
+      "source": "My cat sees a bird.",
+      "target": "past",
+      "answer": [
+        "My cat saw a bird."
+      ]
+    },
+    {
+      "id": "past-simple-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau, misalnya went.",
+      "type": "free_write",
+      "task": "Write one sentence about your last holiday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I went to Bali last year."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v13-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Bentuk lampau tak beraturan: bought, took, made, came.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "take",
+          "right": "took"
+        },
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "came"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v13-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'Cook' beraturan: cooked.",
+      "type": "fill_blank",
+      "sentence": "My mother ___ (cook) rendang yesterday.",
+      "answer": [
+        "cooked"
+      ]
+    },
+    {
+      "id": "past-simple-v13-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Stop menggandakan huruf p sebelum -ed: stopped.",
+      "type": "fill_blank",
+      "sentence": "We ___ (stop) at the station.",
+      "answer": [
+        "stopped"
+      ]
+    },
+    {
+      "id": "past-simple-v13-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "Konsonan + y: ubah y menjadi i lalu tambah -ed.",
+      "type": "fill_blank",
+      "sentence": "She ___ (study) last night.",
+      "answer": [
+        "studied"
+      ]
+    },
+    {
+      "id": "past-simple-v13-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "'Go' tak beraturan: went. Jangan menambahkan -ed pada bentuk lampau tak beraturan.",
+      "type": "multiple_choice",
+      "question": "Pick the correct past sentence.",
+      "options": [
+        "I went home.",
+        "I goed home.",
+        "I wented home."
+      ],
+      "answer": "I went home."
+    },
+    {
+      "id": "past-simple-v13-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari buy adalah bought.",
+      "type": "multiple_choice",
+      "question": "He ___ a new phone last month.",
+      "options": [
+        "buyed",
+        "bought",
+        "buys",
+        "buy"
+      ],
+      "answer": "bought"
+    },
+    {
+      "id": "past-simple-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja -ed + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "watched",
+        "a",
+        "movie",
+        "last",
+        "night"
+      ],
+      "answer": "She watched a movie last night"
+    },
+    {
+      "id": "past-simple-v13-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk lampau dari eat adalah ate.",
+      "type": "flip_sentence",
+      "source": "They eat nasi goreng.",
+      "target": "past",
+      "answer": [
+        "They ate nasi goreng."
+      ]
+    },
+    {
+      "id": "past-simple-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau, misalnya went.",
+      "type": "free_write",
+      "task": "Write one sentence about your last holiday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I went to Bali last year."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v14-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Kata kerja tak beraturan tidak mendapat -ed: went, ate, had, saw, wrote.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "write",
+          "right": "wrote"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v14-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'Watch' beraturan, jadi tambahkan -ed: watched.",
+      "type": "fill_blank",
+      "sentence": "Yesterday I ___ (watch) a movie.",
+      "answer": [
+        "watched"
+      ]
+    },
+    {
+      "id": "past-simple-v14-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'Play' beraturan, cukup tambah -ed: played.",
+      "type": "fill_blank",
+      "sentence": "He ___ (play) football on Sunday.",
+      "answer": [
+        "played"
+      ]
+    },
+    {
+      "id": "past-simple-v14-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk lampau dari write adalah wrote.",
+      "type": "fill_blank",
+      "sentence": "She ___ (write) a poem last week.",
+      "answer": [
+        "wrote"
+      ]
+    },
+    {
+      "id": "past-simple-v14-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari eat adalah ate.",
+      "type": "multiple_choice",
+      "question": "We ___ dinner at eight.",
+      "options": [
+        "ate",
+        "eated",
+        "eaten",
+        "eat"
+      ],
+      "answer": "ate"
+    },
+    {
+      "id": "past-simple-v14-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari see adalah saw. Seen adalah bentuk ketiga.",
+      "type": "multiple_choice",
+      "question": "They ___ a film last night.",
+      "options": [
+        "saw",
+        "seen",
+        "seed",
+        "sees"
+      ],
+      "answer": "saw"
+    },
+    {
+      "id": "past-simple-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + kata kerja lampau + objek + waktu.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "had",
+        "lunch",
+        "at",
+        "12"
+      ],
+      "answer": "They had lunch at 12"
+    },
+    {
+      "id": "past-simple-v14-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'See' tak beraturan: bentuk lampaunya saw.",
+      "type": "flip_sentence",
+      "source": "My cat sees a bird.",
+      "target": "past",
+      "answer": [
+        "My cat saw a bird."
+      ]
+    },
+    {
+      "id": "past-simple-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau kata kerja.",
+      "type": "free_write",
+      "task": "Write one sentence about something you did yesterday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I visited my grandmother yesterday."
+    }
+  ],
+  [
+    {
+      "id": "past-simple-v15-match-1",
+      "prompt": "Match each verb to its past form",
+      "explanation": "Kata kerja tak beraturan tidak mendapat -ed: went, ate, had, saw, wrote.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "write",
+          "right": "wrote"
+        }
+      ]
+    },
+    {
+      "id": "past-simple-v15-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "'Go' tak beraturan: bentuk lampaunya went.",
+      "type": "fill_blank",
+      "sentence": "We ___ (go) to the mall.",
+      "answer": [
+        "went"
+      ]
+    },
+    {
+      "id": "past-simple-v15-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "'Have' tak beraturan: bentuk lampaunya had.",
+      "type": "fill_blank",
+      "sentence": "They ___ (have) lunch at 12.",
+      "answer": [
+        "had"
+      ]
+    },
+    {
+      "id": "past-simple-v15-fb-3",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk lampau dari see adalah saw.",
+      "type": "fill_blank",
+      "sentence": "I ___ (see) my friend at the market.",
+      "answer": [
+        "saw"
+      ]
+    },
+    {
+      "id": "past-simple-v15-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari write adalah wrote.",
+      "type": "multiple_choice",
+      "question": "Last week she ___ a letter to her grandmother.",
+      "options": [
+        "writed",
+        "wrote",
+        "writes",
+        "write"
+      ],
+      "answer": "wrote"
+    },
+    {
+      "id": "past-simple-v15-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk lampau dari eat adalah ate.",
+      "type": "multiple_choice",
+      "question": "We ___ dinner at eight.",
+      "options": [
+        "ate",
+        "eated",
+        "eaten",
+        "eat"
+      ],
+      "answer": "ate"
+    },
+    {
+      "id": "past-simple-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Keterangan waktu lampau diletakkan di akhir.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "went",
+        "to",
+        "the",
+        "beach",
+        "yesterday"
+      ],
+      "answer": "We went to the beach yesterday"
+    },
+    {
+      "id": "past-simple-v15-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "'Watch' beraturan: tambahkan -ed. Tidak ada -s di bentuk lampau.",
+      "type": "flip_sentence",
+      "source": "He watches YouTube.",
+      "target": "past",
+      "answer": [
+        "He watched YouTube."
+      ]
+    },
+    {
+      "id": "past-simple-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan bentuk lampau, misalnya went.",
+      "type": "free_write",
+      "task": "Write one sentence about your last holiday.",
+      "requirements": [
+        "past simple"
+      ],
+      "modelAnswer": "I went to Bali last year."
+    }
+  ]
+]

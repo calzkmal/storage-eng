@@ -10,20 +10,18 @@ export type LessonSummary = {
   label: string;
   title: string;
   exerciseCount: number;
-  /** Set in use: a database id, or file:<id> without a database. */
-  setId: string;
-  setVersion: number;
-  setSource: "seed" | "generated";
+  /** Every set of questions for this lesson. */
+  setIds: string[];
 };
 
 type Props = {
   lesson: LessonSummary;
-  /** The set in use has been played through on this device. */
-  finished: boolean;
+  /** How many of this lesson's sets the learner has finished. */
+  done: number;
 };
 
 
-export default function LessonCard({ lesson, finished }: Props) {
+export default function LessonCard({ lesson, done }: Props) {
   return (
     <Link
       href={`/lesson/${lesson.id}`}
@@ -39,21 +37,18 @@ export default function LessonCard({ lesson, finished }: Props) {
           <span>
             {lesson.exerciseCount} exercise{lesson.exerciseCount === 1 ? "" : "s"}
           </span>
-          {lesson.setSource === "generated" && (
-            <span className="rounded-full bg-sky-100 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-sky-700">
-              New set
-            </span>
-          )}
-          {/* Tied to the set, so it clears when the questions are replaced. */}
-          {finished && (
-            <span
-              aria-label="Finished"
-              title="You have finished these questions"
-              className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-[11px] font-bold text-emerald-700"
-            >
-              ✓
-            </span>
-          )}
+          <span
+            title={`${done} of ${lesson.setIds.length} question sets finished`}
+            className={`rounded-full px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide ${
+              done >= lesson.setIds.length
+                ? "bg-emerald-100 text-emerald-700"
+                : done > 0
+                  ? "bg-sky-100 text-sky-700"
+                  : "bg-slate-100 text-slate-500"
+            }`}
+          >
+            {done}/{lesson.setIds.length} sets
+          </span>
         </span>
       </span>
     </Link>

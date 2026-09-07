@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getLessonOverviews, isDbConfigured, type LessonOverview } from "@/lib/content";
+import { getLessonOverviews, type LessonOverview } from "@/lib/content";
 import { lessonLabel } from "@/lib/categories";
 import LessonList from "@/components/LessonList";
 import NameGate from "@/components/NameGate";
@@ -15,9 +15,7 @@ export default async function HomePage() {
     label: lessonLabel(l.category, l.order),
     title: l.title,
     exerciseCount: l.exerciseCount,
-    setId: l.setId,
-    setVersion: l.setVersion,
-    setSource: l.setSource,
+    setIds: l.setIds,
   }));
 
   return (
@@ -35,7 +33,7 @@ export default async function HomePage() {
           Your history
         </Link>
       </header>
-      <LessonList lessons={lessons} storageReady={isDbConfigured()} />
+      <LessonList lessons={lessons} />
       <NameGate />
     </main>
   );

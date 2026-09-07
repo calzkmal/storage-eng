@@ -3,7 +3,8 @@ import { getLesson, loadLessonFiles } from "@/lib/content";
 import LessonRunnerLoader from "@/components/LessonRunnerLoader";
 
 // Prerendered per lesson. Do NOT read searchParams here: it would make this
-// page dynamic again. The runner reads ?shuffle=1 on the client.
+// page dynamic again. Every set ships with the page so the runner can pick
+// one the learner has not finished, with no request at play time.
 export function generateStaticParams() {
   return loadLessonFiles().map((l) => ({ id: l.id }));
 }
@@ -13,10 +14,6 @@ export default async function LessonPage({ params }: { params: Promise<{ id: str
   const lesson = await getLesson(id);
   if (!lesson) notFound();
 
-  const { setId, setVersion, setSource, modelUsed, ...plain } = lesson;
-  void setVersion;
-  void setSource;
-  void modelUsed;
-
-  return <LessonRunnerLoader lesson={plain} setId={setId} />;
+  const { sets, ...plain } = lesson;
+  return <LessonRunnerLoader lesson={plain} sets={sets} />;
 }

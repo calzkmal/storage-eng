@@ -1,0 +1,1862 @@
+[
+  [
+    {
+      "id": "future-perfect-v1-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "multiple_choice",
+      "question": "He ___ his work by six.",
+      "options": [
+        "will have done",
+        "will have did",
+        "will has done",
+        "will doing"
+      ],
+      "answer": "will have done"
+    },
+    {
+      "id": "future-perfect-v1-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will have + past participle. Bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future perfect sentence.",
+      "options": [
+        "They will have gone by six.",
+        "They will have went by six.",
+        "They will has gone by six."
+      ],
+      "answer": "They will have gone by six."
+    },
+    {
+      "id": "future-perfect-v1-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + learned.",
+      "type": "fill_blank",
+      "sentence": "By next year he ___ (learn) English.",
+      "answer": [
+        "will have learned"
+      ]
+    },
+    {
+      "id": "future-perfect-v1-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + finished.",
+      "type": "fill_blank",
+      "sentence": "She ___ (finish) her homework by eight.",
+      "answer": [
+        "will have finished"
+      ]
+    },
+    {
+      "id": "future-perfect-v1-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will have + past participle + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "will",
+        "have",
+        "left",
+        "by",
+        "then"
+      ],
+      "answer": "We will have left by then"
+    },
+    {
+      "id": "future-perfect-v1-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle dipakai setelah will have: made, come, bought, won.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "come"
+        },
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "win",
+          "right": "won"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v1-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By next month they ___ the house.",
+      "options": [
+        "will have sold",
+        "will have sell",
+        "will has sold",
+        "will selling"
+      ],
+      "answer": "will have sold"
+    },
+    {
+      "id": "future-perfect-v1-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future perfect: will have + past participle.",
+      "type": "flip_sentence",
+      "source": "He finishes his work.",
+      "target": "future_perfect",
+      "answer": [
+        "He will have finished his work."
+      ]
+    },
+    {
+      "id": "future-perfect-v1-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will have finished by next week.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "I will have finished this course by next week."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v2-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By Friday I ___ the book.",
+      "options": [
+        "will have finished",
+        "will finished",
+        "will have finish",
+        "have finished"
+      ],
+      "answer": "will have finished"
+    },
+    {
+      "id": "future-perfect-v2-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Bentuk ketiga dari eat adalah eaten, dan selalu will have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I will have eaten by then.",
+        "I will have ate by then.",
+        "I will has eaten by then."
+      ],
+      "answer": "I will have eaten by then."
+    },
+    {
+      "id": "future-perfect-v2-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "We ___ (see) the film by Sunday.",
+      "answer": [
+        "will have seen"
+      ]
+    },
+    {
+      "id": "future-perfect-v2-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + past participle.",
+      "type": "fill_blank",
+      "sentence": "They ___ (eat) before we arrive.",
+      "answer": [
+        "will have eaten"
+      ]
+    },
+    {
+      "id": "future-perfect-v2-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Will have + arrived.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "have",
+        "arrived",
+        "by",
+        "noon"
+      ],
+      "answer": "They will have arrived by noon"
+    },
+    {
+      "id": "future-perfect-v2-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Future perfect memakai will have dengan bentuk ketiga.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Simple future",
+          "right": "will + base verb"
+        },
+        {
+          "left": "Future perfect",
+          "right": "will have + past participle"
+        },
+        {
+          "left": "Future continuous",
+          "right": "will be + verb-ing"
+        },
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v2-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle. Will have tidak pernah menjadi will has.",
+      "type": "multiple_choice",
+      "question": "She ___ the letter by tomorrow.",
+      "options": [
+        "will have written",
+        "will have write",
+        "will has written",
+        "will wrote"
+      ],
+      "answer": "will have written"
+    },
+    {
+      "id": "future-perfect-v2-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk ketiga dari eat adalah eaten.",
+      "type": "flip_sentence",
+      "source": "They eat dinner.",
+      "target": "future_perfect",
+      "answer": [
+        "They will have eaten dinner."
+      ]
+    },
+    {
+      "id": "future-perfect-v2-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle dengan by.",
+      "type": "free_write",
+      "task": "Write one sentence with 'by' about the future.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "By Friday I will have read the whole book."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v3-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By Friday I ___ the book.",
+      "options": [
+        "will have finished",
+        "will finished",
+        "will have finish",
+        "have finished"
+      ],
+      "answer": "will have finished"
+    },
+    {
+      "id": "future-perfect-v3-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle. Will have tidak pernah menjadi will has.",
+      "type": "multiple_choice",
+      "question": "She ___ the letter by tomorrow.",
+      "options": [
+        "will have written",
+        "will have write",
+        "will has written",
+        "will wrote"
+      ],
+      "answer": "will have written"
+    },
+    {
+      "id": "future-perfect-v3-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "I ___ (write) the report by Monday.",
+      "answer": [
+        "will have written"
+      ]
+    },
+    {
+      "id": "future-perfect-v3-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + finished.",
+      "type": "fill_blank",
+      "sentence": "She ___ (finish) her homework by eight.",
+      "answer": [
+        "will have finished"
+      ]
+    },
+    {
+      "id": "future-perfect-v3-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Will have + past participle.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "will",
+        "have",
+        "finished",
+        "her",
+        "work"
+      ],
+      "answer": "She will have finished her work"
+    },
+    {
+      "id": "future-perfect-v3-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Future perfect memakai will have dengan bentuk ketiga.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Simple future",
+          "right": "will + base verb"
+        },
+        {
+          "left": "Future perfect",
+          "right": "will have + past participle"
+        },
+        {
+          "left": "Future continuous",
+          "right": "will be + verb-ing"
+        },
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v3-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Bentuk ketiga dari eat adalah eaten, dan selalu will have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I will have eaten by then.",
+        "I will have ate by then.",
+        "I will has eaten by then."
+      ],
+      "answer": "I will have eaten by then."
+    },
+    {
+      "id": "future-perfect-v3-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk ketiga dari eat adalah eaten.",
+      "type": "flip_sentence",
+      "source": "They eat dinner.",
+      "target": "future_perfect",
+      "answer": [
+        "They will have eaten dinner."
+      ]
+    },
+    {
+      "id": "future-perfect-v3-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will have finished by next week.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "I will have finished this course by next week."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v4-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will have + past participle. Bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future perfect sentence.",
+      "options": [
+        "They will have gone by six.",
+        "They will have went by six.",
+        "They will has gone by six."
+      ],
+      "answer": "They will have gone by six."
+    },
+    {
+      "id": "future-perfect-v4-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By next month they ___ the house.",
+      "options": [
+        "will have sold",
+        "will have sell",
+        "will has sold",
+        "will selling"
+      ],
+      "answer": "will have sold"
+    },
+    {
+      "id": "future-perfect-v4-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "I ___ (write) the report by Monday.",
+      "answer": [
+        "will have written"
+      ]
+    },
+    {
+      "id": "future-perfect-v4-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + learned.",
+      "type": "fill_blank",
+      "sentence": "By next year he ___ (learn) English.",
+      "answer": [
+        "will have learned"
+      ]
+    },
+    {
+      "id": "future-perfect-v4-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Will have + arrived.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "have",
+        "arrived",
+        "by",
+        "noon"
+      ],
+      "answer": "They will have arrived by noon"
+    },
+    {
+      "id": "future-perfect-v4-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle dipakai setelah will have: made, come, bought, won.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "come"
+        },
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "win",
+          "right": "won"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v4-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "multiple_choice",
+      "question": "He ___ his work by six.",
+      "options": [
+        "will have done",
+        "will have did",
+        "will has done",
+        "will doing"
+      ],
+      "answer": "will have done"
+    },
+    {
+      "id": "future-perfect-v4-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future perfect: will have + past participle.",
+      "type": "flip_sentence",
+      "source": "He finishes his work.",
+      "target": "future_perfect",
+      "answer": [
+        "He will have finished his work."
+      ]
+    },
+    {
+      "id": "future-perfect-v4-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle dengan by.",
+      "type": "free_write",
+      "task": "Write one sentence with 'by' about the future.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "By Friday I will have read the whole book."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v5-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle. Will have tidak pernah menjadi will has.",
+      "type": "multiple_choice",
+      "question": "She ___ the letter by tomorrow.",
+      "options": [
+        "will have written",
+        "will have write",
+        "will has written",
+        "will wrote"
+      ],
+      "answer": "will have written"
+    },
+    {
+      "id": "future-perfect-v5-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "multiple_choice",
+      "question": "He ___ his work by six.",
+      "options": [
+        "will have done",
+        "will have did",
+        "will has done",
+        "will doing"
+      ],
+      "answer": "will have done"
+    },
+    {
+      "id": "future-perfect-v5-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + past participle.",
+      "type": "fill_blank",
+      "sentence": "They ___ (eat) before we arrive.",
+      "answer": [
+        "will have eaten"
+      ]
+    },
+    {
+      "id": "future-perfect-v5-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "We ___ (see) the film by Sunday.",
+      "answer": [
+        "will have seen"
+      ]
+    },
+    {
+      "id": "future-perfect-v5-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Will have + past participle.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "will",
+        "have",
+        "finished",
+        "her",
+        "work"
+      ],
+      "answer": "She will have finished her work"
+    },
+    {
+      "id": "future-perfect-v5-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle dipakai setelah will have: made, come, bought, won.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "come"
+        },
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "win",
+          "right": "won"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v5-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By Friday I ___ the book.",
+      "options": [
+        "will have finished",
+        "will finished",
+        "will have finish",
+        "have finished"
+      ],
+      "answer": "will have finished"
+    },
+    {
+      "id": "future-perfect-v5-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future perfect: will have + past participle.",
+      "type": "flip_sentence",
+      "source": "He finishes his work.",
+      "target": "future_perfect",
+      "answer": [
+        "He will have finished his work."
+      ]
+    },
+    {
+      "id": "future-perfect-v5-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will have finished by next week.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "I will have finished this course by next week."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v6-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will have + past participle. Bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future perfect sentence.",
+      "options": [
+        "They will have gone by six.",
+        "They will have went by six.",
+        "They will has gone by six."
+      ],
+      "answer": "They will have gone by six."
+    },
+    {
+      "id": "future-perfect-v6-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By next month they ___ the house.",
+      "options": [
+        "will have sold",
+        "will have sell",
+        "will has sold",
+        "will selling"
+      ],
+      "answer": "will have sold"
+    },
+    {
+      "id": "future-perfect-v6-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + past participle.",
+      "type": "fill_blank",
+      "sentence": "They ___ (eat) before we arrive.",
+      "answer": [
+        "will have eaten"
+      ]
+    },
+    {
+      "id": "future-perfect-v6-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + finished.",
+      "type": "fill_blank",
+      "sentence": "She ___ (finish) her homework by eight.",
+      "answer": [
+        "will have finished"
+      ]
+    },
+    {
+      "id": "future-perfect-v6-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will have + past participle + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "will",
+        "have",
+        "left",
+        "by",
+        "then"
+      ],
+      "answer": "We will have left by then"
+    },
+    {
+      "id": "future-perfect-v6-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Future perfect memakai will have dengan bentuk ketiga.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Simple future",
+          "right": "will + base verb"
+        },
+        {
+          "left": "Future perfect",
+          "right": "will have + past participle"
+        },
+        {
+          "left": "Future continuous",
+          "right": "will be + verb-ing"
+        },
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v6-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Bentuk ketiga dari eat adalah eaten, dan selalu will have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I will have eaten by then.",
+        "I will have ate by then.",
+        "I will has eaten by then."
+      ],
+      "answer": "I will have eaten by then."
+    },
+    {
+      "id": "future-perfect-v6-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk ketiga dari eat adalah eaten.",
+      "type": "flip_sentence",
+      "source": "They eat dinner.",
+      "target": "future_perfect",
+      "answer": [
+        "They will have eaten dinner."
+      ]
+    },
+    {
+      "id": "future-perfect-v6-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle dengan by.",
+      "type": "free_write",
+      "task": "Write one sentence with 'by' about the future.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "By Friday I will have read the whole book."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v7-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will have + past participle. Bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future perfect sentence.",
+      "options": [
+        "They will have gone by six.",
+        "They will have went by six.",
+        "They will has gone by six."
+      ],
+      "answer": "They will have gone by six."
+    },
+    {
+      "id": "future-perfect-v7-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "multiple_choice",
+      "question": "He ___ his work by six.",
+      "options": [
+        "will have done",
+        "will have did",
+        "will has done",
+        "will doing"
+      ],
+      "answer": "will have done"
+    },
+    {
+      "id": "future-perfect-v7-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "We ___ (see) the film by Sunday.",
+      "answer": [
+        "will have seen"
+      ]
+    },
+    {
+      "id": "future-perfect-v7-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + learned.",
+      "type": "fill_blank",
+      "sentence": "By next year he ___ (learn) English.",
+      "answer": [
+        "will have learned"
+      ]
+    },
+    {
+      "id": "future-perfect-v7-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will have + past participle + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "will",
+        "have",
+        "left",
+        "by",
+        "then"
+      ],
+      "answer": "We will have left by then"
+    },
+    {
+      "id": "future-perfect-v7-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle dipakai setelah will have: made, come, bought, won.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "come"
+        },
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "win",
+          "right": "won"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v7-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Bentuk ketiga dari eat adalah eaten, dan selalu will have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I will have eaten by then.",
+        "I will have ate by then.",
+        "I will has eaten by then."
+      ],
+      "answer": "I will have eaten by then."
+    },
+    {
+      "id": "future-perfect-v7-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk ketiga dari eat adalah eaten.",
+      "type": "flip_sentence",
+      "source": "They eat dinner.",
+      "target": "future_perfect",
+      "answer": [
+        "They will have eaten dinner."
+      ]
+    },
+    {
+      "id": "future-perfect-v7-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will have finished by next week.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "I will have finished this course by next week."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v8-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle. Will have tidak pernah menjadi will has.",
+      "type": "multiple_choice",
+      "question": "She ___ the letter by tomorrow.",
+      "options": [
+        "will have written",
+        "will have write",
+        "will has written",
+        "will wrote"
+      ],
+      "answer": "will have written"
+    },
+    {
+      "id": "future-perfect-v8-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By next month they ___ the house.",
+      "options": [
+        "will have sold",
+        "will have sell",
+        "will has sold",
+        "will selling"
+      ],
+      "answer": "will have sold"
+    },
+    {
+      "id": "future-perfect-v8-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "I ___ (write) the report by Monday.",
+      "answer": [
+        "will have written"
+      ]
+    },
+    {
+      "id": "future-perfect-v8-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + past participle.",
+      "type": "fill_blank",
+      "sentence": "They ___ (eat) before we arrive.",
+      "answer": [
+        "will have eaten"
+      ]
+    },
+    {
+      "id": "future-perfect-v8-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Will have + past participle.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "will",
+        "have",
+        "finished",
+        "her",
+        "work"
+      ],
+      "answer": "She will have finished her work"
+    },
+    {
+      "id": "future-perfect-v8-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Future perfect memakai will have dengan bentuk ketiga.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Simple future",
+          "right": "will + base verb"
+        },
+        {
+          "left": "Future perfect",
+          "right": "will have + past participle"
+        },
+        {
+          "left": "Future continuous",
+          "right": "will be + verb-ing"
+        },
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v8-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By Friday I ___ the book.",
+      "options": [
+        "will have finished",
+        "will finished",
+        "will have finish",
+        "have finished"
+      ],
+      "answer": "will have finished"
+    },
+    {
+      "id": "future-perfect-v8-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future perfect: will have + past participle.",
+      "type": "flip_sentence",
+      "source": "He finishes his work.",
+      "target": "future_perfect",
+      "answer": [
+        "He will have finished his work."
+      ]
+    },
+    {
+      "id": "future-perfect-v8-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle dengan by.",
+      "type": "free_write",
+      "task": "Write one sentence with 'by' about the future.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "By Friday I will have read the whole book."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v9-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By Friday I ___ the book.",
+      "options": [
+        "will have finished",
+        "will finished",
+        "will have finish",
+        "have finished"
+      ],
+      "answer": "will have finished"
+    },
+    {
+      "id": "future-perfect-v9-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle. Will have tidak pernah menjadi will has.",
+      "type": "multiple_choice",
+      "question": "She ___ the letter by tomorrow.",
+      "options": [
+        "will have written",
+        "will have write",
+        "will has written",
+        "will wrote"
+      ],
+      "answer": "will have written"
+    },
+    {
+      "id": "future-perfect-v9-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + finished.",
+      "type": "fill_blank",
+      "sentence": "She ___ (finish) her homework by eight.",
+      "answer": [
+        "will have finished"
+      ]
+    },
+    {
+      "id": "future-perfect-v9-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "We ___ (see) the film by Sunday.",
+      "answer": [
+        "will have seen"
+      ]
+    },
+    {
+      "id": "future-perfect-v9-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Will have + arrived.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "have",
+        "arrived",
+        "by",
+        "noon"
+      ],
+      "answer": "They will have arrived by noon"
+    },
+    {
+      "id": "future-perfect-v9-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Future perfect memakai will have dengan bentuk ketiga.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Simple future",
+          "right": "will + base verb"
+        },
+        {
+          "left": "Future perfect",
+          "right": "will have + past participle"
+        },
+        {
+          "left": "Future continuous",
+          "right": "will be + verb-ing"
+        },
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v9-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Bentuk ketiga dari eat adalah eaten, dan selalu will have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I will have eaten by then.",
+        "I will have ate by then.",
+        "I will has eaten by then."
+      ],
+      "answer": "I will have eaten by then."
+    },
+    {
+      "id": "future-perfect-v9-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future perfect: will have + past participle.",
+      "type": "flip_sentence",
+      "source": "He finishes his work.",
+      "target": "future_perfect",
+      "answer": [
+        "He will have finished his work."
+      ]
+    },
+    {
+      "id": "future-perfect-v9-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will have finished by next week.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "I will have finished this course by next week."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v10-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will have + past participle. Bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future perfect sentence.",
+      "options": [
+        "They will have gone by six.",
+        "They will have went by six.",
+        "They will has gone by six."
+      ],
+      "answer": "They will have gone by six."
+    },
+    {
+      "id": "future-perfect-v10-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By next month they ___ the house.",
+      "options": [
+        "will have sold",
+        "will have sell",
+        "will has sold",
+        "will selling"
+      ],
+      "answer": "will have sold"
+    },
+    {
+      "id": "future-perfect-v10-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + learned.",
+      "type": "fill_blank",
+      "sentence": "By next year he ___ (learn) English.",
+      "answer": [
+        "will have learned"
+      ]
+    },
+    {
+      "id": "future-perfect-v10-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "I ___ (write) the report by Monday.",
+      "answer": [
+        "will have written"
+      ]
+    },
+    {
+      "id": "future-perfect-v10-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Will have + past participle.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "will",
+        "have",
+        "finished",
+        "her",
+        "work"
+      ],
+      "answer": "She will have finished her work"
+    },
+    {
+      "id": "future-perfect-v10-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle dipakai setelah will have: made, come, bought, won.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "come"
+        },
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "win",
+          "right": "won"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v10-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "multiple_choice",
+      "question": "He ___ his work by six.",
+      "options": [
+        "will have done",
+        "will have did",
+        "will has done",
+        "will doing"
+      ],
+      "answer": "will have done"
+    },
+    {
+      "id": "future-perfect-v10-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk ketiga dari eat adalah eaten.",
+      "type": "flip_sentence",
+      "source": "They eat dinner.",
+      "target": "future_perfect",
+      "answer": [
+        "They will have eaten dinner."
+      ]
+    },
+    {
+      "id": "future-perfect-v10-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle dengan by.",
+      "type": "free_write",
+      "task": "Write one sentence with 'by' about the future.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "By Friday I will have read the whole book."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v11-mc-1",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Bentuk ketiga dari eat adalah eaten, dan selalu will have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I will have eaten by then.",
+        "I will have ate by then.",
+        "I will has eaten by then."
+      ],
+      "answer": "I will have eaten by then."
+    },
+    {
+      "id": "future-perfect-v11-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle. Will have tidak pernah menjadi will has.",
+      "type": "multiple_choice",
+      "question": "She ___ the letter by tomorrow.",
+      "options": [
+        "will have written",
+        "will have write",
+        "will has written",
+        "will wrote"
+      ],
+      "answer": "will have written"
+    },
+    {
+      "id": "future-perfect-v11-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + past participle.",
+      "type": "fill_blank",
+      "sentence": "They ___ (eat) before we arrive.",
+      "answer": [
+        "will have eaten"
+      ]
+    },
+    {
+      "id": "future-perfect-v11-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + learned.",
+      "type": "fill_blank",
+      "sentence": "By next year he ___ (learn) English.",
+      "answer": [
+        "will have learned"
+      ]
+    },
+    {
+      "id": "future-perfect-v11-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Will have + arrived.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "have",
+        "arrived",
+        "by",
+        "noon"
+      ],
+      "answer": "They will have arrived by noon"
+    },
+    {
+      "id": "future-perfect-v11-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle dipakai setelah will have: made, come, bought, won.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "come"
+        },
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "win",
+          "right": "won"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v11-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By Friday I ___ the book.",
+      "options": [
+        "will have finished",
+        "will finished",
+        "will have finish",
+        "have finished"
+      ],
+      "answer": "will have finished"
+    },
+    {
+      "id": "future-perfect-v11-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future perfect: will have + past participle.",
+      "type": "flip_sentence",
+      "source": "He finishes his work.",
+      "target": "future_perfect",
+      "answer": [
+        "He will have finished his work."
+      ]
+    },
+    {
+      "id": "future-perfect-v11-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle dengan by.",
+      "type": "free_write",
+      "task": "Write one sentence with 'by' about the future.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "By Friday I will have read the whole book."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v12-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By next month they ___ the house.",
+      "options": [
+        "will have sold",
+        "will have sell",
+        "will has sold",
+        "will selling"
+      ],
+      "answer": "will have sold"
+    },
+    {
+      "id": "future-perfect-v12-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will have + past participle. Bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future perfect sentence.",
+      "options": [
+        "They will have gone by six.",
+        "They will have went by six.",
+        "They will has gone by six."
+      ],
+      "answer": "They will have gone by six."
+    },
+    {
+      "id": "future-perfect-v12-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + finished.",
+      "type": "fill_blank",
+      "sentence": "She ___ (finish) her homework by eight.",
+      "answer": [
+        "will have finished"
+      ]
+    },
+    {
+      "id": "future-perfect-v12-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "I ___ (write) the report by Monday.",
+      "answer": [
+        "will have written"
+      ]
+    },
+    {
+      "id": "future-perfect-v12-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will have + past participle + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "will",
+        "have",
+        "left",
+        "by",
+        "then"
+      ],
+      "answer": "We will have left by then"
+    },
+    {
+      "id": "future-perfect-v12-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Future perfect memakai will have dengan bentuk ketiga.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Simple future",
+          "right": "will + base verb"
+        },
+        {
+          "left": "Future perfect",
+          "right": "will have + past participle"
+        },
+        {
+          "left": "Future continuous",
+          "right": "will be + verb-ing"
+        },
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v12-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "multiple_choice",
+      "question": "He ___ his work by six.",
+      "options": [
+        "will have done",
+        "will have did",
+        "will has done",
+        "will doing"
+      ],
+      "answer": "will have done"
+    },
+    {
+      "id": "future-perfect-v12-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk ketiga dari eat adalah eaten.",
+      "type": "flip_sentence",
+      "source": "They eat dinner.",
+      "target": "future_perfect",
+      "answer": [
+        "They will have eaten dinner."
+      ]
+    },
+    {
+      "id": "future-perfect-v12-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will have finished by next week.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "I will have finished this course by next week."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v13-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle. Will have tidak pernah menjadi will has.",
+      "type": "multiple_choice",
+      "question": "She ___ the letter by tomorrow.",
+      "options": [
+        "will have written",
+        "will have write",
+        "will has written",
+        "will wrote"
+      ],
+      "answer": "will have written"
+    },
+    {
+      "id": "future-perfect-v13-mc-2",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Bentuk ketiga dari eat adalah eaten, dan selalu will have.",
+      "type": "multiple_choice",
+      "question": "Pick the correct sentence.",
+      "options": [
+        "I will have eaten by then.",
+        "I will have ate by then.",
+        "I will has eaten by then."
+      ],
+      "answer": "I will have eaten by then."
+    },
+    {
+      "id": "future-perfect-v13-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "We ___ (see) the film by Sunday.",
+      "answer": [
+        "will have seen"
+      ]
+    },
+    {
+      "id": "future-perfect-v13-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + learned.",
+      "type": "fill_blank",
+      "sentence": "By next year he ___ (learn) English.",
+      "answer": [
+        "will have learned"
+      ]
+    },
+    {
+      "id": "future-perfect-v13-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Will have + past participle.",
+      "type": "word_order",
+      "words": [
+        "She",
+        "will",
+        "have",
+        "finished",
+        "her",
+        "work"
+      ],
+      "answer": "She will have finished her work"
+    },
+    {
+      "id": "future-perfect-v13-match-1",
+      "prompt": "Match each verb to its past participle",
+      "explanation": "Past participle dipakai setelah will have: made, come, bought, won.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "make",
+          "right": "made"
+        },
+        {
+          "left": "come",
+          "right": "come"
+        },
+        {
+          "left": "buy",
+          "right": "bought"
+        },
+        {
+          "left": "win",
+          "right": "won"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v13-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will have + past participle. Bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future perfect sentence.",
+      "options": [
+        "They will have gone by six.",
+        "They will have went by six.",
+        "They will has gone by six."
+      ],
+      "answer": "They will have gone by six."
+    },
+    {
+      "id": "future-perfect-v13-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk ketiga dari eat adalah eaten.",
+      "type": "flip_sentence",
+      "source": "They eat dinner.",
+      "target": "future_perfect",
+      "answer": [
+        "They will have eaten dinner."
+      ]
+    },
+    {
+      "id": "future-perfect-v13-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle dengan by.",
+      "type": "free_write",
+      "task": "Write one sentence with 'by' about the future.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "By Friday I will have read the whole book."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v14-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By next month they ___ the house.",
+      "options": [
+        "will have sold",
+        "will have sell",
+        "will has sold",
+        "will selling"
+      ],
+      "answer": "will have sold"
+    },
+    {
+      "id": "future-perfect-v14-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Rumusnya will have + past participle.",
+      "type": "multiple_choice",
+      "question": "By Friday I ___ the book.",
+      "options": [
+        "will have finished",
+        "will finished",
+        "will have finish",
+        "have finished"
+      ],
+      "answer": "will have finished"
+    },
+    {
+      "id": "future-perfect-v14-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari write adalah written.",
+      "type": "fill_blank",
+      "sentence": "I ___ (write) the report by Monday.",
+      "answer": [
+        "will have written"
+      ]
+    },
+    {
+      "id": "future-perfect-v14-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + finished.",
+      "type": "fill_blank",
+      "sentence": "She ___ (finish) her homework by eight.",
+      "answer": [
+        "will have finished"
+      ]
+    },
+    {
+      "id": "future-perfect-v14-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Subjek + will have + past participle + keterangan waktu.",
+      "type": "word_order",
+      "words": [
+        "We",
+        "will",
+        "have",
+        "left",
+        "by",
+        "then"
+      ],
+      "answer": "We will have left by then"
+    },
+    {
+      "id": "future-perfect-v14-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Future perfect memakai will have dengan bentuk ketiga.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Simple future",
+          "right": "will + base verb"
+        },
+        {
+          "left": "Future perfect",
+          "right": "will have + past participle"
+        },
+        {
+          "left": "Future continuous",
+          "right": "will be + verb-ing"
+        },
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v14-mc-3",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "multiple_choice",
+      "question": "He ___ his work by six.",
+      "options": [
+        "will have done",
+        "will have did",
+        "will has done",
+        "will doing"
+      ],
+      "answer": "will have done"
+    },
+    {
+      "id": "future-perfect-v14-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Future perfect: will have + past participle.",
+      "type": "flip_sentence",
+      "source": "He finishes his work.",
+      "target": "future_perfect",
+      "answer": [
+        "He will have finished his work."
+      ]
+    },
+    {
+      "id": "future-perfect-v14-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle.",
+      "type": "free_write",
+      "task": "Write one sentence about something you will have finished by next week.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "I will have finished this course by next week."
+    }
+  ],
+  [
+    {
+      "id": "future-perfect-v15-mc-1",
+      "prompt": "Choose the correct form",
+      "explanation": "Will have + past participle. Will have tidak pernah menjadi will has.",
+      "type": "multiple_choice",
+      "question": "She ___ the letter by tomorrow.",
+      "options": [
+        "will have written",
+        "will have write",
+        "will has written",
+        "will wrote"
+      ],
+      "answer": "will have written"
+    },
+    {
+      "id": "future-perfect-v15-mc-2",
+      "prompt": "Choose the correct form",
+      "explanation": "Bentuk ketiga dari do adalah done.",
+      "type": "multiple_choice",
+      "question": "He ___ his work by six.",
+      "options": [
+        "will have done",
+        "will have did",
+        "will has done",
+        "will doing"
+      ],
+      "answer": "will have done"
+    },
+    {
+      "id": "future-perfect-v15-fb-1",
+      "prompt": "Complete the sentence",
+      "explanation": "Will have + past participle.",
+      "type": "fill_blank",
+      "sentence": "They ___ (eat) before we arrive.",
+      "answer": [
+        "will have eaten"
+      ]
+    },
+    {
+      "id": "future-perfect-v15-fb-2",
+      "prompt": "Complete the sentence",
+      "explanation": "Bentuk ketiga dari see adalah seen.",
+      "type": "fill_blank",
+      "sentence": "We ___ (see) the film by Sunday.",
+      "answer": [
+        "will have seen"
+      ]
+    },
+    {
+      "id": "future-perfect-v15-wo-1",
+      "prompt": "Put the words in the correct order",
+      "explanation": "Will have + arrived.",
+      "type": "word_order",
+      "words": [
+        "They",
+        "will",
+        "have",
+        "arrived",
+        "by",
+        "noon"
+      ],
+      "answer": "They will have arrived by noon"
+    },
+    {
+      "id": "future-perfect-v15-match-1",
+      "prompt": "Match each tense to its formula",
+      "explanation": "Future perfect memakai will have dengan bentuk ketiga.",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "Simple future",
+          "right": "will + base verb"
+        },
+        {
+          "left": "Future perfect",
+          "right": "will have + past participle"
+        },
+        {
+          "left": "Future continuous",
+          "right": "will be + verb-ing"
+        },
+        {
+          "left": "Present perfect",
+          "right": "have/has + past participle"
+        }
+      ]
+    },
+    {
+      "id": "future-perfect-v15-mc-3",
+      "prompt": "Which sentence is correct?",
+      "explanation": "Will have + past participle. Bentuk ketiga dari go adalah gone.",
+      "type": "multiple_choice",
+      "question": "Pick the correct future perfect sentence.",
+      "options": [
+        "They will have gone by six.",
+        "They will have went by six.",
+        "They will has gone by six."
+      ],
+      "answer": "They will have gone by six."
+    },
+    {
+      "id": "future-perfect-v15-flip-1",
+      "prompt": "Rewrite the sentence",
+      "explanation": "Bentuk ketiga dari eat adalah eaten.",
+      "type": "flip_sentence",
+      "source": "They eat dinner.",
+      "target": "future_perfect",
+      "answer": [
+        "They will have eaten dinner."
+      ]
+    },
+    {
+      "id": "future-perfect-v15-fw-1",
+      "prompt": "Write your own sentence",
+      "explanation": "Gunakan will have + past participle dengan by.",
+      "type": "free_write",
+      "task": "Write one sentence with 'by' about the future.",
+      "requirements": [
+        "future perfect"
+      ],
+      "modelAnswer": "By Friday I will have read the whole book."
+    }
+  ]
+]

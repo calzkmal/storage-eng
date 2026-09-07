@@ -94,18 +94,27 @@ export function useLearner(): Learner | null | undefined {
   return useMemo(() => (mounted ? parseLearner(raw) : undefined), [mounted, raw]);
 }
 
+/** Flag a finished set for this learner. Fire and forget. */
+export function recordSetCompleted(learnerId: string | undefined, lessonId: string, setId: string): void {
+  if (!learnerId || setId.startsWith("file:")) return;
+  post("/api/learner/sets", { learnerId, lessonId, setId });
+}
+
 /** Record one answer. Fire and forget. */
 export function recordAttempt(body: Record<string, unknown>): void {
+  post("/api/attempts", body);
+}
+
+// sendBeacon survives the navigation at the end of a lesson.
+function post(url: string, body: Record<string, unknown>): void {
   try {
     const payload = JSON.stringify(body);
-    const url = "/api/attempts";
-    // sendBeacon survives the navigation at the end of a lesson.
     if (navigator.sendBeacon) {
       navigator.sendBeacon(url, new Blob([payload], { type: "application/json" }));
       return;
     }
     void fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: payload, keepalive: true });
   } catch {
-    /* ignore */
+    // Best effort.
   }
 }
