@@ -43,6 +43,13 @@ const RevertIcon = () => (
   </svg>
 );
 
+/** Points down when the category is open. */
+const ChevronIcon = () => (
+  <svg {...iconProps} className="shrink-0 text-slate-400 transition-transform group-open:rotate-90">
+    <path d="M9 18l6-6-6-6" />
+  </svg>
+);
+
 const buttonBase =
   "flex shrink-0 items-center justify-center rounded-2xl border-2 border-slate-200 bg-white shadow-[0_2px_0_#e2e8f0] transition-colors active:bg-slate-100 disabled:cursor-not-allowed disabled:text-slate-400 disabled:shadow-none disabled:active:bg-white";
 
@@ -91,12 +98,39 @@ export default function LessonList({ lessons, storageReady }: Props) {
 
   return (
     <div>
-      {groups.map(([category, inCategory]) => (
-        <section key={category} className="mb-8">
-          <h2 className="mb-3 text-sm font-bold uppercase tracking-wide text-slate-500">
-            {category}. {categoryTitle(category)}
-          </h2>
-          <ul className="flex flex-col gap-3">
+      {groups.map(([category, inCategory]) => {
+        const doneCount = inCategory.filter((l) => finished.has(l.setId)).length;
+        const allDone = doneCount === inCategory.length;
+        return (
+        <details
+          key={category}
+          className="group mb-3 overflow-hidden rounded-2xl border-2 border-slate-200 bg-white shadow-[0_2px_0_#e2e8f0]"
+        >
+          <summary className="flex min-h-16 cursor-pointer select-none list-none items-center gap-3 px-4 py-3 active:bg-slate-100 [&::-webkit-details-marker]:hidden">
+            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-sky-100 text-sm font-bold tabular-nums text-sky-800">
+              {category}
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block text-base font-semibold leading-snug text-slate-900">
+                {categoryTitle(category)}
+              </span>
+              <span className="mt-0.5 flex flex-wrap items-center gap-2 text-sm text-slate-500">
+                <span>
+                  {inCategory.length} lesson{inCategory.length === 1 ? "" : "s"} · {doneCount} done
+                </span>
+                {allDone && (
+                  <span
+                    aria-label="All finished"
+                    className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-[11px] font-bold text-emerald-700"
+                  >
+                    ✓
+                  </span>
+                )}
+              </span>
+            </span>
+            <ChevronIcon />
+          </summary>
+          <ul className="flex flex-col gap-3 border-t-2 border-slate-100 px-3 py-3">
             {inCategory.map((lesson) => {
           const st = cards[lesson.id] ?? { working: false };
           const isGenerated = lesson.setSource === "generated";
@@ -161,8 +195,9 @@ export default function LessonList({ lessons, storageReady }: Props) {
               );
             })}
           </ul>
-        </section>
-      ))}
+        </details>
+        );
+      })}
 
       {!storageReady && (
         <p className="mt-6 text-center text-sm text-slate-500">
