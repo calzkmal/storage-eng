@@ -21,6 +21,7 @@ import BottomBar, { type BottomTone } from "./BottomBar";
 import FeedbackPanel, { type Feedback } from "./FeedbackPanel";
 import ConfirmDialog from "./ConfirmDialog";
 import ExerciseView from "./exercises/ExerciseView";
+import LessonIntro from "./LessonIntro";
 
 type Props = { lesson: Lesson; sets: LessonSet[] };
 type Phase = "main" | "review";
@@ -77,7 +78,12 @@ export default function LessonRunner({ lesson, sets }: Props) {
 
   const current: Exercise | undefined = phase === "main" ? order[index] : retryQueue[index];
   const total = phase === "main" ? order.length : retryQueue.length;
-  const counter = showIntro ? "Tip" : phase === "main" ? `${index + 1} / ${total}` : `Review ${index + 1} / ${total}`;
+  const left = phase === "review" ? total - index : 0;
+  const counter = showIntro
+    ? "Tip"
+    : phase === "main"
+      ? `${index + 1} / ${total}`
+      : `Review · ${left} left`;
 
   type GradedBy = "local" | "ai" | "cache" | "fallback";
 
@@ -104,17 +110,21 @@ export default function LessonRunner({ lesson, sets }: Props) {
       });
     }
 
-    if (fb.status === "wrong" && phase === "main") {
+    // Wrong answers queue up again, in the review too, so the lesson cannot end
+    // on a miss. Only the first pass feeds the done screen.
+    if (fb.status === "wrong") {
       setRetryQueue((q) => [...q, ex]);
-      setWrongFirst((w) => [
-        ...w,
-        {
-          exerciseId: ex.id,
-          summary: exerciseSummary(ex),
-          yourAnswer: answerText(ex, value),
-          correctAnswer: fb.correctAnswer,
-        },
-      ]);
+      if (phase === "main") {
+        setWrongFirst((w) => [
+          ...w,
+          {
+            exerciseId: ex.id,
+            summary: exerciseSummary(ex),
+            yourAnswer: answerText(ex, value),
+            correctAnswer: fb.correctAnswer,
+          },
+        ]);
+      }
     }
   }
 
@@ -251,10 +261,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
             <p className="text-lg font-semibold text-slate-500">Finishing…</p>
           </div>
         ) : showIntro && lesson.intro ? (
-          <section className="mt-4 rounded-3xl border-2 border-sky-100 bg-sky-50 p-5">
-            <h1 className="text-xl font-bold text-sky-900">{lesson.title}</h1>
-            <p className="mt-3 text-lg leading-relaxed text-sky-950">{lesson.intro}</p>
-          </section>
+          <LessonIntro title={lesson.title} intro={lesson.intro} />
         ) : current ? (
           <div key={`${phase}-${index}-${attempt}`}>
             <h2 className="text-xl font-bold leading-snug">{current.prompt}</h2>

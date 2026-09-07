@@ -96,6 +96,7 @@ export default function Matching({ exercise, onChange, disabled }: ExerciseProps
 
   return (
     <div>
+      <p className="mb-4 text-base text-slate-600">Ketuk kata di kiri, lalu pasangannya di kanan.</p>
       <div className="grid grid-cols-2 gap-3">
         <div className="flex flex-col gap-3" aria-label="Left column">
           {exercise.pairs.map((p, i) => {
@@ -136,7 +137,6 @@ export default function Matching({ exercise, onChange, disabled }: ExerciseProps
           })}
         </div>
       </div>
-      <p className="mt-3 text-sm text-slate-500">Tap a word on the left, then its match on the right.</p>
     </div>
   );
 }

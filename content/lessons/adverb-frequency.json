@@ -3,18 +3,33 @@
   "category": 4,
   "order": 4,
   "title": "Adverbs of Frequency",
-  "intro": "always (100%), usually, often, sometimes, never (0%). Letakkan adverb sebelum kata kerja utama (I always eat), tetapi setelah am, is, dan are (He is always late).",
+  "intro": "Adverb of frequency menjelaskan seberapa sering sesuatu terjadi: always (100%), usually, often, sometimes, never (0%). Letakkan sebelum kata kerja utama, tetapi setelah am, is, dan are.\nI always eat breakfast.\nShe often reads at night.\nHe is always late.",
   "exercises": [
     {
       "id": "advfreq-match-1",
       "type": "matching",
       "prompt": "Match each adverb to how often it means",
       "pairs": [
-        { "left": "always", "right": "100%" },
-        { "left": "usually", "right": "about 85%" },
-        { "left": "often", "right": "about 60%" },
-        { "left": "sometimes", "right": "about 30%" },
-        { "left": "never", "right": "0%" }
+        {
+          "left": "always",
+          "right": "100%"
+        },
+        {
+          "left": "usually",
+          "right": "about 85%"
+        },
+        {
+          "left": "often",
+          "right": "about 60%"
+        },
+        {
+          "left": "sometimes",
+          "right": "about 30%"
+        },
+        {
+          "left": "never",
+          "right": "0%"
+        }
       ],
       "explanation": "always = 100%, usually = sekitar 85%, often = sekitar 60%, sometimes = sekitar 30%, never = 0%."
     },
@@ -22,7 +37,12 @@
       "id": "advfreq-wo-1",
       "type": "word_order",
       "prompt": "Put the words in the correct order",
-      "words": ["I", "always", "eat", "breakfast"],
+      "words": [
+        "I",
+        "always",
+        "eat",
+        "breakfast"
+      ],
       "answer": "I always eat breakfast",
       "explanation": "Adverb of frequency diletakkan sebelum kata kerja utama: I always eat."
     },
@@ -30,7 +50,12 @@
       "id": "advfreq-wo-2",
       "type": "word_order",
       "prompt": "Put the words in the correct order",
-      "words": ["She", "never", "drinks", "coffee"],
+      "words": [
+        "She",
+        "never",
+        "drinks",
+        "coffee"
+      ],
       "answer": "She never drinks coffee",
       "explanation": "Adverb diletakkan sebelum kata kerja utama. Ingat, 'she' memakai bentuk -s."
     },
@@ -38,7 +63,12 @@
       "id": "advfreq-wo-3",
       "type": "word_order",
       "prompt": "Put the words in the correct order",
-      "words": ["He", "is", "always", "late"],
+      "words": [
+        "He",
+        "is",
+        "always",
+        "late"
+      ],
       "answer": "He is always late",
       "explanation": "Dengan kata kerja 'to be' (am, is, are), adverb diletakkan setelahnya: He is always late."
     },
@@ -47,7 +77,11 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct form",
       "question": "They ___ tired on Monday.",
-      "options": ["are usually", "usually are", "are usually being"],
+      "options": [
+        "are usually",
+        "usually are",
+        "are usually being"
+      ],
       "answer": "are usually",
       "explanation": "Setelah am, is, atau are, adverb diletakkan setelah kata kerja: They are usually tired."
     },
@@ -56,7 +90,12 @@
       "type": "multiple_choice",
       "prompt": "Choose the best adverb",
       "question": "I ___ eat vegetables. I really don't like them.",
-      "options": ["always", "never", "usually", "often"],
+      "options": [
+        "always",
+        "never",
+        "usually",
+        "often"
+      ],
       "answer": "never",
       "explanation": "'I really don't like them' berarti 0% dari waktu, jadi adverbnya never."
     },
@@ -78,7 +117,9 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence using the words in brackets",
       "sentence": "We ___ (often / play) football on Saturday.",
-      "answer": ["often play"],
+      "answer": [
+        "often play"
+      ],
       "explanation": "Adverb diletakkan sebelum kata kerja utama: often play."
     },
     {
@@ -86,7 +127,10 @@
       "type": "free_write",
       "prompt": "Write your own sentence",
       "task": "Write one sentence about your weekend using an adverb of frequency.",
-      "requirements": ["present simple", "adverb of frequency"],
+      "requirements": [
+        "present simple",
+        "adverb of frequency"
+      ],
       "modelAnswer": "I usually sleep late on Sunday.",
       "explanation": "Gunakan present simple dan letakkan adverb sebelum kata kerja utama."
     }

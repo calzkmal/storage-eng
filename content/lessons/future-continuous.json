@@ -3,14 +3,19 @@
   "category": 3,
   "order": 2,
   "title": "Future Continuous",
-  "intro": "Future continuous: will be + kata kerja -ing. Untuk kegiatan yang akan sedang berlangsung pada waktu tertentu di masa depan. At 8 tonight I will be studying.",
+  "intro": "Future continuous: will be + kata kerja -ing. Untuk kegiatan yang akan sedang berlangsung pada waktu tertentu di masa depan.\nAt 8 tonight I will be studying.\nThey will be travelling next week.",
   "exercises": [
     {
       "id": "futcont-mc-1",
       "type": "multiple_choice",
       "prompt": "Choose the correct form",
       "question": "At 8 tonight I ___ dinner.",
-      "options": ["will be cooking", "will cooking", "will be cook", "am cooking"],
+      "options": [
+        "will be cooking",
+        "will cooking",
+        "will be cook",
+        "am cooking"
+      ],
       "answer": "will be cooking",
       "explanation": "Rumusnya will be + kata kerja -ing: will be cooking."
     },
@@ -19,7 +24,12 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct form",
       "question": "She ___ at the office tomorrow morning.",
-      "options": ["will be working", "will works", "will be work", "is be working"],
+      "options": [
+        "will be working",
+        "will works",
+        "will be work",
+        "is be working"
+      ],
       "answer": "will be working",
       "explanation": "Will be + working. Will tidak pernah mendapat -s."
     },
@@ -28,7 +38,9 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence with the future continuous",
       "sentence": "They ___ (play) football at 4 tomorrow.",
-      "answer": ["will be playing"],
+      "answer": [
+        "will be playing"
+      ],
       "explanation": "Will be + kata kerja -ing: will be playing."
     },
     {
@@ -36,14 +48,23 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence with the future continuous",
       "sentence": "We ___ (wait) for you at the station.",
-      "answer": ["will be waiting"],
+      "answer": [
+        "will be waiting"
+      ],
       "explanation": "Will be + waiting, sama untuk semua subjek."
     },
     {
       "id": "futcont-wo-1",
       "type": "word_order",
       "prompt": "Put the words in the correct order",
-      "words": ["be", "I", "will", "sleeping", "midnight", "at"],
+      "words": [
+        "be",
+        "I",
+        "will",
+        "sleeping",
+        "midnight",
+        "at"
+      ],
       "answer": "I will be sleeping at midnight",
       "explanation": "Subjek + will be + kata kerja -ing + keterangan waktu."
     },
@@ -52,10 +73,22 @@
       "type": "matching",
       "prompt": "Match each tense to its formula",
       "pairs": [
-        { "left": "Simple future", "right": "will + base verb" },
-        { "left": "Future continuous", "right": "will be + verb-ing" },
-        { "left": "Present continuous", "right": "am/is/are + verb-ing" },
-        { "left": "Past continuous", "right": "was/were + verb-ing" }
+        {
+          "left": "Simple future",
+          "right": "will + base verb"
+        },
+        {
+          "left": "Future continuous",
+          "right": "will be + verb-ing"
+        },
+        {
+          "left": "Present continuous",
+          "right": "am/is/are + verb-ing"
+        },
+        {
+          "left": "Past continuous",
+          "right": "was/were + verb-ing"
+        }
       ],
       "explanation": "Future continuous menambahkan be di antara will dan kata kerja -ing, berbeda dari simple future yang memakai bentuk dasar."
     },
@@ -78,7 +111,9 @@
       "prompt": "Rewrite the sentence",
       "source": "She is reading a book.",
       "target": "future_continuous",
-      "answer": ["She will be reading a book."],
+      "answer": [
+        "She will be reading a book."
+      ],
       "explanation": "Present continuous jadi future continuous: is berubah menjadi will be."
     },
     {
@@ -86,7 +121,9 @@
       "type": "free_write",
       "prompt": "Write your own sentence",
       "task": "Write one sentence about what you will be doing tonight.",
-      "requirements": ["future continuous"],
+      "requirements": [
+        "future continuous"
+      ],
       "modelAnswer": "I will be watching a movie tonight.",
       "explanation": "Gunakan will be + kata kerja -ing, misalnya 'I will be watching a movie tonight.'"
     }

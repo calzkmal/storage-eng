@@ -3,18 +3,33 @@
   "category": 2,
   "order": 1,
   "title": "Past Simple",
-  "intro": "Past simple untuk kejadian yang sudah selesai. Kata kerja beraturan mendapat -ed (watched, studied). Kata kerja tak beraturan berubah bentuk: go jadi went, eat jadi ate, see jadi saw.",
+  "intro": "Past simple untuk kejadian yang sudah selesai. Kata kerja beraturan mendapat -ed, sedangkan kata kerja tak beraturan berubah bentuk: go jadi went, eat jadi ate, see jadi saw.\nI watched a movie.\nShe studied last night.\nWe went to the mall.",
   "exercises": [
     {
       "id": "pastsim-match-1",
       "type": "matching",
       "prompt": "Match each verb to its past form",
       "pairs": [
-        { "left": "go", "right": "went" },
-        { "left": "eat", "right": "ate" },
-        { "left": "have", "right": "had" },
-        { "left": "see", "right": "saw" },
-        { "left": "write", "right": "wrote" }
+        {
+          "left": "go",
+          "right": "went"
+        },
+        {
+          "left": "eat",
+          "right": "ate"
+        },
+        {
+          "left": "have",
+          "right": "had"
+        },
+        {
+          "left": "see",
+          "right": "saw"
+        },
+        {
+          "left": "write",
+          "right": "wrote"
+        }
       ],
       "explanation": "Kata kerja tak beraturan tidak mendapat -ed: go jadi went, eat jadi ate, have jadi had, see jadi saw, write jadi wrote."
     },
@@ -23,7 +38,9 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence with the past form",
       "sentence": "Yesterday I ___ (watch) a movie.",
-      "answer": ["watched"],
+      "answer": [
+        "watched"
+      ],
       "explanation": "'Watch' beraturan, jadi tambahkan -ed: watched. 'Yesterday' menandakan waktu lampau."
     },
     {
@@ -31,7 +48,9 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence with the past form",
       "sentence": "She ___ (study) last night.",
-      "answer": ["studied"],
+      "answer": [
+        "studied"
+      ],
       "explanation": "Konsonan + y: ubah y menjadi i lalu tambahkan -ed: studied."
     },
     {
@@ -39,7 +58,9 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence with the past form",
       "sentence": "We ___ (go) to the mall.",
-      "answer": ["went"],
+      "answer": [
+        "went"
+      ],
       "explanation": "'Go' tak beraturan: bentuk lampaunya went, bukan goed."
     },
     {
@@ -47,7 +68,11 @@
       "type": "multiple_choice",
       "prompt": "Which sentence is correct?",
       "question": "Pick the correct past sentence.",
-      "options": ["I went home.", "I goed home.", "I wented home."],
+      "options": [
+        "I went home.",
+        "I goed home.",
+        "I wented home."
+      ],
       "answer": "I went home.",
       "explanation": "'Go' tak beraturan: went. Jangan menambahkan -ed pada bentuk lampau tak beraturan."
     },
@@ -56,7 +81,12 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct form",
       "question": "Last week she ___ a letter to her grandmother.",
-      "options": ["writed", "wrote", "writes", "write"],
+      "options": [
+        "writed",
+        "wrote",
+        "writes",
+        "write"
+      ],
       "answer": "wrote",
       "explanation": "Bentuk lampau dari write adalah wrote. 'Last week' menandakan waktu lampau."
     },
@@ -64,7 +94,13 @@
       "id": "pastsim-wo-1",
       "type": "word_order",
       "prompt": "Put the words in the correct order",
-      "words": ["They", "lunch", "had", "at", "12"],
+      "words": [
+        "They",
+        "lunch",
+        "had",
+        "at",
+        "12"
+      ],
       "answer": "They had lunch at 12",
       "explanation": "Subjek + kata kerja lampau + objek + waktu. Bentuk lampau dari have adalah had."
     },
@@ -74,7 +110,9 @@
       "prompt": "Rewrite the sentence",
       "source": "He watches YouTube.",
       "target": "past",
-      "answer": ["He watched YouTube."],
+      "answer": [
+        "He watched YouTube."
+      ],
       "explanation": "'Watch' beraturan: tambahkan -ed menjadi watched. Tidak ada -s di bentuk lampau."
     },
     {
@@ -82,7 +120,9 @@
       "type": "free_write",
       "prompt": "Write your own sentence",
       "task": "Write one sentence about something you did yesterday.",
-      "requirements": ["past simple"],
+      "requirements": [
+        "past simple"
+      ],
       "modelAnswer": "I visited my grandmother yesterday.",
       "explanation": "Gunakan bentuk lampau, misalnya 'I visited my grandmother yesterday.'"
     }

@@ -3,14 +3,19 @@
   "category": 2,
   "order": 3,
   "title": "Past Perfect",
-  "intro": "Past perfect: had + past participle, untuk semua subjek. Dipakai untuk kejadian yang terjadi lebih dulu daripada kejadian lampau lainnya. She had eaten before I arrived.",
+  "intro": "Past perfect: had + past participle, untuk semua subjek. Dipakai untuk kejadian yang terjadi lebih dulu daripada kejadian lampau lainnya.\nShe had eaten before I arrived.\nThey had left when we came.",
   "exercises": [
     {
       "id": "pastperf-mc-1",
       "type": "multiple_choice",
       "prompt": "Choose the correct form",
       "question": "She ___ before I arrived.",
-      "options": ["had eaten", "have eaten", "had ate", "was eaten"],
+      "options": [
+        "had eaten",
+        "have eaten",
+        "had ate",
+        "was eaten"
+      ],
       "answer": "had eaten",
       "explanation": "Past perfect memakai had + past participle. Bentuk ketiga dari eat adalah eaten."
     },
@@ -19,7 +24,12 @@
       "type": "multiple_choice",
       "prompt": "Choose the correct form",
       "question": "They ___ home when it started to rain.",
-      "options": ["had gone", "had went", "have gone", "had go"],
+      "options": [
+        "had gone",
+        "had went",
+        "have gone",
+        "had go"
+      ],
       "answer": "had gone",
       "explanation": "Had + past participle. Bentuk ketiga dari go adalah gone, bukan went."
     },
@@ -28,7 +38,9 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence with the past perfect",
       "sentence": "I ___ (finish) my work before dinner.",
-      "answer": ["had finished"],
+      "answer": [
+        "had finished"
+      ],
       "explanation": "Had + past participle. 'Finish' beraturan, jadi finished."
     },
     {
@@ -36,7 +48,9 @@
       "type": "fill_blank",
       "prompt": "Complete the sentence with the past perfect",
       "sentence": "He ___ (write) the letter before she called.",
-      "answer": ["had written"],
+      "answer": [
+        "had written"
+      ],
       "explanation": "Bentuk ketiga dari write adalah written: had written."
     },
     {
@@ -44,10 +58,22 @@
       "type": "matching",
       "prompt": "Match each verb to its past participle",
       "pairs": [
-        { "left": "take", "right": "taken" },
-        { "left": "give", "right": "given" },
-        { "left": "know", "right": "known" },
-        { "left": "speak", "right": "spoken" }
+        {
+          "left": "take",
+          "right": "taken"
+        },
+        {
+          "left": "give",
+          "right": "given"
+        },
+        {
+          "left": "know",
+          "right": "known"
+        },
+        {
+          "left": "speak",
+          "right": "spoken"
+        }
       ],
       "explanation": "Past participle dipakai setelah had: take jadi taken, give jadi given, know jadi known, speak jadi spoken."
     },
@@ -55,7 +81,14 @@
       "id": "pastperf-wo-1",
       "type": "word_order",
       "prompt": "Put the words in the correct order",
-      "words": ["had", "We", "already", "left", "the", "house"],
+      "words": [
+        "had",
+        "We",
+        "already",
+        "left",
+        "the",
+        "house"
+      ],
       "answer": "We had already left the house",
       "explanation": "Subjek + had + already + past participle. Kata already diletakkan di antara had dan kata kerja."
     },
@@ -64,7 +97,11 @@
       "type": "multiple_choice",
       "prompt": "Which sentence is correct?",
       "question": "Pick the correct past perfect sentence.",
-      "options": ["She had seen that film.", "She had saw that film.", "She has had seen that film."],
+      "options": [
+        "She had seen that film.",
+        "She had saw that film.",
+        "She has had seen that film."
+      ],
       "answer": "She had seen that film.",
       "explanation": "Had + past participle. Bentuk ketiga dari see adalah seen, bukan saw."
     },
@@ -74,7 +111,9 @@
       "prompt": "Rewrite the sentence",
       "source": "He finished his homework.",
       "target": "past_perfect",
-      "answer": ["He had finished his homework."],
+      "answer": [
+        "He had finished his homework."
+      ],
       "explanation": "Past simple jadi past perfect: had + past participle."
     },
     {
@@ -82,7 +121,9 @@
       "type": "free_write",
       "prompt": "Write your own sentence",
       "task": "Write one sentence about something you had done before you came home.",
-      "requirements": ["past perfect"],
+      "requirements": [
+        "past perfect"
+      ],
       "modelAnswer": "I had eaten lunch before I came home.",
       "explanation": "Gunakan had + past participle, misalnya 'I had eaten lunch before I came home.'"
     }

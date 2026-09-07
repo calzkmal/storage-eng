@@ -88,6 +88,7 @@ export const LessonSchema = z
     /** Position within the category, 1-based. */
     order: z.number().int().positive(),
     title: z.string().min(1),
+    /** Rule paragraph, then one example sentence per line. */
     intro: z.string().optional(),
     exercises: z.array(ExerciseSchema).min(1),
   })
