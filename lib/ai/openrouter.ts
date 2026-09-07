@@ -1,8 +1,8 @@
 // OpenRouter chat completions. Cross-model fallback is OpenRouter's own, via `models`.
 
-const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
+import type { ChatMessage, ChatResult } from "./types";
 
-export type ChatMessage = { role: "system" | "user" | "assistant"; content: string };
+const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 export class OpenRouterError extends Error {
   constructor(
@@ -24,8 +24,6 @@ export type ChatOptions = {
   /** Reasoning tokens eat max_tokens, so a thinking model can answer empty. */
   disableReasoning?: boolean;
 };
-
-export type ChatResult = { content: string; model: string };
 
 /** OpenRouter rejects `models` arrays longer than this. */
 export const MAX_MODELS_PER_REQUEST = 3;

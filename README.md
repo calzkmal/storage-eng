@@ -16,8 +16,11 @@ Open http://localhost:3000. Without any keys the app still runs on the bundled l
 
 | Variable | Needed for |
 |---|---|
-| `OPENROUTER_API_KEY` | Grading free-text answers |
+| `GEMINI_API_KEY` | Grading free-text answers, tried first |
+| `OPENROUTER_API_KEY` | Fallback grader when Gemini is unavailable |
 | `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` | Storing questions and practice history |
+
+Optional: `GEMINI_MODEL` and `OPENROUTER_MODELS` override the model choices.
 
 All are server-only and never reach the browser.
 
@@ -25,7 +28,7 @@ All are server-only and never reach the browser.
 
 - **18 lessons in 5 categories**: present, past and future tenses, adverbs, and `do / don't / doesn't`. Six exercise types: multiple choice, fill in the blank, word order, matching, sentence rewriting and free writing.
 - **Instant feedback.** Wrong answers show the rule and come back once at the end of the lesson.
-- **AI grading** for free writing and sentence rewrites, through OpenRouter's free models with automatic fallback. If no model answers in time, the app shows a model answer instead of a verdict.
+- **AI grading** for free writing and sentence rewrites. Gemini answers first, with OpenRouter's free models behind it. If neither answers in time the app shows a model answer instead of a verdict, and never blocks the lesson.
 - **16 sets of questions per lesson.** Every lesson ships a seed set plus 15 pre-built variations, all held in the database. Opening a lesson serves a set you have not finished, so the questions are new each time with no waiting and no AI call. The card shows how many sets you have done.
 - **Progress without accounts.** You type a name once and a random id is stored in your browser. `/history` replays every question and answer you have given.
 
