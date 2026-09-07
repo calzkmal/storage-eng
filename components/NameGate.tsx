@@ -11,17 +11,15 @@ import { saveLearner, useLearner } from "@/lib/learner";
 export default function NameGate() {
   const learner = useLearner();
   const [name, setName] = useState("");
-  const [saving, setSaving] = useState(false);
 
   // undefined = not read yet (server render), null = no profile on this device.
   if (learner !== null) return null;
 
-  async function submit(e: React.FormEvent) {
+  function submit(e: React.FormEvent) {
     e.preventDefault();
-    if (!name.trim() || saving) return;
-    setSaving(true);
-    await saveLearner(name);
-    setSaving(false);
+    if (!name.trim()) return;
+    // Saves locally and closes at once; the server copy goes out in the background.
+    saveLearner(name);
   }
 
   return (
@@ -51,10 +49,10 @@ export default function NameGate() {
         />
         <button
           type="submit"
-          disabled={!name.trim() || saving}
+          disabled={!name.trim()}
           className="mt-4 min-h-[52px] w-full rounded-2xl bg-sky-500 text-base font-bold uppercase tracking-wide text-white shadow-[0_4px_0_#0284c7] transition-transform active:translate-y-[2px] disabled:cursor-not-allowed disabled:bg-slate-200 disabled:text-slate-400 disabled:shadow-none"
         >
-          {saving ? "Saving…" : "Start practising"}
+          Start practising
         </button>
       </form>
     </div>
