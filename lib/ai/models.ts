@@ -1,11 +1,11 @@
 // Free models in priority order, used only for grading free-text answers.
-// Grading must answer within ~9s, so the fastest go first. They rotate, and
-// a dead entry fails instantly, so check them against the live :free list.
+// Order is by measured reliability, not speed: a model that answers empty costs
+// a whole extra request. Reasoning models are the worst here, because grading
+// runs with reasoning off. They rotate, so recheck against the live :free list.
 export const FREE_MODELS: string[] = [
-  "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
   "nvidia/nemotron-3.5-lightning:free",
   "nvidia/nemotron-3-super-120b-a12b:free",
-  "liquid/lfm-2.5-2.6b:free",
+  "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
 ];
 
 /** `OPENROUTER_MODELS` overrides the list, for testing fallback. */

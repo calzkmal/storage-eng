@@ -30,9 +30,13 @@ export default function LessonRunner({ lesson, sets }: Props) {
   const router = useRouter();
   const learner = useLearner();
 
-  // Pick a set the learner has not finished, so every visit brings new questions
-  // without any request. Falls back to the least recently seen once all are done.
+  // ?set= replays one exact set, for retries picked from the sets page. Otherwise
+  // take the first the learner has not finished, so every visit brings new questions
+  // without any request. Falls back to a random one once all are done.
   const [set] = useState<LessonSet>(() => {
+    const wanted = new URLSearchParams(window.location.search).get("set");
+    const asked = wanted ? sets.find((s) => s.setId === wanted) : undefined;
+    if (asked) return asked;
     const done = new Set(getFinished());
     return sets.find((s) => !done.has(s.setId)) ?? sets[Math.floor(Math.random() * sets.length)];
   });
@@ -179,6 +183,8 @@ export default function LessonRunner({ lesson, sets }: Props) {
       total: order.length,
       wrong: wrongFirst,
       finishedAt: Date.now(),
+      setId,
+      setIds: sets.map((s) => s.setId),
     });
     markFinished(setId);
     recordSetCompleted(learner?.id, lesson.id, setId);

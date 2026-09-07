@@ -8,7 +8,8 @@ export class OpenRouterError extends Error {
   constructor(
     message: string,
     public readonly status?: number,
-    public readonly kind: "config" | "timeout" | "http" | "response" = "http",
+    /** "empty": a 200 with no content, so that one model answered uselessly. */
+    public readonly kind: "config" | "timeout" | "http" | "response" | "empty" = "http",
   ) {
     super(message);
     this.name = "OpenRouterError";
@@ -29,47 +30,52 @@ export type ChatResult = { content: string; model: string };
 /** OpenRouter rejects `models` arrays longer than this. */
 export const MAX_MODELS_PER_REQUEST = 3;
 
-/** Sends the model list in chunks of 3, advancing only when a whole chunk fails. */
+/**
+ * Walks the model list, sending up to 3 per request so OpenRouter can fall back
+ * inside one call. It only falls back on provider errors, so a model that
+ * answers with an empty 200 is dropped and the rest are sent again.
+ */
 export async function chatCompletion(messages: ChatMessage[], opts: ChatOptions): Promise<ChatResult> {
   const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) throw new OpenRouterError("OPENROUTER_API_KEY is not set", undefined, "config");
   if (!opts.models.length) throw new OpenRouterError("No models configured", undefined, "config");
 
-  const chunks: string[][] = [];
-  for (let i = 0; i < opts.models.length; i += MAX_MODELS_PER_REQUEST) {
-    chunks.push(opts.models.slice(i, i + MAX_MODELS_PER_REQUEST));
-  }
-
   const deadline = Date.now() + opts.timeoutMs;
+  let queue = [...opts.models];
   let lastError: OpenRouterError | undefined;
-  for (const chunk of chunks) {
+
+  while (queue.length) {
     const remaining = deadline - Date.now();
     if (remaining <= 0) break;
+    const chunk = queue.slice(0, MAX_MODELS_PER_REQUEST);
+
     try {
       return await chatCompletionOnce(messages, { ...opts, models: chunk, timeoutMs: remaining }, apiKey);
     } catch (err) {
       if (!(err instanceof OpenRouterError)) throw err;
       lastError = err;
+
       // Some models refuse to run with reasoning off.
       if (opts.disableReasoning && /reasoning/i.test(err.message) && err.kind !== "timeout") {
-        try {
-          const left = deadline - Date.now();
-          if (left > 0) {
+        const left = deadline - Date.now();
+        if (left > 0) {
+          try {
             return await chatCompletionOnce(
               messages,
               { ...opts, models: chunk, timeoutMs: left, disableReasoning: false },
               apiKey,
             );
+          } catch (retryErr) {
+            if (!(retryErr instanceof OpenRouterError)) throw retryErr;
+            lastError = retryErr;
           }
-        } catch (retryErr) {
-          if (!(retryErr instanceof OpenRouterError)) throw retryErr;
-          lastError = retryErr;
-          if (retryErr.kind !== "http" && retryErr.kind !== "response") throw retryErr;
-          continue;
         }
       }
-      // Only provider-side failures justify the next chunk.
-      if (err.kind !== "http" && err.kind !== "response") throw err;
+
+      // An empty reply blames one model; anything else failed the whole chunk.
+      if (lastError.kind === "empty") queue = queue.slice(1);
+      else if (lastError.kind === "http" || lastError.kind === "response") queue = queue.slice(chunk.length);
+      else throw lastError;
     }
   }
   throw lastError ?? new OpenRouterError("OpenRouter timed out", undefined, "timeout");
@@ -117,7 +123,7 @@ async function chatCompletionOnce(messages: ChatMessage[], opts: ChatOptions, ap
 
     const content = data.choices?.[0]?.message?.content;
     if (typeof content !== "string" || !content.trim()) {
-      throw new OpenRouterError("OpenRouter returned no content", undefined, "response");
+      throw new OpenRouterError(`OpenRouter: ${data.model ?? opts.models[0]} returned no content`, undefined, "empty");
     }
 
     return { content, model: data.model ?? opts.models[0] };
