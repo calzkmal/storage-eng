@@ -6,36 +6,18 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 import { ExerciseSchema, LessonSchema, type Exercise, type Lesson } from "./schema";
 import { getDb, isDbConfigured } from "./db";
 
-/**
- * Server-side question storage.
- *
- * Source of truth is Supabase (tables `lessons` and `exercise_sets`, see
- * supabase/migrations). The JSON files in /content/lessons are the seed
- * content: they are loaded into the database on first use, and they are also
- * the fallback whenever the database is not configured or unreachable, so the
- * app never renders empty.
- *
- * Reads go through Next's data cache under one tag, because every round trip
- * to Supabase costs 50-90ms and lessons change only when someone regenerates
- * or resets a set. Those writes call `invalidateLessons()`, which drops the
- * tag, so a change is visible on the very next request.
- *
- * Only import this from server components, route handlers, or scripts.
- */
+// Question storage. Supabase is the source of truth; the JSON files seed it
+// and are the fallback when it is unreachable. Server-side only.
 
 export const LESSONS_DIR = path.join(process.cwd(), "content", "lessons");
 
 const LESSONS_TAG = "lessons";
-/**
- * Safety net only: the tag is dropped explicitly on every write. It also
- * bounds staleness in `next dev`, where tag invalidation does not reach
- * `unstable_cache` (it does in a production build, which is verified).
- */
+// Backstop for `next dev`, where tag invalidation does not reach unstable_cache.
 const CACHE_TTL_SECONDS = 60;
 
 export type SetSource = "seed" | "generated";
 
-/** Enough to render a lesson card, without loading any exercises. */
+/** A lesson card, without its exercises. */
 export type LessonOverview = {
   id: string;
   category: number;
@@ -47,17 +29,13 @@ export type LessonOverview = {
   setSource: SetSource;
 };
 
-/** A lesson together with the identity of the exercise set it is currently using. */
+/** A lesson plus which exercise set it is using. */
 export type LessonWithSet = Lesson & {
   setId: string;
   setVersion: number;
   setSource: SetSource;
   modelUsed: string | null;
 };
-
-// ---------------------------------------------------------------------------
-// Bundled JSON files (seed + fallback)
-// ---------------------------------------------------------------------------
 
 let fileCache: Lesson[] | null = null;
 
@@ -103,11 +81,7 @@ function overviewOf(lesson: LessonWithSet): LessonOverview {
   };
 }
 
-// ---------------------------------------------------------------------------
-// Database
-// ---------------------------------------------------------------------------
-
-/** A row of the `lesson_active` view: a lesson joined to the set it is using. */
+/** Row of the `lesson_active` view. */
 type ActiveRow = {
   id: string;
   category: number;
@@ -123,18 +97,13 @@ type ActiveRow = {
 
 const ExercisesJson = z.array(ExerciseSchema);
 
-/**
- * Drop the cached reads. Called after every write; `revalidateTag` only works
- * inside a request, so the seed script (which has none) is tolerated.
- */
+/** Drop the cached reads. Called after every write. */
 export function invalidateLessons(): void {
   try {
-    // `{ expire: 0 }`, not "max": "max" is stale-while-revalidate, which would
-    // let the page that just regenerated a set still render the old one. This
-    // makes the next read a blocking cache miss, so a write is visible at once.
+    // Not "max": that is stale-while-revalidate and would serve the old set once more.
     revalidateTag(LESSONS_TAG, { expire: 0 });
   } catch {
-    /* no request context, e.g. the seed script: the TTL covers it */
+    // No request context, e.g. the seed script.
   }
 }
 
@@ -142,10 +111,7 @@ function fail(step: string, error: { message: string } | null): never {
   throw new Error(`[content] ${step}: ${error?.message ?? "unknown error"}`);
 }
 
-/**
- * Make sure one lesson exists in the database with its seed set.
- * With `force`, the seed set's exercises are overwritten from the JSON file.
- */
+/** Ensure the lesson and its seed set exist. `force` re-syncs exercises from the file. */
 export async function seedLesson(
   db: SupabaseClient,
   lesson: Lesson,
@@ -217,9 +183,7 @@ export async function seedDatabase(
     if (r.created) createdSets++;
   }
 
-  // Drop lessons that no longer have a file, so a restructured syllabus does
-  // not leave orphans on the home page. Their sets go with them; recorded
-  // attempts keep their own copy of the lesson title, so history survives.
+  // Drop lessons whose file is gone. Attempts keep their own lesson title, so history survives.
   const keep = files.map((l) => l.id);
   const { data: stale, error } = await db.from("lessons").select("id").not("id", "in", `(${keep.join(",")})`);
   if (error) fail("find stale lessons", error);
@@ -234,19 +198,8 @@ export async function seedDatabase(
   return { lessons: files.length, createdSets, removed: removed.length };
 }
 
-// ---------------------------------------------------------------------------
-// Cached reads
-// ---------------------------------------------------------------------------
-
-/**
- * The whole syllabus in ONE query, cached under one tag.
- *
- * Opening a lesson used to run two sequential queries and had its own cache
- * key per lesson, so each lesson opened for the first time paid both. These
- * queries are latency-bound rather than payload-bound (reading all 18 sets
- * with their exercises measured the same as reading one), so loading
- * everything at once and caching it makes every lesson after the first free.
- */
+// One query for every lesson. These reads are latency-bound, not payload-bound:
+// all 18 sets cost the same as one, so fetching them together is free after the first.
 const readSyllabus = unstable_cache(
   async (): Promise<LessonWithSet[] | null> => {
     const db = getDb();
@@ -263,7 +216,7 @@ const readSyllabus = unstable_cache(
     if (error) fail("read syllabus", error);
 
     if (!data || data.length === 0) {
-      // First run against an empty database: load the bundled lessons.
+      // Empty database: load the bundled lessons.
       await seedDatabase(false);
       ({ data, error } = await query());
       if (error) fail("read syllabus after seeding", error);
@@ -302,7 +255,7 @@ const readSyllabus = unstable_cache(
   { tags: [LESSONS_TAG], revalidate: CACHE_TTL_SECONDS },
 );
 
-/** The syllabus, falling back to the bundled files when the database is out. */
+/** Falls back to the bundled files when the database is out. */
 async function syllabus(): Promise<LessonWithSet[]> {
   try {
     const rows = await readSyllabus();
@@ -312,10 +265,6 @@ async function syllabus(): Promise<LessonWithSet[]> {
   }
   return loadLessonFiles().map(withFileSet);
 }
-
-// ---------------------------------------------------------------------------
-// Public API
-// ---------------------------------------------------------------------------
 
 /** Lesson cards for the home page. */
 export async function getLessonOverviews(): Promise<LessonOverview[]> {
@@ -337,7 +286,7 @@ export async function findExercise(exerciseId: string): Promise<Exercise | undef
 
 export { isDbConfigured };
 
-/** Store a freshly generated set as the next version and make it the lesson's active set. */
+/** Store a generated set as the next version and activate it. */
 export async function saveGeneratedSet(
   lessonId: string,
   exercises: Exercise[],
@@ -377,7 +326,7 @@ export async function saveGeneratedSet(
   return { setId, version };
 }
 
-/** Point the lesson back at its seeded original set. Generated sets are kept. */
+/** Activate the seed set again. Generated sets are kept. */
 export async function resetLessonToSeed(lessonId: string): Promise<{ setId: string }> {
   const db = getDb();
   if (!db) throw new Error("Database not configured");

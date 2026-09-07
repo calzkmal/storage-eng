@@ -10,11 +10,7 @@ const BodySchema = z.object({
   name: z.string().trim().min(1).max(40),
 });
 
-/**
- * POST /api/learner  { id, name }
- * Creates the anonymous profile, or renames it keeping the same id.
- * The id is minted in the browser; there is no account and no password.
- */
+/** Creates or renames the anonymous profile. The id is minted in the browser. */
 export async function POST(req: Request) {
   let json: unknown;
   try {
@@ -26,7 +22,7 @@ export async function POST(req: Request) {
   if (!parsed.success) return NextResponse.json({ error: "id and name are required" }, { status: 400 });
 
   const db = getDb();
-  // Without a database the profile still works locally; history just is not kept.
+  // Without a database the profile still works locally.
   if (!db) return NextResponse.json({ ok: true, stored: false });
 
   const { error } = await db

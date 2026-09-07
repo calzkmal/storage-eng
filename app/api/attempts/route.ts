@@ -22,11 +22,7 @@ const BodySchema = z.object({
   gradedBy: z.enum(["local", "ai", "cache", "fallback"]),
 });
 
-/**
- * POST /api/attempts
- * Records one checked answer for the history screen. Best effort: a failure
- * here must never disturb the lesson, so problems are logged, not surfaced.
- */
+/** Records one checked answer. Best effort: failures are logged, not surfaced. */
 export async function POST(req: Request) {
   let json: unknown;
   try {
@@ -41,8 +37,7 @@ export async function POST(req: Request) {
   if (!db) return NextResponse.json({ ok: true, stored: false });
 
   const a = parsed.data;
-  // Keep the profile row alive even if the learner was created before the
-  // database was configured, so the attempt's foreign key holds.
+  // Keeps the foreign key valid if the profile was created before the database was.
   const { error: learnerErr } = await db
     .from("learners")
     .upsert({ id: a.learnerId, name: a.learnerName, last_seen_at: new Date().toISOString() }, { onConflict: "id" });

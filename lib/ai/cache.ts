@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import { normalize } from "../grading";
 import type { GradeResult } from "./types";
 
-/** Small in-memory LRU for AI grading results (spec §2, §7.1 step 2). */
+/** In-memory LRU of AI grading results. */
 class LRU<V> {
   private map = new Map<string, V>();
   constructor(private max: number) {}
@@ -10,7 +10,7 @@ class LRU<V> {
   get(key: string): V | undefined {
     const v = this.map.get(key);
     if (v === undefined) return undefined;
-    // refresh recency
+    // Refresh recency.
     this.map.delete(key);
     this.map.set(key, v);
     return v;
@@ -33,7 +33,7 @@ class LRU<V> {
 
 export type CachedGrade = GradeResult & { modelUsed: string };
 
-// Persist across dev HMR reloads by hanging the instance on globalThis.
+// globalThis so dev HMR reloads keep the cache.
 const g = globalThis as unknown as { __aiGradeCache?: LRU<CachedGrade> };
 export const gradeCache: LRU<CachedGrade> = (g.__aiGradeCache ??= new LRU<CachedGrade>(500));
 

@@ -1,10 +1,10 @@
-/** Sliding-window rate limiter keyed by client IP (spec §7.1 step 3). */
+// Sliding-window rate limit per IP.
 
 const WINDOW_MS = 10 * 60 * 1000;
 
-/** Grading: 30 requests / 10 min per IP. */
+/** Grading. */
 export const GRADE_LIMIT = 30;
-/** Regeneration is far more expensive for the free providers: 12 lessons / 10 min per IP. */
+/** Regeneration is far more expensive for the free providers. */
 export const GENERATE_LIMIT = 12;
 
 const g = globalThis as unknown as { __aiRateLimit?: Map<string, number[]> };
@@ -25,7 +25,7 @@ export function checkRateLimit(key: string, limit = GRADE_LIMIT, now = Date.now(
   recent.push(now);
   hits.set(key, recent);
 
-  // Opportunistic cleanup so the map does not grow forever.
+  // Keep the map from growing forever.
   if (hits.size > 5000) {
     for (const [k, times] of hits) {
       if (!times.some((t) => t > cutoff)) hits.delete(k);

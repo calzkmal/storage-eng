@@ -41,12 +41,7 @@ type Row = {
   created_at: string;
 };
 
-/**
- * GET /api/history?learnerId=...
- * Every recorded answer for one anonymous profile, newest run first.
- * The learner id is the only key: anyone holding it can read that history,
- * which is the trade for having no accounts.
- */
+/** Every answer for one profile, newest run first. The learner id is the only key. */
 export async function GET(req: Request) {
   const learnerId = new URL(req.url).searchParams.get("learnerId");
   if (!learnerId || learnerId.length < 8 || learnerId.length > 64) {
@@ -69,7 +64,7 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: "Could not read the history" }, { status: 500 });
   }
 
-  // Group into runs, each run's answers back in the order they were given.
+  // Group into runs, answers back in the order given.
   const runs = new Map<string, HistoryRun>();
   for (const r of (data ?? []) as Row[]) {
     let run = runs.get(r.run_id);

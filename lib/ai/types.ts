@@ -1,4 +1,4 @@
-/** Shared types for the AI grading layer (spec §7.1). */
+// Types for the AI grading layer.
 
 export type GradeType = "free_write" | "flip_sentence";
 
@@ -16,7 +16,7 @@ export type GradeRequest = {
   context: GradeContext;
 };
 
-/** What the model is asked to return. */
+/** What the model returns. */
 export type GradeResult = {
   correct: boolean;
   correctedAnswer: string;
@@ -25,7 +25,7 @@ export type GradeResult = {
 
 export type GradeSource = "ai" | "cache" | "fallback";
 
-/** Response shape of POST /api/ai/grade. Always this shape, even on fallback. */
+/** Always this shape, even on fallback. */
 export type GradeResponse = GradeResult & {
   source: GradeSource;
   modelUsed: string;

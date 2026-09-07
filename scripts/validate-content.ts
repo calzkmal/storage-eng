@@ -1,9 +1,4 @@
-/**
- * Validate every lesson file in /content/lessons against the schema (spec §5).
- * Runs in `prebuild`; exits non-zero on any error.
- *
- *   npm run validate
- */
+// Validates every lesson file. Runs in prebuild; exits non-zero on any error.
 import fs from "node:fs";
 import path from "node:path";
 import { LessonSchema, type ExerciseType } from "../lib/schema";

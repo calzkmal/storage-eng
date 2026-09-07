@@ -8,14 +8,14 @@ type Props = { lessonId: string };
 
 const noopSubscribe = () => () => {};
 
-/** Lesson complete summary (spec §4.3). Reads the result saved by the runner in sessionStorage. */
+/** Reads the result the runner saved in sessionStorage. */
 export default function LessonDone({ lessonId }: Props) {
   const raw = useSyncExternalStore(
     noopSubscribe,
     () => loadResultRaw(lessonId),
     () => null,
   );
-  // The runner records the finished set before navigating here.
+
   const result = useMemo(() => parseResult(raw), [raw]);
 
   return (

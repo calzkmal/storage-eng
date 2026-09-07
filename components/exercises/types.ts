@@ -4,8 +4,8 @@ export type ExerciseProps<E> = {
   exercise: E;
   value: AnswerValue | null;
   onChange: (value: AnswerValue | null) => void;
-  /** True after Check, or while an AI check is in flight. */
+  /** After Check, or while an AI check is in flight. */
   disabled: boolean;
-  /** Keyboard bonus: Enter in a text field triggers Check. */
+  /** Enter in a text field triggers Check. */
   onSubmit?: () => void;
 };

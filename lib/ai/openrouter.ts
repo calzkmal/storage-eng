@@ -1,3 +1,5 @@
+// OpenRouter chat completions. Cross-model fallback is OpenRouter's own, via `models`.
+
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 export type ChatMessage = { role: "system" | "user" | "assistant"; content: string };
@@ -18,25 +20,16 @@ export type ChatOptions = {
   timeoutMs: number;
   temperature?: number;
   maxTokens?: number;
-  /**
-   * Ask OpenRouter to turn off hidden "thinking" on models that support it.
-   * Reasoning tokens count against max_tokens, so a thinking model can spend
-   * the whole budget before writing the JSON we need. If a model rejects the
-   * flag, the chunk is retried once without it.
-   */
+  /** Reasoning tokens eat max_tokens, so a thinking model can answer empty. */
   disableReasoning?: boolean;
 };
 
 export type ChatResult = { content: string; model: string };
 
-/** OpenRouter rejects `models` arrays longer than this ("'models' array must have 3 items or fewer"). */
+/** OpenRouter rejects `models` arrays longer than this. */
 export const MAX_MODELS_PER_REQUEST = 3;
 
-/**
- * Call OpenRouter with the priority list split into chunks of 3. OpenRouter
- * handles fallback inside a chunk; we only move to the next chunk when it
- * reports that every model in the chunk failed. The overall timeout is shared.
- */
+/** Sends the model list in chunks of 3, advancing only when a whole chunk fails. */
 export async function chatCompletion(messages: ChatMessage[], opts: ChatOptions): Promise<ChatResult> {
   const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) throw new OpenRouterError("OPENROUTER_API_KEY is not set", undefined, "config");
@@ -57,7 +50,7 @@ export async function chatCompletion(messages: ChatMessage[], opts: ChatOptions)
     } catch (err) {
       if (!(err instanceof OpenRouterError)) throw err;
       lastError = err;
-      // Some models refuse to run with reasoning disabled; retry this chunk with it on.
+      // Some models refuse to run with reasoning off.
       if (opts.disableReasoning && /reasoning/i.test(err.message) && err.kind !== "timeout") {
         try {
           const left = deadline - Date.now();
@@ -75,7 +68,7 @@ export async function chatCompletion(messages: ChatMessage[], opts: ChatOptions)
           continue;
         }
       }
-      // Only a provider-side failure justifies trying the next chunk.
+      // Only provider-side failures justify the next chunk.
       if (err.kind !== "http" && err.kind !== "response") throw err;
     }
   }
@@ -117,7 +110,7 @@ async function chatCompletionOnce(messages: ChatMessage[], opts: ChatOptions, ap
       choices?: { message?: { content?: string | null } }[];
     };
 
-    // When every model in the list fails, OpenRouter returns the last error.
+    // When every model fails, OpenRouter returns the last error in a 200.
     if (data.error) {
       throw new OpenRouterError(`OpenRouter error: ${data.error.message ?? "unknown"}`, data.error.code, "response");
     }
@@ -139,7 +132,7 @@ async function chatCompletionOnce(messages: ChatMessage[], opts: ChatOptions, ap
   }
 }
 
-/** GET /api/v1/models filtered to IDs ending in ":free". Used by scripts/check-models.ts. */
+/** Live `:free` model ids, for scripts/check-models.ts. */
 export async function listFreeModelIds(timeoutMs = 15000): Promise<string[]> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);

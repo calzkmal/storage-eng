@@ -4,20 +4,13 @@ import { LessonSchema, type Exercise, type ExerciseType, type Lesson } from "../
 import { GRAMMAR_SCOPE, IRREGULAR_VERBS, OUT_OF_SCOPE } from "./scope";
 import { TARGET_REQUIREMENT, type FlipTarget } from "../flipTargets";
 
-/**
- * Exercise generator (spec §7.4). Asks the free-model list for a complete new
- * set of exercises for one lesson, following the same type plan as the current
- * file, then validates the result against the content schema. Nothing here
- * writes to disk; saving is a separate, human-triggered step.
- */
+// Asks the models for a new set following the current lesson's type plan,
+// then validates it against the content schema.
 
 const CALL_TIMEOUT_MS = 90_000;
 const MAX_ATTEMPTS = 3;
 
-/**
- * What each lesson drills. Keyed by lesson id, so a regenerated set stays on
- * the same grammar point as the file it replaces.
- */
+/** What each lesson drills, so a regenerated set stays on the same point. */
 const LESSON_FOCUS: Record<string, string> = {
   "present-continuous":
     "Present continuous: am/is/are + verb-ing for what is happening now. Cover the right form of be for each subject and the -ing spelling rules (drive→driving, sit→sitting).",
@@ -105,7 +98,7 @@ const ID_ABBR: Record<ExerciseType, string> = {
 
 export type PlanItem = { type: ExerciseType; target?: FlipTarget };
 
-/** The type sequence of the current lesson; the new set follows the same plan. */
+/** The current lesson's type sequence. */
 export function planFromLesson(lesson: Lesson): PlanItem[] {
   return lesson.exercises.map((ex) =>
     ex.type === "flip_sentence" ? { type: ex.type, target: ex.target } : { type: ex.type },
@@ -201,8 +194,7 @@ function normalizeGenerated(lessonId: string, plan: PlanItem[], raw: unknown): {
     if (planned && type !== planned.type) problems.push(`exercise ${i + 1} should be ${planned.type}, got ${String(type)}`);
     if (planned?.target && ex.target !== planned.target) ex.target = planned.target;
 
-    // Ids must not collide with the built-in files (the grade route looks
-    // exercises up by id) nor with earlier generations (the grade cache is keyed by id).
+    // Must not collide with the files or earlier generations: both are keyed by id.
     const abbr = ID_ABBR[type] ?? "ex";
     counters[type] = (counters[type] ?? 0) + 1;
     ex.id = `${lessonId}-gen-${abbr}-${counters[type]}-${batchTag}`;
@@ -252,7 +244,7 @@ function defaultPrompt(type: ExerciseType): string {
   }
 }
 
-/** Validate a candidate exercise list as a full lesson. Returns problems (empty when valid). */
+/** Validate a candidate list as a full lesson. */
 export function validateCandidate(lesson: Lesson, exercises: unknown[]): { lesson?: Lesson; problems: string[] } {
   const parsed = LessonSchema.safeParse({ ...lesson, exercises });
   if (parsed.success) return { lesson: parsed.data, problems: [] };

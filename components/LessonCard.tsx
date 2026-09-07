@@ -10,7 +10,7 @@ export type LessonSummary = {
   label: string;
   title: string;
   exerciseCount: number;
-  /** Identity of the exercise set currently in use (a database id, or file:<id> without a database). */
+  /** Set in use: a database id, or file:<id> without a database. */
   setId: string;
   setVersion: number;
   setSource: "seed" | "generated";
@@ -18,11 +18,11 @@ export type LessonSummary = {
 
 type Props = {
   lesson: LessonSummary;
-  /** True when the set currently in use has been played through on this device. */
+  /** The set in use has been played through on this device. */
   finished: boolean;
 };
 
-/** Large full-width card, min 64px tall (spec §4.1). */
+
 export default function LessonCard({ lesson, finished }: Props) {
   return (
     <Link
@@ -34,7 +34,7 @@ export default function LessonCard({ lesson, finished }: Props) {
       </span>
       <span className="min-w-0 flex-1">
         <span className="block text-base font-semibold leading-snug text-slate-900">{lesson.title}</span>
-        {/* Status chips sit on their own row so the title keeps the full width. */}
+        {/* Own row so the title keeps the full width. */}
         <span className="mt-0.5 flex flex-wrap items-center gap-2 text-sm text-slate-500">
           <span>
             {lesson.exerciseCount} exercise{lesson.exerciseCount === 1 ? "" : "s"}
@@ -44,7 +44,7 @@ export default function LessonCard({ lesson, finished }: Props) {
               New set
             </span>
           )}
-          {/* Tied to the set in use, so it clears when the questions are replaced. */}
+          {/* Tied to the set, so it clears when the questions are replaced. */}
           {finished && (
             <span
               aria-label="Finished"

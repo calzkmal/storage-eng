@@ -1,14 +1,4 @@
-/**
- * Load the six lesson files into Supabase (tables from supabase/migrations).
- * Idempotent: lessons are upserted, and a seed set (version 1) is created only
- * when missing. Pass --force to overwrite the seed sets' exercises from the
- * JSON files after editing them.
- *
- *   npm run seed:supabase
- *   npm run seed:supabase -- --force
- *
- * Reads SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY from .env.local.
- */
+// Load the lesson files into Supabase. Idempotent; --force re-syncs seed sets.
 import { isDbConfigured, seedDatabase } from "../lib/content";
 
 async function main() {

@@ -1,11 +1,10 @@
 import type { Exercise } from "../schema";
+import { TARGET_NAME, TARGET_REQUIREMENT } from "../flipTargets";
 import type { GradeRequest, GradeResponse } from "./types";
 
-const CLIENT_TIMEOUT_MS = 10_000; // spec §4.4
+const CLIENT_TIMEOUT_MS = 10_000;
 
-import { TARGET_NAME, TARGET_REQUIREMENT } from "../flipTargets";
-
-/** Build the request body for an AI-graded exercise. */
+/** Request body for an AI-graded exercise. */
 export function buildGradeRequest(ex: Exercise, userAnswer: string): GradeRequest | null {
   if (ex.type === "free_write") {
     return {
@@ -31,11 +30,7 @@ export function buildGradeRequest(ex: Exercise, userAnswer: string): GradeReques
   return null;
 }
 
-/**
- * POST /api/ai/grade with a 10s timeout.
- * Returns null on timeout, network error, 429, or any non-OK response so the
- * caller can show the model-answer fallback.
- */
+/** Returns null on timeout, 429 or any non-OK reply, so the caller shows the model answer. */
 export async function requestAIGrade(req: GradeRequest): Promise<GradeResponse | null> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), CLIENT_TIMEOUT_MS);

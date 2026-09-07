@@ -1,4 +1,4 @@
-/** Fisher–Yates shuffle; returns a new array. */
+/** Fisher-Yates. */
 export function shuffle<T>(arr: readonly T[]): T[] {
   const out = arr.slice();
   for (let i = out.length - 1; i > 0; i--) {
@@ -8,7 +8,7 @@ export function shuffle<T>(arr: readonly T[]): T[] {
   return out;
 }
 
-/** Shuffle, but avoid returning the exact original order when possible. */
+/** Avoids returning the original order. */
 export function shuffleChanged<T>(arr: readonly T[]): T[] {
   if (arr.length < 2) return arr.slice();
   for (let attempt = 0; attempt < 5; attempt++) {

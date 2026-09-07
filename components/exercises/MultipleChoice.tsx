@@ -4,7 +4,7 @@ import type { MultipleChoice as MC } from "@/lib/schema";
 import { chipBase, chipIdle, chipSelected } from "../ui";
 import type { ExerciseProps } from "./types";
 
-/** 3–4 full-width chips; tap selects, tap again deselects (spec §6). */
+/** Tap selects, tap again deselects. */
 export default function MultipleChoice({ exercise, value, onChange, disabled }: ExerciseProps<MC>) {
   const selected = typeof value === "string" ? value : null;
 

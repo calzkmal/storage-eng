@@ -1,10 +1,7 @@
 import LessonDone from "@/components/LessonDone";
 import { loadLessonFiles } from "@/lib/content";
 
-/**
- * Deliberately does no database work, and is prerendered for every lesson.
- * Everything shown here was already saved to sessionStorage by the runner.
- */
+// No database work: the runner already saved everything to sessionStorage.
 export function generateStaticParams() {
   return loadLessonFiles().map((l) => ({ id: l.id }));
 }

@@ -2,12 +2,8 @@ import { notFound } from "next/navigation";
 import { getLesson, loadLessonFiles } from "@/lib/content";
 import LessonRunnerLoader from "@/components/LessonRunnerLoader";
 
-/**
- * Prerendered for every lesson so opening one is a CDN hit rather than a
- * function call. The "practice again" flag lives in the query string and is
- * read by the runner on the client, because reading `searchParams` here would
- * force this page to be rendered per request.
- */
+// Prerendered per lesson. Do NOT read searchParams here: it would make this
+// page dynamic again. The runner reads ?shuffle=1 on the client.
 export function generateStaticParams() {
   return loadLessonFiles().map((l) => ({ id: l.id }));
 }

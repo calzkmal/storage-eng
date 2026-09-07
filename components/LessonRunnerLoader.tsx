@@ -3,10 +3,7 @@
 import dynamic from "next/dynamic";
 import type { Lesson } from "@/lib/schema";
 
-/**
- * The runner shuffles exercise order, word banks, and matching columns on the
- * client, so it is loaded client-only to avoid SSR hydration mismatches.
- */
+// Client-only: the runner shuffles on mount, which would mismatch on hydration.
 const LessonRunner = dynamic(() => import("./LessonRunner"), {
   ssr: false,
   loading: () => (

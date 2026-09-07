@@ -22,11 +22,7 @@ function getSnapshot(): string {
 
 const getServerSnapshot = () => "";
 
-/**
- * Set of exercise-set ids that have been finished at least once on this
- * device. Hydration-safe (empty on the server, so it never mismatches).
- * Used to gate the "regenerate" button on the home page.
- */
+/** Set ids finished on this device. Empty on the server, so hydration matches. */
 export function useFinished(): Set<string> {
   const raw = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
   return useMemo(() => {

@@ -1,12 +1,11 @@
 "use client";
 
 import type { FlipSentence as FS } from "@/lib/schema";
+import { TARGET_LABEL } from "@/lib/flipTargets";
 import { textInput } from "../ui";
 import type { ExerciseProps } from "./types";
 
-import { TARGET_LABEL } from "@/lib/flipTargets";
-
-/** Full-width text input; local compare first, then AI fallback (spec §6). */
+/** Compared locally first, then by the AI. */
 export default function FlipSentence({ exercise, value, onChange, disabled, onSubmit }: ExerciseProps<FS>) {
   const text = typeof value === "string" ? value : "";
 

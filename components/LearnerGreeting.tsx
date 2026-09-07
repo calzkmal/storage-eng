@@ -2,7 +2,7 @@
 
 import { useLearner } from "@/lib/learner";
 
-/** Shows who the saved progress belongs to on this device. */
+/** Who the saved progress belongs to. */
 export default function LearnerGreeting() {
   const learner = useLearner();
   if (!learner) return null;

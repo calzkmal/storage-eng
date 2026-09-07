@@ -6,7 +6,7 @@ import type { ExerciseProps } from "./types";
 
 const MAX = 300;
 
-/** 1–2 line textarea; always AI-graded (spec §6). */
+/** Always AI-graded. */
 export default function FreeWrite({ exercise, value, onChange, disabled, onSubmit }: ExerciseProps<FW>) {
   const text = typeof value === "string" ? value : "";
 
