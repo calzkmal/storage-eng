@@ -181,10 +181,12 @@ export async function seedDatabase(
   }
 
   // Drop lessons whose file is gone. Attempts keep their own lesson title, so history survives.
-  const keep = files.map((l) => l.id);
-  const { data: stale, error } = await db.from("lessons").select("id").not("id", "in", `(${keep.join(",")})`);
+  // Filtered here rather than in a hand-built PostgREST expression, which an id
+  // containing a comma or bracket would corrupt.
+  const keep = new Set(files.map((l) => l.id));
+  const { data: existing, error } = await db.from("lessons").select("id");
   if (error) fail("find stale lessons", error);
-  const removed = (stale ?? []).map((r) => (r as { id: string }).id);
+  const removed = (existing ?? []).map((r) => (r as { id: string }).id).filter((id) => !keep.has(id));
   if (removed.length) {
     const { error: delErr } = await db.from("lessons").delete().in("id", removed);
     if (delErr) fail("delete stale lessons", delErr);

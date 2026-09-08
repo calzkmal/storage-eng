@@ -1,31 +1,15 @@
 import type { Exercise } from "../schema";
-import { TARGET_NAME, TARGET_REQUIREMENT } from "../flipTargets";
 import type { GradeRequest, GradeResponse } from "./types";
 
 const CLIENT_TIMEOUT_MS = 10_000;
 
-/** Request body for an AI-graded exercise. */
+/**
+ * Request body for an AI-graded exercise. Only the id and the answer: the server
+ * builds the prompt from its own copy of the exercise.
+ */
 export function buildGradeRequest(ex: Exercise, userAnswer: string): GradeRequest | null {
-  if (ex.type === "free_write") {
-    return {
-      exerciseId: ex.id,
-      type: "free_write",
-      userAnswer,
-      context: { task: ex.task, requirements: ex.requirements, modelAnswer: ex.modelAnswer, acceptedAnswers: [] },
-    };
-  }
-  if (ex.type === "flip_sentence") {
-    return {
-      exerciseId: ex.id,
-      type: "flip_sentence",
-      userAnswer,
-      context: {
-        task: `Rewrite the sentence "${ex.source}" in the ${TARGET_NAME[ex.target]} form.`,
-        requirements: [TARGET_REQUIREMENT[ex.target]],
-        modelAnswer: ex.answer[0],
-        acceptedAnswers: ex.answer,
-      },
-    };
+  if (ex.type === "free_write" || ex.type === "flip_sentence") {
+    return { exerciseId: ex.id, type: ex.type, userAnswer };
   }
   return null;
 }

@@ -1,13 +1,16 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { z } from "zod";
 import { getDb } from "@/lib/db";
+import { badRequest, refuseCrossSite } from "@/lib/http";
+import { checkRateLimit, getClientKey, WRITE_LIMIT } from "@/lib/rateLimit";
+import { readLearnerId } from "@/lib/session";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
+// No learner id or name here: both come from the signed cookie, so an answer
+// cannot be filed against, or rename, someone else's profile.
 const BodySchema = z.object({
-  learnerId: z.string().min(8).max(64),
-  learnerName: z.string().trim().min(1).max(40),
   runId: z.string().min(8).max(64),
   lessonId: z.string().min(1).max(100),
   lessonTitle: z.string().min(1).max(200),
@@ -23,31 +26,40 @@ const BodySchema = z.object({
 });
 
 /** Records one checked answer. Best effort: failures are logged, not surfaced. */
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
+  const refused = refuseCrossSite(req);
+  if (refused) return refused;
+
   let json: unknown;
   try {
     json = await req.json();
   } catch {
-    return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
+    return badRequest("Invalid JSON body");
   }
   const parsed = BodySchema.safeParse(json);
-  if (!parsed.success) return NextResponse.json({ error: "Invalid attempt" }, { status: 400 });
+  if (!parsed.success) return badRequest("Invalid attempt");
+
+  const client = getClientKey(req);
+  if (!client) return badRequest("Could not identify the client");
+  const rl = await checkRateLimit(`write:${client}`, WRITE_LIMIT);
+  if (!rl.allowed) {
+    return NextResponse.json(
+      { error: "Too many requests. Try again later." },
+      { status: 429, headers: { "Retry-After": String(rl.retryAfterSec) } },
+    );
+  }
+
+  const learnerId = readLearnerId(req);
+  if (!learnerId) return NextResponse.json({ ok: true, stored: false });
 
   const db = getDb();
   if (!db) return NextResponse.json({ ok: true, stored: false });
 
   const a = parsed.data;
-  // Keeps the foreign key valid if the profile was created before the database was.
-  const { error: learnerErr } = await db
-    .from("learners")
-    .upsert({ id: a.learnerId, name: a.learnerName, last_seen_at: new Date().toISOString() }, { onConflict: "id" });
-  if (learnerErr) {
-    console.error("[attempts] learner upsert failed:", learnerErr.message);
-    return NextResponse.json({ error: "Could not record the answer" }, { status: 500 });
-  }
-
+  // Insert only. The profile row is created by /api/learner; a missing one
+  // fails the foreign key rather than being conjured up from request data.
   const { error } = await db.from("attempts").insert({
-    learner_id: a.learnerId,
+    learner_id: learnerId,
     run_id: a.runId,
     lesson_id: a.lessonId,
     lesson_title: a.lessonTitle,
