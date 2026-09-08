@@ -2,7 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { z } from "zod";
 import { getDb } from "@/lib/db";
 import { badRequest, refuseCrossSite } from "@/lib/http";
-import { checkRateLimit, getClientKey, WRITE_LIMIT } from "@/lib/rateLimit";
+import { checkRateLimit, getClientKey, MINT_LIMIT, WRITE_LIMIT } from "@/lib/rateLimit";
 import { clearLearnerCookie, hasSessionSecret, newLearnerId, readLearnerId, setLearnerCookie } from "@/lib/session";
 
 export const runtime = "nodejs";
@@ -29,7 +29,13 @@ export async function POST(req: NextRequest) {
 
   const client = getClientKey(req);
   if (!client) return badRequest("Could not identify the client");
-  const rl = await checkRateLimit(`write:${client}`, WRITE_LIMIT);
+
+  // Minting a durable identity gets its own, far tighter ceiling: renaming an
+  // existing profile is an ordinary write, creating one is a new database row.
+  const existing = readLearnerId(req);
+  const rl = existing
+    ? await checkRateLimit(`write:${client}`, WRITE_LIMIT)
+    : await checkRateLimit(`mint:${client}`, MINT_LIMIT);
   if (!rl.allowed) {
     return NextResponse.json(
       { error: "Too many requests. Try again later." },
@@ -40,7 +46,7 @@ export async function POST(req: NextRequest) {
   // Without a secret the cookie cannot be trusted, so nothing is stored.
   if (!hasSessionSecret()) return NextResponse.json({ ok: true, stored: false });
 
-  const id = readLearnerId(req) ?? newLearnerId();
+  const id = existing ?? newLearnerId();
   const db = getDb();
   if (db) {
     const { error } = await db

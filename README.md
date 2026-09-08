@@ -17,6 +17,7 @@ Open http://localhost:3000. Without any keys the app still runs on the bundled l
 | Variable | Needed for |
 |---|---|
 | `SESSION_SECRET` | Signing the anonymous learner cookie, so history is kept |
+| `TRUSTED_PROXY_HOPS` | Rate limiting off Vercel. Unset, the limited routes refuse |
 | `GEMINI_API_KEY` | Grading free-text answers, tried first |
 | `OPENROUTER_API_KEY` | Fallback grader when Gemini is unavailable |
 | `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` | Storing questions and practice history |
@@ -48,6 +49,15 @@ Variations come from an item pool per lesson in `scripts/variations/`. `npm run 
 The grammar the app teaches is declared once in `lib/ai/scope.ts`. The grading prompt reads it, so change it there when the syllabus changes.
 
 ## Deploying
+
+**Accepted risk.** The content security policy allows inline script. A nonce would make
+every prerendered page dynamic, which is the trade this app declines. It is containment
+that was chosen not to be added, not a control that is present. The rest of the policy
+still holds: nothing loads from, or is sent to, another origin.
+
+**Rate limiting** counts in Postgres, not in memory, so it holds across serverless
+isolates. On Vercel the client is keyed on the platform's own header. Anywhere else set
+`TRUSTED_PROXY_HOPS`, or the limited routes refuse rather than sharing one global bucket.
 
 Set the environment variables in your host. `vercel.json` pins functions to `sin1` (Singapore) to sit next to the Supabase project; move it if your database moves.
 

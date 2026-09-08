@@ -3,7 +3,7 @@ import { z } from "zod";
 import { findExercise } from "@/lib/content";
 import { cacheKey, gradeCache } from "@/lib/ai/cache";
 import { gradeWithModel } from "@/lib/ai/grade";
-import { checkRateLimit, getClientKey, GRADE_LIMIT } from "@/lib/rateLimit";
+import { CACHED_GRADE_LIMIT, checkRateLimit, getClientKey, GRADE_LIMIT } from "@/lib/rateLimit";
 import { badRequest, refuseCrossSite } from "@/lib/http";
 import { TARGET_NAME, TARGET_REQUIREMENT } from "@/lib/flipTargets";
 import type { GradeContext, GradeResponse } from "@/lib/ai/types";
@@ -71,22 +71,29 @@ export async function POST(req: NextRequest) {
   const ctx = await resolveContext(exerciseId);
   if (!ctx) return badRequest("Unknown exercise");
 
-  const key = cacheKey(exerciseId, userAnswer);
-  const hit = gradeCache.get(key);
-  if (hit) {
-    const body: GradeResponse = { ...hit, source: "cache" };
-    return NextResponse.json(body);
-  }
-
   const client = getClientKey(req);
   if (!client) return badRequest("Could not identify the client");
 
-  const rl = await checkRateLimit(`grade:${client}`, GRADE_LIMIT);
+  // Metered before the cache is read. A hit costs no provider call but is still an
+  // invocation, and an unmetered one is a free oracle over what others have answered.
+  const key = cacheKey(exerciseId, userAnswer);
+  const hit = gradeCache.get(key);
+  const rl = hit
+    ? await checkRateLimit(`grade-cached:${client}`, CACHED_GRADE_LIMIT)
+    : await checkRateLimit(`grade:${client}`, GRADE_LIMIT);
   if (!rl.allowed) {
     return NextResponse.json(
       { error: "Too many requests. Try again later." },
       { status: 429, headers: { "Retry-After": String(rl.retryAfterSec) } },
     );
+  }
+
+  if (hit) {
+    // Whether someone else already submitted this exact answer is not the
+    // caller's business, so the cache is not named in the response.
+    console.log(`[ai/grade] exercise=${exerciseId} source=cache model=${hit.modelUsed}`);
+    const body: GradeResponse = { ...hit, source: "ai" };
+    return NextResponse.json(body);
   }
 
   const started = Date.now();
