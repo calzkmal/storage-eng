@@ -72,9 +72,22 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 Keep them short. One line, only where the code cannot say it itself: a non-obvious constraint, a gotcha, a reason for an odd choice. No block essays, no restating what the next line does.
 
-### Commands
+### Comments
 
-`npm run validate` (content), `npm run typecheck`, `npm run lint`, `npm run build`, `npm run seed:supabase`.
+Code should explain itself. Comments are the exception, not the default.
+
+* Prefer clear, self-explanatory code over comments.
+* Do not write comments that restate what the code does.
+* Do not add long explanatory comments, block comments, essays, or multi-line rationale.
+* Do not use comments to explain obvious implementation details, control flow, variable names, or function behavior.
+* Only comment a non-obvious constraint, gotcha, workaround, or reason for an unusual decision.
+* Keep useful comments to one short line whenever possible.
+* If code requires a long comment to understand, simplify or restructure the code instead.
+* Never add comments merely because a piece of code is complex, old, ugly, or difficult to understand. If it is outside the requested change, leave it alone.
+* When modifying existing code, do not add comments to unrelated or pre-existing code.
+* Do not add TODOs, documentation, or commentary unless explicitly requested.
+
+**Rule of thumb:** If the code can be made clearer instead of explaining it with a comment, change the code. If the comment is longer than the code it explains, stop and reconsider.
 
 ### Gotchas
 
