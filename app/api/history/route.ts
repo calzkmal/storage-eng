@@ -1,5 +1,8 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
 import { getDb } from "@/lib/db";
+import { badRequest } from "@/lib/http";
+import { checkRateLimit, getClientKey, WRITE_LIMIT } from "@/lib/rateLimit";
+import { readLearnerId } from "@/lib/session";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -41,12 +44,23 @@ type Row = {
   created_at: string;
 };
 
-/** Every answer for one profile, newest run first. The learner id is the only key. */
-export async function GET(req: Request) {
-  const learnerId = new URL(req.url).searchParams.get("learnerId");
-  if (!learnerId || learnerId.length < 8 || learnerId.length > 64) {
-    return NextResponse.json({ error: "learnerId is required" }, { status: 400 });
+/**
+ * Every answer for the profile in the cookie, newest run first. The id used to
+ * come from the query string, which let anyone holding one read that history.
+ */
+export async function GET(req: NextRequest) {
+  const client = getClientKey(req);
+  if (!client) return badRequest("Could not identify the client");
+  const rl = await checkRateLimit(`read:${client}`, WRITE_LIMIT);
+  if (!rl.allowed) {
+    return NextResponse.json(
+      { error: "Too many requests. Try again later." },
+      { status: 429, headers: { "Retry-After": String(rl.retryAfterSec) } },
+    );
   }
+
+  const learnerId = readLearnerId(req);
+  if (!learnerId) return NextResponse.json({ runs: [], stored: false });
 
   const db = getDb();
   if (!db) return NextResponse.json({ runs: [], stored: false });

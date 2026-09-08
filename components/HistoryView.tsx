@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { saveLearner, useLearner } from "@/lib/learner";
+import { deleteLearner, saveLearner, useLearner } from "@/lib/learner";
 import type { HistoryRun } from "@/app/api/history/route";
 
 type State = { loading: boolean; runs: HistoryRun[]; error?: string };
@@ -27,16 +27,17 @@ export default function HistoryView() {
   const [open, setOpen] = useState<string | null>(null);
   const [renaming, setRenaming] = useState(false);
   const [draft, setDraft] = useState("");
+  const [confirmingDelete, setConfirmingDelete] = useState(false);
 
-  // Renaming keeps the id, so this fetches once per profile.
-  const learnerId = learner?.id;
+  // The learner comes from the cookie, so this fetches once the profile exists.
+  const hasProfile = Boolean(learner);
 
   useEffect(() => {
-    if (!learnerId) return;
+    if (!hasProfile) return;
     let cancelled = false;
     void (async () => {
       try {
-        const res = await fetch(`/api/history?learnerId=${encodeURIComponent(learnerId)}`);
+        const res = await fetch("/api/history");
         const data = await res.json();
         if (cancelled) return;
         setState(
@@ -51,7 +52,7 @@ export default function HistoryView() {
     return () => {
       cancelled = true;
     };
-  }, [learnerId]);
+  }, [hasProfile]);
 
   function rename(e: React.FormEvent) {
     e.preventDefault();
@@ -107,6 +108,45 @@ export default function HistoryView() {
           </form>
         )}
       </header>
+
+      {learner && (
+        <div className="mt-4">
+          {confirmingDelete ? (
+            <div className="rounded-2xl border-2 border-rose-200 bg-rose-50 p-4">
+              <p className="text-base text-rose-900">
+                Delete your name and every answer stored for you? This cannot be undone.
+              </p>
+              <div className="mt-3 flex gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    void deleteLearner().then(() => setState({ loading: false, runs: [] }));
+                    setConfirmingDelete(false);
+                  }}
+                  className="min-h-11 rounded-xl bg-rose-600 px-4 text-sm font-bold uppercase tracking-wide text-white"
+                >
+                  Delete everything
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setConfirmingDelete(false)}
+                  className="min-h-11 rounded-xl border-2 border-slate-200 bg-white px-4 text-sm font-bold uppercase tracking-wide text-slate-600"
+                >
+                  Keep it
+                </button>
+              </div>
+            </div>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setConfirmingDelete(true)}
+              className="text-sm font-semibold text-slate-500 underline underline-offset-2"
+            >
+              Delete my data
+            </button>
+          )}
+        </div>
+      )}
 
       {learner === undefined ? (
         <p className="mt-8 text-base text-slate-500">Loading…</p>

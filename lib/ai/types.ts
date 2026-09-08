@@ -13,11 +13,11 @@ export type GradeContext = {
   acceptedAnswers: string[];
 };
 
+/** What the browser may send. Context is resolved server-side from our own copy. */
 export type GradeRequest = {
   exerciseId: string;
   type: GradeType;
   userAnswer: string;
-  context: GradeContext;
 };
 
 /** What the model returns. */

@@ -93,8 +93,6 @@ export default function LessonRunner({ lesson, sets }: Props) {
     // Best effort.
     if (learner) {
       recordAttempt({
-        learnerId: learner.id,
-        learnerName: learner.name,
         runId,
         lessonId: lesson.id,
         lessonTitle: lesson.title,
@@ -197,7 +195,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
       setIds: sets.map((s) => s.setId),
     });
     markFinished(setId);
-    recordSetCompleted(learner?.id, lesson.id, setId);
+    recordSetCompleted(lesson.id, setId);
     router.push(`/lesson/${lesson.id}/done`);
   }
 
