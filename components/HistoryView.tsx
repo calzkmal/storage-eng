@@ -217,11 +217,9 @@ export default function HistoryView() {
                           </span>
                           <span className="min-w-0 flex-1 font-medium text-slate-800">
                             {a.question}
-                            {a.phase === "review" && (
-                              <span className="ml-2 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-slate-500">
-                                latihan ulang
-                              </span>
-                            )}
+                            <span className="ml-2 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-slate-500">
+                                {a.phase === "review" ? "latihan ulang" : "percobaan pertama"}
+                            </span>
                           </span>
                         </p>
                         <p className="mt-1 pl-7 text-sm text-slate-600">
@@ -229,11 +227,9 @@ export default function HistoryView() {
                         </p>
                         {a.context?.stimulus && <StimulusView stimulus={a.context.stimulus} />}
                         {a.context && <div className="mt-3 space-y-2 text-sm leading-relaxed"><p>{a.context.explanation}</p>{a.context.evidence?.map(q => <blockquote key={q} className="border-l-4 border-sky-400 pl-3">“{q}”</blockquote>)}{a.context.details?.map((d, j) => <p key={j}><strong>{d.label}: {d.result}.</strong> {d.explanation}</p>)}</div>}
-                        {(a.correct !== true || a.context) && (
-                          <p className="mt-0.5 pl-7 text-sm text-emerald-800">
+                        <p className="mt-0.5 pl-7 text-sm text-emerald-800">
                             <span className="font-semibold">Jawaban benar:</span> {a.correctAnswer}
-                          </p>
-                        )}
+                        </p>
                       </li>
                     ))}
                   </ol>
