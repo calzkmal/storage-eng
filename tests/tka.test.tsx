@@ -161,3 +161,21 @@ test("feedback-only revisions preserve assessment semantics and question order",
   assert.notEqual(assessmentFingerprint(before), assessmentFingerprint([{ ...before[0], answer: "Changed" }, before[1]]));
   assert.notEqual(assessmentFingerprint(before), assessmentFingerprint([...before].reverse()));
 });
+
+test("supplemental BI contexts include each supported claim without requiring an earlier passage", () => {
+  const originals = ["tka-bi-informasi-tersurat", "tka-bi-ide-pokok", "tka-bi-amanat-dan-tokoh"];
+  for (const lesson of tka.filter(l => l.subject === "bahasa-indonesia" && !originals.includes(l.id))) {
+    for (const set of [lesson.exercises, ...loadTkaSets(lesson)]) for (const exercise of set) {
+      if (exercise.stimulusId?.endsWith("-1")) continue;
+      const text = lesson.stimuli!.find(s => s.id === exercise.stimulusId)!.paragraphs.join("\n");
+      if (exercise.type === "multiple_choice") {
+        if (exercise.question.includes("tidak didukung")) assert(!text.includes(exercise.answer), exercise.id);
+        else assert(text.includes(exercise.answer), exercise.id);
+      } else if (exercise.type === "multiple_select") {
+        for (const option of exercise.options) if (exercise.answer.includes(option.id)) assert(text.includes(option.text), exercise.id);
+      } else if (exercise.type === "statement_category") {
+        for (const statement of exercise.statements) if (statement.answer === "yes") assert(text.includes(statement.text), exercise.id);
+      }
+    }
+  }
+});
