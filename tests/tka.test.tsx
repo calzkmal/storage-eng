@@ -6,6 +6,8 @@ import { LessonSchema, FractionSchema, type Exercise, type Lesson } from "../lib
 import { canCheck, gradeLocal, correctAnswerText, answerText } from "../lib/grading";
 import { firstScore, shouldRetry } from "../lib/practice";
 import { collectionProblems } from "../lib/contentValidation";
+import { AttemptBodySchema } from "../lib/attemptSchema";
+import { exerciseSummary } from "../lib/grading";
 import { AttemptContextSchema, attemptContext } from "../lib/attemptContext";
 import { parseResult, getFinished, markFinished, saveResult, loadResultRaw } from "../lib/storage";
 import { renderToStaticMarkup } from "react-dom/server";
@@ -53,6 +55,7 @@ test("31 TKA topics, 93 sets, 837 deterministic keys, no AI formats", () => {
     assert(correctAnswerText(e).length <= 600, e.id);
     const context = attemptContext(l, e, grade?.details);
     assert(AttemptContextSchema.safeParse(context).success, e.id);
+    assert(AttemptBodySchema.safeParse({ subject: l.subject, competency: e.competency, context, runId: "test-run", lessonId: l.id, lessonTitle: l.title, exerciseId: e.id, exerciseType: e.type, phase: "main", question: exerciseSummary(e), userAnswer: answerText(e, solution(e)), correctAnswer: correctAnswerText(e), correct: true, gradedBy: "local" }).success, `${e.id}: invalid telemetry`);
   }
 });
 test("multi-select is exact unordered set; missing, extra, duplicate, unknown and wrong shapes fail", () => {

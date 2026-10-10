@@ -75,7 +75,7 @@ async function main() {
       cookies.push(cookie);
       ids.push(cookie.split("=")[1].split(".")[0]);
     }
-    for (const lesson of [loadLessonFiles().find(l => l.subject === "english")!, files.find(l => l.subject === "matematika")!, files.find(l => l.subject === "bahasa-indonesia")!]) {
+    for (const lesson of [loadLessonFiles().find(l => l.subject === "english")!, files.find(l => l.id === "tka-math-bangun-ruang")!, files.find(l => l.id === "tka-bi-fakta-opini")!]) {
       const runId = randomUUID();
       const exercises = lesson.subject === "english" ? lesson.exercises.filter(e => e.type === "multiple_choice").slice(0, 1) : lesson.exercises.filter(e => ["multiple_choice", "multiple_select", "statement_category"].includes(e.type)).filter((e, i, a) => a.findIndex(x => x.type === e.type) === i);
       for (const ex of exercises) {
