@@ -122,3 +122,13 @@ Built with Next.js, TypeScript, Tailwind and Supabase.
 - [Content audit](docs/TKA-SD-CONTENT-AUDIT.md)
 - [Verification and pending database checks](docs/TKA-SD-VERIFICATION.md)
 - `docs/qa/`: responsive browser screenshots and measured viewport widths.
+
+### Live Supabase verification
+
+After applying migrations, run against an authorized database with the localhost app connected to the same project:
+
+```bash
+LOCAL_BASE_URL=http://localhost:3100 npm run verify:supabase -- --allow-writes
+```
+
+This explicitly writes to configured Supabase: seeds only the six TKA lessons twice, checks existing rows are unchanged, verifies both views, and creates two isolated QA profiles for history/snapshot/isolation/completion tests. It adds 601 temporary English attempts to check filtering before the 600-row cap, then deletes only its QA profiles and confirms existing attempts/completions are unchanged. The localhost server needs a valid SESSION_SECRET and its normal local rate-limit configuration. Without LOCAL_BASE_URL, only seed/preservation/view checks run. See [the verification report](docs/TKA-SD-VERIFICATION.md) for actual live results and remaining QA boundaries.

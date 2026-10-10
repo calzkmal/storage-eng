@@ -2,7 +2,7 @@
 
 Tanggal: **10 Oktober 2026, Asia/Jakarta**. Environment: macOS, Node 26.5.0, Next.js 16.3.4, React 19.2.8. Workspace: `/Users/cindyram/Documents/Muti/Prototype`.
 
-**Status: seluruh implementasi rilis awal dan verifikasi lokal selesai; gate database nyata belum terpenuhi. Jangan menyatakan rilis penuh terverifikasi sebelum SC-11 dan bagian DB dari SC-09 selesai.** Tidak ada push, PR, deployment, migration produksi, atau seed produksi yang dijalankan.
+**Status terbaru: implementasi, verifikasi lokal, dan integrasi Supabase nyata selesai. SC-09 dan SC-11 sudah lulus.** Setelah otorisasi eksplisit pengguna, migration TKA dan seed dijalankan pada proyek Supabase configured existing. Tidak ada push, PR, atau deployment aplikasi. Review konten oleh ahli/manusia tetap belum dilakukan.
 
 ## Yang diimplementasikan
 
@@ -73,22 +73,34 @@ Production server diuji di `http://localhost:3100`, dengan Supabase, Gemini dan 
 
 Screenshot landing, katalog, materi, single-choice, multiple-select, statement-category, feedback, reading, dan result disimpan di `docs/qa/` pada **360, 390, 768 px** (tinggi 900 px untuk matriks capture). Kedua sesi utama juga diuji pada tinggi 800/844/1024. Lebar scroll dokumen sama dengan viewport di seluruh capture; inspeksi visual tidak menemukan konten melebar. Runner memakai scroll internal; screenshot viewport tidak menampilkan seluruh materi/bacaan sekaligus, dan scroll manual memastikan pembahasan panjang tetap dapat diakses di atas bottom bar. Target interaksi baru minimal 44 px melalui label/control wrapper.
 
-## Database: pending nyata
+## Database: verifikasi nyata selesai
 
-Tidak ada Supabase CLI, psql, atau Docker tersedia di PATH, serta tidak ada database disposable/test yang diidentifikasi dan diotorisasi. DB configured existing gagal dihubungi pada baseline. Karena itu **SC-11 belum terverifikasi**. Build/smoke/mock bukan bukti migration SQL sudah berhasil diterapkan.
+Follow-up pada 10 Oktober 2026 mendapat otorisasi eksplisit pengguna untuk menjalankan integrasi dan membuat tabel bila perlu. Proyek configured: `jqmjrizticeszylzqpas` (calzkmal's Project / eng-test, branch main). Tidak menggunakan database baru atau mengubah `.env.local`.
 
-Yang telah dilakukan: audit urutan migration, review kolom/view/RLS/grants, bounded snapshot parsing, API validation, konten lokal tanpa DB, dan fallback build dengan endpoint dummy localhost yang tidak tersedia. Tidak menjalankan `seed:supabase`, `seed:variations`, atau migration ke DB configured.
+Koneksi REST awal berhasil, tetapi schema cache hanya menampilkan root dan mengembalikan PGRST205 untuk lessons. Dashboard menandai proyek Unhealthy saat pertama dibuka. Query SQL langsung mengonfirmasi tabel dan data aplikasi existing masih ada: **18 lesson, 288 exercise_sets, 16 learner_sets, 297 attempts**. Jadi tidak membuat ulang skema baseline. Setelah migration dan NOTIFY reload schema, API dapat membaca tabel kembali. Tidak mengklaim seluruh health indicator platform telah pulih.
 
-Yang wajib dilakukan pada DB uji sebelum rilis:
+| Pemeriksaan nyata | Hasil |
+| --- | --- |
+| Migration | Hanya `20261010090000_tka_subjects.sql` diterapkan dalam transaction lewat SQL Editor, ditambah ledger version/name dan schema-cache reload. Tidak mengulang migration baseline. Temporary preservation table di session dibuang saat commit |
+| Preservation saat migration | Hash seluruh exercise_sets dan learner_sets sebelum/sesudah cocok. Seluruh 18 lesson dan 297 attempt lama memiliki default English |
+| Seed pertama | Math 3 lesson + 3 seed, BI 3 lesson + 3 seed. Total sesudahnya 24 lesson, 294 set; 6 seed TKA, 54 soal |
+| Seed ulang | Dua pass pada pemeriksaan awal dan dua pass pada masing-masing pemeriksaan API berikutnya. Semua rerun membuat 0 set tambahan, menghapus 0 lesson. Tidak menjalankan seed variasi |
+| Preservation saat seed | Perbandingan seluruh row English lessons, semua set existing, completion dan attempt cocok. Metadata, active set, ID, exercise JSON dan timestamp existing tidak berubah |
+| View metadata | lesson_sets dan lesson_active: tepat 6 TKA; level/objectives/material/stimuli/exercises cocok persis dengan JSON lokal, masing-masing satu seed |
+| RLS/grants | Enam tabel tetap RLS enabled tanpa policy anon/authenticated; kedua view security_invoker true dan SELECT anon/authenticated revoked. Kedua index baru ada, migration tercatat satu kali |
+| API dengan signed cookie | Dua profil QA di origin localhost. 14 attempt main/review: English MC, Math dan BI masing-masing tiga format; 3 completion lintas mapel. Semua stored:true. Snapshot TKA version 1 dan jawaban/fase terbaca dari history |
+| Isolation | Learner kedua melihat history kosong; cookie learner pertama yang dimodifikasi melihat history kosong; profil kedua tidak memiliki attempt/completion |
+| Filter sebelum limit | 601 attempt English yang lebih baru dimasukkan hanya ke profil QA; history Semua tepat 600 attempt, semuanya English; filter Math tetap mendapatkan seluruh 6 attempt Math yang lebih lama. Probe tanpa subject juga menguji default English DB |
+| Profile deletion | DELETE API menghapus learner QA pertama beserta attempt/completion seluruh mapel. Kedua profil QA dibersihkan di finally; perbandingan attempt/completion existing kembali identik dengan baseline. Bucket rate-limit QA memakai expiry normal existing |
+| Build dengan DB aktif | Fresh cache, npm run build lulus; tidak ada diagnosis fetch failed/fallback pada log build |
+| Browser DB path | Math material/visual dan BI material/bacaan dibuka melalui URL set UUID nyata dari Supabase. Sebelumnya fallback menggunakan file IDs. Capture tambahan ada di docs/qa/supabase-*.png |
+| Pemeriksaan script | npm run typecheck dan npm run lint lulus setelah penambahan script integrasi |
 
-1. Terapkan migration baseline berurutan lalu `20261010090000_tka_subjects.sql`; pastikan lesson/attempt lama default `english`.
-2. Simpan jumlah dan ID exercise_sets/learner_sets English; seed Math dan BI dua kali melalui `--subject`; pastikan satu seed setiap TKA dan jumlah/ID completion English tetap.
-3. Query `lesson_sets` dan `lesson_active`; cocokkan level/objectives/material/stimuli dan buka kedua lesson contoh melalui DB path.
-4. Buat signed-cookie learner uji; simpan attempt main/review English dan TKA, termasuk kedua format baru; periksa snapshot dan filter sebelum limit. Coba learner berbeda dan pastikan akses tetap terisolasi.
-5. Uji history campuran, perubahan filter cepat, deletion profil/history semua mapel, dan DB outage terhadap aplikasi yang telah memakai DB set.
-6. Setelah hasil tercatat, ubah status SC-09/SC-11 berdasarkan bukti DB tersebut. Baru pertimbangkan rilis sesuai proses pengguna.
+Command opt-in yang dijalankan: `LOCAL_BASE_URL=http://localhost:3100 npm run verify:supabase -- --allow-writes`. Tanpa LOCAL_BASE_URL, script menjalankan seed dan pemeriksaan preservation/view saja. Script memerlukan authorization pada DB target; flag wajib karena melakukan write. Server QA memakai SESSION_SECRET acak sementara, tidak mengubah secret pengguna. Semua server dan tab QA dihentikan setelah pengujian.
 
-Risiko existing `seed:variations`: menghapus/recreate variasi English dapat menghapus learner_sets melalui cascade. Jangan jalankan untuk ekspansi TKA. Completion `file:<lessonId>` tetap device-local dan tidak menjadi completion UUID DB secara otomatis; ini mekanisme existing, bukan sinkronisasi baru.
+Batas: riwayat campuran nyata diverifikasi melalui API; QA filter cepat pada browser tetap menggunakan sesi lokal sebelumnya. Outage menggunakan endpoint dummy pada verifikasi awal, tidak sengaja memutus DB pengguna. Review konten manusia dan deployment aplikasi tetap di luar hasil ini.
+
+Risiko existing `seed:variations`: menghapus/recreate variasi English dapat menghapus learner_sets melalui cascade. Tidak dijalankan. Completion `file:<lessonId>` tetap device-local dan tidak menjadi completion UUID DB secara otomatis.
 
 ## Success criteria
 
@@ -102,9 +114,9 @@ Risiko existing `seed:variations`: menghapus/recreate variasi English dapat meng
 | SC-06 | Lulus | Tiga stimulus pada main/feedback/review BI; evidence tepat |
 | SC-07 | Lulus audit agent | 27 hitung independen + 27 set bukti; belum review ahli/manusia |
 | SC-08 | Lulus | Kedua sesi 6/9 = 67%, review salah selesai; guard klik ganda |
-| SC-09 | Parsial; DB pending | Progres lokal, filter/empty history, snapshot parsing dan legacy tests lulus; riwayat campuran real DB belum diuji |
+| SC-09 | Lulus lokal + DB | Riwayat campuran tiga mapel, snapshot, main/review, signed-cookie isolation, filter-before-limit 600 dan delete lintas mapel lulus |
 | SC-10 | Lulus lokal | Math/BI selesai tanpa DB/AI keys; 54 soal gradeLocal; batas network inspection dijelaskan |
-| SC-11 | **Pending** | Tidak ada DB uji yang tersedia/diotorisasi; migration/seed belum dieksekusi |
+| SC-11 | **Lulus DB nyata** | Migration additive, views/RLS/index, seed idempotent, preservation seluruh row dan metadata nyata lulus pada DB existing yang diotorisasi |
 | SC-12 | Lulus nonmutating | Builder 270 variasi unchanged; English-only seed selection direview, seed variasi tidak dijalankan |
 | SC-13 | Lulus smoke | Capture 360/390/768, tanpa overflow teramati, checkbox/radio/Enter; bukan audit aksesibilitas formal |
 | SC-14 | Lulus | Validate, 10 tests, typecheck, lint, production builds |
@@ -120,6 +132,8 @@ Perubahan di-commit per kelompok pada branch existing `feat/agents`:
 - `bc04b3e`: grouping, seed additive, audit hitung, reset scroll.
 - `a8d8756`: rapid-action guard, target sentuh, smoke lokal.
 - `d74eb3d`: fase main/review dan jawaban benar selalu tampil dalam riwayat.
-- Commit dokumentasi akhir: README, rencana unchanged, audit, verification, dan bukti QA; lihat `git log` untuk hash.
+- `4dbac30`: README, rencana unchanged, audit, verification, dan bukti QA lokal.
+- `b06ab79`: script opt-in integrasi Supabase dan preservation/history checks.
+- Commit dokumentasi follow-up: laporan DB dan screenshot hasil migration/security/DB path; lihat `git log` untuk hash.
 
 Push, PR, dan proses rilis diserahkan kepada pengguna.
