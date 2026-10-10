@@ -74,12 +74,8 @@ def math_lessons():
         write(SETS/f'{lid}.json',sets[1:])
 
 SCENARIOS=[
-'''Kelompok kelas enam menyiapkan bahan untuk pameran literasi sekolah. Mereka bekerja di ruang baca pada Rabu sore. Setiap anggota memperoleh tugas: membaca sumber, mencatat gagasan, menyunting kalimat, atau memeriksa hasil akhir. Guru meminta mereka menjelaskan alasan pilihan kepada teman, bukan hanya menyalin jawaban. Jika ada dua pendapat berbeda, kelompok kembali membaca bagian yang berkaitan sebelum mengambil keputusan.
-
-Hasil kerja akan dibaca oleh murid kelas lain dan orang tua. Karena itu, penjelasan harus jelas dan sesuai informasi. Kelompok memberi judul, menyusun bagian secara teratur, lalu meminta seorang teman membaca draf tanpa penjelasan tambahan. Dari pertanyaan teman tersebut, mereka mengetahui bagian yang masih perlu diperbaiki. Catatan yang diperiksa bersama berisi pokok-pokok berikut.''',
-'''Di kelas enam, murid mengikuti lokakarya membaca dan menyunting. Bu Guru membagikan catatan untuk dibahas berpasangan. Seorang murid membaca bagian awal, sedangkan pasangannya menyebutkan bukti yang mendukung penafsiran. Mereka berganti peran setelah beberapa menit agar semua anggota berlatih. Jawaban yang berbeda dicatat dahulu, kemudian dibandingkan dengan konteks lengkap, bukan diputuskan berdasarkan siapa yang berbicara paling keras.
-
-Pada akhir kegiatan, pasangan menulis penjelasan singkat untuk pembaca yang tidak mengikuti diskusi. Mereka berusaha menjaga arti, menggunakan kalimat jelas, dan membedakan informasi dari dugaan. Tulisan diperiksa kembali sebelum ditempel di papan kelas. Guru menghargai alasan yang sesuai dengan bacaan, bukan jawaban panjang yang tidak menjawab pertanyaan. Berikut beberapa pokok dalam catatan yang mereka periksa.'''
+"""Kelompok kelas enam menyiapkan pameran literasi pada Rabu sore. Mereka membagi tugas membaca, mencatat, dan menyunting. Setiap anggota diminta menjelaskan alasan kepada teman, bukan hanya menyalin jawaban. Jika penafsiran berbeda, mereka memeriksa kembali konteks. Hasil diskusi akan dibaca oleh kelas lain, sehingga setiap catatan harus dapat dipahami tanpa penjelasan lisan tambahan. Berikut pokok yang mereka sepakati beserta bagian bacaan yang mendukungnya.""",
+"""Pada lokakarya kelas enam, murid membaca dan menyunting secara berpasangan. Seorang murid mengusulkan penafsiran, sedangkan pasangannya mencari bukti. Mereka berganti peran agar semua berlatih. Jawaban tidak dipilih berdasarkan suara yang paling keras. Setelah diskusi, mereka menulis catatan untuk pembaca yang tidak mengikuti kegiatan. Catatan berikut menyampaikan gagasan lengkap dan bukti, sehingga informasi tidak bergantung pada ingatan pembaca tentang cerita sebelumnya."""
 ]
 
 def bi_set(lid,comp,stimuli,pools,version):
@@ -134,9 +130,9 @@ def bi_lessons():
         paragraphs=text.split('\n\n')
         # A full narrative and two different classroom contexts with source-based instructional notes.
         stimuli=[dict(id=lid+'-bacaan-1',title=title+' dalam bacaan',paragraphs=paragraphs,attribution='Teks orisinal untuk latihan ini.')]
-        quotes='Pokok catatan: '+ '; '.join('«'+q+'»' for _,q in yes)
+        quotes='Pokok catatan: '+ '; '.join('«'+claim+' Bukti: '+quote+'»' for claim,quote in yes)
         for j,scenario in enumerate(SCENARIOS):
-            variant=scenario.split('\n\n')+[quotes, 'Setelah itu, mereka menandai kata penting dan membaca ulang kalimat sebelum serta sesudahnya. Catatan tidak langsung diterima hanya karena ditulis rapi; isinya tetap dibandingkan dengan penjelasan yang sedang dipelajari.']
+            variant=scenario.split('\n\n')+[quotes, 'Catatan dibaca ulang untuk membedakan gagasan yang didukung bukti dari dugaan. Murid dapat memakai kalimat sendiri, tetapi tidak boleh mengubah makna informasi yang sedang dibahas. Pada akhir pertemuan, kelompok menyampaikan hasilnya secara bergiliran dan menerima pertanyaan. Mereka memperbaiki bagian yang belum jelas sebelum catatan dibagikan kepada pembaca lain.']
             stimuli.append(dict(id=f'{lid}-bacaan-{j+2}',title=['Diskusi pameran literasi','Catatan lokakarya'][j],paragraphs=variant,attribution='Teks orisinal untuk latihan ini.'))
         material=[dict(type='paragraph',title='Cara membaca',text='Baca seluruh konteks dan hubungkan rincian dengan pertanyaan. '+yes[0][0]),dict(type='paragraph',title='Periksa alasan',text='Jangan memilih berdasarkan satu kata yang tampak sama. '+yes[1][0]+' '+yes[2][0])]
         material += [dict(type='worked_example',question='Apakah pernyataan berikut sesuai dengan bacaan: '+no[i],steps=['Temukan bagian yang menjelaskan gagasan terkait.',REASONS[topic][i]],conclusion='Tidak sesuai. '+REASONS[topic][i]) for i in (0,1)]
