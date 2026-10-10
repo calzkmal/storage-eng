@@ -6,5 +6,5 @@ import { useLearner } from "@/lib/learner";
 export default function LearnerGreeting() {
   const learner = useLearner();
   if (!learner) return null;
-  return <p className="mt-1 text-base font-semibold text-sky-700">Hi, {learner.name}</p>;
+  return <p className="mt-1 text-base font-semibold text-sky-700">Halo, {learner.name}</p>;
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import type { ReactNode } from "react";
+import { useRef, type ReactNode } from "react";
 
 export type BottomTone = "primary" | "correct" | "wrong" | "unverified";
 
@@ -29,13 +29,22 @@ const buttonTone: Record<BottomTone, string> = {
 
 /** Sticky bar with one primary button. */
 export default function BottomBar({ label, onClick, disabled, tone, panel }: Props) {
+  const lastActivation = useRef(0);
+  function activate() {
+    const now = Date.now();
+    // Check changes this same button into Continue; a rapid second click must
+    // not accidentally skip the explanation or trigger a second transition.
+    if (now - lastActivation.current < 400) return;
+    lastActivation.current = now;
+    onClick();
+  }
   return (
     <div className={`shrink-0 pb-[env(safe-area-inset-bottom)] ${wrapperTone[tone]}`}>
       {panel}
       <div className="px-4 pb-4 pt-3">
         <button
           type="button"
-          onClick={onClick}
+          onClick={activate}
           disabled={disabled}
           className={`min-h-[52px] w-full rounded-2xl text-base font-bold uppercase tracking-wide transition-transform disabled:cursor-not-allowed disabled:bg-slate-200 disabled:text-slate-400 disabled:shadow-none ${buttonTone[tone]}`}
         >

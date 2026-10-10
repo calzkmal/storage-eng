@@ -1,3 +1,4 @@
+import { compareLessons, type Subject } from "./subjects";
 import fs from "node:fs";
 import path from "node:path";
 import { unstable_cache, revalidateTag } from "next/cache";
@@ -20,6 +21,7 @@ export type SetSource = "seed" | "generated" | "variation";
 /** A lesson card, without its exercises. */
 export type LessonOverview = {
   id: string;
+  subject: Lesson["subject"];
   category: number;
   order: number;
   title: string;
@@ -54,7 +56,7 @@ export function loadLessonFiles(): Lesson[] {
     return parsed.data;
   });
 
-  lessons.sort((a, b) => a.category - b.category || a.order - b.order);
+  lessons.sort(compareLessons);
   fileCache = lessons;
   return lessons;
 }
@@ -71,6 +73,7 @@ function withFileSet(lesson: Lesson): LessonWithSets {
 function overviewOf(lesson: LessonWithSets): LessonOverview {
   return {
     id: lesson.id,
+    subject: lesson.subject,
     category: lesson.category,
     order: lesson.order,
     title: lesson.title,
@@ -90,6 +93,11 @@ type SetRow = {
   position: number;
   title: string;
   intro: string | null;
+  subject: Lesson["subject"];
+  level: unknown;
+  objectives: unknown;
+  material: unknown;
+  stimuli: unknown;
 };
 
 const ExercisesJson = z.array(ExerciseSchema);
@@ -121,6 +129,11 @@ export async function seedLesson(
       position: lesson.order,
       title: lesson.title,
       intro: lesson.intro ?? null,
+      subject: lesson.subject,
+      level: lesson.level ?? null,
+      objectives: lesson.objectives ?? null,
+      material: lesson.material ?? null,
+      stimuli: lesson.stimuli ?? null,
     },
     { onConflict: "id" },
   );
@@ -170,31 +183,20 @@ export async function seedLesson(
 /** Load every JSON lesson into the database. Idempotent; `force` re-syncs seed exercises. */
 export async function seedDatabase(
   force = false,
+  subject?: Subject,
 ): Promise<{ lessons: number; createdSets: number; removed: number }> {
   const db = getDb();
   if (!db) throw new Error("Database not configured (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY)");
   let createdSets = 0;
-  const files = loadLessonFiles();
+  const files = loadLessonFiles().filter(l => !subject || l.subject === subject);
   for (const lesson of files) {
     const r = await seedLesson(db, lesson, force);
     if (r.created) createdSets++;
   }
 
-  // Drop lessons whose file is gone. Attempts keep their own lesson title, so history survives.
-  // Filtered here rather than in a hand-built PostgREST expression, which an id
-  // containing a comma or bracket would corrupt.
-  const keep = new Set(files.map((l) => l.id));
-  const { data: existing, error } = await db.from("lessons").select("id");
-  if (error) fail("find stale lessons", error);
-  const removed = (existing ?? []).map((r) => (r as { id: string }).id).filter((id) => !keep.has(id));
-  if (removed.length) {
-    const { error: delErr } = await db.from("lessons").delete().in("id", removed);
-    if (delErr) fail("delete stale lessons", delErr);
-    console.log(`[content] removed lessons no longer in the syllabus: ${removed.join(", ")}`);
-  }
-
+  // Additive seed: never prune existing lessons/sets or learner completions.
   invalidateLessons();
-  return { lessons: files.length, createdSets, removed: removed.length };
+  return { lessons: files.length, createdSets, removed: 0 };
 }
 
 // One query for every playable set. These reads are latency-bound rather than
@@ -207,20 +209,16 @@ const readSyllabus = unstable_cache(
     const query = () =>
       db
         .from("lesson_sets")
-        .select("set_id, lesson_id, version, source, exercises, category, position, title, intro")
+        .select("set_id, lesson_id, version, source, exercises, category, position, title, intro, subject, level, objectives, material, stimuli")
         .order("category", { ascending: true })
         .order("position", { ascending: true })
         .order("version", { ascending: true });
 
-    let { data, error } = await query();
+    const { data, error } = await query();
     if (error) fail("read syllabus", error);
 
-    if (!data || data.length === 0) {
-      // Empty database: load the bundled lessons.
-      await seedDatabase(false);
-      ({ data, error } = await query());
-      if (error) fail("read syllabus after seeding", error);
-    }
+    // Reads never mutate a configured database. Seed explicitly after migration.
+    if (!data || data.length === 0) return null;
 
     const byLesson = new Map<string, LessonWithSets>();
     for (const raw of data ?? []) {
@@ -236,6 +234,11 @@ const readSyllabus = unstable_cache(
         order: row.position,
         title: row.title,
         intro: row.intro ?? undefined,
+        subject: row.subject,
+        level: row.level ?? undefined,
+        objectives: row.objectives ?? undefined,
+        material: row.material ?? undefined,
+        stimuli: row.stimuli ?? undefined,
         exercises: exercises.data,
       });
       if (!parsed.success) {
@@ -249,7 +252,7 @@ const readSyllabus = unstable_cache(
     }
 
     const out = [...byLesson.values()];
-    out.sort((a, b) => a.category - b.category || a.order - b.order);
+    out.sort(compareLessons);
     return out;
   },
   ["syllabus"],
@@ -260,7 +263,10 @@ const readSyllabus = unstable_cache(
 async function syllabus(): Promise<LessonWithSets[]> {
   try {
     const rows = await readSyllabus();
-    if (rows && rows.length) return rows;
+    if (rows && rows.length) {
+      const known = new Set(rows.map(l => l.id));
+      return [...rows, ...loadLessonFiles().filter(l => !known.has(l.id)).map(withFileSet)].sort(compareLessons);
+    }
   } catch (err) {
     console.error("[content] database unavailable, using bundled files:", err instanceof Error ? err.message : err);
   }

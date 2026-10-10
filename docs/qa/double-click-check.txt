@@ -1,0 +1,1 @@
+Periksa double-click: still 1/9 with feedback; Lanjut double-click: 2/9 unanswered; no console error/warn.

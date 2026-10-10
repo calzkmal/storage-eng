@@ -19,6 +19,8 @@ const ID_ABBR: Record<ExerciseType, string> = {
   matching: "match",
   flip_sentence: "flip",
   free_write: "fw",
+  multiple_select: "ms",
+  statement_category: "sc",
 };
 
 /** Deterministic PRNG so rebuilds do not churn the files. */
@@ -67,7 +69,7 @@ function pick(pool: PoolItem[], plan: ExerciseType[], used: Map<PoolItem, number
 }
 
 function main() {
-  const lessons = loadLessonFiles();
+  const lessons = loadLessonFiles().filter(l => l.subject === "english");
   fs.mkdirSync(OUT_DIR, { recursive: true });
 
   let total = 0;

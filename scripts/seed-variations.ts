@@ -5,7 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
-import { ExerciseSchema } from "../lib/schema";
+import { ExerciseSchema, LessonSchema } from "../lib/schema";
 import { loadLessonFiles, invalidateLessons } from "../lib/content";
 import { getDb, isDbConfigured } from "../lib/db";
 
@@ -20,13 +20,14 @@ async function main() {
   const db = getDb()!;
   let written = 0;
 
-  for (const lesson of loadLessonFiles()) {
+  for (const lesson of loadLessonFiles().filter(l => l.subject === "english")) {
     const file = path.join(DIR, `${lesson.id}.json`);
     if (!fs.existsSync(file)) {
       console.error(`✗ ${lesson.id}: no variations file, run npm run build:variations`);
       process.exit(1);
     }
     const sets = Sets.parse(JSON.parse(fs.readFileSync(file, "utf8")));
+    for (const exercises of sets) LessonSchema.parse({ ...lesson, exercises });
 
     // Replace this lesson's variations so a rebuild never leaves stale ones.
     const { error: delErr } = await db

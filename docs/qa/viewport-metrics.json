@@ -1,0 +1,122 @@
+[
+  {
+    "screen": "single-choice",
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "screen": "single-choice",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "screen": "single-choice",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "screen": "material",
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "screen": "material",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "screen": "material",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "screen": "multiple-select",
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "screen": "multiple-select",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "screen": "multiple-select",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "screen": "feedback",
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "screen": "feedback",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "screen": "feedback",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "screen": "statement-category",
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "screen": "statement-category",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "screen": "statement-category",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "screen": "result",
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "screen": "result",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "screen": "result",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "screen": "catalog",
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "screen": "catalog",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "screen": "catalog",
+    "scroll": 768,
+    "width": 768
+  },
+  {
+    "screen": "reading",
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "screen": "reading",
+    "scroll": 390,
+    "width": 390
+  },
+  {
+    "screen": "reading",
+    "scroll": 768,
+    "width": 768
+  }
+]

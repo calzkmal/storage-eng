@@ -1,16 +1,20 @@
 // Validates every lesson file. Runs in prebuild; exits non-zero on any error.
+import { COMPETENCIES } from "../lib/subjects";
+import { collectionProblems } from "../lib/contentValidation";
 import fs from "node:fs";
 import path from "node:path";
 import { LessonSchema, type ExerciseType } from "../lib/schema";
 import { categoryTitle } from "../lib/categories";
 
 const dir = path.join(process.cwd(), "content", "lessons");
+const variationDir = path.join(process.cwd(), "content", "variations");
+const collection: import("../lib/schema").Lesson[] = [];
 const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort();
 
 let errors = 0;
 const ids = new Set<string>();
 const slots = new Set<string>();
-const byCategory = new Map<number, number>();
+const byCategory = new Map<string, number>();
 const exerciseIds = new Set<string>();
 const typesSeen = new Set<ExerciseType>();
 
@@ -36,15 +40,16 @@ for (const file of files) {
   }
 
   const lesson = result.data;
+  collection.push(lesson);
   const problems: string[] = [];
 
   if (ids.has(lesson.id)) problems.push(`duplicate lesson id "${lesson.id}"`);
   ids.add(lesson.id);
-  const slot = `${lesson.category}.${lesson.order}`;
+  const slot = `${lesson.subject}.${lesson.category}.${lesson.order}`;
   if (slots.has(slot)) problems.push(`duplicate lesson slot ${slot}`);
   slots.add(slot);
-  byCategory.set(lesson.category, (byCategory.get(lesson.category) ?? 0) + 1);
-  if (!categoryTitle(lesson.category).startsWith("Category ")) {
+  byCategory.set(`${lesson.subject}.${lesson.category}`, (byCategory.get(`${lesson.subject}.${lesson.category}`) ?? 0) + 1);
+  if (!categoryTitle(lesson.category, lesson.subject).startsWith("Category ")) {
     // known category, fine
   } else {
     problems.push(`category ${lesson.category} is not defined in lib/categories.ts`);
@@ -60,7 +65,7 @@ for (const file of files) {
   if (aiCount > 3) problems.push(`has ${aiCount} AI-graded exercises; spec §6 targets ≤3`);
 
   for (const ex of lesson.exercises) {
-    typesSeen.add(ex.type);
+    if (lesson.subject === "english") typesSeen.add(ex.type);
     if (exerciseIds.has(ex.id)) problems.push(`exercise id "${ex.id}" is used in another lesson`);
     exerciseIds.add(ex.id);
     if (/placeholder|todo|tbd|lorem/i.test(ex.explanation)) problems.push(`exercise "${ex.id}" has placeholder explanation`);
@@ -68,6 +73,28 @@ for (const file of files) {
   }
   if (lesson.intro?.includes("—")) problems.push("intro contains an em dash");
 
+  if (lesson.subject === "english") {
+    const variationFile = path.join(variationDir, `${lesson.id}.json`);
+    if (!fs.existsSync(variationFile)) problems.push("missing English variations");
+    else {
+      const raw = JSON.parse(fs.readFileSync(variationFile, "utf8"));
+      if (!Array.isArray(raw) || raw.length !== 15) problems.push("English requires 15 variations");
+      else for (const [i, exercises] of raw.entries()) {
+        const parsed = LessonSchema.safeParse({ ...lesson, exercises });
+        if (!parsed.success) problems.push(`variation ${i + 1}: ${parsed.error.message}`);
+      }
+    }
+  }
+  if (lesson.subject === "bahasa-indonesia") {
+    for (const stimulus of lesson.stimuli ?? []) {
+      const words = stimulus.paragraphs.join(" ").split(/\s+/).length;
+      if (words < 150 || words > 200) problems.push(`stimulus ${stimulus.id}: ${words} words; expected 150–200`);
+      const count = lesson.exercises.filter(e => e.stimulusId === stimulus.id).length;
+      if (count < 3 || count > 4) problems.push(`stimulus ${stimulus.id} needs 3–4 questions`);
+    }
+    const groups = lesson.exercises.map(e => e.stimulusId).filter((id, i, all) => i === 0 || id !== all[i - 1]);
+    if (new Set(groups).size !== groups.length) problems.push("stimulus groups must stay adjacent");
+  }
   if (problems.length) {
     console.error(`✗ ${file}`);
     for (const p of problems) console.error(`    ${p}`);
@@ -77,10 +104,10 @@ for (const file of files) {
   }
 }
 
-for (const [cat, count] of [...byCategory.entries()].sort((a, b) => a[0] - b[0])) {
+for (const [cat, count] of [...byCategory.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
   for (let i = 1; i <= count; i++) {
     if (!slots.has(`${cat}.${i}`)) {
-      console.error(`✗ category ${cat} ("${categoryTitle(cat)}") is missing position ${i}; orders must run 1..${count}`);
+      console.error(`✗ category ${cat} ("${cat}") is missing position ${i}; orders must run 1..${count}`);
       errors++;
     }
   }
@@ -92,6 +119,12 @@ if (missing.length) {
   console.error(`✗ exercise types never used: ${missing.join(", ")}`);
   errors += missing.length;
 }
+
+for (const id of new Set(Object.values(COMPETENCIES).map(c => c.lessonId))) {
+  if (!collection.some(l => l.id === id && l.subject !== "english")) { console.error(`✗ missing TKA lesson ${id}`); errors++; }
+}
+
+for (const problem of collectionProblems(collection)) { console.error(`✗ ${problem}`); errors++; }
 
 if (errors) {
   console.error(`\n${errors} problem(s) found in ${files.length} lesson file(s).`);

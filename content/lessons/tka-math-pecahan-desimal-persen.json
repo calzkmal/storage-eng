@@ -1,0 +1,273 @@
+{
+  "id": "tka-math-pecahan-desimal-persen",
+  "subject": "matematika",
+  "category": 1,
+  "order": 3,
+  "title": "Pecahan, desimal, dan persen",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menghubungkan pecahan sederhana dengan desimal dan persen yang senilai."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Tiga cara menyebut nilai",
+      "text": "Pecahan, desimal, dan persen dapat menunjukkan bagian yang sama. Persen berarti per seratus. Dalam Bahasa Indonesia, desimal memakai koma."
+    },
+    {
+      "type": "paragraph",
+      "title": "Ubah menjadi per seratus",
+      "text": "Cari pecahan senilai dengan penyebut 100. Pembilangnya menjadi persen. Desimal bisa didapat dengan membagi pembilang oleh penyebut."
+    },
+    {
+      "type": "fraction",
+      "visual": {
+        "numerator": 1,
+        "denominator": 4
+      }
+    },
+    {
+      "type": "worked_example",
+      "question": "Ubah 1/4 menjadi persen dan desimal.",
+      "steps": [
+        "1/4 = 25/100 karena kedua bilangan dikalikan 25.",
+        "25/100 berarti 25% dan dapat ditulis 0,25."
+      ],
+      "conclusion": "1/4 = 0,25 = 25%."
+    },
+    {
+      "type": "worked_example",
+      "question": "Ubah 0,6 menjadi pecahan.",
+      "steps": [
+        "Angka 6 berada di tempat persepuluhan: 0,6 = 6/10.",
+        "Bagi 6 dan 10 dengan 2 menjadi 3/5."
+      ],
+      "conclusion": "0,6 = 3/5 = 60%."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Bentuk persen dari 1/2 adalah …",
+      "options": [
+        "2%",
+        "5%",
+        "50%",
+        "100%"
+      ],
+      "answer": "50%",
+      "explanation": "1/2 = 50/100, jadi 50%. Persen menghitung bagian dari seratus, bukan mengambil penyebut sebagai persen.",
+      "id": "tka-math-pecahan-desimal-persen-q1",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.forms"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Bentuk desimal dari 1/4 adalah …",
+      "options": [
+        "0,4",
+        "0,25",
+        "0,14",
+        "2,5"
+      ],
+      "answer": "0,25",
+      "explanation": "1/4 = 25/100, yaitu 0,25. Nilai 0,4 adalah 4/10, bukan 1/4.",
+      "id": "tka-math-pecahan-desimal-persen-q2",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.forms"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Pecahan paling sederhana yang senilai dengan 0,75 adalah …",
+      "options": [
+        "3/4",
+        "7/5",
+        "1/4",
+        "3/5"
+      ],
+      "answer": "3/4",
+      "explanation": "0,75 = 75/100. Bagi keduanya dengan 25: 75 ÷ 25 = 3 dan 100 ÷ 25 = 4.",
+      "id": "tka-math-pecahan-desimal-persen-q3",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.forms"
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih nilai yang sama dengan 20%.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/5",
+          "explanation": "1/5 = 20/100."
+        },
+        {
+          "id": "b",
+          "text": "0,2",
+          "explanation": "0,2 = 2/10 = 20/100."
+        },
+        {
+          "id": "c",
+          "text": "2/5",
+          "explanation": "2/5 = 40/100 = 40%."
+        },
+        {
+          "id": "d",
+          "text": "0,02",
+          "explanation": "0,02 = 2/100 = 2%."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "20% berarti 20 dari 100. Perhatikan tempat angka desimal agar tidak tertukar dengan 2%.",
+      "id": "tka-math-pecahan-desimal-persen-q4",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.forms"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Bentuk persen dari 3/5 adalah …",
+      "options": [
+        "35%",
+        "30%",
+        "60%",
+        "80%"
+      ],
+      "answer": "60%",
+      "explanation": "3/5 = 60/100 karena 3 dan 5 dikalikan 20. Jadi 60%, bukan menggabungkan angka menjadi 35%.",
+      "id": "tka-math-pecahan-desimal-persen-q5",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.forms"
+    },
+    {
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "0,5 = 50%.",
+          "answer": "yes",
+          "explanation": "0,5 = 5/10 = 50/100."
+        },
+        {
+          "id": "s2",
+          "text": "1/4 = 40%.",
+          "answer": "no",
+          "explanation": "1/4 = 25/100 = 25%."
+        },
+        {
+          "id": "s3",
+          "text": "0,1 = 10%.",
+          "answer": "yes",
+          "explanation": "0,1 = 1/10 = 10/100."
+        }
+      ],
+      "explanation": "Gunakan penyebut 100 untuk membaca persen dan perhatikan nilai tempat desimal.",
+      "id": "tka-math-pecahan-desimal-persen-q6",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.forms"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Dalam satu kotak, 25% kelereng berwarna biru. Pecahan bagian biru adalah …",
+      "options": [
+        "1/2",
+        "1/4",
+        "3/4",
+        "1/5"
+      ],
+      "answer": "1/4",
+      "explanation": "25% = 25/100 = 1/4. Artinya seperempat jumlah kelereng, bukan 25 kelereng jika jumlah total belum diketahui.",
+      "id": "tka-math-pecahan-desimal-persen-q7",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.forms"
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih pasangan nilai yang senilai.",
+      "options": [
+        {
+          "id": "a",
+          "text": "0,8 dan 80%",
+          "explanation": "0,8 = 80/100."
+        },
+        {
+          "id": "b",
+          "text": "3/4 dan 75%",
+          "explanation": "3/4 = 75/100."
+        },
+        {
+          "id": "c",
+          "text": "0,3 dan 3%",
+          "explanation": "0,3 = 30%, sedangkan 3% = 0,03."
+        },
+        {
+          "id": "d",
+          "text": "1/5 dan 50%",
+          "explanation": "1/5 = 20%, bukan 50%."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Persen dan desimal harus memiliki nilai yang sama saat ditulis per seratus.",
+      "id": "tka-math-pecahan-desimal-persen-q8",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.forms"
+    },
+    {
+      "type": "statement_category",
+      "question": "Satu botol terisi 0,75 dari kapasitasnya. Periksa pernyataan ini.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Botol terisi 75% kapasitasnya.",
+          "answer": "yes",
+          "explanation": "0,75 = 75/100 = 75%."
+        },
+        {
+          "id": "s2",
+          "text": "Botol terisi 3/4 kapasitasnya.",
+          "answer": "yes",
+          "explanation": "75/100 disederhanakan menjadi 3/4."
+        },
+        {
+          "id": "s3",
+          "text": "Bagian yang belum terisi adalah 75%.",
+          "answer": "no",
+          "explanation": "100% − 75% = 25%, yaitu 1/4 kapasitas."
+        }
+      ],
+      "explanation": "Bagian terisi dan belum terisi berjumlah satu keseluruhan: 1 atau 100%.",
+      "id": "tka-math-pecahan-desimal-persen-q9",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.forms"
+    }
+  ]
+}

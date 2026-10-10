@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { z } from "zod";
+import { AttemptBodySchema } from "@/lib/attemptSchema";
 import { getDb } from "@/lib/db";
 import { badRequest, refuseCrossSite } from "@/lib/http";
 import { checkRateLimit, getClientKey, WRITE_LIMIT } from "@/lib/rateLimit";
@@ -10,20 +10,6 @@ export const dynamic = "force-dynamic";
 
 // No learner id or name here: both come from the signed cookie, so an answer
 // cannot be filed against, or rename, someone else's profile.
-const BodySchema = z.object({
-  runId: z.string().min(8).max(64),
-  lessonId: z.string().min(1).max(100),
-  lessonTitle: z.string().min(1).max(200),
-  setId: z.string().max(100).nullable().optional(),
-  exerciseId: z.string().min(1).max(100),
-  exerciseType: z.string().min(1).max(40),
-  phase: z.enum(["main", "review"]),
-  question: z.string().max(600),
-  userAnswer: z.string().max(600),
-  correctAnswer: z.string().max(600),
-  correct: z.boolean().nullable(),
-  gradedBy: z.enum(["local", "ai", "cache", "fallback"]),
-});
 
 /** Records one checked answer. Best effort: failures are logged, not surfaced. */
 export async function POST(req: NextRequest) {
@@ -32,11 +18,13 @@ export async function POST(req: NextRequest) {
 
   let json: unknown;
   try {
-    json = await req.json();
+    const body = await req.text();
+    if (new TextEncoder().encode(body).length > 32768) return badRequest("Attempt body too large", 413);
+    json = JSON.parse(body);
   } catch {
     return badRequest("Invalid JSON body");
   }
-  const parsed = BodySchema.safeParse(json);
+  const parsed = AttemptBodySchema.safeParse(json);
   if (!parsed.success) return badRequest("Invalid attempt");
 
   const client = getClientKey(req);
@@ -60,6 +48,9 @@ export async function POST(req: NextRequest) {
   // fails the foreign key rather than being conjured up from request data.
   const { error } = await db.from("attempts").insert({
     learner_id: learnerId,
+    subject: a.subject,
+    competency: a.competency ?? null,
+    context: a.context ?? null,
     run_id: a.runId,
     lesson_id: a.lessonId,
     lesson_title: a.lessonTitle,

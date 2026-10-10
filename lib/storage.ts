@@ -1,3 +1,4 @@
+import type { Subject } from "./subjects";
 // Device-local progress. localStorage: finished sets. sessionStorage: last result.
 
 export const resultKey = (lessonId: string) => `ep:result:${lessonId}`;
@@ -9,6 +10,7 @@ export const FINISHED_EVENT = "ep:finished-changed";
 
 export type WrongItem = {
   exerciseId: string;
+  competency?: string;
   summary: string;
   yourAnswer: string;
   correctAnswer: string;
@@ -16,6 +18,7 @@ export type WrongItem = {
 
 export type LessonResult = {
   lessonId: string;
+  subject?: Subject;
   /** Kept here so the done screen needs no database lookup. */
   lessonTitle: string;
   total: number;

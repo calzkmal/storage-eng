@@ -1,0 +1,344 @@
+{
+  "id": "tka-bi-amanat-dan-tokoh",
+  "subject": "bahasa-indonesia",
+  "category": 2,
+  "order": 2,
+  "title": "Amanat dan sifat tokoh",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menyimpulkan sifat tokoh dan amanat dengan bukti tindakan serta peristiwa."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Sifat dari tindakan",
+      "text": "Sifat tokoh disimpulkan dari apa yang ia lakukan, katakan, atau pilih saat menghadapi masalah. Sebut bukti tindakan, jangan hanya menebak dari nama tokoh."
+    },
+    {
+      "type": "paragraph",
+      "title": "Amanat dari rangkaian cerita",
+      "text": "Amanat adalah pesan yang didukung masalah, tindakan, dan hasil. Pesan harus sesuai cerita, bukan nasihat umum yang tidak berhubungan. Tokoh juga dapat berubah dari awal sampai akhir."
+    },
+    {
+      "type": "worked_example",
+      "question": "Tokoh memanggil orang dewasa untuk membantu kawan menyeberang. Apa sifatnya?",
+      "steps": [
+        "Tindakan membantu menunjukkan kepedulian.",
+        "Meminta bantuan agar aman menunjukkan kehati-hatian."
+      ],
+      "conclusion": "Kesimpulan: peduli dan berhati-hati. Bukti eksplisitnya adalah tindakan meminta bantuan."
+    },
+    {
+      "type": "worked_example",
+      "question": "Tokoh mengaku lupa membawa data lalu melengkapinya esok hari. Apa pesannya?",
+      "steps": [
+        "Ia mengakui kesalahan, bukan mengarang data.",
+        "Ia memperbaiki persiapan agar tidak mengulang kesalahan."
+      ],
+      "conclusion": "Amanat: akui kesalahan dan lakukan perbaikan. Ini kesimpulan dari tindakan dan hasil."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Sifat Nisa yang paling didukung tindakannya adalah …",
+      "options": [
+        "Peduli dan berhati-hati",
+        "Terburu-buru dan ceroboh",
+        "Acuh terhadap kawan",
+        "Suka menyalahkan orang lain"
+      ],
+      "answer": "Peduli dan berhati-hati",
+      "explanation": "Nisa membantu Lala dengan memanggil orang dewasa dan tidak masuk sendiri ke parit. Dua tindakan ini mendukung kepedulian sekaligus kehati-hatian, bukan keberanian yang ceroboh.",
+      "stimulusId": "jembatan",
+      "evidence": [
+        "Ia meminta Dodi menunggu sebentar dan memanggil Pak Seno",
+        "Nisa tidak masuk ke parit sendiri."
+      ],
+      "competency": "bi.inferential.character",
+      "id": "tka-bi-amanat-dan-tokoh-q1",
+      "prompt": "Baca teks dan temukan buktinya."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Amanat yang paling sesuai dengan cerita adalah …",
+      "options": [
+        "Bantulah kawan dengan cara yang aman",
+        "Cepat pulang meskipun kawan tertinggal",
+        "Semua parit aman untuk dilompati",
+        "Tugas sekolah selalu lebih penting daripada keselamatan"
+      ],
+      "answer": "Bantulah kawan dengan cara yang aman",
+      "explanation": "Nisa meminta bantuan Pak Seno sehingga Lala dan bibit aman. Cerita menghubungkan bantuan dengan keselamatan, bukan meminta anak mengambil risiko.",
+      "stimulusId": "jembatan",
+      "evidence": [
+        "Lala menyeberang dengan bantuan Pak Seno.",
+        "memastikan semua kawan aman."
+      ],
+      "competency": "bi.inferential.message",
+      "id": "tka-bi-amanat-dan-tokoh-q2",
+      "prompt": "Baca teks dan temukan buktinya."
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih tindakan yang menunjukkan kepedulian kepada Lala.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nisa memegang kotak bibit dari tepi jalan.",
+          "explanation": "Tindakan ini membantu Lala menyeberang tanpa membawa kotak."
+        },
+        {
+          "id": "b",
+          "text": "Dodi membantu membawa tas Lala.",
+          "explanation": "Dodi akhirnya ikut membantu kawan."
+        },
+        {
+          "id": "c",
+          "text": "Dodi mula-mula mengajak segera pulang.",
+          "explanation": "Saat itu Dodi lebih memikirkan cepat pulang; belum membantu Lala."
+        },
+        {
+          "id": "d",
+          "text": "Lala takut kotaknya jatuh.",
+          "explanation": "Ini perasaan Lala, bukan tindakan menolongnya."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Sifat tokoh disimpulkan dari tindakannya. Pilih tindakan yang memberi bantuan nyata.",
+      "stimulusId": "jembatan",
+      "evidence": [
+        "Nisa memegang kotak bibit dari tepi jalan",
+        "Dodi akhirnya ikut membantu membawa tas Lala."
+      ],
+      "competency": "bi.inferential.character",
+      "id": "tka-bi-amanat-dan-tokoh-q3",
+      "prompt": "Baca teks dan temukan buktinya."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Sifat Bima saat mengakui buku tertinggal adalah …",
+      "options": [
+        "Jujur dan bertanggung jawab",
+        "Suka mengarang data",
+        "Acuh pada kelompok",
+        "Selalu sempurna"
+      ],
+      "answer": "Jujur dan bertanggung jawab",
+      "explanation": "Bima menceritakan kejadian sebenarnya, meminta maaf, dan mencari cara melengkapi data. Kesalahan membawa buku tidak berarti seluruh tindakannya tidak bertanggung jawab.",
+      "stimulusId": "catatan",
+      "evidence": [
+        "memberi tahu teman-temannya apa yang sebenarnya terjadi.",
+        "Ia meminta maaf karena tidak memeriksa tas sebelum berangkat."
+      ],
+      "competency": "bi.inferential.character",
+      "id": "tka-bi-amanat-dan-tokoh-q4",
+      "prompt": "Baca teks dan temukan buktinya."
+    },
+    {
+      "type": "statement_category",
+      "question": "Apakah kesimpulan ini sesuai dengan tindakan tokoh?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak Sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Bima menyalahkan Santi karena catatan tertinggal.",
+          "answer": "no",
+          "explanation": "Teks menyebut ia tidak menyalahkan teman-temannya."
+        },
+        {
+          "id": "s2",
+          "text": "Santi membantu kelompok dengan foto pengamatan.",
+          "answer": "yes",
+          "explanation": "Foto yang dibawa Santi digunakan untuk menjelaskan perubahan tanaman."
+        },
+        {
+          "id": "s3",
+          "text": "Bima berusaha mencegah kesalahan terulang.",
+          "answer": "yes",
+          "explanation": "Ia membuat daftar barang dan memasukkan buku ke tas."
+        }
+      ],
+      "explanation": "Cari tindakan tokoh sebagai bukti. Perasaan malu tidak sama dengan menyalahkan orang lain.",
+      "stimulusId": "catatan",
+      "evidence": [
+        "Ia tidak menyalahkan teman-temannya.",
+        "Santi masih membawa beberapa foto tanaman",
+        "membuat daftar barang yang perlu dibawa."
+      ],
+      "competency": "bi.inferential.character",
+      "id": "tka-bi-amanat-dan-tokoh-q5",
+      "prompt": "Baca teks dan temukan buktinya."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Amanat yang didukung akhir cerita adalah …",
+      "options": [
+        "Akui kesalahan dan perbaiki persiapan",
+        "Karang angka agar presentasi terlihat lengkap",
+        "Sembunyikan kekurangan dari guru",
+        "Berhenti bekerja sama setelah salah"
+      ],
+      "answer": "Akui kesalahan dan perbaiki persiapan",
+      "explanation": "Bima mengakui catatan tertinggal, melengkapi data yang benar, dan memperbaiki persiapan. Ini menunjukkan perbaikan setelah kesalahan, bukan tuntutan tidak pernah salah.",
+      "stimulusId": "catatan",
+      "evidence": [
+        "kelompok melengkapi presentasi dengan data yang benar.",
+        "memakai daftar persiapan bersama agar kesalahan serupa tidak terulang."
+      ],
+      "competency": "bi.inferential.message",
+      "id": "tka-bi-amanat-dan-tokoh-q6",
+      "prompt": "Baca teks dan temukan buktinya."
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih bukti bahwa Fajar menjadi tekun setelah mendapat bantuan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fajar memperbaiki ikatan dan memeriksa kedua sisi.",
+          "explanation": "Ia mencoba memperbaiki sumber kesalahan."
+        },
+        {
+          "id": "b",
+          "text": "Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya.",
+          "explanation": "Ia ingin melanjutkan perbaikan."
+        },
+        {
+          "id": "c",
+          "text": "Fajar hampir membuang layang-layang pada awal cerita.",
+          "explanation": "Ini menunjukkan hampir menyerah sebelum berubah."
+        },
+        {
+          "id": "d",
+          "text": "Mira membawa air minum.",
+          "explanation": "Ini tindakan Mira, bukan bukti ketekunan Fajar."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Gunakan tindakan Fajar setelah bantuan, bukan tindakan kakaknya atau keadaan awal sebelum ia berubah.",
+      "stimulusId": "layang",
+      "evidence": [
+        "Fajar memperbaiki ikatan dan memeriksa kembali panjang kedua sisi.",
+        "Fajar berencana memeriksa ikatan lagi"
+      ],
+      "competency": "bi.inferential.character",
+      "id": "tka-bi-amanat-dan-tokoh-q7",
+      "prompt": "Baca teks dan temukan buktinya."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Mengapa Mira tidak langsung membuatkan layang-layang baru?",
+      "options": [
+        "Agar Fajar belajar memperbaiki hasil kerjanya",
+        "Karena Mira ingin semua hasil dibuang",
+        "Agar Fajar tidak ikut kegiatan lagi",
+        "Karena tidak ada kesalahan pada layang-layang"
+      ],
+      "answer": "Agar Fajar belajar memperbaiki hasil kerjanya",
+      "explanation": "Mira menunjukkan cara mengukur dan memberi Fajar kesempatan menandai serta memperbaiki ikatan. Dari tindakan itu kita menyimpulkan bahwa ia membantu Fajar belajar, meski tujuan ini tidak diucapkan langsung.",
+      "stimulusId": "layang",
+      "evidence": [
+        "Ia menunjukkan cara mengukur, lalu membiarkan Fajar menandai bagian yang perlu dipotong.",
+        "Mira memuji usaha Fajar yang mau memperbaiki hasil kerjanya."
+      ],
+      "competency": "bi.inferential.character",
+      "id": "tka-bi-amanat-dan-tokoh-q8",
+      "prompt": "Baca teks dan temukan buktinya."
+    },
+    {
+      "type": "statement_category",
+      "question": "Tentukan kesesuaian amanat berikut dengan cerita.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak Sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Belajar dari kesalahan dapat membantu kita memperbaiki karya.",
+          "answer": "yes",
+          "explanation": "Fajar melihat ketidakseimbangan lalu memperbaiki layang-layang."
+        },
+        {
+          "id": "s2",
+          "text": "Kita harus langsung menyerah jika percobaan pertama gagal.",
+          "answer": "no",
+          "explanation": "Fajar akhirnya mencoba lagi dan ingin melanjutkan perbaikan."
+        },
+        {
+          "id": "s3",
+          "text": "Meminta bantuan dapat dilakukan sambil tetap berusaha sendiri.",
+          "answer": "yes",
+          "explanation": "Mira membantu mengukur dan memotong, Fajar menandai dan memperbaiki ikatan."
+        }
+      ],
+      "explanation": "Amanat menghubungkan masalah, tindakan perbaikan, dan hasil. Jangan hanya memakai kejadian hampir menyerah di awal.",
+      "stimulusId": "layang",
+      "evidence": [
+        "memperhatikan kesalahan lebih berguna daripada langsung menyerah.",
+        "Fajar memperbaiki ikatan dan memeriksa kembali panjang kedua sisi."
+      ],
+      "competency": "bi.inferential.message",
+      "id": "tka-bi-amanat-dan-tokoh-q9",
+      "prompt": "Baca teks dan temukan buktinya."
+    }
+  ],
+  "stimuli": [
+    {
+      "id": "jembatan",
+      "title": "Jembatan kecil untuk kawan",
+      "paragraphs": [
+        "Sore itu, Nisa dan Dodi pulang melewati jalan dekat kebun. Hujan membuat parit kecil di tepi jalan meluap. Di seberang parit, Lala berdiri sambil memegang kotak berisi bibit tanaman untuk tugas kelompok. Sepatunya sudah basah, dan ia takut menjatuhkan kotak jika melompat. Dodi mengajak Nisa segera pulang karena langit mulai gelap.",
+        "Nisa melihat Lala mencoba menyeberang lalu mundur lagi. Ia meminta Dodi menunggu sebentar dan memanggil Pak Seno yang sedang berada di kebun. Nisa tidak masuk ke parit sendiri. Setelah memeriksa tempat itu, Pak Seno memasang papan yang kuat di bagian sempit. Nisa memegang kotak bibit dari tepi jalan, sementara Lala menyeberang dengan bantuan Pak Seno. Dodi akhirnya ikut membantu membawa tas Lala.",
+        "Setelah semua berada di jalan, Nisa mengucapkan terima kasih kepada Pak Seno. Lala tersenyum karena bibit kelompoknya selamat. Dodi mengakui bahwa ia tadi terlalu terburu-buru. Nisa menjawab bahwa pulang bersama akan terasa lebih tenang jika mereka memastikan semua kawan aman. Mereka melanjutkan perjalanan tanpa berlari. Keesokan hari, kelompok itu menanam bibit di sekolah dan menceritakan bagaimana bantuan sederhana membuat tugas mereka dapat diselesaikan."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "catatan",
+      "title": "Catatan yang tertinggal",
+      "paragraphs": [
+        "Kelompok Bima akan mempresentasikan hasil pengamatan tanaman di depan kelas. Bima bertugas membawa buku catatan yang berisi jumlah daun setiap minggu. Ketika kelompoknya dipanggil, ia membuka tas dan baru sadar bahwa buku itu tertinggal di rumah. Santi tampak kecewa karena mereka telah membagi tugas sejak kemarin. Bima merasa malu dan sempat ingin mengatakan bahwa bukunya hilang.",
+        "Namun, Bima menarik napas lalu memberi tahu teman-temannya apa yang sebenarnya terjadi. Ia meminta maaf karena tidak memeriksa tas sebelum berangkat. Santi masih membawa beberapa foto tanaman dari pengamatan mereka. Bima mengusulkan agar kelompok menjelaskan perubahan yang tampak pada foto tanpa mengarang angka jumlah daun. Mereka meminta izin guru untuk melengkapi data pada hari berikutnya. Guru mengizinkan dan meminta mereka menyebutkan bagian data yang belum tersedia.",
+        "Saat presentasi, Bima menjelaskan bahwa catatan angka tertinggal sehingga kelompok hanya menunjukkan foto. Ia tidak menyalahkan teman-temannya. Setelah pulang, ia memasukkan buku catatan ke tas dan membuat daftar barang yang perlu dibawa. Besoknya, kelompok melengkapi presentasi dengan data yang benar. Santi menghargai kejujuran Bima dan mengajaknya memakai daftar persiapan bersama agar kesalahan serupa tidak terulang. Mereka tetap bekerja sebagai satu kelompok."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "layang",
+      "title": "Layang-layang yang diperbaiki",
+      "paragraphs": [
+        "Fajar ingin mengikuti kegiatan menerbangkan layang-layang di lapangan desa. Ia membuat layang-layang sendiri dari kertas dan bilah bambu ringan. Pada percobaan pertama, layang-layangnya berputar lalu jatuh. Fajar duduk di tepi lapangan dan hampir membuang hasil buatannya. Mira, kakaknya, datang membawa air minum dan mengajak Fajar melihat bentuk layang-layang itu dengan lebih teliti.",
+        "Mereka menemukan bahwa kedua sisi layang-layang tidak seimbang. Satu bilah bambu lebih panjang daripada bilah di sisi lain. Mira tidak langsung membuatkan layang-layang baru. Ia menunjukkan cara mengukur, lalu membiarkan Fajar menandai bagian yang perlu dipotong. Pemotongan dilakukan oleh Mira karena alatnya tajam. Fajar memperbaiki ikatan dan memeriksa kembali panjang kedua sisi. Ia juga menambahkan ekor sesuai saran kakaknya.",
+        "Pada percobaan berikutnya, layang-layang dapat terbang lebih lama meskipun belum setinggi milik anak lain. Fajar tersenyum dan ingin mencoba lagi. Ia menyadari bahwa memperhatikan kesalahan lebih berguna daripada langsung menyerah. Mira memuji usaha Fajar yang mau memperbaiki hasil kerjanya. Mereka membawa pulang layang-layang itu untuk disimpan, bukan dibuang. Fajar berencana memeriksa ikatan lagi sebelum kegiatan pekan depan agar buatannya semakin baik."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    }
+  ]
+}
