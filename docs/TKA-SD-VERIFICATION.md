@@ -4,6 +4,8 @@ Tanggal: **10 Oktober 2026, Asia/Jakarta**. Environment: macOS, Node 26.5.0, Nex
 
 **Status terbaru: implementasi, verifikasi lokal, dan integrasi Supabase nyata selesai. SC-09 dan SC-11 sudah lulus.** Setelah otorisasi eksplisit pengguna, migration TKA dan seed dijalankan pada proyek Supabase configured existing. Tidak ada push, PR, atau deployment aplikasi. Review konten oleh ahli/manusia tetap belum dilakukan.
 
+> **Perluasan berikutnya:** bank kini memiliki 31 topik, 93 set, dan 837 soal. Angka 6 lesson/54 soal di bawah merekam rilis awal. Lihat [laporan bank terbaru](TKA-SD-BANK-REPORT.md) dan [audit perluasan](TKA-SD-BANK-AUDIT.md).
+
 ## Yang diimplementasikan
 
 - Landing tiga mapel dan `/subjects/[subject]`, kategori per mapel, back link dari runner/sets/hasil, serta not-found untuk ID tidak dikenal. URL English dan semua ID lama dipertahankan.
