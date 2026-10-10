@@ -13,5 +13,5 @@ export default async function LessonSetsPage({ params }: { params: Promise<{ id:
   const lesson = await getLesson(id);
   if (!lesson) notFound();
 
-  return <LessonSets lessonId={lesson.id} title={lesson.title} setIds={lesson.sets.map((s) => s.setId)} />;
+  return <LessonSets subject={lesson.subject} lessonId={lesson.id} title={lesson.title} setIds={lesson.sets.map((s) => s.setId)} />;
 }

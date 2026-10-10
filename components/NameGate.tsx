@@ -26,11 +26,10 @@ export default function NameGate() {
         aria-labelledby="name-gate-title"
       >
         <h2 id="name-gate-title" className="text-2xl font-bold">
-          What should we call you?
+          Siapa namamu?
         </h2>
         <p className="mt-2 text-base text-slate-600">
-          No account and no password. The name is saved on this device so your practice history is kept
-          for you.
+          Nama disimpan di perangkat ini untuk menandai progres belajarmu. Tidak perlu akun atau kata sandi.
         </p>
         <input
           type="text"
@@ -39,8 +38,8 @@ export default function NameGate() {
           autoFocus
           maxLength={40}
           autoComplete="given-name"
-          placeholder="Your name"
-          aria-label="Your name"
+          placeholder="Namamu"
+          aria-label="Namamu"
           className="mt-5 w-full rounded-2xl border-2 border-slate-200 bg-white px-4 py-3 text-lg text-slate-900 placeholder:text-slate-400 focus:border-sky-400 focus:outline-none"
         />
         <button
@@ -48,7 +47,7 @@ export default function NameGate() {
           disabled={!name.trim()}
           className="mt-4 min-h-[52px] w-full rounded-2xl bg-sky-500 text-base font-bold uppercase tracking-wide text-white shadow-[0_4px_0_#0284c7] transition-transform active:translate-y-[2px] disabled:cursor-not-allowed disabled:bg-slate-200 disabled:text-slate-400 disabled:shadow-none"
         >
-          Start practising
+          Mulai belajar
         </button>
       </form>
     </div>

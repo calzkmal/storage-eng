@@ -1,5 +1,8 @@
 "use client";
 
+import { useSearchParams } from "next/navigation";
+import { isSubject, SUBJECTS, type Subject } from "@/lib/subjects";
+import SubjectFilter from "./SubjectFilter";
 import Link from "next/link";
 import { useFinished } from "@/lib/useFinished";
 import { categoryTitle } from "@/lib/categories";
@@ -7,13 +10,18 @@ import ProgressRing from "./ProgressRing";
 
 export type ProgressLesson = {
   id: string;
+  subject: Subject;
   category: number;
   label: string;
   title: string;
   setIds: string[];
 };
 
-export default function ProgressView({ lessons }: { lessons: ProgressLesson[] }) {
+export default function ProgressView({ lessons: allLessons }: { lessons: ProgressLesson[] }) {
+  const params = useSearchParams();
+  const selected = params.get("subject");
+  const subject = isSubject(selected) ? selected : undefined;
+  const lessons = allLessons.filter(l => !subject || l.subject === subject);
   const finished = useFinished();
   const doneIn = (l: ProgressLesson) => l.setIds.filter((id) => finished.has(id)).length;
 
@@ -26,17 +34,19 @@ export default function ProgressView({ lessons }: { lessons: ProgressLesson[] })
 
   const groups = [
     ...lessons.reduce((m, l) => {
-      const list = m.get(l.category);
+      const list = m.get(`${l.subject}.${l.category}`);
       if (list) list.push(l);
-      else m.set(l.category, [l]);
+      else m.set(`${l.subject}.${l.category}`, [l]);
       return m;
-    }, new Map<number, ProgressLesson[]>()),
+    }, new Map<string, ProgressLesson[]>()),
   ];
 
   return (
     <main className="mx-auto w-full max-w-[640px] px-4 pb-10 pt-8">
-      <h1 className="text-3xl font-bold tracking-tight">Your progress</h1>
+      <h1 className="text-3xl font-bold tracking-tight">Progres</h1>
 
+      <SubjectFilter path="/progress" subject={subject} />
+      <p className="text-sm text-slate-600">Progres menunjukkan set tersedia yang selesai, bukan penguasaan seluruh silabus TKA.</p>
       <section className="mt-5 flex items-center gap-4 rounded-2xl border-2 border-slate-200 bg-white p-4 shadow-[0_2px_0_#e2e8f0]">
         <ProgressRing
           done={doneSets}
@@ -48,19 +58,19 @@ export default function ProgressView({ lessons }: { lessons: ProgressLesson[] })
         />
         <div className="min-w-0">
           <p className="text-lg font-bold text-slate-900">
-            {doneSets} of {totalSets} sets
+            {doneSets}/{totalSets} set selesai
           </p>
           <p className="mt-1 text-sm text-slate-600">
-            {lessonsStarted} of {lessons.length} lessons started
+            {lessonsStarted}/{lessons.length} pelajaran dimulai
           </p>
-          <p className="text-sm text-slate-600">{lessonsDone} finished completely</p>
+          <p className="text-sm text-slate-600">{lessonsDone} pelajaran selesai seluruh setnya</p>
         </div>
       </section>
 
       {groups.map(([category, inCategory]) => (
         <section key={category} className="mt-6">
           <h2 className="text-sm font-bold uppercase tracking-wider text-slate-500">
-            {category}. {categoryTitle(category)}
+            {SUBJECTS[inCategory[0].subject].title} · {categoryTitle(inCategory[0].category, inCategory[0].subject)}
           </h2>
           <ul className="mt-2 flex flex-col gap-2">
             {inCategory.map((lesson) => {
@@ -81,7 +91,7 @@ export default function ProgressView({ lessons }: { lessons: ProgressLesson[] })
                         {lesson.label} {lesson.title}
                       </span>
                       <span className="mt-0.5 block text-sm text-slate-500">
-                        {done}/{lesson.setIds.length} sets finished
+                        {done}/{lesson.setIds.length} set selesai
                       </span>
                     </span>
                   </Link>
@@ -96,7 +106,7 @@ export default function ProgressView({ lessons }: { lessons: ProgressLesson[] })
         href="/"
         className="mt-8 flex min-h-[52px] w-full items-center justify-center rounded-2xl border-2 border-slate-200 bg-white text-base font-bold uppercase tracking-wide text-slate-700"
       >
-        Back to lessons
+        Pilih mapel
       </Link>
     </main>
   );

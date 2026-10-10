@@ -1,11 +1,15 @@
 "use client";
 
+import { useSearchParams } from "next/navigation";
+import { isSubject, SUBJECTS } from "@/lib/subjects";
+import SubjectFilter from "./SubjectFilter";
+import StimulusView from "./StimulusView";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { deleteLearner, saveLearner, useLearner } from "@/lib/learner";
 import type { HistoryRun } from "@/app/api/history/route";
 
-type State = { loading: boolean; runs: HistoryRun[]; error?: string };
+type State = { subject?: string; loading: boolean; runs: HistoryRun[]; error?: string };
 
 const dateFmt = new Intl.DateTimeFormat(undefined, {
   day: "numeric",
@@ -22,6 +26,9 @@ function score(run: HistoryRun) {
 }
 
 export default function HistoryView() {
+  const params = useSearchParams();
+  const selected = params.get("subject");
+  const subject = isSubject(selected) ? selected : undefined;
   const learner = useLearner();
   const [state, setState] = useState<State>({ loading: true, runs: [] });
   const [open, setOpen] = useState<string | null>(null);
@@ -35,24 +42,26 @@ export default function HistoryView() {
   useEffect(() => {
     if (!hasProfile) return;
     let cancelled = false;
+    const controller = new AbortController();
     void (async () => {
       try {
-        const res = await fetch("/api/history");
+        const res = await fetch(subject ? `/api/history?subject=${subject}` : "/api/history", { signal: controller.signal });
         const data = await res.json();
         if (cancelled) return;
         setState(
           res.ok
-            ? { loading: false, runs: data.runs ?? [] }
-            : { loading: false, runs: [], error: data.error ?? "Could not load your history" },
+            ? { subject, loading: false, runs: data.runs ?? [] }
+            : { subject, loading: false, runs: [], error: data.error ?? "Could not load your history" },
         );
       } catch {
-        if (!cancelled) setState({ loading: false, runs: [], error: "Network error" });
+        if (!cancelled) setState({ subject, loading: false, runs: [], error: "Network error" });
       }
     })();
     return () => {
       cancelled = true;
+      controller.abort();
     };
-  }, [hasProfile]);
+  }, [hasProfile, subject]);
 
   function rename(e: React.FormEvent) {
     e.preventDefault();
@@ -64,11 +73,11 @@ export default function HistoryView() {
   return (
     <main className="mx-auto w-full max-w-[640px] px-4 pb-16 pt-8">
       <Link href="/" className="text-base font-semibold text-sky-700 underline underline-offset-2">
-        ← Back to lessons
+        ← Pilih mapel
       </Link>
 
       <header className="mt-4">
-        <h1 className="text-3xl font-bold tracking-tight">Your history</h1>
+        <h1 className="text-3xl font-bold tracking-tight">Riwayat</h1>
         {learner && !renaming && (
           <p className="mt-1 text-base text-slate-600">
             {learner.name}.{" "}
@@ -80,7 +89,7 @@ export default function HistoryView() {
               }}
               className="font-semibold text-sky-700 underline underline-offset-2"
             >
-              Change name
+              Ubah nama
             </button>
           </p>
         )}
@@ -92,29 +101,30 @@ export default function HistoryView() {
               onChange={(e) => setDraft(e.target.value)}
               maxLength={40}
               autoFocus
-              aria-label="Your name"
+              aria-label="Namamu"
               className="min-w-0 flex-1 rounded-xl border-2 border-slate-200 px-3 py-2 text-base focus:border-sky-400 focus:outline-none"
             />
             <button type="submit" className="rounded-xl bg-sky-500 px-4 text-sm font-bold uppercase text-white">
-              Save
+              Simpan
             </button>
             <button
               type="button"
               onClick={() => setRenaming(false)}
               className="rounded-xl border-2 border-slate-200 px-4 text-sm font-bold uppercase text-slate-600"
             >
-              Cancel
+              Batal
             </button>
           </form>
         )}
       </header>
 
+      <SubjectFilter path="/history" subject={subject} />
       {learner && (
         <div className="mt-4">
           {confirmingDelete ? (
             <div className="rounded-2xl border-2 border-rose-200 bg-rose-50 p-4">
               <p className="text-base text-rose-900">
-                Delete your name and every answer stored for you? This cannot be undone.
+                Hapus profil dan seluruh riwayat jawaban dari semua mapel? Penghapusan tidak bisa dibatalkan.
               </p>
               <div className="mt-3 flex gap-2">
                 <button
@@ -125,14 +135,14 @@ export default function HistoryView() {
                   }}
                   className="min-h-11 rounded-xl bg-rose-600 px-4 text-sm font-bold uppercase tracking-wide text-white"
                 >
-                  Delete everything
+                  Hapus semua mapel
                 </button>
                 <button
                   type="button"
                   onClick={() => setConfirmingDelete(false)}
                   className="min-h-11 rounded-xl border-2 border-slate-200 bg-white px-4 text-sm font-bold uppercase tracking-wide text-slate-600"
                 >
-                  Keep it
+                  Batal
                 </button>
               </div>
             </div>
@@ -142,25 +152,25 @@ export default function HistoryView() {
               onClick={() => setConfirmingDelete(true)}
               className="text-sm font-semibold text-slate-500 underline underline-offset-2"
             >
-              Delete my data
+              Hapus profil dan riwayat semua mapel
             </button>
           )}
         </div>
       )}
 
       {learner === undefined ? (
-        <p className="mt-8 text-base text-slate-500">Loading…</p>
+        <p className="mt-8 text-base text-slate-500">Memuat…</p>
       ) : learner === null ? (
         <p className="mt-8 text-base text-slate-600">
-          No profile on this device yet. Open the lesson list and enter your name to start tracking.
+          Belum ada profil. Buka pilihan mapel dan isi namamu.
         </p>
-      ) : state.loading ? (
-        <p className="mt-8 text-base text-slate-500">Loading…</p>
+      ) : state.loading || state.subject !== subject ? (
+        <p className="mt-8 text-base text-slate-500">Memuat…</p>
       ) : state.error ? (
         <p className="mt-8 text-base text-rose-700">{state.error}</p>
       ) : state.runs.length === 0 ? (
         <p className="mt-8 text-base text-slate-600">
-          Nothing here yet. Finish a lesson and every question and answer will be listed here.
+          Belum ada riwayat untuk mapel ini. Riwayat jawaban disimpan saat layanan penyimpanan tersedia.
         </p>
       ) : (
         <ul className="mt-6 flex flex-col gap-3">
@@ -176,7 +186,7 @@ export default function HistoryView() {
                   className="flex w-full items-center gap-3 px-4 py-3 text-left active:bg-slate-100"
                 >
                   <span className="min-w-0 flex-1">
-                    <span className="block text-base font-semibold text-slate-900">{run.lessonTitle}</span>
+                    <span className="block text-base font-semibold text-slate-900">{run.lessonTitle}</span><span className="block text-sm text-slate-500">{SUBJECTS[run.subject ?? "english"].title}</span>
                     <span className="block text-sm text-slate-500">{dateFmt.format(new Date(run.startedAt))}</span>
                   </span>
                   <span className="shrink-0 text-sm font-bold text-slate-700">
@@ -209,17 +219,19 @@ export default function HistoryView() {
                             {a.question}
                             {a.phase === "review" && (
                               <span className="ml-2 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-slate-500">
-                                review
+                                latihan ulang
                               </span>
                             )}
                           </span>
                         </p>
                         <p className="mt-1 pl-7 text-sm text-slate-600">
-                          <span className="font-semibold">You:</span> {a.userAnswer}
+                          <span className="font-semibold">Jawabanmu:</span> {a.userAnswer}
                         </p>
-                        {a.correct !== true && (
+                        {a.context?.stimulus && <StimulusView stimulus={a.context.stimulus} />}
+                        {a.context && <div className="mt-3 space-y-2 text-sm leading-relaxed"><p>{a.context.explanation}</p>{a.context.evidence?.map(q => <blockquote key={q} className="border-l-4 border-sky-400 pl-3">“{q}”</blockquote>)}{a.context.details?.map((d, j) => <p key={j}><strong>{d.label}: {d.result}.</strong> {d.explanation}</p>)}</div>}
+                        {(a.correct !== true || a.context) && (
                           <p className="mt-0.5 pl-7 text-sm text-emerald-800">
-                            <span className="font-semibold">Answer:</span> {a.correctAnswer}
+                            <span className="font-semibold">Jawaban benar:</span> {a.correctAnswer}
                           </p>
                         )}
                       </li>

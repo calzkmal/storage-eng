@@ -1,5 +1,8 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { z } from "zod";
+import { SubjectSchema } from "@/lib/schema";
+import { AttemptContextSchema } from "@/lib/attemptContext";
+import { COMPETENCIES } from "@/lib/subjects";
 import { getDb } from "@/lib/db";
 import { badRequest, refuseCrossSite } from "@/lib/http";
 import { checkRateLimit, getClientKey, WRITE_LIMIT } from "@/lib/rateLimit";
@@ -11,6 +14,9 @@ export const dynamic = "force-dynamic";
 // No learner id or name here: both come from the signed cookie, so an answer
 // cannot be filed against, or rename, someone else's profile.
 const BodySchema = z.object({
+  subject: SubjectSchema.default("english"),
+  competency: z.string().max(100).optional(),
+  context: AttemptContextSchema.optional(),
   runId: z.string().min(8).max(64),
   lessonId: z.string().min(1).max(100),
   lessonTitle: z.string().min(1).max(200),
@@ -23,6 +29,14 @@ const BodySchema = z.object({
   correctAnswer: z.string().max(600),
   correct: z.boolean().nullable(),
   gradedBy: z.enum(["local", "ai", "cache", "fallback"]),
+}).superRefine((a, ctx) => {
+  if (a.subject === "english") {
+    if (a.context || a.competency || ["multiple_select", "statement_category"].includes(a.exerciseType)) ctx.addIssue({ code: "custom", message: "invalid English context" });
+  } else {
+    if (!a.competency || COMPETENCIES[a.competency]?.subject !== a.subject || !a.context || a.gradedBy !== "local" || a.correct === null || !["multiple_choice", "multiple_select", "statement_category"].includes(a.exerciseType)) ctx.addIssue({ code: "custom", message: "invalid TKA attempt" });
+    if (a.subject === "bahasa-indonesia" && (!a.context?.stimulus || !a.context.evidence?.length || a.context.evidence.some(q => !a.context!.stimulus!.paragraphs.join("\n").includes(q)))) ctx.addIssue({ code: "custom", message: "invalid BI evidence" });
+    if (["multiple_select", "statement_category"].includes(a.exerciseType) && !a.context?.details?.length) ctx.addIssue({ code: "custom", message: "missing feedback details" });
+  }
 });
 
 /** Records one checked answer. Best effort: failures are logged, not surfaced. */
@@ -32,7 +46,9 @@ export async function POST(req: NextRequest) {
 
   let json: unknown;
   try {
-    json = await req.json();
+    const body = await req.text();
+    if (new TextEncoder().encode(body).length > 32768) return badRequest("Attempt body too large", 413);
+    json = JSON.parse(body);
   } catch {
     return badRequest("Invalid JSON body");
   }
@@ -60,6 +76,9 @@ export async function POST(req: NextRequest) {
   // fails the foreign key rather than being conjured up from request data.
   const { error } = await db.from("attempts").insert({
     learner_id: learnerId,
+    subject: a.subject,
+    competency: a.competency ?? null,
+    context: a.context ?? null,
     run_id: a.runId,
     lesson_id: a.lessonId,
     lesson_title: a.lessonTitle,

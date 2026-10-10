@@ -21,7 +21,12 @@ import BottomBar, { type BottomTone } from "./BottomBar";
 import FeedbackPanel, { type Feedback } from "./FeedbackPanel";
 import ConfirmDialog from "./ConfirmDialog";
 import ExerciseView from "./exercises/ExerciseView";
-import LessonIntro from "./LessonIntro";
+import LessonMaterial from "./LessonMaterial";
+import StimulusView from "./StimulusView";
+import FractionVisual from "./FractionVisual";
+import { subjectHref } from "@/lib/subjects";
+import { attemptContext } from "@/lib/attemptContext";
+import { shouldRetry } from "@/lib/practice";
 
 type Props = { lesson: Lesson; sets: LessonSet[] };
 type Phase = "main" | "review";
@@ -29,6 +34,8 @@ type Phase = "main" | "review";
 // One exercise per screen: Check, feedback, Continue. Wrong answers replay once at the end.
 export default function LessonRunner({ lesson, sets }: Props) {
   const router = useRouter();
+  const tka = lesson.subject !== "english";
+  const back = subjectHref(lesson.subject);
   const learner = useLearner();
 
   // ?set= replays one exact set, for retries picked from the sets page. Otherwise
@@ -46,7 +53,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
   // Read from the URL, not props, so the lesson page stays static. Client-only component.
   const [order] = useState<Exercise[]>(() => {
     const shuffle = new URLSearchParams(window.location.search).get("shuffle") === "1";
-    return shuffle ? shuffleChanged(set.exercises) : set.exercises;
+    return shuffle && !tka ? shuffleChanged(set.exercises) : set.exercises;
   });
   // Groups this pass in the history.
   const [runId] = useState(() => {
@@ -56,7 +63,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
       return `${Date.now().toString(16)}-${Math.random().toString(16).slice(2, 10)}`;
     }
   });
-  const [showIntro, setShowIntro] = useState<boolean>(Boolean(lesson.intro));
+  const [showIntro, setShowIntro] = useState<boolean>(Boolean(lesson.intro || lesson.material));
   const [phase, setPhase] = useState<Phase>("main");
   const [index, setIndex] = useState(0);
   const [retryQueue, setRetryQueue] = useState<Exercise[]>([]);
@@ -70,6 +77,8 @@ export default function LessonRunner({ lesson, sets }: Props) {
 
   const attemptRef = useRef(0);
   const touched = useRef(false);
+  const checked = useRef(false);
+  const finishedRef = useRef(false);
 
   // Warm the done route so finishing does not wait.
   useEffect(() => {
@@ -80,10 +89,10 @@ export default function LessonRunner({ lesson, sets }: Props) {
   const total = phase === "main" ? order.length : retryQueue.length;
   const left = phase === "review" ? total - index : 0;
   const counter = showIntro
-    ? "Tip"
+    ? "Materi"
     : phase === "main"
       ? `${index + 1} / ${total}`
-      : `Review · ${left} left`;
+      : `Latihan ulang · ${left} tersisa`;
 
   type GradedBy = "local" | "ai" | "cache" | "fallback";
 
@@ -96,6 +105,9 @@ export default function LessonRunner({ lesson, sets }: Props) {
         runId,
         lessonId: lesson.id,
         lessonTitle: lesson.title,
+        subject: lesson.subject,
+        competency: ex.competency,
+        context: attemptContext(lesson, ex, fb.details),
         setId,
         exerciseId: ex.id,
         exerciseType: ex.type,
@@ -111,12 +123,13 @@ export default function LessonRunner({ lesson, sets }: Props) {
     // Wrong answers queue up again, in the review too, so the lesson cannot end
     // on a miss. Only the first pass feeds the done screen.
     if (fb.status === "wrong") {
-      setRetryQueue((q) => [...q, ex]);
+      if (shouldRetry(lesson.subject, phase, false)) setRetryQueue((q) => [...q, ex]);
       if (phase === "main") {
         setWrongFirst((w) => [
           ...w,
           {
             exerciseId: ex.id,
+            competency: ex.competency,
             summary: exerciseSummary(ex),
             yourAnswer: answerText(ex, value),
             correctAnswer: fb.correctAnswer,
@@ -127,7 +140,8 @@ export default function LessonRunner({ lesson, sets }: Props) {
   }
 
   async function check() {
-    if (!current || answer == null || checking || feedback) return;
+    if (!current || answer == null || checking || feedback || checked.current) return;
+    checked.current = true;
     touched.current = true;
     const ex = current;
     const value = answer;
@@ -136,7 +150,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
     if (local) {
       applyResult(
         ex,
-        { status: local.correct ? "correct" : "wrong", correctAnswer: local.correctAnswer, explanation: ex.explanation },
+        { status: local.correct ? "correct" : "wrong", correctAnswer: local.correctAnswer, explanation: ex.explanation, details: local.details, tka },
         value,
         "local",
       );
@@ -175,6 +189,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
   }
 
   function resetForNext() {
+    checked.current = false;
     attemptRef.current += 1;
     setAttempt((a) => a + 1);
     setFeedback(null);
@@ -183,11 +198,13 @@ export default function LessonRunner({ lesson, sets }: Props) {
   }
 
   function finish() {
-    if (finishing) return;
+    if (finishing || finishedRef.current) return;
+    finishedRef.current = true;
     setFinishing(true);
     saveResult({
       lessonId: lesson.id,
       lessonTitle: lesson.title,
+      subject: lesson.subject,
       total: order.length,
       wrong: wrongFirst,
       finishedAt: Date.now(),
@@ -227,25 +244,25 @@ export default function LessonRunner({ lesson, sets }: Props) {
   function requestExit() {
     const midLesson = touched.current || index > 0 || phase === "review";
     if (midLesson) setExitOpen(true);
-    else router.push("/");
+    else router.push(back);
   }
 
   // Bottom bar
-  let label = "Check";
+  let label = "Periksa";
   let tone: BottomTone = "primary";
   let disabled = false;
   let onPrimary: () => void = check;
 
   if (showIntro) {
-    label = "Start";
+    label = "Mulai latihan";
     onPrimary = () => setShowIntro(false);
   } else if (feedback) {
-    label = finishing ? "Finishing…" : "Continue";
+    label = finishing ? "Menyimpan…" : "Lanjut";
     tone = finishing ? "primary" : feedback.status;
     onPrimary = next;
     disabled = finishing;
   } else {
-    label = checking ? "Checking…" : "Check";
+    label = checking ? "Memeriksa…" : "Periksa";
     disabled = checking || !current || !canCheck(current, answer);
   }
 
@@ -258,10 +275,14 @@ export default function LessonRunner({ lesson, sets }: Props) {
           <div className="flex h-full items-center justify-center">
             <p className="text-lg font-semibold text-slate-500">Finishing…</p>
           </div>
-        ) : showIntro && lesson.intro ? (
-          <LessonIntro title={lesson.title} intro={lesson.intro} />
+        ) : showIntro ? (
+          <LessonMaterial lesson={lesson} />
         ) : current ? (
           <div key={`${phase}-${index}-${attempt}`}>
+            {tka && <button type="button" className="mb-3 min-h-11 rounded-xl border-2 border-slate-200 px-4 font-semibold text-sky-700" onClick={() => setShowIntro(true)}>Buka materi</button>}
+            {tka && phase === "review" && <p className="mb-3 rounded-xl bg-amber-50 p-3">Latihan ulang: skor percobaan pertama tidak berubah. Setiap soal salah diulang satu kali.</p>}
+            {lesson.stimuli?.find(s => s.id === current.stimulusId) && <StimulusView key={`${phase}-${current.stimulusId}`} stimulus={lesson.stimuli.find(s => s.id === current.stimulusId)!} />}
+            {current.visual && <FractionVisual visual={current.visual} />}
             <h2 className="text-xl font-bold leading-snug">{current.prompt}</h2>
             <div className="mt-5">
               <ExerciseView
@@ -274,6 +295,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
                 }}
               />
             </div>
+            {tka && feedback && <div className="mt-5 rounded-2xl bg-slate-100 pb-4"><FeedbackPanel feedback={feedback} />{current.evidence?.map(q => <blockquote key={q} className="mx-4 mt-3 border-l-4 border-sky-400 pl-3">“{q}”</blockquote>)}</div>}
           </div>
         ) : null}
       </main>
@@ -283,17 +305,17 @@ export default function LessonRunner({ lesson, sets }: Props) {
         tone={tone}
         disabled={disabled}
         onClick={onPrimary}
-        panel={feedback && !finishing ? <FeedbackPanel feedback={feedback} /> : undefined}
+        panel={!tka && feedback && !finishing && !showIntro ? <FeedbackPanel feedback={feedback} /> : undefined}
       />
 
       {exitOpen && (
         <ConfirmDialog
-          title="Leave this lesson?"
-          body="Your progress in this lesson will not be saved."
-          confirmLabel="Leave"
-          cancelLabel="Keep practicing"
+          title="Keluar dari latihan?"
+          body="Jawaban dalam sesi ini belum disimpan sebagai set selesai."
+          confirmLabel="Keluar"
+          cancelLabel="Lanjut belajar"
           onCancel={() => setExitOpen(false)}
-          onConfirm={() => router.push("/")}
+          onConfirm={() => router.push(back)}
         />
       )}
     </div>
