@@ -87,7 +87,7 @@ export default function HistoryView() {
                 setDraft(learner.name);
                 setRenaming(true);
               }}
-              className="font-semibold text-sky-700 underline underline-offset-2"
+              className="inline-flex min-h-11 items-center font-semibold text-sky-700 underline underline-offset-2"
             >
               Ubah nama
             </button>
@@ -150,7 +150,7 @@ export default function HistoryView() {
             <button
               type="button"
               onClick={() => setConfirmingDelete(true)}
-              className="text-sm font-semibold text-slate-500 underline underline-offset-2"
+              className="inline-flex min-h-11 items-center text-sm font-semibold text-slate-500 underline underline-offset-2"
             >
               Hapus profil dan riwayat semua mapel
             </button>

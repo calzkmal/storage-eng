@@ -13,7 +13,9 @@
     "seed:supabase": "node --env-file-if-exists=.env.local --import tsx scripts/seed-supabase.ts",
     "build:variations": "tsx scripts/build-variations.ts",
     "seed:variations": "node --env-file-if-exists=.env.local --import tsx scripts/seed-variations.ts",
-    "test": "node --import tsx --test tests/*.test.tsx"
+    "test": "node --import tsx --test tests/*.test.tsx",
+    "audit:tka": "node --import tsx scripts/audit-tka.ts",
+    "smoke:local": "node --import tsx scripts/smoke-local.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.115.0",

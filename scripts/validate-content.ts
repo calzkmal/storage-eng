@@ -1,4 +1,5 @@
 // Validates every lesson file. Runs in prebuild; exits non-zero on any error.
+import { COMPETENCIES } from "../lib/subjects";
 import { collectionProblems } from "../lib/contentValidation";
 import fs from "node:fs";
 import path from "node:path";
@@ -39,6 +40,7 @@ for (const file of files) {
   }
 
   const lesson = result.data;
+  collection.push(lesson);
   const problems: string[] = [];
 
   if (ids.has(lesson.id)) problems.push(`duplicate lesson id "${lesson.id}"`);
@@ -116,6 +118,10 @@ const missing = allTypes.filter((t) => !typesSeen.has(t));
 if (missing.length) {
   console.error(`✗ exercise types never used: ${missing.join(", ")}`);
   errors += missing.length;
+}
+
+for (const id of new Set(Object.values(COMPETENCIES).map(c => c.lessonId))) {
+  if (!collection.some(l => l.id === id && l.subject !== "english")) { console.error(`✗ missing TKA lesson ${id}`); errors++; }
 }
 
 for (const problem of collectionProblems(collection)) { console.error(`✗ ${problem}`); errors++; }

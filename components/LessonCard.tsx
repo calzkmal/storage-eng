@@ -86,8 +86,8 @@ export default function LessonCard({ lesson, finished }: Props) {
       {done > 0 ? (
         <Link
           href={nextHref}
-          aria-label={allDone ? `${lesson.title}: pick a set to retry` : `${lesson.title}: next set`}
-          title={allDone ? "Pick a set to retry" : "Next set"}
+          aria-label={allDone ? `${lesson.title}: pilih set untuk diulang` : `${lesson.title}: set berikutnya`}
+          title={allDone ? "Pilih set untuk diulang" : "Set berikutnya"}
           className={`${nextButtonBase} border-sky-500 bg-sky-500 text-white shadow-[0_2px_0_#0284c7] transition-colors active:bg-sky-600`}
         >
           <ArrowIcon />
@@ -95,7 +95,7 @@ export default function LessonCard({ lesson, finished }: Props) {
       ) : (
         <span
           aria-disabled
-          title="Finish a set to unlock the next one"
+          title="Selesaikan satu set untuk membuka set berikutnya"
           className={`${nextButtonBase} border-slate-200 bg-slate-100 text-slate-300`}
         >
           <LockIcon />
