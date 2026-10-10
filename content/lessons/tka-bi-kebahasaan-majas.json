@@ -81,7 +81,7 @@
       "id": "tka-bi-kebahasaan-majas-v1-q1",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.inferential.language",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-kebahasaan-majas-bacaan-1",
       "evidence": [
@@ -102,7 +102,7 @@
       "id": "tka-bi-kebahasaan-majas-v1-q2",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.inferential.language",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kata dan menghubungkan dua unsur yang setara",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-kebahasaan-majas-bacaan-1",
       "evidence": [
@@ -123,7 +123,7 @@
       "id": "tka-bi-kebahasaan-majas-v1-q3",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.inferential.language",
-      "explanation": "Gunakan konteks bacaan. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi. Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola.",
       "type": "multiple_select",
       "stimulusId": "tka-bi-kebahasaan-majas-bacaan-1",
       "evidence": [
@@ -136,22 +136,22 @@
         {
           "id": "a",
           "text": "Bintang kelas adalah personifikasi karena benda langit berbicara.",
-          "explanation": "Tidak didukung oleh konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu."
+          "explanation": "Tidak didukung oleh konteks. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia."
         },
         {
           "id": "b",
           "text": "Angin berbisik merupakan personifikasi.",
-          "explanation": "Sesuai dengan konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi."
         },
         {
           "id": "c",
           "text": "Para murid-murid merupakan bentuk paling hemat.",
-          "explanation": "Tidak didukung oleh konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu."
+          "explanation": "Tidak didukung oleh konteks. Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan."
         },
         {
           "id": "d",
           "text": "Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
-          "explanation": "Sesuai dengan konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola."
         }
       ],
       "answer": [
@@ -163,7 +163,7 @@
       "id": "tka-bi-kebahasaan-majas-v1-q4",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.inferential.language",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kata dan menghubungkan dua unsur yang setara",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-kebahasaan-majas-bacaan-2",
       "evidence": [
@@ -184,7 +184,7 @@
       "id": "tka-bi-kebahasaan-majas-v1-q5",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.inferential.language",
-      "explanation": "Gunakan konteks bacaan. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia.",
       "type": "statement_category",
       "stimulusId": "tka-bi-kebahasaan-majas-bacaan-2",
       "evidence": [
@@ -207,19 +207,19 @@
         {
           "id": "a",
           "text": "Angin berbisik merupakan personifikasi.",
-          "explanation": "Sesuai dengan konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
           "answer": "yes"
         },
         {
           "id": "b",
           "text": "Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
-          "explanation": "Sesuai dengan konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola.",
           "answer": "yes"
         },
         {
           "id": "c",
           "text": "Bintang kelas adalah personifikasi karena benda langit berbicara.",
-          "explanation": "Tidak didukung oleh konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+          "explanation": "Tidak didukung oleh konteks. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia.",
           "answer": "no"
         }
       ]
@@ -228,7 +228,7 @@
       "id": "tka-bi-kebahasaan-majas-v1-q6",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.inferential.language",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-kebahasaan-majas-bacaan-2",
       "evidence": [
@@ -249,7 +249,7 @@
       "id": "tka-bi-kebahasaan-majas-v1-q7",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.inferential.language",
-      "explanation": "Gunakan konteks bacaan. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
       "type": "multiple_select",
       "stimulusId": "tka-bi-kebahasaan-majas-bacaan-3",
       "evidence": [
@@ -262,22 +262,22 @@
         {
           "id": "a",
           "text": "Para murid-murid merupakan bentuk paling hemat.",
-          "explanation": "Tidak didukung oleh konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu."
+          "explanation": "Tidak didukung oleh konteks. Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan."
         },
         {
           "id": "b",
           "text": "Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
-          "explanation": "Sesuai dengan konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola."
         },
         {
           "id": "c",
           "text": "Bintang kelas adalah personifikasi karena benda langit berbicara.",
-          "explanation": "Tidak didukung oleh konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu."
+          "explanation": "Tidak didukung oleh konteks. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia."
         },
         {
           "id": "d",
           "text": "Angin berbisik merupakan personifikasi.",
-          "explanation": "Sesuai dengan konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi."
         }
       ],
       "answer": [
@@ -289,7 +289,7 @@
       "id": "tka-bi-kebahasaan-majas-v1-q8",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.inferential.language",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-kebahasaan-majas-bacaan-3",
       "evidence": [
@@ -310,7 +310,7 @@
       "id": "tka-bi-kebahasaan-majas-v1-q9",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.inferential.language",
-      "explanation": "Gunakan konteks bacaan. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Kata dan menghubungkan dua unsur yang setara Laporan tidak langsung mengubah aku menjadi Beni serta ini menjadi itu, tanpa mengutip ucapan secara langsung. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola.",
       "type": "statement_category",
       "stimulusId": "tka-bi-kebahasaan-majas-bacaan-3",
       "evidence": [
@@ -333,19 +333,19 @@
         {
           "id": "a",
           "text": "Dan bersifat koordinatif; karena menyatakan hubungan sebab.",
-          "explanation": "Sesuai dengan konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata dan menghubungkan dua unsur yang setara",
           "answer": "yes"
         },
         {
           "id": "b",
           "text": "Kalimat tidak langsung selalu mempertahankan kata aku dan tanda petik.",
-          "explanation": "Tidak didukung oleh konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+          "explanation": "Tidak didukung oleh konteks. Laporan tidak langsung mengubah aku menjadi Beni serta ini menjadi itu, tanpa mengutip ucapan secara langsung.",
           "answer": "no"
         },
         {
           "id": "c",
           "text": "Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
-          "explanation": "Sesuai dengan konteks. Angin berbisik merupakan personifikasi. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola.",
           "answer": "yes"
         }
       ]

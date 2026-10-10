@@ -85,7 +85,7 @@ Pada akhir kegiatan, pasangan menulis penjelasan singkat untuk pembaca yang tida
 def bi_set(lid,comp,stimuli,pools,version):
     result=[];patterns=[['multiple_choice','multiple_choice','multiple_select'],['multiple_choice','statement_category','multiple_choice'],['multiple_select','multiple_choice','statement_category']]
     for g,(stim,pool) in enumerate(zip(stimuli,pools)):
-        yes,no=pool; evidence=list(dict.fromkeys(p[1] for p in yes));positive=[p[0] for p in yes];negative=no
+        yes,no=pool[:2]; reasons=pool[2] if len(pool)>2 else {}; evidence=list(dict.fromkeys(p[1] for p in yes));positive=[p[0] for p in yes];negative=no
         for slot,kind in enumerate(patterns[g]):
             eid=f'{lid}-v{version}-q{len(result)+1}'
             e=base(eid,comp,'Gunakan konteks bacaan. '+ ' '.join(positive));e.update(type=kind,stimulusId=stim['id'],evidence=evidence,prompt='Nilai makna dan informasi berdasarkan bacaan yang disediakan.')
@@ -97,15 +97,16 @@ def bi_set(lid,comp,stimuli,pools,version):
                 options=[answer,*((positive if false_focus else negative))]
                 shift=(slot+version+g)%4;options=options[shift:]+options[:shift]
                 e.update(question='Pernyataan mana yang '+('tidak didukung oleh' if false_focus else 'tepat berdasarkan')+' bacaan?',options=options,answer=answer)
-                e['explanation']=('Pernyataan ini tidak didukung oleh bacaan. ' if false_focus else 'Pernyataan ini sesuai konteks bacaan. ')+ ' '.join(positive)
+                e['explanation']=('Pernyataan ini tidak didukung oleh bacaan. ' if false_focus else 'Pernyataan ini sesuai konteks bacaan. ')+reasons.get(answer,' '.join(positive))
             else:
                 chosen=[(positive[offset],True),(negative[(offset+1)%3],False),(positive[(offset+1)%3],True)]
                 if kind=='multiple_select':chosen.append((negative[(offset+2)%3],False))
                 # Alternate position of true options across versions.
                 shift=(version+g)%len(chosen);chosen=chosen[shift:]+chosen[:shift]
-                claims=[dict(id=chr(97+j),text=t,explanation=('Sesuai dengan konteks. ' if truth else 'Tidak didukung oleh konteks. ')+ ' '.join(positive)) for j,(t,truth) in enumerate(chosen)]
+                claims=[dict(id=chr(97+j),text=t,explanation=('Sesuai dengan konteks. ' if truth else 'Tidak didukung oleh konteks. ')+reasons.get(t,' '.join(positive))) for j,(t,truth) in enumerate(chosen)]
                 if kind=='multiple_select':e.update(question='Pilih semua pernyataan yang tepat berdasarkan bacaan.',options=claims,answer=[c['id'] for c,(_,truth) in zip(claims,chosen) if truth])
                 else:e.update(question='Apakah tiap pernyataan sesuai dengan bacaan?',categories=[dict(id='yes',label='Sesuai'),dict(id='no',label='Tidak sesuai')],statements=[dict(**c,answer='yes' if truth else 'no') for c,(_,truth) in zip(claims,chosen)])
+            if kind!='multiple_choice' and reasons: e['explanation']='Periksa tiap klaim berdasarkan bukti. '+' '.join(reasons[t] for t,_ in chosen)
             result.append(e)
     return result
 
@@ -125,6 +126,8 @@ REASONS={
 'sinonim-antonim':['Dalam ukuran lebar jalan, sempit berlawanan dengan lebar; pendek mengacu pada panjang.','Sinonim mempunyai konteks dan nuansa sehingga tidak selalu dapat dipertukarkan.'],
 }
 
+THIRD_REASONS={'kosakata': 'Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu.', 'makna-kata': 'Panjang tangan dapat berarti suka mencuri, bukan rajin membantu.', 'ikhtisar-bagan': 'Ringkasan mempertahankan isi teks dan tidak menambahkan hasil yang tidak dilaporkan.', 'kalimat-utama': 'Kalimat terakhir paragraf kedua merangkum contoh, sehingga gagasan utama berada di akhir.', 'unsur-cerita': 'Tema cerita adalah persahabatan, kerja sama, dan ketelitian; tidak ada persaingan olahraga.', 'simpulan': 'Cerita hanya menjelaskan perkembangan Tama; tidak membuktikan waktu yang sama bagi semua orang.', 'kebahasaan-majas': 'Laporan tidak langsung mengubah aku menjadi Beni serta ini menjadi itu, tanpa mengutip ucapan secara langsung.', 'fakta-opini': 'Pendapat tentang selera atau kenyamanan bukan hasil pengukuran objektif yang dapat berlaku bagi semua orang.', 'penilaian-teks': 'Pengalaman dapat dibandingkan dengan bacaan, tetapi fakta bacaan tetap dipertahankan.', 'jenis-teks': 'Jenis teks dikenali dari tujuan dan cara penyajian, bukan hanya panjang tulisan.', 'huruf-kapital-tanda-baca': 'Pada kalimat Rani membawa buku, subjek dan predikat tidak dipisahkan oleh koma.', 'kata-baku': 'Nama diri orang dan tempat tidak boleh diubah hanya karena mirip kata umum.', 'sinonim-antonim': 'Bersih dan kotor berlawanan makna, bukan bersinonim.'}
+
 def bi_lessons():
     for topic,cat,order,title,comp,text,yes,no in TOPICS:
         lid='tka-bi-'+topic
@@ -137,7 +140,9 @@ def bi_lessons():
             stimuli.append(dict(id=f'{lid}-bacaan-{j+2}',title=['Diskusi pameran literasi','Catatan lokakarya'][j],paragraphs=variant,attribution='Teks orisinal untuk latihan ini.'))
         material=[dict(type='paragraph',title='Cara membaca',text='Baca seluruh konteks dan hubungkan rincian dengan pertanyaan. '+yes[0][0]),dict(type='paragraph',title='Periksa alasan',text='Jangan memilih berdasarkan satu kata yang tampak sama. '+yes[1][0]+' '+yes[2][0])]
         material += [dict(type='worked_example',question='Apakah pernyataan berikut sesuai dengan bacaan: '+no[i],steps=['Temukan bagian yang menjelaskan gagasan terkait.',REASONS[topic][i]],conclusion='Tidak sesuai. '+REASONS[topic][i]) for i in (0,1)]
-        sets=[bi_set(lid,comp,stimuli,[(yes,no)]*3,v) for v in (1,2,3)]
+        reasons={claim:'Bacaan mendukung penjelasan ini: '+quote for claim,quote in yes}
+        reasons.update({claim:reason for claim,reason in zip(no,[*REASONS[topic],THIRD_REASONS[topic]])})
+        sets=[bi_set(lid,comp,stimuli,[(yes,no,reasons)]*3,v) for v in (1,2,3)]
         write(LESSONS/(lid+'.json'),dict(id=lid,subject='bahasa-indonesia',category=cat,order=order,title=title,level=LEVEL,objectives=['Menentukan jawaban dan bukti yang tepat pada topik '+title.lower()+'.'],material=material,stimuli=stimuli,exercises=sets[0]))
         write(SETS/(lid+'.json'),sets[1:])
     # Supplement original BI seeds using original passage facts and distractors.

@@ -81,7 +81,7 @@
       "id": "tka-bi-huruf-kapital-tanda-baca-v1-q1",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.rules.punctuation",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Nama hari Senin, sapaan Bu Ratna, dan nama kota Bandung memakai huruf kapital.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-huruf-kapital-tanda-baca-bacaan-1",
       "evidence": [
@@ -102,7 +102,7 @@
       "id": "tka-bi-huruf-kapital-tanda-baca-v1-q2",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.rules.punctuation",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: tanda petik membatasi ucapan langsung.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-huruf-kapital-tanda-baca-bacaan-1",
       "evidence": [
@@ -123,7 +123,7 @@
       "id": "tka-bi-huruf-kapital-tanda-baca-v1-q3",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.rules.punctuation",
-      "explanation": "Gunakan konteks bacaan. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Kata kota tidak selalu berkapital; kapital dipakai sesuai fungsi nama diri dan awal kalimat. Bacaan mendukung penjelasan ini: Nama hari Senin, sapaan Bu Ratna, dan nama kota Bandung memakai huruf kapital. Kalimat berita diakhiri titik; tanda tanya dipakai untuk pertanyaan. Bacaan mendukung penjelasan ini: Tanda koma memisahkan unsur pemerincian.",
       "type": "multiple_select",
       "stimulusId": "tka-bi-huruf-kapital-tanda-baca-bacaan-1",
       "evidence": [
@@ -136,22 +136,22 @@
         {
           "id": "a",
           "text": "Setiap kata kota selalu harus diawali kapital.",
-          "explanation": "Tidak didukung oleh konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan."
+          "explanation": "Tidak didukung oleh konteks. Kata kota tidak selalu berkapital; kapital dipakai sesuai fungsi nama diri dan awal kalimat."
         },
         {
           "id": "b",
           "text": "Senin dan Bandung ditulis dengan huruf awal kapital.",
-          "explanation": "Sesuai dengan konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Nama hari Senin, sapaan Bu Ratna, dan nama kota Bandung memakai huruf kapital."
         },
         {
           "id": "c",
           "text": "Kalimat berita selalu diakhiri tanda tanya.",
-          "explanation": "Tidak didukung oleh konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan."
+          "explanation": "Tidak didukung oleh konteks. Kalimat berita diakhiri titik; tanda tanya dipakai untuk pertanyaan."
         },
         {
           "id": "d",
           "text": "Koma memisahkan unsur daftar perlengkapan.",
-          "explanation": "Sesuai dengan konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Tanda koma memisahkan unsur pemerincian."
         }
       ],
       "answer": [
@@ -163,7 +163,7 @@
       "id": "tka-bi-huruf-kapital-tanda-baca-v1-q4",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.rules.punctuation",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: tanda petik membatasi ucapan langsung.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-huruf-kapital-tanda-baca-bacaan-2",
       "evidence": [
@@ -184,7 +184,7 @@
       "id": "tka-bi-huruf-kapital-tanda-baca-v1-q5",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.rules.punctuation",
-      "explanation": "Gunakan konteks bacaan. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Nama hari Senin, sapaan Bu Ratna, dan nama kota Bandung memakai huruf kapital. Bacaan mendukung penjelasan ini: Tanda koma memisahkan unsur pemerincian. Kata kota tidak selalu berkapital; kapital dipakai sesuai fungsi nama diri dan awal kalimat.",
       "type": "statement_category",
       "stimulusId": "tka-bi-huruf-kapital-tanda-baca-bacaan-2",
       "evidence": [
@@ -207,19 +207,19 @@
         {
           "id": "a",
           "text": "Senin dan Bandung ditulis dengan huruf awal kapital.",
-          "explanation": "Sesuai dengan konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Nama hari Senin, sapaan Bu Ratna, dan nama kota Bandung memakai huruf kapital.",
           "answer": "yes"
         },
         {
           "id": "b",
           "text": "Koma memisahkan unsur daftar perlengkapan.",
-          "explanation": "Sesuai dengan konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Tanda koma memisahkan unsur pemerincian.",
           "answer": "yes"
         },
         {
           "id": "c",
           "text": "Setiap kata kota selalu harus diawali kapital.",
-          "explanation": "Tidak didukung oleh konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+          "explanation": "Tidak didukung oleh konteks. Kata kota tidak selalu berkapital; kapital dipakai sesuai fungsi nama diri dan awal kalimat.",
           "answer": "no"
         }
       ]
@@ -228,7 +228,7 @@
       "id": "tka-bi-huruf-kapital-tanda-baca-v1-q6",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.rules.punctuation",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Nama hari Senin, sapaan Bu Ratna, dan nama kota Bandung memakai huruf kapital.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-huruf-kapital-tanda-baca-bacaan-2",
       "evidence": [
@@ -249,7 +249,7 @@
       "id": "tka-bi-huruf-kapital-tanda-baca-v1-q7",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.rules.punctuation",
-      "explanation": "Gunakan konteks bacaan. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Kalimat berita diakhiri titik; tanda tanya dipakai untuk pertanyaan. Bacaan mendukung penjelasan ini: Tanda koma memisahkan unsur pemerincian. Kata kota tidak selalu berkapital; kapital dipakai sesuai fungsi nama diri dan awal kalimat. Bacaan mendukung penjelasan ini: Nama hari Senin, sapaan Bu Ratna, dan nama kota Bandung memakai huruf kapital.",
       "type": "multiple_select",
       "stimulusId": "tka-bi-huruf-kapital-tanda-baca-bacaan-3",
       "evidence": [
@@ -262,22 +262,22 @@
         {
           "id": "a",
           "text": "Kalimat berita selalu diakhiri tanda tanya.",
-          "explanation": "Tidak didukung oleh konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan."
+          "explanation": "Tidak didukung oleh konteks. Kalimat berita diakhiri titik; tanda tanya dipakai untuk pertanyaan."
         },
         {
           "id": "b",
           "text": "Koma memisahkan unsur daftar perlengkapan.",
-          "explanation": "Sesuai dengan konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Tanda koma memisahkan unsur pemerincian."
         },
         {
           "id": "c",
           "text": "Setiap kata kota selalu harus diawali kapital.",
-          "explanation": "Tidak didukung oleh konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan."
+          "explanation": "Tidak didukung oleh konteks. Kata kota tidak selalu berkapital; kapital dipakai sesuai fungsi nama diri dan awal kalimat."
         },
         {
           "id": "d",
           "text": "Senin dan Bandung ditulis dengan huruf awal kapital.",
-          "explanation": "Sesuai dengan konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Nama hari Senin, sapaan Bu Ratna, dan nama kota Bandung memakai huruf kapital."
         }
       ],
       "answer": [
@@ -289,7 +289,7 @@
       "id": "tka-bi-huruf-kapital-tanda-baca-v1-q8",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.rules.punctuation",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Nama hari Senin, sapaan Bu Ratna, dan nama kota Bandung memakai huruf kapital.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-huruf-kapital-tanda-baca-bacaan-3",
       "evidence": [
@@ -310,7 +310,7 @@
       "id": "tka-bi-huruf-kapital-tanda-baca-v1-q9",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.rules.punctuation",
-      "explanation": "Gunakan konteks bacaan. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: tanda petik membatasi ucapan langsung. Pada kalimat Rani membawa buku, subjek dan predikat tidak dipisahkan oleh koma. Bacaan mendukung penjelasan ini: Tanda koma memisahkan unsur pemerincian.",
       "type": "statement_category",
       "stimulusId": "tka-bi-huruf-kapital-tanda-baca-bacaan-3",
       "evidence": [
@@ -333,19 +333,19 @@
         {
           "id": "a",
           "text": "Ucapan langsung Rani dibatasi tanda petik.",
-          "explanation": "Sesuai dengan konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: tanda petik membatasi ucapan langsung.",
           "answer": "yes"
         },
         {
           "id": "b",
           "text": "Subjek dan predikat selalu dipisahkan dengan koma.",
-          "explanation": "Tidak didukung oleh konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+          "explanation": "Tidak didukung oleh konteks. Pada kalimat Rani membawa buku, subjek dan predikat tidak dipisahkan oleh koma.",
           "answer": "no"
         },
         {
           "id": "c",
           "text": "Koma memisahkan unsur daftar perlengkapan.",
-          "explanation": "Sesuai dengan konteks. Senin dan Bandung ditulis dengan huruf awal kapital. Ucapan langsung Rani dibatasi tanda petik. Koma memisahkan unsur daftar perlengkapan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Tanda koma memisahkan unsur pemerincian.",
           "answer": "yes"
         }
       ]

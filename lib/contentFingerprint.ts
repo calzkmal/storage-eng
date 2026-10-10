@@ -8,3 +8,8 @@ function canonical(value: unknown): unknown {
 export function rowsFingerprint(rows: unknown[]): string {
   return createHash("sha256").update(JSON.stringify(rows.map(row => JSON.stringify(canonical(row))).sort())).digest("hex");
 }
+/** Feedback revisions may not change order, identity, questions, options, or keys. */
+export function assessmentFingerprint(exercises: unknown): string {
+  const withoutFeedback = JSON.parse(JSON.stringify(exercises), (key, value) => key === "explanation" ? undefined : value);
+  return rowsFingerprint([withoutFeedback]);
+}

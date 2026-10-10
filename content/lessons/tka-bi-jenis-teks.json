@@ -81,7 +81,7 @@
       "id": "tka-bi-jenis-teks-v1-q1",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.evaluation.genre",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Teks yang menjelaskan proses sebab-akibat itu merupakan eksplanasi.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-jenis-teks-bacaan-1",
       "evidence": [
@@ -102,7 +102,7 @@
       "id": "tka-bi-jenis-teks-v1-q2",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.evaluation.genre",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Petunjuk membuat tempat pensil mencantumkan alat dan langkah berurutan, sehingga termasuk prosedur.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-jenis-teks-bacaan-1",
       "evidence": [
@@ -123,7 +123,7 @@
       "id": "tka-bi-jenis-teks-v1-q3",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.evaluation.genre",
-      "explanation": "Gunakan konteks bacaan. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Narasi menceritakan rangkaian peristiwa; dalam bacaan contohnya perjalanan Sari. Bacaan mendukung penjelasan ini: Teks yang menjelaskan proses sebab-akibat itu merupakan eksplanasi. Deskripsi kebun menggambarkan ciri tempat; proses sebab-akibat hujan merupakan eksplanasi. Bacaan mendukung penjelasan ini: Iklan bertujuan membujuk, pengumuman menyampaikan informasi kegiatan, dan tabel memudahkan perbandingan data.",
       "type": "multiple_select",
       "stimulusId": "tka-bi-jenis-teks-bacaan-1",
       "evidence": [
@@ -136,22 +136,22 @@
         {
           "id": "a",
           "text": "Narasi pada pameran hanya memuat daftar ukuran benda tanpa peristiwa.",
-          "explanation": "Tidak didukung oleh konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data."
+          "explanation": "Tidak didukung oleh konteks. Narasi menceritakan rangkaian peristiwa; dalam bacaan contohnya perjalanan Sari."
         },
         {
           "id": "b",
           "text": "Penjelasan proses hujan merupakan eksplanasi.",
-          "explanation": "Sesuai dengan konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Teks yang menjelaskan proses sebab-akibat itu merupakan eksplanasi."
         },
         {
           "id": "c",
           "text": "Deskripsi kebun bertujuan menjelaskan proses sebab-akibat hujan.",
-          "explanation": "Tidak didukung oleh konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data."
+          "explanation": "Tidak didukung oleh konteks. Deskripsi kebun menggambarkan ciri tempat; proses sebab-akibat hujan merupakan eksplanasi."
         },
         {
           "id": "d",
           "text": "Iklan bertujuan membujuk; tabel membantu membandingkan data.",
-          "explanation": "Sesuai dengan konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Iklan bertujuan membujuk, pengumuman menyampaikan informasi kegiatan, dan tabel memudahkan perbandingan data."
         }
       ],
       "answer": [
@@ -163,7 +163,7 @@
       "id": "tka-bi-jenis-teks-v1-q4",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.evaluation.genre",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Petunjuk membuat tempat pensil mencantumkan alat dan langkah berurutan, sehingga termasuk prosedur.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-jenis-teks-bacaan-2",
       "evidence": [
@@ -184,7 +184,7 @@
       "id": "tka-bi-jenis-teks-v1-q5",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.evaluation.genre",
-      "explanation": "Gunakan konteks bacaan. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Teks yang menjelaskan proses sebab-akibat itu merupakan eksplanasi. Bacaan mendukung penjelasan ini: Iklan bertujuan membujuk, pengumuman menyampaikan informasi kegiatan, dan tabel memudahkan perbandingan data. Narasi menceritakan rangkaian peristiwa; dalam bacaan contohnya perjalanan Sari.",
       "type": "statement_category",
       "stimulusId": "tka-bi-jenis-teks-bacaan-2",
       "evidence": [
@@ -207,19 +207,19 @@
         {
           "id": "a",
           "text": "Penjelasan proses hujan merupakan eksplanasi.",
-          "explanation": "Sesuai dengan konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Teks yang menjelaskan proses sebab-akibat itu merupakan eksplanasi.",
           "answer": "yes"
         },
         {
           "id": "b",
           "text": "Iklan bertujuan membujuk; tabel membantu membandingkan data.",
-          "explanation": "Sesuai dengan konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Iklan bertujuan membujuk, pengumuman menyampaikan informasi kegiatan, dan tabel memudahkan perbandingan data.",
           "answer": "yes"
         },
         {
           "id": "c",
           "text": "Narasi pada pameran hanya memuat daftar ukuran benda tanpa peristiwa.",
-          "explanation": "Tidak didukung oleh konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+          "explanation": "Tidak didukung oleh konteks. Narasi menceritakan rangkaian peristiwa; dalam bacaan contohnya perjalanan Sari.",
           "answer": "no"
         }
       ]
@@ -228,7 +228,7 @@
       "id": "tka-bi-jenis-teks-v1-q6",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.evaluation.genre",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Teks yang menjelaskan proses sebab-akibat itu merupakan eksplanasi.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-jenis-teks-bacaan-2",
       "evidence": [
@@ -249,7 +249,7 @@
       "id": "tka-bi-jenis-teks-v1-q7",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.evaluation.genre",
-      "explanation": "Gunakan konteks bacaan. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Deskripsi kebun menggambarkan ciri tempat; proses sebab-akibat hujan merupakan eksplanasi. Bacaan mendukung penjelasan ini: Iklan bertujuan membujuk, pengumuman menyampaikan informasi kegiatan, dan tabel memudahkan perbandingan data. Narasi menceritakan rangkaian peristiwa; dalam bacaan contohnya perjalanan Sari. Bacaan mendukung penjelasan ini: Teks yang menjelaskan proses sebab-akibat itu merupakan eksplanasi.",
       "type": "multiple_select",
       "stimulusId": "tka-bi-jenis-teks-bacaan-3",
       "evidence": [
@@ -262,22 +262,22 @@
         {
           "id": "a",
           "text": "Deskripsi kebun bertujuan menjelaskan proses sebab-akibat hujan.",
-          "explanation": "Tidak didukung oleh konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data."
+          "explanation": "Tidak didukung oleh konteks. Deskripsi kebun menggambarkan ciri tempat; proses sebab-akibat hujan merupakan eksplanasi."
         },
         {
           "id": "b",
           "text": "Iklan bertujuan membujuk; tabel membantu membandingkan data.",
-          "explanation": "Sesuai dengan konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Iklan bertujuan membujuk, pengumuman menyampaikan informasi kegiatan, dan tabel memudahkan perbandingan data."
         },
         {
           "id": "c",
           "text": "Narasi pada pameran hanya memuat daftar ukuran benda tanpa peristiwa.",
-          "explanation": "Tidak didukung oleh konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data."
+          "explanation": "Tidak didukung oleh konteks. Narasi menceritakan rangkaian peristiwa; dalam bacaan contohnya perjalanan Sari."
         },
         {
           "id": "d",
           "text": "Penjelasan proses hujan merupakan eksplanasi.",
-          "explanation": "Sesuai dengan konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Teks yang menjelaskan proses sebab-akibat itu merupakan eksplanasi."
         }
       ],
       "answer": [
@@ -289,7 +289,7 @@
       "id": "tka-bi-jenis-teks-v1-q8",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.evaluation.genre",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Teks yang menjelaskan proses sebab-akibat itu merupakan eksplanasi.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-jenis-teks-bacaan-3",
       "evidence": [
@@ -310,7 +310,7 @@
       "id": "tka-bi-jenis-teks-v1-q9",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.evaluation.genre",
-      "explanation": "Gunakan konteks bacaan. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Petunjuk membuat tempat pensil mencantumkan alat dan langkah berurutan, sehingga termasuk prosedur. Jenis teks dikenali dari tujuan dan cara penyajian, bukan hanya panjang tulisan. Bacaan mendukung penjelasan ini: Iklan bertujuan membujuk, pengumuman menyampaikan informasi kegiatan, dan tabel memudahkan perbandingan data.",
       "type": "statement_category",
       "stimulusId": "tka-bi-jenis-teks-bacaan-3",
       "evidence": [
@@ -333,19 +333,19 @@
         {
           "id": "a",
           "text": "Petunjuk dengan alat dan langkah berurutan merupakan prosedur.",
-          "explanation": "Sesuai dengan konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Petunjuk membuat tempat pensil mencantumkan alat dan langkah berurutan, sehingga termasuk prosedur.",
           "answer": "yes"
         },
         {
           "id": "b",
           "text": "Jenis teks dapat dipastikan hanya dari panjang tulisan.",
-          "explanation": "Tidak didukung oleh konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+          "explanation": "Tidak didukung oleh konteks. Jenis teks dikenali dari tujuan dan cara penyajian, bukan hanya panjang tulisan.",
           "answer": "no"
         },
         {
           "id": "c",
           "text": "Iklan bertujuan membujuk; tabel membantu membandingkan data.",
-          "explanation": "Sesuai dengan konteks. Penjelasan proses hujan merupakan eksplanasi. Petunjuk dengan alat dan langkah berurutan merupakan prosedur. Iklan bertujuan membujuk; tabel membantu membandingkan data.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Iklan bertujuan membujuk, pengumuman menyampaikan informasi kegiatan, dan tabel memudahkan perbandingan data.",
           "answer": "yes"
         }
       ]

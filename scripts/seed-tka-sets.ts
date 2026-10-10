@@ -1,6 +1,6 @@
 // Additive: never delete, replace, or reactivate existing sets.
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { rowsFingerprint } from "../lib/contentFingerprint";
+import { assessmentFingerprint, rowsFingerprint } from "../lib/contentFingerprint";
 import assert from "node:assert/strict";
 import { getDb } from "../lib/db";
 import { loadLessonFiles, seedDatabase } from "../lib/content";
@@ -8,6 +8,7 @@ import { loadTkaSets } from "../lib/tkaSets";
 async function main() {
   const configured = getDb(); assert(configured, "Supabase environment required");
   const db: SupabaseClient = configured;
+  const syncFeedback = process.argv.includes("--sync-feedback");
   const syncMaterial = process.argv.includes("--sync-material");
   const lessons = loadLessonFiles().filter(l => l.subject !== "english");
   async function snapshot(table: string, order: string) {
@@ -42,15 +43,20 @@ async function main() {
     const planned = [lesson.exercises, ...loadTkaSets(lesson)];
     for (const row of data ?? []) if (row.version <= 3) {
       assert.equal(row.source, row.version === 1 ? "seed" : "variation");
-      assert.deepEqual(row.exercises, planned[row.version - 1], `${lesson.id}: existing v${row.version} differs; refusing overwrite`);
+      if (syncFeedback) assert.equal(assessmentFingerprint(row.exercises), assessmentFingerprint(planned[row.version - 1]), `${lesson.id}: assessment differs; refusing feedback-only update`);
+      else assert.deepEqual(row.exercises, planned[row.version - 1], `${lesson.id}: existing v${row.version} differs; refusing overwrite`);
     }
   }
   for (const subject of ["matematika", "bahasa-indonesia"] as const) await seedDatabase(false, subject);
-  let created = 0;
-  for (const lesson of lessons) for (const [i, exercises] of loadTkaSets(lesson).entries()) {
-    const version = i + 2;
-    const { data, error } = await db.from("exercise_sets").select("id").eq("lesson_id", lesson.id).eq("version", version).maybeSingle();
+  let created = 0, feedbackUpdated = 0;
+  for (const lesson of lessons) for (const [i, exercises] of [lesson.exercises, ...loadTkaSets(lesson)].entries()) {
+    const version = i + 1;
+    const { data, error } = await db.from("exercise_sets").select("id,exercises").eq("lesson_id", lesson.id).eq("version", version).maybeSingle();
     assert.ifError(error);
+    if (data && syncFeedback && hash([data.exercises]) !== hash([exercises])) {
+      const { error: updateError } = await db.from("exercise_sets").update({ exercises }).eq("id", data.id);
+      assert.ifError(updateError); feedbackUpdated++;
+    }
     if (!data) {
       const { error: insertError } = await db.from("exercise_sets").insert({ lesson_id: lesson.id, version, source: "variation", exercises, model_used: null });
       assert.ifError(insertError); created++;
@@ -58,7 +64,10 @@ async function main() {
   }
   const afterSets = await snapshot("exercise_sets", "id");
   const afterLessons = await snapshot("lessons", "id");
-  assert.equal(hash(afterSets.filter(r => oldSets.some(old => old.id === r.id))), hash(oldSets), "Existing sets changed");
+  assert.equal(hash(afterSets.filter(r => oldSets.some(old => old.id === r.id))), hash(oldSets.map(row => {
+    const lesson = lessons.find(l => l.id === row.lesson_id);
+    return syncFeedback && lesson && Number(row.version) <= 3 ? { ...row, exercises: [lesson.exercises, ...loadTkaSets(lesson)][Number(row.version) - 1] } : row;
+  })), "Unexpected existing set changes");
   assert.equal(hash(afterLessons.filter(r => oldLessons.some(old => old.id === r.id))), hash(expectedOldLessons), "Unexpected existing lesson row changes");
   assert.equal(hash(await snapshot("learner_sets", "learner_id")), hash(oldCompletions), "Existing completions changed");
   assert.equal(hash(await snapshot("attempts", "id")), hash(oldAttempts), "Existing attempts changed");
@@ -67,6 +76,6 @@ async function main() {
     for (const [index, exercises] of [lesson.exercises, ...loadTkaSets(lesson)].entries()) assert.deepEqual(stored.find(r => r.version === index + 1)?.exercises, exercises, `${lesson.id}: stored v${index + 1} missing or mismatched`);
   }
   console.log(`Preservation passed: ${oldSets.length} existing sets, ${oldLessons.length} lessons${syncMaterial ? " (material/objectives explicitly synchronized)" : ""}, ${oldCompletions.length} completions, ${oldAttempts.length} attempts unchanged.`);
-  console.log(`TKA bank: ${lessons.length} topics, ${lessons.length * 3} sets; ${created} supplemental sets created. Existing sets preserved.`);
+  console.log(`TKA bank: ${lessons.length} topics, ${lessons.length * 3} sets; ${created} supplemental sets created. Existing identities preserved; ${feedbackUpdated} feedback-only updates.`);
 }
 main().catch(error => { console.error(error instanceof Error ? error.message : "Seed failed"); process.exitCode = 1; });

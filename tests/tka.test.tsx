@@ -152,3 +152,12 @@ test("preservation fingerprint tolerates JSONB key order but detects nested cont
   assert.notEqual(rowsFingerprint(before), rowsFingerprint([{ id: "a", material: [{ type: "paragraph", title: "Title", text: "Changed" }] }, { id: "b" }]));
   assert.notEqual(rowsFingerprint([{ values: [1, 2] }]), rowsFingerprint([{ values: [2, 1] }]));
 });
+
+
+test("feedback-only revisions preserve assessment semantics and question order", async () => {
+  const { assessmentFingerprint } = await import("../lib/contentFingerprint");
+  const before = [{ id: "a", question: "Q", answer: "A", explanation: "Old" }, { id: "b", answer: "B" }];
+  assert.equal(assessmentFingerprint(before), assessmentFingerprint([{ ...before[0], explanation: "Clearer" }, before[1]]));
+  assert.notEqual(assessmentFingerprint(before), assessmentFingerprint([{ ...before[0], answer: "Changed" }, before[1]]));
+  assert.notEqual(assessmentFingerprint(before), assessmentFingerprint([...before].reverse()));
+});

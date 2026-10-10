@@ -4,7 +4,7 @@
       "id": "tka-bi-makna-kata-v2-q1",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-makna-kata-bacaan-1",
       "evidence": [
@@ -25,7 +25,7 @@
       "id": "tka-bi-makna-kata-v2-q2",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-makna-kata-bacaan-1",
       "evidence": [
@@ -46,7 +46,7 @@
       "id": "tka-bi-makna-kata-v2-q3",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Gunakan konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh.",
       "type": "multiple_select",
       "stimulusId": "tka-bi-makna-kata-bacaan-1",
       "evidence": [
@@ -59,22 +59,22 @@
         {
           "id": "a",
           "text": "Rendah hati berarti tidak sombong dalam konteks Arif.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman."
         },
         {
           "id": "b",
           "text": "Panjang tangan adalah pujian karena rajin membantu.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Tidak didukung oleh konteks. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu."
         },
         {
           "id": "c",
           "text": "Hangat pada teh menyatakan makna denotatif berupa suhu.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu."
         },
         {
           "id": "d",
           "text": "Rendah hati berarti letak organ tubuh rendah.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Tidak didukung oleh konteks. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh."
         }
       ],
       "answer": [
@@ -86,7 +86,7 @@
       "id": "tka-bi-makna-kata-v2-q4",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-makna-kata-bacaan-2",
       "evidence": [
@@ -107,7 +107,7 @@
       "id": "tka-bi-makna-kata-v2-q5",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Gunakan konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman.",
       "type": "statement_category",
       "stimulusId": "tka-bi-makna-kata-bacaan-2",
       "evidence": [
@@ -130,19 +130,19 @@
         {
           "id": "a",
           "text": "Hangat pada teh menyatakan makna denotatif berupa suhu.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu.",
           "answer": "yes"
         },
         {
           "id": "b",
           "text": "Rendah hati berarti letak organ tubuh rendah.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Tidak didukung oleh konteks. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh.",
           "answer": "no"
         },
         {
           "id": "c",
           "text": "Rendah hati berarti tidak sombong dalam konteks Arif.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman.",
           "answer": "yes"
         }
       ]
@@ -151,7 +151,7 @@
       "id": "tka-bi-makna-kata-v2-q6",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-makna-kata-bacaan-2",
       "evidence": [
@@ -172,7 +172,7 @@
       "id": "tka-bi-makna-kata-v2-q7",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Gunakan konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu.",
       "type": "multiple_select",
       "stimulusId": "tka-bi-makna-kata-bacaan-3",
       "evidence": [
@@ -185,22 +185,22 @@
         {
           "id": "a",
           "text": "Hangat pada teh menyatakan makna denotatif berupa suhu.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu."
         },
         {
           "id": "b",
           "text": "Rendah hati berarti letak organ tubuh rendah.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Tidak didukung oleh konteks. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh."
         },
         {
           "id": "c",
           "text": "Rendah hati berarti tidak sombong dalam konteks Arif.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman."
         },
         {
           "id": "d",
           "text": "Panjang tangan adalah pujian karena rajin membantu.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Tidak didukung oleh konteks. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu."
         }
       ],
       "answer": [
@@ -212,7 +212,7 @@
       "id": "tka-bi-makna-kata-v2-q8",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-makna-kata-bacaan-3",
       "evidence": [
@@ -233,7 +233,7 @@
       "id": "tka-bi-makna-kata-v2-q9",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Gunakan konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Sambutan hangat menggambarkan keramahan, bukan suhu ruangan. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai.",
       "type": "statement_category",
       "stimulusId": "tka-bi-makna-kata-bacaan-3",
       "evidence": [
@@ -256,19 +256,19 @@
         {
           "id": "a",
           "text": "Sambutan hangat berarti suhu ruangan sangat tinggi.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Tidak didukung oleh konteks. Sambutan hangat menggambarkan keramahan, bukan suhu ruangan.",
           "answer": "no"
         },
         {
           "id": "b",
           "text": "Hangat pada teh menyatakan makna denotatif berupa suhu.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu.",
           "answer": "yes"
         },
         {
           "id": "c",
           "text": "Turun tangan berarti ikut membantu.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai.",
           "answer": "yes"
         }
       ]
@@ -279,7 +279,7 @@
       "id": "tka-bi-makna-kata-v3-q1",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-makna-kata-bacaan-1",
       "evidence": [
@@ -300,7 +300,7 @@
       "id": "tka-bi-makna-kata-v3-q2",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-makna-kata-bacaan-1",
       "evidence": [
@@ -321,7 +321,7 @@
       "id": "tka-bi-makna-kata-v3-q3",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Gunakan konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Sambutan hangat menggambarkan keramahan, bukan suhu ruangan. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai.",
       "type": "multiple_select",
       "stimulusId": "tka-bi-makna-kata-bacaan-1",
       "evidence": [
@@ -334,22 +334,22 @@
         {
           "id": "a",
           "text": "Sambutan hangat berarti suhu ruangan sangat tinggi.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Tidak didukung oleh konteks. Sambutan hangat menggambarkan keramahan, bukan suhu ruangan."
         },
         {
           "id": "b",
           "text": "Rendah hati berarti tidak sombong dalam konteks Arif.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman."
         },
         {
           "id": "c",
           "text": "Panjang tangan adalah pujian karena rajin membantu.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Tidak didukung oleh konteks. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu."
         },
         {
           "id": "d",
           "text": "Turun tangan berarti ikut membantu.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai."
         }
       ],
       "answer": [
@@ -361,7 +361,7 @@
       "id": "tka-bi-makna-kata-v3-q4",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-makna-kata-bacaan-2",
       "evidence": [
@@ -382,7 +382,7 @@
       "id": "tka-bi-makna-kata-v3-q5",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Gunakan konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman.",
       "type": "statement_category",
       "stimulusId": "tka-bi-makna-kata-bacaan-2",
       "evidence": [
@@ -405,19 +405,19 @@
         {
           "id": "a",
           "text": "Panjang tangan adalah pujian karena rajin membantu.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Tidak didukung oleh konteks. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu.",
           "answer": "no"
         },
         {
           "id": "b",
           "text": "Turun tangan berarti ikut membantu.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai.",
           "answer": "yes"
         },
         {
           "id": "c",
           "text": "Rendah hati berarti tidak sombong dalam konteks Arif.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman.",
           "answer": "yes"
         }
       ]
@@ -426,7 +426,7 @@
       "id": "tka-bi-makna-kata-v3-q6",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-makna-kata-bacaan-2",
       "evidence": [
@@ -447,7 +447,7 @@
       "id": "tka-bi-makna-kata-v3-q7",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Gunakan konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai. Sambutan hangat menggambarkan keramahan, bukan suhu ruangan. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman.",
       "type": "multiple_select",
       "stimulusId": "tka-bi-makna-kata-bacaan-3",
       "evidence": [
@@ -460,22 +460,22 @@
         {
           "id": "a",
           "text": "Panjang tangan adalah pujian karena rajin membantu.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Tidak didukung oleh konteks. Panjang tangan dapat berarti suka mencuri, bukan rajin membantu."
         },
         {
           "id": "b",
           "text": "Turun tangan berarti ikut membantu.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai."
         },
         {
           "id": "c",
           "text": "Sambutan hangat berarti suhu ruangan sangat tinggi.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Tidak didukung oleh konteks. Sambutan hangat menggambarkan keramahan, bukan suhu ruangan."
         },
         {
           "id": "d",
           "text": "Rendah hati berarti tidak sombong dalam konteks Arif.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu."
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman."
         }
       ],
       "answer": [
@@ -487,7 +487,7 @@
       "id": "tka-bi-makna-kata-v3-q8",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Pernyataan ini sesuai konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Ungkapan turun tangan berarti ikut membantu, bukan menurunkan anggota tubuh ke lantai.",
       "type": "multiple_choice",
       "stimulusId": "tka-bi-makna-kata-bacaan-3",
       "evidence": [
@@ -508,7 +508,7 @@
       "id": "tka-bi-makna-kata-v3-q9",
       "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
       "competency": "bi.textual.meaning",
-      "explanation": "Gunakan konteks bacaan. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh.",
       "type": "statement_category",
       "stimulusId": "tka-bi-makna-kata-bacaan-3",
       "evidence": [
@@ -531,19 +531,19 @@
         {
           "id": "a",
           "text": "Rendah hati berarti tidak sombong dalam konteks Arif.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Arif tidak membanggakan hadiah lomba yang pernah ia menangkan dan tetap mau belajar dari teman.",
           "answer": "yes"
         },
         {
           "id": "b",
           "text": "Hangat pada teh menyatakan makna denotatif berupa suhu.",
-          "explanation": "Sesuai dengan konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata hangat pada kalimat itu menyatakan suhu minuman yang tidak terlalu panas, bukan perasaan tertentu.",
           "answer": "yes"
         },
         {
           "id": "c",
           "text": "Rendah hati berarti letak organ tubuh rendah.",
-          "explanation": "Tidak didukung oleh konteks. Hangat pada teh menyatakan makna denotatif berupa suhu. Rendah hati berarti tidak sombong dalam konteks Arif. Turun tangan berarti ikut membantu.",
+          "explanation": "Tidak didukung oleh konteks. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh.",
           "answer": "no"
         }
       ]
