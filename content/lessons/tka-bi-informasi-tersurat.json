@@ -1,0 +1,344 @@
+{
+  "id": "tka-bi-informasi-tersurat",
+  "subject": "bahasa-indonesia",
+  "category": 1,
+  "order": 1,
+  "title": "Menemukan informasi tersurat",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menemukan informasi yang ditulis langsung dan menunjuk bukti dalam bacaan."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Cari kata kunci",
+      "text": "Baca pertanyaan, lalu cari siapa, apa, kapan, di mana, atau berapa yang ditanyakan. Baca kalimat di sekitar kata kunci agar tidak kehilangan konteks."
+    },
+    {
+      "type": "paragraph",
+      "title": "Jawaban eksplisit dan kesimpulan",
+      "text": "Informasi tersurat ditulis langsung. Kesimpulan merupakan hasil menghubungkan informasi. Pada pelajaran ini, pilih jawaban yang dapat ditunjuk langsung dalam teks."
+    },
+    {
+      "type": "worked_example",
+      "question": "Teks: “Setiap Selasa dan Jumat, murid menyiram tanaman.” Kapan menyiram?",
+      "steps": [
+        "Kata kunci pertanyaan adalah kapan.",
+        "Kalimat menyebut dua hari: Selasa dan Jumat."
+      ],
+      "conclusion": "Jawaban eksplisit: Selasa dan Jumat. Tidak perlu menebak hari lain."
+    },
+    {
+      "type": "worked_example",
+      "question": "Teks: “Setiap anggota boleh meminjam paling banyak dua buku selama satu minggu.” Berapa buku?",
+      "steps": [
+        "Cari jumlah yang menjelaskan buku.",
+        "Dua adalah jumlah buku; satu minggu adalah lamanya pinjaman."
+      ],
+      "conclusion": "Jawaban: paling banyak dua buku, bukan satu."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Apa tugas kelompok kedua?",
+      "options": [
+        "Menyiapkan tanah",
+        "Menanam bibit bayam",
+        "Membuat label",
+        "Memasak hasil panen"
+      ],
+      "answer": "Menanam bibit bayam",
+      "explanation": "Teks menyebut tugas setiap kelompok secara langsung. Kelompok kedua menanam bibit bayam; membuat label adalah tugas kelompok ketiga.",
+      "stimulusId": "kebun",
+      "evidence": [
+        "kelompok kedua menanam bibit bayam"
+      ],
+      "id": "tka-bi-informasi-tersurat-q1",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.textual.explicit"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Kapan tanaman disiram secara terjadwal?",
+      "options": [
+        "Setiap Senin dan Kamis",
+        "Setiap Selasa dan Jumat",
+        "Hanya pada hari Minggu",
+        "Setiap malam"
+      ],
+      "answer": "Setiap Selasa dan Jumat",
+      "explanation": "Kalimat tentang jadwal menyebut Selasa dan Jumat sebelum pelajaran. Jangan tertukar dengan waktu hujan pada malam hari.",
+      "stimulusId": "kebun",
+      "evidence": [
+        "Setiap Selasa dan Jumat, murid menyiram tanaman sebelum pelajaran dimulai."
+      ],
+      "id": "tka-bi-informasi-tersurat-q2",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.textual.explicit"
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih informasi yang tertulis dalam bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ada enam pot bekas.",
+          "explanation": "Teks menyebut enam pot bekas yang dicuci."
+        },
+        {
+          "id": "b",
+          "text": "Label memuat tanggal penanaman.",
+          "explanation": "Nama tanaman dan tanggal penanaman tertulis pada label."
+        },
+        {
+          "id": "c",
+          "text": "Bayam dipanen setelah tiga minggu.",
+          "explanation": "Setelah tiga minggu tanaman belum dipanen."
+        },
+        {
+          "id": "d",
+          "text": "Tanah basah tetap harus disiram.",
+          "explanation": "Tanah yang masih basah tidak perlu disiram."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Informasi tersurat harus cocok dengan kalimat di teks. Bedakan pengamatan setelah tiga minggu dengan waktu panen.",
+      "stimulusId": "kebun",
+      "evidence": [
+        "Mereka memakai enam pot bekas yang sudah dicuci.",
+        "Setiap label berisi nama tanaman dan tanggal penanaman",
+        "tetapi belum memanen tanaman.",
+        "Tanah yang masih basah tidak perlu disiram lagi"
+      ],
+      "id": "tka-bi-informasi-tersurat-q3",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.textual.explicit"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Berapa buku paling banyak yang boleh dipinjam setiap anggota?",
+      "options": [
+        "Satu",
+        "Dua",
+        "Tiga",
+        "Semua buku"
+      ],
+      "answer": "Dua",
+      "explanation": "Batas pinjaman adalah dua buku selama satu minggu. Dua kotak besar adalah wadah buku, bukan jumlah buku yang boleh dibawa semua anggota.",
+      "stimulusId": "perpustakaan",
+      "evidence": [
+        "Setiap anggota boleh meminjam paling banyak dua buku selama satu minggu."
+      ],
+      "id": "tka-bi-informasi-tersurat-q4",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.textual.explicit"
+    },
+    {
+      "type": "statement_category",
+      "question": "Tentukan apakah pernyataan sesuai dengan bacaan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak Sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Pojok baca dimulai pukul sembilan pagi.",
+          "answer": "yes",
+          "explanation": "Jadwal tertulis pukul sembilan pagi sampai sebelas siang."
+        },
+        {
+          "id": "s2",
+          "text": "Kartu anggota diperlukan untuk meminjam buku.",
+          "answer": "yes",
+          "explanation": "Teks menyatakan peminjam harus membawa kartu anggota."
+        },
+        {
+          "id": "s3",
+          "text": "Kegiatan membaca cerita bersama diadakan setiap Sabtu.",
+          "answer": "no",
+          "explanation": "Kegiatan bersama hanya pada Sabtu terakhir setiap bulan."
+        }
+      ],
+      "explanation": "Cocokkan keterangan waktu dan syarat pada setiap pernyataan dengan teks.",
+      "stimulusId": "perpustakaan",
+      "evidence": [
+        "Kegiatan dimulai pukul sembilan pagi dan berakhir pukul sebelas siang.",
+        "Anak yang ingin meminjam buku harus membawa kartu anggota.",
+        "Pada Sabtu terakhir setiap bulan, ada kegiatan membaca cerita bersama."
+      ],
+      "id": "tka-bi-informasi-tersurat-q5",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.textual.explicit"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Ke mana pojok baca dipindahkan jika balai dipakai rapat?",
+      "options": [
+        "Halaman sekolah",
+        "Rumah petugas",
+        "Teras perpustakaan",
+        "Taman kota"
+      ],
+      "answer": "Teras perpustakaan",
+      "explanation": "Teks menyebut teras perpustakaan sebagai tempat pengganti. Papan balai adalah tempat pengumuman, bukan tempat membaca pengganti.",
+      "stimulusId": "perpustakaan",
+      "evidence": [
+        "pojok baca dipindahkan ke teras perpustakaan."
+      ],
+      "id": "tka-bi-informasi-tersurat-q6",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.textual.explicit"
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih benda yang sesuai dengan isi kantong menurut aturan piknik ini.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kulit buah di kantong hijau.",
+          "explanation": "Kantong hijau untuk sisa makanan dan kulit buah."
+        },
+        {
+          "id": "b",
+          "text": "Kertas bersih di kantong biru.",
+          "explanation": "Kantong biru untuk kertas bersih yang tidak berminyak."
+        },
+        {
+          "id": "c",
+          "text": "Botol minum sendiri di kantong abu-abu.",
+          "explanation": "Botol murid dibawa pulang."
+        },
+        {
+          "id": "d",
+          "text": "Semua kantong ditinggalkan dekat pohon.",
+          "explanation": "Tidak ada kantong ditinggalkan dekat pohon."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Gunakan aturan yang dinyatakan dalam bacaan ini. Jangan memakai dugaan aturan warna dari tempat lain.",
+      "stimulusId": "sampah",
+      "evidence": [
+        "Kantong hijau digunakan untuk sisa makanan dan kulit buah.",
+        "Kantong biru digunakan untuk kertas bersih yang tidak berminyak.",
+        "Botol minum milik murid dibawa pulang",
+        "Tidak ada kantong yang ditinggalkan di dekat pohon."
+      ],
+      "id": "tka-bi-informasi-tersurat-q7",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.textual.explicit"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Apa yang dilakukan murid sebelum meninggalkan taman?",
+      "options": [
+        "Memeriksa area duduk",
+        "Menanam pohon baru",
+        "Membeli kotak makan",
+        "Membakar sampah"
+      ],
+      "answer": "Memeriksa area duduk",
+      "explanation": "Urutan kegiatan tertulis: sebelum meninggalkan taman, setiap kelompok memeriksa area duduknya. Tidak ada kegiatan membakar sampah dalam bacaan.",
+      "stimulusId": "sampah",
+      "evidence": [
+        "Sebelum meninggalkan taman, setiap kelompok memeriksa area duduknya."
+      ],
+      "id": "tka-bi-informasi-tersurat-q8",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.textual.explicit"
+    },
+    {
+      "type": "statement_category",
+      "question": "Tentukan kesesuaian informasi berikut.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak Sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Murid membawa botol minum sendiri.",
+          "answer": "yes",
+          "explanation": "Permintaan itu disampaikan sebelum berangkat."
+        },
+        {
+          "id": "s2",
+          "text": "Aturan warna berlaku di semua tempat.",
+          "answer": "no",
+          "explanation": "Guru menyatakan aturan khusus untuk piknik mereka."
+        },
+        {
+          "id": "s3",
+          "text": "Jenis sampah dicatat sesampainya di sekolah.",
+          "answer": "yes",
+          "explanation": "Catatan akan dibahas pada pelajaran berikutnya."
+        }
+      ],
+      "explanation": "Perhatikan batas aturan dan urutan tempat kegiatan.",
+      "stimulusId": "sampah",
+      "evidence": [
+        "Pak Arif meminta setiap murid membawa botol minum dan kotak makan sendiri.",
+        "aturan warna tersebut dibuat khusus untuk piknik mereka, bukan aturan semua tempat.",
+        "Sesampainya di sekolah, murid mencatat jenis sampah yang paling banyak ditemukan"
+      ],
+      "id": "tka-bi-informasi-tersurat-q9",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.textual.explicit"
+    }
+  ],
+  "stimuli": [
+    {
+      "id": "kebun",
+      "title": "Kebun di halaman sekolah",
+      "paragraphs": [
+        "Pada awal bulan Agustus, murid kelas enam membuat kebun kecil di halaman sekolah. Mereka memakai enam pot bekas yang sudah dicuci. Bu Rina membagi murid menjadi tiga kelompok. Kelompok pertama menyiapkan tanah, kelompok kedua menanam bibit bayam, dan kelompok ketiga membuat label. Setiap label berisi nama tanaman dan tanggal penanaman agar pengamatan mudah dicatat.",
+        "Setiap Selasa dan Jumat, murid menyiram tanaman sebelum pelajaran dimulai. Mereka menggunakan gelas ukur supaya air yang diberikan tidak terlalu banyak. Pot diletakkan dekat pagar yang mendapat cahaya pagi. Jika hujan turun pada malam hari, murid memeriksa tanah terlebih dahulu. Tanah yang masih basah tidak perlu disiram lagi pada pagi itu.",
+        "Setelah tiga minggu, beberapa daun bayam sudah cukup besar. Murid mencatat jumlah daun pada buku pengamatan, tetapi belum memanen tanaman. Bu Rina meminta mereka menunggu satu minggu lagi. Hasil panen nanti akan digunakan untuk kegiatan memasak bersama di sekolah. Sisa batang dan daun yang tidak dipakai akan dikumpulkan untuk bahan kompos. Kebun itu juga menjadi tempat murid berlatih membagi tugas dan merawat tanaman secara teratur."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "perpustakaan",
+      "title": "Pojok baca keliling",
+      "paragraphs": [
+        "Perpustakaan desa membuka pojok baca keliling di balai warga setiap Sabtu. Kegiatan dimulai pukul sembilan pagi dan berakhir pukul sebelas siang. Petugas membawa buku cerita, buku pengetahuan, dan majalah anak dalam dua kotak besar. Buku diletakkan di atas tikar agar anak dapat melihat sampulnya dengan mudah. Warga boleh datang tanpa membayar biaya masuk.",
+        "Anak yang ingin meminjam buku harus membawa kartu anggota. Setiap anggota boleh meminjam paling banyak dua buku selama satu minggu. Petugas mencatat judul buku dan tanggal pengembalian pada kartu. Buku yang hanya dibaca di balai tidak perlu dicatat sebagai pinjaman. Setelah selesai membaca, anak diminta meletakkan buku di meja petugas, bukan langsung memasukkannya ke dalam kotak.",
+        "Pada Sabtu terakhir setiap bulan, ada kegiatan membaca cerita bersama. Petugas memilih satu cerita pendek, lalu mengajak anak mendiskusikan tokohnya. Orang tua dapat menemani anak yang belum lancar membaca. Jika balai dipakai untuk rapat warga, pojok baca dipindahkan ke teras perpustakaan. Pengumuman perubahan tempat ditempel di papan balai pada hari Jumat. Dengan jadwal ini, anak tetap dapat menemukan kegiatan baca meskipun tempatnya sesekali berubah."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "sampah",
+      "title": "Memilah sampah saat piknik",
+      "paragraphs": [
+        "Murid kelas enam mengadakan piknik di taman kota pada hari Minggu. Sebelum berangkat, Pak Arif meminta setiap murid membawa botol minum dan kotak makan sendiri. Tujuannya untuk mengurangi sampah kemasan sekali pakai. Di dekat tempat duduk kelompok, guru menyiapkan tiga kantong dengan label berbeda. Murid membaca label sebelum membuang sisa kegiatan mereka.",
+        "Kantong hijau digunakan untuk sisa makanan dan kulit buah. Kantong biru digunakan untuk kertas bersih yang tidak berminyak. Kantong abu-abu digunakan untuk bungkus makanan yang tidak dapat dimanfaatkan kembali dalam kegiatan ini. Botol minum milik murid dibawa pulang, sehingga tidak dimasukkan ke kantong sampah. Guru mengingatkan bahwa aturan warna tersebut dibuat khusus untuk piknik mereka, bukan aturan semua tempat.",
+        "Sebelum meninggalkan taman, setiap kelompok memeriksa area duduknya. Rara menemukan selembar kertas di bawah bangku dan memasukkannya ke kantong biru. Semua kantong diikat lalu dibawa ke tempat pengumpulan sampah yang ditunjuk petugas taman. Tidak ada kantong yang ditinggalkan di dekat pohon. Sesampainya di sekolah, murid mencatat jenis sampah yang paling banyak ditemukan untuk dibahas pada pelajaran berikutnya."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "id": "tka-bi-ide-pokok",
+  "subject": "bahasa-indonesia",
+  "category": 2,
+  "order": 1,
+  "title": "Ide pokok dan gagasan pendukung",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menyimpulkan ide pokok yang mencakup rincian pendukung dalam teks."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Temukan hal yang dibahas",
+      "text": "Tanyakan: bagian ini terutama membahas apa? Ide pokok dapat tertulis langsung atau disimpulkan dari beberapa kalimat. Baca seluruh paragraf sebelum memilih."
+    },
+    {
+      "type": "paragraph",
+      "title": "Uji dengan rincian pendukung",
+      "text": "Ide pokok harus mencakup contoh dan penjelasan penting. Jawaban yang hanya menyebut satu angka, benda, atau contoh biasanya terlalu sempit. Kesimpulan tidak boleh menambahkan informasi di luar teks."
+    },
+    {
+      "type": "worked_example",
+      "question": "Teks menjelaskan tong air hujan, saringan, dan tutup tong. Apa hubungannya?",
+      "steps": [
+        "Tong dipakai untuk menampung air hujan.",
+        "Saringan dan tutup membantu menjaga penampungan."
+      ],
+      "conclusion": "Kesimpulan: pemanfaatan dan perawatan air hujan, bukan hanya bentuk tong."
+    },
+    {
+      "type": "worked_example",
+      "question": "Teks menyebut nasi, roti, atau ubi sebagai pilihan sarapan. Apakah roti ide utamanya?",
+      "steps": [
+        "Roti adalah satu contoh dari beberapa menu.",
+        "Semua contoh mendukung kebiasaan sarapan."
+      ],
+      "conclusion": "Ide utama lebih luas daripada satu contoh: sarapan untuk memulai kegiatan pagi."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Ide pokok seluruh bacaan adalah …",
+      "options": [
+        "Cara sekolah menampung dan merawat air hujan untuk kebun",
+        "Larangan semua murid bermain saat hujan",
+        "Cara membuat minuman dari air hujan",
+        "Daun kering sebagai bahan pelajaran utama"
+      ],
+      "answer": "Cara sekolah menampung dan merawat air hujan untuk kebun",
+      "explanation": "Awal teks mengenalkan pemanfaatan air hujan, lalu paragraf berikut menjelaskan kebersihan dan keselamatannya. Ide pokok mencakup seluruh uraian; daun kering hanyalah rincian.",
+      "stimulusId": "air",
+      "evidence": [
+        "Sekolah Pelita mulai menampung air hujan untuk merawat kebun.",
+        "Guru menjelaskan bahwa penampungan perlu dirawat agar manfaatnya bertahan."
+      ],
+      "id": "tka-bi-ide-pokok-q1",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.inferential.main-idea"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Apa gagasan utama paragraf kedua?",
+      "options": [
+        "Murid mengisi ember setiap sore",
+        "Persiapan dan pengaturan tong agar penampungan aman dan bersih",
+        "Sekolah membeli atap gudang baru",
+        "Air hujan harus diminum langsung"
+      ],
+      "answer": "Persiapan dan pengaturan tong agar penampungan aman dan bersih",
+      "explanation": "Membersihkan saluran, memasang saringan, dan menandai batas penuh adalah rincian yang mendukung persiapan penampungan. Kegiatan sore terdapat pada paragraf ketiga.",
+      "stimulusId": "air",
+      "evidence": [
+        "Sebelum memasang tong, petugas membersihkan atap dan saluran air.",
+        "Sebuah saringan sederhana dipasang di mulut tong",
+        "Petugas juga menandai batas penuh pada dinding tong."
+      ],
+      "id": "tka-bi-ide-pokok-q2",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.inferential.main-idea"
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih rincian yang mendukung gagasan bahwa penampungan perlu dirawat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saluran dibersihkan dari daun kering.",
+          "explanation": "Pembersihan mencegah saluran tersumbat."
+        },
+        {
+          "id": "b",
+          "text": "Tong ditutup rapat setelah hujan.",
+          "explanation": "Penutupan mencegah nyamuk berkembang."
+        },
+        {
+          "id": "c",
+          "text": "Murid memanjat tong sendiri.",
+          "explanation": "Teks justru melarang memanjat sendiri."
+        },
+        {
+          "id": "d",
+          "text": "Air tong selalu diminum murid.",
+          "explanation": "Teks menyebut air untuk menyiram, bukan diminum."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Rincian pendukung harus berkaitan dengan perawatan dan sesuai teks, bukan sekadar menyebut tong.",
+      "stimulusId": "air",
+      "evidence": [
+        "Daun kering diangkat supaya aliran tidak tersumbat.",
+        "Tong ditutup rapat setelah hujan berhenti agar tidak menjadi tempat nyamuk berkembang."
+      ],
+      "id": "tka-bi-ide-pokok-q3",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.inferential.main-idea"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Ide pokok bacaan “Sarapan sebelum berangkat” adalah …",
+      "options": [
+        "Harga makanan menentukan kemampuan murid",
+        "Membiasakan sarapan agar siap beraktivitas pagi",
+        "Olahraga harus dihapus dari sekolah",
+        "Semua murid wajib makan roti"
+      ],
+      "answer": "Membiasakan sarapan agar siap beraktivitas pagi",
+      "explanation": "Pernyataan awal tentang tenaga, contoh Raka, dan catatan kebiasaan semuanya mendukung sarapan dan kesiapan beraktivitas. Menu roti hanya satu pilihan.",
+      "stimulusId": "sarapan",
+      "evidence": [
+        "Sarapan membantu murid memulai kegiatan pagi dengan tenaga yang cukup.",
+        "Murid diajak melihat hubungan kebiasaan pagi dengan kesiapan beraktivitas."
+      ],
+      "id": "tka-bi-ide-pokok-q4",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.inferential.main-idea"
+    },
+    {
+      "type": "statement_category",
+      "question": "Apakah pernyataan ini sesuai dengan hubungan gagasan dalam bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak Sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga.",
+          "answer": "yes",
+          "explanation": "Raka lemas tanpa sarapan, lalu mengubah persiapan pagi agar sempat makan."
+        },
+        {
+          "id": "s2",
+          "text": "Daftar menu menunjukkan bahwa sarapan harus mahal.",
+          "answer": "no",
+          "explanation": "Teks menyatakan sarapan tidak harus makanan mahal."
+        },
+        {
+          "id": "s3",
+          "text": "Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+          "answer": "yes",
+          "explanation": "Tujuan catatan disebut sebagai melihat hubungan kebiasaan pagi dengan kesiapan."
+        }
+      ],
+      "explanation": "Bedakan ide utama, contoh pendukung, dan kesimpulan yang bertentangan dengan teks.",
+      "stimulusId": "sarapan",
+      "evidence": [
+        "Saat kegiatan olahraga, ia merasa lemas dan sulit mengikuti gerakan.",
+        "Sarapan tidak harus berupa makanan mahal.",
+        "Murid diajak melihat hubungan kebiasaan pagi dengan kesiapan beraktivitas."
+      ],
+      "id": "tka-bi-ide-pokok-q5",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.inferential.main-idea"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Gagasan utama paragraf ketiga adalah …",
+      "options": [
+        "Mencatat kebiasaan pagi untuk memahami kebutuhan dan kesiapan murid",
+        "Membandingkan harga makanan keluarga",
+        "Mewajibkan menu yang sama untuk seluruh murid",
+        "Mencatat nilai olahraga setiap hari"
+      ],
+      "answer": "Mencatat kebiasaan pagi untuk memahami kebutuhan dan kesiapan murid",
+      "explanation": "Paragraf membahas catatan satu minggu dan tujuan penggunaannya. Membandingkan harga makanan secara jelas bukan tujuannya.",
+      "stimulusId": "sarapan",
+      "evidence": [
+        "Guru meminta murid mencatat kebiasaan pagi selama satu minggu.",
+        "Kegiatan ini menekankan kebiasaan yang teratur serta perhatian pada kebutuhan setiap anak."
+      ],
+      "id": "tka-bi-ide-pokok-q6",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.inferential.main-idea"
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih rincian yang mendukung manfaat pohon bagi halaman.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Daun membuat tempat di bawah pohon lebih teduh.",
+          "explanation": "Rincian ini menjelaskan kenyamanan halaman."
+        },
+        {
+          "id": "b",
+          "text": "Akar membantu air meresap ke tanah.",
+          "explanation": "Rincian ini menjelaskan manfaat lingkungan."
+        },
+        {
+          "id": "c",
+          "text": "Murid wajib memotong dahan sendiri.",
+          "explanation": "Teks tidak meminta murid memotong dahan."
+        },
+        {
+          "id": "d",
+          "text": "Pohon tidak perlu dirawat setelah ditanam.",
+          "explanation": "Penanaman baru disertai jadwal perawatan."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Manfaat didukung oleh efek daun dan akar. Instruksi perawatan tidak boleh diubah menjadi larangan atau kewajiban yang tidak ada.",
+      "stimulusId": "pohon",
+      "evidence": [
+        "Daunnya menghalangi sebagian sinar matahari sehingga tempat di bawah pohon lebih teduh.",
+        "Akar pohon juga membantu air meresap ke tanah."
+      ],
+      "id": "tka-bi-ide-pokok-q7",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.inferential.main-idea"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Judul lain yang paling mewakili seluruh bacaan adalah …",
+      "options": [
+        "Manfaat dan perawatan pohon di sekolah",
+        "Cara membuat bangku kayu",
+        "Lomba memanjat pohon",
+        "Sampah plastik untuk menanam pohon"
+      ],
+      "answer": "Manfaat dan perawatan pohon di sekolah",
+      "explanation": "Teks menjelaskan manfaat pohon, cara merawat, dan penanaman dengan jadwal perawatan. Bangku dan sampah adalah rincian, bukan fokus seluruh teks.",
+      "stimulusId": "pohon",
+      "evidence": [
+        "Pohon di halaman sekolah memberi manfaat yang dapat dirasakan murid.",
+        "Perawatan dilakukan dengan cara sederhana dan teratur."
+      ],
+      "id": "tka-bi-ide-pokok-q8",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.inferential.main-idea"
+    },
+    {
+      "type": "statement_category",
+      "question": "Periksa simpulan hubungan ide dan rincian berikut.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak Sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "Pengamatan rasa panas membantu menjelaskan manfaat tempat teduh.",
+          "answer": "yes",
+          "explanation": "Murid membandingkan tempat teduh dan terbuka pada waktu sama."
+        },
+        {
+          "id": "s2",
+          "text": "Paragraf kedua terutama menjelaskan cara merawat pohon.",
+          "answer": "yes",
+          "explanation": "Rinciannya menyiram, membersihkan sampah, dan memeriksa dahan."
+        },
+        {
+          "id": "s3",
+          "text": "Seluruh bacaan hanya membahas jumlah pohon baru.",
+          "answer": "no",
+          "explanation": "Dua pohon baru hanya satu rincian di akhir; teks juga membahas manfaat dan perawatan."
+        }
+      ],
+      "explanation": "Ide utama mencakup beberapa rincian. Jangan memilih satu angka sebagai ide seluruh bacaan.",
+      "stimulusId": "pohon",
+      "evidence": [
+        "Mereka mencatat perbedaan rasa panas pada waktu yang sama.",
+        "Perawatan dilakukan dengan cara sederhana dan teratur.",
+        "Sekolah kemudian menanam dua pohon baru"
+      ],
+      "id": "tka-bi-ide-pokok-q9",
+      "prompt": "Baca teks dan temukan buktinya.",
+      "competency": "bi.inferential.main-idea"
+    }
+  ],
+  "stimuli": [
+    {
+      "id": "air",
+      "title": "Menampung air hujan",
+      "paragraphs": [
+        "Sekolah Pelita mulai menampung air hujan untuk merawat kebun. Sebuah tong diletakkan di bawah saluran air dari atap gudang. Air yang terkumpul digunakan untuk menyiram tanaman, bukan untuk diminum. Dengan cara ini, sekolah dapat mengurangi penggunaan air keran saat musim hujan. Tong ditutup rapat setelah hujan berhenti agar tidak menjadi tempat nyamuk berkembang.",
+        "Sebelum memasang tong, petugas membersihkan atap dan saluran air. Daun kering diangkat supaya aliran tidak tersumbat. Sebuah saringan sederhana dipasang di mulut tong untuk menahan kotoran yang terbawa air. Petugas juga menandai batas penuh pada dinding tong. Jika air mencapai batas itu, kelebihan air dialirkan ke saluran pembuangan yang aman. Murid mengamati proses tersebut dari tempat yang tidak licin.",
+        "Setiap sore, penjaga mengambil air secukupnya dengan ember kecil. Murid tidak diperbolehkan membuka tutup atau memanjat tong sendiri. Guru menjelaskan bahwa penampungan perlu dirawat agar manfaatnya bertahan. Penghematan air dilakukan bersama dengan menjaga kebersihan wadah dan keselamatan pengguna. Sekolah akan mencatat penggunaan air keran selama sebulan untuk melihat perubahan setelah tong dipasang. Hasil catatan itu akan dibicarakan dalam kegiatan kelas tentang merawat lingkungan."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "sarapan",
+      "title": "Sarapan sebelum berangkat",
+      "paragraphs": [
+        "Sarapan membantu murid memulai kegiatan pagi dengan tenaga yang cukup. Di sekolah Harapan, guru mengajak murid menyiapkan sarapan sederhana sebelum berangkat. Sarapan tidak harus berupa makanan mahal. Nasi dengan lauk, roti dengan telur, atau ubi rebus dapat menjadi pilihan sesuai kebiasaan keluarga. Murid juga diingatkan untuk minum air dan mencuci tangan sebelum makan.",
+        "Raka biasanya bangun terlambat sehingga berangkat tanpa sarapan. Saat kegiatan olahraga, ia merasa lemas dan sulit mengikuti gerakan. Setelah berdiskusi dengan ibunya, Raka menyiapkan tas pada malam hari dan tidur lebih awal. Pagi berikutnya, ia mempunyai waktu untuk makan sebelum berangkat. Raka tidak selalu memilih menu yang sama, tetapi berusaha menyediakan waktu sarapan setiap hari sekolah.",
+        "Guru meminta murid mencatat kebiasaan pagi selama satu minggu. Catatan berisi waktu bangun, menu sarapan, dan kegiatan awal di sekolah. Catatan tidak digunakan untuk membandingkan keluarga atau menilai harga makanan. Murid diajak melihat hubungan kebiasaan pagi dengan kesiapan beraktivitas. Jika ada murid yang kesulitan menyediakan sarapan, guru mengajak keluarga mencari bantuan yang sesuai. Kegiatan ini menekankan kebiasaan yang teratur serta perhatian pada kebutuhan setiap anak."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "pohon",
+      "title": "Pohon peneduh di halaman",
+      "paragraphs": [
+        "Pohon di halaman sekolah memberi manfaat yang dapat dirasakan murid. Daunnya menghalangi sebagian sinar matahari sehingga tempat di bawah pohon lebih teduh. Saat istirahat, murid dapat duduk di bangku di bawahnya. Akar pohon juga membantu air meresap ke tanah. Karena itu, sekolah merawat pohon sebagai bagian dari usaha membuat halaman nyaman dan menjaga lingkungan.",
+        "Perawatan dilakukan dengan cara sederhana dan teratur. Penjaga menyiram pohon muda ketika tanah mulai kering. Murid mengumpulkan sampah plastik di sekitar akar supaya tanah tidak tertutup sampah. Dahan yang rusak diperiksa oleh petugas yang memiliki alat dan pengalaman. Murid tidak diminta memanjat atau memotong dahan sendiri. Guru mengingatkan bahwa pohon adalah makhluk hidup yang memerlukan ruang dan perawatan.",
+        "Pada kegiatan pengamatan, kelompok murid membandingkan tempat teduh dan tempat terbuka. Mereka mencatat perbedaan rasa panas pada waktu yang sama. Catatan itu membantu murid memahami manfaat pohon dari pengalaman langsung. Sekolah kemudian menanam dua pohon baru di bagian halaman yang masih terbuka. Tempat tanam dipilih agar akar dan dahan kelak tidak mengganggu bangunan. Penanaman baru disertai jadwal perawatan sehingga pohon tidak hanya ditanam lalu dilupakan."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    }
+  ]
+}

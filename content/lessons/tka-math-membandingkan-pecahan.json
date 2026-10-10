@@ -1,0 +1,273 @@
+{
+  "id": "tka-math-membandingkan-pecahan",
+  "subject": "matematika",
+  "category": 1,
+  "order": 2,
+  "title": "Membandingkan dan mengurutkan pecahan",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Membandingkan pecahan dari keseluruhan sama dan mengurutkannya dengan alasan."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Keseluruhan harus sama",
+      "text": "Bandingkan bagian dari benda yang sama besar. Setengah roti besar belum tentu sama banyak dengan setengah roti kecil."
+    },
+    {
+      "type": "paragraph",
+      "title": "Samakan penyebut",
+      "text": "Jika penyebut sama, pembilang yang lebih besar menunjukkan bagian yang lebih banyak. Jika penyebut berbeda, cari pecahan senilai dengan penyebut sama."
+    },
+    {
+      "type": "fraction",
+      "visual": {
+        "numerator": 3,
+        "denominator": 4
+      }
+    },
+    {
+      "type": "worked_example",
+      "question": "Mana lebih besar: 1/2 atau 3/4?",
+      "steps": [
+        "Ubah 1/2 menjadi 2/4.",
+        "Bandingkan 2/4 dan 3/4: tiga bagian lebih banyak daripada dua."
+      ],
+      "conclusion": "1/2 < 3/4."
+    },
+    {
+      "type": "worked_example",
+      "question": "Urutkan 1/3, 5/6, dan 1/2.",
+      "steps": [
+        "Pakai penyebut 6: 1/3 = 2/6, 1/2 = 3/6.",
+        "Urutkan pembilang: 2 < 3 < 5."
+      ],
+      "conclusion": "1/3 < 1/2 < 5/6."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Mana yang lebih besar?",
+      "options": [
+        "2/7",
+        "5/7",
+        "keduanya sama",
+        "tidak dapat dibandingkan"
+      ],
+      "answer": "5/7",
+      "explanation": "Penyebut sama, yaitu 7. Lima bagian lebih banyak daripada dua bagian, jadi 5/7 > 2/7.",
+      "id": "tka-math-membandingkan-pecahan-q1",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.compare"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Mana yang lebih kecil dari satu keseluruhan sama?",
+      "options": [
+        "1/3",
+        "1/6",
+        "keduanya sama",
+        "keduanya satu utuh"
+      ],
+      "answer": "1/6",
+      "explanation": "Satu keseluruhan dibagi enam menghasilkan bagian lebih kecil daripada dibagi tiga. Penyebut besar tidak otomatis membuat nilai lebih besar.",
+      "id": "tka-math-membandingkan-pecahan-q2",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.compare"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Tanda yang tepat: 3/4 … 2/3.",
+      "options": [
+        "<",
+        ">",
+        "=",
+        "tidak diketahui"
+      ],
+      "answer": ">",
+      "explanation": "3/4 = 9/12 dan 2/3 = 8/12. Karena 9 > 8, maka 3/4 > 2/3.",
+      "id": "tka-math-membandingkan-pecahan-q3",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.compare"
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih pecahan yang lebih besar daripada 1/2.",
+      "options": [
+        {
+          "id": "a",
+          "text": "3/4",
+          "explanation": "3/4 > 2/4 = 1/2."
+        },
+        {
+          "id": "b",
+          "text": "2/3",
+          "explanation": "2/3 = 4/6 > 3/6."
+        },
+        {
+          "id": "c",
+          "text": "2/5",
+          "explanation": "2/5 = 4/10 < 5/10."
+        },
+        {
+          "id": "d",
+          "text": "4/8",
+          "explanation": "4/8 = 1/2; sama besar, bukan lebih besar."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Ubah pecahan ke penyebut sama dengan 1/2. Pecahan yang tepat sama dengan setengah tidak termasuk.",
+      "id": "tka-math-membandingkan-pecahan-q4",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.compare"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Urutan dari terkecil ke terbesar adalah …",
+      "options": [
+        "1/2, 1/3, 5/6",
+        "5/6, 1/2, 1/3",
+        "1/3, 1/2, 5/6",
+        "1/3, 5/6, 1/2"
+      ],
+      "answer": "1/3, 1/2, 5/6",
+      "explanation": "Dengan penyebut 6, nilainya 2/6, 3/6, dan 5/6. Urutkan pembilang 2, 3, 5, bukan penyebut asli.",
+      "id": "tka-math-membandingkan-pecahan-q5",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.compare"
+    },
+    {
+      "type": "statement_category",
+      "question": "Periksa perbandingan ini.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "2/5 < 4/5.",
+          "answer": "yes",
+          "explanation": "Penyebut sama dan 2 < 4."
+        },
+        {
+          "id": "s2",
+          "text": "1/4 > 1/3.",
+          "answer": "no",
+          "explanation": "1/4 = 3/12 sedangkan 1/3 = 4/12."
+        },
+        {
+          "id": "s3",
+          "text": "3/6 = 1/2.",
+          "answer": "yes",
+          "explanation": "3/6 dibagi 3 pada pembilang dan penyebut menjadi 1/2."
+        }
+      ],
+      "explanation": "Bandingkan bagian sama besar atau gunakan pecahan senilai.",
+      "id": "tka-math-membandingkan-pecahan-q6",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.compare"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Rani minum 3/8 liter air, Bima 1/2 liter. Siapa minum lebih banyak?",
+      "options": [
+        "Rani",
+        "Bima",
+        "sama banyak",
+        "belum ada satu liter"
+      ],
+      "answer": "Bima",
+      "explanation": "1/2 liter = 4/8 liter, lebih banyak daripada 3/8 liter. Jumlah pembilang asli tidak dapat langsung dibandingkan saat penyebut berbeda.",
+      "id": "tka-math-membandingkan-pecahan-q7",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.compare"
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih urutan yang benar dari terkecil ke terbesar.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/4, 1/2, 3/4",
+          "explanation": "Nilainya 1/4, 2/4, 3/4."
+        },
+        {
+          "id": "b",
+          "text": "1/3, 2/3, 1",
+          "explanation": "Dengan penyebut 3: 1/3 < 2/3 < 3/3."
+        },
+        {
+          "id": "c",
+          "text": "3/5, 2/5, 1/5",
+          "explanation": "Urutan ini dari terbesar ke terkecil."
+        },
+        {
+          "id": "d",
+          "text": "1/2, 1/4, 3/4",
+          "explanation": "1/4 lebih kecil dari 1/2 sehingga dua awal tertukar."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Setiap pasangan berurutan harus meningkat. Periksa seluruh urutan, bukan hanya angka terakhir.",
+      "id": "tka-math-membandingkan-pecahan-q8",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.compare"
+    },
+    {
+      "type": "statement_category",
+      "question": "Dua batang cokelat berukuran sama. Periksa kesimpulannya.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "3/4 batang lebih banyak daripada 5/8 batang.",
+          "answer": "yes",
+          "explanation": "3/4 = 6/8 > 5/8."
+        },
+        {
+          "id": "s2",
+          "text": "2/6 batang lebih sedikit daripada 1/3 batang.",
+          "answer": "no",
+          "explanation": "2/6 = 1/3; sama banyak."
+        },
+        {
+          "id": "s3",
+          "text": "1/8 batang adalah bagian terkecil di antara 1/8, 1/4, dan 1/2.",
+          "answer": "yes",
+          "explanation": "Satu bagian dari delapan lebih kecil daripada satu bagian dari empat atau dua."
+        }
+      ],
+      "explanation": "Semua perbandingan memakai batang berukuran sama sehingga nilai pecahan dapat dibandingkan langsung.",
+      "id": "tka-math-membandingkan-pecahan-q9",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.compare"
+    }
+  ]
+}

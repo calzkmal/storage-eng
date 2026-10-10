@@ -1,0 +1,278 @@
+{
+  "id": "tka-math-pecahan-senilai",
+  "subject": "matematika",
+  "category": 1,
+  "order": 1,
+  "title": "Pecahan senilai",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Mengenali bagian sama besar dan menjelaskan pecahan senilai."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Bagian dari keseluruhan",
+      "text": "Penyebut menyatakan banyak bagian sama besar. Pembilang menyatakan banyak bagian yang dipilih. Seluruh bagian harus sama besar agar hitungan pecahan tepat."
+    },
+    {
+      "type": "paragraph",
+      "title": "Nilai sama, bentuk berbeda",
+      "text": "Kalikan atau bagi pembilang dan penyebut dengan bilangan yang sama dan bukan nol. Nilai pecahan tetap karena bagian keseluruhan dan bagian terpilih berubah bersama."
+    },
+    {
+      "type": "fraction",
+      "visual": {
+        "numerator": 2,
+        "denominator": 4
+      }
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah 1/2 senilai dengan 2/4?",
+      "steps": [
+        "Kalikan pembilang 1 dengan 2 menjadi 2.",
+        "Kalikan penyebut 2 dengan 2 menjadi 4.",
+        "Pada gambar, dua dari empat bagian menutup setengah batang."
+      ],
+      "conclusion": "1/2 = 2/4. Mengubah pembilang saja akan mengubah nilai."
+    },
+    {
+      "type": "worked_example",
+      "question": "Sederhanakan 6/9.",
+      "steps": [
+        "Pembilang 6 dan penyebut 9 sama-sama dapat dibagi 3.",
+        "6 ÷ 3 = 2 dan 9 ÷ 3 = 3."
+      ],
+      "conclusion": "6/9 = 2/3."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Berapa pecahan bagian yang diarsir?",
+      "options": [
+        "1/4",
+        "2/4",
+        "3/4",
+        "4/2"
+      ],
+      "answer": "2/4",
+      "explanation": "Ada empat bagian sama besar dan dua diarsir, jadi 2/4. Penyebut menghitung seluruh bagian, bukan hanya yang tidak diarsir.",
+      "visual": {
+        "numerator": 2,
+        "denominator": 4
+      },
+      "id": "tka-math-pecahan-senilai-q1",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.equivalent"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Pecahan manakah yang senilai dengan 1/3?",
+      "options": [
+        "2/3",
+        "1/6",
+        "2/6",
+        "3/6"
+      ],
+      "answer": "2/6",
+      "explanation": "1 × 2 = 2 dan 3 × 2 = 6, jadi 1/3 = 2/6. Pembilang dan penyebut harus dikalikan bersama.",
+      "id": "tka-math-pecahan-senilai-q2",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.equivalent"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Bentuk paling sederhana dari 4/8 adalah …",
+      "options": [
+        "1/2",
+        "2/8",
+        "4/4",
+        "1/4"
+      ],
+      "answer": "1/2",
+      "explanation": "4 ÷ 4 = 1 dan 8 ÷ 4 = 2. Jadi 4/8 = 1/2, bukan 1/4; penyebut juga dibagi 4.",
+      "id": "tka-math-pecahan-senilai-q3",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.equivalent"
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih pecahan yang senilai dengan 2/3.",
+      "options": [
+        {
+          "id": "a",
+          "text": "4/6",
+          "explanation": "2 × 2 / (3 × 2) = 4/6."
+        },
+        {
+          "id": "b",
+          "text": "6/9",
+          "explanation": "2 × 3 / (3 × 3) = 6/9."
+        },
+        {
+          "id": "c",
+          "text": "2/6",
+          "explanation": "Penyebut saja digandakan sehingga nilainya menjadi 1/3."
+        },
+        {
+          "id": "d",
+          "text": "3/4",
+          "explanation": "Menambah 1 pada kedua bilangan tidak menjaga nilai pecahan."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Kalikan pembilang dan penyebut dengan faktor yang sama. Menambah bilangan yang sama bukan aturan pecahan senilai.",
+      "id": "tka-math-pecahan-senilai-q4",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.equivalent"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Isi nilai yang hilang: 3/4 = …/12.",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "12"
+      ],
+      "answer": "9",
+      "explanation": "4 × 3 = 12, maka 3 × 3 = 9. Jadi 3/4 = 9/12; jangan sekadar menambahkan 8 pada pembilang.",
+      "id": "tka-math-pecahan-senilai-q5",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.equivalent"
+    },
+    {
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "2/4 senilai dengan 1/2.",
+          "answer": "yes",
+          "explanation": "Bagi 2 dan 4 dengan 2: hasilnya 1/2."
+        },
+        {
+          "id": "s2",
+          "text": "1/2 senilai dengan 1/4.",
+          "answer": "no",
+          "explanation": "Dengan pembilang sama, satu dari empat bagian lebih kecil daripada satu dari dua bagian."
+        },
+        {
+          "id": "s3",
+          "text": "3/6 senilai dengan 2/4.",
+          "answer": "yes",
+          "explanation": "Keduanya dapat disederhanakan menjadi 1/2."
+        }
+      ],
+      "explanation": "Pecahan senilai menutup bagian keseluruhan yang sama.",
+      "id": "tka-math-pecahan-senilai-q6",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.equivalent"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Dua pita sama panjang. Pita pertama diwarnai 3/6, pita kedua 1/2. Bagian berwarna …",
+      "options": [
+        "pertama lebih panjang",
+        "kedua lebih panjang",
+        "sama panjang",
+        "tidak dapat dibandingkan"
+      ],
+      "answer": "sama panjang",
+      "explanation": "3/6 disederhanakan dengan membagi 3 menjadi 1/2. Karena seluruh pita sama panjang, bagian berwarna sama panjang.",
+      "id": "tka-math-pecahan-senilai-q7",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.equivalent"
+    },
+    {
+      "type": "multiple_select",
+      "question": "Pilih pasangan pecahan senilai.",
+      "options": [
+        {
+          "id": "a",
+          "text": "3/5 dan 6/10",
+          "explanation": "Kalikan 3 dan 5 dengan 2."
+        },
+        {
+          "id": "b",
+          "text": "2/8 dan 1/4",
+          "explanation": "Bagi 2 dan 8 dengan 2."
+        },
+        {
+          "id": "c",
+          "text": "2/3 dan 3/4",
+          "explanation": "2 × 4 = 8, tetapi 3 × 3 = 9; nilainya berbeda."
+        },
+        {
+          "id": "d",
+          "text": "1/3 dan 1/6",
+          "explanation": "Satu dari tiga bagian lebih besar daripada satu dari enam bagian."
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "Periksa faktor yang sama atau perkalian silang. Angka yang mirip belum tentu bernilai sama.",
+      "id": "tka-math-pecahan-senilai-q8",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.equivalent"
+    },
+    {
+      "type": "statement_category",
+      "question": "Dina memotong satu roti menjadi bagian sama besar. Periksa pernyataan berikut.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "s1",
+          "text": "4 dari 8 bagian adalah setengah roti.",
+          "answer": "yes",
+          "explanation": "4/8 = 1/2 karena 4 dan 8 dibagi 4."
+        },
+        {
+          "id": "s2",
+          "text": "Jika setiap potong dibagi dua, 4/8 menjadi 8/16.",
+          "answer": "yes",
+          "explanation": "Jumlah semua bagian dan bagian terpilih sama-sama digandakan."
+        },
+        {
+          "id": "s3",
+          "text": "Jika setiap potong dibagi dua, 4/8 menjadi 4/16.",
+          "answer": "no",
+          "explanation": "Bagian terpilih juga terbelah dua, sehingga pembilang harus menjadi 8."
+        }
+      ],
+      "explanation": "Ukuran potongan berubah, tetapi banyak roti yang dipilih tetap. Pembilang dan penyebut berubah dengan faktor yang sama.",
+      "id": "tka-math-pecahan-senilai-q9",
+      "prompt": "Coba gunakan konsep yang sudah dipelajari.",
+      "competency": "math.fraction.equivalent"
+    }
+  ]
+}

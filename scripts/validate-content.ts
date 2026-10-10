@@ -1,10 +1,13 @@
 // Validates every lesson file. Runs in prebuild; exits non-zero on any error.
+import { collectionProblems } from "../lib/contentValidation";
 import fs from "node:fs";
 import path from "node:path";
 import { LessonSchema, type ExerciseType } from "../lib/schema";
 import { categoryTitle } from "../lib/categories";
 
 const dir = path.join(process.cwd(), "content", "lessons");
+const variationDir = path.join(process.cwd(), "content", "variations");
+const collection: import("../lib/schema").Lesson[] = [];
 const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort();
 
 let errors = 0;
@@ -68,6 +71,28 @@ for (const file of files) {
   }
   if (lesson.intro?.includes("—")) problems.push("intro contains an em dash");
 
+  if (lesson.subject === "english") {
+    const variationFile = path.join(variationDir, `${lesson.id}.json`);
+    if (!fs.existsSync(variationFile)) problems.push("missing English variations");
+    else {
+      const raw = JSON.parse(fs.readFileSync(variationFile, "utf8"));
+      if (!Array.isArray(raw) || raw.length !== 15) problems.push("English requires 15 variations");
+      else for (const [i, exercises] of raw.entries()) {
+        const parsed = LessonSchema.safeParse({ ...lesson, exercises });
+        if (!parsed.success) problems.push(`variation ${i + 1}: ${parsed.error.message}`);
+      }
+    }
+  }
+  if (lesson.subject === "bahasa-indonesia") {
+    for (const stimulus of lesson.stimuli ?? []) {
+      const words = stimulus.paragraphs.join(" ").split(/\s+/).length;
+      if (words < 150 || words > 200) problems.push(`stimulus ${stimulus.id}: ${words} words; expected 150–200`);
+      const count = lesson.exercises.filter(e => e.stimulusId === stimulus.id).length;
+      if (count < 3 || count > 4) problems.push(`stimulus ${stimulus.id} needs 3–4 questions`);
+    }
+    const groups = lesson.exercises.map(e => e.stimulusId).filter((id, i, all) => i === 0 || id !== all[i - 1]);
+    if (new Set(groups).size !== groups.length) problems.push("stimulus groups must stay adjacent");
+  }
   if (problems.length) {
     console.error(`✗ ${file}`);
     for (const p of problems) console.error(`    ${p}`);
@@ -92,6 +117,8 @@ if (missing.length) {
   console.error(`✗ exercise types never used: ${missing.join(", ")}`);
   errors += missing.length;
 }
+
+for (const problem of collectionProblems(collection)) { console.error(`✗ ${problem}`); errors++; }
 
 if (errors) {
   console.error(`\n${errors} problem(s) found in ${files.length} lesson file(s).`);
