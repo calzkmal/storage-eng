@@ -76,6 +76,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
   const [finishing, setFinishing] = useState(false);
 
   const attemptRef = useRef(0);
+  const mainRef = useRef<HTMLElement>(null);
   const touched = useRef(false);
   const checked = useRef(false);
   const finishedRef = useRef(false);
@@ -84,6 +85,8 @@ export default function LessonRunner({ lesson, sets }: Props) {
   useEffect(() => {
     router.prefetch(`/lesson/${lesson.id}/done`);
   }, [router, lesson.id]);
+
+  useEffect(() => { mainRef.current?.scrollTo({ top: 0 }); }, [index, phase, showIntro]);
 
   const current: Exercise | undefined = phase === "main" ? order[index] : retryQueue[index];
   const total = phase === "main" ? order.length : retryQueue.length;
@@ -120,8 +123,8 @@ export default function LessonRunner({ lesson, sets }: Props) {
       });
     }
 
-    // Wrong answers queue up again, in the review too, so the lesson cannot end
-    // on a miss. Only the first pass feeds the done screen.
+    // English retains its retry loop; TKA retries each main miss exactly once.
+    // Only the first pass feeds the done screen.
     if (fb.status === "wrong") {
       if (shouldRetry(lesson.subject, phase, false)) setRetryQueue((q) => [...q, ex]);
       if (phase === "main") {
@@ -270,7 +273,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
     <div className="mx-auto flex h-dvh w-full max-w-[640px] flex-col">
       <TopBar counter={counter} onExit={requestExit} />
 
-      <main className="flex-1 overflow-y-auto px-4 pb-6 pt-1">
+      <main ref={mainRef} className="flex-1 overflow-y-auto px-4 pb-6 pt-1">
         {finishing ? (
           <div className="flex h-full items-center justify-center">
             <p className="text-lg font-semibold text-slate-500">Finishing…</p>

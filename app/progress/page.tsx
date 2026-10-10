@@ -3,7 +3,7 @@ import { getLessonOverviews } from "@/lib/content";
 import { lessonLabel } from "@/lib/categories";
 import ProgressView from "@/components/ProgressView";
 
-export const metadata = { title: "Your progress" };
+export const metadata = { title: "Progres" };
 
 // Static. Which sets are finished lives in the browser, so only the shape of
 // the syllabus comes from the server.

@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { isSubject, SUBJECTS, type Subject } from "@/lib/subjects";
+import { isSubject, SUBJECTS, SUBJECT_IDS, type Subject } from "@/lib/subjects";
 import SubjectFilter from "./SubjectFilter";
 import Link from "next/link";
 import { useFinished } from "@/lib/useFinished";
@@ -39,7 +39,7 @@ export default function ProgressView({ lessons: allLessons }: { lessons: Progres
       else m.set(`${l.subject}.${l.category}`, [l]);
       return m;
     }, new Map<string, ProgressLesson[]>()),
-  ];
+  ].sort((a, b) => SUBJECT_IDS.indexOf(a[1][0].subject) - SUBJECT_IDS.indexOf(b[1][0].subject) || a[1][0].category - b[1][0].category);
 
   return (
     <main className="mx-auto w-full max-w-[640px] px-4 pb-10 pt-8">
@@ -54,7 +54,7 @@ export default function ProgressView({ lessons: allLessons }: { lessons: Progres
           size={92}
           stroke={9}
           center={`${percent}%`}
-          label={`${doneSets} of ${totalSets} sets finished`}
+          label={`${doneSets}/${totalSets} set selesai`}
         />
         <div className="min-w-0">
           <p className="text-lg font-bold text-slate-900">
@@ -84,7 +84,7 @@ export default function ProgressView({ lessons: allLessons }: { lessons: Progres
                     <ProgressRing
                       done={done}
                       total={lesson.setIds.length}
-                      label={`${lesson.title}: ${done} of ${lesson.setIds.length} sets finished`}
+                      label={`${lesson.title}: ${done}/${lesson.setIds.length} set selesai`}
                     />
                     <span className="min-w-0 flex-1">
                       <span className="block text-base font-semibold leading-snug text-slate-900">

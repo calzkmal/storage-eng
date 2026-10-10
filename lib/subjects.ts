@@ -18,3 +18,7 @@ export const COMPETENCIES: Record<string, { subject: Subject; lessonId: string }
   "bi.inferential.character": { subject: "bahasa-indonesia", lessonId: "tka-bi-amanat-dan-tokoh" },
   "bi.inferential.message": { subject: "bahasa-indonesia", lessonId: "tka-bi-amanat-dan-tokoh" },
 };
+
+export function compareLessons(a: { subject: Subject; category: number; order: number }, b: { subject: Subject; category: number; order: number }): number {
+  return SUBJECT_IDS.indexOf(a.subject) - SUBJECT_IDS.indexOf(b.subject) || a.category - b.category || a.order - b.order;
+}

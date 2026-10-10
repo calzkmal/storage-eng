@@ -123,3 +123,18 @@ test("all 270 English variations still satisfy legacy lesson contract", () => {
   for (const l of english) { const variations = JSON.parse(fs.readFileSync(`content/variations/${l.id}.json`, "utf8")); assert.equal(variations.length, 15); for (const exercises of variations) { LessonSchema.parse({ ...l, exercises }); count++; } }
   assert.equal(count, 270);
 });
+
+test("attempt payload validates legacy defaults and TKA field combinations", async () => {
+  const { AttemptBodySchema } = await import("../lib/attemptSchema");
+  const base = { runId: "abcd1234", lessonId: "old", lessonTitle: "Old", exerciseId: "e", exerciseType: "multiple_choice", phase: "main", question: "Q", userAnswer: "A", correctAnswer: "A", correct: true, gradedBy: "local" };
+  assert.equal(AttemptBodySchema.parse(base).subject, "english");
+  const l = tka.find(l => l.subject === "bahasa-indonesia")!;
+  const e = l.exercises[0];
+  const payload = { ...base, subject: l.subject, competency: e.competency, context: attemptContext(l, e) };
+  assert(AttemptBodySchema.safeParse(payload).success);
+  assert(!AttemptBodySchema.safeParse({ ...payload, subject: "english" }).success);
+  assert(!AttemptBodySchema.safeParse({ ...payload, gradedBy: "ai" }).success);
+  assert(!AttemptBodySchema.safeParse({ ...payload, context: undefined }).success);
+  assert(!AttemptBodySchema.safeParse({ ...payload, context: { ...payload.context, evidence: ["not in text"] } }).success);
+  assert(!AttemptBodySchema.safeParse({ ...payload, subject: "unknown" }).success);
+});

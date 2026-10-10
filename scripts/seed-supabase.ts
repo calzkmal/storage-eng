@@ -1,4 +1,5 @@
 // Load the lesson files into Supabase. Idempotent; --force re-syncs seed sets.
+import { isSubject } from "../lib/subjects";
 import { isDbConfigured, seedDatabase } from "../lib/content";
 
 async function main() {
@@ -7,7 +8,9 @@ async function main() {
     process.exit(1);
   }
   const force = process.argv.includes("--force");
-  const result = await seedDatabase(force);
+  const subjectArg = process.argv.find(a => a.startsWith("--subject="))?.slice(10);
+  if (subjectArg !== undefined && !isSubject(subjectArg)) throw new Error("Unknown --subject; use english, matematika, or bahasa-indonesia");
+  const result = await seedDatabase(force, subjectArg);
   console.log(
     `Seeded ${result.lessons} lessons; ${result.createdSets} new seed set(s) created` +
       (force ? "; existing seed sets re-synced from the JSON files." : "."),

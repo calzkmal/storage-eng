@@ -12,7 +12,7 @@ export default function TopBar({ counter, onExit }: Props) {
       <button
         type="button"
         onClick={onExit}
-        aria-label="Exit lesson"
+        aria-label="Keluar dari pelajaran"
         className="flex h-12 w-12 items-center justify-center rounded-full text-2xl text-slate-500 active:bg-slate-200"
       >
         ✕
