@@ -1,0 +1,540 @@
+[
+  [
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v2-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan.",
+      "type": "multiple_choice",
+      "stimulusId": "jembatan",
+      "evidence": [
+        "Ia meminta Dodi menunggu sebentar dan memanggil Pak Seno",
+        "Lala menyeberang dengan bantuan Pak Seno.",
+        "Nisa memegang kotak bibit dari tepi jalan"
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman».",
+        "Nisa memegang kotak bibit dari tepi jalan.",
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Acuh terhadap kawan».",
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati»."
+      ],
+      "answer": "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Acuh terhadap kawan»."
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v2-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan.",
+      "type": "multiple_choice",
+      "stimulusId": "jembatan",
+      "evidence": [
+        "Ia meminta Dodi menunggu sebentar dan memanggil Pak Seno",
+        "Lala menyeberang dengan bantuan Pak Seno.",
+        "Nisa memegang kotak bibit dari tepi jalan"
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Nisa memegang kotak bibit dari tepi jalan.",
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Suka menyalahkan orang lain».",
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati».",
+        "Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman»."
+      ],
+      "answer": "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Suka menyalahkan orang lain»."
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v2-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan.",
+      "type": "multiple_select",
+      "stimulusId": "jembatan",
+      "evidence": [
+        "Ia meminta Dodi menunggu sebentar dan memanggil Pak Seno",
+        "Lala menyeberang dengan bantuan Pak Seno.",
+        "Nisa memegang kotak bibit dari tepi jalan"
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan."
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Suka menyalahkan orang lain».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan."
+        },
+        {
+          "id": "c",
+          "text": "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan."
+        },
+        {
+          "id": "d",
+          "text": "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Acuh terhadap kawan».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v2-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+      "type": "multiple_choice",
+      "stimulusId": "catatan",
+      "evidence": [
+        "memberi tahu teman-temannya apa yang sebenarnya terjadi.",
+        "Ia tidak menyalahkan teman-temannya."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Bima berusaha mencegah kesalahan terulang.",
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Selalu sempurna».",
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab».",
+        "Santi membantu kelompok dengan foto pengamatan."
+      ],
+      "answer": "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Selalu sempurna»."
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v2-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+      "type": "statement_category",
+      "stimulusId": "catatan",
+      "evidence": [
+        "memberi tahu teman-temannya apa yang sebenarnya terjadi.",
+        "Ia tidak menyalahkan teman-temannya."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Acuh pada kelompok».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Santi membantu kelompok dengan foto pengamatan.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v2-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+      "type": "multiple_choice",
+      "stimulusId": "catatan",
+      "evidence": [
+        "memberi tahu teman-temannya apa yang sebenarnya terjadi.",
+        "Ia tidak menyalahkan teman-temannya."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab».",
+        "Santi membantu kelompok dengan foto pengamatan.",
+        "Bima berusaha mencegah kesalahan terulang.",
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Acuh pada kelompok»."
+      ],
+      "answer": "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Acuh pada kelompok»."
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v2-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Gunakan konteks bacaan. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+      "type": "multiple_select",
+      "stimulusId": "layang",
+      "evidence": [
+        "Fajar memperbaiki ikatan dan memeriksa kembali panjang kedua sisi.",
+        "Ia menunjukkan cara mengukur, lalu membiarkan Fajar menandai bagian yang perlu dipotong."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fajar memperbaiki ikatan dan memeriksa kedua sisi.",
+          "explanation": "Sesuai dengan konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya»."
+        },
+        {
+          "id": "b",
+          "text": "Mira membawa air minum.",
+          "explanation": "Tidak didukung oleh konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya»."
+        },
+        {
+          "id": "c",
+          "text": "Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya.",
+          "explanation": "Sesuai dengan konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya»."
+        },
+        {
+          "id": "d",
+          "text": "Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Karena Mira ingin semua hasil dibuang».",
+          "explanation": "Tidak didukung oleh konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya»."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v2-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+      "type": "multiple_choice",
+      "stimulusId": "layang",
+      "evidence": [
+        "Fajar memperbaiki ikatan dan memeriksa kembali panjang kedua sisi.",
+        "Ia menunjukkan cara mengukur, lalu membiarkan Fajar menandai bagian yang perlu dipotong."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Fajar memperbaiki ikatan dan memeriksa kedua sisi.",
+        "Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya.",
+        "Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+        "Mira membawa air minum."
+      ],
+      "answer": "Mira membawa air minum."
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v2-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Gunakan konteks bacaan. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+      "type": "statement_category",
+      "stimulusId": "layang",
+      "evidence": [
+        "Fajar memperbaiki ikatan dan memeriksa kembali panjang kedua sisi.",
+        "Ia menunjukkan cara mengukur, lalu membiarkan Fajar menandai bagian yang perlu dipotong."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Fajar hampir membuang layang-layang pada awal cerita.",
+          "explanation": "Tidak didukung oleh konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Fajar memperbaiki ikatan dan memeriksa kedua sisi.",
+          "explanation": "Sesuai dengan konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+          "explanation": "Sesuai dengan konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v3-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan.",
+      "type": "multiple_choice",
+      "stimulusId": "jembatan",
+      "evidence": [
+        "Ia meminta Dodi menunggu sebentar dan memanggil Pak Seno",
+        "Lala menyeberang dengan bantuan Pak Seno.",
+        "Nisa memegang kotak bibit dari tepi jalan"
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Suka menyalahkan orang lain».",
+        "Nisa memegang kotak bibit dari tepi jalan.",
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Terburu-buru dan ceroboh».",
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Acuh terhadap kawan»."
+      ],
+      "answer": "Nisa memegang kotak bibit dari tepi jalan."
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v3-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan.",
+      "type": "multiple_choice",
+      "stimulusId": "jembatan",
+      "evidence": [
+        "Ia meminta Dodi menunggu sebentar dan memanggil Pak Seno",
+        "Lala menyeberang dengan bantuan Pak Seno.",
+        "Nisa memegang kotak bibit dari tepi jalan"
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati».",
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Terburu-buru dan ceroboh».",
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Acuh terhadap kawan».",
+        "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Suka menyalahkan orang lain»."
+      ],
+      "answer": "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati»."
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v3-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan.",
+      "type": "multiple_select",
+      "stimulusId": "jembatan",
+      "evidence": [
+        "Ia meminta Dodi menunggu sebentar dan memanggil Pak Seno",
+        "Lala menyeberang dengan bantuan Pak Seno.",
+        "Nisa memegang kotak bibit dari tepi jalan"
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Terburu-buru dan ceroboh».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan."
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan."
+        },
+        {
+          "id": "c",
+          "text": "Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Suka menyalahkan orang lain».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan."
+        },
+        {
+          "id": "d",
+          "text": "Nisa memegang kotak bibit dari tepi jalan.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Sifat Nisa yang paling didukung tindakannya adalah …», jawaban yang tepat ialah «Peduli dan berhati-hati». Untuk pertanyaan «Amanat yang paling sesuai dengan cerita adalah …», jawaban yang tepat ialah «Bantulah kawan dengan cara yang aman». Nisa memegang kotak bibit dari tepi jalan."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v3-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+      "type": "multiple_choice",
+      "stimulusId": "catatan",
+      "evidence": [
+        "memberi tahu teman-temannya apa yang sebenarnya terjadi.",
+        "Ia tidak menyalahkan teman-temannya."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab».",
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Suka mengarang data».",
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Acuh pada kelompok».",
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Selalu sempurna»."
+      ],
+      "answer": "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab»."
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v3-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+      "type": "statement_category",
+      "stimulusId": "catatan",
+      "evidence": [
+        "memberi tahu teman-temannya apa yang sebenarnya terjadi.",
+        "Ia tidak menyalahkan teman-temannya."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Selalu sempurna».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Bima berusaha mencegah kesalahan terulang.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Santi membantu kelompok dengan foto pengamatan.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v3-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Jujur dan bertanggung jawab». Santi membantu kelompok dengan foto pengamatan. Bima berusaha mencegah kesalahan terulang.",
+      "type": "multiple_choice",
+      "stimulusId": "catatan",
+      "evidence": [
+        "memberi tahu teman-temannya apa yang sebenarnya terjadi.",
+        "Ia tidak menyalahkan teman-temannya."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Acuh pada kelompok».",
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Selalu sempurna».",
+        "Bima berusaha mencegah kesalahan terulang.",
+        "Untuk pertanyaan «Sifat Bima saat mengakui buku tertinggal adalah …», jawaban yang tepat ialah «Suka mengarang data»."
+      ],
+      "answer": "Bima berusaha mencegah kesalahan terulang."
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v3-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Gunakan konteks bacaan. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+      "type": "multiple_select",
+      "stimulusId": "layang",
+      "evidence": [
+        "Fajar memperbaiki ikatan dan memeriksa kembali panjang kedua sisi.",
+        "Ia menunjukkan cara mengukur, lalu membiarkan Fajar menandai bagian yang perlu dipotong."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Karena Mira ingin semua hasil dibuang».",
+          "explanation": "Tidak didukung oleh konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya»."
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+          "explanation": "Sesuai dengan konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya»."
+        },
+        {
+          "id": "c",
+          "text": "Fajar hampir membuang layang-layang pada awal cerita.",
+          "explanation": "Tidak didukung oleh konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya»."
+        },
+        {
+          "id": "d",
+          "text": "Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya.",
+          "explanation": "Sesuai dengan konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya»."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v3-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+      "type": "multiple_choice",
+      "stimulusId": "layang",
+      "evidence": [
+        "Fajar memperbaiki ikatan dan memeriksa kembali panjang kedua sisi.",
+        "Ia menunjukkan cara mengukur, lalu membiarkan Fajar menandai bagian yang perlu dipotong."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Mira membawa air minum.",
+        "Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Karena Mira ingin semua hasil dibuang».",
+        "Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+        "Fajar hampir membuang layang-layang pada awal cerita."
+      ],
+      "answer": "Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya»."
+    },
+    {
+      "id": "tka-bi-amanat-dan-tokoh-v3-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.character",
+      "explanation": "Gunakan konteks bacaan. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+      "type": "statement_category",
+      "stimulusId": "layang",
+      "evidence": [
+        "Fajar memperbaiki ikatan dan memeriksa kembali panjang kedua sisi.",
+        "Ia menunjukkan cara mengukur, lalu membiarkan Fajar menandai bagian yang perlu dipotong."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya.",
+          "explanation": "Sesuai dengan konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Fajar memperbaiki ikatan dan memeriksa kedua sisi.",
+          "explanation": "Sesuai dengan konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Mira membawa air minum.",
+          "explanation": "Tidak didukung oleh konteks. Fajar memperbaiki ikatan dan memeriksa kedua sisi. Fajar berencana memeriksa ikatan sebelum kegiatan berikutnya. Untuk pertanyaan «Mengapa Mira tidak langsung membuatkan layang-layang baru?», jawaban yang tepat ialah «Agar Fajar belajar memperbaiki hasil kerjanya».",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

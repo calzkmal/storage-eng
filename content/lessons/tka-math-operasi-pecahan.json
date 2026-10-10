@@ -1,0 +1,271 @@
+{
+  "id": "tka-math-operasi-pecahan",
+  "subject": "matematika",
+  "category": 1,
+  "order": 5,
+  "title": "Operasi pecahan, desimal, dan persen",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menyelesaikan soal operasi pecahan, desimal, dan persen dan menjelaskan langkahnya."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Konsep dan aturan",
+      "text": "Jumlahkan atau kurangkan pecahan setelah penyebut disamakan. Pecahan campuran dapat diubah menjadi pecahan biasa."
+    },
+    {
+      "type": "paragraph",
+      "title": "Langkah dan pemeriksaan",
+      "text": "Perkalian pecahan mengalikan pembilang dan penyebut. Pembagian mengalikan dengan kebalikan pembagi. Sejajarkan nilai tempat pada operasi desimal; persen dihitung per seratus."
+    },
+    {
+      "type": "fraction",
+      "visual": {
+        "numerator": 2,
+        "denominator": 4
+      }
+    },
+    {
+      "type": "worked_example",
+      "question": "Berapa hasil 2/5 + 3/5?",
+      "steps": [
+        "Penyebut sama: jumlahkan pembilang."
+      ],
+      "conclusion": "Jawaban: 1 dalam satuan yang ditanyakan."
+    },
+    {
+      "type": "worked_example",
+      "question": "Berapa hasil 6/3 − 3/3?",
+      "steps": [
+        "Kurangkan pembilang karena penyebut sama."
+      ],
+      "conclusion": "Jawaban: 1 dalam satuan yang ditanyakan."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-math-operasi-pecahan-v1-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.operations",
+      "explanation": "Penyebut sama: jumlahkan pembilang. Hasilnya 1 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa hasil 2/5 + 3/5?",
+      "options": [
+        "2",
+        "0",
+        "3",
+        "1"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "tka-math-operasi-pecahan-v1-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.operations",
+      "explanation": "Jumlahkan bagian bulat dan pecahan; dua setengah menjadi satu. Hasilnya 11 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa hasil 6 1/2 + 4 1/2?",
+      "options": [
+        "10",
+        "13",
+        "11",
+        "12"
+      ],
+      "answer": "11"
+    },
+    {
+      "id": "tka-math-operasi-pecahan-v1-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.operations",
+      "explanation": "Kurangkan pembilang karena penyebut sama. Hasilnya 1 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa hasil 9/6 − 3/6?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "0"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "tka-math-operasi-pecahan-v1-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Ubah persen menjadi pecahan per seratus, lalu kalikan. Nilai yang tepat adalah 24. Penyebut sama: jumlahkan pembilang. Nilai yang tepat adalah 1. Kurangkan pembilang karena penyebut sama. Nilai yang tepat adalah 1. Kalikan pembilang dan penyebut, kemudian sederhanakan. Nilai yang tepat adalah 0,5.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Berapa hasil 30% dari 80? Jawaban: 24.",
+          "explanation": "Ubah persen menjadi pecahan per seratus, lalu kalikan. Nilai yang tepat adalah 24."
+        },
+        {
+          "id": "b",
+          "text": "Berapa hasil 2/10 + 8/10? Jawaban: 2.",
+          "explanation": "Penyebut sama: jumlahkan pembilang. Nilai yang tepat adalah 1."
+        },
+        {
+          "id": "c",
+          "text": "Berapa hasil 11/8 − 3/8? Jawaban: 1.",
+          "explanation": "Kurangkan pembilang karena penyebut sama. Nilai yang tepat adalah 1."
+        },
+        {
+          "id": "d",
+          "text": "Berapa hasil 4/3 × 3/8? Jawaban: 1,5.",
+          "explanation": "Kalikan pembilang dan penyebut, kemudian sederhanakan. Nilai yang tepat adalah 0,5."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-operasi-pecahan-v1-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.operations",
+      "explanation": "Kalikan pembilang dan penyebut, kemudian sederhanakan. Hasilnya 4/3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa hasil 4/3 × 3/3?",
+      "options": [
+        "7/3",
+        "1/3",
+        "10/3",
+        "4/3"
+      ],
+      "answer": "4/3"
+    },
+    {
+      "id": "tka-math-operasi-pecahan-v1-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Penyebut sama: jumlahkan pembilang. Nilai yang tepat adalah 1. Kurangkan pembilang karena penyebut sama. Nilai yang tepat adalah 1. Kalikan pembilang dan penyebut, kemudian sederhanakan. Nilai yang tepat adalah 0,8.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Berapa hasil 2/7 + 5/7? Jawaban: 1.",
+          "explanation": "Penyebut sama: jumlahkan pembilang. Nilai yang tepat adalah 1.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Berapa hasil 8/5 − 3/5? Jawaban: 2.",
+          "explanation": "Kurangkan pembilang karena penyebut sama. Nilai yang tepat adalah 1.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Berapa hasil 4/3 × 3/5? Jawaban: 0,8.",
+          "explanation": "Kalikan pembilang dan penyebut, kemudian sederhanakan. Nilai yang tepat adalah 0,8.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-operasi-pecahan-v1-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.operations",
+      "explanation": "Pembagian pecahan menjadi perkalian dengan kebalikan pembagi. Hasilnya 5/6 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa hasil 5/4 ÷ 6/4?",
+      "options": [
+        "17/6",
+        "5/6",
+        "11/6",
+        "-1/6"
+      ],
+      "answer": "5/6"
+    },
+    {
+      "id": "tka-math-operasi-pecahan-v1-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Kurangkan pembilang karena penyebut sama. Nilai yang tepat adalah 1. Kalikan pembilang dan penyebut, kemudian sederhanakan. Nilai yang tepat adalah 0,5. Pembagian pecahan menjadi perkalian dengan kebalikan pembagi. Nilai yang tepat adalah 0,625. Jumlahkan bagian bulat dan pecahan; dua setengah menjadi satu. Nilai yang tepat adalah 15.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Berapa hasil 11/8 − 3/8? Jawaban: 1.",
+          "explanation": "Kurangkan pembilang karena penyebut sama. Nilai yang tepat adalah 1."
+        },
+        {
+          "id": "b",
+          "text": "Berapa hasil 4/3 × 3/8? Jawaban: 1,5.",
+          "explanation": "Kalikan pembilang dan penyebut, kemudian sederhanakan. Nilai yang tepat adalah 0,5."
+        },
+        {
+          "id": "c",
+          "text": "Berapa hasil 5/4 ÷ 8/4? Jawaban: 0,625.",
+          "explanation": "Pembagian pecahan menjadi perkalian dengan kebalikan pembagi. Nilai yang tepat adalah 0,625."
+        },
+        {
+          "id": "d",
+          "text": "Berapa hasil 6 1/2 + 8 1/2? Jawaban: 16.",
+          "explanation": "Jumlahkan bagian bulat dan pecahan; dua setengah menjadi satu. Nilai yang tepat adalah 15."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-operasi-pecahan-v1-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Sejajarkan nilai tempat desimal sebelum menjumlahkan. Nilai yang tepat adalah 10,75. Ubah persen menjadi pecahan per seratus, lalu kalikan. Nilai yang tepat adalah 24. Penyebut sama: jumlahkan pembilang. Nilai yang tepat adalah 1.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Berapa hasil 7,5 + 3,25? Jawaban: 10,75.",
+          "explanation": "Sejajarkan nilai tempat desimal sebelum menjumlahkan. Nilai yang tepat adalah 10,75.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Berapa hasil 30% dari 80? Jawaban: 25.",
+          "explanation": "Ubah persen menjadi pecahan per seratus, lalu kalikan. Nilai yang tepat adalah 24.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Berapa hasil 2/6 + 4/6? Jawaban: 1.",
+          "explanation": "Penyebut sama: jumlahkan pembilang. Nilai yang tepat adalah 1.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "id": "tka-math-bangun-datar",
+  "subject": "matematika",
+  "category": 2,
+  "order": 1,
+  "title": "Sifat, keliling, dan luas bangun datar",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menyelesaikan soal sifat, keliling, dan luas bangun datar dan menjelaskan langkahnya."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Konsep dan aturan",
+      "text": "Keliling adalah panjang seluruh batas bangun. Luas adalah ukuran daerah di dalamnya. Persegi mempunyai empat sisi sama panjang; persegi panjang mempunyai dua pasang sisi berhadapan sejajar dan sama panjang."
+    },
+    {
+      "type": "paragraph",
+      "title": "Langkah dan pemeriksaan",
+      "text": "Luas segitiga = alas × tinggi tegak lurus ÷ 2. Untuk lingkaran, keliling = 2πr dan luas = πr². Bedakan jari-jari dari diameter, serta satuan panjang dari satuan luas."
+    },
+    {
+      "type": "worked_example",
+      "question": "Persegi bersisi 2 cm. Berapa cm kelilingnya?",
+      "steps": [
+        "Keliling persegi = 4 × sisi."
+      ],
+      "conclusion": "Jawaban: 8 dalam satuan yang ditanyakan."
+    },
+    {
+      "type": "worked_example",
+      "question": "Persegi bersisi 3 cm. Berapa cm² luasnya?",
+      "steps": [
+        "Luas persegi = sisi × sisi."
+      ],
+      "conclusion": "Jawaban: 9 dalam satuan yang ditanyakan."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-math-bangun-datar-v1-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.plane",
+      "explanation": "Keliling persegi = 4 × sisi. Hasilnya 8 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Persegi bersisi 2 cm. Berapa cm kelilingnya?",
+      "options": [
+        "9",
+        "7",
+        "10",
+        "8"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": "tka-math-bangun-datar-v1-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.plane",
+      "explanation": "Luas persegi panjang = panjang × lebar. Hasilnya 60 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Persegi panjang berukuran 10 cm × 6 cm. Berapa cm² luasnya?",
+      "options": [
+        "59",
+        "62",
+        "60",
+        "61"
+      ],
+      "answer": "60"
+    },
+    {
+      "id": "tka-math-bangun-datar-v1-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.plane",
+      "explanation": "Luas segitiga = alas × tinggi ÷ 2. Hasilnya 18 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Segitiga beralas 6 cm dan tinggi tegak lurus 6 cm. Berapa cm² luasnya?",
+      "options": [
+        "20",
+        "18",
+        "19",
+        "17"
+      ],
+      "answer": "18"
+    },
+    {
+      "id": "tka-math-bangun-datar-v1-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.plane",
+      "explanation": "Periksa setiap soal secara terpisah. Sisi berhadapan sejajar: ada dua pasang. Nilai yang tepat adalah 2. Segitiga dibatasi oleh tiga ruas garis. Nilai yang tepat adalah 3. Keliling persegi = 4 × sisi. Nilai yang tepat adalah 12. Luas persegi = sisi × sisi. Nilai yang tepat adalah 64.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Berapa pasang sisi sejajar yang dimiliki persegi panjang? Jawaban: 2.",
+          "explanation": "Sisi berhadapan sejajar: ada dua pasang. Nilai yang tepat adalah 2."
+        },
+        {
+          "id": "b",
+          "text": "Segitiga mempunyai berapa sisi? Jawaban: 4.",
+          "explanation": "Segitiga dibatasi oleh tiga ruas garis. Nilai yang tepat adalah 3."
+        },
+        {
+          "id": "c",
+          "text": "Persegi bersisi 3 cm. Berapa cm kelilingnya? Jawaban: 12.",
+          "explanation": "Keliling persegi = 4 × sisi. Nilai yang tepat adalah 12."
+        },
+        {
+          "id": "d",
+          "text": "Persegi bersisi 8 cm. Berapa cm² luasnya? Jawaban: 65.",
+          "explanation": "Luas persegi = sisi × sisi. Nilai yang tepat adalah 64."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-bangun-datar-v1-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.plane",
+      "explanation": "Segitiga dibatasi oleh tiga ruas garis. Hasilnya 3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Segitiga mempunyai berapa sisi?",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "3"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "tka-math-bangun-datar-v1-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.plane",
+      "explanation": "Periksa setiap soal secara terpisah. Luas persegi panjang = panjang × lebar. Nilai yang tepat adalah 14. Keliling = 2 × (panjang + lebar). Nilai yang tepat adalah 22. Luas segitiga = alas × tinggi ÷ 2. Nilai yang tepat adalah 20.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Persegi panjang berukuran 7 cm × 2 cm. Berapa cm² luasnya? Jawaban: 14.",
+          "explanation": "Luas persegi panjang = panjang × lebar. Nilai yang tepat adalah 14.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Persegi panjang berukuran 8 cm × 3 cm. Berapa cm kelilingnya? Jawaban: 23.",
+          "explanation": "Keliling = 2 × (panjang + lebar). Nilai yang tepat adalah 22.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Segitiga beralas 8 cm dan tinggi tegak lurus 5 cm. Berapa cm² luasnya? Jawaban: 20.",
+          "explanation": "Luas segitiga = alas × tinggi ÷ 2. Nilai yang tepat adalah 20.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-bangun-datar-v1-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.plane",
+      "explanation": "Keliling = 2 × (panjang + lebar). Hasilnya 32 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Persegi panjang berukuran 11 cm × 5 cm. Berapa cm kelilingnya?",
+      "options": [
+        "34",
+        "32",
+        "33",
+        "31"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": "tka-math-bangun-datar-v1-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.plane",
+      "explanation": "Periksa setiap soal secara terpisah. Luas lingkaran = π × jari-jari². Nilai yang tepat adalah 1386. Sisi berhadapan sejajar: ada dua pasang. Nilai yang tepat adalah 2. Segitiga dibatasi oleh tiga ruas garis. Nilai yang tepat adalah 3. Keliling persegi = 4 × sisi. Nilai yang tepat adalah 24.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lingkaran berjari-jari 21 cm. Gunakan π = 22/7. Berapa cm² luasnya? Jawaban: 1386.",
+          "explanation": "Luas lingkaran = π × jari-jari². Nilai yang tepat adalah 1386."
+        },
+        {
+          "id": "b",
+          "text": "Berapa pasang sisi sejajar yang dimiliki persegi panjang? Jawaban: 3.",
+          "explanation": "Sisi berhadapan sejajar: ada dua pasang. Nilai yang tepat adalah 2."
+        },
+        {
+          "id": "c",
+          "text": "Segitiga mempunyai berapa sisi? Jawaban: 3.",
+          "explanation": "Segitiga dibatasi oleh tiga ruas garis. Nilai yang tepat adalah 3."
+        },
+        {
+          "id": "d",
+          "text": "Persegi bersisi 6 cm. Berapa cm kelilingnya? Jawaban: 25.",
+          "explanation": "Keliling persegi = 4 × sisi. Nilai yang tepat adalah 24."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-bangun-datar-v1-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.plane",
+      "explanation": "Periksa setiap soal secara terpisah. Segitiga dibatasi oleh tiga ruas garis. Nilai yang tepat adalah 3. Keliling persegi = 4 × sisi. Nilai yang tepat adalah 32. Luas persegi = sisi × sisi. Nilai yang tepat adalah 16.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Segitiga mempunyai berapa sisi? Jawaban: 3.",
+          "explanation": "Segitiga dibatasi oleh tiga ruas garis. Nilai yang tepat adalah 3.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Persegi bersisi 8 cm. Berapa cm kelilingnya? Jawaban: 33.",
+          "explanation": "Keliling persegi = 4 × sisi. Nilai yang tepat adalah 32.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Persegi bersisi 4 cm. Berapa cm² luasnya? Jawaban: 16.",
+          "explanation": "Luas persegi = sisi × sisi. Nilai yang tepat adalah 16.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

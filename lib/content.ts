@@ -6,6 +6,7 @@ import { z } from "zod";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { ExerciseSchema, LessonSchema, type Exercise, type Lesson } from "./schema";
 import { getDb, isDbConfigured } from "./db";
+import { loadTkaSets } from "./tkaSets";
 
 // Question storage. Supabase is the source of truth; the JSON files seed it
 // and are the fallback when it is unreachable. Server-side only.
@@ -66,7 +67,7 @@ const fileSetId = (lessonId: string) => `file:${lessonId}`;
 function withFileSet(lesson: Lesson): LessonWithSets {
   return {
     ...lesson,
-    sets: [{ setId: fileSetId(lesson.id), version: 1, source: "seed", exercises: lesson.exercises }],
+    sets: [{ setId: fileSetId(lesson.id), version: 1, source: "seed", exercises: lesson.exercises }, ...loadTkaSets(lesson).map((exercises, i) => ({ setId: `${fileSetId(lesson.id)}:v${i + 2}`, version: i + 2, source: "variation" as const, exercises }))],
   };
 }
 

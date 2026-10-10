@@ -1,0 +1,540 @@
+[
+  [
+    {
+      "id": "tka-bi-informasi-tersurat-v2-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas.",
+      "type": "multiple_choice",
+      "stimulusId": "kebun",
+      "evidence": [
+        "kelompok kedua menanam bibit bayam",
+        "Setiap Selasa dan Jumat, murid menyiram tanaman sebelum pelajaran dimulai.",
+        "Mereka memakai enam pot bekas yang sudah dicuci."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat».",
+        "Ada enam pot bekas.",
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Membuat label».",
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam»."
+      ],
+      "answer": "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Membuat label»."
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v2-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas.",
+      "type": "multiple_choice",
+      "stimulusId": "kebun",
+      "evidence": [
+        "kelompok kedua menanam bibit bayam",
+        "Setiap Selasa dan Jumat, murid menyiram tanaman sebelum pelajaran dimulai.",
+        "Mereka memakai enam pot bekas yang sudah dicuci."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Ada enam pot bekas.",
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Memasak hasil panen».",
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam».",
+        "Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat»."
+      ],
+      "answer": "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Memasak hasil panen»."
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v2-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas.",
+      "type": "multiple_select",
+      "stimulusId": "kebun",
+      "evidence": [
+        "kelompok kedua menanam bibit bayam",
+        "Setiap Selasa dan Jumat, murid menyiram tanaman sebelum pelajaran dimulai.",
+        "Mereka memakai enam pot bekas yang sudah dicuci."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas."
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Memasak hasil panen».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas."
+        },
+        {
+          "id": "c",
+          "text": "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas."
+        },
+        {
+          "id": "d",
+          "text": "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Membuat label».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v2-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+      "type": "multiple_choice",
+      "stimulusId": "perpustakaan",
+      "evidence": [
+        "Setiap anggota boleh meminjam paling banyak dua buku selama satu minggu.",
+        "Kegiatan dimulai pukul sembilan pagi dan berakhir pukul sebelas siang."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Kartu anggota diperlukan untuk meminjam buku.",
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Semua buku».",
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua».",
+        "Pojok baca dimulai pukul sembilan pagi."
+      ],
+      "answer": "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Semua buku»."
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v2-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+      "type": "statement_category",
+      "stimulusId": "perpustakaan",
+      "evidence": [
+        "Setiap anggota boleh meminjam paling banyak dua buku selama satu minggu.",
+        "Kegiatan dimulai pukul sembilan pagi dan berakhir pukul sebelas siang."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Tiga».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Pojok baca dimulai pukul sembilan pagi.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v2-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+      "type": "multiple_choice",
+      "stimulusId": "perpustakaan",
+      "evidence": [
+        "Setiap anggota boleh meminjam paling banyak dua buku selama satu minggu.",
+        "Kegiatan dimulai pukul sembilan pagi dan berakhir pukul sebelas siang."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua».",
+        "Pojok baca dimulai pukul sembilan pagi.",
+        "Kartu anggota diperlukan untuk meminjam buku.",
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Tiga»."
+      ],
+      "answer": "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Tiga»."
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v2-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Gunakan konteks bacaan. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+      "type": "multiple_select",
+      "stimulusId": "sampah",
+      "evidence": [
+        "Kantong hijau digunakan untuk sisa makanan dan kulit buah.",
+        "Sebelum meninggalkan taman, setiap kelompok memeriksa area duduknya."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kulit buah di kantong hijau.",
+          "explanation": "Sesuai dengan konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk»."
+        },
+        {
+          "id": "b",
+          "text": "Semua kantong ditinggalkan dekat pohon.",
+          "explanation": "Tidak didukung oleh konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk»."
+        },
+        {
+          "id": "c",
+          "text": "Kertas bersih di kantong biru.",
+          "explanation": "Sesuai dengan konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk»."
+        },
+        {
+          "id": "d",
+          "text": "Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Menanam pohon baru».",
+          "explanation": "Tidak didukung oleh konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk»."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v2-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+      "type": "multiple_choice",
+      "stimulusId": "sampah",
+      "evidence": [
+        "Kantong hijau digunakan untuk sisa makanan dan kulit buah.",
+        "Sebelum meninggalkan taman, setiap kelompok memeriksa area duduknya."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Kulit buah di kantong hijau.",
+        "Kertas bersih di kantong biru.",
+        "Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+        "Semua kantong ditinggalkan dekat pohon."
+      ],
+      "answer": "Semua kantong ditinggalkan dekat pohon."
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v2-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Gunakan konteks bacaan. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+      "type": "statement_category",
+      "stimulusId": "sampah",
+      "evidence": [
+        "Kantong hijau digunakan untuk sisa makanan dan kulit buah.",
+        "Sebelum meninggalkan taman, setiap kelompok memeriksa area duduknya."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Botol minum sendiri di kantong abu-abu.",
+          "explanation": "Tidak didukung oleh konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Kulit buah di kantong hijau.",
+          "explanation": "Sesuai dengan konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+          "explanation": "Sesuai dengan konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-bi-informasi-tersurat-v3-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas.",
+      "type": "multiple_choice",
+      "stimulusId": "kebun",
+      "evidence": [
+        "kelompok kedua menanam bibit bayam",
+        "Setiap Selasa dan Jumat, murid menyiram tanaman sebelum pelajaran dimulai.",
+        "Mereka memakai enam pot bekas yang sudah dicuci."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Memasak hasil panen».",
+        "Ada enam pot bekas.",
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menyiapkan tanah».",
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Membuat label»."
+      ],
+      "answer": "Ada enam pot bekas."
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v3-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas.",
+      "type": "multiple_choice",
+      "stimulusId": "kebun",
+      "evidence": [
+        "kelompok kedua menanam bibit bayam",
+        "Setiap Selasa dan Jumat, murid menyiram tanaman sebelum pelajaran dimulai.",
+        "Mereka memakai enam pot bekas yang sudah dicuci."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam».",
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menyiapkan tanah».",
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Membuat label».",
+        "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Memasak hasil panen»."
+      ],
+      "answer": "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam»."
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v3-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas.",
+      "type": "multiple_select",
+      "stimulusId": "kebun",
+      "evidence": [
+        "kelompok kedua menanam bibit bayam",
+        "Setiap Selasa dan Jumat, murid menyiram tanaman sebelum pelajaran dimulai.",
+        "Mereka memakai enam pot bekas yang sudah dicuci."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menyiapkan tanah».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas."
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas."
+        },
+        {
+          "id": "c",
+          "text": "Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Memasak hasil panen».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas."
+        },
+        {
+          "id": "d",
+          "text": "Ada enam pot bekas.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Apa tugas kelompok kedua?», jawaban yang tepat ialah «Menanam bibit bayam». Untuk pertanyaan «Kapan tanaman disiram secara terjadwal?», jawaban yang tepat ialah «Setiap Selasa dan Jumat». Ada enam pot bekas."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v3-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+      "type": "multiple_choice",
+      "stimulusId": "perpustakaan",
+      "evidence": [
+        "Setiap anggota boleh meminjam paling banyak dua buku selama satu minggu.",
+        "Kegiatan dimulai pukul sembilan pagi dan berakhir pukul sebelas siang."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua».",
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Satu».",
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Tiga».",
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Semua buku»."
+      ],
+      "answer": "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua»."
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v3-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+      "type": "statement_category",
+      "stimulusId": "perpustakaan",
+      "evidence": [
+        "Setiap anggota boleh meminjam paling banyak dua buku selama satu minggu.",
+        "Kegiatan dimulai pukul sembilan pagi dan berakhir pukul sebelas siang."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Semua buku».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Kartu anggota diperlukan untuk meminjam buku.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Pojok baca dimulai pukul sembilan pagi.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v3-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Dua». Pojok baca dimulai pukul sembilan pagi. Kartu anggota diperlukan untuk meminjam buku.",
+      "type": "multiple_choice",
+      "stimulusId": "perpustakaan",
+      "evidence": [
+        "Setiap anggota boleh meminjam paling banyak dua buku selama satu minggu.",
+        "Kegiatan dimulai pukul sembilan pagi dan berakhir pukul sebelas siang."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Tiga».",
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Semua buku».",
+        "Kartu anggota diperlukan untuk meminjam buku.",
+        "Untuk pertanyaan «Berapa buku paling banyak yang boleh dipinjam setiap anggota?», jawaban yang tepat ialah «Satu»."
+      ],
+      "answer": "Kartu anggota diperlukan untuk meminjam buku."
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v3-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Gunakan konteks bacaan. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+      "type": "multiple_select",
+      "stimulusId": "sampah",
+      "evidence": [
+        "Kantong hijau digunakan untuk sisa makanan dan kulit buah.",
+        "Sebelum meninggalkan taman, setiap kelompok memeriksa area duduknya."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Menanam pohon baru».",
+          "explanation": "Tidak didukung oleh konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk»."
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+          "explanation": "Sesuai dengan konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk»."
+        },
+        {
+          "id": "c",
+          "text": "Botol minum sendiri di kantong abu-abu.",
+          "explanation": "Tidak didukung oleh konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk»."
+        },
+        {
+          "id": "d",
+          "text": "Kertas bersih di kantong biru.",
+          "explanation": "Sesuai dengan konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk»."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v3-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+      "type": "multiple_choice",
+      "stimulusId": "sampah",
+      "evidence": [
+        "Kantong hijau digunakan untuk sisa makanan dan kulit buah.",
+        "Sebelum meninggalkan taman, setiap kelompok memeriksa area duduknya."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Semua kantong ditinggalkan dekat pohon.",
+        "Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Menanam pohon baru».",
+        "Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+        "Botol minum sendiri di kantong abu-abu."
+      ],
+      "answer": "Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk»."
+    },
+    {
+      "id": "tka-bi-informasi-tersurat-v3-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.explicit",
+      "explanation": "Gunakan konteks bacaan. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+      "type": "statement_category",
+      "stimulusId": "sampah",
+      "evidence": [
+        "Kantong hijau digunakan untuk sisa makanan dan kulit buah.",
+        "Sebelum meninggalkan taman, setiap kelompok memeriksa area duduknya."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Kertas bersih di kantong biru.",
+          "explanation": "Sesuai dengan konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Kulit buah di kantong hijau.",
+          "explanation": "Sesuai dengan konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Semua kantong ditinggalkan dekat pohon.",
+          "explanation": "Tidak didukung oleh konteks. Kulit buah di kantong hijau. Kertas bersih di kantong biru. Untuk pertanyaan «Apa yang dilakukan murid sebelum meninggalkan taman?», jawaban yang tepat ialah «Memeriksa area duduk».",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

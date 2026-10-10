@@ -1,0 +1,444 @@
+[
+  [
+    {
+      "id": "tka-math-aljabar-sederhana-v2-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Kurangi konstanta dahulu, lalu bagi dengan koefisien. Hasilnya 6 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "6x + 4 = 40. Berapa x?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v2-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Kalikan kedua ruas dengan pembagi. Hasilnya 24 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "x/8 = 3. Berapa x?",
+      "options": [
+        "26",
+        "24",
+        "25",
+        "23"
+      ],
+      "answer": "24"
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v2-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Hasilnya -7 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "x − 3 = −10. Berapa x?",
+      "options": [
+        "-7",
+        "-6",
+        "-8",
+        "-5"
+      ],
+      "answer": "-7"
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v2-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Periksa setiap soal secara terpisah. Bagi kedua ruas dengan koefisien x. Nilai yang tepat adalah 5. Kurangi konstanta dahulu, lalu bagi dengan koefisien. Nilai yang tepat adalah 6. Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 35. Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Nilai yang tepat adalah -8.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "5x = 25. Berapa x? Jawaban: 6.",
+          "explanation": "Bagi kedua ruas dengan koefisien x. Nilai yang tepat adalah 5."
+        },
+        {
+          "id": "b",
+          "text": "5x + 6 = 36. Berapa x? Jawaban: 6.",
+          "explanation": "Kurangi konstanta dahulu, lalu bagi dengan koefisien. Nilai yang tepat adalah 6."
+        },
+        {
+          "id": "c",
+          "text": "x/5 = 7. Berapa x? Jawaban: 36.",
+          "explanation": "Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 35."
+        },
+        {
+          "id": "d",
+          "text": "x − 5 = −13. Berapa x? Jawaban: -8.",
+          "explanation": "Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Nilai yang tepat adalah -8."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v2-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Bagi kedua ruas dengan koefisien x. Hasilnya 8 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "6x = 48. Berapa x?",
+      "options": [
+        "7",
+        "10",
+        "8",
+        "9"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v2-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Periksa setiap soal secara terpisah. Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 48. Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Nilai yang tepat adalah -7. Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 8.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "x/8 = 6. Berapa x? Jawaban: 49.",
+          "explanation": "Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 48.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "x − 8 = −15. Berapa x? Jawaban: -7.",
+          "explanation": "Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Nilai yang tepat adalah -7.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "x + 8 = 16. Berapa x? Jawaban: 8.",
+          "explanation": "Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 8.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v2-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Kalikan kedua ruas dengan pembagi. Hasilnya 8 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "x/4 = 2. Berapa x?",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "10"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v2-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Periksa setiap soal secara terpisah. Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 7. Bagi kedua ruas dengan koefisien x. Nilai yang tepat adalah 8. Kurangi konstanta dahulu, lalu bagi dengan koefisien. Nilai yang tepat adalah 2. Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 18.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "x + 5 = 12. Berapa x? Jawaban: 8.",
+          "explanation": "Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 7."
+        },
+        {
+          "id": "b",
+          "text": "5x = 40. Berapa x? Jawaban: 8.",
+          "explanation": "Bagi kedua ruas dengan koefisien x. Nilai yang tepat adalah 8."
+        },
+        {
+          "id": "c",
+          "text": "6x + 6 = 18. Berapa x? Jawaban: 3.",
+          "explanation": "Kurangi konstanta dahulu, lalu bagi dengan koefisien. Nilai yang tepat adalah 2."
+        },
+        {
+          "id": "d",
+          "text": "x/6 = 3. Berapa x? Jawaban: 18.",
+          "explanation": "Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 18."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v2-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Periksa setiap soal secara terpisah. Bagi kedua ruas dengan koefisien x. Nilai yang tepat adalah 4. Kurangi konstanta dahulu, lalu bagi dengan koefisien. Nilai yang tepat adalah 5. Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 42.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "7x = 28. Berapa x? Jawaban: 5.",
+          "explanation": "Bagi kedua ruas dengan koefisien x. Nilai yang tepat adalah 4.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "7x + 4 = 39. Berapa x? Jawaban: 5.",
+          "explanation": "Kurangi konstanta dahulu, lalu bagi dengan koefisien. Nilai yang tepat adalah 5.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "x/7 = 6. Berapa x? Jawaban: 42.",
+          "explanation": "Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 42.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-math-aljabar-sederhana-v3-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Hasilnya -3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "x − 4 = −7. Berapa x?",
+      "options": [
+        "-1",
+        "-3",
+        "-2",
+        "-4"
+      ],
+      "answer": "-3"
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v3-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Kurangi kedua ruas dengan bilangan yang sama. Hasilnya 7 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "x + 5 = 12. Berapa x?",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "9"
+      ],
+      "answer": "7"
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v3-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Bagi kedua ruas dengan koefisien x. Hasilnya 4 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "7x = 28. Berapa x?",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v3-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Periksa setiap soal secara terpisah. Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 6. Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Nilai yang tepat adalah -3. Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 4. Bagi kedua ruas dengan koefisien x. Nilai yang tepat adalah 5.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "x/3 = 2. Berapa x? Jawaban: 6.",
+          "explanation": "Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 6."
+        },
+        {
+          "id": "b",
+          "text": "x − 3 = −6. Berapa x? Jawaban: -2.",
+          "explanation": "Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Nilai yang tepat adalah -3."
+        },
+        {
+          "id": "c",
+          "text": "x + 3 = 7. Berapa x? Jawaban: 4.",
+          "explanation": "Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 4."
+        },
+        {
+          "id": "d",
+          "text": "3x = 15. Berapa x? Jawaban: 6.",
+          "explanation": "Bagi kedua ruas dengan koefisien x. Nilai yang tepat adalah 5."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v3-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Kalikan kedua ruas dengan pembagi. Hasilnya 20 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "x/4 = 5. Berapa x?",
+      "options": [
+        "22",
+        "20",
+        "21",
+        "19"
+      ],
+      "answer": "20"
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v3-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Periksa setiap soal secara terpisah. Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 3. Bagi kedua ruas dengan koefisien x. Nilai yang tepat adalah 4. Kurangi konstanta dahulu, lalu bagi dengan koefisien. Nilai yang tepat adalah 5.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "x + 6 = 9. Berapa x? Jawaban: 3.",
+          "explanation": "Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 3.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "6x = 24. Berapa x? Jawaban: 4.",
+          "explanation": "Bagi kedua ruas dengan koefisien x. Nilai yang tepat adalah 4.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "6x + 6 = 36. Berapa x? Jawaban: 6.",
+          "explanation": "Kurangi konstanta dahulu, lalu bagi dengan koefisien. Nilai yang tepat adalah 5.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v3-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Kurangi kedua ruas dengan bilangan yang sama. Hasilnya 6 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "x + 7 = 13. Berapa x?",
+      "options": [
+        "7",
+        "5",
+        "8",
+        "6"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v3-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Periksa setiap soal secara terpisah. Kurangi konstanta dahulu, lalu bagi dengan koefisien. Nilai yang tepat adalah 4. Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 15. Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Nilai yang tepat adalah -6. Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 7.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "3x + 2 = 14. Berapa x? Jawaban: 4.",
+          "explanation": "Kurangi konstanta dahulu, lalu bagi dengan koefisien. Nilai yang tepat adalah 4."
+        },
+        {
+          "id": "b",
+          "text": "x/3 = 5. Berapa x? Jawaban: 16.",
+          "explanation": "Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 15."
+        },
+        {
+          "id": "c",
+          "text": "x − 3 = −9. Berapa x? Jawaban: -6.",
+          "explanation": "Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Nilai yang tepat adalah -6."
+        },
+        {
+          "id": "d",
+          "text": "x + 3 = 10. Berapa x? Jawaban: 8.",
+          "explanation": "Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 7."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-aljabar-sederhana-v3-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.equation",
+      "explanation": "Periksa setiap soal secara terpisah. Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 32. Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Nilai yang tepat adalah -2. Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 3.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "x/4 = 8. Berapa x? Jawaban: 32.",
+          "explanation": "Kalikan kedua ruas dengan pembagi. Nilai yang tepat adalah 32.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "x − 5 = −7. Berapa x? Jawaban: -2.",
+          "explanation": "Tambah kedua ruas dengan b, tetap perhatikan tanda negatif. Nilai yang tepat adalah -2.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "x + 5 = 8. Berapa x? Jawaban: 4.",
+          "explanation": "Kurangi kedua ruas dengan bilangan yang sama. Nilai yang tepat adalah 3.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

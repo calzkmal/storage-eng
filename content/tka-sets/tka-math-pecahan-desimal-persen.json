@@ -1,0 +1,444 @@
+[
+  [
+    {
+      "id": "tka-math-pecahan-desimal-persen-v2-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Hasilnya 80 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa persen yang setara dengan 4/5?",
+      "options": [
+        "79",
+        "82",
+        "80",
+        "81"
+      ],
+      "answer": "80"
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v2-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Hasilnya 60 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa persen yang setara dengan 3/5?",
+      "options": [
+        "62",
+        "60",
+        "61",
+        "59"
+      ],
+      "answer": "60"
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v2-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Hasilnya 40 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa persen yang setara dengan 2/5?",
+      "options": [
+        "40",
+        "41",
+        "39",
+        "42"
+      ],
+      "answer": "40"
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v2-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "Periksa setiap soal secara terpisah. 2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40. 3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60. 4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80. 1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Berapa persen yang setara dengan 2/5? Jawaban: 41.",
+          "explanation": "2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40."
+        },
+        {
+          "id": "b",
+          "text": "Berapa persen yang setara dengan 3/5? Jawaban: 60.",
+          "explanation": "3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60."
+        },
+        {
+          "id": "c",
+          "text": "Berapa persen yang setara dengan 4/5? Jawaban: 81.",
+          "explanation": "4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80."
+        },
+        {
+          "id": "d",
+          "text": "Berapa persen yang setara dengan 1/5? Jawaban: 20.",
+          "explanation": "1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v2-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Hasilnya 80 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa persen yang setara dengan 4/5?",
+      "options": [
+        "79",
+        "82",
+        "80",
+        "81"
+      ],
+      "answer": "80"
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v2-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "Periksa setiap soal secara terpisah. 4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80. 1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20. 2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Berapa persen yang setara dengan 4/5? Jawaban: 81.",
+          "explanation": "4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Berapa persen yang setara dengan 1/5? Jawaban: 20.",
+          "explanation": "1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Berapa persen yang setara dengan 2/5? Jawaban: 40.",
+          "explanation": "2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v2-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Hasilnya 40 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa persen yang setara dengan 2/5?",
+      "options": [
+        "40",
+        "41",
+        "39",
+        "42"
+      ],
+      "answer": "40"
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v2-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "Periksa setiap soal secara terpisah. 2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40. 3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60. 4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80. 1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Berapa persen yang setara dengan 2/5? Jawaban: 41.",
+          "explanation": "2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40."
+        },
+        {
+          "id": "b",
+          "text": "Berapa persen yang setara dengan 3/5? Jawaban: 60.",
+          "explanation": "3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60."
+        },
+        {
+          "id": "c",
+          "text": "Berapa persen yang setara dengan 4/5? Jawaban: 81.",
+          "explanation": "4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80."
+        },
+        {
+          "id": "d",
+          "text": "Berapa persen yang setara dengan 1/5? Jawaban: 20.",
+          "explanation": "1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v2-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "Periksa setiap soal secara terpisah. 1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20. 2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40. 3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Berapa persen yang setara dengan 1/5? Jawaban: 21.",
+          "explanation": "1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Berapa persen yang setara dengan 2/5? Jawaban: 40.",
+          "explanation": "2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Berapa persen yang setara dengan 3/5? Jawaban: 60.",
+          "explanation": "3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-math-pecahan-desimal-persen-v3-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Hasilnya 60 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa persen yang setara dengan 3/5?",
+      "options": [
+        "62",
+        "60",
+        "61",
+        "59"
+      ],
+      "answer": "60"
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v3-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Hasilnya 40 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa persen yang setara dengan 2/5?",
+      "options": [
+        "40",
+        "41",
+        "39",
+        "42"
+      ],
+      "answer": "40"
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v3-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Hasilnya 20 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa persen yang setara dengan 1/5?",
+      "options": [
+        "21",
+        "19",
+        "22",
+        "20"
+      ],
+      "answer": "20"
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v3-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "Periksa setiap soal secara terpisah. 1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20. 2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40. 3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60. 4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Berapa persen yang setara dengan 1/5? Jawaban: 20.",
+          "explanation": "1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20."
+        },
+        {
+          "id": "b",
+          "text": "Berapa persen yang setara dengan 2/5? Jawaban: 41.",
+          "explanation": "2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40."
+        },
+        {
+          "id": "c",
+          "text": "Berapa persen yang setara dengan 3/5? Jawaban: 60.",
+          "explanation": "3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60."
+        },
+        {
+          "id": "d",
+          "text": "Berapa persen yang setara dengan 4/5? Jawaban: 81.",
+          "explanation": "4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v3-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Hasilnya 60 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa persen yang setara dengan 3/5?",
+      "options": [
+        "62",
+        "60",
+        "61",
+        "59"
+      ],
+      "answer": "60"
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v3-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "Periksa setiap soal secara terpisah. 3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60. 4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80. 1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Berapa persen yang setara dengan 3/5? Jawaban: 60.",
+          "explanation": "3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Berapa persen yang setara dengan 4/5? Jawaban: 80.",
+          "explanation": "4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Berapa persen yang setara dengan 1/5? Jawaban: 21.",
+          "explanation": "1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v3-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Hasilnya 20 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Berapa persen yang setara dengan 1/5?",
+      "options": [
+        "21",
+        "19",
+        "22",
+        "20"
+      ],
+      "answer": "20"
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v3-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "Periksa setiap soal secara terpisah. 1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20. 2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40. 3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60. 4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Berapa persen yang setara dengan 1/5? Jawaban: 20.",
+          "explanation": "1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20."
+        },
+        {
+          "id": "b",
+          "text": "Berapa persen yang setara dengan 2/5? Jawaban: 41.",
+          "explanation": "2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40."
+        },
+        {
+          "id": "c",
+          "text": "Berapa persen yang setara dengan 3/5? Jawaban: 60.",
+          "explanation": "3/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 60."
+        },
+        {
+          "id": "d",
+          "text": "Berapa persen yang setara dengan 4/5? Jawaban: 81.",
+          "explanation": "4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-desimal-persen-v3-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.forms",
+      "explanation": "Periksa setiap soal secara terpisah. 4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80. 1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20. 2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Berapa persen yang setara dengan 4/5? Jawaban: 80.",
+          "explanation": "4/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 80.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Berapa persen yang setara dengan 1/5? Jawaban: 20.",
+          "explanation": "1/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 20.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Berapa persen yang setara dengan 2/5? Jawaban: 41.",
+          "explanation": "2/5 dikalikan 100%. Tulis jawabannya sebagai bilangan persen, tanpa tanda %. Nilai yang tepat adalah 40.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

@@ -1,0 +1,444 @@
+[
+  [
+    {
+      "id": "tka-math-pecahan-senilai-v2-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "6 ÷ 6 = 1 dan 36 ÷ 6 = 6; nilainya 1/6. Hasilnya 1/6 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pecahan 6/36 disederhanakan dengan membagi pembilang dan penyebut dengan 6. Berapa nilai pecahan itu?",
+      "options": [
+        "-5/6",
+        "13/6",
+        "1/6",
+        "7/6"
+      ],
+      "answer": "1/6"
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v2-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "3 ÷ 3 = 1 dan 24 ÷ 3 = 8; nilainya 1/8. Hasilnya 0,125 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pecahan 3/24 disederhanakan dengan membagi pembilang dan penyebut dengan 3. Berapa nilai pecahan itu?",
+      "options": [
+        "2,125",
+        "0,125",
+        "1,125",
+        "-0,875"
+      ],
+      "answer": "0,125"
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v2-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "7 ÷ 7 = 1 dan 21 ÷ 7 = 3; nilainya 1/3. Hasilnya 1/3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pecahan 7/21 disederhanakan dengan membagi pembilang dan penyebut dengan 7. Berapa nilai pecahan itu?",
+      "options": [
+        "1/3",
+        "4/3",
+        "-2/3",
+        "7/3"
+      ],
+      "answer": "1/3"
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v2-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "Periksa setiap soal secara terpisah. 5 ÷ 5 = 1 dan 25 ÷ 5 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2. 6 ÷ 6 = 1 dan 30 ÷ 6 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2. 7 ÷ 7 = 1 dan 35 ÷ 7 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2. 8 ÷ 8 = 1 dan 40 ÷ 8 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pecahan 5/25 disederhanakan dengan membagi pembilang dan penyebut dengan 5. Berapa nilai pecahan itu? Jawaban: 1,2.",
+          "explanation": "5 ÷ 5 = 1 dan 25 ÷ 5 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2."
+        },
+        {
+          "id": "b",
+          "text": "Pecahan 6/30 disederhanakan dengan membagi pembilang dan penyebut dengan 6. Berapa nilai pecahan itu? Jawaban: 0,2.",
+          "explanation": "6 ÷ 6 = 1 dan 30 ÷ 6 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2."
+        },
+        {
+          "id": "c",
+          "text": "Pecahan 7/35 disederhanakan dengan membagi pembilang dan penyebut dengan 7. Berapa nilai pecahan itu? Jawaban: 1,2.",
+          "explanation": "7 ÷ 7 = 1 dan 35 ÷ 7 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2."
+        },
+        {
+          "id": "d",
+          "text": "Pecahan 8/40 disederhanakan dengan membagi pembilang dan penyebut dengan 8. Berapa nilai pecahan itu? Jawaban: 0,2.",
+          "explanation": "8 ÷ 8 = 1 dan 40 ÷ 8 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v2-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "8 ÷ 8 = 1 dan 48 ÷ 8 = 6; nilainya 1/6. Hasilnya 1/6 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pecahan 8/48 disederhanakan dengan membagi pembilang dan penyebut dengan 8. Berapa nilai pecahan itu?",
+      "options": [
+        "-5/6",
+        "13/6",
+        "1/6",
+        "7/6"
+      ],
+      "answer": "1/6"
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v2-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "Periksa setiap soal secara terpisah. 6 ÷ 6 = 1 dan 48 ÷ 6 = 8; nilainya 1/8. Nilai yang tepat adalah 0,125. 7 ÷ 7 = 1 dan 56 ÷ 7 = 8; nilainya 1/8. Nilai yang tepat adalah 0,125. 8 ÷ 8 = 1 dan 64 ÷ 8 = 8; nilainya 1/8. Nilai yang tepat adalah 0,125.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Pecahan 6/48 disederhanakan dengan membagi pembilang dan penyebut dengan 6. Berapa nilai pecahan itu? Jawaban: 1,125.",
+          "explanation": "6 ÷ 6 = 1 dan 48 ÷ 6 = 8; nilainya 1/8. Nilai yang tepat adalah 0,125.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Pecahan 7/56 disederhanakan dengan membagi pembilang dan penyebut dengan 7. Berapa nilai pecahan itu? Jawaban: 0,125.",
+          "explanation": "7 ÷ 7 = 1 dan 56 ÷ 7 = 8; nilainya 1/8. Nilai yang tepat adalah 0,125.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Pecahan 8/64 disederhanakan dengan membagi pembilang dan penyebut dengan 8. Berapa nilai pecahan itu? Jawaban: 0,125.",
+          "explanation": "8 ÷ 8 = 1 dan 64 ÷ 8 = 8; nilainya 1/8. Nilai yang tepat adalah 0,125.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v2-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "2 ÷ 2 = 1 dan 8 ÷ 2 = 4; nilainya 1/4. Hasilnya 0,25 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pecahan 2/8 disederhanakan dengan membagi pembilang dan penyebut dengan 2. Berapa nilai pecahan itu?",
+      "options": [
+        "0,25",
+        "1,25",
+        "-0,75",
+        "2,25"
+      ],
+      "answer": "0,25"
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v2-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "Periksa setiap soal secara terpisah. 7 ÷ 7 = 1 dan 35 ÷ 7 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2. 8 ÷ 8 = 1 dan 40 ÷ 8 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2. 2 ÷ 2 = 1 dan 12 ÷ 2 = 6; nilainya 1/6. Nilai yang tepat adalah 1/6. 3 ÷ 3 = 1 dan 18 ÷ 3 = 6; nilainya 1/6. Nilai yang tepat adalah 1/6.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pecahan 7/35 disederhanakan dengan membagi pembilang dan penyebut dengan 7. Berapa nilai pecahan itu? Jawaban: 1,2.",
+          "explanation": "7 ÷ 7 = 1 dan 35 ÷ 7 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2."
+        },
+        {
+          "id": "b",
+          "text": "Pecahan 8/40 disederhanakan dengan membagi pembilang dan penyebut dengan 8. Berapa nilai pecahan itu? Jawaban: 0,2.",
+          "explanation": "8 ÷ 8 = 1 dan 40 ÷ 8 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2."
+        },
+        {
+          "id": "c",
+          "text": "Pecahan 2/12 disederhanakan dengan membagi pembilang dan penyebut dengan 2. Berapa nilai pecahan itu? Jawaban: 7/6.",
+          "explanation": "2 ÷ 2 = 1 dan 12 ÷ 2 = 6; nilainya 1/6. Nilai yang tepat adalah 1/6."
+        },
+        {
+          "id": "d",
+          "text": "Pecahan 3/18 disederhanakan dengan membagi pembilang dan penyebut dengan 3. Berapa nilai pecahan itu? Jawaban: 1/6.",
+          "explanation": "3 ÷ 3 = 1 dan 18 ÷ 3 = 6; nilainya 1/6. Nilai yang tepat adalah 1/6."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v2-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "Periksa setiap soal secara terpisah. 4 ÷ 4 = 1 dan 28 ÷ 4 = 7; nilainya 1/7. Nilai yang tepat adalah 1/7. 5 ÷ 5 = 1 dan 35 ÷ 5 = 7; nilainya 1/7. Nilai yang tepat adalah 1/7. 6 ÷ 6 = 1 dan 42 ÷ 6 = 7; nilainya 1/7. Nilai yang tepat adalah 1/7.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Pecahan 4/28 disederhanakan dengan membagi pembilang dan penyebut dengan 4. Berapa nilai pecahan itu? Jawaban: 8/7.",
+          "explanation": "4 ÷ 4 = 1 dan 28 ÷ 4 = 7; nilainya 1/7. Nilai yang tepat adalah 1/7.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Pecahan 5/35 disederhanakan dengan membagi pembilang dan penyebut dengan 5. Berapa nilai pecahan itu? Jawaban: 1/7.",
+          "explanation": "5 ÷ 5 = 1 dan 35 ÷ 5 = 7; nilainya 1/7. Nilai yang tepat adalah 1/7.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Pecahan 6/42 disederhanakan dengan membagi pembilang dan penyebut dengan 6. Berapa nilai pecahan itu? Jawaban: 1/7.",
+          "explanation": "6 ÷ 6 = 1 dan 42 ÷ 6 = 7; nilainya 1/7. Nilai yang tepat adalah 1/7.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-math-pecahan-senilai-v3-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "3 ÷ 3 = 1 dan 12 ÷ 3 = 4; nilainya 1/4. Hasilnya 0,25 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pecahan 3/12 disederhanakan dengan membagi pembilang dan penyebut dengan 3. Berapa nilai pecahan itu?",
+      "options": [
+        "2,25",
+        "0,25",
+        "1,25",
+        "-0,75"
+      ],
+      "answer": "0,25"
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v3-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "7 ÷ 7 = 1 dan 35 ÷ 7 = 5; nilainya 1/5. Hasilnya 0,2 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pecahan 7/35 disederhanakan dengan membagi pembilang dan penyebut dengan 7. Berapa nilai pecahan itu?",
+      "options": [
+        "0,2",
+        "1,2",
+        "-0,8",
+        "2,2"
+      ],
+      "answer": "0,2"
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v3-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "4 ÷ 4 = 1 dan 28 ÷ 4 = 7; nilainya 1/7. Hasilnya 1/7 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pecahan 4/28 disederhanakan dengan membagi pembilang dan penyebut dengan 4. Berapa nilai pecahan itu?",
+      "options": [
+        "8/7",
+        "-6/7",
+        "15/7",
+        "1/7"
+      ],
+      "answer": "1/7"
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v3-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "Periksa setiap soal secara terpisah. 2 ÷ 2 = 1 dan 6 ÷ 2 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3. 3 ÷ 3 = 1 dan 9 ÷ 3 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3. 4 ÷ 4 = 1 dan 12 ÷ 4 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3. 5 ÷ 5 = 1 dan 15 ÷ 5 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pecahan 2/6 disederhanakan dengan membagi pembilang dan penyebut dengan 2. Berapa nilai pecahan itu? Jawaban: 1/3.",
+          "explanation": "2 ÷ 2 = 1 dan 6 ÷ 2 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3."
+        },
+        {
+          "id": "b",
+          "text": "Pecahan 3/9 disederhanakan dengan membagi pembilang dan penyebut dengan 3. Berapa nilai pecahan itu? Jawaban: 4/3.",
+          "explanation": "3 ÷ 3 = 1 dan 9 ÷ 3 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3."
+        },
+        {
+          "id": "c",
+          "text": "Pecahan 4/12 disederhanakan dengan membagi pembilang dan penyebut dengan 4. Berapa nilai pecahan itu? Jawaban: 1/3.",
+          "explanation": "4 ÷ 4 = 1 dan 12 ÷ 4 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3."
+        },
+        {
+          "id": "d",
+          "text": "Pecahan 5/15 disederhanakan dengan membagi pembilang dan penyebut dengan 5. Berapa nilai pecahan itu? Jawaban: 4/3.",
+          "explanation": "5 ÷ 5 = 1 dan 15 ÷ 5 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v3-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "5 ÷ 5 = 1 dan 20 ÷ 5 = 4; nilainya 1/4. Hasilnya 0,25 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pecahan 5/20 disederhanakan dengan membagi pembilang dan penyebut dengan 5. Berapa nilai pecahan itu?",
+      "options": [
+        "2,25",
+        "0,25",
+        "1,25",
+        "-0,75"
+      ],
+      "answer": "0,25"
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v3-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "Periksa setiap soal secara terpisah. 3 ÷ 3 = 1 dan 18 ÷ 3 = 6; nilainya 1/6. Nilai yang tepat adalah 1/6. 4 ÷ 4 = 1 dan 24 ÷ 4 = 6; nilainya 1/6. Nilai yang tepat adalah 1/6. 5 ÷ 5 = 1 dan 30 ÷ 5 = 6; nilainya 1/6. Nilai yang tepat adalah 1/6.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Pecahan 3/18 disederhanakan dengan membagi pembilang dan penyebut dengan 3. Berapa nilai pecahan itu? Jawaban: 1/6.",
+          "explanation": "3 ÷ 3 = 1 dan 18 ÷ 3 = 6; nilainya 1/6. Nilai yang tepat adalah 1/6.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Pecahan 4/24 disederhanakan dengan membagi pembilang dan penyebut dengan 4. Berapa nilai pecahan itu? Jawaban: 1/6.",
+          "explanation": "4 ÷ 4 = 1 dan 24 ÷ 4 = 6; nilainya 1/6. Nilai yang tepat adalah 1/6.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Pecahan 5/30 disederhanakan dengan membagi pembilang dan penyebut dengan 5. Berapa nilai pecahan itu? Jawaban: 7/6.",
+          "explanation": "5 ÷ 5 = 1 dan 30 ÷ 5 = 6; nilainya 1/6. Nilai yang tepat adalah 1/6.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v3-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "6 ÷ 6 = 1 dan 42 ÷ 6 = 7; nilainya 1/7. Hasilnya 1/7 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pecahan 6/42 disederhanakan dengan membagi pembilang dan penyebut dengan 6. Berapa nilai pecahan itu?",
+      "options": [
+        "8/7",
+        "-6/7",
+        "15/7",
+        "1/7"
+      ],
+      "answer": "1/7"
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v3-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "Periksa setiap soal secara terpisah. 4 ÷ 4 = 1 dan 12 ÷ 4 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3. 5 ÷ 5 = 1 dan 15 ÷ 5 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3. 6 ÷ 6 = 1 dan 18 ÷ 6 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3. 7 ÷ 7 = 1 dan 21 ÷ 7 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pecahan 4/12 disederhanakan dengan membagi pembilang dan penyebut dengan 4. Berapa nilai pecahan itu? Jawaban: 1/3.",
+          "explanation": "4 ÷ 4 = 1 dan 12 ÷ 4 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3."
+        },
+        {
+          "id": "b",
+          "text": "Pecahan 5/15 disederhanakan dengan membagi pembilang dan penyebut dengan 5. Berapa nilai pecahan itu? Jawaban: 4/3.",
+          "explanation": "5 ÷ 5 = 1 dan 15 ÷ 5 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3."
+        },
+        {
+          "id": "c",
+          "text": "Pecahan 6/18 disederhanakan dengan membagi pembilang dan penyebut dengan 6. Berapa nilai pecahan itu? Jawaban: 1/3.",
+          "explanation": "6 ÷ 6 = 1 dan 18 ÷ 6 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3."
+        },
+        {
+          "id": "d",
+          "text": "Pecahan 7/21 disederhanakan dengan membagi pembilang dan penyebut dengan 7. Berapa nilai pecahan itu? Jawaban: 4/3.",
+          "explanation": "7 ÷ 7 = 1 dan 21 ÷ 7 = 3; nilainya 1/3. Nilai yang tepat adalah 1/3."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-pecahan-senilai-v3-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.equivalent",
+      "explanation": "Periksa setiap soal secara terpisah. 8 ÷ 8 = 1 dan 32 ÷ 8 = 4; nilainya 1/4. Nilai yang tepat adalah 0,25. 2 ÷ 2 = 1 dan 10 ÷ 2 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2. 3 ÷ 3 = 1 dan 15 ÷ 3 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Pecahan 8/32 disederhanakan dengan membagi pembilang dan penyebut dengan 8. Berapa nilai pecahan itu? Jawaban: 0,25.",
+          "explanation": "8 ÷ 8 = 1 dan 32 ÷ 8 = 4; nilainya 1/4. Nilai yang tepat adalah 0,25.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Pecahan 2/10 disederhanakan dengan membagi pembilang dan penyebut dengan 2. Berapa nilai pecahan itu? Jawaban: 0,2.",
+          "explanation": "2 ÷ 2 = 1 dan 10 ÷ 2 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Pecahan 3/15 disederhanakan dengan membagi pembilang dan penyebut dengan 3. Berapa nilai pecahan itu? Jawaban: 1,2.",
+          "explanation": "3 ÷ 3 = 1 dan 15 ÷ 3 = 5; nilainya 1/5. Nilai yang tepat adalah 0,2.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

@@ -1,0 +1,552 @@
+[
+  [
+    {
+      "id": "tka-bi-ikhtisar-bagan-v2-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-1",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur.",
+        "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+        "Bagan menempatkan pengolahan sebelum pengumpulan.",
+        "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan."
+      ],
+      "answer": "Bagan menempatkan pengolahan sebelum pengumpulan."
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v2-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-1",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+        "Ringkasan boleh menambahkan hasil yang tidak dilaporkan.",
+        "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+        "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur."
+      ],
+      "answer": "Ringkasan boleh menambahkan hasil yang tidak dilaporkan."
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v2-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Gunakan konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-1",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "b",
+          "text": "Ringkasan boleh menambahkan hasil yang tidak dilaporkan.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "c",
+          "text": "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "d",
+          "text": "Bagan menempatkan pengolahan sebelum pengumpulan.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v2-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-2",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+        "Ringkasan boleh menambahkan hasil yang tidak dilaporkan.",
+        "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+        "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur."
+      ],
+      "answer": "Ringkasan boleh menambahkan hasil yang tidak dilaporkan."
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v2-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Gunakan konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-2",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Bagan menempatkan pengolahan sebelum pengumpulan.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v2-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-2",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+        "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur.",
+        "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+        "Bagan menempatkan pengolahan sebelum pengumpulan."
+      ],
+      "answer": "Bagan menempatkan pengolahan sebelum pengumpulan."
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v2-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Gunakan konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-3",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "b",
+          "text": "Bagan menempatkan pengolahan sebelum pengumpulan.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "c",
+          "text": "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "d",
+          "text": "Ringkasan boleh menambahkan hasil yang tidak dilaporkan.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v2-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-3",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+        "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur.",
+        "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+        "Bagan menempatkan pengolahan sebelum pengumpulan."
+      ],
+      "answer": "Bagan menempatkan pengolahan sebelum pengumpulan."
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v2-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Gunakan konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-3",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Ikhtisar harus menyalin setiap kalimat secara lengkap.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-bi-ikhtisar-bagan-v3-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-1",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Ringkasan boleh menambahkan hasil yang tidak dilaporkan.",
+        "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+        "Ikhtisar harus menyalin setiap kalimat secara lengkap.",
+        "Bagan menempatkan pengolahan sebelum pengumpulan."
+      ],
+      "answer": "Tabel cocok untuk membandingkan jumlah tiap kelas."
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v3-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-1",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+        "Ikhtisar harus menyalin setiap kalimat secara lengkap.",
+        "Bagan menempatkan pengolahan sebelum pengumpulan.",
+        "Ringkasan boleh menambahkan hasil yang tidak dilaporkan."
+      ],
+      "answer": "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan."
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v3-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Gunakan konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-1",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ikhtisar harus menyalin setiap kalimat secara lengkap.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "b",
+          "text": "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "c",
+          "text": "Ringkasan boleh menambahkan hasil yang tidak dilaporkan.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "d",
+          "text": "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v3-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-2",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+        "Ikhtisar harus menyalin setiap kalimat secara lengkap.",
+        "Bagan menempatkan pengolahan sebelum pengumpulan.",
+        "Ringkasan boleh menambahkan hasil yang tidak dilaporkan."
+      ],
+      "answer": "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan."
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v3-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Gunakan konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-2",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Ringkasan boleh menambahkan hasil yang tidak dilaporkan.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v3-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-2",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Bagan menempatkan pengolahan sebelum pengumpulan.",
+        "Ringkasan boleh menambahkan hasil yang tidak dilaporkan.",
+        "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+        "Ikhtisar harus menyalin setiap kalimat secara lengkap."
+      ],
+      "answer": "Tabel cocok untuk membandingkan jumlah tiap kelas."
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v3-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Gunakan konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-3",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ringkasan boleh menambahkan hasil yang tidak dilaporkan.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "b",
+          "text": "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "c",
+          "text": "Ikhtisar harus menyalin setiap kalimat secara lengkap.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        },
+        {
+          "id": "d",
+          "text": "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v3-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-3",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Bagan menempatkan pengolahan sebelum pengumpulan.",
+        "Ringkasan boleh menambahkan hasil yang tidak dilaporkan.",
+        "Tabel cocok untuk membandingkan jumlah tiap kelas.",
+        "Ikhtisar harus menyalin setiap kalimat secara lengkap."
+      ],
+      "answer": "Tabel cocok untuk membandingkan jumlah tiap kelas."
+    },
+    {
+      "id": "tka-bi-ikhtisar-bagan-v3-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.organize",
+      "explanation": "Gunakan konteks bacaan. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-ikhtisar-bagan-bacaan-3",
+      "evidence": [
+        "Saat membuat ikhtisar, Nia mencantumkan tujuan, aturan utama, hasil pengumpulan, dan penggunaan bahan.",
+        "Untuk bagan alur, ia menempatkan pengumpulan sebelum penimbangan, lalu pencatatan dan pengolahan.",
+        "ikhtisar untuk gambaran singkat, tabel untuk membandingkan jumlah, dan bagan untuk memperlihatkan urutan kegiatan."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan.",
+          "explanation": "Sesuai dengan konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Bagan menempatkan pengolahan sebelum pengumpulan.",
+          "explanation": "Tidak didukung oleh konteks. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur. Tabel cocok untuk membandingkan jumlah tiap kelas.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

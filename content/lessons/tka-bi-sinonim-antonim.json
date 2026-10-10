@@ -1,0 +1,354 @@
+{
+  "id": "tka-bi-sinonim-antonim",
+  "subject": "bahasa-indonesia",
+  "category": 4,
+  "order": 3,
+  "title": "Sinonim dan antonim dalam konteks",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menafsirkan dan menilai sinonim dan antonim dalam konteks berdasarkan konteks."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Cara membaca",
+      "text": "Baca seluruh konteks dan hubungkan rincian dengan pertanyaan. Gembira dan senang bersinonim pada kalimat tentang kabar baik."
+    },
+    {
+      "type": "paragraph",
+      "title": "Periksa alasan",
+      "text": "Jangan memilih berdasarkan satu kata yang tampak sama. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna."
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah pernyataan berikut sesuai dengan bacaan: Sempit berantonim dengan pendek pada ukuran lebar jalan.",
+      "steps": [
+        "Temukan bagian yang menjelaskan gagasan terkait.",
+        "Gembira dan senang bersinonim pada kalimat tentang kabar baik."
+      ],
+      "conclusion": "Tidak sesuai. Gembira dan senang bersinonim pada kalimat tentang kabar baik."
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah pernyataan berikut sesuai dengan bacaan: Semua sinonim selalu dapat dipertukarkan di setiap kalimat.",
+      "steps": [
+        "Temukan bagian yang menjelaskan gagasan terkait.",
+        "Sempit berantonim dengan lebar dalam konteks jalan."
+      ],
+      "conclusion": "Tidak sesuai. Sempit berantonim dengan lebar dalam konteks jalan."
+    }
+  ],
+  "stimuli": [
+    {
+      "id": "tka-bi-sinonim-antonim-bacaan-1",
+      "title": "Sinonim dan antonim dalam konteks dalam bacaan",
+      "paragraphs": [
+        "Sebelum membaca cerita, Bu Tia menjelaskan beberapa hubungan makna kata. Dalam kalimat halaman sekolah tampak bersih, kata bersih berlawanan makna dengan kotor. Dalam kalimat Rudi merasa gembira karena mendapat kabar baik, kata gembira dapat diganti senang tanpa mengubah gagasan utama. Penggantian itu tetap perlu mempertimbangkan susunan dan konteks kalimat.",
+        "Murid kemudian membaca tentang jalan sempit di belakang rumah. Lawan makna sempit dalam konteks lebar jalan adalah lebar. Mereka tidak memilih kata pendek, karena pendek berkaitan dengan ukuran panjang, bukan lebar. Pada cerita lain, Lina menyelesaikan pekerjaan dengan cepat. Kata lekas mempunyai makna dekat dengan cepat dalam konteks tindakan tersebut, sedangkan lambat berlawanan makna.",
+        "Bu Tia mengingatkan bahwa sinonim tidak selalu dapat saling menggantikan pada semua kalimat. Kata yang berdekatan makna dapat mempunyai nuansa atau penggunaan berbeda. Antonim juga harus dibandingkan dalam hubungan yang sama, misalnya ukuran, waktu, atau keadaan. Murid membuat pasangan kata dan menuliskan contoh agar tidak hanya menghafal daftar. Sebelum mengumpulkan tugas, mereka membaca contoh bersama dan menjelaskan alasan setiap pilihan. Dengan cara itu, hubungan makna membantu memahami bacaan sekaligus memilih kata yang sesuai ketika menulis."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "tka-bi-sinonim-antonim-bacaan-2",
+      "title": "Diskusi pameran literasi",
+      "paragraphs": [
+        "Kelompok kelas enam menyiapkan bahan untuk pameran literasi sekolah. Mereka bekerja di ruang baca pada Rabu sore. Setiap anggota memperoleh tugas: membaca sumber, mencatat gagasan, menyunting kalimat, atau memeriksa hasil akhir. Guru meminta mereka menjelaskan alasan pilihan kepada teman, bukan hanya menyalin jawaban. Jika ada dua pendapat berbeda, kelompok kembali membaca bagian yang berkaitan sebelum mengambil keputusan.",
+        "Hasil kerja akan dibaca oleh murid kelas lain dan orang tua. Karena itu, penjelasan harus jelas dan sesuai informasi. Kelompok memberi judul, menyusun bagian secara teratur, lalu meminta seorang teman membaca draf tanpa penjelasan tambahan. Dari pertanyaan teman tersebut, mereka mengetahui bagian yang masih perlu diperbaiki. Catatan yang diperiksa bersama berisi pokok-pokok berikut.",
+        "Pokok catatan: «kata gembira dapat diganti senang tanpa mengubah gagasan utama.»; «Lawan makna sempit dalam konteks lebar jalan adalah lebar.»; «sedangkan lambat berlawanan makna.»",
+        "Setelah itu, mereka menandai kata penting dan membaca ulang kalimat sebelum serta sesudahnya. Catatan tidak langsung diterima hanya karena ditulis rapi; isinya tetap dibandingkan dengan penjelasan yang sedang dipelajari."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "tka-bi-sinonim-antonim-bacaan-3",
+      "title": "Catatan lokakarya",
+      "paragraphs": [
+        "Di kelas enam, murid mengikuti lokakarya membaca dan menyunting. Bu Guru membagikan catatan untuk dibahas berpasangan. Seorang murid membaca bagian awal, sedangkan pasangannya menyebutkan bukti yang mendukung penafsiran. Mereka berganti peran setelah beberapa menit agar semua anggota berlatih. Jawaban yang berbeda dicatat dahulu, kemudian dibandingkan dengan konteks lengkap, bukan diputuskan berdasarkan siapa yang berbicara paling keras.",
+        "Pada akhir kegiatan, pasangan menulis penjelasan singkat untuk pembaca yang tidak mengikuti diskusi. Mereka berusaha menjaga arti, menggunakan kalimat jelas, dan membedakan informasi dari dugaan. Tulisan diperiksa kembali sebelum ditempel di papan kelas. Guru menghargai alasan yang sesuai dengan bacaan, bukan jawaban panjang yang tidak menjawab pertanyaan. Berikut beberapa pokok dalam catatan yang mereka periksa.",
+        "Pokok catatan: «kata gembira dapat diganti senang tanpa mengubah gagasan utama.»; «Lawan makna sempit dalam konteks lebar jalan adalah lebar.»; «sedangkan lambat berlawanan makna.»",
+        "Setelah itu, mereka menandai kata penting dan membaca ulang kalimat sebelum serta sesudahnya. Catatan tidak langsung diterima hanya karena ditulis rapi; isinya tetap dibandingkan dengan penjelasan yang sedang dipelajari."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-bi-sinonim-antonim-v1-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.relations",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-sinonim-antonim-bacaan-1",
+      "evidence": [
+        "kata gembira dapat diganti senang tanpa mengubah gagasan utama.",
+        "Lawan makna sempit dalam konteks lebar jalan adalah lebar.",
+        "sedangkan lambat berlawanan makna."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Sempit berantonim dengan pendek pada ukuran lebar jalan.",
+        "Semua sinonim selalu dapat dipertukarkan di setiap kalimat.",
+        "Bersih dan kotor mempunyai makna yang sama.",
+        "Gembira dan senang bersinonim pada kalimat tentang kabar baik."
+      ],
+      "answer": "Gembira dan senang bersinonim pada kalimat tentang kabar baik."
+    },
+    {
+      "id": "tka-bi-sinonim-antonim-v1-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.relations",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-sinonim-antonim-bacaan-1",
+      "evidence": [
+        "kata gembira dapat diganti senang tanpa mengubah gagasan utama.",
+        "Lawan makna sempit dalam konteks lebar jalan adalah lebar.",
+        "sedangkan lambat berlawanan makna."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Semua sinonim selalu dapat dipertukarkan di setiap kalimat.",
+        "Bersih dan kotor mempunyai makna yang sama.",
+        "Sempit berantonim dengan lebar dalam konteks jalan.",
+        "Sempit berantonim dengan pendek pada ukuran lebar jalan."
+      ],
+      "answer": "Sempit berantonim dengan lebar dalam konteks jalan."
+    },
+    {
+      "id": "tka-bi-sinonim-antonim-v1-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.relations",
+      "explanation": "Gunakan konteks bacaan. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-sinonim-antonim-bacaan-1",
+      "evidence": [
+        "kata gembira dapat diganti senang tanpa mengubah gagasan utama.",
+        "Lawan makna sempit dalam konteks lebar jalan adalah lebar.",
+        "sedangkan lambat berlawanan makna."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sempit berantonim dengan pendek pada ukuran lebar jalan.",
+          "explanation": "Tidak didukung oleh konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna."
+        },
+        {
+          "id": "b",
+          "text": "Gembira dan senang bersinonim pada kalimat tentang kabar baik.",
+          "explanation": "Sesuai dengan konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna."
+        },
+        {
+          "id": "c",
+          "text": "Semua sinonim selalu dapat dipertukarkan di setiap kalimat.",
+          "explanation": "Tidak didukung oleh konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna."
+        },
+        {
+          "id": "d",
+          "text": "Cepat dan lambat berlawanan makna.",
+          "explanation": "Sesuai dengan konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-sinonim-antonim-v1-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.relations",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-sinonim-antonim-bacaan-2",
+      "evidence": [
+        "kata gembira dapat diganti senang tanpa mengubah gagasan utama.",
+        "Lawan makna sempit dalam konteks lebar jalan adalah lebar.",
+        "sedangkan lambat berlawanan makna."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Semua sinonim selalu dapat dipertukarkan di setiap kalimat.",
+        "Bersih dan kotor mempunyai makna yang sama.",
+        "Sempit berantonim dengan lebar dalam konteks jalan.",
+        "Sempit berantonim dengan pendek pada ukuran lebar jalan."
+      ],
+      "answer": "Sempit berantonim dengan lebar dalam konteks jalan."
+    },
+    {
+      "id": "tka-bi-sinonim-antonim-v1-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.relations",
+      "explanation": "Gunakan konteks bacaan. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-sinonim-antonim-bacaan-2",
+      "evidence": [
+        "kata gembira dapat diganti senang tanpa mengubah gagasan utama.",
+        "Lawan makna sempit dalam konteks lebar jalan adalah lebar.",
+        "sedangkan lambat berlawanan makna."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Gembira dan senang bersinonim pada kalimat tentang kabar baik.",
+          "explanation": "Sesuai dengan konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Cepat dan lambat berlawanan makna.",
+          "explanation": "Sesuai dengan konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Sempit berantonim dengan pendek pada ukuran lebar jalan.",
+          "explanation": "Tidak didukung oleh konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-sinonim-antonim-v1-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.relations",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-sinonim-antonim-bacaan-2",
+      "evidence": [
+        "kata gembira dapat diganti senang tanpa mengubah gagasan utama.",
+        "Lawan makna sempit dalam konteks lebar jalan adalah lebar.",
+        "sedangkan lambat berlawanan makna."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Gembira dan senang bersinonim pada kalimat tentang kabar baik.",
+        "Sempit berantonim dengan pendek pada ukuran lebar jalan.",
+        "Semua sinonim selalu dapat dipertukarkan di setiap kalimat.",
+        "Bersih dan kotor mempunyai makna yang sama."
+      ],
+      "answer": "Gembira dan senang bersinonim pada kalimat tentang kabar baik."
+    },
+    {
+      "id": "tka-bi-sinonim-antonim-v1-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.relations",
+      "explanation": "Gunakan konteks bacaan. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-sinonim-antonim-bacaan-3",
+      "evidence": [
+        "kata gembira dapat diganti senang tanpa mengubah gagasan utama.",
+        "Lawan makna sempit dalam konteks lebar jalan adalah lebar.",
+        "sedangkan lambat berlawanan makna."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Semua sinonim selalu dapat dipertukarkan di setiap kalimat.",
+          "explanation": "Tidak didukung oleh konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna."
+        },
+        {
+          "id": "b",
+          "text": "Cepat dan lambat berlawanan makna.",
+          "explanation": "Sesuai dengan konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna."
+        },
+        {
+          "id": "c",
+          "text": "Sempit berantonim dengan pendek pada ukuran lebar jalan.",
+          "explanation": "Tidak didukung oleh konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna."
+        },
+        {
+          "id": "d",
+          "text": "Gembira dan senang bersinonim pada kalimat tentang kabar baik.",
+          "explanation": "Sesuai dengan konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-sinonim-antonim-v1-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.relations",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-sinonim-antonim-bacaan-3",
+      "evidence": [
+        "kata gembira dapat diganti senang tanpa mengubah gagasan utama.",
+        "Lawan makna sempit dalam konteks lebar jalan adalah lebar.",
+        "sedangkan lambat berlawanan makna."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Gembira dan senang bersinonim pada kalimat tentang kabar baik.",
+        "Sempit berantonim dengan pendek pada ukuran lebar jalan.",
+        "Semua sinonim selalu dapat dipertukarkan di setiap kalimat.",
+        "Bersih dan kotor mempunyai makna yang sama."
+      ],
+      "answer": "Gembira dan senang bersinonim pada kalimat tentang kabar baik."
+    },
+    {
+      "id": "tka-bi-sinonim-antonim-v1-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.relations",
+      "explanation": "Gunakan konteks bacaan. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-sinonim-antonim-bacaan-3",
+      "evidence": [
+        "kata gembira dapat diganti senang tanpa mengubah gagasan utama.",
+        "Lawan makna sempit dalam konteks lebar jalan adalah lebar.",
+        "sedangkan lambat berlawanan makna."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Sempit berantonim dengan lebar dalam konteks jalan.",
+          "explanation": "Sesuai dengan konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Bersih dan kotor mempunyai makna yang sama.",
+          "explanation": "Tidak didukung oleh konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Cepat dan lambat berlawanan makna.",
+          "explanation": "Sesuai dengan konteks. Gembira dan senang bersinonim pada kalimat tentang kabar baik. Sempit berantonim dengan lebar dalam konteks jalan. Cepat dan lambat berlawanan makna.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

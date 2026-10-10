@@ -1,0 +1,552 @@
+[
+  [
+    {
+      "id": "tka-bi-penilaian-teks-v2-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-1",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu.",
+        "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+        "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab.",
+        "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman."
+      ],
+      "answer": "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab."
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v2-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-1",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+        "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan.",
+        "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+        "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu."
+      ],
+      "answer": "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan."
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v2-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Gunakan konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-1",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "b",
+          "text": "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "c",
+          "text": "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "d",
+          "text": "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v2-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-2",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+        "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan.",
+        "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+        "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu."
+      ],
+      "answer": "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan."
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v2-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Gunakan konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-2",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v2-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-2",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+        "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu.",
+        "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+        "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab."
+      ],
+      "answer": "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab."
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v2-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Gunakan konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-3",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "b",
+          "text": "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "c",
+          "text": "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "d",
+          "text": "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v2-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-3",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+        "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu.",
+        "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+        "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab."
+      ],
+      "answer": "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab."
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v2-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Gunakan konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-3",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Kritik yang baik cukup menyerang pribadi penulis.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-bi-penilaian-teks-v3-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-1",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan.",
+        "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+        "Kritik yang baik cukup menyerang pribadi penulis.",
+        "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab."
+      ],
+      "answer": "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v3-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-1",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+        "Kritik yang baik cukup menyerang pribadi penulis.",
+        "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab.",
+        "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan."
+      ],
+      "answer": "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman."
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v3-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Gunakan konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-1",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kritik yang baik cukup menyerang pribadi penulis.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "b",
+          "text": "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "c",
+          "text": "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "d",
+          "text": "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v3-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-2",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+        "Kritik yang baik cukup menyerang pribadi penulis.",
+        "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab.",
+        "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan."
+      ],
+      "answer": "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman."
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v3-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Gunakan konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-2",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v3-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-2",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab.",
+        "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan.",
+        "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+        "Kritik yang baik cukup menyerang pribadi penulis."
+      ],
+      "answer": "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v3-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Gunakan konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-3",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "b",
+          "text": "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "c",
+          "text": "Kritik yang baik cukup menyerang pribadi penulis.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        },
+        {
+          "id": "d",
+          "text": "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v3-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-3",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab.",
+        "Mengaitkan pengalaman berarti boleh mengubah fakta bacaan.",
+        "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+        "Kritik yang baik cukup menyerang pribadi penulis."
+      ],
+      "answer": "Kerja sama adalah kaitan yang masuk akal antara dua kegiatan."
+    },
+    {
+      "id": "tka-bi-penilaian-teks-v3-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.critique",
+      "explanation": "Gunakan konteks bacaan. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-penilaian-teks-bacaan-3",
+      "evidence": [
+        "keterangan tempat dan perlengkapan merupakan kelebihan pengumuman.",
+        "tanggal lengkap dan nama penanggung jawab belum dicantumkan.",
+        "Kedua peristiwa menunjukkan manfaat kerja sama, meskipun tempat dan tugasnya berbeda."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman.",
+          "explanation": "Sesuai dengan konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab.",
+          "explanation": "Tidak didukung oleh konteks. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu. Kerja sama adalah kaitan yang masuk akal antara dua kegiatan.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

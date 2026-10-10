@@ -1,0 +1,444 @@
+[
+  [
+    {
+      "id": "tka-math-satuan-ukuran-v2-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "1 liter = 1.000 mL. Hasilnya 6000 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "6 liter = berapa mililiter?",
+      "options": [
+        "5999",
+        "6002",
+        "6000",
+        "6001"
+      ],
+      "answer": "6000"
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v2-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "1 m = 100 cm. Hasilnya 3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "300 cm = berapa meter?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v2-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "1 kg = 1.000 g. Hasilnya 3000 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "3 kg = berapa gram?",
+      "options": [
+        "3000",
+        "3001",
+        "2999",
+        "3002"
+      ],
+      "answer": "3000"
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v2-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "Periksa setiap soal secara terpisah. 1 menit = 60 detik. Nilai yang tepat adalah 300. 1 m = 100 cm. Nilai yang tepat adalah 6. 1 liter = 1.000 cm³. Nilai yang tepat adalah 5. 1 km = 1.000 m. Nilai yang tepat adalah 8000.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 menit = berapa detik? Jawaban: 301.",
+          "explanation": "1 menit = 60 detik. Nilai yang tepat adalah 300."
+        },
+        {
+          "id": "b",
+          "text": "600 cm = berapa meter? Jawaban: 6.",
+          "explanation": "1 m = 100 cm. Nilai yang tepat adalah 6."
+        },
+        {
+          "id": "c",
+          "text": "5000 cm³ = berapa liter? Jawaban: 6.",
+          "explanation": "1 liter = 1.000 cm³. Nilai yang tepat adalah 5."
+        },
+        {
+          "id": "d",
+          "text": "8 km = berapa meter? Jawaban: 8000.",
+          "explanation": "1 km = 1.000 m. Nilai yang tepat adalah 8000."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v2-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "1 liter = 1.000 cm³. Hasilnya 6 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "6000 cm³ = berapa liter?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v2-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "Periksa setiap soal secara terpisah. 1 liter = 1.000 mL. Nilai yang tepat adalah 6000. 1 m³ = 1.000 liter. Nilai yang tepat adalah 7000. 1 menit = 60 detik. Nilai yang tepat adalah 480.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "6 liter = berapa mililiter? Jawaban: 6001.",
+          "explanation": "1 liter = 1.000 mL. Nilai yang tepat adalah 6000.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "7 m³ = berapa liter? Jawaban: 7000.",
+          "explanation": "1 m³ = 1.000 liter. Nilai yang tepat adalah 7000.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "8 menit = berapa detik? Jawaban: 480.",
+          "explanation": "1 menit = 60 detik. Nilai yang tepat adalah 480.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v2-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "1 menit = 60 detik. Hasilnya 120 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "2 menit = berapa detik?",
+      "options": [
+        "120",
+        "121",
+        "119",
+        "122"
+      ],
+      "answer": "120"
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v2-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "Periksa setiap soal secara terpisah. 1 kg = 1.000 g. Nilai yang tepat adalah 5000. 1 jam = 60 menit. Nilai yang tepat adalah 485. 1 liter = 1.000 mL. Nilai yang tepat adalah 2000. 1 m³ = 1.000 liter. Nilai yang tepat adalah 3000.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 kg = berapa gram? Jawaban: 5001.",
+          "explanation": "1 kg = 1.000 g. Nilai yang tepat adalah 5000."
+        },
+        {
+          "id": "b",
+          "text": "8 jam 5 menit = berapa menit? Jawaban: 485.",
+          "explanation": "1 jam = 60 menit. Nilai yang tepat adalah 485."
+        },
+        {
+          "id": "c",
+          "text": "2 liter = berapa mililiter? Jawaban: 2001.",
+          "explanation": "1 liter = 1.000 mL. Nilai yang tepat adalah 2000."
+        },
+        {
+          "id": "d",
+          "text": "3 m³ = berapa liter? Jawaban: 3000.",
+          "explanation": "1 m³ = 1.000 liter. Nilai yang tepat adalah 3000."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v2-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "Periksa setiap soal secara terpisah. 1 m³ = 1.000 liter. Nilai yang tepat adalah 4000. 1 menit = 60 detik. Nilai yang tepat adalah 300. 1 m = 100 cm. Nilai yang tepat adalah 6.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "4 m³ = berapa liter? Jawaban: 4001.",
+          "explanation": "1 m³ = 1.000 liter. Nilai yang tepat adalah 4000.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "5 menit = berapa detik? Jawaban: 300.",
+          "explanation": "1 menit = 60 detik. Nilai yang tepat adalah 300.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "600 cm = berapa meter? Jawaban: 6.",
+          "explanation": "1 m = 100 cm. Nilai yang tepat adalah 6.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-math-satuan-ukuran-v3-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "1 m = 100 cm. Hasilnya 3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "300 cm = berapa meter?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v3-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "1 kg = 1.000 g. Hasilnya 5000 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "5 kg = berapa gram?",
+      "options": [
+        "5000",
+        "5001",
+        "4999",
+        "5002"
+      ],
+      "answer": "5000"
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v3-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "1 m³ = 1.000 liter. Hasilnya 4000 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "4 m³ = berapa liter?",
+      "options": [
+        "4001",
+        "3999",
+        "4002",
+        "4000"
+      ],
+      "answer": "4000"
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v3-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "Periksa setiap soal secara terpisah. 1 km = 1.000 m. Nilai yang tepat adalah 2000. 1 kg = 1.000 g. Nilai yang tepat adalah 3000. 1 jam = 60 menit. Nilai yang tepat adalah 243. 1 liter = 1.000 mL. Nilai yang tepat adalah 5000.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 km = berapa meter? Jawaban: 2000.",
+          "explanation": "1 km = 1.000 m. Nilai yang tepat adalah 2000."
+        },
+        {
+          "id": "b",
+          "text": "3 kg = berapa gram? Jawaban: 3001.",
+          "explanation": "1 kg = 1.000 g. Nilai yang tepat adalah 3000."
+        },
+        {
+          "id": "c",
+          "text": "4 jam 3 menit = berapa menit? Jawaban: 243.",
+          "explanation": "1 jam = 60 menit. Nilai yang tepat adalah 243."
+        },
+        {
+          "id": "d",
+          "text": "5 liter = berapa mililiter? Jawaban: 5001.",
+          "explanation": "1 liter = 1.000 mL. Nilai yang tepat adalah 5000."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v3-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "1 jam = 60 menit. Hasilnya 304 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "5 jam 4 menit = berapa menit?",
+      "options": [
+        "306",
+        "304",
+        "305",
+        "303"
+      ],
+      "answer": "304"
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v3-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "Periksa setiap soal secara terpisah. 1 m = 100 cm. Nilai yang tepat adalah 3. 1 liter = 1.000 cm³. Nilai yang tepat adalah 6. 1 km = 1.000 m. Nilai yang tepat adalah 5000.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "300 cm = berapa meter? Jawaban: 3.",
+          "explanation": "1 m = 100 cm. Nilai yang tepat adalah 3.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "6000 cm³ = berapa liter? Jawaban: 6.",
+          "explanation": "1 liter = 1.000 cm³. Nilai yang tepat adalah 6.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "5 km = berapa meter? Jawaban: 5001.",
+          "explanation": "1 km = 1.000 m. Nilai yang tepat adalah 5000.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v3-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "1 km = 1.000 m. Hasilnya 6000 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "6 km = berapa meter?",
+      "options": [
+        "6001",
+        "5999",
+        "6002",
+        "6000"
+      ],
+      "answer": "6000"
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v3-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "Periksa setiap soal secara terpisah. 1 m³ = 1.000 liter. Nilai yang tepat adalah 4000. 1 menit = 60 detik. Nilai yang tepat adalah 300. 1 m = 100 cm. Nilai yang tepat adalah 6. 1 liter = 1.000 cm³. Nilai yang tepat adalah 3.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "4 m³ = berapa liter? Jawaban: 4000.",
+          "explanation": "1 m³ = 1.000 liter. Nilai yang tepat adalah 4000."
+        },
+        {
+          "id": "b",
+          "text": "5 menit = berapa detik? Jawaban: 301.",
+          "explanation": "1 menit = 60 detik. Nilai yang tepat adalah 300."
+        },
+        {
+          "id": "c",
+          "text": "600 cm = berapa meter? Jawaban: 6.",
+          "explanation": "1 m = 100 cm. Nilai yang tepat adalah 6."
+        },
+        {
+          "id": "d",
+          "text": "3000 cm³ = berapa liter? Jawaban: 4.",
+          "explanation": "1 liter = 1.000 cm³. Nilai yang tepat adalah 3."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-satuan-ukuran-v3-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.units",
+      "explanation": "Periksa setiap soal secara terpisah. 1 liter = 1.000 cm³. Nilai yang tepat adalah 4. 1 km = 1.000 m. Nilai yang tepat adalah 2000. 1 kg = 1.000 g. Nilai yang tepat adalah 5000.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "4000 cm³ = berapa liter? Jawaban: 4.",
+          "explanation": "1 liter = 1.000 cm³. Nilai yang tepat adalah 4.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "2 km = berapa meter? Jawaban: 2000.",
+          "explanation": "1 km = 1.000 m. Nilai yang tepat adalah 2000.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "5 kg = berapa gram? Jawaban: 5001.",
+          "explanation": "1 kg = 1.000 g. Nilai yang tepat adalah 5000.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

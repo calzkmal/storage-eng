@@ -1,0 +1,552 @@
+[
+  [
+    {
+      "id": "tka-bi-unsur-cerita-v2-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-1",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Alur bergerak maju dari pencarian ke penemuan buku.",
+        "Latar utama adalah perpustakaan pada Jumat sore.",
+        "Buku hilang tidak ditemukan sampai akhir cerita.",
+        "Cerita memakai sudut pandang orang pertama."
+      ],
+      "answer": "Buku hilang tidak ditemukan sampai akhir cerita."
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v2-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-1",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Latar utama adalah perpustakaan pada Jumat sore.",
+        "Tema utama cerita adalah persaingan dalam olahraga.",
+        "Cerita memakai sudut pandang orang pertama.",
+        "Alur bergerak maju dari pencarian ke penemuan buku."
+      ],
+      "answer": "Tema utama cerita adalah persaingan dalam olahraga."
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v2-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Gunakan konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-1",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alur bergerak maju dari pencarian ke penemuan buku.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "b",
+          "text": "Tema utama cerita adalah persaingan dalam olahraga.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "c",
+          "text": "Cerita memakai sudut pandang orang pertama.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "d",
+          "text": "Buku hilang tidak ditemukan sampai akhir cerita.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v2-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-2",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Latar utama adalah perpustakaan pada Jumat sore.",
+        "Tema utama cerita adalah persaingan dalam olahraga.",
+        "Cerita memakai sudut pandang orang pertama.",
+        "Alur bergerak maju dari pencarian ke penemuan buku."
+      ],
+      "answer": "Tema utama cerita adalah persaingan dalam olahraga."
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v2-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Gunakan konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-2",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Cerita memakai sudut pandang orang pertama.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Buku hilang tidak ditemukan sampai akhir cerita.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Alur bergerak maju dari pencarian ke penemuan buku.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v2-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-2",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Cerita memakai sudut pandang orang pertama.",
+        "Alur bergerak maju dari pencarian ke penemuan buku.",
+        "Latar utama adalah perpustakaan pada Jumat sore.",
+        "Buku hilang tidak ditemukan sampai akhir cerita."
+      ],
+      "answer": "Buku hilang tidak ditemukan sampai akhir cerita."
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v2-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Gunakan konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-3",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cerita memakai sudut pandang orang pertama.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "b",
+          "text": "Buku hilang tidak ditemukan sampai akhir cerita.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "c",
+          "text": "Alur bergerak maju dari pencarian ke penemuan buku.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "d",
+          "text": "Tema utama cerita adalah persaingan dalam olahraga.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v2-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-3",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Cerita memakai sudut pandang orang pertama.",
+        "Alur bergerak maju dari pencarian ke penemuan buku.",
+        "Latar utama adalah perpustakaan pada Jumat sore.",
+        "Buku hilang tidak ditemukan sampai akhir cerita."
+      ],
+      "answer": "Buku hilang tidak ditemukan sampai akhir cerita."
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v2-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Gunakan konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-3",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Cerita menggunakan narator orang ketiga yang tidak terlibat.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Cerita memakai sudut pandang orang pertama.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Latar utama adalah perpustakaan pada Jumat sore.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-bi-unsur-cerita-v3-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-1",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Tema utama cerita adalah persaingan dalam olahraga.",
+        "Latar utama adalah perpustakaan pada Jumat sore.",
+        "Cerita menggunakan narator orang ketiga yang tidak terlibat.",
+        "Buku hilang tidak ditemukan sampai akhir cerita."
+      ],
+      "answer": "Latar utama adalah perpustakaan pada Jumat sore."
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v3-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-1",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Cerita memakai sudut pandang orang pertama.",
+        "Cerita menggunakan narator orang ketiga yang tidak terlibat.",
+        "Buku hilang tidak ditemukan sampai akhir cerita.",
+        "Tema utama cerita adalah persaingan dalam olahraga."
+      ],
+      "answer": "Cerita memakai sudut pandang orang pertama."
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v3-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Gunakan konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-1",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cerita menggunakan narator orang ketiga yang tidak terlibat.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "b",
+          "text": "Alur bergerak maju dari pencarian ke penemuan buku.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "c",
+          "text": "Tema utama cerita adalah persaingan dalam olahraga.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "d",
+          "text": "Latar utama adalah perpustakaan pada Jumat sore.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v3-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-2",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Cerita memakai sudut pandang orang pertama.",
+        "Cerita menggunakan narator orang ketiga yang tidak terlibat.",
+        "Buku hilang tidak ditemukan sampai akhir cerita.",
+        "Tema utama cerita adalah persaingan dalam olahraga."
+      ],
+      "answer": "Cerita memakai sudut pandang orang pertama."
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v3-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Gunakan konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-2",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Tema utama cerita adalah persaingan dalam olahraga.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Latar utama adalah perpustakaan pada Jumat sore.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Alur bergerak maju dari pencarian ke penemuan buku.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v3-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-2",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Buku hilang tidak ditemukan sampai akhir cerita.",
+        "Tema utama cerita adalah persaingan dalam olahraga.",
+        "Latar utama adalah perpustakaan pada Jumat sore.",
+        "Cerita menggunakan narator orang ketiga yang tidak terlibat."
+      ],
+      "answer": "Latar utama adalah perpustakaan pada Jumat sore."
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v3-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Gunakan konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-3",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tema utama cerita adalah persaingan dalam olahraga.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "b",
+          "text": "Latar utama adalah perpustakaan pada Jumat sore.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "c",
+          "text": "Cerita menggunakan narator orang ketiga yang tidak terlibat.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        },
+        {
+          "id": "d",
+          "text": "Alur bergerak maju dari pencarian ke penemuan buku.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v3-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-3",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Buku hilang tidak ditemukan sampai akhir cerita.",
+        "Tema utama cerita adalah persaingan dalam olahraga.",
+        "Latar utama adalah perpustakaan pada Jumat sore.",
+        "Cerita menggunakan narator orang ketiga yang tidak terlibat."
+      ],
+      "answer": "Latar utama adalah perpustakaan pada Jumat sore."
+    },
+    {
+      "id": "tka-bi-unsur-cerita-v3-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.story",
+      "explanation": "Gunakan konteks bacaan. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-unsur-cerita-bacaan-3",
+      "evidence": [
+        "Aku tiba di perpustakaan sekolah pada Jumat sore.",
+        "Cerita ini mengikuti urutan kedatangan, pencarian, penemuan, dan kepulangan.",
+        "Tempat utama peristiwa adalah perpustakaan, waktunya Jumat sore, dan suasana berubah dari cemas menjadi lega."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Alur bergerak maju dari pencarian ke penemuan buku.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Cerita memakai sudut pandang orang pertama.",
+          "explanation": "Sesuai dengan konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Buku hilang tidak ditemukan sampai akhir cerita.",
+          "explanation": "Tidak didukung oleh konteks. Cerita memakai sudut pandang orang pertama. Alur bergerak maju dari pencarian ke penemuan buku. Latar utama adalah perpustakaan pada Jumat sore.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

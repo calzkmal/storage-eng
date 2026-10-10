@@ -1,0 +1,552 @@
+[
+  [
+    {
+      "id": "tka-bi-kalimat-utama-v2-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-1",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Paragraf kedua berpola induktif.",
+        "Kalimat pendukung dapat berupa contoh atau alasan.",
+        "Judul bacaan sama dengan kalimat utama setiap paragraf.",
+        "Paragraf pembuka berpola deduktif."
+      ],
+      "answer": "Judul bacaan sama dengan kalimat utama setiap paragraf."
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v2-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-1",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Kalimat pendukung dapat berupa contoh atau alasan.",
+        "Paragraf kedua menempatkan kalimat utama di awal.",
+        "Paragraf pembuka berpola deduktif.",
+        "Paragraf kedua berpola induktif."
+      ],
+      "answer": "Paragraf kedua menempatkan kalimat utama di awal."
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v2-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Gunakan konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-1",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paragraf kedua berpola induktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "b",
+          "text": "Paragraf kedua menempatkan kalimat utama di awal.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "c",
+          "text": "Paragraf pembuka berpola deduktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "d",
+          "text": "Judul bacaan sama dengan kalimat utama setiap paragraf.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v2-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-2",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Kalimat pendukung dapat berupa contoh atau alasan.",
+        "Paragraf kedua menempatkan kalimat utama di awal.",
+        "Paragraf pembuka berpola deduktif.",
+        "Paragraf kedua berpola induktif."
+      ],
+      "answer": "Paragraf kedua menempatkan kalimat utama di awal."
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v2-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Gunakan konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-2",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Paragraf pembuka berpola deduktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Judul bacaan sama dengan kalimat utama setiap paragraf.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Paragraf kedua berpola induktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v2-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-2",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Paragraf pembuka berpola deduktif.",
+        "Paragraf kedua berpola induktif.",
+        "Kalimat pendukung dapat berupa contoh atau alasan.",
+        "Judul bacaan sama dengan kalimat utama setiap paragraf."
+      ],
+      "answer": "Judul bacaan sama dengan kalimat utama setiap paragraf."
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v2-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Gunakan konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-3",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paragraf pembuka berpola deduktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "b",
+          "text": "Judul bacaan sama dengan kalimat utama setiap paragraf.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "c",
+          "text": "Paragraf kedua berpola induktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "d",
+          "text": "Paragraf kedua menempatkan kalimat utama di awal.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v2-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-3",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Paragraf pembuka berpola deduktif.",
+        "Paragraf kedua berpola induktif.",
+        "Kalimat pendukung dapat berupa contoh atau alasan.",
+        "Judul bacaan sama dengan kalimat utama setiap paragraf."
+      ],
+      "answer": "Judul bacaan sama dengan kalimat utama setiap paragraf."
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v2-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Gunakan konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-3",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Kalimat utama selalu merupakan kalimat terpanjang.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Paragraf pembuka berpola deduktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Kalimat pendukung dapat berupa contoh atau alasan.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-bi-kalimat-utama-v3-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-1",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Paragraf kedua menempatkan kalimat utama di awal.",
+        "Kalimat pendukung dapat berupa contoh atau alasan.",
+        "Kalimat utama selalu merupakan kalimat terpanjang.",
+        "Judul bacaan sama dengan kalimat utama setiap paragraf."
+      ],
+      "answer": "Kalimat pendukung dapat berupa contoh atau alasan."
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v3-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-1",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Paragraf pembuka berpola deduktif.",
+        "Kalimat utama selalu merupakan kalimat terpanjang.",
+        "Judul bacaan sama dengan kalimat utama setiap paragraf.",
+        "Paragraf kedua menempatkan kalimat utama di awal."
+      ],
+      "answer": "Paragraf pembuka berpola deduktif."
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v3-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Gunakan konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-1",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kalimat utama selalu merupakan kalimat terpanjang.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "b",
+          "text": "Paragraf kedua berpola induktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "c",
+          "text": "Paragraf kedua menempatkan kalimat utama di awal.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "d",
+          "text": "Kalimat pendukung dapat berupa contoh atau alasan.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v3-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-2",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Paragraf pembuka berpola deduktif.",
+        "Kalimat utama selalu merupakan kalimat terpanjang.",
+        "Judul bacaan sama dengan kalimat utama setiap paragraf.",
+        "Paragraf kedua menempatkan kalimat utama di awal."
+      ],
+      "answer": "Paragraf pembuka berpola deduktif."
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v3-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Gunakan konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-2",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Paragraf kedua menempatkan kalimat utama di awal.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Kalimat pendukung dapat berupa contoh atau alasan.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Paragraf kedua berpola induktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v3-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-2",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Judul bacaan sama dengan kalimat utama setiap paragraf.",
+        "Paragraf kedua menempatkan kalimat utama di awal.",
+        "Kalimat pendukung dapat berupa contoh atau alasan.",
+        "Kalimat utama selalu merupakan kalimat terpanjang."
+      ],
+      "answer": "Kalimat pendukung dapat berupa contoh atau alasan."
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v3-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Gunakan konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-3",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paragraf kedua menempatkan kalimat utama di awal.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "b",
+          "text": "Kalimat pendukung dapat berupa contoh atau alasan.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "c",
+          "text": "Kalimat utama selalu merupakan kalimat terpanjang.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        },
+        {
+          "id": "d",
+          "text": "Paragraf kedua berpola induktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v3-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-3",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Judul bacaan sama dengan kalimat utama setiap paragraf.",
+        "Paragraf kedua menempatkan kalimat utama di awal.",
+        "Kalimat pendukung dapat berupa contoh atau alasan.",
+        "Kalimat utama selalu merupakan kalimat terpanjang."
+      ],
+      "answer": "Kalimat pendukung dapat berupa contoh atau alasan."
+    },
+    {
+      "id": "tka-bi-kalimat-utama-v3-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.structure",
+      "explanation": "Gunakan konteks bacaan. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kalimat-utama-bacaan-3",
+      "evidence": [
+        "Paragraf pembuka ini meletakkan pernyataan umum di awal, lalu memberikan rincian pendukung.",
+        "Pada paragraf kedua, kalimat terakhir merangkum contoh sebelumnya, sehingga gagasan utama ditempatkan di akhir.",
+        "Kalimat pendukung memberi contoh, alasan, atau penjelasan bagi gagasan itu."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Paragraf kedua berpola induktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Paragraf pembuka berpola deduktif.",
+          "explanation": "Sesuai dengan konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Judul bacaan sama dengan kalimat utama setiap paragraf.",
+          "explanation": "Tidak didukung oleh konteks. Paragraf pembuka berpola deduktif. Paragraf kedua berpola induktif. Kalimat pendukung dapat berupa contoh atau alasan.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]
