@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai konjungsi, kalimat, dan majas berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik konjungsi, kalimat, dan majas."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Bintang kelas adalah personifikasi karena benda langit berbicara.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Angin berbisik merupakan personifikasi."
+        "Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia."
       ],
-      "conclusion": "Tidak sesuai. Angin berbisik merupakan personifikasi."
+      "conclusion": "Tidak sesuai. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Para murid-murid merupakan bentuk paling hemat.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Dan bersifat koordinatif; karena menyatakan hubungan sebab."
+        "Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan."
       ],
-      "conclusion": "Tidak sesuai. Dan bersifat koordinatif; karena menyatakan hubungan sebab."
+      "conclusion": "Tidak sesuai. Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan."
     }
   ],
   "stimuli": [

@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai huruf kapital dan tanda baca berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik huruf kapital dan tanda baca."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Setiap kata kota selalu harus diawali kapital.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Senin dan Bandung ditulis dengan huruf awal kapital."
+        "Kata kota tidak selalu berkapital; kapital dipakai sesuai fungsi nama diri dan awal kalimat."
       ],
-      "conclusion": "Tidak sesuai. Senin dan Bandung ditulis dengan huruf awal kapital."
+      "conclusion": "Tidak sesuai. Kata kota tidak selalu berkapital; kapital dipakai sesuai fungsi nama diri dan awal kalimat."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Kalimat berita selalu diakhiri tanda tanya.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Ucapan langsung Rani dibatasi tanda petik."
+        "Kalimat berita diakhiri titik; tanda tanya dipakai untuk pertanyaan."
       ],
-      "conclusion": "Tidak sesuai. Ucapan langsung Rani dibatasi tanda petik."
+      "conclusion": "Tidak sesuai. Kalimat berita diakhiri titik; tanda tanya dipakai untuk pertanyaan."
     }
   ],
   "stimuli": [

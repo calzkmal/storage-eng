@@ -109,6 +109,22 @@ def bi_set(lid,comp,stimuli,pools,version):
             result.append(e)
     return result
 
+REASONS={
+'kosakata':['Termometer mengukur suhu, bukan panjang.','Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang.'],
+'makna-kata':['Sambutan hangat menggambarkan keramahan, bukan suhu ruangan.','Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh.'],
+'ikhtisar-bagan':['Ikhtisar mempertahankan isi pokok secara singkat, bukan menyalin semua kalimat.','Alur yang dijelaskan adalah pengumpulan, penimbangan, pencatatan, kemudian pengolahan.'],
+'kalimat-utama':['Pemilihan kalimat utama didasarkan pada gagasan dan hubungan makna, bukan panjang kalimat.','Judul menamai seluruh tulisan; kalimat utama memuat gagasan pokok suatu paragraf.'],
+'unsur-cerita':['Kata aku menunjukkan narator terlibat sebagai tokoh, sehingga sudut pandangnya orang pertama.','Buku ditemukan di bawah karton dalam kotak bahan pameran.'],
+'simpulan':['Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil.','Teman memberi saran tanpa mengejek, sehingga Tama mendapat dukungan.'],
+'kebahasaan-majas':['Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia.','Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan.'],
+'fakta-opini':['Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid.','Catatan tersebut hanya mencatat satu hari, sehingga tidak membuktikan kebiasaan selama satu tahun.'],
+'penilaian-teks':['Kritik menilai isi dengan bukti dan alasan, bukan menyerang pribadi penulis.','Pengumuman belum mencantumkan tanggal lengkap dan penanggung jawab.'],
+'jenis-teks':['Narasi menceritakan rangkaian peristiwa; dalam bacaan contohnya perjalanan Sari.','Deskripsi kebun menggambarkan ciri tempat; proses sebab-akibat hujan merupakan eksplanasi.'],
+'huruf-kapital-tanda-baca':['Kata kota tidak selalu berkapital; kapital dipakai sesuai fungsi nama diri dan awal kalimat.','Kalimat berita diakhiri titik; tanda tanya dipakai untuk pertanyaan.'],
+'kata-baku':['Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku.','Kebiasaan percakapan tidak cukup menentukan bentuk baku; gunakan kamus sebagai acuan.'],
+'sinonim-antonim':['Dalam ukuran lebar jalan, sempit berlawanan dengan lebar; pendek mengacu pada panjang.','Sinonim mempunyai konteks dan nuansa sehingga tidak selalu dapat dipertukarkan.'],
+}
+
 def bi_lessons():
     for topic,cat,order,title,comp,text,yes,no in TOPICS:
         lid='tka-bi-'+topic
@@ -120,9 +136,9 @@ def bi_lessons():
             variant=scenario.split('\n\n')+[quotes, 'Setelah itu, mereka menandai kata penting dan membaca ulang kalimat sebelum serta sesudahnya. Catatan tidak langsung diterima hanya karena ditulis rapi; isinya tetap dibandingkan dengan penjelasan yang sedang dipelajari.']
             stimuli.append(dict(id=f'{lid}-bacaan-{j+2}',title=['Diskusi pameran literasi','Catatan lokakarya'][j],paragraphs=variant,attribution='Teks orisinal untuk latihan ini.'))
         material=[dict(type='paragraph',title='Cara membaca',text='Baca seluruh konteks dan hubungkan rincian dengan pertanyaan. '+yes[0][0]),dict(type='paragraph',title='Periksa alasan',text='Jangan memilih berdasarkan satu kata yang tampak sama. '+yes[1][0]+' '+yes[2][0])]
-        material += [dict(type='worked_example',question='Apakah pernyataan berikut sesuai dengan bacaan: '+no[i],steps=['Temukan bagian yang menjelaskan gagasan terkait.',yes[i][0]],conclusion='Tidak sesuai. '+yes[i][0]) for i in (0,1)]
+        material += [dict(type='worked_example',question='Apakah pernyataan berikut sesuai dengan bacaan: '+no[i],steps=['Temukan bagian yang menjelaskan gagasan terkait.',REASONS[topic][i]],conclusion='Tidak sesuai. '+REASONS[topic][i]) for i in (0,1)]
         sets=[bi_set(lid,comp,stimuli,[(yes,no)]*3,v) for v in (1,2,3)]
-        write(LESSONS/(lid+'.json'),dict(id=lid,subject='bahasa-indonesia',category=cat,order=order,title=title,level=LEVEL,objectives=['Menafsirkan dan menilai '+title.lower()+' berdasarkan konteks.'],material=material,stimuli=stimuli,exercises=sets[0]))
+        write(LESSONS/(lid+'.json'),dict(id=lid,subject='bahasa-indonesia',category=cat,order=order,title=title,level=LEVEL,objectives=['Menentukan jawaban dan bukti yang tepat pada topik '+title.lower()+'.'],material=material,stimuli=stimuli,exercises=sets[0]))
         write(SETS/(lid+'.json'),sets[1:])
     # Supplement original BI seeds using original passage facts and distractors.
     for topic in ('informasi-tersurat','ide-pokok','amanat-dan-tokoh'):

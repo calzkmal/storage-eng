@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai ikhtisar dan bagan informasi berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik ikhtisar dan bagan informasi."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Ikhtisar harus menyalin setiap kalimat secara lengkap.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Ikhtisar perlu memuat tujuan dan hasil utama kegiatan."
+        "Ikhtisar mempertahankan isi pokok secara singkat, bukan menyalin semua kalimat."
       ],
-      "conclusion": "Tidak sesuai. Ikhtisar perlu memuat tujuan dan hasil utama kegiatan."
+      "conclusion": "Tidak sesuai. Ikhtisar mempertahankan isi pokok secara singkat, bukan menyalin semua kalimat."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Bagan menempatkan pengolahan sebelum pengumpulan.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Pengumpulan dilakukan sebelum penimbangan dalam bagan alur."
+        "Alur yang dijelaskan adalah pengumpulan, penimbangan, pencatatan, kemudian pengolahan."
       ],
-      "conclusion": "Tidak sesuai. Pengumpulan dilakukan sebelum penimbangan dalam bagan alur."
+      "conclusion": "Tidak sesuai. Alur yang dijelaskan adalah pengumpulan, penimbangan, pencatatan, kemudian pengolahan."
     }
   ],
   "stimuli": [

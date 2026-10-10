@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai kosakata umum, khusus, kajian, dan serapan berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik kosakata umum, khusus, kajian, dan serapan."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Termometer digunakan untuk mengukur panjang akar.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Fotosintesis merupakan istilah kajian dalam bacaan."
+        "Termometer mengukur suhu, bukan panjang."
       ],
-      "conclusion": "Tidak sesuai. Fotosintesis merupakan istilah kajian dalam bacaan."
+      "conclusion": "Tidak sesuai. Termometer mengukur suhu, bukan panjang."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Istilah khusus selalu berupa kata sulit.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Bagian lebih umum daripada akar."
+        "Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang."
       ],
-      "conclusion": "Tidak sesuai. Bagian lebih umum daripada akar."
+      "conclusion": "Tidak sesuai. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang."
     }
   ],
   "stimuli": [

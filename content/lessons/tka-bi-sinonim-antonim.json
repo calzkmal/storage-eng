@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai sinonim dan antonim dalam konteks berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik sinonim dan antonim dalam konteks."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Sempit berantonim dengan pendek pada ukuran lebar jalan.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Gembira dan senang bersinonim pada kalimat tentang kabar baik."
+        "Dalam ukuran lebar jalan, sempit berlawanan dengan lebar; pendek mengacu pada panjang."
       ],
-      "conclusion": "Tidak sesuai. Gembira dan senang bersinonim pada kalimat tentang kabar baik."
+      "conclusion": "Tidak sesuai. Dalam ukuran lebar jalan, sempit berlawanan dengan lebar; pendek mengacu pada panjang."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Semua sinonim selalu dapat dipertukarkan di setiap kalimat.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Sempit berantonim dengan lebar dalam konteks jalan."
+        "Sinonim mempunyai konteks dan nuansa sehingga tidak selalu dapat dipertukarkan."
       ],
-      "conclusion": "Tidak sesuai. Sempit berantonim dengan lebar dalam konteks jalan."
+      "conclusion": "Tidak sesuai. Sinonim mempunyai konteks dan nuansa sehingga tidak selalu dapat dipertukarkan."
     }
   ],
   "stimuli": [

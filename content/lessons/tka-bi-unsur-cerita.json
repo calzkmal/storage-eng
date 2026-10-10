@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai tema, alur, latar, dan sudut pandang berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik tema, alur, latar, dan sudut pandang."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Cerita menggunakan narator orang ketiga yang tidak terlibat.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Cerita memakai sudut pandang orang pertama."
+        "Kata aku menunjukkan narator terlibat sebagai tokoh, sehingga sudut pandangnya orang pertama."
       ],
-      "conclusion": "Tidak sesuai. Cerita memakai sudut pandang orang pertama."
+      "conclusion": "Tidak sesuai. Kata aku menunjukkan narator terlibat sebagai tokoh, sehingga sudut pandangnya orang pertama."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Buku hilang tidak ditemukan sampai akhir cerita.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Alur bergerak maju dari pencarian ke penemuan buku."
+        "Buku ditemukan di bawah karton dalam kotak bahan pameran."
       ],
-      "conclusion": "Tidak sesuai. Alur bergerak maju dari pencarian ke penemuan buku."
+      "conclusion": "Tidak sesuai. Buku ditemukan di bawah karton dalam kotak bahan pameran."
     }
   ],
   "stimuli": [

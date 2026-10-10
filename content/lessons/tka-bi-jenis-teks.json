@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai jenis teks dan informasi praktis berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik jenis teks dan informasi praktis."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Narasi pada pameran hanya memuat daftar ukuran benda tanpa peristiwa.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Penjelasan proses hujan merupakan eksplanasi."
+        "Narasi menceritakan rangkaian peristiwa; dalam bacaan contohnya perjalanan Sari."
       ],
-      "conclusion": "Tidak sesuai. Penjelasan proses hujan merupakan eksplanasi."
+      "conclusion": "Tidak sesuai. Narasi menceritakan rangkaian peristiwa; dalam bacaan contohnya perjalanan Sari."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Deskripsi kebun bertujuan menjelaskan proses sebab-akibat hujan.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Petunjuk dengan alat dan langkah berurutan merupakan prosedur."
+        "Deskripsi kebun menggambarkan ciri tempat; proses sebab-akibat hujan merupakan eksplanasi."
       ],
-      "conclusion": "Tidak sesuai. Petunjuk dengan alat dan langkah berurutan merupakan prosedur."
+      "conclusion": "Tidak sesuai. Deskripsi kebun menggambarkan ciri tempat; proses sebab-akibat hujan merupakan eksplanasi."
     }
   ],
   "stimuli": [

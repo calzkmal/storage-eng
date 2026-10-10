@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai kata baku dan tidak baku berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik kata baku dan tidak baku."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Aktifitas adalah bentuk baku dalam laporan latihan ini.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Aktivitas merupakan bentuk baku untuk laporan resmi."
+        "Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku."
       ],
-      "conclusion": "Tidak sesuai. Aktivitas merupakan bentuk baku untuk laporan resmi."
+      "conclusion": "Tidak sesuai. Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Ejaan baku cukup ditentukan dari kebiasaan percakapan.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Apotek dan izin merupakan bentuk baku."
+        "Kebiasaan percakapan tidak cukup menentukan bentuk baku; gunakan kamus sebagai acuan."
       ],
-      "conclusion": "Tidak sesuai. Apotek dan izin merupakan bentuk baku."
+      "conclusion": "Tidak sesuai. Kebiasaan percakapan tidak cukup menentukan bentuk baku; gunakan kamus sebagai acuan."
     }
   ],
   "stimuli": [

@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai menilai teks dan mengaitkan kehidupan berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik menilai teks dan mengaitkan kehidupan."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Kritik yang baik cukup menyerang pribadi penulis.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman."
+        "Kritik menilai isi dengan bukti dan alasan, bukan menyerang pribadi penulis."
       ],
-      "conclusion": "Tidak sesuai. Tempat dan perlengkapan yang jelas merupakan kelebihan pengumuman."
+      "conclusion": "Tidak sesuai. Kritik menilai isi dengan bukti dan alasan, bukan menyerang pribadi penulis."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Pengumuman sudah memuat tanggal lengkap dan kontak penanggung jawab.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu."
+        "Pengumuman belum mencantumkan tanggal lengkap dan penanggung jawab."
       ],
-      "conclusion": "Tidak sesuai. Tanggal lengkap perlu ditambahkan agar waktu tidak ambigu."
+      "conclusion": "Tidak sesuai. Pengumuman belum mencantumkan tanggal lengkap dan penanggung jawab."
     }
   ],
   "stimuli": [

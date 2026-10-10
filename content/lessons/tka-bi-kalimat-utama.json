@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai kalimat utama deduktif dan induktif berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik kalimat utama deduktif dan induktif."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Kalimat utama selalu merupakan kalimat terpanjang.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Paragraf pembuka berpola deduktif."
+        "Pemilihan kalimat utama didasarkan pada gagasan dan hubungan makna, bukan panjang kalimat."
       ],
-      "conclusion": "Tidak sesuai. Paragraf pembuka berpola deduktif."
+      "conclusion": "Tidak sesuai. Pemilihan kalimat utama didasarkan pada gagasan dan hubungan makna, bukan panjang kalimat."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Judul bacaan sama dengan kalimat utama setiap paragraf.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Paragraf kedua berpola induktif."
+        "Judul menamai seluruh tulisan; kalimat utama memuat gagasan pokok suatu paragraf."
       ],
-      "conclusion": "Tidak sesuai. Paragraf kedua berpola induktif."
+      "conclusion": "Tidak sesuai. Judul menamai seluruh tulisan; kalimat utama memuat gagasan pokok suatu paragraf."
     }
   ],
   "stimuli": [

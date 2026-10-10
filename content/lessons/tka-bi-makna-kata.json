@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai denotasi, konotasi, dan ungkapan berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik denotasi, konotasi, dan ungkapan."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Sambutan hangat berarti suhu ruangan sangat tinggi.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Hangat pada teh menyatakan makna denotatif berupa suhu."
+        "Sambutan hangat menggambarkan keramahan, bukan suhu ruangan."
       ],
-      "conclusion": "Tidak sesuai. Hangat pada teh menyatakan makna denotatif berupa suhu."
+      "conclusion": "Tidak sesuai. Sambutan hangat menggambarkan keramahan, bukan suhu ruangan."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Rendah hati berarti letak organ tubuh rendah.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Rendah hati berarti tidak sombong dalam konteks Arif."
+        "Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh."
       ],
-      "conclusion": "Tidak sesuai. Rendah hati berarti tidak sombong dalam konteks Arif."
+      "conclusion": "Tidak sesuai. Rendah hati menjelaskan sikap tidak sombong, bukan letak organ tubuh."
     }
   ],
   "stimuli": [

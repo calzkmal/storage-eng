@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai simpulan dan perubahan tokoh berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik simpulan dan perubahan tokoh."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Tama langsung menjadi pembicara lancar tanpa latihan.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Keberanian Tama meningkat melalui latihan bertahap."
+        "Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil."
       ],
-      "conclusion": "Tidak sesuai. Keberanian Tama meningkat melalui latihan bertahap."
+      "conclusion": "Tidak sesuai. Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Teman mengejek Tama setiap kali ia berbicara.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Dukungan teman ikut membantu Tama berani mencoba."
+        "Teman memberi saran tanpa mengejek, sehingga Tama mendapat dukungan."
       ],
-      "conclusion": "Tidak sesuai. Dukungan teman ikut membantu Tama berani mencoba."
+      "conclusion": "Tidak sesuai. Teman memberi saran tanpa mengejek, sehingga Tama mendapat dukungan."
     }
   ],
   "stimuli": [

@@ -10,7 +10,7 @@
     "program": "tka"
   },
   "objectives": [
-    "Menafsirkan dan menilai membedakan fakta dan opini berdasarkan konteks."
+    "Menentukan jawaban dan bukti yang tepat pada topik membedakan fakta dan opini."
   ],
   "material": [
     {
@@ -28,18 +28,18 @@
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Semua murid pasti lebih menyukai buku sains.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan."
+        "Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid."
       ],
-      "conclusion": "Tidak sesuai. Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan."
+      "conclusion": "Tidak sesuai. Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid."
     },
     {
       "type": "worked_example",
       "question": "Apakah pernyataan berikut sesuai dengan bacaan: Data satu hari membuktikan kebiasaan peminjaman selama satu tahun.",
       "steps": [
         "Temukan bagian yang menjelaskan gagasan terkait.",
-        "Penilaian Laras tentang tempat paling nyaman merupakan opini."
+        "Catatan tersebut hanya mencatat satu hari, sehingga tidak membuktikan kebiasaan selama satu tahun."
       ],
-      "conclusion": "Tidak sesuai. Penilaian Laras tentang tempat paling nyaman merupakan opini."
+      "conclusion": "Tidak sesuai. Catatan tersebut hanya mencatat satu hari, sehingga tidak membuktikan kebiasaan selama satu tahun."
     }
   ],
   "stimuli": [
