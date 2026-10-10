@@ -1,0 +1,444 @@
+[
+  [
+    {
+      "id": "tka-math-statistika-v2-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Pada empat data terurut, median adalah rata-rata dua nilai tengah. Hasilnya 9 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data: 6, 8, 10, 12. Berapa mediannya?",
+      "options": [
+        "8",
+        "11",
+        "9",
+        "10"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": "tka-math-statistika-v2-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Modus adalah nilai yang paling sering muncul. Hasilnya 3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data: 3, 18, 3, 23, 3. Berapa modusnya?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "tka-math-statistika-v2-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Urutkan seluruh data; ambil nilai tengah. Hasilnya 7 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data: 7, 7, 3, 9, 16. Berapa mediannya?",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "9"
+      ],
+      "answer": "7"
+    },
+    {
+      "id": "tka-math-statistika-v2-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Periksa setiap soal secara terpisah. Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 5. Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 6. Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 10. Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 10,2.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data: 5, 5, 5, 10, 15. Berapa mediannya? Jawaban: 6.",
+          "explanation": "Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 5."
+        },
+        {
+          "id": "b",
+          "text": "Data: 6, 15, 6, 26, 6. Berapa modusnya? Jawaban: 6.",
+          "explanation": "Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 6."
+        },
+        {
+          "id": "c",
+          "text": "Data: 7, 9, 11, 13. Berapa mediannya? Jawaban: 11.",
+          "explanation": "Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 10."
+        },
+        {
+          "id": "d",
+          "text": "Data: 8, 8, 5, 11, 19. Berapa rata-ratanya? Jawaban: 10,2.",
+          "explanation": "Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 10,2."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-statistika-v2-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Pada empat data terurut, median adalah rata-rata dua nilai tengah. Hasilnya 11 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data: 8, 10, 12, 14. Berapa mediannya?",
+      "options": [
+        "10",
+        "13",
+        "11",
+        "12"
+      ],
+      "answer": "11"
+    },
+    {
+      "id": "tka-math-statistika-v2-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Periksa setiap soal secara terpisah. Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 9. Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 10,2. Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 8.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Data: 6, 8, 10, 12. Berapa mediannya? Jawaban: 10.",
+          "explanation": "Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 9.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Data: 7, 7, 8, 11, 18. Berapa rata-ratanya? Jawaban: 10,2.",
+          "explanation": "Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 10,2.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Data: 8, 8, 8, 11, 19. Berapa mediannya? Jawaban: 8.",
+          "explanation": "Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 8.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-statistika-v2-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Urutkan seluruh data; ambil nilai tengah. Hasilnya 4 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data: 2, 2, 4, 10, 12. Berapa mediannya?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "6"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": "tka-math-statistika-v2-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Periksa setiap soal secara terpisah. Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 7. Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 8. Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 5. Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 7,8.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data: 7, 7, 5, 10, 17. Berapa mediannya? Jawaban: 8.",
+          "explanation": "Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 7."
+        },
+        {
+          "id": "b",
+          "text": "Data: 8, 15, 8, 25, 8. Berapa modusnya? Jawaban: 8.",
+          "explanation": "Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 8."
+        },
+        {
+          "id": "c",
+          "text": "Data: 2, 4, 6, 8. Berapa mediannya? Jawaban: 6.",
+          "explanation": "Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 5."
+        },
+        {
+          "id": "d",
+          "text": "Data: 3, 3, 6, 12, 15. Berapa rata-ratanya? Jawaban: 7,8.",
+          "explanation": "Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 7,8."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-statistika-v2-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Periksa setiap soal secara terpisah. Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 8,2. Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 7. Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 6.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Data: 4, 4, 7, 11, 15. Berapa rata-ratanya? Jawaban: 9,2.",
+          "explanation": "Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 8,2.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Data: 5, 5, 7, 11, 16. Berapa mediannya? Jawaban: 7.",
+          "explanation": "Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 7.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Data: 6, 17, 6, 24, 6. Berapa modusnya? Jawaban: 6.",
+          "explanation": "Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 6.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-math-statistika-v3-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Modus adalah nilai yang paling sering muncul. Hasilnya 3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data: 3, 14, 3, 26, 3. Berapa modusnya?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "tka-math-statistika-v3-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Urutkan seluruh data; ambil nilai tengah. Hasilnya 7 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data: 7, 7, 5, 10, 17. Berapa mediannya?",
+      "options": [
+        "7",
+        "8",
+        "6",
+        "9"
+      ],
+      "answer": "7"
+    },
+    {
+      "id": "tka-math-statistika-v3-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Rata-rata = jumlah data ÷ banyak data. Hasilnya 8,2 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data: 4, 4, 7, 11, 15. Berapa rata-ratanya?",
+      "options": [
+        "9,2",
+        "7,2",
+        "10,2",
+        "8,2"
+      ],
+      "answer": "8,2"
+    },
+    {
+      "id": "tka-math-statistika-v3-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Periksa setiap soal secara terpisah. Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 4,2. Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 3. Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 4. Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 8.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data: 2, 2, 3, 6, 8. Berapa rata-ratanya? Jawaban: 4,2.",
+          "explanation": "Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 4,2."
+        },
+        {
+          "id": "b",
+          "text": "Data: 3, 3, 3, 6, 9. Berapa mediannya? Jawaban: 4.",
+          "explanation": "Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 3."
+        },
+        {
+          "id": "c",
+          "text": "Data: 4, 13, 4, 23, 4. Berapa modusnya? Jawaban: 4.",
+          "explanation": "Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 4."
+        },
+        {
+          "id": "d",
+          "text": "Data: 5, 7, 9, 11. Berapa mediannya? Jawaban: 9.",
+          "explanation": "Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 8."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-statistika-v3-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Modus adalah nilai yang paling sering muncul. Hasilnya 5 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data: 5, 14, 5, 26, 5. Berapa modusnya?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "tka-math-statistika-v3-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Periksa setiap soal secara terpisah. Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 3. Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 7. Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 9.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Data: 3, 16, 3, 25, 3. Berapa modusnya? Jawaban: 3.",
+          "explanation": "Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 3.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Data: 4, 6, 8, 10. Berapa mediannya? Jawaban: 7.",
+          "explanation": "Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 7.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Data: 5, 5, 6, 12, 17. Berapa rata-ratanya? Jawaban: 10.",
+          "explanation": "Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 9.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-statistika-v3-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Rata-rata = jumlah data ÷ banyak data. Hasilnya 9 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data: 6, 6, 7, 10, 16. Berapa rata-ratanya?",
+      "options": [
+        "10",
+        "8",
+        "11",
+        "9"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": "tka-math-statistika-v3-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Periksa setiap soal secara terpisah. Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 5. Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 5. Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 6. Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 10.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data: 4, 4, 3, 5, 9. Berapa rata-ratanya? Jawaban: 5.",
+          "explanation": "Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 5."
+        },
+        {
+          "id": "b",
+          "text": "Data: 5, 5, 3, 6, 11. Berapa mediannya? Jawaban: 6.",
+          "explanation": "Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 5."
+        },
+        {
+          "id": "c",
+          "text": "Data: 6, 13, 6, 23, 6. Berapa modusnya? Jawaban: 6.",
+          "explanation": "Modus adalah nilai yang paling sering muncul. Nilai yang tepat adalah 6."
+        },
+        {
+          "id": "d",
+          "text": "Data: 7, 9, 11, 13. Berapa mediannya? Jawaban: 11.",
+          "explanation": "Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 10."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-statistika-v3-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.center",
+      "explanation": "Periksa setiap soal secara terpisah. Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 11. Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 6,6. Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 5.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Data: 8, 10, 12, 14. Berapa mediannya? Jawaban: 11.",
+          "explanation": "Pada empat data terurut, median adalah rata-rata dua nilai tengah. Nilai yang tepat adalah 11.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Data: 2, 2, 5, 11, 13. Berapa rata-ratanya? Jawaban: 6,6.",
+          "explanation": "Rata-rata = jumlah data ÷ banyak data. Nilai yang tepat adalah 6,6.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Data: 3, 3, 5, 7, 10. Berapa mediannya? Jawaban: 6.",
+          "explanation": "Urutkan seluruh data; ambil nilai tengah. Nilai yang tepat adalah 5.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

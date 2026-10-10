@@ -1,0 +1,352 @@
+{
+  "id": "tka-bi-simpulan",
+  "subject": "bahasa-indonesia",
+  "category": 2,
+  "order": 5,
+  "title": "Simpulan dan perubahan tokoh",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menentukan jawaban dan bukti yang tepat pada topik simpulan dan perubahan tokoh."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Cara membaca",
+      "text": "Baca seluruh konteks dan hubungkan rincian dengan pertanyaan. Keberanian Tama meningkat melalui latihan bertahap."
+    },
+    {
+      "type": "paragraph",
+      "title": "Periksa alasan",
+      "text": "Jangan memilih berdasarkan satu kata yang tampak sama. Dukungan teman ikut membantu Tama berani mencoba. Tama masih perlu berlatih meskipun sudah berhasil tampil."
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah pernyataan berikut sesuai dengan bacaan: Tama langsung menjadi pembicara lancar tanpa latihan.",
+      "steps": [
+        "Temukan bagian yang menjelaskan gagasan terkait.",
+        "Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil."
+      ],
+      "conclusion": "Tidak sesuai. Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil."
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah pernyataan berikut sesuai dengan bacaan: Teman mengejek Tama setiap kali ia berbicara.",
+      "steps": [
+        "Temukan bagian yang menjelaskan gagasan terkait.",
+        "Teman memberi saran tanpa mengejek, sehingga Tama mendapat dukungan."
+      ],
+      "conclusion": "Tidak sesuai. Teman memberi saran tanpa mengejek, sehingga Tama mendapat dukungan."
+    }
+  ],
+  "stimuli": [
+    {
+      "id": "tka-bi-simpulan-bacaan-1",
+      "title": "Simpulan dan perubahan tokoh dalam bacaan",
+      "paragraphs": [
+        "Pada awal semester, Tama enggan berbicara di depan kelas. Ketika diminta menjelaskan hasil kerja kelompok, ia hanya menunduk. Ia takut salah mengucapkan kata dan ditertawakan teman. Bu Nuri tidak memaksanya tampil sendirian. Ia memberi kesempatan kepada Tama untuk berlatih bersama dua teman dalam kelompok kecil.",
+        "Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari. Temannya mendengarkan dan memberikan saran tanpa mengejek. Tama juga menulis kata kunci di kartu kecil supaya tidak melupakan urutan penjelasan. Pada latihan pertama suaranya pelan, tetapi pada latihan berikutnya terdengar lebih jelas. Ia masih merasa gugup, namun mulai berani menatap pendengar.",
+        "Pada akhir bulan, Tama menjelaskan hasil pengamatan tanaman selama dua menit. Ia sempat berhenti untuk membaca kartu, kemudian melanjutkan sampai selesai. Teman sekelas memberikan tepuk tangan. Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat. Dari rangkaian peristiwa itu dapat disimpulkan bahwa latihan bertahap dan dukungan yang ramah membantu perkembangan keberaniannya. Kesimpulan tersebut didasarkan pada perubahan perilaku yang diceritakan, bukan dugaan bahwa semua rasa takut akan hilang dalam waktu yang sama pada setiap orang."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "tka-bi-simpulan-bacaan-2",
+      "title": "Diskusi pameran literasi",
+      "paragraphs": [
+        "Kelompok kelas enam menyiapkan pameran literasi pada Rabu sore. Mereka membagi tugas membaca, mencatat, dan menyunting. Setiap anggota diminta menjelaskan alasan kepada teman, bukan hanya menyalin jawaban. Jika penafsiran berbeda, mereka memeriksa kembali konteks. Hasil diskusi akan dibaca oleh kelas lain, sehingga setiap catatan harus dapat dipahami tanpa penjelasan lisan tambahan. Berikut pokok yang mereka sepakati beserta bagian bacaan yang mendukungnya.",
+        "Pokok catatan: «Keberanian Tama meningkat melalui latihan bertahap. Bukti: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.»; «Dukungan teman ikut membantu Tama berani mencoba. Bukti: Temannya mendengarkan dan memberikan saran tanpa mengejek.»; «Tama masih perlu berlatih meskipun sudah berhasil tampil. Bukti: Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat.»",
+        "Catatan dibaca ulang untuk membedakan gagasan yang didukung bukti dari dugaan. Murid dapat memakai kalimat sendiri, tetapi tidak boleh mengubah makna informasi yang sedang dibahas. Pada akhir pertemuan, kelompok menyampaikan hasilnya secara bergiliran dan menerima pertanyaan. Mereka memperbaiki bagian yang belum jelas sebelum catatan dibagikan kepada pembaca lain."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "tka-bi-simpulan-bacaan-3",
+      "title": "Catatan lokakarya",
+      "paragraphs": [
+        "Pada lokakarya kelas enam, murid membaca dan menyunting secara berpasangan. Seorang murid mengusulkan penafsiran, sedangkan pasangannya mencari bukti. Mereka berganti peran agar semua berlatih. Jawaban tidak dipilih berdasarkan suara yang paling keras. Setelah diskusi, mereka menulis catatan untuk pembaca yang tidak mengikuti kegiatan. Catatan berikut menyampaikan gagasan lengkap dan bukti, sehingga informasi tidak bergantung pada ingatan pembaca tentang cerita sebelumnya.",
+        "Pokok catatan: «Keberanian Tama meningkat melalui latihan bertahap. Bukti: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.»; «Dukungan teman ikut membantu Tama berani mencoba. Bukti: Temannya mendengarkan dan memberikan saran tanpa mengejek.»; «Tama masih perlu berlatih meskipun sudah berhasil tampil. Bukti: Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat.»",
+        "Catatan dibaca ulang untuk membedakan gagasan yang didukung bukti dari dugaan. Murid dapat memakai kalimat sendiri, tetapi tidak boleh mengubah makna informasi yang sedang dibahas. Pada akhir pertemuan, kelompok menyampaikan hasilnya secara bergiliran dan menerima pertanyaan. Mereka memperbaiki bagian yang belum jelas sebelum catatan dibagikan kepada pembaca lain."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-bi-simpulan-v1-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.conclusion",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-simpulan-bacaan-1",
+      "evidence": [
+        "Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+        "Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+        "Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Tama langsung menjadi pembicara lancar tanpa latihan.",
+        "Teman mengejek Tama setiap kali ia berbicara.",
+        "Cerita membuktikan semua orang akan pulih dari rasa takut tepat dua minggu.",
+        "Keberanian Tama meningkat melalui latihan bertahap."
+      ],
+      "answer": "Keberanian Tama meningkat melalui latihan bertahap."
+    },
+    {
+      "id": "tka-bi-simpulan-v1-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.conclusion",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-simpulan-bacaan-1",
+      "evidence": [
+        "Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+        "Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+        "Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Teman mengejek Tama setiap kali ia berbicara.",
+        "Cerita membuktikan semua orang akan pulih dari rasa takut tepat dua minggu.",
+        "Dukungan teman ikut membantu Tama berani mencoba.",
+        "Tama langsung menjadi pembicara lancar tanpa latihan."
+      ],
+      "answer": "Dukungan teman ikut membantu Tama berani mencoba."
+    },
+    {
+      "id": "tka-bi-simpulan-v1-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.conclusion",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil. Bacaan mendukung penjelasan ini: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari. Teman memberi saran tanpa mengejek, sehingga Tama mendapat dukungan. Bacaan mendukung penjelasan ini: Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-simpulan-bacaan-1",
+      "evidence": [
+        "Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+        "Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+        "Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tama langsung menjadi pembicara lancar tanpa latihan.",
+          "explanation": "Tidak didukung oleh konteks. Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil."
+        },
+        {
+          "id": "b",
+          "text": "Keberanian Tama meningkat melalui latihan bertahap.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari."
+        },
+        {
+          "id": "c",
+          "text": "Teman mengejek Tama setiap kali ia berbicara.",
+          "explanation": "Tidak didukung oleh konteks. Teman memberi saran tanpa mengejek, sehingga Tama mendapat dukungan."
+        },
+        {
+          "id": "d",
+          "text": "Tama masih perlu berlatih meskipun sudah berhasil tampil.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-simpulan-v1-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.conclusion",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-simpulan-bacaan-2",
+      "evidence": [
+        "Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+        "Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+        "Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Teman mengejek Tama setiap kali ia berbicara.",
+        "Cerita membuktikan semua orang akan pulih dari rasa takut tepat dua minggu.",
+        "Dukungan teman ikut membantu Tama berani mencoba.",
+        "Tama langsung menjadi pembicara lancar tanpa latihan."
+      ],
+      "answer": "Dukungan teman ikut membantu Tama berani mencoba."
+    },
+    {
+      "id": "tka-bi-simpulan-v1-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.conclusion",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari. Bacaan mendukung penjelasan ini: Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat. Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-simpulan-bacaan-2",
+      "evidence": [
+        "Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+        "Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+        "Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Keberanian Tama meningkat melalui latihan bertahap.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Tama masih perlu berlatih meskipun sudah berhasil tampil.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Tama langsung menjadi pembicara lancar tanpa latihan.",
+          "explanation": "Tidak didukung oleh konteks. Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-simpulan-v1-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.conclusion",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-simpulan-bacaan-2",
+      "evidence": [
+        "Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+        "Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+        "Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Keberanian Tama meningkat melalui latihan bertahap.",
+        "Tama langsung menjadi pembicara lancar tanpa latihan.",
+        "Teman mengejek Tama setiap kali ia berbicara.",
+        "Cerita membuktikan semua orang akan pulih dari rasa takut tepat dua minggu."
+      ],
+      "answer": "Keberanian Tama meningkat melalui latihan bertahap."
+    },
+    {
+      "id": "tka-bi-simpulan-v1-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.conclusion",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Teman memberi saran tanpa mengejek, sehingga Tama mendapat dukungan. Bacaan mendukung penjelasan ini: Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat. Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil. Bacaan mendukung penjelasan ini: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-simpulan-bacaan-3",
+      "evidence": [
+        "Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+        "Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+        "Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Teman mengejek Tama setiap kali ia berbicara.",
+          "explanation": "Tidak didukung oleh konteks. Teman memberi saran tanpa mengejek, sehingga Tama mendapat dukungan."
+        },
+        {
+          "id": "b",
+          "text": "Tama masih perlu berlatih meskipun sudah berhasil tampil.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+        },
+        {
+          "id": "c",
+          "text": "Tama langsung menjadi pembicara lancar tanpa latihan.",
+          "explanation": "Tidak didukung oleh konteks. Tama berlatih satu kalimat setiap hari dan masih perlu kartu saat tampil."
+        },
+        {
+          "id": "d",
+          "text": "Keberanian Tama meningkat melalui latihan bertahap.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-simpulan-v1-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.conclusion",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-simpulan-bacaan-3",
+      "evidence": [
+        "Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+        "Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+        "Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Keberanian Tama meningkat melalui latihan bertahap.",
+        "Tama langsung menjadi pembicara lancar tanpa latihan.",
+        "Teman mengejek Tama setiap kali ia berbicara.",
+        "Cerita membuktikan semua orang akan pulih dari rasa takut tepat dua minggu."
+      ],
+      "answer": "Keberanian Tama meningkat melalui latihan bertahap."
+    },
+    {
+      "id": "tka-bi-simpulan-v1-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.conclusion",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Temannya mendengarkan dan memberikan saran tanpa mengejek. Cerita hanya menjelaskan perkembangan Tama; tidak membuktikan waktu yang sama bagi semua orang. Bacaan mendukung penjelasan ini: Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-simpulan-bacaan-3",
+      "evidence": [
+        "Selama dua minggu, Tama berlatih menyampaikan satu kalimat setiap hari.",
+        "Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+        "Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Dukungan teman ikut membantu Tama berani mencoba.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Temannya mendengarkan dan memberikan saran tanpa mengejek.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Cerita membuktikan semua orang akan pulih dari rasa takut tepat dua minggu.",
+          "explanation": "Tidak didukung oleh konteks. Cerita hanya menjelaskan perkembangan Tama; tidak membuktikan waktu yang sama bagi semua orang.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Tama masih perlu berlatih meskipun sudah berhasil tampil.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Tama belum menjadi pembicara yang selalu lancar, tetapi kemauannya mencoba sudah meningkat.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

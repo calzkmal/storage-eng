@@ -1,0 +1,444 @@
+[
+  [
+    {
+      "id": "tka-math-perbandingan-skala-v2-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Hasilnya 6 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Jarak sebenarnya 3600 cm, skala 1 : 600. Berapa cm jarak pada denah?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v2-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Panjang sebenarnya = panjang gambar × penyebut skala. Hasilnya 2400 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Skala denah 1 : 800. Panjang gambar 3 cm. Berapa cm panjang sebenarnya?",
+      "options": [
+        "2402",
+        "2400",
+        "2401",
+        "2399"
+      ],
+      "answer": "2400"
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v2-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Hasilnya 6 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "7 pekerja menyelesaikan tugas dalam 18 hari. Dengan kemampuan sama, berapa hari jika pekerjanya 21 orang?",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v2-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Periksa setiap soal secara terpisah. Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 5. Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 3000. Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 7. Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 30000.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 pekerja menyelesaikan tugas dalam 25 hari. Dengan kemampuan sama, berapa hari jika pekerjanya 25 orang? Jawaban: 6.",
+          "explanation": "Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 5."
+        },
+        {
+          "id": "b",
+          "text": "Skala denah 1 : 500. Panjang gambar 6 cm. Berapa cm panjang sebenarnya? Jawaban: 3000.",
+          "explanation": "Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 3000."
+        },
+        {
+          "id": "c",
+          "text": "Jarak sebenarnya 3500 cm, skala 1 : 500. Berapa cm jarak pada denah? Jawaban: 8.",
+          "explanation": "Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 7."
+        },
+        {
+          "id": "d",
+          "text": "8 buku berharga Rp40000. Berapa rupiah harga 6 buku yang sama? Jawaban: 30000.",
+          "explanation": "Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 30000."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v2-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Hasilnya 8 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Jarak sebenarnya 4800 cm, skala 1 : 600. Berapa cm jarak pada denah?",
+      "options": [
+        "7",
+        "10",
+        "8",
+        "9"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v2-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Periksa setiap soal secara terpisah. Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 6. Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 24000. Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 3.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Jarak sebenarnya 4800 cm, skala 1 : 800. Berapa cm jarak pada denah? Jawaban: 7.",
+          "explanation": "Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 6.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "7 buku berharga Rp56000. Berapa rupiah harga 3 buku yang sama? Jawaban: 24000.",
+          "explanation": "Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 24000.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "8 pekerja menyelesaikan tugas dalam 24 hari. Dengan kemampuan sama, berapa hari jika pekerjanya 64 orang? Jawaban: 3.",
+          "explanation": "Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 3.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v2-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Hasilnya 6 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "2 pekerja menyelesaikan tugas dalam 24 hari. Dengan kemampuan sama, berapa hari jika pekerjanya 8 orang?",
+      "options": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v2-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Periksa setiap soal secara terpisah. Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 5. Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 4000. Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 2. Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 36000.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 pekerja menyelesaikan tugas dalam 25 hari. Dengan kemampuan sama, berapa hari jika pekerjanya 35 orang? Jawaban: 6.",
+          "explanation": "Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 5."
+        },
+        {
+          "id": "b",
+          "text": "Skala denah 1 : 500. Panjang gambar 8 cm. Berapa cm panjang sebenarnya? Jawaban: 4000.",
+          "explanation": "Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 4000."
+        },
+        {
+          "id": "c",
+          "text": "Jarak sebenarnya 1200 cm, skala 1 : 600. Berapa cm jarak pada denah? Jawaban: 3.",
+          "explanation": "Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 2."
+        },
+        {
+          "id": "d",
+          "text": "3 buku berharga Rp18000. Berapa rupiah harga 6 buku yang sama? Jawaban: 36000.",
+          "explanation": "Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 36000."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v2-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Periksa setiap soal secara terpisah. Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 28000. Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 4. Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 4200.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "4 buku berharga Rp28000. Berapa rupiah harga 4 buku yang sama? Jawaban: 28001.",
+          "explanation": "Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 28000.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "5 pekerja menyelesaikan tugas dalam 28 hari. Dengan kemampuan sama, berapa hari jika pekerjanya 35 orang? Jawaban: 4.",
+          "explanation": "Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 4.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Skala denah 1 : 700. Panjang gambar 6 cm. Berapa cm panjang sebenarnya? Jawaban: 4200.",
+          "explanation": "Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 4200.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-math-perbandingan-skala-v3-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Panjang sebenarnya = panjang gambar × penyebut skala. Hasilnya 1200 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Skala denah 1 : 400. Panjang gambar 3 cm. Berapa cm panjang sebenarnya?",
+      "options": [
+        "1202",
+        "1200",
+        "1201",
+        "1199"
+      ],
+      "answer": "1200"
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v3-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Hasilnya 5 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "7 pekerja menyelesaikan tugas dalam 25 hari. Dengan kemampuan sama, berapa hari jika pekerjanya 35 orang?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "7"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v3-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Perbandingan senilai: harga per buku dikali jumlah buku. Hasilnya 28000 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "4 buku berharga Rp28000. Berapa rupiah harga 4 buku yang sama?",
+      "options": [
+        "28001",
+        "27999",
+        "28002",
+        "28000"
+      ],
+      "answer": "28000"
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v3-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Periksa setiap soal secara terpisah. Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 9000. Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 3. Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 1200. Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 5.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 buku berharga Rp6000. Berapa rupiah harga 3 buku yang sama? Jawaban: 9000.",
+          "explanation": "Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 9000."
+        },
+        {
+          "id": "b",
+          "text": "3 pekerja menyelesaikan tugas dalam 9 hari. Dengan kemampuan sama, berapa hari jika pekerjanya 9 orang? Jawaban: 4.",
+          "explanation": "Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 3."
+        },
+        {
+          "id": "c",
+          "text": "Skala denah 1 : 300. Panjang gambar 4 cm. Berapa cm panjang sebenarnya? Jawaban: 1200.",
+          "explanation": "Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 1200."
+        },
+        {
+          "id": "d",
+          "text": "Jarak sebenarnya 1500 cm, skala 1 : 300. Berapa cm jarak pada denah? Jawaban: 6.",
+          "explanation": "Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 5."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v3-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Panjang sebenarnya = panjang gambar × penyebut skala. Hasilnya 2000 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Skala denah 1 : 400. Panjang gambar 5 cm. Berapa cm panjang sebenarnya?",
+      "options": [
+        "2002",
+        "2000",
+        "2001",
+        "1999"
+      ],
+      "answer": "2000"
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v3-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Periksa setiap soal secara terpisah. Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 1800. Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 4. Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 36000.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Skala denah 1 : 600. Panjang gambar 3 cm. Berapa cm panjang sebenarnya? Jawaban: 1800.",
+          "explanation": "Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 1800.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Jarak sebenarnya 2400 cm, skala 1 : 600. Berapa cm jarak pada denah? Jawaban: 4.",
+          "explanation": "Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 4.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "5 buku berharga Rp30000. Berapa rupiah harga 6 buku yang sama? Jawaban: 36001.",
+          "explanation": "Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 36000.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v3-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Perbandingan senilai: harga per buku dikali jumlah buku. Hasilnya 21000 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "6 buku berharga Rp42000. Berapa rupiah harga 3 buku yang sama?",
+      "options": [
+        "21001",
+        "20999",
+        "21002",
+        "21000"
+      ],
+      "answer": "21000"
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v3-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Periksa setiap soal secara terpisah. Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 6000. Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 3. Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 1800. Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 7.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "4 buku berharga Rp12000. Berapa rupiah harga 2 buku yang sama? Jawaban: 6000.",
+          "explanation": "Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 6000."
+        },
+        {
+          "id": "b",
+          "text": "5 pekerja menyelesaikan tugas dalam 9 hari. Dengan kemampuan sama, berapa hari jika pekerjanya 15 orang? Jawaban: 4.",
+          "explanation": "Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 3."
+        },
+        {
+          "id": "c",
+          "text": "Skala denah 1 : 300. Panjang gambar 6 cm. Berapa cm panjang sebenarnya? Jawaban: 1800.",
+          "explanation": "Panjang sebenarnya = panjang gambar × penyebut skala. Nilai yang tepat adalah 1800."
+        },
+        {
+          "id": "d",
+          "text": "Jarak sebenarnya 2100 cm, skala 1 : 300. Berapa cm jarak pada denah? Jawaban: 8.",
+          "explanation": "Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 7."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-perbandingan-skala-v3-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.ratio",
+      "explanation": "Periksa setiap soal secara terpisah. Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 8. Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 30000. Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 2.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Jarak sebenarnya 3200 cm, skala 1 : 400. Berapa cm jarak pada denah? Jawaban: 8.",
+          "explanation": "Gunakan satuan sama, lalu bagi jarak sebenarnya dengan penyebut skala. Nilai yang tepat adalah 8.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "2 buku berharga Rp10000. Berapa rupiah harga 6 buku yang sama? Jawaban: 30000.",
+          "explanation": "Perbandingan senilai: harga per buku dikali jumlah buku. Nilai yang tepat adalah 30000.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "3 pekerja menyelesaikan tugas dalam 10 hari. Dengan kemampuan sama, berapa hari jika pekerjanya 15 orang? Jawaban: 3.",
+          "explanation": "Untuk pekerjaan tetap, jumlah pekerja × waktu tetap. Nilai yang tepat adalah 2.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

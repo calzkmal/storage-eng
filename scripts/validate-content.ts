@@ -1,4 +1,5 @@
 // Validates every lesson file. Runs in prebuild; exits non-zero on any error.
+import { loadTkaSets, TKA_SETS_DIR } from "../lib/tkaSets";
 import { COMPETENCIES } from "../lib/subjects";
 import { collectionProblems } from "../lib/contentValidation";
 import fs from "node:fs";
@@ -56,6 +57,24 @@ for (const file of files) {
   }
   if (file !== `${lesson.id}.json`) problems.push(`file name should be ${lesson.id}.json`);
 
+  if (lesson.subject !== "english") {
+    try {
+      const extra = loadTkaSets(lesson);
+      if (extra.length !== 2) problems.push("TKA requires 3 sets including seed");
+      for (const [index, set] of extra.entries()) {
+        for (const ex of set) {
+          if (exerciseIds.has(ex.id)) problems.push(`duplicate supplemental exercise id ${ex.id}`);
+          exerciseIds.add(ex.id);
+          if (COMPETENCIES[ex.competency!]?.lessonId !== lesson.id) problems.push(`competency points to another lesson: ${ex.id}`);
+        }
+        if (lesson.subject === "bahasa-indonesia") {
+          for (const stimulus of lesson.stimuli ?? []) if (set.filter(e => e.stimulusId === stimulus.id).length !== 3) problems.push(`set ${index + 2}: expected 3 questions per passage`);
+          const groups = set.map(e => e.stimulusId).filter((id, i, all) => i === 0 || id !== all[i - 1]);
+          if (new Set(groups).size !== groups.length) problems.push(`set ${index + 2}: nonadjacent reading groups`);
+        }
+      }
+    } catch (error) { problems.push(error instanceof Error ? error.message : "invalid TKA sets"); }
+  }
   const n = lesson.exercises.length;
   if (n < 8 || n > 10) problems.push(`has ${n} exercises; spec §8 asks for 8–10`);
 
@@ -118,6 +137,10 @@ const missing = allTypes.filter((t) => !typesSeen.has(t));
 if (missing.length) {
   console.error(`✗ exercise types never used: ${missing.join(", ")}`);
   errors += missing.length;
+}
+
+for (const file of fs.readdirSync(TKA_SETS_DIR).filter(f => f.endsWith(".json"))) {
+  if (!collection.some(l => l.subject !== "english" && file === `${l.id}.json`)) { console.error(`✗ orphan TKA set file ${file}`); errors++; }
 }
 
 for (const id of new Set(Object.values(COMPETENCIES).map(c => c.lessonId))) {

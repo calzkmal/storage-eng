@@ -1,4 +1,4 @@
-import { compareLessons, type Subject } from "./subjects";
+import { compareLessons, SUBJECT_IDS, type Subject } from "./subjects";
 import fs from "node:fs";
 import path from "node:path";
 import { unstable_cache, revalidateTag } from "next/cache";
@@ -6,6 +6,7 @@ import { z } from "zod";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { ExerciseSchema, LessonSchema, type Exercise, type Lesson } from "./schema";
 import { getDb, isDbConfigured } from "./db";
+import { loadTkaSets } from "./tkaSets";
 
 // Question storage. Supabase is the source of truth; the JSON files seed it
 // and are the fallback when it is unreachable. Server-side only.
@@ -66,7 +67,7 @@ const fileSetId = (lessonId: string) => `file:${lessonId}`;
 function withFileSet(lesson: Lesson): LessonWithSets {
   return {
     ...lesson,
-    sets: [{ setId: fileSetId(lesson.id), version: 1, source: "seed", exercises: lesson.exercises }],
+    sets: [{ setId: fileSetId(lesson.id), version: 1, source: "seed", exercises: lesson.exercises }, ...loadTkaSets(lesson).map((exercises, i) => ({ setId: `${fileSetId(lesson.id)}:v${i + 2}`, version: i + 2, source: "variation" as const, exercises }))],
   };
 }
 
@@ -199,10 +200,10 @@ export async function seedDatabase(
   return { lessons: files.length, createdSets, removed: 0 };
 }
 
-// One query for every playable set. These reads are latency-bound rather than
-// payload-bound, so fetching the whole syllabus at once and caching it is cheapest.
+// Cache each subject separately: the expanded combined bank exceeds Next data
+// cache's 2 MiB entry limit. Function arguments form part of the cache key.
 const readSyllabus = unstable_cache(
-  async (): Promise<LessonWithSets[] | null> => {
+  async (subject: Subject): Promise<LessonWithSets[] | null> => {
     const db = getDb();
     if (!db) return null;
 
@@ -210,6 +211,7 @@ const readSyllabus = unstable_cache(
       db
         .from("lesson_sets")
         .select("set_id, lesson_id, version, source, exercises, category, position, title, intro, subject, level, objectives, material, stimuli")
+        .eq("subject", subject)
         .order("category", { ascending: true })
         .order("position", { ascending: true })
         .order("version", { ascending: true });
@@ -262,8 +264,8 @@ const readSyllabus = unstable_cache(
 /** Falls back to the bundled files when the database is out. */
 async function syllabus(): Promise<LessonWithSets[]> {
   try {
-    const rows = await readSyllabus();
-    if (rows && rows.length) {
+    const rows = (await Promise.all(SUBJECT_IDS.map(subject => readSyllabus(subject)))).flatMap(rows => rows ?? []);
+    if (rows.length) {
       const known = new Set(rows.map(l => l.id));
       return [...rows, ...loadLessonFiles().filter(l => !known.has(l.id)).map(withFileSet)].sort(compareLessons);
     }

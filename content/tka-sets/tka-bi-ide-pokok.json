@@ -1,0 +1,540 @@
+[
+  [
+    {
+      "id": "tka-bi-ide-pokok-v2-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering.",
+      "type": "multiple_choice",
+      "stimulusId": "air",
+      "evidence": [
+        "Sekolah Pelita mulai menampung air hujan untuk merawat kebun.",
+        "Sebelum memasang tong, petugas membersihkan atap dan saluran air.",
+        "Daun kering diangkat supaya aliran tidak tersumbat."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih».",
+        "Saluran dibersihkan dari daun kering.",
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara membuat minuman dari air hujan».",
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun»."
+      ],
+      "answer": "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara membuat minuman dari air hujan»."
+    },
+    {
+      "id": "tka-bi-ide-pokok-v2-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering.",
+      "type": "multiple_choice",
+      "stimulusId": "air",
+      "evidence": [
+        "Sekolah Pelita mulai menampung air hujan untuk merawat kebun.",
+        "Sebelum memasang tong, petugas membersihkan atap dan saluran air.",
+        "Daun kering diangkat supaya aliran tidak tersumbat."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Saluran dibersihkan dari daun kering.",
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Daun kering sebagai bahan pelajaran utama».",
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun».",
+        "Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih»."
+      ],
+      "answer": "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Daun kering sebagai bahan pelajaran utama»."
+    },
+    {
+      "id": "tka-bi-ide-pokok-v2-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering.",
+      "type": "multiple_select",
+      "stimulusId": "air",
+      "evidence": [
+        "Sekolah Pelita mulai menampung air hujan untuk merawat kebun.",
+        "Sebelum memasang tong, petugas membersihkan atap dan saluran air.",
+        "Daun kering diangkat supaya aliran tidak tersumbat."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering."
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Daun kering sebagai bahan pelajaran utama».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering."
+        },
+        {
+          "id": "c",
+          "text": "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering."
+        },
+        {
+          "id": "d",
+          "text": "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara membuat minuman dari air hujan».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-ide-pokok-v2-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+      "type": "multiple_choice",
+      "stimulusId": "sarapan",
+      "evidence": [
+        "Sarapan membantu murid memulai kegiatan pagi dengan tenaga yang cukup.",
+        "Saat kegiatan olahraga, ia merasa lemas dan sulit mengikuti gerakan."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Semua murid wajib makan roti».",
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi».",
+        "Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga."
+      ],
+      "answer": "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Semua murid wajib makan roti»."
+    },
+    {
+      "id": "tka-bi-ide-pokok-v2-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+      "type": "statement_category",
+      "stimulusId": "sarapan",
+      "evidence": [
+        "Sarapan membantu murid memulai kegiatan pagi dengan tenaga yang cukup.",
+        "Saat kegiatan olahraga, ia merasa lemas dan sulit mengikuti gerakan."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Olahraga harus dihapus dari sekolah».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-ide-pokok-v2-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+      "type": "multiple_choice",
+      "stimulusId": "sarapan",
+      "evidence": [
+        "Sarapan membantu murid memulai kegiatan pagi dengan tenaga yang cukup.",
+        "Saat kegiatan olahraga, ia merasa lemas dan sulit mengikuti gerakan."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi».",
+        "Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga.",
+        "Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Olahraga harus dihapus dari sekolah»."
+      ],
+      "answer": "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Olahraga harus dihapus dari sekolah»."
+    },
+    {
+      "id": "tka-bi-ide-pokok-v2-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Gunakan konteks bacaan. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+      "type": "multiple_select",
+      "stimulusId": "pohon",
+      "evidence": [
+        "Daunnya menghalangi sebagian sinar matahari sehingga tempat di bawah pohon lebih teduh.",
+        "Pohon di halaman sekolah memberi manfaat yang dapat dirasakan murid."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Daun membuat tempat di bawah pohon lebih teduh.",
+          "explanation": "Sesuai dengan konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah»."
+        },
+        {
+          "id": "b",
+          "text": "Pohon tidak perlu dirawat setelah ditanam.",
+          "explanation": "Tidak didukung oleh konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah»."
+        },
+        {
+          "id": "c",
+          "text": "Akar membantu air meresap ke tanah.",
+          "explanation": "Sesuai dengan konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah»."
+        },
+        {
+          "id": "d",
+          "text": "Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Cara membuat bangku kayu».",
+          "explanation": "Tidak didukung oleh konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah»."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-ide-pokok-v2-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+      "type": "multiple_choice",
+      "stimulusId": "pohon",
+      "evidence": [
+        "Daunnya menghalangi sebagian sinar matahari sehingga tempat di bawah pohon lebih teduh.",
+        "Pohon di halaman sekolah memberi manfaat yang dapat dirasakan murid."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Daun membuat tempat di bawah pohon lebih teduh.",
+        "Akar membantu air meresap ke tanah.",
+        "Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+        "Pohon tidak perlu dirawat setelah ditanam."
+      ],
+      "answer": "Pohon tidak perlu dirawat setelah ditanam."
+    },
+    {
+      "id": "tka-bi-ide-pokok-v2-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Gunakan konteks bacaan. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+      "type": "statement_category",
+      "stimulusId": "pohon",
+      "evidence": [
+        "Daunnya menghalangi sebagian sinar matahari sehingga tempat di bawah pohon lebih teduh.",
+        "Pohon di halaman sekolah memberi manfaat yang dapat dirasakan murid."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Murid wajib memotong dahan sendiri.",
+          "explanation": "Tidak didukung oleh konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Daun membuat tempat di bawah pohon lebih teduh.",
+          "explanation": "Sesuai dengan konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+          "explanation": "Sesuai dengan konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-bi-ide-pokok-v3-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering.",
+      "type": "multiple_choice",
+      "stimulusId": "air",
+      "evidence": [
+        "Sekolah Pelita mulai menampung air hujan untuk merawat kebun.",
+        "Sebelum memasang tong, petugas membersihkan atap dan saluran air.",
+        "Daun kering diangkat supaya aliran tidak tersumbat."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Daun kering sebagai bahan pelajaran utama».",
+        "Saluran dibersihkan dari daun kering.",
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Larangan semua murid bermain saat hujan».",
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara membuat minuman dari air hujan»."
+      ],
+      "answer": "Saluran dibersihkan dari daun kering."
+    },
+    {
+      "id": "tka-bi-ide-pokok-v3-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering.",
+      "type": "multiple_choice",
+      "stimulusId": "air",
+      "evidence": [
+        "Sekolah Pelita mulai menampung air hujan untuk merawat kebun.",
+        "Sebelum memasang tong, petugas membersihkan atap dan saluran air.",
+        "Daun kering diangkat supaya aliran tidak tersumbat."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun».",
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Larangan semua murid bermain saat hujan».",
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara membuat minuman dari air hujan».",
+        "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Daun kering sebagai bahan pelajaran utama»."
+      ],
+      "answer": "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun»."
+    },
+    {
+      "id": "tka-bi-ide-pokok-v3-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering.",
+      "type": "multiple_select",
+      "stimulusId": "air",
+      "evidence": [
+        "Sekolah Pelita mulai menampung air hujan untuk merawat kebun.",
+        "Sebelum memasang tong, petugas membersihkan atap dan saluran air.",
+        "Daun kering diangkat supaya aliran tidak tersumbat."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Larangan semua murid bermain saat hujan».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering."
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih».",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering."
+        },
+        {
+          "id": "c",
+          "text": "Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Daun kering sebagai bahan pelajaran utama».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering."
+        },
+        {
+          "id": "d",
+          "text": "Saluran dibersihkan dari daun kering.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Ide pokok seluruh bacaan adalah …», jawaban yang tepat ialah «Cara sekolah menampung dan merawat air hujan untuk kebun». Untuk pertanyaan «Apa gagasan utama paragraf kedua?», jawaban yang tepat ialah «Persiapan dan pengaturan tong agar penampungan aman dan bersih». Saluran dibersihkan dari daun kering."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-ide-pokok-v3-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+      "type": "multiple_choice",
+      "stimulusId": "sarapan",
+      "evidence": [
+        "Sarapan membantu murid memulai kegiatan pagi dengan tenaga yang cukup.",
+        "Saat kegiatan olahraga, ia merasa lemas dan sulit mengikuti gerakan."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi».",
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Harga makanan menentukan kemampuan murid».",
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Olahraga harus dihapus dari sekolah».",
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Semua murid wajib makan roti»."
+      ],
+      "answer": "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi»."
+    },
+    {
+      "id": "tka-bi-ide-pokok-v3-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Gunakan konteks bacaan. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+      "type": "statement_category",
+      "stimulusId": "sarapan",
+      "evidence": [
+        "Sarapan membantu murid memulai kegiatan pagi dengan tenaga yang cukup.",
+        "Saat kegiatan olahraga, ia merasa lemas dan sulit mengikuti gerakan."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Semua murid wajib makan roti».",
+          "explanation": "Tidak didukung oleh konteks. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga.",
+          "explanation": "Sesuai dengan konteks. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-ide-pokok-v3-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Membiasakan sarapan agar siap beraktivitas pagi». Cerita Raka memberi contoh hubungan kebiasaan pagi dengan kesiapan olahraga. Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+      "type": "multiple_choice",
+      "stimulusId": "sarapan",
+      "evidence": [
+        "Sarapan membantu murid memulai kegiatan pagi dengan tenaga yang cukup.",
+        "Saat kegiatan olahraga, ia merasa lemas dan sulit mengikuti gerakan."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Olahraga harus dihapus dari sekolah».",
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Semua murid wajib makan roti».",
+        "Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas.",
+        "Untuk pertanyaan «Ide pokok bacaan “Sarapan sebelum berangkat” adalah …», jawaban yang tepat ialah «Harga makanan menentukan kemampuan murid»."
+      ],
+      "answer": "Catatan kebiasaan dipakai untuk memahami kesiapan beraktivitas."
+    },
+    {
+      "id": "tka-bi-ide-pokok-v3-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Gunakan konteks bacaan. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+      "type": "multiple_select",
+      "stimulusId": "pohon",
+      "evidence": [
+        "Daunnya menghalangi sebagian sinar matahari sehingga tempat di bawah pohon lebih teduh.",
+        "Pohon di halaman sekolah memberi manfaat yang dapat dirasakan murid."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Cara membuat bangku kayu».",
+          "explanation": "Tidak didukung oleh konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah»."
+        },
+        {
+          "id": "b",
+          "text": "Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+          "explanation": "Sesuai dengan konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah»."
+        },
+        {
+          "id": "c",
+          "text": "Murid wajib memotong dahan sendiri.",
+          "explanation": "Tidak didukung oleh konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah»."
+        },
+        {
+          "id": "d",
+          "text": "Akar membantu air meresap ke tanah.",
+          "explanation": "Sesuai dengan konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah»."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-ide-pokok-v3-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+      "type": "multiple_choice",
+      "stimulusId": "pohon",
+      "evidence": [
+        "Daunnya menghalangi sebagian sinar matahari sehingga tempat di bawah pohon lebih teduh.",
+        "Pohon di halaman sekolah memberi manfaat yang dapat dirasakan murid."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Pohon tidak perlu dirawat setelah ditanam.",
+        "Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Cara membuat bangku kayu».",
+        "Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+        "Murid wajib memotong dahan sendiri."
+      ],
+      "answer": "Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah»."
+    },
+    {
+      "id": "tka-bi-ide-pokok-v3-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.main-idea",
+      "explanation": "Gunakan konteks bacaan. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+      "type": "statement_category",
+      "stimulusId": "pohon",
+      "evidence": [
+        "Daunnya menghalangi sebagian sinar matahari sehingga tempat di bawah pohon lebih teduh.",
+        "Pohon di halaman sekolah memberi manfaat yang dapat dirasakan murid."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Akar membantu air meresap ke tanah.",
+          "explanation": "Sesuai dengan konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Daun membuat tempat di bawah pohon lebih teduh.",
+          "explanation": "Sesuai dengan konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Pohon tidak perlu dirawat setelah ditanam.",
+          "explanation": "Tidak didukung oleh konteks. Daun membuat tempat di bawah pohon lebih teduh. Akar membantu air meresap ke tanah. Untuk pertanyaan «Judul lain yang paling mewakili seluruh bacaan adalah …», jawaban yang tepat ialah «Manfaat dan perawatan pohon di sekolah».",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

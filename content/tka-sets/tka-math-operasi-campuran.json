@@ -1,0 +1,444 @@
+[
+  [
+    {
+      "id": "tka-math-operasi-campuran-v2-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Kerjakan bagian dalam tanda kurung lebih dahulu. Hasilnya 48 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Hitung (6 + 6) × 4.",
+      "options": [
+        "47",
+        "50",
+        "48",
+        "49"
+      ],
+      "answer": "48"
+    },
+    {
+      "id": "tka-math-operasi-campuran-v2-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Perkalian dikerjakan sebelum penjumlahan. Hasilnya 27 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Hitung 3 + 8 × 3.",
+      "options": [
+        "29",
+        "27",
+        "28",
+        "26"
+      ],
+      "answer": "27"
+    },
+    {
+      "id": "tka-math-operasi-campuran-v2-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Perkalian dan pembagian setingkat: kerjakan dari kiri ke kanan. Hasilnya 252 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Hitung 126 ÷ 3 × 6.",
+      "options": [
+        "252",
+        "253",
+        "251",
+        "254"
+      ],
+      "answer": "252"
+    },
+    {
+      "id": "tka-math-operasi-campuran-v2-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Perkalian dan pembagian setingkat: kerjakan dari kiri ke kanan. Nilai yang tepat adalah 125. Perkalian dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 36. Kerjakan bagian dalam tanda kurung lebih dahulu. Nilai yang tepat adalah 72. Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 69.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hitung 125 ÷ 5 × 5. Jawaban: 126.",
+          "explanation": "Perkalian dan pembagian setingkat: kerjakan dari kiri ke kanan. Nilai yang tepat adalah 125."
+        },
+        {
+          "id": "b",
+          "text": "Hitung 6 + 5 × 6. Jawaban: 36.",
+          "explanation": "Perkalian dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 36."
+        },
+        {
+          "id": "c",
+          "text": "Hitung (7 + 5) × 6. Jawaban: 73.",
+          "explanation": "Kerjakan bagian dalam tanda kurung lebih dahulu. Nilai yang tepat adalah 72."
+        },
+        {
+          "id": "d",
+          "text": "Hitung 8² + √25. Jawaban: 69.",
+          "explanation": "Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 69."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-operasi-campuran-v2-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Hasilnya 16 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Hitung −8 + 6 × 4.",
+      "options": [
+        "15",
+        "18",
+        "16",
+        "17"
+      ],
+      "answer": "16"
+    },
+    {
+      "id": "tka-math-operasi-campuran-v2-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Nilai yang tepat adalah 18. Pembagian dikerjakan sebelum pengurangan. Nilai yang tepat adalah 4. Perkalian dan pembagian setingkat: kerjakan dari kiri ke kanan. Nilai yang tepat adalah 72.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Hitung −6 + 8 × 3. Jawaban: 19.",
+          "explanation": "Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Nilai yang tepat adalah 18.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Hitung 56 ÷ 8 − 3. Jawaban: 4.",
+          "explanation": "Pembagian dikerjakan sebelum pengurangan. Nilai yang tepat adalah 4.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Hitung 192 ÷ 8 × 3. Jawaban: 72.",
+          "explanation": "Perkalian dan pembagian setingkat: kerjakan dari kiri ke kanan. Nilai yang tepat adalah 72.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-operasi-campuran-v2-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Kerjakan bagian dalam tanda kurung lebih dahulu. Hasilnya 36 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Hitung (2 + 4) × 6.",
+      "options": [
+        "36",
+        "37",
+        "35",
+        "38"
+      ],
+      "answer": "36"
+    },
+    {
+      "id": "tka-math-operasi-campuran-v2-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Kerjakan bagian dalam tanda kurung lebih dahulu. Nilai yang tepat adalah 60. Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 69. Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Nilai yang tepat adalah 34. Pembagian dikerjakan sebelum pengurangan. Nilai yang tepat adalah -3.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hitung (7 + 5) × 5. Jawaban: 61.",
+          "explanation": "Kerjakan bagian dalam tanda kurung lebih dahulu. Nilai yang tepat adalah 60."
+        },
+        {
+          "id": "b",
+          "text": "Hitung 8² + √25. Jawaban: 69.",
+          "explanation": "Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 69."
+        },
+        {
+          "id": "c",
+          "text": "Hitung −2 + 6 × 6. Jawaban: 35.",
+          "explanation": "Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Nilai yang tepat adalah 34."
+        },
+        {
+          "id": "d",
+          "text": "Hitung 18 ÷ 6 − 6. Jawaban: -3.",
+          "explanation": "Pembagian dikerjakan sebelum pengurangan. Nilai yang tepat adalah -3."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-operasi-campuran-v2-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Perkalian dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 32. Kerjakan bagian dalam tanda kurung lebih dahulu. Nilai yang tepat adalah 48. Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 43.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Hitung 4 + 7 × 4. Jawaban: 33.",
+          "explanation": "Perkalian dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 32.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Hitung (5 + 7) × 4. Jawaban: 48.",
+          "explanation": "Kerjakan bagian dalam tanda kurung lebih dahulu. Nilai yang tepat adalah 48.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Hitung 6² + √49. Jawaban: 43.",
+          "explanation": "Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 43.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-math-operasi-campuran-v3-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Pangkat dan akar dikerjakan sebelum penjumlahan. Hasilnya 13 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Hitung 3² + √16.",
+      "options": [
+        "15",
+        "13",
+        "14",
+        "12"
+      ],
+      "answer": "13"
+    },
+    {
+      "id": "tka-math-operasi-campuran-v3-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Kerjakan bagian dalam tanda kurung lebih dahulu. Hasilnya 60 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Hitung (7 + 5) × 5.",
+      "options": [
+        "60",
+        "61",
+        "59",
+        "62"
+      ],
+      "answer": "60"
+    },
+    {
+      "id": "tka-math-operasi-campuran-v3-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Perkalian dikerjakan sebelum penjumlahan. Hasilnya 32 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Hitung 4 + 7 × 4.",
+      "options": [
+        "33",
+        "31",
+        "34",
+        "32"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": "tka-math-operasi-campuran-v3-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Perkalian dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 11. Kerjakan bagian dalam tanda kurung lebih dahulu. Nilai yang tepat adalah 18. Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 19. Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Nilai yang tepat adalah 7.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hitung 2 + 3 × 3. Jawaban: 11.",
+          "explanation": "Perkalian dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 11."
+        },
+        {
+          "id": "b",
+          "text": "Hitung (3 + 3) × 3. Jawaban: 19.",
+          "explanation": "Kerjakan bagian dalam tanda kurung lebih dahulu. Nilai yang tepat adalah 18."
+        },
+        {
+          "id": "c",
+          "text": "Hitung 4² + √9. Jawaban: 19.",
+          "explanation": "Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 19."
+        },
+        {
+          "id": "d",
+          "text": "Hitung −5 + 3 × 4. Jawaban: 8.",
+          "explanation": "Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Nilai yang tepat adalah 7."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-operasi-campuran-v3-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Pembagian dikerjakan sebelum pengurangan. Hasilnya -1 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Hitung 20 ÷ 4 − 6.",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "-2"
+      ],
+      "answer": "-1"
+    },
+    {
+      "id": "tka-math-operasi-campuran-v3-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Pembagian dikerjakan sebelum pengurangan. Nilai yang tepat adalah -2. Perkalian dan pembagian setingkat: kerjakan dari kiri ke kanan. Nilai yang tepat adalah 100. Perkalian dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 41.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Hitung 18 ÷ 6 − 5. Jawaban: -2.",
+          "explanation": "Pembagian dikerjakan sebelum pengurangan. Nilai yang tepat adalah -2.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Hitung 120 ÷ 6 × 5. Jawaban: 100.",
+          "explanation": "Perkalian dan pembagian setingkat: kerjakan dari kiri ke kanan. Nilai yang tepat adalah 100.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Hitung 5 + 6 × 6. Jawaban: 42.",
+          "explanation": "Perkalian dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 41.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-operasi-campuran-v3-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Pangkat dan akar dikerjakan sebelum penjumlahan. Hasilnya 43 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Hitung 6² + √49.",
+      "options": [
+        "44",
+        "42",
+        "45",
+        "43"
+      ],
+      "answer": "43"
+    },
+    {
+      "id": "tka-math-operasi-campuran-v3-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 19. Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Nilai yang tepat adalah 4. Pembagian dikerjakan sebelum pengurangan. Nilai yang tepat adalah 3. Perkalian dan pembagian setingkat: kerjakan dari kiri ke kanan. Nilai yang tepat adalah 63.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hitung 4² + √9. Jawaban: 19.",
+          "explanation": "Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 19."
+        },
+        {
+          "id": "b",
+          "text": "Hitung −5 + 3 × 3. Jawaban: 5.",
+          "explanation": "Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Nilai yang tepat adalah 4."
+        },
+        {
+          "id": "c",
+          "text": "Hitung 18 ÷ 3 − 3. Jawaban: 3.",
+          "explanation": "Pembagian dikerjakan sebelum pengurangan. Nilai yang tepat adalah 3."
+        },
+        {
+          "id": "d",
+          "text": "Hitung 63 ÷ 3 × 3. Jawaban: 64.",
+          "explanation": "Perkalian dan pembagian setingkat: kerjakan dari kiri ke kanan. Nilai yang tepat adalah 63."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-operasi-campuran-v3-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.operations",
+      "explanation": "Periksa setiap soal secara terpisah. Kerjakan bagian dalam tanda kurung lebih dahulu. Nilai yang tepat adalah 72. Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 9. Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Nilai yang tepat adalah 7.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Hitung (8 + 4) × 6. Jawaban: 72.",
+          "explanation": "Kerjakan bagian dalam tanda kurung lebih dahulu. Nilai yang tepat adalah 72.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Hitung 2² + √25. Jawaban: 9.",
+          "explanation": "Pangkat dan akar dikerjakan sebelum penjumlahan. Nilai yang tepat adalah 9.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Hitung −3 + 5 × 2. Jawaban: 8.",
+          "explanation": "Perkalian dahulu; lalu jumlahkan bilangan dengan memperhatikan tanda. Nilai yang tepat adalah 7.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

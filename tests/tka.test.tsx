@@ -1,10 +1,13 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import fs from "node:fs";
+import { loadTkaSets } from "../lib/tkaSets";
 import { LessonSchema, FractionSchema, type Exercise, type Lesson } from "../lib/schema";
 import { canCheck, gradeLocal, correctAnswerText, answerText } from "../lib/grading";
 import { firstScore, shouldRetry } from "../lib/practice";
 import { collectionProblems } from "../lib/contentValidation";
+import { AttemptBodySchema } from "../lib/attemptSchema";
+import { exerciseSummary } from "../lib/grading";
 import { AttemptContextSchema, attemptContext } from "../lib/attemptContext";
 import { parseResult, getFinished, markFinished, saveResult, loadResultRaw } from "../lib/storage";
 import { renderToStaticMarkup } from "react-dom/server";
@@ -41,10 +44,10 @@ test("subject-qualified slots permit English and Math 1.1 but reject same-subjec
   assert(collectionProblems([...lessons, { ...math, id: "new-id" }]).some(p => p.includes("duplicate lesson slot")));
   assert(collectionProblems([{ ...math, order: 2 }]).some(p => p.includes("missing")));
 });
-test("six complete TKA lessons, 54 deterministic keys, no AI formats", () => {
-  assert.equal(tka.length, 6);
-  assert.equal(tka.flatMap(l => l.exercises).length, 54);
-  for (const l of tka) for (const e of l.exercises) {
+test("31 TKA topics, 93 sets, 837 deterministic keys, no AI formats", () => {
+  assert.equal(tka.length, 31);
+  assert.equal(tka.flatMap(l => [l.exercises, ...loadTkaSets(l)].flat()).length, 837);
+  for (const l of tka) for (const e of [l.exercises, ...loadTkaSets(l)].flat()) {
     assert(canCheck(e, solution(e)), e.id);
     const grade = gradeLocal(e, solution(e));
     assert.equal(grade?.correct, true, e.id);
@@ -52,6 +55,7 @@ test("six complete TKA lessons, 54 deterministic keys, no AI formats", () => {
     assert(correctAnswerText(e).length <= 600, e.id);
     const context = attemptContext(l, e, grade?.details);
     assert(AttemptContextSchema.safeParse(context).success, e.id);
+    assert(AttemptBodySchema.safeParse({ subject: l.subject, competency: e.competency, context, runId: "test-run", lessonId: l.id, lessonTitle: l.title, exerciseId: e.id, exerciseType: e.type, phase: "main", question: exerciseSummary(e), userAnswer: answerText(e, solution(e)), correctAnswer: correctAnswerText(e), correct: true, gradedBy: "local" }).success, `${e.id}: invalid telemetry`);
   }
 });
 test("multi-select is exact unordered set; missing, extra, duplicate, unknown and wrong shapes fail", () => {
@@ -137,4 +141,41 @@ test("attempt payload validates legacy defaults and TKA field combinations", asy
   assert(!AttemptBodySchema.safeParse({ ...payload, context: undefined }).success);
   assert(!AttemptBodySchema.safeParse({ ...payload, context: { ...payload.context, evidence: ["not in text"] } }).success);
   assert(!AttemptBodySchema.safeParse({ ...payload, subject: "unknown" }).success);
+});
+
+
+test("preservation fingerprint tolerates JSONB key order but detects nested content changes", async () => {
+  const { rowsFingerprint } = await import("../lib/contentFingerprint");
+  const before = [{ id: "a", material: [{ type: "paragraph", title: "Title", text: "Text" }] }, { id: "b" }];
+  const reordered = [{ id: "b" }, { material: [{ text: "Text", type: "paragraph", title: "Title" }], id: "a" }];
+  assert.equal(rowsFingerprint(before), rowsFingerprint(reordered));
+  assert.notEqual(rowsFingerprint(before), rowsFingerprint([{ id: "a", material: [{ type: "paragraph", title: "Title", text: "Changed" }] }, { id: "b" }]));
+  assert.notEqual(rowsFingerprint([{ values: [1, 2] }]), rowsFingerprint([{ values: [2, 1] }]));
+});
+
+
+test("feedback-only revisions preserve assessment semantics and question order", async () => {
+  const { assessmentFingerprint } = await import("../lib/contentFingerprint");
+  const before = [{ id: "a", question: "Q", answer: "A", explanation: "Old" }, { id: "b", answer: "B" }];
+  assert.equal(assessmentFingerprint(before), assessmentFingerprint([{ ...before[0], explanation: "Clearer" }, before[1]]));
+  assert.notEqual(assessmentFingerprint(before), assessmentFingerprint([{ ...before[0], answer: "Changed" }, before[1]]));
+  assert.notEqual(assessmentFingerprint(before), assessmentFingerprint([...before].reverse()));
+});
+
+test("supplemental BI contexts include each supported claim without requiring an earlier passage", () => {
+  const originals = ["tka-bi-informasi-tersurat", "tka-bi-ide-pokok", "tka-bi-amanat-dan-tokoh"];
+  for (const lesson of tka.filter(l => l.subject === "bahasa-indonesia" && !originals.includes(l.id))) {
+    for (const set of [lesson.exercises, ...loadTkaSets(lesson)]) for (const exercise of set) {
+      if (exercise.stimulusId?.endsWith("-1")) continue;
+      const text = lesson.stimuli!.find(s => s.id === exercise.stimulusId)!.paragraphs.join("\n");
+      if (exercise.type === "multiple_choice") {
+        if (exercise.question.includes("tidak didukung")) assert(!text.includes(exercise.answer), exercise.id);
+        else assert(text.includes(exercise.answer), exercise.id);
+      } else if (exercise.type === "multiple_select") {
+        for (const option of exercise.options) if (exercise.answer.includes(option.id)) assert(text.includes(option.text), exercise.id);
+      } else if (exercise.type === "statement_category") {
+        for (const statement of exercise.statements) if (statement.answer === "yes") assert(text.includes(statement.text), exercise.id);
+      }
+    }
+  }
 });

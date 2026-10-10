@@ -32,7 +32,7 @@ All are server-only and never reach the browser.
 - **Instant feedback.** All TKA answers show an explanation. Main misses are reviewed exactly once; English keeps its existing retry-until-correct behavior.
 - **AI grading** for free writing and sentence rewrites. Gemini answers first, with OpenRouter's free models behind it. If neither answers in time the app shows a model answer instead of a verdict, and never blocks the lesson.
 - **16 sets per English lesson in Supabase.** Every English lesson ships a seed set plus 15 pre-built variations, all held in the database. Opening a lesson serves a set you have not finished, so the questions are new each time with no waiting and no AI call. The card shows how many sets you have done.
-- **Six TKA lessons with 54 original questions.** Three fraction topics and three reading topics, each with single-choice, multi-select, and statement-category questions. TKA grading is deterministic and needs no AI service. Material, worked examples, fraction visuals, and shared reading passages ship with every seed.
+- **31 SD topics with 837 questions in 93 sets.** Fifteen Math topics and sixteen Bahasa Indonesia topics follow the user-requested scope; each has three sets of nine questions. All sets contain single-choice, multi-select, and statement-category questions, graded locally. Fraction topics include visuals; every topic includes material and worked examples. BI has 48 original reading stimuli (154–185 words).
 - **First-attempt TKA results.** One point per fully correct question; review does not raise the initial score. Completion means the available set was finished, not mastery of the syllabus.
 - **Subject filters** on `/progress?subject=matematika` and `/history?subject=bahasa-indonesia` (also `english`, or omit for all).
 - **Progress without accounts.** You type a name once. The identity behind it is a signed `HttpOnly` cookie the server sets, so it never reaches page scripts or a URL. `/history` replays every question and answer you have given, and can delete the lot.
@@ -53,9 +53,9 @@ npm run seed:supabase -- --subject=bahasa-indonesia
 
 `seed:supabase` is additive: existing lesson/set IDs and learner completions are preserved; it no longer prunes removed lesson files. Each rerun reuses the existing seed set. `--force` rewrites exercises in the selected subject's existing seed; use it only for an intentional content revision, never to add TKA across all subjects. Metadata is upserted on each seed. Content reads never auto-seed a configured database. Missing/invalid DB lessons use complete bundled metadata and a `file:<lessonId>` seed set; DB failures are logged. Local and DB set IDs remain distinct as before, so local completion is device-local and is not automatically converted to a DB completion.
 
-Do **not** run `seed:variations` as part of adding TKA. It still replaces English variations and may cascade-delete their `learner_sets` completion rows. `build:variations` and `seed:variations` select English only, and validation still requires all 15 English variations. TKA is seed-only. Without Supabase, each lesson exposes its one bundled seed (English variations remain available through Supabase).
+Do **not** run `seed:variations` as part of adding TKA. It still replaces English variations and may cascade-delete their `learner_sets` completion rows. `build:variations` and `seed:variations` select English only, and validation still requires all 15 English variations. TKA uses a separate additive `seed:tka` command for one seed plus two supplemental sets per topic. Without Supabase, all three TKA sets are bundled; English still exposes its one seed locally (English variations remain available through Supabase).
 
-Release gate: DB migration, idempotent seed, view metadata, signed-cookie attempt/history, and completion preservation must be verified on a designated test DB before production release. Those live DB checks were not run in this implementation environment; see [verification](docs/TKA-SD-VERIFICATION.md). No production migration or seed was executed by this task.
+Release gate: DB migration, idempotent seed, view metadata, signed-cookie attempt/history, and completion preservation must be verified on a designated test DB before production release. The connected Supabase project was migrated and seeded after explicit user authorization, and live DB preservation/history checks passed; see [verification](docs/TKA-SD-VERIFICATION.md) and [the bank expansion report](docs/TKA-SD-BANK-REPORT.md).
 
 The curriculum subset is preparation material, not a government service, complete syllabus, exam prediction, or official TKA score. TKA attempts carry client-reported telemetry (`subject`, `competency`, bounded versioned `context`), not authoritative grades. Learner identity still comes only from the signed HttpOnly cookie. Context is limited to 16 KiB and the whole attempt body to 32 KiB; old display fields keep their 600-character bounds.
 
@@ -108,8 +108,9 @@ Pages are prerendered and served from the CDN, so a page load makes no database 
 ```
 app/                    pages and API routes
 components/             UI; exercises/ has one component per type
-content/lessons/        18 English + 6 TKA seed lessons
+content/lessons/        18 English + 31 SD/TKA seed lessons
 content/variations/     15 pre-built sets per English lesson
+content/tka-sets/       2 supplemental sets per SD/TKA topic
 lib/                    schema, grading, storage, ai/
 supabase/migrations/    database schema
 ```
@@ -120,7 +121,7 @@ Built with Next.js, TypeScript, Tailwind and Supabase.
 
 - [Implementation plan](docs/TKA-SD-IMPLEMENTATION-PLAN.md)
 - [Content audit](docs/TKA-SD-CONTENT-AUDIT.md)
-- [Verification and pending database checks](docs/TKA-SD-VERIFICATION.md)
+- [Implementation and live database verification](docs/TKA-SD-VERIFICATION.md)
 - `docs/qa/`: responsive browser screenshots and measured viewport widths.
 
 ### Live Supabase verification
@@ -131,4 +132,17 @@ After applying migrations, run against an authorized database with the localhost
 LOCAL_BASE_URL=http://localhost:3100 npm run verify:supabase -- --allow-writes
 ```
 
-This explicitly writes to configured Supabase: seeds only the six TKA lessons twice, checks existing rows are unchanged, verifies both views, and creates two isolated QA profiles for history/snapshot/isolation/completion tests. It adds 601 temporary English attempts to check filtering before the 600-row cap, then deletes only its QA profiles and confirms existing attempts/completions are unchanged. The localhost server needs a valid SESSION_SECRET and its normal local rate-limit configuration. Without LOCAL_BASE_URL, only seed/preservation/view checks run. See [the verification report](docs/TKA-SD-VERIFICATION.md) for actual live results and remaining QA boundaries.
+This explicitly writes to configured Supabase: seeds only TKA lesson metadata/seed sets twice, checks existing rows are unchanged, verifies both views, and creates two isolated QA profiles for history/snapshot/isolation/completion tests. It adds 601 temporary English attempts to check filtering before the 600-row cap, then deletes only its QA profiles and confirms existing attempts/completions are unchanged. The localhost server needs a valid SESSION_SECRET and its normal local rate-limit configuration. Without LOCAL_BASE_URL, only seed/preservation/view checks run. See [the verification report](docs/TKA-SD-VERIFICATION.md) for actual live results and remaining QA boundaries.
+
+### Expanded SD bank
+
+```bash
+npm run build:tka  # deterministic authoring templates; Python 3 required
+npm run validate
+npm run audit:tka
+npm run seed:tka   # configured Supabase, explicit write command
+```
+
+`seed:tka` preflights all 31 topics, preserves existing seed and variation IDs, and inserts missing versions 2 and 3. It refuses occupied versions with different content instead of deleting or overwriting them. Metadata differences are also refused before writes. Explicit revision flags permit material/objectives (`--sync-material`), passage text with unchanged stimulus IDs (`--sync-stimuli`), or explanation-only changes with unchanged questions/order/keys (`--sync-feedback`). It compares existing lesson/set/completion/attempt rows before and after the write. Rerunning creates no additional sets. The six original seed files are preserved by the builder; the 25 new seeds are regenerated from maintained authoring sources.
+
+The expanded scope follows the user's list and includes broader SD practice; it does not claim every topic is part of the official TKA framework. BI supplemental sets revisit shared passages using different claim targets and positive/negative evaluations; they are not 432 unrelated readings. See [bank audit](docs/TKA-SD-BANK-AUDIT.md) and [expansion report](docs/TKA-SD-BANK-REPORT.md).

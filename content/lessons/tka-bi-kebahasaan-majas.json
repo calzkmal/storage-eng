@@ -1,0 +1,352 @@
+{
+  "id": "tka-bi-kebahasaan-majas",
+  "subject": "bahasa-indonesia",
+  "category": 2,
+  "order": 6,
+  "title": "Konjungsi, kalimat, dan majas",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menentukan jawaban dan bukti yang tepat pada topik konjungsi, kalimat, dan majas."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Cara membaca",
+      "text": "Baca seluruh konteks dan hubungkan rincian dengan pertanyaan. Angin berbisik merupakan personifikasi."
+    },
+    {
+      "type": "paragraph",
+      "title": "Periksa alasan",
+      "text": "Jangan memilih berdasarkan satu kata yang tampak sama. Dan bersifat koordinatif; karena menyatakan hubungan sebab. Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu."
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah pernyataan berikut sesuai dengan bacaan: Bintang kelas adalah personifikasi karena benda langit berbicara.",
+      "steps": [
+        "Temukan bagian yang menjelaskan gagasan terkait.",
+        "Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia."
+      ],
+      "conclusion": "Tidak sesuai. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia."
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah pernyataan berikut sesuai dengan bacaan: Para murid-murid merupakan bentuk paling hemat.",
+      "steps": [
+        "Temukan bagian yang menjelaskan gagasan terkait.",
+        "Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan."
+      ],
+      "conclusion": "Tidak sesuai. Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan."
+    }
+  ],
+  "stimuli": [
+    {
+      "id": "tka-bi-kebahasaan-majas-bacaan-1",
+      "title": "Konjungsi, kalimat, dan majas dalam bacaan",
+      "paragraphs": [
+        "Nala dan Beni berangkat ke taman setelah hujan reda. Kata dan menghubungkan dua unsur yang setara, sedangkan setelah menyatakan hubungan waktu. Di taman, angin berbisik di antara daun. Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi. Nala tidak benar-benar mendengar angin mengucapkan kata dengan mulut.",
+        "Beni berkata, “Aku akan membersihkan bangku ini.” Nala kemudian melaporkan bahwa Beni akan membersihkan bangku itu. Ucapan Beni ditulis sebagai kalimat langsung dengan tanda petik. Laporan Nala merupakan kalimat tidak langsung; kata aku berubah menjadi Beni dan ini menjadi itu sesuai konteks. Mereka membersihkan bangku karena ingin pengunjung dapat duduk dengan nyaman. Kata karena menandai alasan, bukan pilihan antara dua kegiatan.",
+        "Dalam catatan, Nala menyebut Beni bintang kelas karena prestasinya menonjol. Ungkapan itu merupakan metafora, bukan pernyataan bahwa Beni benda langit. Beni bercanda bahwa ia menunggu bantuan selama seribu tahun, padahal hanya beberapa menit; ungkapan berlebihan itu adalah hiperbola. Sebelum mengumpulkan laporan, mereka mengganti kalimat para murid-murid menjadi para murid agar tidak berulang. Kalimat efektif menyampaikan gagasan dengan jelas dan hemat, bukan sekadar membuat semua kalimat menjadi sangat pendek."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "tka-bi-kebahasaan-majas-bacaan-2",
+      "title": "Diskusi pameran literasi",
+      "paragraphs": [
+        "Kelompok kelas enam menyiapkan pameran literasi pada Rabu sore. Mereka membagi tugas membaca, mencatat, dan menyunting. Setiap anggota diminta menjelaskan alasan kepada teman, bukan hanya menyalin jawaban. Jika penafsiran berbeda, mereka memeriksa kembali konteks. Hasil diskusi akan dibaca oleh kelas lain, sehingga setiap catatan harus dapat dipahami tanpa penjelasan lisan tambahan. Berikut pokok yang mereka sepakati beserta bagian bacaan yang mendukungnya.",
+        "Pokok catatan: «Angin berbisik merupakan personifikasi. Bukti: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.»; «Dan bersifat koordinatif; karena menyatakan hubungan sebab. Bukti: Kata dan menghubungkan dua unsur yang setara»; «Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu. Bukti: ungkapan berlebihan itu adalah hiperbola.»",
+        "Catatan dibaca ulang untuk membedakan gagasan yang didukung bukti dari dugaan. Murid dapat memakai kalimat sendiri, tetapi tidak boleh mengubah makna informasi yang sedang dibahas. Pada akhir pertemuan, kelompok menyampaikan hasilnya secara bergiliran dan menerima pertanyaan. Mereka memperbaiki bagian yang belum jelas sebelum catatan dibagikan kepada pembaca lain."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "tka-bi-kebahasaan-majas-bacaan-3",
+      "title": "Catatan lokakarya",
+      "paragraphs": [
+        "Pada lokakarya kelas enam, murid membaca dan menyunting secara berpasangan. Seorang murid mengusulkan penafsiran, sedangkan pasangannya mencari bukti. Mereka berganti peran agar semua berlatih. Jawaban tidak dipilih berdasarkan suara yang paling keras. Setelah diskusi, mereka menulis catatan untuk pembaca yang tidak mengikuti kegiatan. Catatan berikut menyampaikan gagasan lengkap dan bukti, sehingga informasi tidak bergantung pada ingatan pembaca tentang cerita sebelumnya.",
+        "Pokok catatan: «Angin berbisik merupakan personifikasi. Bukti: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.»; «Dan bersifat koordinatif; karena menyatakan hubungan sebab. Bukti: Kata dan menghubungkan dua unsur yang setara»; «Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu. Bukti: ungkapan berlebihan itu adalah hiperbola.»",
+        "Catatan dibaca ulang untuk membedakan gagasan yang didukung bukti dari dugaan. Murid dapat memakai kalimat sendiri, tetapi tidak boleh mengubah makna informasi yang sedang dibahas. Pada akhir pertemuan, kelompok menyampaikan hasilnya secara bergiliran dan menerima pertanyaan. Mereka memperbaiki bagian yang belum jelas sebelum catatan dibagikan kepada pembaca lain."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-bi-kebahasaan-majas-v1-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.language",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kebahasaan-majas-bacaan-1",
+      "evidence": [
+        "Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+        "Kata dan menghubungkan dua unsur yang setara",
+        "ungkapan berlebihan itu adalah hiperbola."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Bintang kelas adalah personifikasi karena benda langit berbicara.",
+        "Para murid-murid merupakan bentuk paling hemat.",
+        "Kalimat tidak langsung selalu mempertahankan kata aku dan tanda petik.",
+        "Angin berbisik merupakan personifikasi."
+      ],
+      "answer": "Angin berbisik merupakan personifikasi."
+    },
+    {
+      "id": "tka-bi-kebahasaan-majas-v1-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.language",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kata dan menghubungkan dua unsur yang setara",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kebahasaan-majas-bacaan-1",
+      "evidence": [
+        "Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+        "Kata dan menghubungkan dua unsur yang setara",
+        "ungkapan berlebihan itu adalah hiperbola."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Para murid-murid merupakan bentuk paling hemat.",
+        "Kalimat tidak langsung selalu mempertahankan kata aku dan tanda petik.",
+        "Dan bersifat koordinatif; karena menyatakan hubungan sebab.",
+        "Bintang kelas adalah personifikasi karena benda langit berbicara."
+      ],
+      "answer": "Dan bersifat koordinatif; karena menyatakan hubungan sebab."
+    },
+    {
+      "id": "tka-bi-kebahasaan-majas-v1-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.language",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi. Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kebahasaan-majas-bacaan-1",
+      "evidence": [
+        "Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+        "Kata dan menghubungkan dua unsur yang setara",
+        "ungkapan berlebihan itu adalah hiperbola."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bintang kelas adalah personifikasi karena benda langit berbicara.",
+          "explanation": "Tidak didukung oleh konteks. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia."
+        },
+        {
+          "id": "b",
+          "text": "Angin berbisik merupakan personifikasi.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi."
+        },
+        {
+          "id": "c",
+          "text": "Para murid-murid merupakan bentuk paling hemat.",
+          "explanation": "Tidak didukung oleh konteks. Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan."
+        },
+        {
+          "id": "d",
+          "text": "Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-kebahasaan-majas-v1-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.language",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kata dan menghubungkan dua unsur yang setara",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kebahasaan-majas-bacaan-2",
+      "evidence": [
+        "Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+        "Kata dan menghubungkan dua unsur yang setara",
+        "ungkapan berlebihan itu adalah hiperbola."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Para murid-murid merupakan bentuk paling hemat.",
+        "Kalimat tidak langsung selalu mempertahankan kata aku dan tanda petik.",
+        "Dan bersifat koordinatif; karena menyatakan hubungan sebab.",
+        "Bintang kelas adalah personifikasi karena benda langit berbicara."
+      ],
+      "answer": "Dan bersifat koordinatif; karena menyatakan hubungan sebab."
+    },
+    {
+      "id": "tka-bi-kebahasaan-majas-v1-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.language",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kebahasaan-majas-bacaan-2",
+      "evidence": [
+        "Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+        "Kata dan menghubungkan dua unsur yang setara",
+        "ungkapan berlebihan itu adalah hiperbola."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Angin berbisik merupakan personifikasi.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Bintang kelas adalah personifikasi karena benda langit berbicara.",
+          "explanation": "Tidak didukung oleh konteks. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-kebahasaan-majas-v1-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.language",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kebahasaan-majas-bacaan-2",
+      "evidence": [
+        "Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+        "Kata dan menghubungkan dua unsur yang setara",
+        "ungkapan berlebihan itu adalah hiperbola."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Angin berbisik merupakan personifikasi.",
+        "Bintang kelas adalah personifikasi karena benda langit berbicara.",
+        "Para murid-murid merupakan bentuk paling hemat.",
+        "Kalimat tidak langsung selalu mempertahankan kata aku dan tanda petik."
+      ],
+      "answer": "Angin berbisik merupakan personifikasi."
+    },
+    {
+      "id": "tka-bi-kebahasaan-majas-v1-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.language",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kebahasaan-majas-bacaan-3",
+      "evidence": [
+        "Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+        "Kata dan menghubungkan dua unsur yang setara",
+        "ungkapan berlebihan itu adalah hiperbola."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Para murid-murid merupakan bentuk paling hemat.",
+          "explanation": "Tidak didukung oleh konteks. Para sudah menunjukkan jamak; pengulangan murid-murid membuat bentuk itu berlebihan."
+        },
+        {
+          "id": "b",
+          "text": "Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola."
+        },
+        {
+          "id": "c",
+          "text": "Bintang kelas adalah personifikasi karena benda langit berbicara.",
+          "explanation": "Tidak didukung oleh konteks. Bintang kelas adalah metafora bagi murid berprestasi; tidak memberi benda tindakan manusia."
+        },
+        {
+          "id": "d",
+          "text": "Angin berbisik merupakan personifikasi.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-kebahasaan-majas-v1-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.language",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kebahasaan-majas-bacaan-3",
+      "evidence": [
+        "Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+        "Kata dan menghubungkan dua unsur yang setara",
+        "ungkapan berlebihan itu adalah hiperbola."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Angin berbisik merupakan personifikasi.",
+        "Bintang kelas adalah personifikasi karena benda langit berbicara.",
+        "Para murid-murid merupakan bentuk paling hemat.",
+        "Kalimat tidak langsung selalu mempertahankan kata aku dan tanda petik."
+      ],
+      "answer": "Angin berbisik merupakan personifikasi."
+    },
+    {
+      "id": "tka-bi-kebahasaan-majas-v1-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.inferential.language",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Kata dan menghubungkan dua unsur yang setara Laporan tidak langsung mengubah aku menjadi Beni serta ini menjadi itu, tanpa mengutip ucapan secara langsung. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kebahasaan-majas-bacaan-3",
+      "evidence": [
+        "Kalimat itu memberi angin tindakan seperti manusia, sehingga merupakan personifikasi.",
+        "Kata dan menghubungkan dua unsur yang setara",
+        "ungkapan berlebihan itu adalah hiperbola."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Dan bersifat koordinatif; karena menyatakan hubungan sebab.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata dan menghubungkan dua unsur yang setara",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Kalimat tidak langsung selalu mempertahankan kata aku dan tanda petik.",
+          "explanation": "Tidak didukung oleh konteks. Laporan tidak langsung mengubah aku menjadi Beni serta ini menjadi itu, tanpa mengutip ucapan secara langsung.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Ungkapan seribu tahun adalah hiperbola dalam konteks menunggu.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: ungkapan berlebihan itu adalah hiperbola.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+[
+  [
+    {
+      "id": "tka-bi-kosakata-v2-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kosakata-bacaan-1",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Bagian lebih umum daripada akar.",
+        "Komputer adalah kata serapan yang lazim digunakan.",
+        "Istilah khusus selalu berupa kata sulit.",
+        "Fotosintesis merupakan istilah kajian dalam bacaan."
+      ],
+      "answer": "Istilah khusus selalu berupa kata sulit."
+    },
+    {
+      "id": "tka-bi-kosakata-v2-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kosakata-bacaan-1",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Komputer adalah kata serapan yang lazim digunakan.",
+        "Kata bagian lebih khusus daripada kata akar.",
+        "Fotosintesis merupakan istilah kajian dalam bacaan.",
+        "Bagian lebih umum daripada akar."
+      ],
+      "answer": "Kata bagian lebih khusus daripada kata akar."
+    },
+    {
+      "id": "tka-bi-kosakata-v2-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kosakata-bacaan-1",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bagian lebih umum daripada akar.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum."
+        },
+        {
+          "id": "b",
+          "text": "Kata bagian lebih khusus daripada kata akar.",
+          "explanation": "Tidak didukung oleh konteks. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu."
+        },
+        {
+          "id": "c",
+          "text": "Fotosintesis merupakan istilah kajian dalam bacaan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya."
+        },
+        {
+          "id": "d",
+          "text": "Istilah khusus selalu berupa kata sulit.",
+          "explanation": "Tidak didukung oleh konteks. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-kosakata-v2-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kosakata-bacaan-2",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Komputer adalah kata serapan yang lazim digunakan.",
+        "Kata bagian lebih khusus daripada kata akar.",
+        "Fotosintesis merupakan istilah kajian dalam bacaan.",
+        "Bagian lebih umum daripada akar."
+      ],
+      "answer": "Kata bagian lebih khusus daripada kata akar."
+    },
+    {
+      "id": "tka-bi-kosakata-v2-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kosakata-bacaan-2",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Fotosintesis merupakan istilah kajian dalam bacaan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Istilah khusus selalu berupa kata sulit.",
+          "explanation": "Tidak didukung oleh konteks. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Bagian lebih umum daripada akar.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-kosakata-v2-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kosakata-bacaan-2",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Fotosintesis merupakan istilah kajian dalam bacaan.",
+        "Bagian lebih umum daripada akar.",
+        "Komputer adalah kata serapan yang lazim digunakan.",
+        "Istilah khusus selalu berupa kata sulit."
+      ],
+      "answer": "Istilah khusus selalu berupa kata sulit."
+    },
+    {
+      "id": "tka-bi-kosakata-v2-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kosakata-bacaan-3",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fotosintesis merupakan istilah kajian dalam bacaan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya."
+        },
+        {
+          "id": "b",
+          "text": "Istilah khusus selalu berupa kata sulit.",
+          "explanation": "Tidak didukung oleh konteks. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang."
+        },
+        {
+          "id": "c",
+          "text": "Bagian lebih umum daripada akar.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum."
+        },
+        {
+          "id": "d",
+          "text": "Kata bagian lebih khusus daripada kata akar.",
+          "explanation": "Tidak didukung oleh konteks. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-bi-kosakata-v2-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Pernyataan ini tidak didukung oleh bacaan. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kosakata-bacaan-3",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pernyataan mana yang tidak didukung oleh bacaan?",
+      "options": [
+        "Fotosintesis merupakan istilah kajian dalam bacaan.",
+        "Bagian lebih umum daripada akar.",
+        "Komputer adalah kata serapan yang lazim digunakan.",
+        "Istilah khusus selalu berupa kata sulit."
+      ],
+      "answer": "Istilah khusus selalu berupa kata sulit."
+    },
+    {
+      "id": "tka-bi-kosakata-v2-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Termometer mengukur suhu, bukan panjang. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kosakata-bacaan-3",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Termometer digunakan untuk mengukur panjang akar.",
+          "explanation": "Tidak didukung oleh konteks. Termometer mengukur suhu, bukan panjang.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Fotosintesis merupakan istilah kajian dalam bacaan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Komputer adalah kata serapan yang lazim digunakan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-bi-kosakata-v3-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kosakata-bacaan-1",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Kata bagian lebih khusus daripada kata akar.",
+        "Komputer adalah kata serapan yang lazim digunakan.",
+        "Termometer digunakan untuk mengukur panjang akar.",
+        "Istilah khusus selalu berupa kata sulit."
+      ],
+      "answer": "Komputer adalah kata serapan yang lazim digunakan."
+    },
+    {
+      "id": "tka-bi-kosakata-v3-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kosakata-bacaan-1",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Fotosintesis merupakan istilah kajian dalam bacaan.",
+        "Termometer digunakan untuk mengukur panjang akar.",
+        "Istilah khusus selalu berupa kata sulit.",
+        "Kata bagian lebih khusus daripada kata akar."
+      ],
+      "answer": "Fotosintesis merupakan istilah kajian dalam bacaan."
+    },
+    {
+      "id": "tka-bi-kosakata-v3-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Termometer mengukur suhu, bukan panjang. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kosakata-bacaan-1",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Termometer digunakan untuk mengukur panjang akar.",
+          "explanation": "Tidak didukung oleh konteks. Termometer mengukur suhu, bukan panjang."
+        },
+        {
+          "id": "b",
+          "text": "Bagian lebih umum daripada akar.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum."
+        },
+        {
+          "id": "c",
+          "text": "Kata bagian lebih khusus daripada kata akar.",
+          "explanation": "Tidak didukung oleh konteks. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu."
+        },
+        {
+          "id": "d",
+          "text": "Komputer adalah kata serapan yang lazim digunakan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-kosakata-v3-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kosakata-bacaan-2",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Fotosintesis merupakan istilah kajian dalam bacaan.",
+        "Termometer digunakan untuk mengukur panjang akar.",
+        "Istilah khusus selalu berupa kata sulit.",
+        "Kata bagian lebih khusus daripada kata akar."
+      ],
+      "answer": "Fotosintesis merupakan istilah kajian dalam bacaan."
+    },
+    {
+      "id": "tka-bi-kosakata-v3-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kosakata-bacaan-2",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Kata bagian lebih khusus daripada kata akar.",
+          "explanation": "Tidak didukung oleh konteks. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Komputer adalah kata serapan yang lazim digunakan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Bagian lebih umum daripada akar.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-kosakata-v3-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kosakata-bacaan-2",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Istilah khusus selalu berupa kata sulit.",
+        "Kata bagian lebih khusus daripada kata akar.",
+        "Komputer adalah kata serapan yang lazim digunakan.",
+        "Termometer digunakan untuk mengukur panjang akar."
+      ],
+      "answer": "Komputer adalah kata serapan yang lazim digunakan."
+    },
+    {
+      "id": "tka-bi-kosakata-v3-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia. Termometer mengukur suhu, bukan panjang. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kosakata-bacaan-3",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kata bagian lebih khusus daripada kata akar.",
+          "explanation": "Tidak didukung oleh konteks. Bagian memiliki cakupan umum; akar adalah salah satu bagian tertentu."
+        },
+        {
+          "id": "b",
+          "text": "Komputer adalah kata serapan yang lazim digunakan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+        },
+        {
+          "id": "c",
+          "text": "Termometer digunakan untuk mengukur panjang akar.",
+          "explanation": "Tidak didukung oleh konteks. Termometer mengukur suhu, bukan panjang."
+        },
+        {
+          "id": "d",
+          "text": "Bagian lebih umum daripada akar.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-kosakata-v3-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kosakata-bacaan-3",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Istilah khusus selalu berupa kata sulit.",
+        "Kata bagian lebih khusus daripada kata akar.",
+        "Komputer adalah kata serapan yang lazim digunakan.",
+        "Termometer digunakan untuk mengukur panjang akar."
+      ],
+      "answer": "Komputer adalah kata serapan yang lazim digunakan."
+    },
+    {
+      "id": "tka-bi-kosakata-v3-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.textual.vocabulary",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kosakata-bacaan-3",
+      "evidence": [
+        "Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+        "Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+        "Kata komputer merupakan kata serapan yang sudah lazim dipakai dalam bahasa Indonesia."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Bagian lebih umum daripada akar.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Ketiga kata itu menunjuk bagian tumbuhan secara khusus, sedangkan kata bagian mempunyai cakupan lebih umum.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Fotosintesis merupakan istilah kajian dalam bacaan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Bu Sari menjelaskan fotosintesis, yaitu proses tumbuhan membuat makanan dengan bantuan cahaya.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Istilah khusus selalu berupa kata sulit.",
+          "explanation": "Tidak didukung oleh konteks. Teks menyatakan istilah khusus tidak selalu sulit; penggunaannya bergantung pada bidang.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

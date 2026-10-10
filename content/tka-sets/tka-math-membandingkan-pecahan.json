@@ -1,0 +1,444 @@
+[
+  [
+    {
+      "id": "tka-math-membandingkan-pecahan-v2-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Hasilnya 7/12 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Manakah nilai terbesar di antara 6/12 dan 7/12?",
+      "options": [
+        "-5/12",
+        "31/12",
+        "7/12",
+        "19/12"
+      ],
+      "answer": "7/12"
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v2-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Hasilnya 4/11 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Manakah nilai terbesar di antara 3/11 dan 4/11?",
+      "options": [
+        "26/11",
+        "4/11",
+        "15/11",
+        "-7/11"
+      ],
+      "answer": "4/11"
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v2-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Hasilnya 0,8 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Manakah nilai terbesar di antara 7/10 dan 8/10?",
+      "options": [
+        "0,8",
+        "1,8",
+        "-0,2",
+        "2,8"
+      ],
+      "answer": "0,8"
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v2-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Periksa setiap soal secara terpisah. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,6. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 7/11. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 2/3. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 9/13.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Manakah nilai terbesar di antara 5/10 dan 6/10? Jawaban: 1,6.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,6."
+        },
+        {
+          "id": "b",
+          "text": "Manakah nilai terbesar di antara 6/11 dan 7/11? Jawaban: 7/11.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 7/11."
+        },
+        {
+          "id": "c",
+          "text": "Manakah nilai terbesar di antara 7/12 dan 8/12? Jawaban: 5/3.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 2/3."
+        },
+        {
+          "id": "d",
+          "text": "Manakah nilai terbesar di antara 8/13 dan 9/13? Jawaban: 9/13.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 9/13."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v2-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Hasilnya 9/14 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Manakah nilai terbesar di antara 8/14 dan 9/14?",
+      "options": [
+        "-5/14",
+        "37/14",
+        "9/14",
+        "23/14"
+      ],
+      "answer": "9/14"
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v2-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Periksa setiap soal secara terpisah. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,5. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 8/15. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 9/16.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Manakah nilai terbesar di antara 6/14 dan 7/14? Jawaban: 1,5.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,5.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Manakah nilai terbesar di antara 7/15 dan 8/15? Jawaban: 8/15.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 8/15.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Manakah nilai terbesar di antara 8/16 dan 9/16? Jawaban: 9/16.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 9/16.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v2-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Hasilnya 0,5 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Manakah nilai terbesar di antara 2/6 dan 3/6?",
+      "options": [
+        "0,5",
+        "1,5",
+        "-0,5",
+        "2,5"
+      ],
+      "answer": "0,5"
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v2-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Periksa setiap soal secara terpisah. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 2/3. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 9/13. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,375. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 4/9.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Manakah nilai terbesar di antara 7/12 dan 8/12? Jawaban: 5/3.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 2/3."
+        },
+        {
+          "id": "b",
+          "text": "Manakah nilai terbesar di antara 8/13 dan 9/13? Jawaban: 9/13.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 9/13."
+        },
+        {
+          "id": "c",
+          "text": "Manakah nilai terbesar di antara 2/8 dan 3/8? Jawaban: 1,375.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,375."
+        },
+        {
+          "id": "d",
+          "text": "Manakah nilai terbesar di antara 3/9 dan 4/9? Jawaban: 4/9.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 4/9."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v2-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Periksa setiap soal secara terpisah. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 5/11. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,5. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 7/13.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Manakah nilai terbesar di antara 4/11 dan 5/11? Jawaban: 16/11.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 5/11.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Manakah nilai terbesar di antara 5/12 dan 6/12? Jawaban: 0,5.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,5.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Manakah nilai terbesar di antara 6/13 dan 7/13? Jawaban: 7/13.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 7/13.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-math-membandingkan-pecahan-v3-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Hasilnya 4/7 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Manakah nilai terbesar di antara 3/7 dan 4/7?",
+      "options": [
+        "18/7",
+        "4/7",
+        "11/7",
+        "-3/7"
+      ],
+      "answer": "4/7"
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v3-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Hasilnya 2/3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Manakah nilai terbesar di antara 7/12 dan 8/12?",
+      "options": [
+        "2/3",
+        "5/3",
+        "-1/3",
+        "8/3"
+      ],
+      "answer": "2/3"
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v3-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Hasilnya 5/11 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Manakah nilai terbesar di antara 4/11 dan 5/11?",
+      "options": [
+        "16/11",
+        "-6/11",
+        "27/11",
+        "5/11"
+      ],
+      "answer": "5/11"
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v3-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Periksa setiap soal secara terpisah. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,6. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 2/3. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 5/7. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,75.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Manakah nilai terbesar di antara 2/5 dan 3/5? Jawaban: 0,6.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,6."
+        },
+        {
+          "id": "b",
+          "text": "Manakah nilai terbesar di antara 3/6 dan 4/6? Jawaban: 5/3.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 2/3."
+        },
+        {
+          "id": "c",
+          "text": "Manakah nilai terbesar di antara 4/7 dan 5/7? Jawaban: 5/7.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 5/7."
+        },
+        {
+          "id": "d",
+          "text": "Manakah nilai terbesar di antara 5/8 dan 6/8? Jawaban: 1,75.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,75."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v3-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Hasilnya 2/3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Manakah nilai terbesar di antara 5/9 dan 6/9?",
+      "options": [
+        "8/3",
+        "2/3",
+        "5/3",
+        "-1/3"
+      ],
+      "answer": "2/3"
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v3-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Periksa setiap soal secara terpisah. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 4/9. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,5. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 6/11.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Manakah nilai terbesar di antara 3/9 dan 4/9? Jawaban: 4/9.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 4/9.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Manakah nilai terbesar di antara 4/10 dan 5/10? Jawaban: 0,5.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,5.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Manakah nilai terbesar di antara 5/11 dan 6/11? Jawaban: 17/11.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 6/11.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v3-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Hasilnya 7/13 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Manakah nilai terbesar di antara 6/13 dan 7/13?",
+      "options": [
+        "20/13",
+        "-6/13",
+        "33/13",
+        "7/13"
+      ],
+      "answer": "7/13"
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v3-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Periksa setiap soal secara terpisah. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 5/7. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,75. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 7/9. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,8.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Manakah nilai terbesar di antara 4/7 dan 5/7? Jawaban: 5/7.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 5/7."
+        },
+        {
+          "id": "b",
+          "text": "Manakah nilai terbesar di antara 5/8 dan 6/8? Jawaban: 1,75.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,75."
+        },
+        {
+          "id": "c",
+          "text": "Manakah nilai terbesar di antara 6/9 dan 7/9? Jawaban: 7/9.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 7/9."
+        },
+        {
+          "id": "d",
+          "text": "Manakah nilai terbesar di antara 7/10 dan 8/10? Jawaban: 1,8.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,8."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-membandingkan-pecahan-v3-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.fraction.compare",
+      "explanation": "Periksa setiap soal secara terpisah. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,75. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 3/7. Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,5.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Manakah nilai terbesar di antara 8/12 dan 9/12? Jawaban: 0,75.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,75.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Manakah nilai terbesar di antara 2/7 dan 3/7? Jawaban: 3/7.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 3/7.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Manakah nilai terbesar di antara 3/8 dan 4/8? Jawaban: 1,5.",
+          "explanation": "Pada penyebut sama, pembilang yang lebih besar memberi nilai pecahan lebih besar. Nilai yang tepat adalah 0,5.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

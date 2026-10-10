@@ -1,0 +1,264 @@
+{
+  "id": "tka-math-bangun-ruang",
+  "subject": "matematika",
+  "category": 2,
+  "order": 2,
+  "title": "Bangun ruang, jaring-jaring, dan volume",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menyelesaikan soal bangun ruang, jaring-jaring, dan volume dan menjelaskan langkahnya."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Konsep dan aturan",
+      "text": "Volume mengukur isi ruang; luas permukaan menjumlahkan daerah seluruh sisi luar. Kubus mempunyai enam sisi persegi, dua belas rusuk, dan delapan titik sudut."
+    },
+    {
+      "type": "paragraph",
+      "title": "Langkah dan pemeriksaan",
+      "text": "Balok: V = p × l × t; luas permukaan = 2(pl + pt + lt). Tabung: V = πr²t; luas permukaan tabung tertutup = 2πr(r + t). Jaring-jaring harus dapat dilipat tanpa sisi bertumpuk; tabung mempunyai dua lingkaran dan selimut persegi panjang."
+    },
+    {
+      "type": "worked_example",
+      "question": "Kubus berusuk 2 cm. Berapa cm³ volumenya?",
+      "steps": [
+        "Volume kubus = rusuk³."
+      ],
+      "conclusion": "Jawaban: 8 dalam satuan yang ditanyakan."
+    },
+    {
+      "type": "worked_example",
+      "question": "Kubus berusuk 3 cm. Berapa cm² luas permukaannya?",
+      "steps": [
+        "Enam sisi persegi, masing-masing seluas rusuk²."
+      ],
+      "conclusion": "Jawaban: 54 dalam satuan yang ditanyakan."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-math-bangun-ruang-v1-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.solid",
+      "explanation": "Volume kubus = rusuk³. Hasilnya 8 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Kubus berusuk 2 cm. Berapa cm³ volumenya?",
+      "options": [
+        "9",
+        "7",
+        "10",
+        "8"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": "tka-math-bangun-ruang-v1-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.solid",
+      "explanation": "Volume balok = panjang × lebar × tinggi. Hasilnya 120 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Balok berukuran 6 cm × 4 cm × 5 cm. Berapa cm³ volumenya?",
+      "options": [
+        "119",
+        "122",
+        "120",
+        "121"
+      ],
+      "answer": "120"
+    },
+    {
+      "id": "tka-math-bangun-ruang-v1-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.solid",
+      "explanation": "Volume tabung = luas alas lingkaran × tinggi. Hasilnya 4158 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Tabung berjari-jari 21 cm dan tinggi 3 cm. π = 22/7. Berapa cm³ volumenya?",
+      "options": [
+        "4160",
+        "4158",
+        "4159",
+        "4157"
+      ],
+      "answer": "4158"
+    },
+    {
+      "id": "tka-math-bangun-ruang-v1-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.solid",
+      "explanation": "Periksa setiap soal secara terpisah. Ada satu lingkaran alas dan satu lingkaran tutup, serta satu persegi panjang untuk selimut. Nilai yang tepat adalah 2. Empat titik sudut pada sisi bawah dan empat pada sisi atas. Nilai yang tepat adalah 8. Volume kubus = rusuk³. Nilai yang tepat adalah 27. Enam sisi persegi, masing-masing seluas rusuk². Nilai yang tepat adalah 96.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jaring-jaring tabung tertutup memiliki berapa lingkaran? Jawaban: 2.",
+          "explanation": "Ada satu lingkaran alas dan satu lingkaran tutup, serta satu persegi panjang untuk selimut. Nilai yang tepat adalah 2."
+        },
+        {
+          "id": "b",
+          "text": "Kubus mempunyai berapa titik sudut? Jawaban: 9.",
+          "explanation": "Empat titik sudut pada sisi bawah dan empat pada sisi atas. Nilai yang tepat adalah 8."
+        },
+        {
+          "id": "c",
+          "text": "Kubus berusuk 3 cm. Berapa cm³ volumenya? Jawaban: 27.",
+          "explanation": "Volume kubus = rusuk³. Nilai yang tepat adalah 27."
+        },
+        {
+          "id": "d",
+          "text": "Kubus berusuk 4 cm. Berapa cm² luas permukaannya? Jawaban: 97.",
+          "explanation": "Enam sisi persegi, masing-masing seluas rusuk². Nilai yang tepat adalah 96."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-bangun-ruang-v1-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.solid",
+      "explanation": "Empat titik sudut pada sisi bawah dan empat pada sisi atas. Hasilnya 8 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Kubus mempunyai berapa titik sudut?",
+      "options": [
+        "9",
+        "7",
+        "10",
+        "8"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": "tka-math-bangun-ruang-v1-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.solid",
+      "explanation": "Periksa setiap soal secara terpisah. Volume balok = panjang × lebar × tinggi. Nilai yang tepat adalah 50. Jumlahkan luas tiga pasang sisi yang berhadapan. Nilai yang tepat adalah 126. Volume tabung = luas alas lingkaran × tinggi. Nilai yang tepat adalah 5544.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Balok berukuran 2 cm × 5 cm × 5 cm. Berapa cm³ volumenya? Jawaban: 50.",
+          "explanation": "Volume balok = panjang × lebar × tinggi. Nilai yang tepat adalah 50.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Balok berukuran 3 cm × 5 cm × 6 cm. Berapa cm² luas permukaannya? Jawaban: 127.",
+          "explanation": "Jumlahkan luas tiga pasang sisi yang berhadapan. Nilai yang tepat adalah 126.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Tabung berjari-jari 21 cm dan tinggi 4 cm. π = 22/7. Berapa cm³ volumenya? Jawaban: 5544.",
+          "explanation": "Volume tabung = luas alas lingkaran × tinggi. Nilai yang tepat adalah 5544.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-bangun-ruang-v1-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.solid",
+      "explanation": "Jumlahkan luas tiga pasang sisi yang berhadapan. Hasilnya 148 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Balok berukuran 5 cm × 6 cm × 4 cm. Berapa cm² luas permukaannya?",
+      "options": [
+        "150",
+        "148",
+        "149",
+        "147"
+      ],
+      "answer": "148"
+    },
+    {
+      "id": "tka-math-bangun-ruang-v1-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.solid",
+      "explanation": "Periksa setiap soal secara terpisah. Kubus mempunyai enam sisi persegi; susunan harus dapat dilipat tanpa tumpang tindih. Nilai yang tepat adalah 6. Ada satu lingkaran alas dan satu lingkaran tutup, serta satu persegi panjang untuk selimut. Nilai yang tepat adalah 2. Empat titik sudut pada sisi bawah dan empat pada sisi atas. Nilai yang tepat adalah 8. Volume kubus = rusuk³. Nilai yang tepat adalah 216.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jaring-jaring kubus tersusun dari berapa persegi sama besar? Jawaban: 6.",
+          "explanation": "Kubus mempunyai enam sisi persegi; susunan harus dapat dilipat tanpa tumpang tindih. Nilai yang tepat adalah 6."
+        },
+        {
+          "id": "b",
+          "text": "Jaring-jaring tabung tertutup memiliki berapa lingkaran? Jawaban: 3.",
+          "explanation": "Ada satu lingkaran alas dan satu lingkaran tutup, serta satu persegi panjang untuk selimut. Nilai yang tepat adalah 2."
+        },
+        {
+          "id": "c",
+          "text": "Kubus mempunyai berapa titik sudut? Jawaban: 8.",
+          "explanation": "Empat titik sudut pada sisi bawah dan empat pada sisi atas. Nilai yang tepat adalah 8."
+        },
+        {
+          "id": "d",
+          "text": "Kubus berusuk 6 cm. Berapa cm³ volumenya? Jawaban: 217.",
+          "explanation": "Volume kubus = rusuk³. Nilai yang tepat adalah 216."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-bangun-ruang-v1-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.geometry.solid",
+      "explanation": "Periksa setiap soal secara terpisah. Empat titik sudut pada sisi bawah dan empat pada sisi atas. Nilai yang tepat adalah 8. Volume kubus = rusuk³. Nilai yang tepat adalah 512. Enam sisi persegi, masing-masing seluas rusuk². Nilai yang tepat adalah 24.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Kubus mempunyai berapa titik sudut? Jawaban: 8.",
+          "explanation": "Empat titik sudut pada sisi bawah dan empat pada sisi atas. Nilai yang tepat adalah 8.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Kubus berusuk 8 cm. Berapa cm³ volumenya? Jawaban: 513.",
+          "explanation": "Volume kubus = rusuk³. Nilai yang tepat adalah 512.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Kubus berusuk 2 cm. Berapa cm² luas permukaannya? Jawaban: 24.",
+          "explanation": "Enam sisi persegi, masing-masing seluas rusuk². Nilai yang tepat adalah 24.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

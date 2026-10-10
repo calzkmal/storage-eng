@@ -1,0 +1,264 @@
+{
+  "id": "tka-math-penyajian-data",
+  "subject": "matematika",
+  "category": 3,
+  "order": 1,
+  "title": "Tabel, diagram batang, dan piktogram",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menyelesaikan soal tabel, diagram batang, dan piktogram dan menjelaskan langkahnya."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Konsep dan aturan",
+      "text": "Baca judul, label, dan skala sebelum membandingkan data. Total didapat dengan menjumlahkan frekuensi; selisih dengan pengurangan."
+    },
+    {
+      "type": "paragraph",
+      "title": "Langkah dan pemeriksaan",
+      "text": "Dalam piktogram, jumlah simbol dikalikan nilai setiap simbol. Diagram batang dapat ditulis sebagai tinggi dalam unit; perhatikan berapa objek yang diwakili satu unit."
+    },
+    {
+      "type": "worked_example",
+      "question": "Data buku dipinjam: Senin 2, Selasa 3, Rabu 2, Kamis 5. Berapa total buku selama empat hari?",
+      "steps": [
+        "Jumlahkan keempat frekuensi."
+      ],
+      "conclusion": "Jawaban: 12 dalam satuan yang ditanyakan."
+    },
+    {
+      "type": "worked_example",
+      "question": "Data buku dipinjam: Senin 3, Selasa 3, Rabu 2, Kamis 6. Berapa selisih Kamis dan Senin?",
+      "steps": [
+        "Selisih dihitung dengan pengurangan."
+      ],
+      "conclusion": "Jawaban: 3 dalam satuan yang ditanyakan."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-math-penyajian-data-v1-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.read",
+      "explanation": "Jumlahkan keempat frekuensi. Hasilnya 12 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data buku dipinjam: Senin 2, Selasa 3, Rabu 2, Kamis 5. Berapa total buku selama empat hari?",
+      "options": [
+        "13",
+        "11",
+        "14",
+        "12"
+      ],
+      "answer": "12"
+    },
+    {
+      "id": "tka-math-penyajian-data-v1-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.read",
+      "explanation": "Jumlahkan tinggi batang, lalu kalikan skala 5. Hasilnya 75 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Diagram batang kantin: air 6 unit, susu 4 unit, jus 5 unit. Satu unit berarti 5 botol. Berapa total botol?",
+      "options": [
+        "74",
+        "77",
+        "75",
+        "76"
+      ],
+      "answer": "75"
+    },
+    {
+      "id": "tka-math-penyajian-data-v1-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.read",
+      "explanation": "Banyak simbol dikali nilai tiap simbol. Hasilnya 12 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Piktogram apel: Rani ●●●, Bima ●●●●●●. Satu ● berarti 2 apel. Berapa apel Bima?",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "11"
+      ],
+      "answer": "12"
+    },
+    {
+      "id": "tka-math-penyajian-data-v1-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.read",
+      "explanation": "Periksa setiap soal secara terpisah. Banyak simbol dikali nilai tiap simbol. Nilai yang tepat adalah 14. Jumlahkan tinggi batang, lalu kalikan skala 5. Nilai yang tepat adalah 65. Jumlahkan keempat frekuensi. Nilai yang tepat adalah 26. Selisih dihitung dengan pengurangan. Nilai yang tepat adalah 8.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Piktogram apel: Rani ●●●●●●●●, Bima ●●●●●●●. Satu ● berarti 2 apel. Berapa apel Bima? Jawaban: 14.",
+          "explanation": "Banyak simbol dikali nilai tiap simbol. Nilai yang tepat adalah 14."
+        },
+        {
+          "id": "b",
+          "text": "Diagram batang kantin: air 2 unit, susu 8 unit, jus 3 unit. Satu unit berarti 5 botol. Berapa total botol? Jawaban: 66.",
+          "explanation": "Jumlahkan tinggi batang, lalu kalikan skala 5. Nilai yang tepat adalah 65."
+        },
+        {
+          "id": "c",
+          "text": "Data buku dipinjam: Senin 3, Selasa 8, Rabu 4, Kamis 11. Berapa total buku selama empat hari? Jawaban: 26.",
+          "explanation": "Jumlahkan keempat frekuensi. Nilai yang tepat adalah 26."
+        },
+        {
+          "id": "d",
+          "text": "Data buku dipinjam: Senin 4, Selasa 8, Rabu 4, Kamis 12. Berapa selisih Kamis dan Senin? Jawaban: 9.",
+          "explanation": "Selisih dihitung dengan pengurangan. Nilai yang tepat adalah 8."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-penyajian-data-v1-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.read",
+      "explanation": "Jumlahkan keempat frekuensi. Hasilnya 20 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Data buku dipinjam: Senin 4, Selasa 3, Rabu 6, Kamis 7. Berapa total buku selama empat hari?",
+      "options": [
+        "21",
+        "19",
+        "22",
+        "20"
+      ],
+      "answer": "20"
+    },
+    {
+      "id": "tka-math-penyajian-data-v1-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.read",
+      "explanation": "Periksa setiap soal secara terpisah. Jumlahkan keempat frekuensi. Nilai yang tepat adalah 19. Selisih dihitung dengan pengurangan. Nilai yang tepat adalah 5. Banyak simbol dikali nilai tiap simbol. Nilai yang tepat adalah 10.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Data buku dipinjam: Senin 2, Selasa 5, Rabu 5, Kamis 7. Berapa total buku selama empat hari? Jawaban: 19.",
+          "explanation": "Jumlahkan keempat frekuensi. Nilai yang tepat adalah 19.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Data buku dipinjam: Senin 3, Selasa 5, Rabu 6, Kamis 8. Berapa selisih Kamis dan Senin? Jawaban: 6.",
+          "explanation": "Selisih dihitung dengan pengurangan. Nilai yang tepat adalah 5.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Piktogram apel: Rani ●●●●, Bima ●●●●●. Satu ● berarti 2 apel. Berapa apel Bima? Jawaban: 10.",
+          "explanation": "Banyak simbol dikali nilai tiap simbol. Nilai yang tepat adalah 10.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-penyajian-data-v1-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.read",
+      "explanation": "Banyak simbol dikali nilai tiap simbol. Hasilnya 12 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Piktogram apel: Rani ●●●●●, Bima ●●●●●●. Satu ● berarti 2 apel. Berapa apel Bima?",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "11"
+      ],
+      "answer": "12"
+    },
+    {
+      "id": "tka-math-penyajian-data-v1-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.read",
+      "explanation": "Periksa setiap soal secara terpisah. Banyak simbol dikali nilai tiap simbol. Nilai yang tepat adalah 16. Jumlahkan tinggi batang, lalu kalikan skala 5. Nilai yang tepat adalah 75. Jumlahkan keempat frekuensi. Nilai yang tepat adalah 29. Selisih dihitung dengan pengurangan. Nilai yang tepat adalah 8.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Piktogram apel: Rani ●●●, Bima ●●●●●●●●. Satu ● berarti 2 apel. Berapa apel Bima? Jawaban: 16.",
+          "explanation": "Banyak simbol dikali nilai tiap simbol. Nilai yang tepat adalah 16."
+        },
+        {
+          "id": "b",
+          "text": "Diagram batang kantin: air 4 unit, susu 8 unit, jus 3 unit. Satu unit berarti 5 botol. Berapa total botol? Jawaban: 76.",
+          "explanation": "Jumlahkan tinggi batang, lalu kalikan skala 5. Nilai yang tepat adalah 75."
+        },
+        {
+          "id": "c",
+          "text": "Data buku dipinjam: Senin 5, Selasa 8, Rabu 3, Kamis 13. Berapa total buku selama empat hari? Jawaban: 29.",
+          "explanation": "Jumlahkan keempat frekuensi. Nilai yang tepat adalah 29."
+        },
+        {
+          "id": "d",
+          "text": "Data buku dipinjam: Senin 6, Selasa 8, Rabu 4, Kamis 14. Berapa selisih Kamis dan Senin? Jawaban: 9.",
+          "explanation": "Selisih dihitung dengan pengurangan. Nilai yang tepat adalah 8."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-penyajian-data-v1-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.data.read",
+      "explanation": "Periksa setiap soal secara terpisah. Selisih dihitung dengan pengurangan. Nilai yang tepat adalah 3. Banyak simbol dikali nilai tiap simbol. Nilai yang tepat adalah 6. Jumlahkan tinggi batang, lalu kalikan skala 5. Nilai yang tepat adalah 40.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Data buku dipinjam: Senin 7, Selasa 3, Rabu 6, Kamis 10. Berapa selisih Kamis dan Senin? Jawaban: 3.",
+          "explanation": "Selisih dihitung dengan pengurangan. Nilai yang tepat adalah 3.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Piktogram apel: Rani ●●●●●●●●, Bima ●●●. Satu ● berarti 2 apel. Berapa apel Bima? Jawaban: 7.",
+          "explanation": "Banyak simbol dikali nilai tiap simbol. Nilai yang tepat adalah 6.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Diagram batang kantin: air 2 unit, susu 4 unit, jus 2 unit. Satu unit berarti 5 botol. Berapa total botol? Jawaban: 40.",
+          "explanation": "Jumlahkan tinggi batang, lalu kalikan skala 5. Nilai yang tepat adalah 40.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

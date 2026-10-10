@@ -1,0 +1,264 @@
+{
+  "id": "tka-math-kecepatan-jarak-waktu",
+  "subject": "matematika",
+  "category": 2,
+  "order": 4,
+  "title": "Kecepatan, jarak, dan waktu",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menyelesaikan soal kecepatan, jarak, dan waktu dan menjelaskan langkahnya."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Konsep dan aturan",
+      "text": "Kecepatan rata-rata = jarak total ÷ waktu total. Pada kecepatan tetap, jarak = kecepatan × waktu."
+    },
+    {
+      "type": "paragraph",
+      "title": "Langkah dan pemeriksaan",
+      "text": "Waktu = jarak ÷ kecepatan. Satuan harus cocok: kilometer dengan jam untuk km/jam, atau meter dengan detik untuk m/detik. Ubah menit terlebih dahulu jika diperlukan."
+    },
+    {
+      "type": "worked_example",
+      "question": "Sepeda menempuh 6 km dalam 2 jam. Berapa km/jam kecepatan rata-ratanya?",
+      "steps": [
+        "Kecepatan = jarak ÷ waktu."
+      ],
+      "conclusion": "Jawaban: 3 dalam satuan yang ditanyakan."
+    },
+    {
+      "type": "worked_example",
+      "question": "Bus bergerak dengan kecepatan tetap 30 km/jam selama 3 jam. Berapa km jaraknya?",
+      "steps": [
+        "Jarak = kecepatan × waktu."
+      ],
+      "conclusion": "Jawaban: 90 dalam satuan yang ditanyakan."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-math-kecepatan-jarak-waktu-v1-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.speed",
+      "explanation": "Kecepatan = jarak ÷ waktu. Hasilnya 3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Sepeda menempuh 6 km dalam 2 jam. Berapa km/jam kecepatan rata-ratanya?",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "3"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "tka-math-kecepatan-jarak-waktu-v1-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.speed",
+      "explanation": "Ubah menit menjadi detik dahulu: 1 menit = 60 detik. Hasilnya 1 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Pelari menempuh 360 meter dalam 6 menit. Berapa meter/detik kecepatan rata-ratanya?",
+      "options": [
+        "0",
+        "3",
+        "1",
+        "2"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "tka-math-kecepatan-jarak-waktu-v1-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.speed",
+      "explanation": "Waktu = jarak ÷ kecepatan. Hasilnya 3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Mobil menempuh 180 km dengan kecepatan tetap 60 km/jam. Berapa jam waktu tempuhnya?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "tka-math-kecepatan-jarak-waktu-v1-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.speed",
+      "explanation": "Periksa setiap soal secara terpisah. Waktu = jarak ÷ kecepatan. Nilai yang tepat adalah 8. Ubah menit menjadi detik dahulu: 1 menit = 60 detik. Nilai yang tepat adalah 1. Kecepatan = jarak ÷ waktu. Nilai yang tepat adalah 8. Jarak = kecepatan × waktu. Nilai yang tepat adalah 320.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mobil menempuh 560 km dengan kecepatan tetap 70 km/jam. Berapa jam waktu tempuhnya? Jawaban: 8.",
+          "explanation": "Waktu = jarak ÷ kecepatan. Nilai yang tepat adalah 8."
+        },
+        {
+          "id": "b",
+          "text": "Pelari menempuh 120 meter dalam 2 menit. Berapa meter/detik kecepatan rata-ratanya? Jawaban: 2.",
+          "explanation": "Ubah menit menjadi detik dahulu: 1 menit = 60 detik. Nilai yang tepat adalah 1."
+        },
+        {
+          "id": "c",
+          "text": "Sepeda menempuh 24 km dalam 3 jam. Berapa km/jam kecepatan rata-ratanya? Jawaban: 8.",
+          "explanation": "Kecepatan = jarak ÷ waktu. Nilai yang tepat adalah 8."
+        },
+        {
+          "id": "d",
+          "text": "Bus bergerak dengan kecepatan tetap 80 km/jam selama 4 jam. Berapa km jaraknya? Jawaban: 321.",
+          "explanation": "Jarak = kecepatan × waktu. Nilai yang tepat adalah 320."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-kecepatan-jarak-waktu-v1-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.speed",
+      "explanation": "Kecepatan = jarak ÷ waktu. Hasilnya 3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Sepeda menempuh 12 km dalam 4 jam. Berapa km/jam kecepatan rata-ratanya?",
+      "options": [
+        "4",
+        "2",
+        "5",
+        "3"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "tka-math-kecepatan-jarak-waktu-v1-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.speed",
+      "explanation": "Periksa setiap soal secara terpisah. Kecepatan = jarak ÷ waktu. Nilai yang tepat adalah 5. Jarak = kecepatan × waktu. Nilai yang tepat adalah 150. Waktu = jarak ÷ kecepatan. Nilai yang tepat adalah 4.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Sepeda menempuh 10 km dalam 2 jam. Berapa km/jam kecepatan rata-ratanya? Jawaban: 5.",
+          "explanation": "Kecepatan = jarak ÷ waktu. Nilai yang tepat adalah 5.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Bus bergerak dengan kecepatan tetap 50 km/jam selama 3 jam. Berapa km jaraknya? Jawaban: 151.",
+          "explanation": "Jarak = kecepatan × waktu. Nilai yang tepat adalah 150.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Mobil menempuh 200 km dengan kecepatan tetap 50 km/jam. Berapa jam waktu tempuhnya? Jawaban: 4.",
+          "explanation": "Waktu = jarak ÷ kecepatan. Nilai yang tepat adalah 4.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-kecepatan-jarak-waktu-v1-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.speed",
+      "explanation": "Waktu = jarak ÷ kecepatan. Hasilnya 5 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Mobil menempuh 300 km dengan kecepatan tetap 60 km/jam. Berapa jam waktu tempuhnya?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": "5"
+    },
+    {
+      "id": "tka-math-kecepatan-jarak-waktu-v1-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.speed",
+      "explanation": "Periksa setiap soal secara terpisah. Waktu = jarak ÷ kecepatan. Nilai yang tepat adalah 3. Ubah menit menjadi detik dahulu: 1 menit = 60 detik. Nilai yang tepat adalah 1. Kecepatan = jarak ÷ waktu. Nilai yang tepat adalah 8. Jarak = kecepatan × waktu. Nilai yang tepat adalah 480.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mobil menempuh 240 km dengan kecepatan tetap 80 km/jam. Berapa jam waktu tempuhnya? Jawaban: 3.",
+          "explanation": "Waktu = jarak ÷ kecepatan. Nilai yang tepat adalah 3."
+        },
+        {
+          "id": "b",
+          "text": "Pelari menempuh 240 meter dalam 4 menit. Berapa meter/detik kecepatan rata-ratanya? Jawaban: 2.",
+          "explanation": "Ubah menit menjadi detik dahulu: 1 menit = 60 detik. Nilai yang tepat adalah 1."
+        },
+        {
+          "id": "c",
+          "text": "Sepeda menempuh 40 km dalam 5 jam. Berapa km/jam kecepatan rata-ratanya? Jawaban: 8.",
+          "explanation": "Kecepatan = jarak ÷ waktu. Nilai yang tepat adalah 8."
+        },
+        {
+          "id": "d",
+          "text": "Bus bergerak dengan kecepatan tetap 80 km/jam selama 6 jam. Berapa km jaraknya? Jawaban: 481.",
+          "explanation": "Jarak = kecepatan × waktu. Nilai yang tepat adalah 480."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-kecepatan-jarak-waktu-v1-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.measurement.speed",
+      "explanation": "Periksa setiap soal secara terpisah. Jarak = kecepatan × waktu. Nilai yang tepat adalah 210. Waktu = jarak ÷ kecepatan. Nilai yang tepat adalah 8. Ubah menit menjadi detik dahulu: 1 menit = 60 detik. Nilai yang tepat adalah 1.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Bus bergerak dengan kecepatan tetap 30 km/jam selama 7 jam. Berapa km jaraknya? Jawaban: 210.",
+          "explanation": "Jarak = kecepatan × waktu. Nilai yang tepat adalah 210.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Mobil menempuh 240 km dengan kecepatan tetap 30 km/jam. Berapa jam waktu tempuhnya? Jawaban: 9.",
+          "explanation": "Waktu = jarak ÷ kecepatan. Nilai yang tepat adalah 8.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Pelari menempuh 120 meter dalam 2 menit. Berapa meter/detik kecepatan rata-ratanya? Jawaban: 1.",
+          "explanation": "Ubah menit menjadi detik dahulu: 1 menit = 60 detik. Nilai yang tepat adalah 1.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

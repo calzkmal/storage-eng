@@ -1,0 +1,352 @@
+{
+  "id": "tka-bi-fakta-opini",
+  "subject": "bahasa-indonesia",
+  "category": 3,
+  "order": 1,
+  "title": "Membedakan fakta dan opini",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menentukan jawaban dan bukti yang tepat pada topik membedakan fakta dan opini."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Cara membaca",
+      "text": "Baca seluruh konteks dan hubungkan rincian dengan pertanyaan. Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan."
+    },
+    {
+      "type": "paragraph",
+      "title": "Periksa alasan",
+      "text": "Jangan memilih berdasarkan satu kata yang tampak sama. Penilaian Laras tentang tempat paling nyaman merupakan opini. Selera Riko tidak mewakili selera semua murid."
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah pernyataan berikut sesuai dengan bacaan: Semua murid pasti lebih menyukai buku sains.",
+      "steps": [
+        "Temukan bagian yang menjelaskan gagasan terkait.",
+        "Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid."
+      ],
+      "conclusion": "Tidak sesuai. Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid."
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah pernyataan berikut sesuai dengan bacaan: Data satu hari membuktikan kebiasaan peminjaman selama satu tahun.",
+      "steps": [
+        "Temukan bagian yang menjelaskan gagasan terkait.",
+        "Catatan tersebut hanya mencatat satu hari, sehingga tidak membuktikan kebiasaan selama satu tahun."
+      ],
+      "conclusion": "Tidak sesuai. Catatan tersebut hanya mencatat satu hari, sehingga tidak membuktikan kebiasaan selama satu tahun."
+    }
+  ],
+  "stimuli": [
+    {
+      "id": "tka-bi-fakta-opini-bacaan-1",
+      "title": "Membedakan fakta dan opini dalam bacaan",
+      "paragraphs": [
+        "Pada hari Senin, petugas perpustakaan mencatat bahwa ada dua puluh murid yang meminjam buku. Sepuluh murid memilih cerita, enam memilih buku sains, dan empat memilih buku sejarah. Angka itu berasal dari buku peminjaman pada hari tersebut. Petugas tidak menggunakan catatan satu hari untuk menyatakan kebiasaan seluruh murid selama satu tahun.",
+        "Laras menulis bahwa ruang baca paling nyaman dibandingkan semua tempat di sekolah. Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat. Riko berpendapat bahwa buku sains lebih menarik daripada cerita. Teman lain boleh memiliki pilihan berbeda. Kata paling atau lebih tidak otomatis menandakan opini dalam semua kalimat; pembaca tetap perlu memeriksa apakah perbandingan itu didukung ukuran yang jelas.",
+        "Untuk laporan kegiatan, murid memisahkan data peminjaman dan pendapat tentang pelayanan. Mereka dapat memeriksa jumlah peminjam melalui catatan petugas, tetapi tidak menganggap selera Riko berlaku bagi semua orang. Pendapat boleh disampaikan dengan alasan, selama tidak disamarkan menjadi data. Bu Susi meminta murid menulis sumber dan waktu pengamatan ketika menggunakan fakta. Laras menambahkan keterangan bahwa penilaiannya tentang ruang baca adalah pendapat pribadi. Dengan begitu, pembaca dapat mengetahui bagian yang dapat diverifikasi dan bagian yang merupakan tanggapan penulis."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "tka-bi-fakta-opini-bacaan-2",
+      "title": "Diskusi pameran literasi",
+      "paragraphs": [
+        "Kelompok kelas enam menyiapkan pameran literasi pada Rabu sore. Mereka membagi tugas membaca, mencatat, dan menyunting. Setiap anggota diminta menjelaskan alasan kepada teman, bukan hanya menyalin jawaban. Jika penafsiran berbeda, mereka memeriksa kembali konteks. Hasil diskusi akan dibaca oleh kelas lain, sehingga setiap catatan harus dapat dipahami tanpa penjelasan lisan tambahan. Berikut pokok yang mereka sepakati beserta bagian bacaan yang mendukungnya.",
+        "Pokok catatan: «Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan. Bukti: Angka itu berasal dari buku peminjaman pada hari tersebut.»; «Penilaian Laras tentang tempat paling nyaman merupakan opini. Bukti: Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.»; «Selera Riko tidak mewakili selera semua murid. Bukti: Teman lain boleh memiliki pilihan berbeda.»",
+        "Catatan dibaca ulang untuk membedakan gagasan yang didukung bukti dari dugaan. Murid dapat memakai kalimat sendiri, tetapi tidak boleh mengubah makna informasi yang sedang dibahas. Pada akhir pertemuan, kelompok menyampaikan hasilnya secara bergiliran dan menerima pertanyaan. Mereka memperbaiki bagian yang belum jelas sebelum catatan dibagikan kepada pembaca lain."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "tka-bi-fakta-opini-bacaan-3",
+      "title": "Catatan lokakarya",
+      "paragraphs": [
+        "Pada lokakarya kelas enam, murid membaca dan menyunting secara berpasangan. Seorang murid mengusulkan penafsiran, sedangkan pasangannya mencari bukti. Mereka berganti peran agar semua berlatih. Jawaban tidak dipilih berdasarkan suara yang paling keras. Setelah diskusi, mereka menulis catatan untuk pembaca yang tidak mengikuti kegiatan. Catatan berikut menyampaikan gagasan lengkap dan bukti, sehingga informasi tidak bergantung pada ingatan pembaca tentang cerita sebelumnya.",
+        "Pokok catatan: «Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan. Bukti: Angka itu berasal dari buku peminjaman pada hari tersebut.»; «Penilaian Laras tentang tempat paling nyaman merupakan opini. Bukti: Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.»; «Selera Riko tidak mewakili selera semua murid. Bukti: Teman lain boleh memiliki pilihan berbeda.»",
+        "Catatan dibaca ulang untuk membedakan gagasan yang didukung bukti dari dugaan. Murid dapat memakai kalimat sendiri, tetapi tidak boleh mengubah makna informasi yang sedang dibahas. Pada akhir pertemuan, kelompok menyampaikan hasilnya secara bergiliran dan menerima pertanyaan. Mereka memperbaiki bagian yang belum jelas sebelum catatan dibagikan kepada pembaca lain."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-bi-fakta-opini-v1-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.fact-opinion",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Angka itu berasal dari buku peminjaman pada hari tersebut.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-fakta-opini-bacaan-1",
+      "evidence": [
+        "Angka itu berasal dari buku peminjaman pada hari tersebut.",
+        "Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+        "Teman lain boleh memiliki pilihan berbeda."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Semua murid pasti lebih menyukai buku sains.",
+        "Data satu hari membuktikan kebiasaan peminjaman selama satu tahun.",
+        "Pendapat pribadi selalu merupakan hasil pengukuran objektif.",
+        "Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan."
+      ],
+      "answer": "Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan."
+    },
+    {
+      "id": "tka-bi-fakta-opini-v1-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.fact-opinion",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-fakta-opini-bacaan-1",
+      "evidence": [
+        "Angka itu berasal dari buku peminjaman pada hari tersebut.",
+        "Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+        "Teman lain boleh memiliki pilihan berbeda."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Data satu hari membuktikan kebiasaan peminjaman selama satu tahun.",
+        "Pendapat pribadi selalu merupakan hasil pengukuran objektif.",
+        "Penilaian Laras tentang tempat paling nyaman merupakan opini.",
+        "Semua murid pasti lebih menyukai buku sains."
+      ],
+      "answer": "Penilaian Laras tentang tempat paling nyaman merupakan opini."
+    },
+    {
+      "id": "tka-bi-fakta-opini-v1-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.fact-opinion",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid. Bacaan mendukung penjelasan ini: Angka itu berasal dari buku peminjaman pada hari tersebut. Catatan tersebut hanya mencatat satu hari, sehingga tidak membuktikan kebiasaan selama satu tahun. Bacaan mendukung penjelasan ini: Teman lain boleh memiliki pilihan berbeda.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-fakta-opini-bacaan-1",
+      "evidence": [
+        "Angka itu berasal dari buku peminjaman pada hari tersebut.",
+        "Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+        "Teman lain boleh memiliki pilihan berbeda."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Semua murid pasti lebih menyukai buku sains.",
+          "explanation": "Tidak didukung oleh konteks. Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid."
+        },
+        {
+          "id": "b",
+          "text": "Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Angka itu berasal dari buku peminjaman pada hari tersebut."
+        },
+        {
+          "id": "c",
+          "text": "Data satu hari membuktikan kebiasaan peminjaman selama satu tahun.",
+          "explanation": "Tidak didukung oleh konteks. Catatan tersebut hanya mencatat satu hari, sehingga tidak membuktikan kebiasaan selama satu tahun."
+        },
+        {
+          "id": "d",
+          "text": "Selera Riko tidak mewakili selera semua murid.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Teman lain boleh memiliki pilihan berbeda."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-fakta-opini-v1-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.fact-opinion",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-fakta-opini-bacaan-2",
+      "evidence": [
+        "Angka itu berasal dari buku peminjaman pada hari tersebut.",
+        "Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+        "Teman lain boleh memiliki pilihan berbeda."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Data satu hari membuktikan kebiasaan peminjaman selama satu tahun.",
+        "Pendapat pribadi selalu merupakan hasil pengukuran objektif.",
+        "Penilaian Laras tentang tempat paling nyaman merupakan opini.",
+        "Semua murid pasti lebih menyukai buku sains."
+      ],
+      "answer": "Penilaian Laras tentang tempat paling nyaman merupakan opini."
+    },
+    {
+      "id": "tka-bi-fakta-opini-v1-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.fact-opinion",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Angka itu berasal dari buku peminjaman pada hari tersebut. Bacaan mendukung penjelasan ini: Teman lain boleh memiliki pilihan berbeda. Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-fakta-opini-bacaan-2",
+      "evidence": [
+        "Angka itu berasal dari buku peminjaman pada hari tersebut.",
+        "Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+        "Teman lain boleh memiliki pilihan berbeda."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Angka itu berasal dari buku peminjaman pada hari tersebut.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Selera Riko tidak mewakili selera semua murid.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Teman lain boleh memiliki pilihan berbeda.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Semua murid pasti lebih menyukai buku sains.",
+          "explanation": "Tidak didukung oleh konteks. Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-fakta-opini-v1-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.fact-opinion",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Angka itu berasal dari buku peminjaman pada hari tersebut.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-fakta-opini-bacaan-2",
+      "evidence": [
+        "Angka itu berasal dari buku peminjaman pada hari tersebut.",
+        "Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+        "Teman lain boleh memiliki pilihan berbeda."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan.",
+        "Semua murid pasti lebih menyukai buku sains.",
+        "Data satu hari membuktikan kebiasaan peminjaman selama satu tahun.",
+        "Pendapat pribadi selalu merupakan hasil pengukuran objektif."
+      ],
+      "answer": "Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan."
+    },
+    {
+      "id": "tka-bi-fakta-opini-v1-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.fact-opinion",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Catatan tersebut hanya mencatat satu hari, sehingga tidak membuktikan kebiasaan selama satu tahun. Bacaan mendukung penjelasan ini: Teman lain boleh memiliki pilihan berbeda. Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid. Bacaan mendukung penjelasan ini: Angka itu berasal dari buku peminjaman pada hari tersebut.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-fakta-opini-bacaan-3",
+      "evidence": [
+        "Angka itu berasal dari buku peminjaman pada hari tersebut.",
+        "Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+        "Teman lain boleh memiliki pilihan berbeda."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data satu hari membuktikan kebiasaan peminjaman selama satu tahun.",
+          "explanation": "Tidak didukung oleh konteks. Catatan tersebut hanya mencatat satu hari, sehingga tidak membuktikan kebiasaan selama satu tahun."
+        },
+        {
+          "id": "b",
+          "text": "Selera Riko tidak mewakili selera semua murid.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Teman lain boleh memiliki pilihan berbeda."
+        },
+        {
+          "id": "c",
+          "text": "Semua murid pasti lebih menyukai buku sains.",
+          "explanation": "Tidak didukung oleh konteks. Selera Riko hanya pendapat pribadi; tidak dapat digeneralisasi kepada semua murid."
+        },
+        {
+          "id": "d",
+          "text": "Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Angka itu berasal dari buku peminjaman pada hari tersebut."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-fakta-opini-v1-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.fact-opinion",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: Angka itu berasal dari buku peminjaman pada hari tersebut.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-fakta-opini-bacaan-3",
+      "evidence": [
+        "Angka itu berasal dari buku peminjaman pada hari tersebut.",
+        "Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+        "Teman lain boleh memiliki pilihan berbeda."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan.",
+        "Semua murid pasti lebih menyukai buku sains.",
+        "Data satu hari membuktikan kebiasaan peminjaman selama satu tahun.",
+        "Pendapat pribadi selalu merupakan hasil pengukuran objektif."
+      ],
+      "answer": "Jumlah dua puluh peminjam adalah fakta yang dapat diperiksa pada catatan."
+    },
+    {
+      "id": "tka-bi-fakta-opini-v1-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.evaluation.fact-opinion",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat. Pendapat tentang selera atau kenyamanan bukan hasil pengukuran objektif yang dapat berlaku bagi semua orang. Bacaan mendukung penjelasan ini: Teman lain boleh memiliki pilihan berbeda.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-fakta-opini-bacaan-3",
+      "evidence": [
+        "Angka itu berasal dari buku peminjaman pada hari tersebut.",
+        "Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+        "Teman lain boleh memiliki pilihan berbeda."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Penilaian Laras tentang tempat paling nyaman merupakan opini.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Kalimat itu menyampaikan penilaiannya, bukan hasil pengukuran kenyamanan setiap tempat.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Pendapat pribadi selalu merupakan hasil pengukuran objektif.",
+          "explanation": "Tidak didukung oleh konteks. Pendapat tentang selera atau kenyamanan bukan hasil pengukuran objektif yang dapat berlaku bagi semua orang.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Selera Riko tidak mewakili selera semua murid.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Teman lain boleh memiliki pilihan berbeda.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

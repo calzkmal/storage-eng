@@ -14,8 +14,8 @@ export const CATEGORY_NUMBERS = Object.keys(CATEGORIES)
 
 export const SUBJECT_CATEGORIES: Record<Subject, Record<number, string>> = {
   english: CATEGORIES,
-  matematika: { 1: "Pecahan" },
-  "bahasa-indonesia": { 1: "Pemahaman tekstual", 2: "Pemahaman inferensial" },
+  matematika: { 1: "Bilangan", 2: "Geometri dan pengukuran", 3: "Pengolahan data dan statistika", 4: "Pola bilangan dan aljabar" },
+  "bahasa-indonesia": { 1: "Pemahaman tekstual", 2: "Pemahaman inferensial", 3: "Evaluasi dan apresiasi", 4: "Ejaan dan tata bahasa" },
 };
 export function categoryTitle(category: number, subject: Subject = "english"): string {
   return SUBJECT_CATEGORIES[subject][category] ?? `Category ${category}`;

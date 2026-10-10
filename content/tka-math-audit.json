@@ -1,0 +1,9804 @@
+{
+  "tka-math-pecahan-senilai-v2-q1": [
+    {
+      "expr": [
+        "div",
+        1,
+        6
+      ],
+      "shown": "1/6",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v2-q2": [
+    {
+      "expr": [
+        "div",
+        1,
+        8
+      ],
+      "shown": "0,125",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v2-q3": [
+    {
+      "expr": [
+        "div",
+        1,
+        3
+      ],
+      "shown": "1/3",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v2-q4": [
+    {
+      "expr": [
+        "div",
+        1,
+        5
+      ],
+      "shown": "1,2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        5
+      ],
+      "shown": "0,2",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        5
+      ],
+      "shown": "1,2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        5
+      ],
+      "shown": "0,2",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v2-q5": [
+    {
+      "expr": [
+        "div",
+        1,
+        6
+      ],
+      "shown": "1/6",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v2-q6": [
+    {
+      "expr": [
+        "div",
+        1,
+        8
+      ],
+      "shown": "1,125",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        8
+      ],
+      "shown": "0,125",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        8
+      ],
+      "shown": "0,125",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v2-q7": [
+    {
+      "expr": [
+        "div",
+        1,
+        4
+      ],
+      "shown": "0,25",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v2-q8": [
+    {
+      "expr": [
+        "div",
+        1,
+        5
+      ],
+      "shown": "1,2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        5
+      ],
+      "shown": "0,2",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        6
+      ],
+      "shown": "7/6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        6
+      ],
+      "shown": "1/6",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v2-q9": [
+    {
+      "expr": [
+        "div",
+        1,
+        7
+      ],
+      "shown": "8/7",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        7
+      ],
+      "shown": "1/7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        7
+      ],
+      "shown": "1/7",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v3-q1": [
+    {
+      "expr": [
+        "div",
+        1,
+        4
+      ],
+      "shown": "0,25",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v3-q2": [
+    {
+      "expr": [
+        "div",
+        1,
+        5
+      ],
+      "shown": "0,2",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v3-q3": [
+    {
+      "expr": [
+        "div",
+        1,
+        7
+      ],
+      "shown": "1/7",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v3-q4": [
+    {
+      "expr": [
+        "div",
+        1,
+        3
+      ],
+      "shown": "1/3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        3
+      ],
+      "shown": "4/3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        3
+      ],
+      "shown": "1/3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        3
+      ],
+      "shown": "4/3",
+      "correct": false
+    }
+  ],
+  "tka-math-pecahan-senilai-v3-q5": [
+    {
+      "expr": [
+        "div",
+        1,
+        4
+      ],
+      "shown": "0,25",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v3-q6": [
+    {
+      "expr": [
+        "div",
+        1,
+        6
+      ],
+      "shown": "1/6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        6
+      ],
+      "shown": "1/6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        6
+      ],
+      "shown": "7/6",
+      "correct": false
+    }
+  ],
+  "tka-math-pecahan-senilai-v3-q7": [
+    {
+      "expr": [
+        "div",
+        1,
+        7
+      ],
+      "shown": "1/7",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-senilai-v3-q8": [
+    {
+      "expr": [
+        "div",
+        1,
+        3
+      ],
+      "shown": "1/3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        3
+      ],
+      "shown": "4/3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        3
+      ],
+      "shown": "1/3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        3
+      ],
+      "shown": "4/3",
+      "correct": false
+    }
+  ],
+  "tka-math-pecahan-senilai-v3-q9": [
+    {
+      "expr": [
+        "div",
+        1,
+        4
+      ],
+      "shown": "0,25",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        5
+      ],
+      "shown": "0,2",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1,
+        5
+      ],
+      "shown": "1,2",
+      "correct": false
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v2-q1": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          6,
+          12
+        ],
+        [
+          "div",
+          7,
+          12
+        ]
+      ],
+      "shown": "7/12",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v2-q2": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          3,
+          11
+        ],
+        [
+          "div",
+          4,
+          11
+        ]
+      ],
+      "shown": "4/11",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v2-q3": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          7,
+          10
+        ],
+        [
+          "div",
+          8,
+          10
+        ]
+      ],
+      "shown": "0,8",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v2-q4": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          5,
+          10
+        ],
+        [
+          "div",
+          6,
+          10
+        ]
+      ],
+      "shown": "1,6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          6,
+          11
+        ],
+        [
+          "div",
+          7,
+          11
+        ]
+      ],
+      "shown": "7/11",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          7,
+          12
+        ],
+        [
+          "div",
+          8,
+          12
+        ]
+      ],
+      "shown": "5/3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          8,
+          13
+        ],
+        [
+          "div",
+          9,
+          13
+        ]
+      ],
+      "shown": "9/13",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v2-q5": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          8,
+          14
+        ],
+        [
+          "div",
+          9,
+          14
+        ]
+      ],
+      "shown": "9/14",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v2-q6": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          6,
+          14
+        ],
+        [
+          "div",
+          7,
+          14
+        ]
+      ],
+      "shown": "1,5",
+      "correct": false
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          7,
+          15
+        ],
+        [
+          "div",
+          8,
+          15
+        ]
+      ],
+      "shown": "8/15",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          8,
+          16
+        ],
+        [
+          "div",
+          9,
+          16
+        ]
+      ],
+      "shown": "9/16",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v2-q7": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          2,
+          6
+        ],
+        [
+          "div",
+          3,
+          6
+        ]
+      ],
+      "shown": "0,5",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v2-q8": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          7,
+          12
+        ],
+        [
+          "div",
+          8,
+          12
+        ]
+      ],
+      "shown": "5/3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          8,
+          13
+        ],
+        [
+          "div",
+          9,
+          13
+        ]
+      ],
+      "shown": "9/13",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          2,
+          8
+        ],
+        [
+          "div",
+          3,
+          8
+        ]
+      ],
+      "shown": "1,375",
+      "correct": false
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          3,
+          9
+        ],
+        [
+          "div",
+          4,
+          9
+        ]
+      ],
+      "shown": "4/9",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v2-q9": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          4,
+          11
+        ],
+        [
+          "div",
+          5,
+          11
+        ]
+      ],
+      "shown": "16/11",
+      "correct": false
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          5,
+          12
+        ],
+        [
+          "div",
+          6,
+          12
+        ]
+      ],
+      "shown": "0,5",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          6,
+          13
+        ],
+        [
+          "div",
+          7,
+          13
+        ]
+      ],
+      "shown": "7/13",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v3-q1": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          3,
+          7
+        ],
+        [
+          "div",
+          4,
+          7
+        ]
+      ],
+      "shown": "4/7",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v3-q2": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          7,
+          12
+        ],
+        [
+          "div",
+          8,
+          12
+        ]
+      ],
+      "shown": "2/3",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v3-q3": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          4,
+          11
+        ],
+        [
+          "div",
+          5,
+          11
+        ]
+      ],
+      "shown": "5/11",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v3-q4": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          2,
+          5
+        ],
+        [
+          "div",
+          3,
+          5
+        ]
+      ],
+      "shown": "0,6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          3,
+          6
+        ],
+        [
+          "div",
+          4,
+          6
+        ]
+      ],
+      "shown": "5/3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          4,
+          7
+        ],
+        [
+          "div",
+          5,
+          7
+        ]
+      ],
+      "shown": "5/7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          5,
+          8
+        ],
+        [
+          "div",
+          6,
+          8
+        ]
+      ],
+      "shown": "1,75",
+      "correct": false
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v3-q5": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          5,
+          9
+        ],
+        [
+          "div",
+          6,
+          9
+        ]
+      ],
+      "shown": "2/3",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v3-q6": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          3,
+          9
+        ],
+        [
+          "div",
+          4,
+          9
+        ]
+      ],
+      "shown": "4/9",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          4,
+          10
+        ],
+        [
+          "div",
+          5,
+          10
+        ]
+      ],
+      "shown": "0,5",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          5,
+          11
+        ],
+        [
+          "div",
+          6,
+          11
+        ]
+      ],
+      "shown": "17/11",
+      "correct": false
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v3-q7": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          6,
+          13
+        ],
+        [
+          "div",
+          7,
+          13
+        ]
+      ],
+      "shown": "7/13",
+      "correct": true
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v3-q8": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          4,
+          7
+        ],
+        [
+          "div",
+          5,
+          7
+        ]
+      ],
+      "shown": "5/7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          5,
+          8
+        ],
+        [
+          "div",
+          6,
+          8
+        ]
+      ],
+      "shown": "1,75",
+      "correct": false
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          6,
+          9
+        ],
+        [
+          "div",
+          7,
+          9
+        ]
+      ],
+      "shown": "7/9",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          7,
+          10
+        ],
+        [
+          "div",
+          8,
+          10
+        ]
+      ],
+      "shown": "1,8",
+      "correct": false
+    }
+  ],
+  "tka-math-membandingkan-pecahan-v3-q9": [
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          8,
+          12
+        ],
+        [
+          "div",
+          9,
+          12
+        ]
+      ],
+      "shown": "0,75",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          2,
+          7
+        ],
+        [
+          "div",
+          3,
+          7
+        ]
+      ],
+      "shown": "3/7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "max",
+        [
+          "div",
+          3,
+          8
+        ],
+        [
+          "div",
+          4,
+          8
+        ]
+      ],
+      "shown": "1,5",
+      "correct": false
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v2-q1": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          5
+        ],
+        100
+      ],
+      "shown": "80",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v2-q2": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          5
+        ],
+        100
+      ],
+      "shown": "60",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v2-q3": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          5
+        ],
+        100
+      ],
+      "shown": "40",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v2-q4": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          5
+        ],
+        100
+      ],
+      "shown": "41",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          5
+        ],
+        100
+      ],
+      "shown": "60",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          5
+        ],
+        100
+      ],
+      "shown": "81",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          5
+        ],
+        100
+      ],
+      "shown": "20",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v2-q5": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          5
+        ],
+        100
+      ],
+      "shown": "80",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v2-q6": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          5
+        ],
+        100
+      ],
+      "shown": "81",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          5
+        ],
+        100
+      ],
+      "shown": "20",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          5
+        ],
+        100
+      ],
+      "shown": "40",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v2-q7": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          5
+        ],
+        100
+      ],
+      "shown": "40",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v2-q8": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          5
+        ],
+        100
+      ],
+      "shown": "41",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          5
+        ],
+        100
+      ],
+      "shown": "60",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          5
+        ],
+        100
+      ],
+      "shown": "81",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          5
+        ],
+        100
+      ],
+      "shown": "20",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v2-q9": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          5
+        ],
+        100
+      ],
+      "shown": "21",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          5
+        ],
+        100
+      ],
+      "shown": "40",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          5
+        ],
+        100
+      ],
+      "shown": "60",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v3-q1": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          5
+        ],
+        100
+      ],
+      "shown": "60",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v3-q2": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          5
+        ],
+        100
+      ],
+      "shown": "40",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v3-q3": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          5
+        ],
+        100
+      ],
+      "shown": "20",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v3-q4": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          5
+        ],
+        100
+      ],
+      "shown": "20",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          5
+        ],
+        100
+      ],
+      "shown": "41",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          5
+        ],
+        100
+      ],
+      "shown": "60",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          5
+        ],
+        100
+      ],
+      "shown": "81",
+      "correct": false
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v3-q5": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          5
+        ],
+        100
+      ],
+      "shown": "60",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v3-q6": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          5
+        ],
+        100
+      ],
+      "shown": "60",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          5
+        ],
+        100
+      ],
+      "shown": "80",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          5
+        ],
+        100
+      ],
+      "shown": "21",
+      "correct": false
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v3-q7": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          5
+        ],
+        100
+      ],
+      "shown": "20",
+      "correct": true
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v3-q8": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          5
+        ],
+        100
+      ],
+      "shown": "20",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          5
+        ],
+        100
+      ],
+      "shown": "41",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          5
+        ],
+        100
+      ],
+      "shown": "60",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          5
+        ],
+        100
+      ],
+      "shown": "81",
+      "correct": false
+    }
+  ],
+  "tka-math-pecahan-desimal-persen-v3-q9": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          5
+        ],
+        100
+      ],
+      "shown": "80",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          5
+        ],
+        100
+      ],
+      "shown": "20",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          5
+        ],
+        100
+      ],
+      "shown": "41",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-campuran-v1-q1": [
+    {
+      "expr": [
+        "add",
+        2,
+        [
+          "mul",
+          3,
+          2
+        ]
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v1-q2": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          120,
+          4
+        ],
+        5
+      ],
+      "shown": "150",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v1-q3": [
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          18,
+          6
+        ],
+        4
+      ],
+      "shown": "-1",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v1-q4": [
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          56,
+          7
+        ],
+        3
+      ],
+      "shown": "5",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          48,
+          8
+        ],
+        3
+      ],
+      "shown": "19",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        3,
+        [
+          "mul",
+          8,
+          4
+        ]
+      ],
+      "shown": "35",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          4,
+          8
+        ],
+        4
+      ],
+      "shown": "49",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-campuran-v1-q5": [
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          4,
+          2
+        ],
+        [
+          "sqrt",
+          9
+        ]
+      ],
+      "shown": "19",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v1-q6": [
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          2,
+          2
+        ],
+        [
+          "sqrt",
+          25
+        ]
+      ],
+      "shown": "9",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        -3,
+        [
+          "mul",
+          5,
+          6
+        ]
+      ],
+      "shown": "28",
+      "correct": false
+    },
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          20,
+          5
+        ],
+        6
+      ],
+      "shown": "-2",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v1-q7": [
+    {
+      "expr": [
+        "add",
+        5,
+        [
+          "mul",
+          6,
+          4
+        ]
+      ],
+      "shown": "29",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v1-q8": [
+    {
+      "expr": [
+        "add",
+        3,
+        [
+          "mul",
+          8,
+          3
+        ]
+      ],
+      "shown": "27",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          4,
+          8
+        ],
+        3
+      ],
+      "shown": "37",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          5,
+          2
+        ],
+        [
+          "sqrt",
+          64
+        ]
+      ],
+      "shown": "33",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        -6,
+        [
+          "mul",
+          8,
+          4
+        ]
+      ],
+      "shown": "27",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-campuran-v1-q9": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          126,
+          3
+        ],
+        6
+      ],
+      "shown": "252",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        8,
+        [
+          "mul",
+          3,
+          2
+        ]
+      ],
+      "shown": "15",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          2,
+          4
+        ],
+        2
+      ],
+      "shown": "12",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v2-q1": [
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          6,
+          6
+        ],
+        4
+      ],
+      "shown": "48",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v2-q2": [
+    {
+      "expr": [
+        "add",
+        3,
+        [
+          "mul",
+          8,
+          3
+        ]
+      ],
+      "shown": "27",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v2-q3": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          126,
+          3
+        ],
+        6
+      ],
+      "shown": "252",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v2-q4": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          125,
+          5
+        ],
+        5
+      ],
+      "shown": "126",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        6,
+        [
+          "mul",
+          5,
+          6
+        ]
+      ],
+      "shown": "36",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          7,
+          5
+        ],
+        6
+      ],
+      "shown": "73",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          8,
+          2
+        ],
+        [
+          "sqrt",
+          25
+        ]
+      ],
+      "shown": "69",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v2-q5": [
+    {
+      "expr": [
+        "add",
+        -8,
+        [
+          "mul",
+          6,
+          4
+        ]
+      ],
+      "shown": "16",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v2-q6": [
+    {
+      "expr": [
+        "add",
+        -6,
+        [
+          "mul",
+          8,
+          3
+        ]
+      ],
+      "shown": "19",
+      "correct": false
+    },
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          56,
+          8
+        ],
+        3
+      ],
+      "shown": "4",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          192,
+          8
+        ],
+        3
+      ],
+      "shown": "72",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v2-q7": [
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          2,
+          4
+        ],
+        6
+      ],
+      "shown": "36",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v2-q8": [
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          7,
+          5
+        ],
+        5
+      ],
+      "shown": "61",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          8,
+          2
+        ],
+        [
+          "sqrt",
+          25
+        ]
+      ],
+      "shown": "69",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        -2,
+        [
+          "mul",
+          6,
+          6
+        ]
+      ],
+      "shown": "35",
+      "correct": false
+    },
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          18,
+          6
+        ],
+        6
+      ],
+      "shown": "-3",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v2-q9": [
+    {
+      "expr": [
+        "add",
+        4,
+        [
+          "mul",
+          7,
+          4
+        ]
+      ],
+      "shown": "33",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          5,
+          7
+        ],
+        4
+      ],
+      "shown": "48",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          6,
+          2
+        ],
+        [
+          "sqrt",
+          49
+        ]
+      ],
+      "shown": "43",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v3-q1": [
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          3,
+          2
+        ],
+        [
+          "sqrt",
+          16
+        ]
+      ],
+      "shown": "13",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v3-q2": [
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          7,
+          5
+        ],
+        5
+      ],
+      "shown": "60",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v3-q3": [
+    {
+      "expr": [
+        "add",
+        4,
+        [
+          "mul",
+          7,
+          4
+        ]
+      ],
+      "shown": "32",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v3-q4": [
+    {
+      "expr": [
+        "add",
+        2,
+        [
+          "mul",
+          3,
+          3
+        ]
+      ],
+      "shown": "11",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          3,
+          3
+        ],
+        3
+      ],
+      "shown": "19",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          4,
+          2
+        ],
+        [
+          "sqrt",
+          9
+        ]
+      ],
+      "shown": "19",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        -5,
+        [
+          "mul",
+          3,
+          4
+        ]
+      ],
+      "shown": "8",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-campuran-v3-q5": [
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          20,
+          4
+        ],
+        6
+      ],
+      "shown": "-1",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v3-q6": [
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          18,
+          6
+        ],
+        5
+      ],
+      "shown": "-2",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          120,
+          6
+        ],
+        5
+      ],
+      "shown": "100",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        5,
+        [
+          "mul",
+          6,
+          6
+        ]
+      ],
+      "shown": "42",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-campuran-v3-q7": [
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          6,
+          2
+        ],
+        [
+          "sqrt",
+          49
+        ]
+      ],
+      "shown": "43",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-campuran-v3-q8": [
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          4,
+          2
+        ],
+        [
+          "sqrt",
+          9
+        ]
+      ],
+      "shown": "19",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        -5,
+        [
+          "mul",
+          3,
+          3
+        ]
+      ],
+      "shown": "5",
+      "correct": false
+    },
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          18,
+          3
+        ],
+        3
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          63,
+          3
+        ],
+        3
+      ],
+      "shown": "64",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-campuran-v3-q9": [
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          8,
+          4
+        ],
+        6
+      ],
+      "shown": "72",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "pow",
+          2,
+          2
+        ],
+        [
+          "sqrt",
+          25
+        ]
+      ],
+      "shown": "9",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        -3,
+        [
+          "mul",
+          5,
+          2
+        ]
+      ],
+      "shown": "8",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-pecahan-v1-q1": [
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          2,
+          5
+        ],
+        [
+          "div",
+          3,
+          5
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v1-q2": [
+    {
+      "expr": [
+        "add",
+        6,
+        [
+          "div",
+          1,
+          2
+        ],
+        4,
+        [
+          "div",
+          1,
+          2
+        ]
+      ],
+      "shown": "11",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v1-q3": [
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          9,
+          6
+        ],
+        [
+          "div",
+          3,
+          6
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v1-q4": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          10
+        ],
+        80
+      ],
+      "shown": "24",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          2,
+          10
+        ],
+        [
+          "div",
+          8,
+          10
+        ]
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          11,
+          8
+        ],
+        [
+          "div",
+          3,
+          8
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          3
+        ],
+        [
+          "div",
+          3,
+          8
+        ]
+      ],
+      "shown": "1,5",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-pecahan-v1-q5": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          3
+        ],
+        [
+          "div",
+          3,
+          3
+        ]
+      ],
+      "shown": "4/3",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v1-q6": [
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          2,
+          7
+        ],
+        [
+          "div",
+          5,
+          7
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          8,
+          5
+        ],
+        [
+          "div",
+          3,
+          5
+        ]
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          3
+        ],
+        [
+          "div",
+          3,
+          5
+        ]
+      ],
+      "shown": "0,8",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v1-q7": [
+    {
+      "expr": [
+        "div",
+        [
+          "div",
+          5,
+          4
+        ],
+        [
+          "div",
+          6,
+          4
+        ]
+      ],
+      "shown": "5/6",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v1-q8": [
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          11,
+          8
+        ],
+        [
+          "div",
+          3,
+          8
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          3
+        ],
+        [
+          "div",
+          3,
+          8
+        ]
+      ],
+      "shown": "1,5",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "div",
+          5,
+          4
+        ],
+        [
+          "div",
+          8,
+          4
+        ]
+      ],
+      "shown": "0,625",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        6,
+        [
+          "div",
+          1,
+          2
+        ],
+        8,
+        [
+          "div",
+          1,
+          2
+        ]
+      ],
+      "shown": "16",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-pecahan-v1-q9": [
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          15,
+          2
+        ],
+        [
+          "div",
+          13,
+          4
+        ]
+      ],
+      "shown": "10,75",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          10
+        ],
+        80
+      ],
+      "shown": "25",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          2,
+          6
+        ],
+        [
+          "div",
+          4,
+          6
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v2-q1": [
+    {
+      "expr": [
+        "add",
+        6,
+        [
+          "div",
+          1,
+          2
+        ],
+        6,
+        [
+          "div",
+          1,
+          2
+        ]
+      ],
+      "shown": "13",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v2-q2": [
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          11,
+          8
+        ],
+        [
+          "div",
+          3,
+          8
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v2-q3": [
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          15,
+          2
+        ],
+        [
+          "div",
+          13,
+          4
+        ]
+      ],
+      "shown": "10,75",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v2-q4": [
+    {
+      "expr": [
+        "div",
+        [
+          "div",
+          5,
+          4
+        ],
+        [
+          "div",
+          5,
+          4
+        ]
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        6,
+        [
+          "div",
+          1,
+          2
+        ],
+        5,
+        [
+          "div",
+          1,
+          2
+        ]
+      ],
+      "shown": "12",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          15,
+          2
+        ],
+        [
+          "div",
+          21,
+          4
+        ]
+      ],
+      "shown": "13,75",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          1,
+          10
+        ],
+        80
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v2-q5": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          10
+        ],
+        80
+      ],
+      "shown": "32",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v2-q6": [
+    {
+      "expr": [
+        "add",
+        6,
+        [
+          "div",
+          1,
+          2
+        ],
+        8,
+        [
+          "div",
+          1,
+          2
+        ]
+      ],
+      "shown": "16",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          15,
+          2
+        ],
+        [
+          "div",
+          33,
+          4
+        ]
+      ],
+      "shown": "15,75",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          2,
+          10
+        ],
+        80
+      ],
+      "shown": "16",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v2-q7": [
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          2,
+          6
+        ],
+        [
+          "div",
+          4,
+          6
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v2-q8": [
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          15,
+          2
+        ],
+        [
+          "div",
+          21,
+          4
+        ]
+      ],
+      "shown": "13,75",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          3,
+          10
+        ],
+        80
+      ],
+      "shown": "24",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          2,
+          8
+        ],
+        [
+          "div",
+          6,
+          8
+        ]
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          9,
+          6
+        ],
+        [
+          "div",
+          3,
+          6
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v2-q9": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          3
+        ],
+        [
+          "div",
+          3,
+          7
+        ]
+      ],
+      "shown": "11/7",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "div",
+          5,
+          4
+        ],
+        [
+          "div",
+          7,
+          4
+        ]
+      ],
+      "shown": "5/7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        6,
+        [
+          "div",
+          1,
+          2
+        ],
+        7,
+        [
+          "div",
+          1,
+          2
+        ]
+      ],
+      "shown": "14",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v3-q1": [
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          7,
+          4
+        ],
+        [
+          "div",
+          3,
+          4
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v3-q2": [
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          15,
+          2
+        ],
+        [
+          "div",
+          21,
+          4
+        ]
+      ],
+      "shown": "12,75",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v3-q3": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          3
+        ],
+        [
+          "div",
+          3,
+          7
+        ]
+      ],
+      "shown": "4/7",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v3-q4": [
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          2,
+          5
+        ],
+        [
+          "div",
+          3,
+          5
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          6,
+          3
+        ],
+        [
+          "div",
+          3,
+          3
+        ]
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          3
+        ],
+        [
+          "div",
+          3,
+          3
+        ]
+      ],
+      "shown": "4/3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "div",
+          5,
+          4
+        ],
+        [
+          "div",
+          3,
+          4
+        ]
+      ],
+      "shown": "8/3",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-pecahan-v3-q5": [
+    {
+      "expr": [
+        "div",
+        [
+          "div",
+          5,
+          4
+        ],
+        [
+          "div",
+          4,
+          4
+        ]
+      ],
+      "shown": "1,25",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v3-q6": [
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          9,
+          6
+        ],
+        [
+          "div",
+          3,
+          6
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          3
+        ],
+        [
+          "div",
+          3,
+          6
+        ]
+      ],
+      "shown": "2/3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "div",
+          5,
+          4
+        ],
+        [
+          "div",
+          6,
+          4
+        ]
+      ],
+      "shown": "11/6",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-pecahan-v3-q7": [
+    {
+      "expr": [
+        "add",
+        6,
+        [
+          "div",
+          1,
+          2
+        ],
+        7,
+        [
+          "div",
+          1,
+          2
+        ]
+      ],
+      "shown": "14",
+      "correct": true
+    }
+  ],
+  "tka-math-operasi-pecahan-v3-q8": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          3
+        ],
+        [
+          "div",
+          3,
+          3
+        ]
+      ],
+      "shown": "4/3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "div",
+          5,
+          4
+        ],
+        [
+          "div",
+          3,
+          4
+        ]
+      ],
+      "shown": "8/3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        6,
+        [
+          "div",
+          1,
+          2
+        ],
+        3,
+        [
+          "div",
+          1,
+          2
+        ]
+      ],
+      "shown": "10",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          15,
+          2
+        ],
+        [
+          "div",
+          13,
+          4
+        ]
+      ],
+      "shown": "11,75",
+      "correct": false
+    }
+  ],
+  "tka-math-operasi-pecahan-v3-q9": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          4,
+          10
+        ],
+        80
+      ],
+      "shown": "32",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "div",
+          2,
+          7
+        ],
+        [
+          "div",
+          5,
+          7
+        ]
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        [
+          "div",
+          8,
+          5
+        ],
+        [
+          "div",
+          3,
+          5
+        ]
+      ],
+      "shown": "2",
+      "correct": false
+    }
+  ],
+  "tka-math-fpb-kpk-v1-q1": [
+    {
+      "expr": [
+        "gcd",
+        2,
+        3
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v1-q2": [
+    {
+      "expr": [
+        "lcm",
+        24,
+        16
+      ],
+      "shown": "48",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v1-q3": [
+    {
+      "expr": [
+        "gcd",
+        9,
+        18
+      ],
+      "shown": "9",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v1-q4": [
+    {
+      "expr": [
+        "gcd",
+        24,
+        21
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        8,
+        32
+      ],
+      "shown": "33",
+      "correct": false
+    },
+    {
+      "expr": [
+        "gcd",
+        3,
+        8
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        8,
+        16
+      ],
+      "shown": "17",
+      "correct": false
+    }
+  ],
+  "tka-math-fpb-kpk-v1-q5": [
+    {
+      "expr": [
+        "gcd",
+        4,
+        3
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v1-q6": [
+    {
+      "expr": [
+        "gcd",
+        2,
+        5
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        6,
+        10
+      ],
+      "shown": "31",
+      "correct": false
+    },
+    {
+      "expr": [
+        "gcd",
+        12,
+        15
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v1-q7": [
+    {
+      "expr": [
+        "gcd",
+        15,
+        18
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v1-q8": [
+    {
+      "expr": [
+        "gcd",
+        9,
+        24
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        16,
+        32
+      ],
+      "shown": "33",
+      "correct": false
+    },
+    {
+      "expr": [
+        "gcd",
+        5,
+        8
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        12,
+        16
+      ],
+      "shown": "49",
+      "correct": false
+    }
+  ],
+  "tka-math-fpb-kpk-v1-q9": [
+    {
+      "expr": [
+        "lcm",
+        14,
+        6
+      ],
+      "shown": "42",
+      "correct": true
+    },
+    {
+      "expr": [
+        "gcd",
+        24,
+        9
+      ],
+      "shown": "4",
+      "correct": false
+    },
+    {
+      "expr": [
+        "lcm",
+        8,
+        16
+      ],
+      "shown": "16",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v2-q1": [
+    {
+      "expr": [
+        "lcm",
+        24,
+        24
+      ],
+      "shown": "24",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v2-q2": [
+    {
+      "expr": [
+        "gcd",
+        9,
+        24
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v2-q3": [
+    {
+      "expr": [
+        "lcm",
+        14,
+        6
+      ],
+      "shown": "42",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v2-q4": [
+    {
+      "expr": [
+        "lcm",
+        10,
+        10
+      ],
+      "shown": "11",
+      "correct": false
+    },
+    {
+      "expr": [
+        "gcd",
+        18,
+        15
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        28,
+        20
+      ],
+      "shown": "141",
+      "correct": false
+    },
+    {
+      "expr": [
+        "gcd",
+        8,
+        5
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v2-q5": [
+    {
+      "expr": [
+        "lcm",
+        32,
+        24
+      ],
+      "shown": "96",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v2-q6": [
+    {
+      "expr": [
+        "lcm",
+        24,
+        32
+      ],
+      "shown": "97",
+      "correct": false
+    },
+    {
+      "expr": [
+        "gcd",
+        7,
+        8
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        16,
+        16
+      ],
+      "shown": "16",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v2-q7": [
+    {
+      "expr": [
+        "lcm",
+        4,
+        8
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v2-q8": [
+    {
+      "expr": [
+        "lcm",
+        14,
+        10
+      ],
+      "shown": "71",
+      "correct": false
+    },
+    {
+      "expr": [
+        "gcd",
+        24,
+        15
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        8,
+        24
+      ],
+      "shown": "25",
+      "correct": false
+    },
+    {
+      "expr": [
+        "gcd",
+        3,
+        6
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v2-q9": [
+    {
+      "expr": [
+        "gcd",
+        4,
+        7
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "lcm",
+        10,
+        14
+      ],
+      "shown": "70",
+      "correct": true
+    },
+    {
+      "expr": [
+        "gcd",
+        18,
+        21
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v3-q1": [
+    {
+      "expr": [
+        "gcd",
+        9,
+        12
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v3-q2": [
+    {
+      "expr": [
+        "lcm",
+        14,
+        10
+      ],
+      "shown": "70",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v3-q3": [
+    {
+      "expr": [
+        "gcd",
+        4,
+        7
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v3-q4": [
+    {
+      "expr": [
+        "gcd",
+        2,
+        3
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        6,
+        6
+      ],
+      "shown": "7",
+      "correct": false
+    },
+    {
+      "expr": [
+        "gcd",
+        12,
+        9
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        20,
+        12
+      ],
+      "shown": "61",
+      "correct": false
+    }
+  ],
+  "tka-math-fpb-kpk-v3-q5": [
+    {
+      "expr": [
+        "gcd",
+        15,
+        12
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v3-q6": [
+    {
+      "expr": [
+        "gcd",
+        9,
+        18
+      ],
+      "shown": "9",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        16,
+        24
+      ],
+      "shown": "48",
+      "correct": true
+    },
+    {
+      "expr": [
+        "gcd",
+        5,
+        6
+      ],
+      "shown": "2",
+      "correct": false
+    }
+  ],
+  "tka-math-fpb-kpk-v3-q7": [
+    {
+      "expr": [
+        "gcd",
+        6,
+        7
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-fpb-kpk-v3-q8": [
+    {
+      "expr": [
+        "gcd",
+        4,
+        3
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        10,
+        6
+      ],
+      "shown": "31",
+      "correct": false
+    },
+    {
+      "expr": [
+        "gcd",
+        18,
+        9
+      ],
+      "shown": "9",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        28,
+        12
+      ],
+      "shown": "85",
+      "correct": false
+    }
+  ],
+  "tka-math-fpb-kpk-v3-q9": [
+    {
+      "expr": [
+        "lcm",
+        32,
+        16
+      ],
+      "shown": "32",
+      "correct": true
+    },
+    {
+      "expr": [
+        "gcd",
+        2,
+        5
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "lcm",
+        6,
+        10
+      ],
+      "shown": "31",
+      "correct": false
+    }
+  ],
+  "tka-math-perbandingan-skala-v1-q1": [
+    {
+      "expr": [
+        "mul",
+        2,
+        3,
+        1000
+      ],
+      "shown": "6000",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v1-q2": [
+    {
+      "expr": [
+        "div",
+        2400,
+        400
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v1-q3": [
+    {
+      "expr": [
+        "mul",
+        3,
+        600
+      ],
+      "shown": "1800",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v1-q4": [
+    {
+      "expr": [
+        "mul",
+        8,
+        700
+      ],
+      "shown": "5600",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1600,
+        800
+      ],
+      "shown": "3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        8,
+        1000
+      ],
+      "shown": "32000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          4,
+          32
+        ],
+        32
+      ],
+      "shown": "5",
+      "correct": false
+    }
+  ],
+  "tka-math-perbandingan-skala-v1-q5": [
+    {
+      "expr": [
+        "mul",
+        6,
+        3,
+        1000
+      ],
+      "shown": "18000",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v1-q6": [
+    {
+      "expr": [
+        "mul",
+        5,
+        5,
+        1000
+      ],
+      "shown": "25000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          3,
+          30
+        ],
+        15
+      ],
+      "shown": "7",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        500
+      ],
+      "shown": "2000",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v1-q7": [
+    {
+      "expr": [
+        "mul",
+        5,
+        600
+      ],
+      "shown": "3000",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v1-q8": [
+    {
+      "expr": [
+        "mul",
+        3,
+        800
+      ],
+      "shown": "2400",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        3200,
+        800
+      ],
+      "shown": "5",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        8,
+        1000
+      ],
+      "shown": "24000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          6,
+          32
+        ],
+        48
+      ],
+      "shown": "5",
+      "correct": false
+    }
+  ],
+  "tka-math-perbandingan-skala-v1-q9": [
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          7,
+          18
+        ],
+        21
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        8,
+        300
+      ],
+      "shown": "2401",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        800,
+        400
+      ],
+      "shown": "2",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v2-q1": [
+    {
+      "expr": [
+        "div",
+        3600,
+        600
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v2-q2": [
+    {
+      "expr": [
+        "mul",
+        3,
+        800
+      ],
+      "shown": "2400",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v2-q3": [
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          7,
+          18
+        ],
+        21
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v2-q4": [
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          5,
+          25
+        ],
+        25
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        500
+      ],
+      "shown": "3000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        3500,
+        500
+      ],
+      "shown": "8",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        5,
+        1000
+      ],
+      "shown": "30000",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v2-q5": [
+    {
+      "expr": [
+        "div",
+        4800,
+        600
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v2-q6": [
+    {
+      "expr": [
+        "div",
+        4800,
+        800
+      ],
+      "shown": "7",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        8,
+        1000
+      ],
+      "shown": "24000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          8,
+          24
+        ],
+        64
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v2-q7": [
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          2,
+          24
+        ],
+        8
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v2-q8": [
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          7,
+          25
+        ],
+        35
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        8,
+        500
+      ],
+      "shown": "4000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1200,
+        600
+      ],
+      "shown": "3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        6,
+        1000
+      ],
+      "shown": "36000",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v2-q9": [
+    {
+      "expr": [
+        "mul",
+        4,
+        7,
+        1000
+      ],
+      "shown": "28001",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          5,
+          28
+        ],
+        35
+      ],
+      "shown": "4",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        700
+      ],
+      "shown": "4200",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v3-q1": [
+    {
+      "expr": [
+        "mul",
+        3,
+        400
+      ],
+      "shown": "1200",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v3-q2": [
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          7,
+          25
+        ],
+        35
+      ],
+      "shown": "5",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v3-q3": [
+    {
+      "expr": [
+        "mul",
+        4,
+        7,
+        1000
+      ],
+      "shown": "28000",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v3-q4": [
+    {
+      "expr": [
+        "mul",
+        3,
+        3,
+        1000
+      ],
+      "shown": "9000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          3,
+          9
+        ],
+        9
+      ],
+      "shown": "4",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        300
+      ],
+      "shown": "1200",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        1500,
+        300
+      ],
+      "shown": "6",
+      "correct": false
+    }
+  ],
+  "tka-math-perbandingan-skala-v3-q5": [
+    {
+      "expr": [
+        "mul",
+        5,
+        400
+      ],
+      "shown": "2000",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v3-q6": [
+    {
+      "expr": [
+        "mul",
+        3,
+        600
+      ],
+      "shown": "1800",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        2400,
+        600
+      ],
+      "shown": "4",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        6,
+        1000
+      ],
+      "shown": "36001",
+      "correct": false
+    }
+  ],
+  "tka-math-perbandingan-skala-v3-q7": [
+    {
+      "expr": [
+        "mul",
+        3,
+        7,
+        1000
+      ],
+      "shown": "21000",
+      "correct": true
+    }
+  ],
+  "tka-math-perbandingan-skala-v3-q8": [
+    {
+      "expr": [
+        "mul",
+        2,
+        3,
+        1000
+      ],
+      "shown": "6000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          5,
+          9
+        ],
+        15
+      ],
+      "shown": "4",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        300
+      ],
+      "shown": "1800",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        2100,
+        300
+      ],
+      "shown": "8",
+      "correct": false
+    }
+  ],
+  "tka-math-perbandingan-skala-v3-q9": [
+    {
+      "expr": [
+        "div",
+        3200,
+        400
+      ],
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        5,
+        1000
+      ],
+      "shown": "30000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          3,
+          10
+        ],
+        15
+      ],
+      "shown": "3",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-datar-v1-q1": [
+    {
+      "expr": [
+        "mul",
+        4,
+        2
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v1-q2": [
+    {
+      "expr": [
+        "mul",
+        10,
+        6
+      ],
+      "shown": "60",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v1-q3": [
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          6,
+          6
+        ],
+        2
+      ],
+      "shown": "18",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v1-q4": [
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    },
+    {
+      "expr": 3,
+      "shown": "4",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        3
+      ],
+      "shown": "12",
+      "correct": true
+    },
+    {
+      "expr": [
+        "pow",
+        8,
+        2
+      ],
+      "shown": "65",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-datar-v1-q5": [
+    {
+      "expr": 3,
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v1-q6": [
+    {
+      "expr": [
+        "mul",
+        7,
+        2
+      ],
+      "shown": "14",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          8,
+          3
+        ]
+      ],
+      "shown": "23",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          8,
+          5
+        ],
+        2
+      ],
+      "shown": "20",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v1-q7": [
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          11,
+          5
+        ]
+      ],
+      "shown": "32",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v1-q8": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          22,
+          7
+        ],
+        [
+          "pow",
+          21,
+          2
+        ]
+      ],
+      "shown": "1386",
+      "correct": true
+    },
+    {
+      "expr": 2,
+      "shown": "3",
+      "correct": false
+    },
+    {
+      "expr": 3,
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        6
+      ],
+      "shown": "25",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-datar-v1-q9": [
+    {
+      "expr": 3,
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        8
+      ],
+      "shown": "33",
+      "correct": false
+    },
+    {
+      "expr": [
+        "pow",
+        4,
+        2
+      ],
+      "shown": "16",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v2-q1": [
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          12,
+          6
+        ],
+        2
+      ],
+      "shown": "36",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v2-q2": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          22,
+          7
+        ],
+        [
+          "pow",
+          21,
+          2
+        ]
+      ],
+      "shown": "1386",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v2-q3": [
+    {
+      "expr": 3,
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v2-q4": [
+    {
+      "expr": [
+        "mul",
+        10,
+        5
+      ],
+      "shown": "51",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          11,
+          6
+        ]
+      ],
+      "shown": "34",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          14,
+          5
+        ],
+        2
+      ],
+      "shown": "36",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "div",
+          22,
+          7
+        ],
+        7
+      ],
+      "shown": "44",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v2-q5": [
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          14,
+          8
+        ]
+      ],
+      "shown": "44",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v2-q6": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          22,
+          7
+        ],
+        [
+          "pow",
+          28,
+          2
+        ]
+      ],
+      "shown": "2465",
+      "correct": false
+    },
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    },
+    {
+      "expr": 3,
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v2-q7": [
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v2-q8": [
+    {
+      "expr": [
+        "pow",
+        5,
+        2
+      ],
+      "shown": "26",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        13,
+        8
+      ],
+      "shown": "104",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          8,
+          2
+        ]
+      ],
+      "shown": "21",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          6,
+          6
+        ],
+        2
+      ],
+      "shown": "18",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v2-q9": [
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          11,
+          4
+        ]
+      ],
+      "shown": "31",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "mul",
+          10,
+          7
+        ],
+        2
+      ],
+      "shown": "35",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "div",
+          22,
+          7
+        ],
+        21
+      ],
+      "shown": "132",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v3-q1": [
+    {
+      "expr": 3,
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v3-q2": [
+    {
+      "expr": [
+        "pow",
+        5,
+        2
+      ],
+      "shown": "25",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v3-q3": [
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          11,
+          4
+        ]
+      ],
+      "shown": "30",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v3-q4": [
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          22,
+          7
+        ],
+        [
+          "pow",
+          7,
+          2
+        ]
+      ],
+      "shown": "154",
+      "correct": true
+    },
+    {
+      "expr": 2,
+      "shown": "3",
+      "correct": false
+    },
+    {
+      "expr": 3,
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        5
+      ],
+      "shown": "21",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-datar-v3-q5": [
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v3-q6": [
+    {
+      "expr": [
+        "pow",
+        6,
+        2
+      ],
+      "shown": "36",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        10,
+        4
+      ],
+      "shown": "40",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          11,
+          5
+        ]
+      ],
+      "shown": "33",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-datar-v3-q7": [
+    {
+      "expr": [
+        "mul",
+        13,
+        6
+      ],
+      "shown": "78",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-datar-v3-q8": [
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "div",
+          22,
+          7
+        ],
+        7
+      ],
+      "shown": "44",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "div",
+          22,
+          7
+        ],
+        [
+          "pow",
+          14,
+          2
+        ]
+      ],
+      "shown": "617",
+      "correct": false
+    },
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    },
+    {
+      "expr": 3,
+      "shown": "4",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-datar-v3-q9": [
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    },
+    {
+      "expr": 3,
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        3
+      ],
+      "shown": "13",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-ruang-v1-q1": [
+    {
+      "expr": [
+        "pow",
+        2,
+        3
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v1-q2": [
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          6,
+          4
+        ],
+        5
+      ],
+      "shown": "120",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v1-q3": [
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          [
+            "div",
+            22,
+            7
+          ],
+          [
+            "pow",
+            21,
+            2
+          ]
+        ],
+        3
+      ],
+      "shown": "4158",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v1-q4": [
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    },
+    {
+      "expr": 8,
+      "shown": "9",
+      "correct": false
+    },
+    {
+      "expr": [
+        "pow",
+        3,
+        3
+      ],
+      "shown": "27",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        [
+          "pow",
+          4,
+          2
+        ]
+      ],
+      "shown": "97",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-ruang-v1-q5": [
+    {
+      "expr": 8,
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v1-q6": [
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          2,
+          5
+        ],
+        5
+      ],
+      "shown": "50",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          [
+            "mul",
+            3,
+            5
+          ],
+          [
+            "mul",
+            3,
+            6
+          ],
+          [
+            "mul",
+            5,
+            6
+          ]
+        ]
+      ],
+      "shown": "127",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          [
+            "div",
+            22,
+            7
+          ],
+          [
+            "pow",
+            21,
+            2
+          ]
+        ],
+        4
+      ],
+      "shown": "5544",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v1-q7": [
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          [
+            "mul",
+            5,
+            6
+          ],
+          [
+            "mul",
+            5,
+            4
+          ],
+          [
+            "mul",
+            6,
+            4
+          ]
+        ]
+      ],
+      "shown": "148",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v1-q8": [
+    {
+      "expr": 6,
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": 2,
+      "shown": "3",
+      "correct": false
+    },
+    {
+      "expr": 8,
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "pow",
+        6,
+        3
+      ],
+      "shown": "217",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-ruang-v1-q9": [
+    {
+      "expr": 8,
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "pow",
+        8,
+        3
+      ],
+      "shown": "513",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        [
+          "pow",
+          2,
+          2
+        ]
+      ],
+      "shown": "24",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v2-q1": [
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          [
+            "div",
+            22,
+            7
+          ],
+          [
+            "pow",
+            28,
+            2
+          ]
+        ],
+        6
+      ],
+      "shown": "14784",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v2-q2": [
+    {
+      "expr": 6,
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v2-q3": [
+    {
+      "expr": 8,
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v2-q4": [
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          5,
+          5
+        ],
+        5
+      ],
+      "shown": "126",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          [
+            "mul",
+            6,
+            5
+          ],
+          [
+            "mul",
+            6,
+            6
+          ],
+          [
+            "mul",
+            5,
+            6
+          ]
+        ]
+      ],
+      "shown": "192",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          [
+            "div",
+            22,
+            7
+          ],
+          [
+            "pow",
+            28,
+            2
+          ]
+        ],
+        7
+      ],
+      "shown": "17249",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          2,
+          [
+            "div",
+            22,
+            7
+          ]
+        ],
+        [
+          "mul",
+          7,
+          [
+            "add",
+            7,
+            8
+          ]
+        ]
+      ],
+      "shown": "660",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v2-q5": [
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          [
+            "mul",
+            8,
+            6
+          ],
+          [
+            "mul",
+            8,
+            4
+          ],
+          [
+            "mul",
+            6,
+            4
+          ]
+        ]
+      ],
+      "shown": "208",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v2-q6": [
+    {
+      "expr": 6,
+      "shown": "7",
+      "correct": false
+    },
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    },
+    {
+      "expr": 8,
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v2-q7": [
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v2-q8": [
+    {
+      "expr": [
+        "mul",
+        6,
+        [
+          "pow",
+          7,
+          2
+        ]
+      ],
+      "shown": "295",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          8,
+          5
+        ],
+        5
+      ],
+      "shown": "200",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          [
+            "mul",
+            2,
+            6
+          ],
+          [
+            "mul",
+            2,
+            6
+          ],
+          [
+            "mul",
+            6,
+            6
+          ]
+        ]
+      ],
+      "shown": "121",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          [
+            "div",
+            22,
+            7
+          ],
+          [
+            "pow",
+            7,
+            2
+          ]
+        ],
+        3
+      ],
+      "shown": "462",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v2-q9": [
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          [
+            "mul",
+            4,
+            7
+          ],
+          [
+            "mul",
+            4,
+            4
+          ],
+          [
+            "mul",
+            7,
+            4
+          ]
+        ]
+      ],
+      "shown": "145",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          [
+            "div",
+            22,
+            7
+          ],
+          [
+            "pow",
+            14,
+            2
+          ]
+        ],
+        5
+      ],
+      "shown": "3080",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          2,
+          [
+            "div",
+            22,
+            7
+          ]
+        ],
+        [
+          "mul",
+          21,
+          [
+            "add",
+            21,
+            6
+          ]
+        ]
+      ],
+      "shown": "3564",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v3-q1": [
+    {
+      "expr": 8,
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v3-q2": [
+    {
+      "expr": [
+        "mul",
+        6,
+        [
+          "pow",
+          7,
+          2
+        ]
+      ],
+      "shown": "294",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v3-q3": [
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          [
+            "mul",
+            4,
+            7
+          ],
+          [
+            "mul",
+            4,
+            4
+          ],
+          [
+            "mul",
+            7,
+            4
+          ]
+        ]
+      ],
+      "shown": "144",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v3-q4": [
+    {
+      "expr": 6,
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": 2,
+      "shown": "3",
+      "correct": false
+    },
+    {
+      "expr": 8,
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "pow",
+        5,
+        3
+      ],
+      "shown": "126",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-ruang-v3-q5": [
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v3-q6": [
+    {
+      "expr": [
+        "mul",
+        6,
+        [
+          "pow",
+          3,
+          2
+        ]
+      ],
+      "shown": "54",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          4,
+          6
+        ],
+        5
+      ],
+      "shown": "120",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        [
+          "add",
+          [
+            "mul",
+            5,
+            6
+          ],
+          [
+            "mul",
+            5,
+            6
+          ],
+          [
+            "mul",
+            6,
+            6
+          ]
+        ]
+      ],
+      "shown": "193",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-ruang-v3-q7": [
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          6,
+          7
+        ],
+        3
+      ],
+      "shown": "126",
+      "correct": true
+    }
+  ],
+  "tka-math-bangun-ruang-v3-q8": [
+    {
+      "expr": [
+        "mul",
+        [
+          "mul",
+          2,
+          [
+            "div",
+            22,
+            7
+          ]
+        ],
+        [
+          "mul",
+          7,
+          [
+            "add",
+            7,
+            4
+          ]
+        ]
+      ],
+      "shown": "484",
+      "correct": true
+    },
+    {
+      "expr": 6,
+      "shown": "7",
+      "correct": false
+    },
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    },
+    {
+      "expr": 8,
+      "shown": "9",
+      "correct": false
+    }
+  ],
+  "tka-math-bangun-ruang-v3-q9": [
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    },
+    {
+      "expr": 8,
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "pow",
+        3,
+        3
+      ],
+      "shown": "28",
+      "correct": false
+    }
+  ],
+  "tka-math-satuan-ukuran-v1-q1": [
+    {
+      "expr": [
+        "mul",
+        2,
+        1000
+      ],
+      "shown": "2000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v1-q2": [
+    {
+      "expr": [
+        "mul",
+        6,
+        1000
+      ],
+      "shown": "6000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v1-q3": [
+    {
+      "expr": [
+        "div",
+        300,
+        100
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v1-q4": [
+    {
+      "expr": [
+        "add",
+        [
+          "mul",
+          8,
+          60
+        ],
+        7
+      ],
+      "shown": "487",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        1000
+      ],
+      "shown": "2001",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        1000
+      ],
+      "shown": "3000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        60
+      ],
+      "shown": "241",
+      "correct": false
+    }
+  ],
+  "tka-math-satuan-ukuran-v1-q5": [
+    {
+      "expr": [
+        "mul",
+        4,
+        1000
+      ],
+      "shown": "4000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v1-q6": [
+    {
+      "expr": [
+        "mul",
+        2,
+        1000
+      ],
+      "shown": "2000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        1000
+      ],
+      "shown": "5001",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "mul",
+          4,
+          60
+        ],
+        5
+      ],
+      "shown": "245",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v1-q7": [
+    {
+      "expr": [
+        "add",
+        [
+          "mul",
+          5,
+          60
+        ],
+        6
+      ],
+      "shown": "306",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v1-q8": [
+    {
+      "expr": [
+        "div",
+        300,
+        100
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        8000,
+        1000
+      ],
+      "shown": "9",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        1000
+      ],
+      "shown": "5000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        8,
+        1000
+      ],
+      "shown": "8001",
+      "correct": false
+    }
+  ],
+  "tka-math-satuan-ukuran-v1-q9": [
+    {
+      "expr": [
+        "mul",
+        3,
+        1000
+      ],
+      "shown": "3000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "mul",
+          8,
+          60
+        ],
+        3
+      ],
+      "shown": "484",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        1000
+      ],
+      "shown": "2000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v2-q1": [
+    {
+      "expr": [
+        "mul",
+        6,
+        1000
+      ],
+      "shown": "6000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v2-q2": [
+    {
+      "expr": [
+        "div",
+        300,
+        100
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v2-q3": [
+    {
+      "expr": [
+        "mul",
+        3,
+        1000
+      ],
+      "shown": "3000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v2-q4": [
+    {
+      "expr": [
+        "mul",
+        5,
+        60
+      ],
+      "shown": "301",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        600,
+        100
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        5000,
+        1000
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        8,
+        1000
+      ],
+      "shown": "8000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v2-q5": [
+    {
+      "expr": [
+        "div",
+        6000,
+        1000
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v2-q6": [
+    {
+      "expr": [
+        "mul",
+        6,
+        1000
+      ],
+      "shown": "6001",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        7,
+        1000
+      ],
+      "shown": "7000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        8,
+        60
+      ],
+      "shown": "480",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v2-q7": [
+    {
+      "expr": [
+        "mul",
+        2,
+        60
+      ],
+      "shown": "120",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v2-q8": [
+    {
+      "expr": [
+        "mul",
+        5,
+        1000
+      ],
+      "shown": "5001",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "mul",
+          8,
+          60
+        ],
+        5
+      ],
+      "shown": "485",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        1000
+      ],
+      "shown": "2001",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        1000
+      ],
+      "shown": "3000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v2-q9": [
+    {
+      "expr": [
+        "mul",
+        4,
+        1000
+      ],
+      "shown": "4001",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        60
+      ],
+      "shown": "300",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        600,
+        100
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v3-q1": [
+    {
+      "expr": [
+        "div",
+        300,
+        100
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v3-q2": [
+    {
+      "expr": [
+        "mul",
+        5,
+        1000
+      ],
+      "shown": "5000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v3-q3": [
+    {
+      "expr": [
+        "mul",
+        4,
+        1000
+      ],
+      "shown": "4000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v3-q4": [
+    {
+      "expr": [
+        "mul",
+        2,
+        1000
+      ],
+      "shown": "2000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        1000
+      ],
+      "shown": "3001",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        [
+          "mul",
+          4,
+          60
+        ],
+        3
+      ],
+      "shown": "243",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        1000
+      ],
+      "shown": "5001",
+      "correct": false
+    }
+  ],
+  "tka-math-satuan-ukuran-v3-q5": [
+    {
+      "expr": [
+        "add",
+        [
+          "mul",
+          5,
+          60
+        ],
+        4
+      ],
+      "shown": "304",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v3-q6": [
+    {
+      "expr": [
+        "div",
+        300,
+        100
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        6000,
+        1000
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        1000
+      ],
+      "shown": "5001",
+      "correct": false
+    }
+  ],
+  "tka-math-satuan-ukuran-v3-q7": [
+    {
+      "expr": [
+        "mul",
+        6,
+        1000
+      ],
+      "shown": "6000",
+      "correct": true
+    }
+  ],
+  "tka-math-satuan-ukuran-v3-q8": [
+    {
+      "expr": [
+        "mul",
+        4,
+        1000
+      ],
+      "shown": "4000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        60
+      ],
+      "shown": "301",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        600,
+        100
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        3000,
+        1000
+      ],
+      "shown": "4",
+      "correct": false
+    }
+  ],
+  "tka-math-satuan-ukuran-v3-q9": [
+    {
+      "expr": [
+        "div",
+        4000,
+        1000
+      ],
+      "shown": "4",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        2,
+        1000
+      ],
+      "shown": "2000",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        1000
+      ],
+      "shown": "5001",
+      "correct": false
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v1-q1": [
+    {
+      "expr": [
+        "div",
+        6,
+        2
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v1-q2": [
+    {
+      "expr": [
+        "div",
+        360,
+        360
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v1-q3": [
+    {
+      "expr": [
+        "div",
+        180,
+        60
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v1-q4": [
+    {
+      "expr": [
+        "div",
+        560,
+        70
+      ],
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        120,
+        120
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        24,
+        3
+      ],
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        80,
+        4
+      ],
+      "shown": "321",
+      "correct": false
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v1-q5": [
+    {
+      "expr": [
+        "div",
+        12,
+        4
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v1-q6": [
+    {
+      "expr": [
+        "div",
+        10,
+        2
+      ],
+      "shown": "5",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        50,
+        3
+      ],
+      "shown": "151",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        200,
+        50
+      ],
+      "shown": "4",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v1-q7": [
+    {
+      "expr": [
+        "div",
+        300,
+        60
+      ],
+      "shown": "5",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v1-q8": [
+    {
+      "expr": [
+        "div",
+        240,
+        80
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        240,
+        240
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        40,
+        5
+      ],
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        80,
+        6
+      ],
+      "shown": "481",
+      "correct": false
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v1-q9": [
+    {
+      "expr": [
+        "mul",
+        30,
+        7
+      ],
+      "shown": "210",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        240,
+        30
+      ],
+      "shown": "9",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        120,
+        120
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v2-q1": [
+    {
+      "expr": [
+        "div",
+        360,
+        360
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v2-q2": [
+    {
+      "expr": [
+        "div",
+        240,
+        80
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v2-q3": [
+    {
+      "expr": [
+        "mul",
+        30,
+        7
+      ],
+      "shown": "210",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v2-q4": [
+    {
+      "expr": [
+        "mul",
+        50,
+        5
+      ],
+      "shown": "251",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        300,
+        50
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        420,
+        420
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        40,
+        8
+      ],
+      "shown": "5",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v2-q5": [
+    {
+      "expr": [
+        "div",
+        480,
+        480
+      ],
+      "shown": "1",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v2-q6": [
+    {
+      "expr": [
+        "div",
+        360,
+        360
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        56,
+        7
+      ],
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        80,
+        8
+      ],
+      "shown": "640",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v2-q7": [
+    {
+      "expr": [
+        "mul",
+        40,
+        2
+      ],
+      "shown": "80",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v2-q8": [
+    {
+      "expr": [
+        "mul",
+        50,
+        7
+      ],
+      "shown": "351",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        400,
+        50
+      ],
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        120,
+        120
+      ],
+      "shown": "2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        18,
+        3
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v2-q9": [
+    {
+      "expr": [
+        "div",
+        28,
+        4
+      ],
+      "shown": "8",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        70,
+        5
+      ],
+      "shown": "350",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        420,
+        70
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v3-q1": [
+    {
+      "expr": [
+        "div",
+        120,
+        40
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v3-q2": [
+    {
+      "expr": [
+        "mul",
+        50,
+        7
+      ],
+      "shown": "350",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v3-q3": [
+    {
+      "expr": [
+        "div",
+        28,
+        4
+      ],
+      "shown": "7",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v3-q4": [
+    {
+      "expr": [
+        "div",
+        6,
+        2
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        30,
+        3
+      ],
+      "shown": "91",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        120,
+        30
+      ],
+      "shown": "4",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        300,
+        300
+      ],
+      "shown": "2",
+      "correct": false
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v3-q5": [
+    {
+      "expr": [
+        "div",
+        200,
+        40
+      ],
+      "shown": "5",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v3-q6": [
+    {
+      "expr": [
+        "div",
+        180,
+        60
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        240,
+        240
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        30,
+        5
+      ],
+      "shown": "7",
+      "correct": false
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v3-q7": [
+    {
+      "expr": [
+        "div",
+        42,
+        6
+      ],
+      "shown": "7",
+      "correct": true
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v3-q8": [
+    {
+      "expr": [
+        "div",
+        12,
+        4
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        30,
+        5
+      ],
+      "shown": "151",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        180,
+        30
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        420,
+        420
+      ],
+      "shown": "2",
+      "correct": false
+    }
+  ],
+  "tka-math-kecepatan-jarak-waktu-v3-q9": [
+    {
+      "expr": [
+        "div",
+        480,
+        480
+      ],
+      "shown": "1",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        10,
+        2
+      ],
+      "shown": "5",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        50,
+        3
+      ],
+      "shown": "151",
+      "correct": false
+    }
+  ],
+  "tka-math-penyajian-data-v1-q1": [
+    {
+      "expr": [
+        "add",
+        2,
+        3,
+        2,
+        5
+      ],
+      "shown": "12",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v1-q2": [
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          6,
+          4,
+          5
+        ],
+        5
+      ],
+      "shown": "75",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v1-q3": [
+    {
+      "expr": [
+        "mul",
+        6,
+        2
+      ],
+      "shown": "12",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v1-q4": [
+    {
+      "expr": [
+        "mul",
+        7,
+        2
+      ],
+      "shown": "14",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          2,
+          8,
+          3
+        ],
+        5
+      ],
+      "shown": "66",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        3,
+        8,
+        4,
+        11
+      ],
+      "shown": "26",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        12,
+        4
+      ],
+      "shown": "9",
+      "correct": false
+    }
+  ],
+  "tka-math-penyajian-data-v1-q5": [
+    {
+      "expr": [
+        "add",
+        4,
+        3,
+        6,
+        7
+      ],
+      "shown": "20",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v1-q6": [
+    {
+      "expr": [
+        "add",
+        2,
+        5,
+        5,
+        7
+      ],
+      "shown": "19",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        8,
+        3
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        2
+      ],
+      "shown": "10",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v1-q7": [
+    {
+      "expr": [
+        "mul",
+        6,
+        2
+      ],
+      "shown": "12",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v1-q8": [
+    {
+      "expr": [
+        "mul",
+        8,
+        2
+      ],
+      "shown": "16",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          4,
+          8,
+          3
+        ],
+        5
+      ],
+      "shown": "76",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        5,
+        8,
+        3,
+        13
+      ],
+      "shown": "29",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        14,
+        6
+      ],
+      "shown": "9",
+      "correct": false
+    }
+  ],
+  "tka-math-penyajian-data-v1-q9": [
+    {
+      "expr": [
+        "sub",
+        10,
+        7
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        2
+      ],
+      "shown": "7",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          2,
+          4,
+          2
+        ],
+        5
+      ],
+      "shown": "40",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v2-q1": [
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          6,
+          6,
+          4
+        ],
+        5
+      ],
+      "shown": "80",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v2-q2": [
+    {
+      "expr": [
+        "mul",
+        8,
+        2
+      ],
+      "shown": "16",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v2-q3": [
+    {
+      "expr": [
+        "sub",
+        10,
+        7
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v2-q4": [
+    {
+      "expr": [
+        "sub",
+        10,
+        5
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        2
+      ],
+      "shown": "10",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          7,
+          5,
+          6
+        ],
+        5
+      ],
+      "shown": "91",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        8,
+        5,
+        6,
+        13
+      ],
+      "shown": "32",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v2-q5": [
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          8,
+          6,
+          4
+        ],
+        5
+      ],
+      "shown": "90",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v2-q6": [
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          6,
+          8,
+          3
+        ],
+        5
+      ],
+      "shown": "86",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        7,
+        8,
+        3,
+        15
+      ],
+      "shown": "33",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        16,
+        8
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v2-q7": [
+    {
+      "expr": [
+        "sub",
+        6,
+        2
+      ],
+      "shown": "4",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v2-q8": [
+    {
+      "expr": [
+        "sub",
+        12,
+        7
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        2
+      ],
+      "shown": "10",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          2,
+          6,
+          6
+        ],
+        5
+      ],
+      "shown": "71",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        3,
+        6,
+        6,
+        9
+      ],
+      "shown": "24",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v2-q9": [
+    {
+      "expr": [
+        "add",
+        4,
+        7,
+        4,
+        11
+      ],
+      "shown": "27",
+      "correct": false
+    },
+    {
+      "expr": [
+        "sub",
+        12,
+        5
+      ],
+      "shown": "7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        7,
+        2
+      ],
+      "shown": "14",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v3-q1": [
+    {
+      "expr": [
+        "mul",
+        4,
+        2
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v3-q2": [
+    {
+      "expr": [
+        "sub",
+        12,
+        7
+      ],
+      "shown": "5",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v3-q3": [
+    {
+      "expr": [
+        "add",
+        4,
+        7,
+        4,
+        11
+      ],
+      "shown": "26",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v3-q4": [
+    {
+      "expr": [
+        "add",
+        2,
+        3,
+        3,
+        5
+      ],
+      "shown": "13",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        6,
+        3
+      ],
+      "shown": "4",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        2
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          5,
+          3,
+          4
+        ],
+        5
+      ],
+      "shown": "61",
+      "correct": false
+    }
+  ],
+  "tka-math-penyajian-data-v3-q5": [
+    {
+      "expr": [
+        "mul",
+        4,
+        2
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v3-q6": [
+    {
+      "expr": [
+        "mul",
+        6,
+        2
+      ],
+      "shown": "12",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          4,
+          6,
+          5
+        ],
+        5
+      ],
+      "shown": "75",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        5,
+        6,
+        6,
+        11
+      ],
+      "shown": "29",
+      "correct": false
+    }
+  ],
+  "tka-math-penyajian-data-v3-q7": [
+    {
+      "expr": [
+        "add",
+        6,
+        7,
+        3,
+        13
+      ],
+      "shown": "29",
+      "correct": true
+    }
+  ],
+  "tka-math-penyajian-data-v3-q8": [
+    {
+      "expr": [
+        "add",
+        4,
+        3,
+        2,
+        7
+      ],
+      "shown": "16",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        8,
+        5
+      ],
+      "shown": "4",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        2
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          7,
+          3,
+          3
+        ],
+        5
+      ],
+      "shown": "66",
+      "correct": false
+    }
+  ],
+  "tka-math-penyajian-data-v3-q9": [
+    {
+      "expr": [
+        "mul",
+        [
+          "add",
+          8,
+          4,
+          6
+        ],
+        5
+      ],
+      "shown": "90",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        2,
+        5,
+        6,
+        7
+      ],
+      "shown": "20",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        8,
+        3
+      ],
+      "shown": "6",
+      "correct": false
+    }
+  ],
+  "tka-math-statistika-v1-q1": [
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          2,
+          2,
+          3,
+          5,
+          7
+        ],
+        5
+      ],
+      "shown": "3,8",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v1-q2": [
+    {
+      "expr": [
+        "median",
+        6,
+        8,
+        10,
+        12
+      ],
+      "shown": "9",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v1-q3": [
+    {
+      "expr": [
+        "mode",
+        3,
+        16,
+        3,
+        24,
+        3
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v1-q4": [
+    {
+      "expr": [
+        "mode",
+        8,
+        17,
+        8,
+        23,
+        8
+      ],
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        2,
+        4,
+        6,
+        8
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          3,
+          3,
+          8,
+          12,
+          15
+        ],
+        5
+      ],
+      "shown": "8,2",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        4,
+        4,
+        8,
+        12,
+        16
+      ],
+      "shown": "9",
+      "correct": false
+    }
+  ],
+  "tka-math-statistika-v1-q5": [
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          4,
+          4,
+          3,
+          9,
+          13
+        ],
+        5
+      ],
+      "shown": "6,6",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v1-q6": [
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          2,
+          2,
+          5,
+          10,
+          12
+        ],
+        5
+      ],
+      "shown": "6,2",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        3,
+        3,
+        5,
+        11,
+        14
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mode",
+        4,
+        15,
+        4,
+        26,
+        4
+      ],
+      "shown": "4",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v1-q7": [
+    {
+      "expr": [
+        "mode",
+        5,
+        16,
+        5,
+        24,
+        5
+      ],
+      "shown": "5",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v1-q8": [
+    {
+      "expr": [
+        "mode",
+        3,
+        18,
+        3,
+        23,
+        3
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        4,
+        6,
+        8,
+        10
+      ],
+      "shown": "8",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          5,
+          5,
+          8,
+          11,
+          16
+        ],
+        5
+      ],
+      "shown": "9",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        6,
+        6,
+        8,
+        12,
+        18
+      ],
+      "shown": "9",
+      "correct": false
+    }
+  ],
+  "tka-math-statistika-v1-q9": [
+    {
+      "expr": [
+        "median",
+        7,
+        7,
+        3,
+        9,
+        16
+      ],
+      "shown": "7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mode",
+        8,
+        13,
+        8,
+        22,
+        8
+      ],
+      "shown": "9",
+      "correct": false
+    },
+    {
+      "expr": [
+        "median",
+        2,
+        4,
+        6,
+        8
+      ],
+      "shown": "5",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v2-q1": [
+    {
+      "expr": [
+        "median",
+        6,
+        8,
+        10,
+        12
+      ],
+      "shown": "9",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v2-q2": [
+    {
+      "expr": [
+        "mode",
+        3,
+        18,
+        3,
+        23,
+        3
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v2-q3": [
+    {
+      "expr": [
+        "median",
+        7,
+        7,
+        3,
+        9,
+        16
+      ],
+      "shown": "7",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v2-q4": [
+    {
+      "expr": [
+        "median",
+        5,
+        5,
+        5,
+        10,
+        15
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mode",
+        6,
+        15,
+        6,
+        26,
+        6
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        7,
+        9,
+        11,
+        13
+      ],
+      "shown": "11",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          8,
+          8,
+          5,
+          11,
+          19
+        ],
+        5
+      ],
+      "shown": "10,2",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v2-q5": [
+    {
+      "expr": [
+        "median",
+        8,
+        10,
+        12,
+        14
+      ],
+      "shown": "11",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v2-q6": [
+    {
+      "expr": [
+        "median",
+        6,
+        8,
+        10,
+        12
+      ],
+      "shown": "10",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          7,
+          7,
+          8,
+          11,
+          18
+        ],
+        5
+      ],
+      "shown": "10,2",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        8,
+        8,
+        8,
+        11,
+        19
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v2-q7": [
+    {
+      "expr": [
+        "median",
+        2,
+        2,
+        4,
+        10,
+        12
+      ],
+      "shown": "4",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v2-q8": [
+    {
+      "expr": [
+        "median",
+        7,
+        7,
+        5,
+        10,
+        17
+      ],
+      "shown": "8",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mode",
+        8,
+        15,
+        8,
+        25,
+        8
+      ],
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        2,
+        4,
+        6,
+        8
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          3,
+          3,
+          6,
+          12,
+          15
+        ],
+        5
+      ],
+      "shown": "7,8",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v2-q9": [
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          4,
+          4,
+          7,
+          11,
+          15
+        ],
+        5
+      ],
+      "shown": "9,2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "median",
+        5,
+        5,
+        7,
+        11,
+        16
+      ],
+      "shown": "7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mode",
+        6,
+        17,
+        6,
+        24,
+        6
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v3-q1": [
+    {
+      "expr": [
+        "mode",
+        3,
+        14,
+        3,
+        26,
+        3
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v3-q2": [
+    {
+      "expr": [
+        "median",
+        7,
+        7,
+        5,
+        10,
+        17
+      ],
+      "shown": "7",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v3-q3": [
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          4,
+          4,
+          7,
+          11,
+          15
+        ],
+        5
+      ],
+      "shown": "8,2",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v3-q4": [
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          2,
+          2,
+          3,
+          6,
+          8
+        ],
+        5
+      ],
+      "shown": "4,2",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        3,
+        3,
+        3,
+        6,
+        9
+      ],
+      "shown": "4",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mode",
+        4,
+        13,
+        4,
+        23,
+        4
+      ],
+      "shown": "4",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        5,
+        7,
+        9,
+        11
+      ],
+      "shown": "9",
+      "correct": false
+    }
+  ],
+  "tka-math-statistika-v3-q5": [
+    {
+      "expr": [
+        "mode",
+        5,
+        14,
+        5,
+        26,
+        5
+      ],
+      "shown": "5",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v3-q6": [
+    {
+      "expr": [
+        "mode",
+        3,
+        16,
+        3,
+        25,
+        3
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        4,
+        6,
+        8,
+        10
+      ],
+      "shown": "7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          5,
+          5,
+          6,
+          12,
+          17
+        ],
+        5
+      ],
+      "shown": "10",
+      "correct": false
+    }
+  ],
+  "tka-math-statistika-v3-q7": [
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          6,
+          6,
+          7,
+          10,
+          16
+        ],
+        5
+      ],
+      "shown": "9",
+      "correct": true
+    }
+  ],
+  "tka-math-statistika-v3-q8": [
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          4,
+          4,
+          3,
+          5,
+          9
+        ],
+        5
+      ],
+      "shown": "5",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        5,
+        5,
+        3,
+        6,
+        11
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mode",
+        6,
+        13,
+        6,
+        23,
+        6
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        7,
+        9,
+        11,
+        13
+      ],
+      "shown": "11",
+      "correct": false
+    }
+  ],
+  "tka-math-statistika-v3-q9": [
+    {
+      "expr": [
+        "median",
+        8,
+        10,
+        12,
+        14
+      ],
+      "shown": "11",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "add",
+          2,
+          2,
+          5,
+          11,
+          13
+        ],
+        5
+      ],
+      "shown": "6,6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "median",
+        3,
+        3,
+        5,
+        7,
+        10
+      ],
+      "shown": "6",
+      "correct": false
+    }
+  ],
+  "tka-math-pola-bilangan-v1-q1": [
+    {
+      "expr": [
+        "add",
+        2,
+        [
+          "mul",
+          4,
+          3
+        ]
+      ],
+      "shown": "14",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v1-q2": [
+    {
+      "expr": 6,
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v1-q3": [
+    {
+      "expr": [
+        "pow",
+        7,
+        2
+      ],
+      "shown": "49",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v1-q4": [
+    {
+      "expr": [
+        "pow",
+        12,
+        2
+      ],
+      "shown": "144",
+      "correct": true
+    },
+    {
+      "expr": 2,
+      "shown": "3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        3,
+        [
+          "mul",
+          4,
+          8
+        ]
+      ],
+      "shown": "35",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        16
+      ],
+      "shown": "65",
+      "correct": false
+    }
+  ],
+  "tka-math-pola-bilangan-v1-q5": [
+    {
+      "expr": [
+        "add",
+        4,
+        [
+          "mul",
+          4,
+          3
+        ]
+      ],
+      "shown": "16",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v1-q6": [
+    {
+      "expr": [
+        "add",
+        2,
+        [
+          "mul",
+          4,
+          5
+        ]
+      ],
+      "shown": "22",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        16
+      ],
+      "shown": "49",
+      "correct": false
+    },
+    {
+      "expr": [
+        "pow",
+        8,
+        2
+      ],
+      "shown": "64",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v1-q7": [
+    {
+      "expr": [
+        "pow",
+        9,
+        2
+      ],
+      "shown": "81",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v1-q8": [
+    {
+      "expr": [
+        "pow",
+        7,
+        2
+      ],
+      "shown": "49",
+      "correct": true
+    },
+    {
+      "expr": 4,
+      "shown": "5",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        5,
+        [
+          "mul",
+          4,
+          8
+        ]
+      ],
+      "shown": "37",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        16
+      ],
+      "shown": "97",
+      "correct": false
+    }
+  ],
+  "tka-math-pola-bilangan-v1-q9": [
+    {
+      "expr": [
+        "mul",
+        7,
+        16
+      ],
+      "shown": "112",
+      "correct": true
+    },
+    {
+      "expr": [
+        "pow",
+        12,
+        2
+      ],
+      "shown": "145",
+      "correct": false
+    },
+    {
+      "expr": 2,
+      "shown": "2",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v2-q1": [
+    {
+      "expr": 6,
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v2-q2": [
+    {
+      "expr": [
+        "pow",
+        7,
+        2
+      ],
+      "shown": "49",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v2-q3": [
+    {
+      "expr": [
+        "mul",
+        7,
+        16
+      ],
+      "shown": "112",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v2-q4": [
+    {
+      "expr": [
+        "mul",
+        5,
+        16
+      ],
+      "shown": "81",
+      "correct": false
+    },
+    {
+      "expr": [
+        "pow",
+        10,
+        2
+      ],
+      "shown": "100",
+      "correct": true
+    },
+    {
+      "expr": 7,
+      "shown": "8",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        8,
+        [
+          "mul",
+          4,
+          5
+        ]
+      ],
+      "shown": "28",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v2-q5": [
+    {
+      "expr": 8,
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v2-q6": [
+    {
+      "expr": 6,
+      "shown": "7",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        7,
+        [
+          "mul",
+          4,
+          8
+        ]
+      ],
+      "shown": "39",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        8,
+        16
+      ],
+      "shown": "128",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v2-q7": [
+    {
+      "expr": [
+        "mul",
+        2,
+        16
+      ],
+      "shown": "32",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v2-q8": [
+    {
+      "expr": [
+        "mul",
+        7,
+        16
+      ],
+      "shown": "113",
+      "correct": false
+    },
+    {
+      "expr": [
+        "pow",
+        12,
+        2
+      ],
+      "shown": "144",
+      "correct": true
+    },
+    {
+      "expr": 2,
+      "shown": "3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        3,
+        [
+          "mul",
+          4,
+          6
+        ]
+      ],
+      "shown": "27",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v2-q9": [
+    {
+      "expr": [
+        "add",
+        4,
+        [
+          "mul",
+          4,
+          7
+        ]
+      ],
+      "shown": "33",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        16
+      ],
+      "shown": "80",
+      "correct": true
+    },
+    {
+      "expr": [
+        "pow",
+        10,
+        2
+      ],
+      "shown": "100",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v3-q1": [
+    {
+      "expr": [
+        "pow",
+        7,
+        2
+      ],
+      "shown": "49",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v3-q2": [
+    {
+      "expr": [
+        "mul",
+        7,
+        16
+      ],
+      "shown": "112",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v3-q3": [
+    {
+      "expr": [
+        "add",
+        4,
+        [
+          "mul",
+          4,
+          7
+        ]
+      ],
+      "shown": "32",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v3-q4": [
+    {
+      "expr": [
+        "add",
+        2,
+        [
+          "mul",
+          4,
+          3
+        ]
+      ],
+      "shown": "14",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        16
+      ],
+      "shown": "49",
+      "correct": false
+    },
+    {
+      "expr": [
+        "pow",
+        8,
+        2
+      ],
+      "shown": "64",
+      "correct": true
+    },
+    {
+      "expr": 5,
+      "shown": "6",
+      "correct": false
+    }
+  ],
+  "tka-math-pola-bilangan-v3-q5": [
+    {
+      "expr": [
+        "pow",
+        9,
+        2
+      ],
+      "shown": "81",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v3-q6": [
+    {
+      "expr": [
+        "pow",
+        7,
+        2
+      ],
+      "shown": "49",
+      "correct": true
+    },
+    {
+      "expr": 4,
+      "shown": "4",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        5,
+        [
+          "mul",
+          4,
+          6
+        ]
+      ],
+      "shown": "30",
+      "correct": false
+    }
+  ],
+  "tka-math-pola-bilangan-v3-q7": [
+    {
+      "expr": [
+        "add",
+        6,
+        [
+          "mul",
+          4,
+          7
+        ]
+      ],
+      "shown": "34",
+      "correct": true
+    }
+  ],
+  "tka-math-pola-bilangan-v3-q8": [
+    {
+      "expr": [
+        "add",
+        4,
+        [
+          "mul",
+          4,
+          3
+        ]
+      ],
+      "shown": "16",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        16
+      ],
+      "shown": "81",
+      "correct": false
+    },
+    {
+      "expr": [
+        "pow",
+        10,
+        2
+      ],
+      "shown": "100",
+      "correct": true
+    },
+    {
+      "expr": 7,
+      "shown": "8",
+      "correct": false
+    }
+  ],
+  "tka-math-pola-bilangan-v3-q9": [
+    {
+      "expr": 8,
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        2,
+        [
+          "mul",
+          4,
+          5
+        ]
+      ],
+      "shown": "22",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        16
+      ],
+      "shown": "49",
+      "correct": false
+    }
+  ],
+  "tka-math-aljabar-sederhana-v1-q1": [
+    {
+      "expr": [
+        "sub",
+        5,
+        3
+      ],
+      "shown": "2",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v1-q2": [
+    {
+      "expr": [
+        "div",
+        24,
+        4
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v1-q3": [
+    {
+      "expr": [
+        "div",
+        [
+          "sub",
+          22,
+          4
+        ],
+        6
+      ],
+      "shown": "3",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v1-q4": [
+    {
+      "expr": [
+        "add",
+        -15,
+        7
+      ],
+      "shown": "-8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        10,
+        8
+      ],
+      "shown": "3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        24,
+        8
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "sub",
+          36,
+          4
+        ],
+        8
+      ],
+      "shown": "5",
+      "correct": false
+    }
+  ],
+  "tka-math-aljabar-sederhana-v1-q5": [
+    {
+      "expr": [
+        "add",
+        -7,
+        3
+      ],
+      "shown": "-4",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v1-q6": [
+    {
+      "expr": [
+        "div",
+        10,
+        5
+      ],
+      "shown": "2",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "sub",
+          21,
+          6
+        ],
+        5
+      ],
+      "shown": "4",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        4,
+        5
+      ],
+      "shown": "20",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v1-q7": [
+    {
+      "expr": [
+        "div",
+        30,
+        6
+      ],
+      "shown": "5",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v1-q8": [
+    {
+      "expr": [
+        "mul",
+        3,
+        8
+      ],
+      "shown": "24",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        -12,
+        8
+      ],
+      "shown": "-3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "sub",
+        13,
+        8
+      ],
+      "shown": "5",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        48,
+        8
+      ],
+      "shown": "7",
+      "correct": false
+    }
+  ],
+  "tka-math-aljabar-sederhana-v1-q9": [
+    {
+      "expr": [
+        "add",
+        -10,
+        3
+      ],
+      "shown": "-7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        11,
+        3
+      ],
+      "shown": "9",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        8,
+        4
+      ],
+      "shown": "2",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v2-q1": [
+    {
+      "expr": [
+        "div",
+        [
+          "sub",
+          40,
+          4
+        ],
+        6
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v2-q2": [
+    {
+      "expr": [
+        "mul",
+        3,
+        8
+      ],
+      "shown": "24",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v2-q3": [
+    {
+      "expr": [
+        "add",
+        -10,
+        3
+      ],
+      "shown": "-7",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v2-q4": [
+    {
+      "expr": [
+        "div",
+        25,
+        5
+      ],
+      "shown": "6",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "sub",
+          36,
+          6
+        ],
+        5
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        7,
+        5
+      ],
+      "shown": "36",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        -13,
+        5
+      ],
+      "shown": "-8",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v2-q5": [
+    {
+      "expr": [
+        "div",
+        48,
+        6
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v2-q6": [
+    {
+      "expr": [
+        "mul",
+        6,
+        8
+      ],
+      "shown": "49",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        -15,
+        8
+      ],
+      "shown": "-7",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        16,
+        8
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v2-q7": [
+    {
+      "expr": [
+        "mul",
+        2,
+        4
+      ],
+      "shown": "8",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v2-q8": [
+    {
+      "expr": [
+        "sub",
+        12,
+        5
+      ],
+      "shown": "8",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        40,
+        5
+      ],
+      "shown": "8",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "sub",
+          18,
+          6
+        ],
+        6
+      ],
+      "shown": "3",
+      "correct": false
+    },
+    {
+      "expr": [
+        "mul",
+        3,
+        6
+      ],
+      "shown": "18",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v2-q9": [
+    {
+      "expr": [
+        "div",
+        28,
+        7
+      ],
+      "shown": "5",
+      "correct": false
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "sub",
+          39,
+          4
+        ],
+        7
+      ],
+      "shown": "5",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        6,
+        7
+      ],
+      "shown": "42",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v3-q1": [
+    {
+      "expr": [
+        "add",
+        -7,
+        4
+      ],
+      "shown": "-3",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v3-q2": [
+    {
+      "expr": [
+        "sub",
+        12,
+        5
+      ],
+      "shown": "7",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v3-q3": [
+    {
+      "expr": [
+        "div",
+        28,
+        7
+      ],
+      "shown": "4",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v3-q4": [
+    {
+      "expr": [
+        "mul",
+        2,
+        3
+      ],
+      "shown": "6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        -6,
+        3
+      ],
+      "shown": "-2",
+      "correct": false
+    },
+    {
+      "expr": [
+        "sub",
+        7,
+        3
+      ],
+      "shown": "4",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        15,
+        3
+      ],
+      "shown": "6",
+      "correct": false
+    }
+  ],
+  "tka-math-aljabar-sederhana-v3-q5": [
+    {
+      "expr": [
+        "mul",
+        5,
+        4
+      ],
+      "shown": "20",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v3-q6": [
+    {
+      "expr": [
+        "sub",
+        9,
+        6
+      ],
+      "shown": "3",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        24,
+        6
+      ],
+      "shown": "4",
+      "correct": true
+    },
+    {
+      "expr": [
+        "div",
+        [
+          "sub",
+          36,
+          6
+        ],
+        6
+      ],
+      "shown": "6",
+      "correct": false
+    }
+  ],
+  "tka-math-aljabar-sederhana-v3-q7": [
+    {
+      "expr": [
+        "sub",
+        13,
+        7
+      ],
+      "shown": "6",
+      "correct": true
+    }
+  ],
+  "tka-math-aljabar-sederhana-v3-q8": [
+    {
+      "expr": [
+        "div",
+        [
+          "sub",
+          14,
+          2
+        ],
+        3
+      ],
+      "shown": "4",
+      "correct": true
+    },
+    {
+      "expr": [
+        "mul",
+        5,
+        3
+      ],
+      "shown": "16",
+      "correct": false
+    },
+    {
+      "expr": [
+        "add",
+        -9,
+        3
+      ],
+      "shown": "-6",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        10,
+        3
+      ],
+      "shown": "8",
+      "correct": false
+    }
+  ],
+  "tka-math-aljabar-sederhana-v3-q9": [
+    {
+      "expr": [
+        "mul",
+        8,
+        4
+      ],
+      "shown": "32",
+      "correct": true
+    },
+    {
+      "expr": [
+        "add",
+        -7,
+        5
+      ],
+      "shown": "-2",
+      "correct": true
+    },
+    {
+      "expr": [
+        "sub",
+        8,
+        5
+      ],
+      "shown": "4",
+      "correct": false
+    }
+  ]
+}

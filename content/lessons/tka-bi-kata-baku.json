@@ -1,0 +1,343 @@
+{
+  "id": "tka-bi-kata-baku",
+  "subject": "bahasa-indonesia",
+  "category": 4,
+  "order": 2,
+  "title": "Kata baku dan tidak baku",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menentukan jawaban dan bukti yang tepat pada topik kata baku dan tidak baku."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Cara membaca",
+      "text": "Baca seluruh konteks dan hubungkan rincian dengan pertanyaan. Aktivitas merupakan bentuk baku untuk laporan resmi."
+    },
+    {
+      "type": "paragraph",
+      "title": "Periksa alasan",
+      "text": "Jangan memilih berdasarkan satu kata yang tampak sama. Apotek dan izin merupakan bentuk baku. Nasihat dan risiko menggantikan nasehat dan resiko."
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah pernyataan berikut sesuai dengan bacaan: Aktifitas adalah bentuk baku dalam laporan latihan ini.",
+      "steps": [
+        "Temukan bagian yang menjelaskan gagasan terkait.",
+        "Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku."
+      ],
+      "conclusion": "Tidak sesuai. Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku."
+    },
+    {
+      "type": "worked_example",
+      "question": "Apakah pernyataan berikut sesuai dengan bacaan: Ejaan baku cukup ditentukan dari kebiasaan percakapan.",
+      "steps": [
+        "Temukan bagian yang menjelaskan gagasan terkait.",
+        "Kebiasaan percakapan tidak cukup menentukan bentuk baku; gunakan kamus sebagai acuan."
+      ],
+      "conclusion": "Tidak sesuai. Kebiasaan percakapan tidak cukup menentukan bentuk baku; gunakan kamus sebagai acuan."
+    }
+  ],
+  "stimuli": [
+    {
+      "id": "tka-bi-kata-baku-bacaan-1",
+      "title": "Kata baku dan tidak baku dalam bacaan",
+      "paragraphs": [
+        "Kelompok Rena menyunting laporan kegiatan sebelum menyerahkannya kepada guru. Mereka menemukan tulisan aktifitas, apotik, dan ijin pada draf pertama. Bu Mega menjelaskan bahwa bentuk bakunya adalah aktivitas, apotek, dan izin. Untuk laporan resmi, kelompok memilih bentuk baku tersebut agar tulisan mengikuti kaidah yang digunakan bersama.",
+        "Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko. Rena tidak menilai bentuk baku hanya dari seberapa sering sebuah kata muncul dalam percakapan. Kata yang sering terdengar belum tentu tepat untuk tulisan resmi. Jika ragu, mereka memeriksa kamus bahasa Indonesia, bukan sekadar meniru ejaan pada iklan yang ditemukan di jalan. Makna kalimat tetap diperhatikan ketika kata disunting.",
+        "Draf yang telah diperbaiki dibaca kembali oleh seluruh anggota. Mereka memastikan nama orang dan tempat tidak diubah karena dianggap mirip dengan kata umum. Bu Mega mengingatkan bahwa penyuntingan bertujuan membuat tulisan jelas dan sesuai kebutuhan, bukan merendahkan cara berbicara seseorang. Ragam percakapan dapat berbeda dari ragam laporan. Dalam latihan ini, murid secara khusus diminta memilih kata baku untuk laporan resmi. Rena kemudian membuat daftar pasangan kata sebagai pengingat agar kesalahan yang sama tidak muncul saat menulis laporan berikutnya bersama kelompok."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "tka-bi-kata-baku-bacaan-2",
+      "title": "Diskusi pameran literasi",
+      "paragraphs": [
+        "Kelompok kelas enam menyiapkan pameran literasi pada Rabu sore. Mereka membagi tugas membaca, mencatat, dan menyunting. Setiap anggota diminta menjelaskan alasan kepada teman, bukan hanya menyalin jawaban. Jika penafsiran berbeda, mereka memeriksa kembali konteks. Hasil diskusi akan dibaca oleh kelas lain, sehingga setiap catatan harus dapat dipahami tanpa penjelasan lisan tambahan. Berikut pokok yang mereka sepakati beserta bagian bacaan yang mendukungnya.",
+        "Pokok catatan: «Aktivitas merupakan bentuk baku untuk laporan resmi. Bukti: bentuk bakunya adalah aktivitas, apotek, dan izin.»; «Apotek dan izin merupakan bentuk baku. Bukti: bentuk bakunya adalah aktivitas, apotek, dan izin.»; «Nasihat dan risiko menggantikan nasehat dan resiko. Bukti: Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko.»",
+        "Catatan dibaca ulang untuk membedakan gagasan yang didukung bukti dari dugaan. Murid dapat memakai kalimat sendiri, tetapi tidak boleh mengubah makna informasi yang sedang dibahas. Pada akhir pertemuan, kelompok menyampaikan hasilnya secara bergiliran dan menerima pertanyaan. Mereka memperbaiki bagian yang belum jelas sebelum catatan dibagikan kepada pembaca lain."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    },
+    {
+      "id": "tka-bi-kata-baku-bacaan-3",
+      "title": "Catatan lokakarya",
+      "paragraphs": [
+        "Pada lokakarya kelas enam, murid membaca dan menyunting secara berpasangan. Seorang murid mengusulkan penafsiran, sedangkan pasangannya mencari bukti. Mereka berganti peran agar semua berlatih. Jawaban tidak dipilih berdasarkan suara yang paling keras. Setelah diskusi, mereka menulis catatan untuk pembaca yang tidak mengikuti kegiatan. Catatan berikut menyampaikan gagasan lengkap dan bukti, sehingga informasi tidak bergantung pada ingatan pembaca tentang cerita sebelumnya.",
+        "Pokok catatan: «Aktivitas merupakan bentuk baku untuk laporan resmi. Bukti: bentuk bakunya adalah aktivitas, apotek, dan izin.»; «Apotek dan izin merupakan bentuk baku. Bukti: bentuk bakunya adalah aktivitas, apotek, dan izin.»; «Nasihat dan risiko menggantikan nasehat dan resiko. Bukti: Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko.»",
+        "Catatan dibaca ulang untuk membedakan gagasan yang didukung bukti dari dugaan. Murid dapat memakai kalimat sendiri, tetapi tidak boleh mengubah makna informasi yang sedang dibahas. Pada akhir pertemuan, kelompok menyampaikan hasilnya secara bergiliran dan menerima pertanyaan. Mereka memperbaiki bagian yang belum jelas sebelum catatan dibagikan kepada pembaca lain."
+      ],
+      "attribution": "Teks orisinal untuk latihan ini."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-bi-kata-baku-v1-q1",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.standard",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kata-baku-bacaan-1",
+      "evidence": [
+        "bentuk bakunya adalah aktivitas, apotek, dan izin.",
+        "Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Aktifitas adalah bentuk baku dalam laporan latihan ini.",
+        "Ejaan baku cukup ditentukan dari kebiasaan percakapan.",
+        "Nama diri boleh selalu diubah menjadi kata umum yang mirip.",
+        "Aktivitas merupakan bentuk baku untuk laporan resmi."
+      ],
+      "answer": "Aktivitas merupakan bentuk baku untuk laporan resmi."
+    },
+    {
+      "id": "tka-bi-kata-baku-v1-q2",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.standard",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kata-baku-bacaan-1",
+      "evidence": [
+        "bentuk bakunya adalah aktivitas, apotek, dan izin.",
+        "Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Ejaan baku cukup ditentukan dari kebiasaan percakapan.",
+        "Nama diri boleh selalu diubah menjadi kata umum yang mirip.",
+        "Apotek dan izin merupakan bentuk baku.",
+        "Aktifitas adalah bentuk baku dalam laporan latihan ini."
+      ],
+      "answer": "Apotek dan izin merupakan bentuk baku."
+    },
+    {
+      "id": "tka-bi-kata-baku-v1-q3",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.standard",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin. Kebiasaan percakapan tidak cukup menentukan bentuk baku; gunakan kamus sebagai acuan. Bacaan mendukung penjelasan ini: Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kata-baku-bacaan-1",
+      "evidence": [
+        "bentuk bakunya adalah aktivitas, apotek, dan izin.",
+        "Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aktifitas adalah bentuk baku dalam laporan latihan ini.",
+          "explanation": "Tidak didukung oleh konteks. Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku."
+        },
+        {
+          "id": "b",
+          "text": "Aktivitas merupakan bentuk baku untuk laporan resmi.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin."
+        },
+        {
+          "id": "c",
+          "text": "Ejaan baku cukup ditentukan dari kebiasaan percakapan.",
+          "explanation": "Tidak didukung oleh konteks. Kebiasaan percakapan tidak cukup menentukan bentuk baku; gunakan kamus sebagai acuan."
+        },
+        {
+          "id": "d",
+          "text": "Nasihat dan risiko menggantikan nasehat dan resiko.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-kata-baku-v1-q4",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.standard",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kata-baku-bacaan-2",
+      "evidence": [
+        "bentuk bakunya adalah aktivitas, apotek, dan izin.",
+        "Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Ejaan baku cukup ditentukan dari kebiasaan percakapan.",
+        "Nama diri boleh selalu diubah menjadi kata umum yang mirip.",
+        "Apotek dan izin merupakan bentuk baku.",
+        "Aktifitas adalah bentuk baku dalam laporan latihan ini."
+      ],
+      "answer": "Apotek dan izin merupakan bentuk baku."
+    },
+    {
+      "id": "tka-bi-kata-baku-v1-q5",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.standard",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin. Bacaan mendukung penjelasan ini: Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko. Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kata-baku-bacaan-2",
+      "evidence": [
+        "bentuk bakunya adalah aktivitas, apotek, dan izin.",
+        "Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Aktivitas merupakan bentuk baku untuk laporan resmi.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Nasihat dan risiko menggantikan nasehat dan resiko.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Aktifitas adalah bentuk baku dalam laporan latihan ini.",
+          "explanation": "Tidak didukung oleh konteks. Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-bi-kata-baku-v1-q6",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.standard",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kata-baku-bacaan-2",
+      "evidence": [
+        "bentuk bakunya adalah aktivitas, apotek, dan izin.",
+        "Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Aktivitas merupakan bentuk baku untuk laporan resmi.",
+        "Aktifitas adalah bentuk baku dalam laporan latihan ini.",
+        "Ejaan baku cukup ditentukan dari kebiasaan percakapan.",
+        "Nama diri boleh selalu diubah menjadi kata umum yang mirip."
+      ],
+      "answer": "Aktivitas merupakan bentuk baku untuk laporan resmi."
+    },
+    {
+      "id": "tka-bi-kata-baku-v1-q7",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.standard",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Kebiasaan percakapan tidak cukup menentukan bentuk baku; gunakan kamus sebagai acuan. Bacaan mendukung penjelasan ini: Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko. Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin.",
+      "type": "multiple_select",
+      "stimulusId": "tka-bi-kata-baku-bacaan-3",
+      "evidence": [
+        "bentuk bakunya adalah aktivitas, apotek, dan izin.",
+        "Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+      ],
+      "question": "Pilih semua pernyataan yang tepat berdasarkan bacaan.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ejaan baku cukup ditentukan dari kebiasaan percakapan.",
+          "explanation": "Tidak didukung oleh konteks. Kebiasaan percakapan tidak cukup menentukan bentuk baku; gunakan kamus sebagai acuan."
+        },
+        {
+          "id": "b",
+          "text": "Nasihat dan risiko menggantikan nasehat dan resiko.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+        },
+        {
+          "id": "c",
+          "text": "Aktifitas adalah bentuk baku dalam laporan latihan ini.",
+          "explanation": "Tidak didukung oleh konteks. Bentuk bakunya aktivitas, sedangkan aktifitas merupakan bentuk tidak baku."
+        },
+        {
+          "id": "d",
+          "text": "Aktivitas merupakan bentuk baku untuk laporan resmi.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-bi-kata-baku-v1-q8",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.standard",
+      "explanation": "Pernyataan ini sesuai konteks bacaan. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin.",
+      "type": "multiple_choice",
+      "stimulusId": "tka-bi-kata-baku-bacaan-3",
+      "evidence": [
+        "bentuk bakunya adalah aktivitas, apotek, dan izin.",
+        "Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+      ],
+      "question": "Pernyataan mana yang tepat berdasarkan bacaan?",
+      "options": [
+        "Aktivitas merupakan bentuk baku untuk laporan resmi.",
+        "Aktifitas adalah bentuk baku dalam laporan latihan ini.",
+        "Ejaan baku cukup ditentukan dari kebiasaan percakapan.",
+        "Nama diri boleh selalu diubah menjadi kata umum yang mirip."
+      ],
+      "answer": "Aktivitas merupakan bentuk baku untuk laporan resmi."
+    },
+    {
+      "id": "tka-bi-kata-baku-v1-q9",
+      "prompt": "Nilai makna dan informasi berdasarkan bacaan yang disediakan.",
+      "competency": "bi.rules.standard",
+      "explanation": "Periksa tiap klaim berdasarkan bukti. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin. Nama diri orang dan tempat tidak boleh diubah hanya karena mirip kata umum. Bacaan mendukung penjelasan ini: Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko.",
+      "type": "statement_category",
+      "stimulusId": "tka-bi-kata-baku-bacaan-3",
+      "evidence": [
+        "bentuk bakunya adalah aktivitas, apotek, dan izin.",
+        "Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko."
+      ],
+      "question": "Apakah tiap pernyataan sesuai dengan bacaan?",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Sesuai"
+        },
+        {
+          "id": "no",
+          "label": "Tidak sesuai"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Apotek dan izin merupakan bentuk baku.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: bentuk bakunya adalah aktivitas, apotek, dan izin.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Nama diri boleh selalu diubah menjadi kata umum yang mirip.",
+          "explanation": "Tidak didukung oleh konteks. Nama diri orang dan tempat tidak boleh diubah hanya karena mirip kata umum.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Nasihat dan risiko menggantikan nasehat dan resiko.",
+          "explanation": "Sesuai dengan konteks. Bacaan mendukung penjelasan ini: Mereka juga mengganti nasehat menjadi nasihat dan resiko menjadi risiko.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

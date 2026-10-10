@@ -1,0 +1,444 @@
+[
+  [
+    {
+      "id": "tka-math-pola-bilangan-v2-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Setiap suku berkurang dengan selisih yang sama. Hasilnya 6 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Barisan 30, 24, 18, 12, ... . Berapa suku berikutnya?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "answer": "6"
+    },
+    {
+      "id": "tka-math-pola-bilangan-v2-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Suku ke-n adalah n². Hasilnya 49 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Barisan 1, 4, 9, 16, ... . Berapa suku ke-7?",
+      "options": [
+        "51",
+        "49",
+        "50",
+        "48"
+      ],
+      "answer": "49"
+    },
+    {
+      "id": "tka-math-pola-bilangan-v2-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Setiap suku dikalikan 2. Hasilnya 112 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Barisan 7, 14, 28, 56, ... . Berapa suku berikutnya?",
+      "options": [
+        "112",
+        "113",
+        "111",
+        "114"
+      ],
+      "answer": "112"
+    },
+    {
+      "id": "tka-math-pola-bilangan-v2-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Periksa setiap soal secara terpisah. Setiap suku dikalikan 2. Nilai yang tepat adalah 80. Suku ke-n adalah n². Nilai yang tepat adalah 100. Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 7. Selisih antarsuku tetap. Nilai yang tepat adalah 28.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Barisan 5, 10, 20, 40, ... . Berapa suku berikutnya? Jawaban: 81.",
+          "explanation": "Setiap suku dikalikan 2. Nilai yang tepat adalah 80."
+        },
+        {
+          "id": "b",
+          "text": "Barisan 1, 4, 9, 16, ... . Berapa suku ke-10? Jawaban: 100.",
+          "explanation": "Suku ke-n adalah n². Nilai yang tepat adalah 100."
+        },
+        {
+          "id": "c",
+          "text": "Barisan 27, 22, 17, 12, ... . Berapa suku berikutnya? Jawaban: 8.",
+          "explanation": "Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 7."
+        },
+        {
+          "id": "d",
+          "text": "Barisan 8, 13, 18, 23, ... . Berapa suku berikutnya? Jawaban: 28.",
+          "explanation": "Selisih antarsuku tetap. Nilai yang tepat adalah 28."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-pola-bilangan-v2-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Setiap suku berkurang dengan selisih yang sama. Hasilnya 8 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Barisan 32, 26, 20, 14, ... . Berapa suku berikutnya?",
+      "options": [
+        "7",
+        "10",
+        "8",
+        "9"
+      ],
+      "answer": "8"
+    },
+    {
+      "id": "tka-math-pola-bilangan-v2-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Periksa setiap soal secara terpisah. Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 6. Selisih antarsuku tetap. Nilai yang tepat adalah 39. Setiap suku dikalikan 2. Nilai yang tepat adalah 128.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Barisan 38, 30, 22, 14, ... . Berapa suku berikutnya? Jawaban: 7.",
+          "explanation": "Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 6.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Barisan 7, 15, 23, 31, ... . Berapa suku berikutnya? Jawaban: 39.",
+          "explanation": "Selisih antarsuku tetap. Nilai yang tepat adalah 39.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Barisan 8, 16, 32, 64, ... . Berapa suku berikutnya? Jawaban: 128.",
+          "explanation": "Setiap suku dikalikan 2. Nilai yang tepat adalah 128.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-pola-bilangan-v2-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Setiap suku dikalikan 2. Hasilnya 32 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Barisan 2, 4, 8, 16, ... . Berapa suku berikutnya?",
+      "options": [
+        "32",
+        "33",
+        "31",
+        "34"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": "tka-math-pola-bilangan-v2-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Periksa setiap soal secara terpisah. Setiap suku dikalikan 2. Nilai yang tepat adalah 112. Suku ke-n adalah n². Nilai yang tepat adalah 144. Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 2. Selisih antarsuku tetap. Nilai yang tepat adalah 27.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Barisan 7, 14, 28, 56, ... . Berapa suku berikutnya? Jawaban: 113.",
+          "explanation": "Setiap suku dikalikan 2. Nilai yang tepat adalah 112."
+        },
+        {
+          "id": "b",
+          "text": "Barisan 1, 4, 9, 16, ... . Berapa suku ke-12? Jawaban: 144.",
+          "explanation": "Suku ke-n adalah n². Nilai yang tepat adalah 144."
+        },
+        {
+          "id": "c",
+          "text": "Barisan 26, 20, 14, 8, ... . Berapa suku berikutnya? Jawaban: 3.",
+          "explanation": "Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 2."
+        },
+        {
+          "id": "d",
+          "text": "Barisan 3, 9, 15, 21, ... . Berapa suku berikutnya? Jawaban: 27.",
+          "explanation": "Selisih antarsuku tetap. Nilai yang tepat adalah 27."
+        }
+      ],
+      "answer": [
+        "b",
+        "d"
+      ]
+    },
+    {
+      "id": "tka-math-pola-bilangan-v2-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Periksa setiap soal secara terpisah. Selisih antarsuku tetap. Nilai yang tepat adalah 32. Setiap suku dikalikan 2. Nilai yang tepat adalah 80. Suku ke-n adalah n². Nilai yang tepat adalah 100.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Barisan 4, 11, 18, 25, ... . Berapa suku berikutnya? Jawaban: 33.",
+          "explanation": "Selisih antarsuku tetap. Nilai yang tepat adalah 32.",
+          "answer": "no"
+        },
+        {
+          "id": "b",
+          "text": "Barisan 5, 10, 20, 40, ... . Berapa suku berikutnya? Jawaban: 80.",
+          "explanation": "Setiap suku dikalikan 2. Nilai yang tepat adalah 80.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Barisan 1, 4, 9, 16, ... . Berapa suku ke-10? Jawaban: 100.",
+          "explanation": "Suku ke-n adalah n². Nilai yang tepat adalah 100.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "id": "tka-math-pola-bilangan-v3-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Suku ke-n adalah n². Hasilnya 49 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Barisan 1, 4, 9, 16, ... . Berapa suku ke-7?",
+      "options": [
+        "51",
+        "49",
+        "50",
+        "48"
+      ],
+      "answer": "49"
+    },
+    {
+      "id": "tka-math-pola-bilangan-v3-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Setiap suku dikalikan 2. Hasilnya 112 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Barisan 7, 14, 28, 56, ... . Berapa suku berikutnya?",
+      "options": [
+        "112",
+        "113",
+        "111",
+        "114"
+      ],
+      "answer": "112"
+    },
+    {
+      "id": "tka-math-pola-bilangan-v3-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Selisih antarsuku tetap. Hasilnya 32 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Barisan 4, 11, 18, 25, ... . Berapa suku berikutnya?",
+      "options": [
+        "33",
+        "31",
+        "34",
+        "32"
+      ],
+      "answer": "32"
+    },
+    {
+      "id": "tka-math-pola-bilangan-v3-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Periksa setiap soal secara terpisah. Selisih antarsuku tetap. Nilai yang tepat adalah 14. Setiap suku dikalikan 2. Nilai yang tepat adalah 48. Suku ke-n adalah n². Nilai yang tepat adalah 64. Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 5.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Barisan 2, 5, 8, 11, ... . Berapa suku berikutnya? Jawaban: 14.",
+          "explanation": "Selisih antarsuku tetap. Nilai yang tepat adalah 14."
+        },
+        {
+          "id": "b",
+          "text": "Barisan 3, 6, 12, 24, ... . Berapa suku berikutnya? Jawaban: 49.",
+          "explanation": "Setiap suku dikalikan 2. Nilai yang tepat adalah 48."
+        },
+        {
+          "id": "c",
+          "text": "Barisan 1, 4, 9, 16, ... . Berapa suku ke-8? Jawaban: 64.",
+          "explanation": "Suku ke-n adalah n². Nilai yang tepat adalah 64."
+        },
+        {
+          "id": "d",
+          "text": "Barisan 17, 14, 11, 8, ... . Berapa suku berikutnya? Jawaban: 6.",
+          "explanation": "Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 5."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-pola-bilangan-v3-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Suku ke-n adalah n². Hasilnya 81 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Barisan 1, 4, 9, 16, ... . Berapa suku ke-9?",
+      "options": [
+        "83",
+        "81",
+        "82",
+        "80"
+      ],
+      "answer": "81"
+    },
+    {
+      "id": "tka-math-pola-bilangan-v3-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Periksa setiap soal secara terpisah. Suku ke-n adalah n². Nilai yang tepat adalah 49. Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 4. Selisih antarsuku tetap. Nilai yang tepat adalah 29.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Barisan 1, 4, 9, 16, ... . Berapa suku ke-7? Jawaban: 49.",
+          "explanation": "Suku ke-n adalah n². Nilai yang tepat adalah 49.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Barisan 28, 22, 16, 10, ... . Berapa suku berikutnya? Jawaban: 4.",
+          "explanation": "Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 4.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Barisan 5, 11, 17, 23, ... . Berapa suku berikutnya? Jawaban: 30.",
+          "explanation": "Selisih antarsuku tetap. Nilai yang tepat adalah 29.",
+          "answer": "no"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-pola-bilangan-v3-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Selisih antarsuku tetap. Hasilnya 34 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Barisan 6, 13, 20, 27, ... . Berapa suku berikutnya?",
+      "options": [
+        "35",
+        "33",
+        "36",
+        "34"
+      ],
+      "answer": "34"
+    },
+    {
+      "id": "tka-math-pola-bilangan-v3-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Periksa setiap soal secara terpisah. Selisih antarsuku tetap. Nilai yang tepat adalah 16. Setiap suku dikalikan 2. Nilai yang tepat adalah 80. Suku ke-n adalah n². Nilai yang tepat adalah 100. Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 7.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Barisan 4, 7, 10, 13, ... . Berapa suku berikutnya? Jawaban: 16.",
+          "explanation": "Selisih antarsuku tetap. Nilai yang tepat adalah 16."
+        },
+        {
+          "id": "b",
+          "text": "Barisan 5, 10, 20, 40, ... . Berapa suku berikutnya? Jawaban: 81.",
+          "explanation": "Setiap suku dikalikan 2. Nilai yang tepat adalah 80."
+        },
+        {
+          "id": "c",
+          "text": "Barisan 1, 4, 9, 16, ... . Berapa suku ke-10? Jawaban: 100.",
+          "explanation": "Suku ke-n adalah n². Nilai yang tepat adalah 100."
+        },
+        {
+          "id": "d",
+          "text": "Barisan 19, 16, 13, 10, ... . Berapa suku berikutnya? Jawaban: 8.",
+          "explanation": "Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 7."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-pola-bilangan-v3-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.algebra.pattern",
+      "explanation": "Periksa setiap soal secara terpisah. Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 8. Selisih antarsuku tetap. Nilai yang tepat adalah 22. Setiap suku dikalikan 2. Nilai yang tepat adalah 48.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Barisan 24, 20, 16, 12, ... . Berapa suku berikutnya? Jawaban: 8.",
+          "explanation": "Setiap suku berkurang dengan selisih yang sama. Nilai yang tepat adalah 8.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Barisan 2, 7, 12, 17, ... . Berapa suku berikutnya? Jawaban: 22.",
+          "explanation": "Selisih antarsuku tetap. Nilai yang tepat adalah 22.",
+          "answer": "yes"
+        },
+        {
+          "id": "c",
+          "text": "Barisan 3, 6, 12, 24, ... . Berapa suku berikutnya? Jawaban: 49.",
+          "explanation": "Setiap suku dikalikan 2. Nilai yang tepat adalah 48.",
+          "answer": "no"
+        }
+      ]
+    }
+  ]
+]

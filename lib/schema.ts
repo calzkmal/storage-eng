@@ -140,7 +140,7 @@ export const LessonSchema = z
       const paragraphs = lesson.material?.filter(b => b.type === "paragraph").length ?? 0;
       const examples = lesson.material?.filter(b => b.type === "worked_example").length ?? 0;
       if (paragraphs < 2 || paragraphs > 4 || examples < 2 || examples > 3) issue("TKA requires 2–4 sections and 2–3 examples");
-      if (lesson.subject === "matematika" && !lesson.material?.some(b => b.type === "fraction")) issue("fraction visual required");
+      if (lesson.subject === "matematika" && lesson.exercises.some(e => e.competency?.startsWith("math.fraction.")) && !lesson.material?.some(b => b.type === "fraction")) issue("fraction visual required");
       if (lesson.exercises.length < 8 || lesson.exercises.length > 10) issue("TKA requires 8–10 exercises");
       for (const type of ["multiple_choice", "multiple_select", "statement_category"]) {
         if (!lesson.exercises.some(e => e.type === type)) issue(`TKA missing ${type}`);

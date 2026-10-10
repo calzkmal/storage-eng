@@ -1,0 +1,264 @@
+{
+  "id": "tka-math-fpb-kpk",
+  "subject": "matematika",
+  "category": 1,
+  "order": 6,
+  "title": "FPB dan KPK dalam soal cerita",
+  "level": {
+    "stage": "sd",
+    "grade": 6,
+    "program": "tka"
+  },
+  "objectives": [
+    "Menyelesaikan soal fpb dan kpk dalam soal cerita dan menjelaskan langkahnya."
+  ],
+  "material": [
+    {
+      "type": "paragraph",
+      "title": "Konsep dan aturan",
+      "text": "FPB adalah faktor terbesar yang membagi semua bilangan yang dibandingkan. KPK adalah kelipatan positif terkecil yang dimiliki bersama."
+    },
+    {
+      "type": "paragraph",
+      "title": "Langkah dan pemeriksaan",
+      "text": "Pembagian benda menjadi paket sebanyak mungkin menggunakan FPB. Pertemuan kegiatan berulang menggunakan KPK, dengan awal kegiatan berlangsung bersama."
+    },
+    {
+      "type": "worked_example",
+      "question": "Ada 2 pensil dan 3 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket?",
+      "steps": [
+        "Jumlah paket maksimum adalah FPB dua banyak barang."
+      ],
+      "conclusion": "Jawaban: 1 dalam satuan yang ditanyakan."
+    },
+    {
+      "type": "worked_example",
+      "question": "Dua bel berbunyi setiap 6 dan 6 menit. Keduanya baru berbunyi bersama. Berapa menit lagi keduanya berbunyi bersama?",
+      "steps": [
+        "Waktu pertemuan berikutnya adalah KPK dua selang waktu."
+      ],
+      "conclusion": "Jawaban: 6 dalam satuan yang ditanyakan."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "tka-math-fpb-kpk-v1-q1",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.factors",
+      "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Hasilnya 1 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Ada 2 pensil dan 3 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket?",
+      "options": [
+        "2",
+        "0",
+        "3",
+        "1"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "tka-math-fpb-kpk-v1-q2",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.factors",
+      "explanation": "Waktu pertemuan berikutnya adalah KPK dua selang waktu. Hasilnya 48 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Dua bel berbunyi setiap 24 dan 16 menit. Keduanya baru berbunyi bersama. Berapa menit lagi keduanya berbunyi bersama?",
+      "options": [
+        "47",
+        "50",
+        "48",
+        "49"
+      ],
+      "answer": "48"
+    },
+    {
+      "id": "tka-math-fpb-kpk-v1-q3",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.factors",
+      "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Hasilnya 9 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Ada 9 pensil dan 18 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket?",
+      "options": [
+        "11",
+        "9",
+        "10",
+        "8"
+      ],
+      "answer": "9"
+    },
+    {
+      "id": "tka-math-fpb-kpk-v1-q4",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.factors",
+      "explanation": "Periksa setiap soal secara terpisah. Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 3. Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 32. Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 1. Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 16.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ada 24 pensil dan 21 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket? Jawaban: 3.",
+          "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 3."
+        },
+        {
+          "id": "b",
+          "text": "Dua bel berbunyi setiap 8 dan 32 menit. Keduanya baru berbunyi bersama. Berapa menit lagi keduanya berbunyi bersama? Jawaban: 33.",
+          "explanation": "Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 32."
+        },
+        {
+          "id": "c",
+          "text": "Ada 3 pensil dan 8 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket? Jawaban: 1.",
+          "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 1."
+        },
+        {
+          "id": "d",
+          "text": "Dua bel berbunyi setiap 8 dan 16 menit. Keduanya baru berbunyi bersama. Berapa menit lagi keduanya berbunyi bersama? Jawaban: 17.",
+          "explanation": "Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 16."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-fpb-kpk-v1-q5",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.factors",
+      "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Hasilnya 1 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Ada 4 pensil dan 3 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket?",
+      "options": [
+        "2",
+        "0",
+        "3",
+        "1"
+      ],
+      "answer": "1"
+    },
+    {
+      "id": "tka-math-fpb-kpk-v1-q6",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.factors",
+      "explanation": "Periksa setiap soal secara terpisah. Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 1. Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 30. Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 3.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Ada 2 pensil dan 5 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket? Jawaban: 1.",
+          "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 1.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Dua bel berbunyi setiap 6 dan 10 menit. Keduanya baru berbunyi bersama. Berapa menit lagi keduanya berbunyi bersama? Jawaban: 31.",
+          "explanation": "Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 30.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Ada 12 pensil dan 15 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket? Jawaban: 3.",
+          "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 3.",
+          "answer": "yes"
+        }
+      ]
+    },
+    {
+      "id": "tka-math-fpb-kpk-v1-q7",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.factors",
+      "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Hasilnya 3 dalam satuan yang ditanyakan.",
+      "type": "multiple_choice",
+      "question": "Ada 15 pensil dan 18 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": "tka-math-fpb-kpk-v1-q8",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.factors",
+      "explanation": "Periksa setiap soal secara terpisah. Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 3. Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 32. Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 1. Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 48.",
+      "type": "multiple_select",
+      "question": "Pilih semua perhitungan yang menghasilkan jawaban tepat.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ada 9 pensil dan 24 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket? Jawaban: 3.",
+          "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 3."
+        },
+        {
+          "id": "b",
+          "text": "Dua bel berbunyi setiap 16 dan 32 menit. Keduanya baru berbunyi bersama. Berapa menit lagi keduanya berbunyi bersama? Jawaban: 33.",
+          "explanation": "Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 32."
+        },
+        {
+          "id": "c",
+          "text": "Ada 5 pensil dan 8 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket? Jawaban: 1.",
+          "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 1."
+        },
+        {
+          "id": "d",
+          "text": "Dua bel berbunyi setiap 12 dan 16 menit. Keduanya baru berbunyi bersama. Berapa menit lagi keduanya berbunyi bersama? Jawaban: 49.",
+          "explanation": "Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 48."
+        }
+      ],
+      "answer": [
+        "a",
+        "c"
+      ]
+    },
+    {
+      "id": "tka-math-fpb-kpk-v1-q9",
+      "prompt": "Baca dengan teliti; gunakan satuan yang disebutkan dalam pertanyaan.",
+      "competency": "math.number.factors",
+      "explanation": "Periksa setiap soal secara terpisah. Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 42. Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 3. Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 16.",
+      "type": "statement_category",
+      "question": "Tentukan benar atau salah untuk setiap perhitungan.",
+      "categories": [
+        {
+          "id": "yes",
+          "label": "Benar"
+        },
+        {
+          "id": "no",
+          "label": "Salah"
+        }
+      ],
+      "statements": [
+        {
+          "id": "a",
+          "text": "Dua bel berbunyi setiap 14 dan 6 menit. Keduanya baru berbunyi bersama. Berapa menit lagi keduanya berbunyi bersama? Jawaban: 42.",
+          "explanation": "Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 42.",
+          "answer": "yes"
+        },
+        {
+          "id": "b",
+          "text": "Ada 24 pensil dan 9 penghapus. Semua dibagi menjadi paket sebanyak mungkin dengan isi tiap paket sama, tanpa sisa. Berapa paket? Jawaban: 4.",
+          "explanation": "Jumlah paket maksimum adalah FPB dua banyak barang. Nilai yang tepat adalah 3.",
+          "answer": "no"
+        },
+        {
+          "id": "c",
+          "text": "Dua bel berbunyi setiap 8 dan 16 menit. Keduanya baru berbunyi bersama. Berapa menit lagi keduanya berbunyi bersama? Jawaban: 16.",
+          "explanation": "Waktu pertemuan berikutnya adalah KPK dua selang waktu. Nilai yang tepat adalah 16.",
+          "answer": "yes"
+        }
+      ]
+    }
+  ]
+}

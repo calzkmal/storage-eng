@@ -1,9 +1,11 @@
 // Opt-in live integration check. Seeds only TKA and removes only its own QA profiles.
 import assert from "node:assert/strict";
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { createHash, randomUUID } from "node:crypto";
+import { randomUUID } from "node:crypto";
+import { rowsFingerprint } from "../lib/contentFingerprint";
 import { getDb } from "../lib/db";
 import { loadLessonFiles, seedDatabase } from "../lib/content";
+import { loadTkaSets } from "../lib/tkaSets";
 import { attemptContext } from "../lib/attemptContext";
 import { answerText, correctAnswerText, exerciseSummary, gradeLocal, type AnswerValue } from "../lib/grading";
 
@@ -21,7 +23,7 @@ async function main() {
       if (data.length < 1000) return all;
     }
   }
-  const hash = (data: unknown[]) => createHash("sha256").update(JSON.stringify(data.map(row => JSON.stringify(row)).sort())).digest("hex");
+  const hash = rowsFingerprint;
   const oldLessons = (await rows("lessons", "id")).filter(l => l.subject === "english");
   const oldSets = await rows("exercise_sets", "id");
   const oldCompletions = await rows("learner_sets", "learner_id");
@@ -44,16 +46,16 @@ async function main() {
   for (const table of ["lesson_active", "lesson_sets"]) {
     const { data, error } = await db.from(table).select("*").neq("subject", "english");
     assert.ifError(error);
-    assert.equal(data!.length, 6);
+    assert.equal(data!.length, files.length * (table === "lesson_sets" ? 3 : 1));
     for (const lesson of files) {
-      const row: Record<string, unknown> | undefined = data!.find((r: Record<string, unknown>) => (r.lesson_id ?? r.id) === lesson.id);
+      const row: Record<string, unknown> | undefined = data!.find((r: Record<string, unknown>) => (r.lesson_id ?? r.id) === lesson.id && (r.version ?? r.set_version) === 1);
       assert(row);
       for (const field of ["level", "objectives", "material", "stimuli"] as const) assert.deepEqual(row[field], lesson[field] ?? null);
       assert.deepEqual(row.exercises, lesson.exercises);
       assert.equal(sets.filter(s => s.lesson_id === lesson.id && s.source === "seed").length, 1);
     }
   }
-  console.log({ preservation: "passed", englishLessons: oldLessons.length, existingSets: oldSets.length, completions: oldCompletions.length, attempts: oldAttempts.length, tkaLessons: 6, tkaExercises: 54 });
+  console.log({ preservation: "passed", englishLessons: oldLessons.length, existingSets: oldSets.length, completions: oldCompletions.length, attempts: oldAttempts.length, tkaLessons: files.length, tkaExercises: files.flatMap(l => [l.exercises, ...loadTkaSets(l)].flat()).length });
   const base = process.env.LOCAL_BASE_URL;
   if (!base) return;
   assert(["localhost", "127.0.0.1", "[::1]"].includes(new URL(base).hostname), "API checks require localhost");
@@ -74,7 +76,7 @@ async function main() {
       cookies.push(cookie);
       ids.push(cookie.split("=")[1].split(".")[0]);
     }
-    for (const lesson of [loadLessonFiles().find(l => l.subject === "english")!, files.find(l => l.subject === "matematika")!, files.find(l => l.subject === "bahasa-indonesia")!]) {
+    for (const lesson of [loadLessonFiles().find(l => l.subject === "english")!, files.find(l => l.id === "tka-math-bangun-ruang")!, files.find(l => l.id === "tka-bi-fakta-opini")!]) {
       const runId = randomUUID();
       const exercises = lesson.subject === "english" ? lesson.exercises.filter(e => e.type === "multiple_choice").slice(0, 1) : lesson.exercises.filter(e => ["multiple_choice", "multiple_select", "statement_category"].includes(e.type)).filter((e, i, a) => a.findIndex(x => x.type === e.type) === i);
       for (const ex of exercises) {
