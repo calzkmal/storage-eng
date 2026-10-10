@@ -78,8 +78,7 @@ export default function LessonCard({ lesson, finished }: Props) {
           <span className="block text-base font-semibold leading-snug text-slate-900">{lesson.title}</span>
           {/* Own row so the title keeps the full width. */}
           <span className="mt-0.5 block text-sm text-slate-500">
-            {lesson.exerciseCount} exercise{lesson.exerciseCount === 1 ? "" : "s"}
-            {done > 0 && ` · ${done}/${lesson.setIds.length} sets`}
+            {lesson.exerciseCount} soal · {done}/{lesson.setIds.length} set selesai
           </span>
         </span>
       </Link>

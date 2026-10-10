@@ -20,7 +20,7 @@ async function main() {
   const db = getDb()!;
   let written = 0;
 
-  for (const lesson of loadLessonFiles()) {
+  for (const lesson of loadLessonFiles().filter(l => l.subject === "english")) {
     const file = path.join(DIR, `${lesson.id}.json`);
     if (!fs.existsSync(file)) {
       console.error(`✗ ${lesson.id}: no variations file, run npm run build:variations`);

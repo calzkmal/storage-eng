@@ -20,6 +20,7 @@ export type SetSource = "seed" | "generated" | "variation";
 /** A lesson card, without its exercises. */
 export type LessonOverview = {
   id: string;
+  subject: Lesson["subject"];
   category: number;
   order: number;
   title: string;
@@ -71,6 +72,7 @@ function withFileSet(lesson: Lesson): LessonWithSets {
 function overviewOf(lesson: LessonWithSets): LessonOverview {
   return {
     id: lesson.id,
+    subject: lesson.subject,
     category: lesson.category,
     order: lesson.order,
     title: lesson.title,
@@ -90,6 +92,11 @@ type SetRow = {
   position: number;
   title: string;
   intro: string | null;
+  subject: Lesson["subject"];
+  level: unknown;
+  objectives: unknown;
+  material: unknown;
+  stimuli: unknown;
 };
 
 const ExercisesJson = z.array(ExerciseSchema);
@@ -121,6 +128,11 @@ export async function seedLesson(
       position: lesson.order,
       title: lesson.title,
       intro: lesson.intro ?? null,
+      subject: lesson.subject,
+      level: lesson.level ?? null,
+      objectives: lesson.objectives ?? null,
+      material: lesson.material ?? null,
+      stimuli: lesson.stimuli ?? null,
     },
     { onConflict: "id" },
   );
@@ -207,7 +219,7 @@ const readSyllabus = unstable_cache(
     const query = () =>
       db
         .from("lesson_sets")
-        .select("set_id, lesson_id, version, source, exercises, category, position, title, intro")
+        .select("set_id, lesson_id, version, source, exercises, category, position, title, intro, subject, level, objectives, material, stimuli")
         .order("category", { ascending: true })
         .order("position", { ascending: true })
         .order("version", { ascending: true });
@@ -236,6 +248,11 @@ const readSyllabus = unstable_cache(
         order: row.position,
         title: row.title,
         intro: row.intro ?? undefined,
+        subject: row.subject,
+        level: row.level ?? undefined,
+        objectives: row.objectives ?? undefined,
+        material: row.material ?? undefined,
+        stimuli: row.stimuli ?? undefined,
         exercises: exercises.data,
       });
       if (!parsed.success) {
@@ -260,7 +277,10 @@ const readSyllabus = unstable_cache(
 async function syllabus(): Promise<LessonWithSets[]> {
   try {
     const rows = await readSyllabus();
-    if (rows && rows.length) return rows;
+    if (rows && rows.length) {
+      const known = new Set(rows.map(l => l.id));
+      return [...rows, ...loadLessonFiles().filter(l => !known.has(l.id)).map(withFileSet)];
+    }
   } catch (err) {
     console.error("[content] database unavailable, using bundled files:", err instanceof Error ? err.message : err);
   }

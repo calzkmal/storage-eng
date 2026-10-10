@@ -10,7 +10,7 @@ const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort();
 let errors = 0;
 const ids = new Set<string>();
 const slots = new Set<string>();
-const byCategory = new Map<number, number>();
+const byCategory = new Map<string, number>();
 const exerciseIds = new Set<string>();
 const typesSeen = new Set<ExerciseType>();
 
@@ -40,11 +40,11 @@ for (const file of files) {
 
   if (ids.has(lesson.id)) problems.push(`duplicate lesson id "${lesson.id}"`);
   ids.add(lesson.id);
-  const slot = `${lesson.category}.${lesson.order}`;
+  const slot = `${lesson.subject}.${lesson.category}.${lesson.order}`;
   if (slots.has(slot)) problems.push(`duplicate lesson slot ${slot}`);
   slots.add(slot);
-  byCategory.set(lesson.category, (byCategory.get(lesson.category) ?? 0) + 1);
-  if (!categoryTitle(lesson.category).startsWith("Category ")) {
+  byCategory.set(`${lesson.subject}.${lesson.category}`, (byCategory.get(`${lesson.subject}.${lesson.category}`) ?? 0) + 1);
+  if (!categoryTitle(lesson.category, lesson.subject).startsWith("Category ")) {
     // known category, fine
   } else {
     problems.push(`category ${lesson.category} is not defined in lib/categories.ts`);
@@ -60,7 +60,7 @@ for (const file of files) {
   if (aiCount > 3) problems.push(`has ${aiCount} AI-graded exercises; spec §6 targets ≤3`);
 
   for (const ex of lesson.exercises) {
-    typesSeen.add(ex.type);
+    if (lesson.subject === "english") typesSeen.add(ex.type);
     if (exerciseIds.has(ex.id)) problems.push(`exercise id "${ex.id}" is used in another lesson`);
     exerciseIds.add(ex.id);
     if (/placeholder|todo|tbd|lorem/i.test(ex.explanation)) problems.push(`exercise "${ex.id}" has placeholder explanation`);
@@ -77,10 +77,10 @@ for (const file of files) {
   }
 }
 
-for (const [cat, count] of [...byCategory.entries()].sort((a, b) => a[0] - b[0])) {
+for (const [cat, count] of [...byCategory.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
   for (let i = 1; i <= count; i++) {
     if (!slots.has(`${cat}.${i}`)) {
-      console.error(`✗ category ${cat} ("${categoryTitle(cat)}") is missing position ${i}; orders must run 1..${count}`);
+      console.error(`✗ category ${cat} ("${cat}") is missing position ${i}; orders must run 1..${count}`);
       errors++;
     }
   }

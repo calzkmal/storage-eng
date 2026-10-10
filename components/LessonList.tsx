@@ -1,5 +1,6 @@
 "use client";
 
+import type { Subject } from "@/lib/subjects";
 import LessonCard, { type LessonSummary } from "./LessonCard";
 import { useFinished } from "@/lib/useFinished";
 import { categoryTitle } from "@/lib/categories";
@@ -24,7 +25,7 @@ const ChevronIcon = () => (
 
 // One collapsible card per category, native <details> so it works without JS.
 // A lesson counts as done once any of its sets has been played through.
-export default function LessonList({ lessons }: { lessons: LessonSummary[] }) {
+export default function LessonList({ lessons, subject = "english" }: { lessons: LessonSummary[]; subject?: Subject }) {
   const finished = useFinished();
 
   const groups = [
@@ -53,11 +54,11 @@ export default function LessonList({ lessons }: { lessons: LessonSummary[] }) {
               </span>
               <span className="min-w-0 flex-1">
                 <span className="block text-base font-semibold leading-snug text-slate-900">
-                  {categoryTitle(category)}
+                  {categoryTitle(category, subject)}
                 </span>
                 <span className="mt-0.5 flex flex-wrap items-center gap-2 text-sm text-slate-500">
                   <span>
-                    {inCategory.length} lesson{inCategory.length === 1 ? "" : "s"} · {doneCount} done
+                    {inCategory.length} pelajaran · {doneCount} dimulai
                   </span>
                   {allDone && (
                     <span
