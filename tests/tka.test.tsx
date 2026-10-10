@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 import fs from "node:fs";
+import { loadTkaSets } from "../lib/tkaSets";
 import { LessonSchema, FractionSchema, type Exercise, type Lesson } from "../lib/schema";
 import { canCheck, gradeLocal, correctAnswerText, answerText } from "../lib/grading";
 import { firstScore, shouldRetry } from "../lib/practice";
@@ -41,10 +42,10 @@ test("subject-qualified slots permit English and Math 1.1 but reject same-subjec
   assert(collectionProblems([...lessons, { ...math, id: "new-id" }]).some(p => p.includes("duplicate lesson slot")));
   assert(collectionProblems([{ ...math, order: 2 }]).some(p => p.includes("missing")));
 });
-test("six complete TKA lessons, 54 deterministic keys, no AI formats", () => {
-  assert.equal(tka.length, 6);
-  assert.equal(tka.flatMap(l => l.exercises).length, 54);
-  for (const l of tka) for (const e of l.exercises) {
+test("31 TKA topics, 93 sets, 837 deterministic keys, no AI formats", () => {
+  assert.equal(tka.length, 31);
+  assert.equal(tka.flatMap(l => [l.exercises, ...loadTkaSets(l)].flat()).length, 837);
+  for (const l of tka) for (const e of [l.exercises, ...loadTkaSets(l)].flat()) {
     assert(canCheck(e, solution(e)), e.id);
     const grade = gradeLocal(e, solution(e));
     assert.equal(grade?.correct, true, e.id);

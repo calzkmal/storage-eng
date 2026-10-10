@@ -4,6 +4,7 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 import { createHash, randomUUID } from "node:crypto";
 import { getDb } from "../lib/db";
 import { loadLessonFiles, seedDatabase } from "../lib/content";
+import { loadTkaSets } from "../lib/tkaSets";
 import { attemptContext } from "../lib/attemptContext";
 import { answerText, correctAnswerText, exerciseSummary, gradeLocal, type AnswerValue } from "../lib/grading";
 
@@ -44,16 +45,16 @@ async function main() {
   for (const table of ["lesson_active", "lesson_sets"]) {
     const { data, error } = await db.from(table).select("*").neq("subject", "english");
     assert.ifError(error);
-    assert.equal(data!.length, 6);
+    assert.equal(data!.length, files.length * (table === "lesson_sets" ? 3 : 1));
     for (const lesson of files) {
-      const row: Record<string, unknown> | undefined = data!.find((r: Record<string, unknown>) => (r.lesson_id ?? r.id) === lesson.id);
+      const row: Record<string, unknown> | undefined = data!.find((r: Record<string, unknown>) => (r.lesson_id ?? r.id) === lesson.id && (r.version ?? r.set_version) === 1);
       assert(row);
       for (const field of ["level", "objectives", "material", "stimuli"] as const) assert.deepEqual(row[field], lesson[field] ?? null);
       assert.deepEqual(row.exercises, lesson.exercises);
       assert.equal(sets.filter(s => s.lesson_id === lesson.id && s.source === "seed").length, 1);
     }
   }
-  console.log({ preservation: "passed", englishLessons: oldLessons.length, existingSets: oldSets.length, completions: oldCompletions.length, attempts: oldAttempts.length, tkaLessons: 6, tkaExercises: 54 });
+  console.log({ preservation: "passed", englishLessons: oldLessons.length, existingSets: oldSets.length, completions: oldCompletions.length, attempts: oldAttempts.length, tkaLessons: files.length, tkaExercises: files.flatMap(l => [l.exercises, ...loadTkaSets(l)].flat()).length });
   const base = process.env.LOCAL_BASE_URL;
   if (!base) return;
   assert(["localhost", "127.0.0.1", "[::1]"].includes(new URL(base).hostname), "API checks require localhost");
