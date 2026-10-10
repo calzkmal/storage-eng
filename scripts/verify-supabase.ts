@@ -1,7 +1,8 @@
 // Opt-in live integration check. Seeds only TKA and removes only its own QA profiles.
 import assert from "node:assert/strict";
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { createHash, randomUUID } from "node:crypto";
+import { randomUUID } from "node:crypto";
+import { rowsFingerprint } from "../lib/contentFingerprint";
 import { getDb } from "../lib/db";
 import { loadLessonFiles, seedDatabase } from "../lib/content";
 import { loadTkaSets } from "../lib/tkaSets";
@@ -22,7 +23,7 @@ async function main() {
       if (data.length < 1000) return all;
     }
   }
-  const hash = (data: unknown[]) => createHash("sha256").update(JSON.stringify(data.map(row => JSON.stringify(row)).sort())).digest("hex");
+  const hash = rowsFingerprint;
   const oldLessons = (await rows("lessons", "id")).filter(l => l.subject === "english");
   const oldSets = await rows("exercise_sets", "id");
   const oldCompletions = await rows("learner_sets", "learner_id");

@@ -142,3 +142,13 @@ test("attempt payload validates legacy defaults and TKA field combinations", asy
   assert(!AttemptBodySchema.safeParse({ ...payload, context: { ...payload.context, evidence: ["not in text"] } }).success);
   assert(!AttemptBodySchema.safeParse({ ...payload, subject: "unknown" }).success);
 });
+
+
+test("preservation fingerprint tolerates JSONB key order but detects nested content changes", async () => {
+  const { rowsFingerprint } = await import("../lib/contentFingerprint");
+  const before = [{ id: "a", material: [{ type: "paragraph", title: "Title", text: "Text" }] }, { id: "b" }];
+  const reordered = [{ id: "b" }, { material: [{ text: "Text", type: "paragraph", title: "Title" }], id: "a" }];
+  assert.equal(rowsFingerprint(before), rowsFingerprint(reordered));
+  assert.notEqual(rowsFingerprint(before), rowsFingerprint([{ id: "a", material: [{ type: "paragraph", title: "Title", text: "Changed" }] }, { id: "b" }]));
+  assert.notEqual(rowsFingerprint([{ values: [1, 2] }]), rowsFingerprint([{ values: [2, 1] }]));
+});

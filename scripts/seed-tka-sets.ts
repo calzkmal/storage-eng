@@ -1,6 +1,6 @@
 // Additive: never delete, replace, or reactivate existing sets.
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { createHash } from "node:crypto";
+import { rowsFingerprint } from "../lib/contentFingerprint";
 import assert from "node:assert/strict";
 import { getDb } from "../lib/db";
 import { loadLessonFiles, seedDatabase } from "../lib/content";
@@ -18,7 +18,7 @@ async function main() {
       if (data!.length < 1000) return rows;
     }
   }
-  const hash = (rows: Record<string, unknown>[]) => createHash("sha256").update(JSON.stringify(rows.map(r => JSON.stringify(r)).sort())).digest("hex");
+  const hash = rowsFingerprint;
   const oldSets = await snapshot("exercise_sets", "id");
   const oldLessons = await snapshot("lessons", "id");
   const oldCompletions = await snapshot("learner_sets", "learner_id");
