@@ -29,8 +29,8 @@ export default function ProgressView({ lessons: allLessons }: { lessons: Progres
   const doneSets = lessons.reduce((n, l) => n + doneIn(l), 0);
   const lessonsStarted = lessons.filter((l) => doneIn(l) > 0).length;
   const lessonsDone = lessons.filter((l) => doneIn(l) === l.setIds.length).length;
-  // Round up, so any finished set never reads as 0%.
-  const percent = totalSets ? Math.ceil((doneSets / totalSets) * 100) : 0;
+  // Round up, so any finished set never reads as 0.
+  const score = totalSets ? Math.ceil((doneSets / totalSets) * 100) : 0;
 
   const groups = [
     ...lessons.reduce((m, l) => {
@@ -46,17 +46,18 @@ export default function ProgressView({ lessons: allLessons }: { lessons: Progres
       <h1 className="text-3xl font-bold tracking-tight">Progres</h1>
 
       <SubjectFilter path="/progress" subject={subject} />
-      <p className="text-sm text-slate-600">Progres menunjukkan set tersedia yang selesai, bukan penguasaan seluruh silabus TKA.</p>
+      <p className="text-sm text-slate-600">Skor progres (0–100) dihitung dari set tersedia yang selesai.</p>
       <section className="mt-5 flex items-center gap-4 rounded-2xl border-2 border-slate-200 bg-white p-4 shadow-[0_2px_0_#e2e8f0]">
         <ProgressRing
           done={doneSets}
           total={totalSets}
           size={92}
           stroke={9}
-          center={`${percent}%`}
-          label={`${doneSets}/${totalSets} set selesai`}
+          center={`${score}`}
+          label={`Skor progres ${score} dari 100; ${doneSets}/${totalSets} set selesai`}
         />
         <div className="min-w-0">
+          <p className="text-sm font-semibold text-slate-600">Skor progres {score}/100</p>
           <p className="text-lg font-bold text-slate-900">
             {doneSets}/{totalSets} set selesai
           </p>

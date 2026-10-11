@@ -94,7 +94,7 @@ test("invalid IDs, stimuli, evidence, visuals, metadata, and AI types rejected",
   assert.equal(FractionSchema.safeParse({ numerator: 0.5, denominator: 4 }).success, false);
 });
 test("main score never gains review points; TKA review terminates on misses; English retains retry", () => {
-  assert.deepEqual(firstScore(9, 3), { correct: 6, percent: 67 });
+  assert.deepEqual(firstScore(9, 3), { correct: 6, score: 67 });
   for (const s of ["matematika", "bahasa-indonesia"] as const) {
     assert.equal(shouldRetry(s, "main", false), true);
     assert.equal(shouldRetry(s, "review", false), false);
@@ -104,7 +104,7 @@ test("main score never gains review points; TKA review terminates on misses; Eng
   // Three wrong main answers -> three review attempts regardless of outcome.
   const queue = [1, 2, 3]; let reviews = 0;
   for (let i = 0; i < queue.length; i++) { reviews++; if (shouldRetry("matematika", "review", false)) queue.push(queue[i]); }
-  assert.equal(reviews, 3); assert.deepEqual(firstScore(9, 3), { correct: 6, percent: 67 });
+  assert.equal(reviews, 3); assert.deepEqual(firstScore(9, 3), { correct: 6, score: 67 });
 });
 test("history context is minimal and bounded; legacy result and unavailable storage safe", () => {
   const bi = tka.find(l => l.subject === "bahasa-indonesia")!;

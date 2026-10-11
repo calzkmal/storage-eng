@@ -37,7 +37,7 @@ export default function LessonDone({ lessonId, subject, availableLessons }: Prop
         {result?.lessonTitle && <p className="text-base font-medium text-slate-500">{result.lessonTitle}</p>}
         <h1 className="mt-1 text-3xl font-bold">Set selesai</h1>
 
-        {tka && score && <section className="mt-5 rounded-2xl bg-sky-50 p-5"><h2 className="text-lg font-bold">Hasil percobaan pertama</h2><p className="mt-2 text-2xl font-bold">{score.correct}/{result!.total} benar · {score.percent}%</p><p className="mt-2">Latihan ulang tidak mengubah skor awal. Ini skor internal latihan, bukan skor resmi TKA.</p></section>}
+        {tka && score && <section className="mt-5 rounded-2xl bg-sky-50 p-5"><h2 className="text-lg font-bold">Hasil percobaan pertama</h2><p className="mt-2 text-2xl font-bold">Skor {score.score}/100</p><p className="mt-1">{score.correct}/{result!.total} benar</p><p className="mt-2">Latihan ulang tidak mengubah skor awal. Ini skor internal latihan, bukan skor resmi TKA.</p></section>}
         {tka && recommendations.length > 0 && <section className="mt-5"><h2 className="font-bold">Materi yang perlu diulang</h2>{recommendations.map(l => <Link key={l.id} href={`/lesson/${l.id}`} className="block min-h-11 py-3 text-sky-700 underline">{l.title}</Link>)}</section>}
         {result === null ? (
           <p className="mt-6 text-base text-slate-600">
