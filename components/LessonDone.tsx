@@ -1,5 +1,7 @@
 "use client";
 
+import MathText from "./MathText";
+
 import Link from "next/link";
 import { useMemo, useSyncExternalStore } from "react";
 import { loadResultRaw, parseResult } from "@/lib/storage";
@@ -57,12 +59,12 @@ export default function LessonDone({ lessonId, subject, availableLessons }: Prop
             <ul className="mt-3 flex flex-col gap-3">
               {result.wrong.map((w, i) => (
                 <li key={`${w.exerciseId}-${i}`} className="rounded-2xl border-2 border-slate-200 bg-white p-4">
-                  <p className="text-base font-medium text-slate-800">{w.summary}</p>
+                  <p className="text-base font-medium text-slate-800"><MathText enabled={subject === "matematika"}>{w.summary}</MathText></p>
                   <p className="mt-2 text-sm text-rose-700">
-                    <span className="font-semibold">Jawabanmu:</span> {w.yourAnswer}
+                    <span className="font-semibold">Jawabanmu:</span> <MathText enabled={subject === "matematika"}>{w.yourAnswer}</MathText>
                   </p>
                   <p className="mt-1 text-sm text-emerald-800">
-                    <span className="font-semibold">Jawaban benar:</span> {w.correctAnswer}
+                    <span className="font-semibold">Jawaban benar:</span> <MathText enabled={subject === "matematika"}>{w.correctAnswer}</MathText>
                   </p>
                 </li>
               ))}

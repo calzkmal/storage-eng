@@ -1,5 +1,7 @@
 "use client";
 
+import MathText from "./MathText";
+
 import { useSearchParams } from "next/navigation";
 import { isSubject, SUBJECTS } from "@/lib/subjects";
 import SubjectFilter from "./SubjectFilter";
@@ -216,19 +218,19 @@ export default function HistoryView() {
                             {a.correct === true ? "✓" : a.correct === false ? "✕" : "?"}
                           </span>
                           <span className="min-w-0 flex-1 font-medium text-slate-800">
-                            {a.question}
+                            <MathText enabled={run.subject === "matematika"}>{a.question}</MathText>
                             <span className="ml-2 rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-bold uppercase tracking-wide text-slate-500">
                                 {a.phase === "review" ? "latihan ulang" : "percobaan pertama"}
                             </span>
                           </span>
                         </p>
                         <p className="mt-1 pl-7 text-sm text-slate-600">
-                          <span className="font-semibold">Jawabanmu:</span> {a.userAnswer}
+                          <span className="font-semibold">Jawabanmu:</span> <MathText enabled={run.subject === "matematika"}>{a.userAnswer}</MathText>
                         </p>
                         {a.context?.stimulus && <StimulusView stimulus={a.context.stimulus} />}
-                        {a.context && <div className="mt-3 space-y-2 text-sm leading-relaxed"><p>{a.context.explanation}</p>{a.context.evidence?.map(q => <blockquote key={q} className="border-l-4 border-sky-400 pl-3">“{q}”</blockquote>)}{a.context.details?.map((d, j) => <p key={j}><strong>{d.label}: {d.result}.</strong> {d.explanation}</p>)}</div>}
+                        {a.context && <div className="mt-3 space-y-2 text-sm leading-relaxed"><p><MathText enabled={run.subject === "matematika"}>{a.context.explanation}</MathText></p>{a.context.evidence?.map(q => <blockquote key={q} className="border-l-4 border-sky-400 pl-3">“{q}”</blockquote>)}{a.context.details?.map((d, j) => <p key={j}><strong><MathText enabled={run.subject === "matematika"}>{d.label}</MathText>: {d.result}.</strong> <MathText enabled={run.subject === "matematika"}>{d.explanation}</MathText></p>)}</div>}
                         <p className="mt-0.5 pl-7 text-sm text-emerald-800">
-                            <span className="font-semibold">Jawaban benar:</span> {a.correctAnswer}
+                            <span className="font-semibold">Jawaban benar:</span> <MathText enabled={run.subject === "matematika"}>{a.correctAnswer}</MathText>
                         </p>
                       </li>
                     ))}

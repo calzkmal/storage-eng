@@ -1,5 +1,7 @@
 "use client";
 
+import MathText, { MathTextContext } from "./MathText";
+
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Exercise, Lesson } from "@/lib/schema";
@@ -270,7 +272,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
   }
 
   return (
-    <div className="mx-auto flex h-dvh w-full max-w-[640px] flex-col">
+    <MathTextContext.Provider value={lesson.subject === "matematika"}><div className="mx-auto flex h-dvh w-full max-w-[640px] flex-col">
       <TopBar counter={counter} onExit={requestExit} />
 
       <main ref={mainRef} className="flex-1 overflow-y-auto px-4 pb-6 pt-1">
@@ -286,7 +288,7 @@ export default function LessonRunner({ lesson, sets }: Props) {
             {tka && phase === "review" && <p className="mb-3 rounded-xl bg-amber-50 p-3">Latihan ulang: skor percobaan pertama tidak berubah. Setiap soal salah diulang satu kali.</p>}
             {lesson.stimuli?.find(s => s.id === current.stimulusId) && <StimulusView key={`${phase}-${current.stimulusId}`} stimulus={lesson.stimuli.find(s => s.id === current.stimulusId)!} />}
             {current.visual && <FractionVisual visual={current.visual} />}
-            <h2 className="text-xl font-bold leading-snug">{current.prompt}</h2>
+            <h2 className="text-xl font-bold leading-snug"><MathText>{current.prompt}</MathText></h2>
             <div className="mt-5">
               <ExerciseView
                 exercise={current}
@@ -321,6 +323,6 @@ export default function LessonRunner({ lesson, sets }: Props) {
           onConfirm={() => router.push(back)}
         />
       )}
-    </div>
+    </div></MathTextContext.Provider>
   );
 }

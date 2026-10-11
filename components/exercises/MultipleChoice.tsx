@@ -1,5 +1,7 @@
 "use client";
 
+import MathText from "@/components/MathText";
+
 import type { MultipleChoice as MC } from "@/lib/schema";
 import { chipBase, chipIdle, chipSelected } from "../ui";
 import type { ExerciseProps } from "./types";
@@ -10,7 +12,7 @@ export default function MultipleChoice({ exercise, value, onChange, disabled }: 
 
   return (
     <div>
-      <p className="text-xl leading-relaxed">{exercise.question}</p>
+      <p className="text-xl leading-relaxed"><MathText>{exercise.question}</MathText></p>
       <div className="mt-5 flex flex-col gap-3" role="group" aria-label="Answer options">
         {exercise.options.map((opt) => {
           const isSelected = selected === opt;
@@ -23,7 +25,7 @@ export default function MultipleChoice({ exercise, value, onChange, disabled }: 
               onClick={() => onChange(isSelected ? null : opt)}
               className={`${chipBase} ${isSelected ? chipSelected : chipIdle}`}
             >
-              {opt}
+              <MathText>{opt}</MathText>
             </button>
           );
         })}
