@@ -1,5 +1,7 @@
 "use client";
 
+import MathText from "@/components/MathText";
+
 import type { GradeDetail } from "@/lib/grading";
 
 export type FeedbackStatus = "correct" | "wrong" | "unverified";
@@ -28,7 +30,7 @@ const headline: Record<FeedbackStatus, string> = {
 const AnswerCard = ({ label, answer }: { label: string; answer: string }) => (
   <div className="mt-3 rounded-2xl bg-white/75 px-4 py-3">
     <p className="text-xs font-bold uppercase tracking-wider opacity-60">{label}</p>
-    <p className="mt-1 text-2xl font-bold leading-snug">{answer}</p>
+    <p className="mt-1 text-2xl font-bold leading-snug"><MathText>{answer}</MathText></p>
   </div>
 );
 
@@ -43,8 +45,8 @@ export default function FeedbackPanel({ feedback }: { feedback: Feedback }) {
       {status === "wrong" && <AnswerCard label={feedback.tka ? "Jawaban benar" : "Correct answer"} answer={correctAnswer} />}
       {status === "unverified" && <AnswerCard label="Model answer" answer={correctAnswer} />}
 
-      {feedback.details && <ul className="mt-3 space-y-3">{feedback.details.map((d, i) => <li key={i} className="rounded-xl bg-white/75 p-3"><p className="font-semibold">{d.label}: {d.result}</p><p className="mt-1 leading-relaxed">{d.explanation}</p></li>)}</ul>}
-      {explanation && <p className="mt-3 text-base leading-relaxed">{explanation}</p>}
+      {feedback.details && <ul className="mt-3 space-y-3">{feedback.details.map((d, i) => <li key={i} className="rounded-xl bg-white/75 p-3"><p className="font-semibold"><MathText>{d.label}</MathText>: {d.result}</p><p className="mt-1 leading-relaxed"><MathText>{d.explanation}</MathText></p></li>)}</ul>}
+      {explanation && <p className="mt-3 text-base leading-relaxed"><MathText>{explanation}</MathText></p>}
     </div>
   );
 }

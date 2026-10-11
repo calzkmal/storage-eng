@@ -1,5 +1,7 @@
 "use client";
 
+import MathText from "./MathText";
+
 import Link from "next/link";
 import { useMemo, useSyncExternalStore } from "react";
 import { loadResultRaw, parseResult } from "@/lib/storage";
@@ -37,7 +39,7 @@ export default function LessonDone({ lessonId, subject, availableLessons }: Prop
         {result?.lessonTitle && <p className="text-base font-medium text-slate-500">{result.lessonTitle}</p>}
         <h1 className="mt-1 text-3xl font-bold">Set selesai</h1>
 
-        {tka && score && <section className="mt-5 rounded-2xl bg-sky-50 p-5"><h2 className="text-lg font-bold">Hasil percobaan pertama</h2><p className="mt-2 text-2xl font-bold">{score.correct}/{result!.total} benar · {score.percent}%</p><p className="mt-2">Latihan ulang tidak mengubah skor awal. Ini skor internal latihan, bukan skor resmi TKA.</p></section>}
+        {tka && score && <section className="mt-5 rounded-2xl bg-sky-50 p-5"><h2 className="text-lg font-bold">Hasil percobaan pertama</h2><p className="mt-2 text-2xl font-bold">Skor {score.score}/100</p><p className="mt-1">{score.correct}/{result!.total} benar</p><p className="mt-2">Latihan ulang tidak mengubah skor awal. Ini skor internal latihan, bukan skor resmi TKA.</p></section>}
         {tka && recommendations.length > 0 && <section className="mt-5"><h2 className="font-bold">Materi yang perlu diulang</h2>{recommendations.map(l => <Link key={l.id} href={`/lesson/${l.id}`} className="block min-h-11 py-3 text-sky-700 underline">{l.title}</Link>)}</section>}
         {result === null ? (
           <p className="mt-6 text-base text-slate-600">
@@ -57,12 +59,12 @@ export default function LessonDone({ lessonId, subject, availableLessons }: Prop
             <ul className="mt-3 flex flex-col gap-3">
               {result.wrong.map((w, i) => (
                 <li key={`${w.exerciseId}-${i}`} className="rounded-2xl border-2 border-slate-200 bg-white p-4">
-                  <p className="text-base font-medium text-slate-800">{w.summary}</p>
+                  <p className="text-base font-medium text-slate-800"><MathText enabled={subject === "matematika"}>{w.summary}</MathText></p>
                   <p className="mt-2 text-sm text-rose-700">
-                    <span className="font-semibold">Jawabanmu:</span> {w.yourAnswer}
+                    <span className="font-semibold">Jawabanmu:</span> <MathText enabled={subject === "matematika"}>{w.yourAnswer}</MathText>
                   </p>
                   <p className="mt-1 text-sm text-emerald-800">
-                    <span className="font-semibold">Jawaban benar:</span> {w.correctAnswer}
+                    <span className="font-semibold">Jawaban benar:</span> <MathText enabled={subject === "matematika"}>{w.correctAnswer}</MathText>
                   </p>
                 </li>
               ))}

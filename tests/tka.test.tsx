@@ -12,6 +12,8 @@ import { AttemptContextSchema, attemptContext } from "../lib/attemptContext";
 import { parseResult, getFinished, markFinished, saveResult, loadResultRaw } from "../lib/storage";
 import { renderToStaticMarkup } from "react-dom/server";
 import StimulusView from "../components/StimulusView";
+import MathText, { MathTextContext } from "../components/MathText";
+import MultipleChoice from "../components/exercises/MultipleChoice";
 import FractionVisual from "../components/FractionVisual";
 const raw = fs.readdirSync("content/lessons").filter(f => f.endsWith(".json")).map(f => JSON.parse(fs.readFileSync(`content/lessons/${f}`, "utf8")));
 const lessons = raw.map(l => LessonSchema.parse(l));
@@ -94,7 +96,7 @@ test("invalid IDs, stimuli, evidence, visuals, metadata, and AI types rejected",
   assert.equal(FractionSchema.safeParse({ numerator: 0.5, denominator: 4 }).success, false);
 });
 test("main score never gains review points; TKA review terminates on misses; English retains retry", () => {
-  assert.deepEqual(firstScore(9, 3), { correct: 6, percent: 67 });
+  assert.deepEqual(firstScore(9, 3), { correct: 6, score: 67 });
   for (const s of ["matematika", "bahasa-indonesia"] as const) {
     assert.equal(shouldRetry(s, "main", false), true);
     assert.equal(shouldRetry(s, "review", false), false);
@@ -104,7 +106,7 @@ test("main score never gains review points; TKA review terminates on misses; Eng
   // Three wrong main answers -> three review attempts regardless of outcome.
   const queue = [1, 2, 3]; let reviews = 0;
   for (let i = 0; i < queue.length; i++) { reviews++; if (shouldRetry("matematika", "review", false)) queue.push(queue[i]); }
-  assert.equal(reviews, 3); assert.deepEqual(firstScore(9, 3), { correct: 6, percent: 67 });
+  assert.equal(reviews, 3); assert.deepEqual(firstScore(9, 3), { correct: 6, score: 67 });
 });
 test("history context is minimal and bounded; legacy result and unavailable storage safe", () => {
   const bi = tka.find(l => l.subject === "bahasa-indonesia")!;
@@ -120,7 +122,7 @@ test("history context is minimal and bounded; legacy result and unavailable stor
   assert.deepEqual(getFinished(), []); assert.doesNotThrow(() => markFinished("file:lesson"));
   assert.doesNotThrow(() => saveResult({ lessonId: "x", lessonTitle: "x", total: 9, wrong: [], finishedAt: 0 }));
   assert.equal(loadResultRaw("x"), null);
-  assert(renderToStaticMarkup(<FractionVisual visual={{ numerator: 2, denominator: 4 }} />).includes("2/4 bagian diarsir"));
+  assert(renderToStaticMarkup(<FractionVisual visual={{ numerator: 2, denominator: 4 }} />).includes('aria-label="2 per 4"'));
 });
 test("all 270 English variations still satisfy legacy lesson contract", () => {
   let count = 0;
@@ -178,4 +180,16 @@ test("supplemental BI contexts include each supported claim without requiring an
       }
     }
   }
+});
+
+
+test("math fractions render accessibly without changing stored answers or other subjects", () => {
+  const html = renderToStaticMarkup(<MathText enabled>{"2 1/2 + 3/4 = 13/4, bukan 1/0; 11/10/2026; 1.5/2"}</MathText>);
+  for (const label of ["1 per 2", "3 per 4", "13 per 4"]) assert(html.includes(`aria-label="${label}"`));
+  assert(html.includes("1/0")); assert(html.includes("11/10/2026")); assert(html.includes("1.5/2"));
+  assert.equal(renderToStaticMarkup(<MathText>{"1/2"}</MathText>), "1/2");
+  const exercise = { id: "fraction", type: "multiple_choice" as const, prompt: "Pilih", question: "Berapa 1/2 + 1/4?", options: ["3/4", "1/4"], answer: "3/4", explanation: "" };
+  const choices = renderToStaticMarkup(<MathTextContext.Provider value={true}><MultipleChoice exercise={exercise} value="3/4" onChange={() => {}} disabled={false} /></MathTextContext.Provider>);
+  assert(choices.includes('aria-pressed="true"')); assert(choices.includes('aria-label="3 per 4"'));
+  assert.equal(gradeLocal(exercise, "3/4")?.correct, true);
 });
