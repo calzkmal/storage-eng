@@ -1,5 +1,7 @@
 "use client";
 
+import { navButton } from "@/components/ui";
+
 import MathText from "./MathText";
 
 import { useSearchParams } from "next/navigation";
@@ -74,7 +76,7 @@ export default function HistoryView() {
 
   return (
     <main className="mx-auto w-full max-w-[640px] px-4 pb-16 pt-8">
-      <Link href="/" className="text-base font-semibold text-sky-700 underline underline-offset-2">
+      <Link href="/" className={navButton}>
         ← Pilih mapel
       </Link>
 

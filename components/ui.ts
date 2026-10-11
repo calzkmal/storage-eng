@@ -17,3 +17,7 @@ export const chipWrong = "border-rose-400 bg-rose-50 text-rose-800 shadow-none";
 
 export const textInput =
   "w-full rounded-2xl border-2 border-slate-200 bg-white px-4 py-3 text-base text-slate-900 placeholder:text-slate-400 focus:border-sky-400 focus:outline-none disabled:bg-slate-100 disabled:text-slate-500";
+
+/** Navigation links styled as touch-friendly secondary buttons. */
+export const navButton =
+  "inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl border-2 border-slate-200 bg-white px-5 py-3 text-base font-bold text-sky-700 no-underline shadow-[0_2px_0_#e2e8f0] transition-colors hover:border-sky-400 hover:bg-sky-50 active:bg-sky-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400 focus-visible:ring-offset-2";
